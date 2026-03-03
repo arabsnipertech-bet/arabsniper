@@ -29,28 +29,29 @@ def now_rome():
     return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
 
 # --- FUNZIONE AGGIORNAMENTO AUTOMATICO SITO ---
+# --- FUNZIONE AGGIORNAMENTO AUTOMATICO SITO ---
 def upload_to_github(results):
     try:
-        # Recupera il token dalle Secrets di Streamlit (Configurato come GITHUB_TOKEN)
-        def upload_to_github(results):
-    try:
+        # Recupera il token dalle Secrets di Streamlit
         token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
-        # CORREZIONE: Usa il nome esatto del tuo repo che vedo nello screen
+        # Usa il nome esatto del tuo repo: arabsniper
         repo = g.get_user().get_repo("arabsniper") 
         
         content = json.dumps(results, indent=4)
         file_path = "segnali.json"
         
         try:
+            # Prova ad aggiornare il file esistente
             contents = repo.get_contents(file_path)
-            repo.update_file(contents.path, "Update segnali", content, contents.sha)
-            st.sidebar.success("🚀 Sito AGGIORNATO!")
+            repo.update_file(contents.path, "Update segnali via Arab Sniper Bot", content, contents.sha)
+            st.sidebar.success("🚀 Sito arabsniperbet.com AGGIORNATO!")
         except:
+            # Se il file non esiste, lo crea
             repo.create_file(file_path, "Initial commit segnali", content)
+            st.sidebar.info("📌 File segnali.json creato!")
     except Exception as e:
-        st.sidebar.error(f"Errore: {e}")
-
+        st.sidebar.error(f"⚠️ Errore GitHub: {e}")
 st.set_page_config(page_title="ARAB SNIPER V22.04.24", layout="wide")
 
 if "config" not in st.session_state:
