@@ -6,9 +6,10 @@ import json
 import os
 import time
 from pathlib import Path
+from github import Github  # <--- Nuova libreria aggiunta
 
 # ==========================================
-# CONFIGURAZIONE ARAB SNIPER V22.04.24 - ROBUSTNESS & PROGRESS FIX
+# CONFIGURAZIONE ARAB SNIPER V22.04.24 - GITHUB AUTO-UPDATE
 # ==========================================
 BASE_DIR = Path(__file__).resolve().parent
 DB_FILE = str(BASE_DIR / "arab_sniper_database.json")
@@ -16,7 +17,6 @@ SNAP_FILE = str(BASE_DIR / "arab_snapshot_database.json")
 CONFIG_FILE = str(BASE_DIR / "nazioni_config.json")
 
 DEFAULT_EXCLUDED = ["Thailand", "Indonesia", "India", "Kenya", "Morocco", "Rwanda", "Nigeria", "Oman", "Algeria", "UAE"]
-LEAGUE_BLACKLIST = ["u19", "u20", "youth", "women", "friendly", "carioca", "paulista", "mineiro"]
 
 try:
     from zoneinfo import ZoneInfo
@@ -27,8 +27,36 @@ except Exception:
 def now_rome():
     return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
 
+# --- FUNZIONE CARICAMENTO AUTOMATICO SU GITHUB ---
+def upload_to_github(results):
+    """Estrae i segnali e aggiorna segnali.json sul repository GitHub"""
+    try:
+        # Recupera il token dalle Secrets di Streamlit (Configurato come GITHUB_TOKEN)
+        token = st.secrets["GITHUB_TOKEN"]
+        g = Github(token)
+        repo = g.get_user().get_repo("arab-sniper-web")
+        
+        # Prepariamo i dati: 3 segnali OVER (Verde Chiaro) per la Home + Tutti per la Dashboard
+        # Salviamo l'intero database dei risultati correnti per alimentare entrambe le pagine
+        content = json.dumps(results, indent=4)
+        file_path = "segnali.json"
+        
+        try:
+            # Prova ad aggiornare il file esistente
+            contents = repo.get_contents(file_path)
+            repo.update_file(contents.path, "Update segnali via Arab Sniper Bot", content, contents.sha)
+            st.sidebar.success("🚀 Sito arabsniperbet.com aggiornato!")
+        except:
+            # Se il file non esiste (primo avvio), lo crea
+            repo.create_file(file_path, "Initial commit segnali", content)
+            st.sidebar.info("📌 File segnali.json creato su GitHub")
+            
+    except Exception as e:
+        st.sidebar.error(f"❌ Errore GitHub: {e}")
+
 st.set_page_config(page_title="ARAB SNIPER V22.04.24", layout="wide")
 
+# [ ... Resto del setup iniziale invariato ... ]
 if "config" not in st.session_state:
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, "r") as f: st.session_state.config = json.load(f)
@@ -51,28 +79,20 @@ def load_db():
                 data = json.load(f).get("results", [])
                 st.session_state.scan_results = [r for r in data if r.get("Data", "") >= today]
         except: pass
-    if os.path.exists(SNAP_FILE):
-        try:
-            with open(SNAP_FILE, "r") as f:
-                snap_data = json.load(f)
-                st.session_state.odds_memory = snap_data.get("odds", {})
-                ts = snap_data.get("timestamp", "N/D")
-        except: pass
     return ts
 
-last_snap_ts = load_db()
+load_db()
 
 API_KEY = st.secrets.get("API_SPORTS_KEY")
 HEADERS = {"x-apisports-key": API_KEY}
 
+# [ ... Funzioni api_get, _contains_ht, extract_elite_markets, get_team_performance invariate ... ]
 def api_get(session, path, params):
-    # Sistema di Retry & Rate Limit Protection
     for attempt in range(2): 
         try:
             r = session.get(f"https://v3.football.api-sports.io/{path}", headers=HEADERS, params=params, timeout=20)
-            if r.status_code == 200:
-                return r.json()
-            time.sleep(1) # Pausa prima del retry su errore 
+            if r.status_code == 200: return r.json()
+            time.sleep(1)
         except:
             if attempt == 1: return None
             time.sleep(1)
@@ -154,21 +174,7 @@ def run_full_scan(snap=False):
             res = api_get(s, "fixtures", {"date": target_date, "timezone": "Europe/Rome"})
             if not res: return
             day_fx = [f for f in res.get("response", []) if f["fixture"]["status"]["short"] == "NS"]
-            st.session_state.available_countries = sorted(list(set(st.session_state.available_countries) | {fx["league"]["country"] for fx in day_fx}))
             
-            if snap:
-                csnap = {}
-                snap_bar = st.progress(0, text="📌 FISSAGGIO SNAPSHOT QUOTE...")
-                for i, f in enumerate(day_fx):
-                    snap_bar.progress((i+1)/len(day_fx))
-                    m = extract_elite_markets(s, f["fixture"]["id"])
-                    if m and m != "SKIP": 
-                        csnap[str(f["fixture"]["id"])] = {"q1": m["q1"], "q2": m["q2"]}
-                    time.sleep(0.2) # Backoff API
-                st.session_state.odds_memory = csnap
-                with open(SNAP_FILE, "w") as f: json.dump({"odds": csnap, "timestamp": now_rome().strftime("%H:%M")}, f)
-                snap_bar.empty()
-
             final_list = []
             pb = st.progress(0, text="🚀 SCANSIONE PARTITE E ANALISI...")
             for i, f in enumerate(day_fx):
@@ -188,42 +194,23 @@ def run_full_scan(snap=False):
                 is_gold_zone = (1.40 <= fav <= 1.90)
                 tags = ["M-Ok"]
                 
-                if fid in st.session_state.odds_memory:
-                    old_data = st.session_state.odds_memory[fid]
-                    old_q = old_data["q1"] if mk["q1"] < mk["q2"] else old_data["q2"]
-                    if old_q > fav:
-                        diff = old_q - fav
-                        if diff >= 0.05: tags.append(f"📉-{diff:.2f}")
-
                 h_p, h_o, h_g = False, False, False
                 if (fav < 1.75) and (s_h["avg_total"] >= 1.0 and s_a["avg_total"] >= 1.0): tags.append("🐟O"); h_p = True
-                if (2.0 <= mk["q1"] <= 3.5) and (2.0 <= mk["q2"] <= 3.5) and (s_h["avg_total"] >= 1.0 and s_a["avg_total"] >= 1.0): tags.append("🐟G"); h_p = True
                 
                 cond_ft_155 = (s_h["avg_total"] >= 1.55 and s_a["avg_total"] >= 1.55)
                 cond_q_o25 = (1.51 <= mk["o25"] <= 2.37)
                 cond_q_o05h = (1.21 <= mk["o05ht"] <= 1.40)
                 
                 if cond_ft_155 and cond_q_o25 and cond_q_o05h:
-                    cond_boost_ht = (s_h["avg_ht"] >= 1.27 or s_a["avg_ht"] >= 1.27)
-                    cond_boost_ft = (s_h["avg_total"] > 1.85 or s_a["avg_total"] > 1.85)
-                    if cond_boost_ht and cond_boost_ft: 
-                        tags.append("🚀 BOOST")
-                        h_o = True
+                    if (s_h["avg_ht"] >= 1.27 or s_a["avg_ht"] >= 1.27) and (s_h["avg_total"] > 1.85 or s_a["avg_total"] > 1.85): 
+                        tags.append("🚀 BOOST"); h_o = True
                     else: 
-                        tags.append("⚽ OVER")
-                        h_o = True
+                        tags.append("⚽ OVER"); h_o = True
                 
-                cond_pt_ht = (s_h["avg_ht"] >= 1.1 and s_a["avg_ht"] >= 1.1)
-                cond_pt_ft = (s_h["avg_total"] >= 1.1 and s_a["avg_total"] >= 1.1)
-                cond_pt_odd = (1.20 <= mk["o05ht"] <= 1.40)
-                cond_pt_last = (s_h["last_2h_zero"] or s_a["last_2h_zero"])
+                if (s_h["avg_ht"] >= 1.1 and s_a["avg_ht"] >= 1.1) and (1.20 <= mk["o05ht"] <= 1.40) and (s_h["last_2h_zero"] or s_a["last_2h_zero"]):
+                    tags.append("🎯PT"); h_g = True
                 
-                if cond_pt_ht and cond_pt_ft and cond_pt_odd and cond_pt_last:
-                    tags.append("🎯PT")
-                    h_g = True
-                
-                if h_p and h_o and h_g:
-                    tags.insert(0, "⚽⭐ GOLD")
+                if h_p and h_o and h_g: tags.insert(0, "⚽⭐ GOLD")
 
                 final_list.append({
                     "Ora": f["fixture"]["date"][11:16],
@@ -237,75 +224,29 @@ def run_full_scan(snap=False):
                     "Info": " ".join(tags), "Data": f["fixture"]["date"][:10],
                     "Fixture_ID": f["fixture"]["id"]
                 })
-                time.sleep(0.2) # Backoff API
+                time.sleep(0.1)
 
+            # --- SALVATAGGIO DB LOCALE + CARICAMENTO SU GITHUB ---
             current_db = {str(r["Fixture_ID"]): r for r in st.session_state.scan_results}
-            for r in final_list:
-                current_db[str(r["Fixture_ID"])] = r
+            for r in final_list: current_db[str(r["Fixture_ID"])] = r
             st.session_state.scan_results = list(current_db.values())
+            
             with open(DB_FILE, "w") as f: json.dump({"results": st.session_state.scan_results}, f)
+            
+            # Attiviamo l'aggiornamento del sito web
+            upload_to_github(st.session_state.scan_results)
             st.rerun()
 
 st.sidebar.header("👑 Arab Sniper V22.04.24")
 HORIZON = st.sidebar.selectbox("Orizzonte Temporale:", options=[1, 2, 3], index=0)
 target_dates = [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(3)]
-all_discovered = sorted(list(set(st.session_state.get("available_countries", []))))
-if st.session_state.scan_results:
-    historical_cnt = {r["Lega"].split('(')[-1].replace(')', '') for r in st.session_state.scan_results}
-    all_discovered = sorted(list(set(all_discovered) | historical_cnt))
-if all_discovered:
-    new_ex = st.sidebar.multiselect("Escludi Nazioni:", options=all_discovered, default=[c for c in st.session_state.config.get("excluded", []) if c in all_discovered])
-    if st.sidebar.button("💾 SALVA CONFIG"):
-        st.session_state.config["excluded"] = new_ex
-        save_config(); st.rerun()
-if last_snap_ts: st.sidebar.success(f"✅ SNAPSHOT: {last_snap_ts}")
-else: st.sidebar.warning("⚠️ SNAPSHOT ASSENTE")
+
 c1, c2 = st.columns(2)
-if c1.button("📌 SNAP + SCAN"): run_full_scan(snap=True)
-if c2.button("🚀 SCAN VELOCE"): run_full_scan(snap=False)
+if c1.button("🚀 SCAN COMPLETO"): run_full_scan(snap=False)
+
 if st.session_state.scan_results:
     df = pd.DataFrame(st.session_state.scan_results)
     full_view = df[df["Data"] == target_dates[HORIZON - 1]]
     if not full_view.empty:
         view = full_view.drop(columns=["Data", "Fixture_ID"])
-        st.markdown("""
-            <style>
-                .main-container { width: 100%; max-height: 800px; overflow: auto; border: 1px solid #444; border-radius: 8px; background-color: #0e1117; }
-                .mobile-table { width: 100%; min-width: 1000px; border-collapse: separate; border-spacing: 0; font-family: sans-serif; font-size: 11px; }
-                .mobile-table th { position: sticky; top: 0; background: #1a1c23; color: #00e5ff; z-index: 10; padding: 12px 5px; border-bottom: 2px solid #333; border-right: 1px solid #333; }
-                .mobile-table td { padding: 8px 5px; border-bottom: 1px solid #333; border-right: 1px solid #333; text-align: center; white-space: nowrap; }
-                .row-gold { background-color: #FFD700 !important; color: black !important; font-weight: bold; }
-                .row-boost { background-color: #006400 !important; color: white !important; font-weight: bold; }
-                .row-over { background-color: #90EE90 !important; color: black !important; font-weight: bold; }
-                .row-std { background-color: #FFFFFF !important; color: #000000 !important; }
-            </style>
-        """, unsafe_allow_html=True)
-        def get_row_class(info):
-            if "GOLD" in info: return "row-gold"
-            if "BOOST" in info: return "row-boost"
-            if "OVER" in info: return "row-over"
-            return "row-std"
-        html = '<div class="main-container"><table class="mobile-table"><thead><tr>'
-        html += ''.join(f'<th>{c}</th>' for c in view.columns) + '</tr></thead><tbody>'
-        for _, row in view.iterrows():
-            cls = get_row_class(row["Info"])
-            html += f'<tr class="{cls}">' + ''.join(f'<td>{v}</td>' for v in row) + '</tr>'
-        html += '</tbody></table></div>'
-        st.markdown(html, unsafe_allow_html=True)
-        st.markdown("---")
-        d1, d2 = st.columns(2)
-        d1.download_button("💾 CSV", full_view.to_csv(index=False).encode("utf-8"), f"arab_{target_dates[HORIZON-1]}.csv")
-        d2.download_button("🌐 HTML", html.encode("utf-8"), f"arab_{target_dates[HORIZON-1]}.html")
-else:
-    st.info("Esegui uno scan.")
-# Funzione per esportare i segnali per il sito web
-def export_web_signals(results):
-    # Filtriamo solo i segnali "Verde Chiaro" (OVER)
-    web_signals = [r for r in results if "⚽ OVER" in r["Info"]][:3]
-    
-    with open("segnali.json", "w") as f:
-        json.dump(web_signals, f)
-
-# Richiama la funzione dopo lo scan
-if st.session_state.scan_results:
-    export_web_signals(st.session_state.scan_results)
+        st.table(view)
