@@ -298,3 +298,14 @@ if st.session_state.scan_results:
         d2.download_button("🌐 HTML", html.encode("utf-8"), f"arab_{target_dates[HORIZON-1]}.html")
 else:
     st.info("Esegui uno scan.")
+# Funzione per esportare i segnali per il sito web
+def export_web_signals(results):
+    # Filtriamo solo i segnali "Verde Chiaro" (OVER)
+    web_signals = [r for r in results if "⚽ OVER" in r["Info"]][:3]
+    
+    with open("segnali.json", "w") as f:
+        json.dump(web_signals, f)
+
+# Richiama la funzione dopo lo scan
+if st.session_state.scan_results:
+    export_web_signals(st.session_state.scan_results)
