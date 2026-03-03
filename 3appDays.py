@@ -32,24 +32,24 @@ def now_rome():
 def upload_to_github(results):
     try:
         # Recupera il token dalle Secrets di Streamlit (Configurato come GITHUB_TOKEN)
+        def upload_to_github(results):
+    try:
         token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
-        repo = g.get_user().get_repo("arab-sniper-web")
+        # CORREZIONE: Usa il nome esatto del tuo repo che vedo nello screen
+        repo = g.get_user().get_repo("arabsniper") 
         
-        # Converte i risultati in JSON per il sito
         content = json.dumps(results, indent=4)
         file_path = "segnali.json"
         
         try:
-            # Aggiorna il file esistente
             contents = repo.get_contents(file_path)
-            repo.update_file(contents.path, "Update segnali via Arab Sniper Bot", content, contents.sha)
-            st.sidebar.success("🚀 Sito arabsniperbet.com AGGIORNATO!")
+            repo.update_file(contents.path, "Update segnali", content, contents.sha)
+            st.sidebar.success("🚀 Sito AGGIORNATO!")
         except:
-            # Crea il file se non esiste
             repo.create_file(file_path, "Initial commit segnali", content)
     except Exception as e:
-        st.sidebar.error(f"⚠️ Errore aggiornamento sito: {e}")
+        st.sidebar.error(f"Errore: {e}")
 
 st.set_page_config(page_title="ARAB SNIPER V22.04.24", layout="wide")
 
