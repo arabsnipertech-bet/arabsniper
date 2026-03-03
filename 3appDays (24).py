@@ -1,19 +1,3 @@
-from github import Github
-import streamlit as st
-
-def upload_to_github(data):
-    # Recupera il token dalle Secrets in modo sicuro
-    token = st.secrets["GITHUB_TOKEN"]
-    g = Github(token)
-    
-    repo = g.get_user().get_repo("arab-sniper-web")
-    content = json.dumps(data, indent=4)
-    
-    try:
-        contents = repo.get_contents("segnali.json")
-        repo.update_file(contents.path, "Update segnali", content, contents.sha)
-    except:
-        repo.create_file("segnali.json", "Initial commit segnali", content)
 import streamlit as st
 import requests
 import pandas as pd
