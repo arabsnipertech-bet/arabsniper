@@ -125,24 +125,24 @@ def extract_elite_markets(session, fid):
             bid = b.get("id")
             if bid == 1 and mk["q1"] == 0:
                 for v in b.get("values", []):
-                    vl = v["value"].lower()
-                    if "home" in vl: mk["q1"] = float(v["odd"])
-                    elif "draw" in vl: mk["qx"] = float(v["odd"])
-                    elif "away" in vl: mk["q2"] = float(v["odd"])
+                    vl = str(v.get("value", "")).lower()
+                    if "home" in vl: mk["q1"] = float(v.get("odd") or 0)
+                    elif "draw" in vl: mk["qx"] = float(v.get("odd") or 0)
+                    elif "away" in vl: mk["q2"] = float(v.get("odd") or 0)
             if bid == 5 and mk["o25"] == 0:
                 if any(j in name for j in ["corner", "card", "booking"]): continue
                 for v in b.get("values", []):
-                    if "over 2.5" in v["value"].lower(): mk["o25"] = float(v["odd"])
+                    if "over 2.5" in str(v.get("value", "")).lower(): mk["o25"] = float(v.get("odd") or 0)
             if mk["o05ht"] == 0 and _contains_ht(name) and any(k in name for k in ["total", "over/under", "ou", "goals"]):
                 if "team" in name: continue
                 for v in b.get("values", []):
-                    if "over 0.5" in v["value"].lower(): mk["o05ht"] = float(v["odd"])
+                    if "over 0.5" in str(v.get("value", "")).lower(): mk["o05ht"] = float(v.get("odd") or 0)
             if mk["gght"] == 0 and _contains_btts(name):
                 is_name_ht = _contains_ht(name)
                 for v in b.get("values", []):
-                    val_txt = v["value"].lower()
+                    val_txt = str(v.get("value", "")).lower()
                     if _is_yes(val_txt) and (is_name_ht or _contains_ht(val_txt) or bid in [40, 71]):
-                        mk["gght"] = float(v["odd"])
+                        mk["gght"] = float(v.get("odd") or 0)
                         break
         if mk["q1"] > 0 and mk["o25"] > 0 and (mk["o05ht"] > 0 or mk["gght"] > 0): break
     if (1.01 <= mk["q1"] <= 1.10) or (1.01 <= mk["q2"] <= 1.10) or (1.01 <= mk["o25"] <= 1.30): return "SKIP"
