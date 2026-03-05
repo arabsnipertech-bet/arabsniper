@@ -6,10 +6,10 @@ import json
 import os
 import time
 from pathlib import Path
-from github import Github  # <--- Aggiunto per il collegamento al sito
+from github import Github  # Collegamento al sito web
 
 # ==========================================
-# CONFIGURAZIONE ARAB SNIPER V22.04.24 - ROBUSTNESS & PROGRESS FIX
+# CONFIGURAZIONE ARAB SNIPER V22.04.29 - WEB INTEGRATED
 # ==========================================
 BASE_DIR = Path(__file__).resolve().parent
 DB_FILE = str(BASE_DIR / "arab_sniper_database.json")
@@ -28,32 +28,22 @@ except Exception:
 def now_rome():
     return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
 
-# --- FUNZIONE AGGIORNAMENTO AUTOMATICO SITO ---
+st.set_page_config(page_title="ARAB SNIPER V22.04.29 WEB", layout="wide")
+
 # --- FUNZIONE AGGIORNAMENTO AUTOMATICO SITO ---
 def upload_to_github(results):
     try:
-        # Recupera il token dalle Secrets di Streamlit
         token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
-        # Usa il nome esatto del tuo repo: arabsniper
-        repo = g.get_user().get_repo("arabsniper") 
-        
-        content = json.dumps(results, indent=4)
-        file_path = "segnali.json"
-        
-        try:
-            # Prova ad aggiornare il file esistente
-            contents = repo.get_contents(file_path)
-            repo.update_file(contents.path, "Update segnali via Arab Sniper Bot", content, contents.sha)
-            st.sidebar.success("🚀 Sito arabsniperbet.com AGGIORNATO!")
-        except:
-            # Se il file non esiste, lo crea
-            repo.create_file(file_path, "Initial commit segnali", content)
-            st.sidebar.info("📌 File segnali.json creato!")
+        repo = g.get_repo("fbonas/sniper-app") # Assicurati che il percorso sia corretto
+        contents = repo.get_contents("data.json")
+        repo.update_file(contents.path, "Update data", json.dumps(results, indent=4), contents.sha)
+        return True
     except Exception as e:
-        st.sidebar.error(f"⚠️ Errore GitHub: {e}")
-st.set_page_config(page_title="ARAB SNIPER V22.04.24", layout="wide")
+        st.error(f"Errore upload GitHub: {e}")
+        return False
 
+# --- Inizializzazione Session State ---
 if "config" not in st.session_state:
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, "r") as f: st.session_state.config = json.load(f)
@@ -87,38 +77,41 @@ def load_db():
 
 last_snap_ts = load_db()
 
+# ==========================================
+# API CORE & ROBUSTNESS (app OK)
+# ==========================================
 API_KEY = st.secrets.get("API_SPORTS_KEY")
 HEADERS = {"x-apisports-key": API_KEY}
 
 def api_get(session, path, params):
-    # Sistema di Retry & Rate Limit Protection
     for attempt in range(2): 
         try:
             r = session.get(f"https://v3.football.api-sports.io/{path}", headers=HEADERS, params=params, timeout=20)
             if r.status_code == 200:
                 return r.json()
-            time.sleep(1) # Pausa prima del retry su errore 
+            time.sleep(1) 
         except:
             if attempt == 1: return None
             time.sleep(1)
     return None
 
 def _contains_ht(text):
-    t = (text or "").lower()
+    t = str(text or "").lower()
     return any(k in t for k in ["1st half", "first half", "1h", "ht", "half time", "halftime", "1° tempo"])
 
-def _contains_btts(text):
-    t = (text or "").lower()
-    return any(k in t for k in ["both teams", "btts", "gg", "to score", "gol/gol", "entrambe segnano"])
-
-def _is_yes(text):
-    t = (text or "").strip().lower()
-    return t in ["yes", "si", "sì", "y", "1"]
+def safe_float(x, default=0.0):
+    try:
+        if x is None: return default
+        if isinstance(x, (int, float)): return float(x)
+        s = str(x).strip()
+        if s in ("", "-", "None", "null"): return default
+        return float(s)
+    except: return default
 
 def extract_elite_markets(session, fid):
     res = api_get(session, "odds", {"fixture": fid})
     if not res or not res.get("response"): return None
-    mk = {"q1": 0.0, "qx": 0.0, "q2": 0.0, "o25": 0.0, "o05ht": 0.0, "gght": 0.0}
+    mk = {"q1": 0.0, "qx": 0.0, "q2": 0.0, "o25": 0.0, "o05ht": 0.0, "o15ht": 0.0}
     for bm in res["response"][0].get("bookmakers", []):
         for b in bm.get("bets", []):
             name = (b.get("name") or "").lower()
@@ -126,25 +119,24 @@ def extract_elite_markets(session, fid):
             if bid == 1 and mk["q1"] == 0:
                 for v in b.get("values", []):
                     vl = str(v.get("value", "")).lower()
-                    if "home" in vl: mk["q1"] = float(v.get("odd") or 0)
-                    elif "draw" in vl: mk["qx"] = float(v.get("odd") or 0)
-                    elif "away" in vl: mk["q2"] = float(v.get("odd") or 0)
+                    odd = safe_float(v.get("odd"), 0.0)
+                    if "home" in vl: mk["q1"] = odd
+                    elif "draw" in vl: mk["qx"] = odd
+                    elif "away" in vl: mk["q2"] = odd
             if bid == 5 and mk["o25"] == 0:
                 if any(j in name for j in ["corner", "card", "booking"]): continue
                 for v in b.get("values", []):
-                    if "over 2.5" in str(v.get("value", "")).lower(): mk["o25"] = float(v.get("odd") or 0)
-            if mk["o05ht"] == 0 and _contains_ht(name) and any(k in name for k in ["total", "over/under", "ou", "goals"]):
+                    if "over 2.5" in str(v.get("value", "")).lower():
+                        mk["o25"] = safe_float(v.get("odd"), 0.0)
+            if _contains_ht(name) and any(k in name for k in ["total", "over/under", "ou", "goals"]):
                 if "team" in name: continue
                 for v in b.get("values", []):
-                    if "over 0.5" in str(v.get("value", "")).lower(): mk["o05ht"] = float(v.get("odd") or 0)
-            if mk["gght"] == 0 and _contains_btts(name):
-                is_name_ht = _contains_ht(name)
-                for v in b.get("values", []):
-                    val_txt = str(v.get("value", "")).lower()
-                    if _is_yes(val_txt) and (is_name_ht or _contains_ht(val_txt) or bid in [40, 71]):
-                        mk["gght"] = float(v.get("odd") or 0)
-                        break
-        if mk["q1"] > 0 and mk["o25"] > 0 and (mk["o05ht"] > 0 or mk["gght"] > 0): break
+                    val_txt = str(v.get("value", "")).lower().replace(",", ".")
+                    if "over 0.5" in val_txt and mk["o05ht"] == 0:
+                        mk["o05ht"] = safe_float(v.get("odd"), 0.0)
+                    if "over 1.5" in val_txt and mk["o15ht"] == 0:
+                        mk["o15ht"] = safe_float(v.get("odd"), 0.0)
+        if mk["q1"] > 0 and mk["o25"] > 0 and mk["o05ht"] > 0: break
     if (1.01 <= mk["q1"] <= 1.10) or (1.01 <= mk["q2"] <= 1.10) or (1.01 <= mk["o25"] <= 1.30): return "SKIP"
     return mk
 
@@ -171,9 +163,12 @@ def get_team_performance(session, tid):
     st.session_state.team_stats_cache[str(tid)] = stats
     return stats
 
+# ==========================================
+# SCAN CORE CON AGGIORNAMENTO PERSISTENTE E WEB
+# ==========================================
 def run_full_scan(snap=False):
     target_dates = [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(3)]
-    with st.spinner("🚀 Arab Sniper: Analisi mercati V22.04.24..."):
+    with st.spinner(f"🚀 Analisi mercati {target_dates[HORIZON-1]}..."):
         with requests.Session() as s:
             target_date = target_dates[HORIZON - 1]
             res = api_get(s, "fixtures", {"date": target_date, "timezone": "Europe/Rome"})
@@ -183,19 +178,19 @@ def run_full_scan(snap=False):
             
             if snap:
                 csnap = {}
-                snap_bar = st.progress(0, text="📌 FISSAGGIO SNAPSHOT QUOTE...")
+                snap_bar = st.progress(0, text="📌 SNAPSHOT IN CORSO...")
                 for i, f in enumerate(day_fx):
                     snap_bar.progress((i+1)/len(day_fx))
                     m = extract_elite_markets(s, f["fixture"]["id"])
                     if m and m != "SKIP": 
                         csnap[str(f["fixture"]["id"])] = {"q1": m["q1"], "q2": m["q2"]}
-                    time.sleep(0.2) # Backoff API
+                    time.sleep(0.2)
                 st.session_state.odds_memory = csnap
                 with open(SNAP_FILE, "w") as f: json.dump({"odds": csnap, "timestamp": now_rome().strftime("%H:%M")}, f)
                 snap_bar.empty()
 
             final_list = []
-            pb = st.progress(0, text="🚀 SCANSIONE PARTITE E ANALISI...")
+            pb = st.progress(0, text="🚀 ANALISI SEGNALI...")
             for i, f in enumerate(day_fx):
                 pb.progress((i+1)/len(day_fx))
                 cnt = f["league"]["country"]
@@ -232,11 +227,9 @@ def run_full_scan(snap=False):
                     cond_boost_ht = (s_h["avg_ht"] >= 1.27 or s_a["avg_ht"] >= 1.27)
                     cond_boost_ft = (s_h["avg_total"] > 1.85 or s_a["avg_total"] > 1.85)
                     if cond_boost_ht and cond_boost_ft: 
-                        tags.append("🚀 BOOST")
-                        h_o = True
+                        tags.append("🚀 BOOST"); h_o = True
                     else: 
-                        tags.append("⚽ OVER")
-                        h_o = True
+                        tags.append("⚽ OVER"); h_o = True
                 
                 cond_pt_ht = (s_h["avg_ht"] >= 1.1 and s_a["avg_ht"] >= 1.1)
                 cond_pt_ft = (s_h["avg_total"] >= 1.1 and s_a["avg_total"] >= 1.1)
@@ -244,8 +237,7 @@ def run_full_scan(snap=False):
                 cond_pt_last = (s_h["last_2h_zero"] or s_a["last_2h_zero"])
                 
                 if cond_pt_ht and cond_pt_ft and cond_pt_odd and cond_pt_last:
-                    tags.append("🎯PT")
-                    h_g = True
+                    tags.append("🎯PT"); h_g = True
                 
                 if h_p and h_o and h_g:
                     tags.insert(0, "⚽⭐ GOLD")
@@ -256,30 +248,29 @@ def run_full_scan(snap=False):
                     "Match": f"{f['teams']['home']['name']} - {f['teams']['away']['name']}",
                     "FAV": "✅" if is_gold_zone else "❌",
                     "1X2": f"{mk['q1']:.1f}|{mk['qx']:.1f}|{mk['q2']:.1f}",
-                    "O2.5": f"{mk['o25']:.2f}", "O0.5H": f"{mk['o05ht']:.2f}", "GGH": f"{mk['gght']:.2f}",
+                    "O2.5": f"{mk['o25']:.2f}", "O0.5H": f"{mk['o05ht']:.2f}", "O1.5H": f"{mk['o15ht']:.2f}",
                     "AVG FT": f"{s_h['avg_total']:.1f}|{s_a['avg_total']:.1f}",
                     "AVG HT": f"{s_h['avg_ht']:.1f}|{s_a['avg_ht']:.1f}",
                     "Info": " ".join(tags), "Data": f["fixture"]["date"][:10],
                     "Fixture_ID": f["fixture"]["id"]
                 })
-                time.sleep(0.2) # Backoff API
+                time.sleep(0.2)
 
             current_db = {str(r["Fixture_ID"]): r for r in st.session_state.scan_results}
             for r in final_list:
                 current_db[str(r["Fixture_ID"])] = r
             st.session_state.scan_results = list(current_db.values())
-            
-            # --- SALVATAGGIO LOCALE ---
             with open(DB_FILE, "w") as f: json.dump({"results": st.session_state.scan_results}, f)
             
-            # --- AGGIORNAMENTO AUTOMATICO GITHUB ---
+            # --- UPLOAD WEB ---
             upload_to_github(st.session_state.scan_results)
-            
             st.rerun()
 
-st.sidebar.header("👑 Arab Sniper V22.04.24")
+# --- UI Sidebar ---
+st.sidebar.header("👑 Arab Sniper V22.04.29 WEB")
 HORIZON = st.sidebar.selectbox("Orizzonte Temporale:", options=[1, 2, 3], index=0)
 target_dates = [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(3)]
+
 all_discovered = sorted(list(set(st.session_state.get("available_countries", []))))
 if st.session_state.scan_results:
     historical_cnt = {r["Lega"].split('(')[-1].replace(')', '') for r in st.session_state.scan_results}
@@ -291,9 +282,11 @@ if all_discovered:
         save_config(); st.rerun()
 if last_snap_ts: st.sidebar.success(f"✅ SNAPSHOT: {last_snap_ts}")
 else: st.sidebar.warning("⚠️ SNAPSHOT ASSENTE")
+
 c1, c2 = st.columns(2)
 if c1.button("📌 SNAP + SCAN"): run_full_scan(snap=True)
 if c2.button("🚀 SCAN VELOCE"): run_full_scan(snap=False)
+
 if st.session_state.scan_results:
     df = pd.DataFrame(st.session_state.scan_results)
     full_view = df[df["Data"] == target_dates[HORIZON - 1]]
