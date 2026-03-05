@@ -6,10 +6,10 @@ import json
 import os
 import time
 from pathlib import Path
-from github import Github  # Collegamento al sito web
+from github import Github 
 
 # ==========================================
-# CONFIGURAZIONE ARAB SNIPER V22.04.29 - WEB INTEGRATED
+# CONFIGURAZIONE ARAB SNIPER V22.04.30 - WEB & PERSISTENCE FIX
 # ==========================================
 BASE_DIR = Path(__file__).resolve().parent
 DB_FILE = str(BASE_DIR / "arab_sniper_database.json")
@@ -28,20 +28,21 @@ except Exception:
 def now_rome():
     return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
 
-st.set_page_config(page_title="ARAB SNIPER V22.04.29 WEB", layout="wide")
+st.set_page_config(page_title="ARAB SNIPER V22.04.30 WEB", layout="wide")
 
 # --- FUNZIONE AGGIORNAMENTO AUTOMATICO SITO ---
 def upload_to_github(results):
     try:
+        if "GITHUB_TOKEN" not in st.secrets:
+            return "MISSING_TOKEN"
         token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
-        repo = g.get_repo("fbonas/sniper-app") # Assicurati che il percorso sia corretto
+        repo = g.get_repo("fbonas/sniper-app") 
         contents = repo.get_contents("data.json")
         repo.update_file(contents.path, "Update data", json.dumps(results, indent=4), contents.sha)
-        return True
+        return "SUCCESS"
     except Exception as e:
-        st.error(f"Errore upload GitHub: {e}")
-        return False
+        return str(e)
 
 # --- Inizializzazione Session State ---
 if "config" not in st.session_state:
@@ -131,7 +132,7 @@ def extract_elite_markets(session, fid):
             if _contains_ht(name) and any(k in name for k in ["total", "over/under", "ou", "goals"]):
                 if "team" in name: continue
                 for v in b.get("values", []):
-                    val_txt = str(v.get("value", "")).lower().replace(",", ".")
+                    val_txt = str(v.get("value", "")).lower().replace(",", ".") # FIX ATTRIBUTEERROR
                     if "over 0.5" in val_txt and mk["o05ht"] == 0:
                         mk["o05ht"] = safe_float(v.get("odd"), 0.0)
                     if "over 1.5" in val_txt and mk["o15ht"] == 0:
@@ -164,11 +165,11 @@ def get_team_performance(session, tid):
     return stats
 
 # ==========================================
-# SCAN CORE CON AGGIORNAMENTO PERSISTENTE E WEB
+# SCAN CORE CON FIX NOTIFICA WEB
 # ==========================================
 def run_full_scan(snap=False):
     target_dates = [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(3)]
-    with st.spinner(f"🚀 Analisi mercati {target_dates[HORIZON-1]}..."):
+    with st.spinner(f"🚀 Arab Sniper: Analisi mercati {target_dates[HORIZON-1]}..."):
         with requests.Session() as s:
             target_date = target_dates[HORIZON - 1]
             res = api_get(s, "fixtures", {"date": target_date, "timezone": "Europe/Rome"})
@@ -178,7 +179,7 @@ def run_full_scan(snap=False):
             
             if snap:
                 csnap = {}
-                snap_bar = st.progress(0, text="📌 SNAPSHOT IN CORSO...")
+                snap_bar = st.progress(0, text="📌 FISSAGGIO SNAPSHOT QUOTE...")
                 for i, f in enumerate(day_fx):
                     snap_bar.progress((i+1)/len(day_fx))
                     m = extract_elite_markets(s, f["fixture"]["id"])
@@ -190,7 +191,7 @@ def run_full_scan(snap=False):
                 snap_bar.empty()
 
             final_list = []
-            pb = st.progress(0, text="🚀 ANALISI SEGNALI...")
+            pb = st.progress(0, text="🚀 SCANSIONE PARTITE E ANALISI...")
             for i, f in enumerate(day_fx):
                 pb.progress((i+1)/len(day_fx))
                 cnt = f["league"]["country"]
@@ -262,12 +263,20 @@ def run_full_scan(snap=False):
             st.session_state.scan_results = list(current_db.values())
             with open(DB_FILE, "w") as f: json.dump({"results": st.session_state.scan_results}, f)
             
-            # --- UPLOAD WEB ---
-            upload_to_github(st.session_state.scan_results)
+            # --- AGGIORNAMENTO SITO WEB CON GESTIONE NOTIFICA ---
+            status = upload_to_github(st.session_state.scan_results)
+            if status == "SUCCESS":
+                st.success("✅ SITO WEB AGGIORNATO CON SUCCESSO!")
+            elif status == "MISSING_TOKEN":
+                st.warning("⚠️ GITHUB_TOKEN non trovato nei segreti!")
+            else:
+                st.error(f"❌ ERRORE WEB: {status}")
+            
+            time.sleep(2) # Pausa per leggere la notifica
             st.rerun()
 
 # --- UI Sidebar ---
-st.sidebar.header("👑 Arab Sniper V22.04.29 WEB")
+st.sidebar.header("👑 Arab Sniper V22.04.30 WEB")
 HORIZON = st.sidebar.selectbox("Orizzonte Temporale:", options=[1, 2, 3], index=0)
 target_dates = [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(3)]
 
