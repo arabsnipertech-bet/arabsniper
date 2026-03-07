@@ -22,8 +22,8 @@ jobs:
         run: |
           pip install requests pandas PyGithub
           
-      - name: Run Scan Logic
+     - name: Run Scan Logic
         env:
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}  # Qui colleghiamo il nuovo nome
         run: python 3appDays\ \(14\).py --auto
