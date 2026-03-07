@@ -342,19 +342,3 @@ if st.session_state.scan_results:
         d2.download_button("🌐 HTML", html.encode("utf-8"), f"arab_{target_dates[HORIZON-1]}.html")
 else:
     st.info("Esegui uno scan.")
-# --- LOGICA PER ESECUZIONE AUTOMATICA NOTTURNA ---
-if __name__ == "__main__":
-    import sys
-    # Se il file viene lanciato con l'argomento --auto da GitHub Actions
-    if "--auto" in sys.argv:
-        # Configurazione minima necessaria per girare senza interfaccia
-        HORIZON = 1 
-        # Carichiamo i segreti dall'ambiente (GitHub Actions)
-        if "API_SPORTS_KEY" not in st.secrets:
-            st.secrets["API_SPORTS_KEY"] = os.getenv("API_SPORTS_KEY")
-        if "GITHUB_TOKEN" not in st.secrets:
-            st.secrets["GITHUB_TOKEN"] = os.getenv("GITHUB_TOKEN")
-            
-        print("🚀 Avvio Scan Automatico Notturno...")
-        run_full_scan(snap=True) # Esegue Snap + Scan
-        print("✅ Scan completato e data.json aggiornato.")
