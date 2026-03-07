@@ -2,9 +2,8 @@ name: Arab Sniper Daily Scan
 
 on:
   schedule:
-    # Esegue all'01:00 UTC (circa le 02:00 italiane)
     - cron: '0 1 * * *'
-  workflow_dispatch: # Permette di lanciarlo anche a mano da GitHub
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,14 +15,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
           pip install requests pandas PyGithub
-          
-     - name: Run Scan Logic
+
+      - name: Run Scan Logic
         env:
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
-          GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}  # Qui colleghiamo il nuovo nome
-        run: python 3appDays\ \(14\).py --auto
+          GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}
+        run: python 3appDays.py --auto
