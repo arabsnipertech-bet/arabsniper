@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Fondamentale per permettere al robot di aggiornare data.json
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -19,10 +21,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pandas PyGithub
+          pip install requests pandas PyGithub timezoneinfo
 
       - name: Run Scan Logic
         env:
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}
         run: python 3appDays.py --auto
+        
