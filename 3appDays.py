@@ -346,11 +346,16 @@ else:
     st.info("Esegui uno scan.")
 # --- LOGICA PER ESECUZIONE AUTOMATICA NOTTURNA ---
 if __name__ == "__main__":
-    # Se il file viene lanciato con l'argomento --auto da GitHub Actions
+    # Modalità automatica completa: SNAP + SCAN
     if "--auto" in sys.argv:
-        # Configurazione minima necessaria per girare senza interfaccia
         HORIZON = 1
-            
-        print("🚀 Avvio Scan Automatico Notturno...")
-        run_full_scan(snap=True) # Esegue Snap + Scan
-        print("✅ Scan completato e data.json aggiornato.")
+        print("🚀 Avvio Scan Automatico Notturno (SNAP + SCAN)...")
+        run_full_scan(snap=True)
+        print("✅ Scan completo terminato e data.json aggiornato.")
+
+    # Modalità automatica veloce: SCAN senza snapshot
+    elif "--fast" in sys.argv:
+        HORIZON = 1
+        print("⚡ Avvio Scan Veloce Automatico (senza snapshot)...")
+        run_full_scan(snap=False)
+        print("✅ Scan veloce terminato e data.json aggiornato.")
