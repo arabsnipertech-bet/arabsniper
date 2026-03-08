@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import json
 import os
 import time
+import sys
 from pathlib import Path
 from github import Github 
 
@@ -33,10 +34,10 @@ st.set_page_config(page_title="ARAB SNIPER V22.04.31 WEB", layout="wide")
 # --- FUNZIONE AGGIORNAMENTO AUTOMATICO SITO (FIX REPO) ---
 def upload_to_github(results):
     try:
-        if "GITHUB_TOKEN" not in st.secrets:
+        token = os.getenv("GITHUB_TOKEN") or st.secrets.get("GITHUB_TOKEN")
+        if not token:
             return "MISSING_TOKEN"
         
-        token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
         
         # Percorso corretto: Arabsnipertech-bet/arabsniper
@@ -93,7 +94,7 @@ last_snap_ts = load_db()
 # ==========================================
 # API CORE & ROBUSTNESS (app OK)
 # ==========================================
-API_KEY = st.secrets.get("API_SPORTS_KEY")
+API_KEY = os.getenv("API_SPORTS_KEY") or st.secrets.get("API_SPORTS_KEY")
 HEADERS = {"x-apisports-key": API_KEY}
 
 def api_get(session, path, params):
@@ -283,8 +284,9 @@ def run_full_scan(snap=False):
             else:
                 st.error(f"❌ ERRORE WEB: {status}")
             
-            time.sleep(2)
-            st.rerun()
+            if "--auto" not in sys.argv:
+                time.sleep(2)
+                st.rerun()
 
 # --- UI Sidebar ---
 st.sidebar.header("👑 Arab Sniper V22.04.31 WEB")
@@ -344,16 +346,10 @@ else:
     st.info("Esegui uno scan.")
 # --- LOGICA PER ESECUZIONE AUTOMATICA NOTTURNA ---
 if __name__ == "__main__":
-    import sys
     # Se il file viene lanciato con l'argomento --auto da GitHub Actions
     if "--auto" in sys.argv:
         # Configurazione minima necessaria per girare senza interfaccia
-        HORIZON = 1 
-        # Carichiamo i segreti dall'ambiente (GitHub Actions)
-        if "API_SPORTS_KEY" not in st.secrets:
-            st.secrets["API_SPORTS_KEY"] = os.getenv("API_SPORTS_KEY")
-        if "GITHUB_TOKEN" not in st.secrets:
-            st.secrets["GITHUB_TOKEN"] = os.getenv("GITHUB_TOKEN")
+        HORIZON = 1
             
         print("🚀 Avvio Scan Automatico Notturno...")
         run_full_scan(snap=True) # Esegue Snap + Scan
