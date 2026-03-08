@@ -21,10 +21,18 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pandas PyGithub
+          pip install requests pandas
 
       - name: Run Scan Logic
         env:
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
-          GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}
         run: python 3appDays.py --auto
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git add data.json
+          git commit -m "Update Arab Sniper Data [Auto]" || exit 0
+          git push
+          
