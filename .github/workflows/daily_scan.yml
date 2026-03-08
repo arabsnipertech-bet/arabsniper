@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pandas streamlit PyGithub  # Aggiunto streamlit qui
+          pip install requests pandas streamlit PyGithub  # Installazione Streamlit per il robot
 
       - name: Run Scan Logic
         env:
