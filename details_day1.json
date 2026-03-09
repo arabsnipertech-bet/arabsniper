@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-09 11:34:10",
+    "updated_at": "2026-03-09 12:11:31",
     "day": 1,
     "date": "2026-03-09",
     "details": {
@@ -13,12 +13,12 @@
             "home_team": "Shinnik Yaroslavl",
             "away_team": "FC UFA",
             "markets": {
-                "q1": 2.05,
-                "qx": 2.96,
-                "q2": 3.94,
+                "q1": 2.06,
+                "qx": 2.95,
+                "q2": 3.92,
                 "o25": 2.66,
                 "o05ht": 1.62,
-                "o15ht": 3.84
+                "o15ht": 3.85
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -28,7 +28,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 2.05,
+                "fav_quote": 2.06,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -195,9 +195,9 @@
             "home_team": "Malisheva",
             "away_team": "Prishtina",
             "markets": {
-                "q1": 2.62,
+                "q1": 2.65,
                 "qx": 3.2,
-                "q2": 2.45,
+                "q2": 2.4,
                 "o25": 1.95,
                 "o05ht": 1.38,
                 "o15ht": 2.75
@@ -210,7 +210,7 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 2.45,
+                "fav_quote": 2.4,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -5691,12 +5691,12 @@
             "home_team": "Sunderland U21",
             "away_team": "Leeds United U21",
             "markets": {
-                "q1": 2.4,
+                "q1": 2.15,
                 "qx": 3.6,
-                "q2": 2.3,
-                "o25": 1.53,
+                "q2": 2.65,
+                "o25": 1.5,
                 "o05ht": 1.22,
-                "o15ht": 2.15
+                "o15ht": 2.05
             },
             "averages": {
                 "home_avg_ft": 3.75,
@@ -5706,15 +5706,14 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.3,
+                "fav_quote": 2.15,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -5876,11 +5875,11 @@
             "away_team": "Newcastle United U21",
             "markets": {
                 "q1": 1.75,
-                "qx": 3.9,
-                "q2": 3.3,
+                "qx": 3.85,
+                "q2": 3.45,
                 "o25": 1.4,
                 "o05ht": 1.2,
-                "o15ht": 2.0
+                "o15ht": 1.95
             },
             "averages": {
                 "home_avg_ft": 3.375,
@@ -6424,12 +6423,12 @@
             "home_team": "National Bank of Egypt",
             "away_team": "Pyramids FC",
             "markets": {
-                "q1": 3.5,
-                "qx": 3.1,
-                "q2": 2.08,
+                "q1": 3.7,
+                "qx": 3.2,
+                "q2": 1.98,
                 "o25": 2.35,
                 "o05ht": 1.48,
-                "o15ht": 3.2
+                "o15ht": 3.3
             },
             "averages": {
                 "home_avg_ft": 2.0,
@@ -6439,14 +6438,13 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.08,
+                "fav_quote": 1.98,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
-                "M-Ok",
-                "🐟G"
+                "M-Ok"
             ],
             "home_last_8": [
                 {
@@ -7695,6 +7693,189 @@
                     "ht": "1-1",
                     "ft": "2-2",
                     "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
+        "1492623": {
+            "fixture_id": 1492623,
+            "date": "2026-03-09",
+            "time": "20:45",
+            "league": "Premier Division",
+            "country": "Ireland",
+            "match": "Shelbourne - Shamrock Rovers",
+            "home_team": "Shelbourne",
+            "away_team": "Shamrock Rovers",
+            "markets": {
+                "q1": 2.58,
+                "qx": 3.15,
+                "q2": 2.75,
+                "o25": 2.25,
+                "o05ht": 1.42,
+                "o15ht": 2.95
+            },
+            "averages": {
+                "home_avg_ft": 3.375,
+                "away_avg_ft": 3.0,
+                "home_avg_ht": 0.875,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 2.58,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false
+            },
+            "tags": [
+                "M-Ok",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-06",
+                    "league": "Premier Division",
+                    "match": "Shelbourne - St Patrick's Athl.",
+                    "ht": "0-0",
+                    "ft": "2-3",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Premier Division",
+                    "match": "Drogheda United - Shelbourne",
+                    "ht": "1-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Premier Division",
+                    "match": "Shelbourne - Galway United",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Premier Division",
+                    "match": "Waterford - Shelbourne",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Friendlies Clubs",
+                    "match": "Shelbourne - Longford Town",
+                    "ht": "None-None",
+                    "ft": "4-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Friendlies Clubs",
+                    "match": "Bray Wanderers - Shelbourne",
+                    "ht": "2-0",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-24",
+                    "league": "Friendlies Clubs",
+                    "match": "Bohemians - Shelbourne",
+                    "ht": "1-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-20",
+                    "league": "Friendlies Clubs",
+                    "match": "Shelbourne - Dundalk",
+                    "ht": "None-None",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-06",
+                    "league": "Premier Division",
+                    "match": "Shamrock Rovers - Derry City",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Premier Division",
+                    "match": "Bohemians - Shamrock Rovers",
+                    "ht": "1-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-23",
+                    "league": "Premier Division",
+                    "match": "Shamrock Rovers - Dundalk",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Premier Division",
+                    "match": "Shamrock Rovers - St Patrick's Athl.",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "FAI President's Cup",
+                    "match": "Shamrock Rovers - Derry City",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-24",
+                    "league": "Friendlies Clubs",
+                    "match": "Shamrock Rovers - Treaty United",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-24",
+                    "league": "Friendlies Clubs",
+                    "match": "Shamrock Rovers - Longford Town",
+                    "ht": "4-0",
+                    "ft": "6-0",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-12-18",
+                    "league": "UEFA Europa Conference League",
+                    "match": "Shamrock Rovers - Hamrun Spartans",
+                    "ht": "2-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
                     "total_ft_goals": 4
                 }
             ]
