@@ -1,3118 +1,8 @@
 {
-    "updated_at": "2026-03-09 12:11:31",
+    "updated_at": "2026-03-09 17:17:17",
     "day": 1,
     "date": "2026-03-09",
     "details": {
-        "1522568": {
-            "fixture_id": 1522568,
-            "date": "2026-03-09",
-            "time": "13:00",
-            "league": "First League",
-            "country": "Russia",
-            "match": "Shinnik Yaroslavl - FC UFA",
-            "home_team": "Shinnik Yaroslavl",
-            "away_team": "FC UFA",
-            "markets": {
-                "q1": 2.06,
-                "qx": 2.95,
-                "q2": 3.92,
-                "o25": 2.66,
-                "o05ht": 1.62,
-                "o15ht": 3.85
-            },
-            "averages": {
-                "home_avg_ft": 2.625,
-                "away_avg_ft": 3.125,
-                "home_avg_ht": 1.375,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.438
-            },
-            "flags": {
-                "fav_quote": 2.06,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-02",
-                    "league": "First League",
-                    "match": "Rodina Moskva - Shinnik Yaroslavl",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Friendlies Clubs",
-                    "match": "Shinnik Yaroslavl - Dordoi Bishkek",
-                    "ht": "2-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Friendlies Clubs",
-                    "match": "Surkhon - Shinnik Yaroslavl",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Friendlies Clubs",
-                    "match": "Shinnik Yaroslavl - Ulytau",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-11-28",
-                    "league": "First League",
-                    "match": "Chernomorets - Shinnik Yaroslavl",
-                    "ht": "2-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-11-23",
-                    "league": "First League",
-                    "match": "Shinnik Yaroslavl - FK Sokol Saratov",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2025-11-16",
-                    "league": "First League",
-                    "match": "Shinnik Yaroslavl - Chayka",
-                    "ht": "3-1",
-                    "ft": "4-1",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-11-09",
-                    "league": "First League",
-                    "match": "Rotor Volgograd - Shinnik Yaroslavl",
-                    "ht": "0-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "First League",
-                    "match": "FK Neftekhimik - FC UFA",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-16",
-                    "league": "Friendlies Clubs",
-                    "match": "FC UFA - Aktobe",
-                    "ht": "2-1",
-                    "ft": "4-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Friendlies Clubs",
-                    "match": "Spartak Kostroma - FC UFA",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Friendlies Clubs",
-                    "match": "FC UFA - Rodina Moskva",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Friendlies Clubs",
-                    "match": "Akhmat - FC UFA",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-26",
-                    "league": "Friendlies Clubs",
-                    "match": "Arda Kardzhali - FC UFA",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-11-29",
-                    "league": "First League",
-                    "match": "Chayka - FC UFA",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-11-23",
-                    "league": "First League",
-                    "match": "FC UFA - Fakel",
-                    "ht": "0-3",
-                    "ft": "0-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                }
-            ]
-        },
-        "1526639": {
-            "fixture_id": 1526639,
-            "date": "2026-03-09",
-            "time": "13:00",
-            "league": "Superliga",
-            "country": "Kosovo",
-            "match": "Malisheva - Prishtina",
-            "home_team": "Malisheva",
-            "away_team": "Prishtina",
-            "markets": {
-                "q1": 2.65,
-                "qx": 3.2,
-                "q2": 2.4,
-                "o25": 1.95,
-                "o05ht": 1.38,
-                "o15ht": 2.75
-            },
-            "averages": {
-                "home_avg_ft": 3.0,
-                "away_avg_ft": 2.5,
-                "home_avg_ht": 1.75,
-                "away_avg_ht": 1.625,
-                "combined_ht_avg": 1.688
-            },
-            "flags": {
-                "fav_quote": 2.4,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "Superliga",
-                    "match": "Gjilani - Malisheva",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Superliga",
-                    "match": "Malisheva - Dukagjini",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-16",
-                    "league": "Superliga",
-                    "match": "Ballkani - Malisheva",
-                    "ht": "1-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Cup",
-                    "match": "Trepça'89 - Malisheva",
-                    "ht": "0-2",
-                    "ft": "0-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Superliga",
-                    "match": "Malisheva - Prishtina e Re",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Friendlies Clubs",
-                    "match": "Dynamo Kyiv - Malisheva",
-                    "ht": "3-1",
-                    "ft": "8-1",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 9
-                },
-                {
-                    "date": "2026-01-16",
-                    "league": "Friendlies Clubs",
-                    "match": "Kudrivka - Malisheva",
-                    "ht": "0-2",
-                    "ft": "0-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-12-21",
-                    "league": "Superliga",
-                    "match": "Malisheva - Drita",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-01",
-                    "league": "Superliga",
-                    "match": "Prishtina - Drita",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Superliga",
-                    "match": "Gjilani - Prishtina",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Superliga",
-                    "match": "Prishtina - Llapi",
-                    "ht": "2-1",
-                    "ft": "4-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Superliga",
-                    "match": "Dukagjini - Prishtina",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Friendlies Clubs",
-                    "match": "Kolos Kovalivka - Prishtina",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Friendlies Clubs",
-                    "match": "Obolon'-Brovar - Prishtina",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-21",
-                    "league": "Friendlies Clubs",
-                    "match": "Zhenys - Prishtina",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-18",
-                    "league": "Friendlies Clubs",
-                    "match": "Prishtina - Baník Ostrava",
-                    "ht": "3-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                }
-            ]
-        },
-        "1423390": {
-            "fixture_id": 1423390,
-            "date": "2026-03-09",
-            "time": "14:00",
-            "league": "First League",
-            "country": "Macedonia",
-            "match": "Sileks - Vardar Skopje",
-            "home_team": "Sileks",
-            "away_team": "Vardar Skopje",
-            "markets": {
-                "q1": 3.6,
-                "qx": 3.1,
-                "q2": 1.9,
-                "o25": 2.05,
-                "o05ht": 1.38,
-                "o15ht": 2.6
-            },
-            "averages": {
-                "home_avg_ft": 2.125,
-                "away_avg_ft": 2.625,
-                "home_avg_ht": 0.625,
-                "away_avg_ht": 1.625,
-                "combined_ht_avg": 1.125
-            },
-            "flags": {
-                "fav_quote": 1.9,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🚀 BOOST"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-05",
-                    "league": "First League",
-                    "match": "Pelister - Sileks",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-03-01",
-                    "league": "First League",
-                    "match": "Tikveš - Sileks",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-25",
-                    "league": "Cup",
-                    "match": "Detonit Plachkovica - Sileks",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "First League",
-                    "match": "Sileks - Shkendija",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "First League",
-                    "match": "Struga - Sileks",
-                    "ht": "1-0",
-                    "ft": "2-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "First League",
-                    "match": "Sileks - Bashkimi Kumanovo",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Friendlies Clubs",
-                    "match": "Sileks - Dinamo Batumi",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-29",
-                    "league": "Friendlies Clubs",
-                    "match": "Sogdiana - Sileks",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-05",
-                    "league": "First League",
-                    "match": "Vardar Skopje - Shkendija",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "First League",
-                    "match": "Struga - Vardar Skopje",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "First League",
-                    "match": "Vardar Skopje - Bashkimi Kumanovo",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "First League",
-                    "match": "FK Rabotnicki - Vardar Skopje",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "First League",
-                    "match": "Vardar Skopje - Aresimi",
-                    "ht": "4-0",
-                    "ft": "5-1",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Friendlies Clubs",
-                    "match": "Osogovo - Vardar Skopje",
-                    "ht": "1-2",
-                    "ft": "1-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-02",
-                    "league": "Friendlies Clubs",
-                    "match": "Alashkert - Vardar Skopje",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Friendlies Clubs",
-                    "match": "FK Sarajevo - Vardar Skopje",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                }
-            ]
-        },
-        "1434111": {
-            "fixture_id": 1434111,
-            "date": "2026-03-09",
-            "time": "14:00",
-            "league": "Professional Development League",
-            "country": "England",
-            "match": "AFC Bournemouth U21 - Brentford U21",
-            "home_team": "AFC Bournemouth U21",
-            "away_team": "Brentford U21",
-            "markets": {
-                "q1": 1.95,
-                "qx": 3.9,
-                "q2": 2.88,
-                "o25": 1.36,
-                "o05ht": 1.18,
-                "o15ht": 1.8
-            },
-            "averages": {
-                "home_avg_ft": 3.875,
-                "away_avg_ft": 3.375,
-                "home_avg_ht": 1.75,
-                "away_avg_ht": 1.75,
-                "combined_ht_avg": 1.75
-            },
-            "flags": {
-                "fav_quote": 1.95,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "Professional Development League",
-                    "match": "Watford U21 - AFC Bournemouth U21",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-23",
-                    "league": "Professional Development League",
-                    "match": "AFC Bournemouth U21 - Millwall U21",
-                    "ht": "2-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-17",
-                    "league": "Professional Development League",
-                    "match": "Swansea City U21 - AFC Bournemouth U21",
-                    "ht": "2-1",
-                    "ft": "4-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Professional Development League",
-                    "match": "AFC Bournemouth U21 - Bristol City U21",
-                    "ht": "4-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-02",
-                    "league": "Professional Development League",
-                    "match": "AFC Bournemouth U21 - Cardiff City U21",
-                    "ht": "0-2",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-27",
-                    "league": "Premier League Cup",
-                    "match": "Sheffield United U21 - AFC Bournemouth U21",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-22",
-                    "league": "Premier League Cup",
-                    "match": "AFC Bournemouth U21 - Reading U21",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-16",
-                    "league": "Professional Development League",
-                    "match": "Colchester United U21 - AFC Bournemouth U21",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-06",
-                    "league": "Professional Development League",
-                    "match": "Millwall U21 - Brentford U21",
-                    "ht": "0-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Professional Development League",
-                    "match": "Brentford U21 - Colchester United U21",
-                    "ht": "2-0",
-                    "ft": "4-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Professional Development League",
-                    "match": "Watford U21 - Brentford U21",
-                    "ht": "2-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-17",
-                    "league": "Professional Development League",
-                    "match": "Brentford U21 - Charlton Athletic U21",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Premier League Cup",
-                    "match": "Burnley U21 - Brentford U21",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Friendlies Clubs",
-                    "match": "Kryvbas KR - Brentford U21",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Professional Development League",
-                    "match": "Brentford U21 - Bristol City U21",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-27",
-                    "league": "Professional Development League",
-                    "match": "Cardiff City U21 - Brentford U21",
-                    "ht": "2-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                }
-            ]
-        },
-        "1497782": {
-            "fixture_id": 1497782,
-            "date": "2026-03-09",
-            "time": "14:00",
-            "league": "Second League",
-            "country": "Montenegro",
-            "match": "Mladost Lješkopolje - Iskra",
-            "home_team": "Mladost Lješkopolje",
-            "away_team": "Iskra",
-            "markets": {
-                "q1": 2.6,
-                "qx": 2.9,
-                "q2": 2.6,
-                "o25": 2.25,
-                "o05ht": 1.45,
-                "o15ht": 0.0
-            },
-            "averages": {
-                "home_avg_ft": 2.5,
-                "away_avg_ft": 2.375,
-                "home_avg_ht": 1.25,
-                "away_avg_ht": 1.25,
-                "combined_ht_avg": 1.25
-            },
-            "flags": {
-                "fav_quote": 2.6,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": true
-            },
-            "tags": [
-                "M-Ok",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-04",
-                    "league": "Second League",
-                    "match": "Mladost Lješkopolje - Kom",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Second League",
-                    "match": "Igalo - Mladost Lješkopolje",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-12-10",
-                    "league": "Second League",
-                    "match": "Rudar - Mladost Lješkopolje",
-                    "ht": "3-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-12-06",
-                    "league": "Second League",
-                    "match": "Mladost Lješkopolje - Lovćen",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-12-02",
-                    "league": "Second League",
-                    "match": "Mladost Lješkopolje - Berane",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2025-11-16",
-                    "league": "Second League",
-                    "match": "Mladost Lješkopolje - Internacional Podgorica",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-11-08",
-                    "league": "Second League",
-                    "match": "Otrant-Olympic - Mladost Lješkopolje",
-                    "ht": "4-0",
-                    "ft": "7-1",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 8
-                },
-                {
-                    "date": "2025-11-02",
-                    "league": "Second League",
-                    "match": "Mladost Lješkopolje - Grbalj",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-04",
-                    "league": "Second League",
-                    "match": "Iskra - Igalo",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Second League",
-                    "match": "Lovćen - Iskra",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Friendlies Clubs",
-                    "match": "Sutjeska - Iskra",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-12-11",
-                    "league": "Second League",
-                    "match": "Iskra - Otrant-Olympic",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-12-07",
-                    "league": "Second League",
-                    "match": "Iskra - Berane",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-11-30",
-                    "league": "Second League",
-                    "match": "Iskra - Rudar",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-11-26",
-                    "league": "Cup",
-                    "match": "Iskra - Mornar",
-                    "ht": "0-2",
-                    "ft": "0-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-11-22",
-                    "league": "Second League",
-                    "match": "Internacional Podgorica - Iskra",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                }
-            ]
-        },
-        "1391566": {
-            "fixture_id": 1391566,
-            "date": "2026-03-09",
-            "time": "14:30",
-            "league": "Premier League",
-            "country": "Ukraine",
-            "match": "Ruh Lviv - Metalist 1925 Kharkiv",
-            "home_team": "Ruh Lviv",
-            "away_team": "Metalist 1925 Kharkiv",
-            "markets": {
-                "q1": 4.2,
-                "qx": 3.0,
-                "q2": 1.85,
-                "o25": 2.45,
-                "o05ht": 1.53,
-                "o15ht": 3.45
-            },
-            "averages": {
-                "home_avg_ft": 3.25,
-                "away_avg_ft": 2.75,
-                "home_avg_ht": 1.375,
-                "away_avg_ht": 1.375,
-                "combined_ht_avg": 1.375
-            },
-            "flags": {
-                "fav_quote": 1.85,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-01",
-                    "league": "Premier League",
-                    "match": "Obolon'-Brovar - Ruh Lviv",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Premier League",
-                    "match": "Dynamo Kyiv - Ruh Lviv",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Friendlies Clubs",
-                    "match": "Ruh Lviv - Olimpija Ljubljana",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Friendlies Clubs",
-                    "match": "Ruh Lviv - Brinje-Grosuplje",
-                    "ht": "0-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Friendlies Clubs",
-                    "match": "Radomlje - Ruh Lviv",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Friendlies Clubs",
-                    "match": "Ruh Lviv - Rudes",
-                    "ht": "0-2",
-                    "ft": "0-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Friendlies Clubs",
-                    "match": "Triglav - Ruh Lviv",
-                    "ht": "1-0",
-                    "ft": "4-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-04",
-                    "league": "Friendlies Clubs",
-                    "match": "Ruh Lviv - Austria Klagenfurt",
-                    "ht": "2-1",
-                    "ft": "4-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-05",
-                    "league": "Cup",
-                    "match": "Metalist 1925 Kharkiv - Lokomotiv Kyiv",
-                    "ht": "1-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Premier League",
-                    "match": "Metalist 1925 Kharkiv - Oleksandria",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Premier League",
-                    "match": "Metalist 1925 Kharkiv - Kryvbas KR",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Friendlies Clubs",
-                    "match": "Molde - Metalist 1925 Kharkiv",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Friendlies Clubs",
-                    "match": "Metalist 1925 Kharkiv - Jeonbuk Motors",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Friendlies Clubs",
-                    "match": "Metalist 1925 Kharkiv - Hammarby FF",
-                    "ht": "1-2",
-                    "ft": "3-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Friendlies Clubs",
-                    "match": "Metalist 1925 Kharkiv - Seattle Sounders",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-29",
-                    "league": "Friendlies Clubs",
-                    "match": "Metalist 1925 Kharkiv - CF Montreal",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                }
-            ]
-        },
-        "1400186": {
-            "fixture_id": 1400186,
-            "date": "2026-03-09",
-            "time": "14:30",
-            "league": "Premier League",
-            "country": "Russia",
-            "match": "Lokomotiv - Akhmat",
-            "home_team": "Lokomotiv",
-            "away_team": "Akhmat",
-            "markets": {
-                "q1": 1.75,
-                "qx": 4.05,
-                "q2": 4.65,
-                "o25": 1.75,
-                "o05ht": 1.34,
-                "o15ht": 2.54
-            },
-            "averages": {
-                "home_avg_ft": 3.625,
-                "away_avg_ft": 2.75,
-                "home_avg_ht": 2.125,
-                "away_avg_ht": 1.875,
-                "combined_ht_avg": 2.0
-            },
-            "flags": {
-                "fav_quote": 1.75,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": true
-            },
-            "tags": [
-                "M-Ok",
-                "🚀 BOOST",
-                "🎯PT"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-05",
-                    "league": "Cup",
-                    "match": "Arsenal Tula - Lokomotiv",
-                    "ht": "1-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Premier League",
-                    "match": "Lokomotiv - Nizhny Novgorod",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Friendlies Clubs",
-                    "match": "CSKA Moscow - Lokomotiv",
-                    "ht": "3-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Friendlies Clubs",
-                    "match": "Lokomotiv - Pyunik Yerevan",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Friendlies Clubs",
-                    "match": "Lokomotiv - Dinamo Samarqand",
-                    "ht": "4-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Friendlies Clubs",
-                    "match": "Lokomotiv - Yelimay Semey",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Friendlies Clubs",
-                    "match": "Lokomotiv - FC Urartu",
-                    "ht": "0-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Friendlies Clubs",
-                    "match": "Ural - Lokomotiv",
-                    "ht": "0-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-01",
-                    "league": "Premier League",
-                    "match": "Akhmat - CSKA Moscow",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-18",
-                    "league": "Friendlies Clubs",
-                    "match": "Baltika - Akhmat",
-                    "ht": "2-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Friendlies Clubs",
-                    "match": "Akhmat - Olmaliq",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Friendlies Clubs",
-                    "match": "Akhmat - Bars",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-02",
-                    "league": "Friendlies Clubs",
-                    "match": "Akhmat - FK Vozdovac",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Friendlies Clubs",
-                    "match": "Akhmat - FC UFA",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-29",
-                    "league": "Friendlies Clubs",
-                    "match": "Akhmat - Vardar Skopje",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-18",
-                    "league": "Friendlies Clubs",
-                    "match": "Akhmat - OFK Beograd",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                }
-            ]
-        },
-        "1522567": {
-            "fixture_id": 1522567,
-            "date": "2026-03-09",
-            "time": "15:00",
-            "league": "First League",
-            "country": "Russia",
-            "match": "Arsenal Tula - Volga Ulyanovsk",
-            "home_team": "Arsenal Tula",
-            "away_team": "Volga Ulyanovsk",
-            "markets": {
-                "q1": 1.99,
-                "qx": 3.15,
-                "q2": 3.85,
-                "o25": 2.29,
-                "o05ht": 1.49,
-                "o15ht": 3.28
-            },
-            "averages": {
-                "home_avg_ft": 3.125,
-                "away_avg_ft": 2.5,
-                "home_avg_ht": 1.75,
-                "away_avg_ht": 1.125,
-                "combined_ht_avg": 1.438
-            },
-            "flags": {
-                "fav_quote": 1.99,
-                "is_gold_zone": false,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-05",
-                    "league": "Cup",
-                    "match": "Arsenal Tula - Lokomotiv",
-                    "ht": "1-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "First League",
-                    "match": "KAMAZ - Arsenal Tula",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Friendlies Clubs",
-                    "match": "Arsenal Tula - Atyrau",
-                    "ht": "None-None",
-                    "ft": "3-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Friendlies Clubs",
-                    "match": "Chayka - Arsenal Tula",
-                    "ht": "1-4",
-                    "ft": "2-4",
-                    "total_ht_goals": 5,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Friendlies Clubs",
-                    "match": "Arsenal Tula - Rodina Moskva II",
-                    "ht": "1-3",
-                    "ft": "1-4",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-02",
-                    "league": "Friendlies Clubs",
-                    "match": "Arsenal Tula - Dinamo Makhachkala",
-                    "ht": "0-0",
-                    "ft": "0-4",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-29",
-                    "league": "Friendlies Clubs",
-                    "match": "Arsenal Tula - Nasaf",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-11-30",
-                    "league": "First League",
-                    "match": "Arsenal Tula - FK Neftekhimik",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-01",
-                    "league": "First League",
-                    "match": "Enisey - Volga Ulyanovsk",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-18",
-                    "league": "Friendlies Clubs",
-                    "match": "Rotor Volgograd - Volga Ulyanovsk",
-                    "ht": "1-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Friendlies Clubs",
-                    "match": "Volga Ulyanovsk - Novosibirsk",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Friendlies Clubs",
-                    "match": "Volga Ulyanovsk - Altay",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Friendlies Clubs",
-                    "match": "Volga Ulyanovsk - KAMAZ",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-29",
-                    "league": "Friendlies Clubs",
-                    "match": "Volga Ulyanovsk - Torpedo Moskva",
-                    "ht": "1-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-21",
-                    "league": "Friendlies Clubs",
-                    "match": "Volga Ulyanovsk - Leningradets",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-11-29",
-                    "league": "First League",
-                    "match": "Volga Ulyanovsk - Ural",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                }
-            ]
-        },
-        "1445903": {
-            "fixture_id": 1445903,
-            "date": "2026-03-09",
-            "time": "15:30",
-            "league": "Premyer Liqa",
-            "country": "Azerbaijan",
-            "match": "Zira - Kapaz",
-            "home_team": "Zira",
-            "away_team": "Kapaz",
-            "markets": {
-                "q1": 1.44,
-                "qx": 3.9,
-                "q2": 6.6,
-                "o25": 1.95,
-                "o05ht": 1.42,
-                "o15ht": 2.95
-            },
-            "averages": {
-                "home_avg_ft": 1.875,
-                "away_avg_ft": 1.875,
-                "home_avg_ht": 1.25,
-                "away_avg_ht": 1.375,
-                "combined_ht_avg": 1.312
-            },
-            "flags": {
-                "fav_quote": 1.44,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "Cup",
-                    "match": "Zira - Sumqayıt",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Premyer Liqa",
-                    "match": "Araz - Zira",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Premyer Liqa",
-                    "match": "Turan - Zira",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Premyer Liqa",
-                    "match": "Zira - Karvan",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Premyer Liqa",
-                    "match": "Sumqayıt - Zira",
-                    "ht": "1-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-04",
-                    "league": "Cup",
-                    "match": "Sumqayıt - Zira",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Premyer Liqa",
-                    "match": "Zira - Sabah FA",
-                    "ht": "0-3",
-                    "ft": "1-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-23",
-                    "league": "Premyer Liqa",
-                    "match": "Neftchi Baku - Zira",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-05",
-                    "league": "Cup",
-                    "match": "Kapaz - Turan",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Premyer Liqa",
-                    "match": "Kapaz - Sumqayıt",
-                    "ht": "3-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Premyer Liqa",
-                    "match": "Sabah FA - Kapaz",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Premyer Liqa",
-                    "match": "Kapaz - Neftchi Baku",
-                    "ht": "1-3",
-                    "ft": "1-3",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Premyer Liqa",
-                    "match": "Mil-Muğan - Kapaz",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Cup",
-                    "match": "Turan - Kapaz",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Premyer Liqa",
-                    "match": "Kapaz - Keshla FC",
-                    "ht": "0-2",
-                    "ft": "0-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-24",
-                    "league": "Premyer Liqa",
-                    "match": "Qarabag - Kapaz",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ]
-        },
-        "1418398": {
-            "fixture_id": 1418398,
-            "date": "2026-03-09",
-            "time": "16:00",
-            "league": "Liga II",
-            "country": "Romania",
-            "match": "ASA Targu Mures - Chindia Targoviste",
-            "home_team": "ASA Targu Mures",
-            "away_team": "Chindia Targoviste",
-            "markets": {
-                "q1": 2.4,
-                "qx": 2.9,
-                "q2": 2.75,
-                "o25": 1.95,
-                "o05ht": 1.35,
-                "o15ht": 2.62
-            },
-            "averages": {
-                "home_avg_ft": 2.375,
-                "away_avg_ft": 3.75,
-                "home_avg_ht": 0.875,
-                "away_avg_ht": 1.375,
-                "combined_ht_avg": 1.125
-            },
-            "flags": {
-                "fav_quote": 2.4,
-                "is_gold_zone": false,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "Liga II",
-                    "match": "ASA Targu Mures - Metalul Buzău",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Liga II",
-                    "match": "Bihor Oradea - ASA Targu Mures",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Friendlies Clubs",
-                    "match": "Epitsentr Dunayivtsi - ASA Targu Mures",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-12-13",
-                    "league": "Liga II",
-                    "match": "ASA Targu Mures - CSM Reşiţa",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-12-06",
-                    "league": "Liga II",
-                    "match": "CS Dinamo București - ASA Targu Mures",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-11-28",
-                    "league": "Liga II",
-                    "match": "ASA Targu Mures - Concordia",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2025-11-22",
-                    "league": "Liga II",
-                    "match": "Tunari - ASA Targu Mures",
-                    "ht": "0-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-11-10",
-                    "league": "Liga II",
-                    "match": "ASA Targu Mures - Politehnica Iasi",
-                    "ht": "2-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-01",
-                    "league": "Liga II",
-                    "match": "Chindia Targoviste - Bihor Oradea",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Liga II",
-                    "match": "CSM Reşiţa - Chindia Targoviste",
-                    "ht": "2-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Friendlies Clubs",
-                    "match": "CSA Steaua Bucureşti - Chindia Targoviste",
-                    "ht": "0-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Friendlies Clubs",
-                    "match": "Chindia Targoviste - FC Voluntari",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Friendlies Clubs",
-                    "match": "Chindia Targoviste - Progresul Spartac",
-                    "ht": "2-1",
-                    "ft": "5-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-04",
-                    "league": "Friendlies Clubs",
-                    "match": "Chindia Targoviste - CS Afumati",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Friendlies Clubs",
-                    "match": "Chindia Targoviste - ARO Muscelul Câmpulung",
-                    "ht": "1-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-24",
-                    "league": "Friendlies Clubs",
-                    "match": "Chindia Targoviste - Vulturii Fărcăşeşti",
-                    "ht": "1-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                }
-            ]
-        },
-        "1498078": {
-            "fixture_id": 1498078,
-            "date": "2026-03-09",
-            "time": "16:00",
-            "league": "Liga Revelação U23",
-            "country": "Portugal",
-            "match": "Estrela U23 - União Leiria U23",
-            "home_team": "Estrela U23",
-            "away_team": "União Leiria U23",
-            "markets": {
-                "q1": 1.77,
-                "qx": 3.6,
-                "q2": 3.85,
-                "o25": 1.7,
-                "o05ht": 1.3,
-                "o15ht": 2.4
-            },
-            "averages": {
-                "home_avg_ft": 2.25,
-                "away_avg_ft": 3.375,
-                "home_avg_ht": 0.625,
-                "away_avg_ht": 1.625,
-                "combined_ht_avg": 1.125
-            },
-            "flags": {
-                "fav_quote": 1.77,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🚀 BOOST"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "Liga Revelação U23",
-                    "match": "Portimonense U23 - Estrela U23",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Estrela U23 - Estoril U23",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Liga Revelação U23",
-                    "match": "Estrela U23 - Marítimo U23",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Liga Revelação U23",
-                    "match": "Rio Ave U23 - Estrela U23",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-03",
-                    "league": "Liga Revelação U23",
-                    "match": "Estrela U23 - Gil Vicente U23",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Liga Revelação U23",
-                    "match": "Estrela U23 - Farense U23",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-20",
-                    "league": "Liga Revelação U23",
-                    "match": "Estrela U23 - Vizela U23",
-                    "ht": "1-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-14",
-                    "league": "Liga Revelação U23",
-                    "match": "União Leiria U23 - Estrela U23",
-                    "ht": "0-2",
-                    "ft": "1-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "Liga Revelação U23",
-                    "match": "União Leiria U23 - Gil Vicente U23",
-                    "ht": "1-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Farense U23 - União Leiria U23",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Liga Revelação U23",
-                    "match": "Rio Ave U23 - União Leiria U23",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Liga Revelação U23",
-                    "match": "Portimonense U23 - União Leiria U23",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-24",
-                    "league": "Liga Revelação U23",
-                    "match": "União Leiria U23 - Estoril U23",
-                    "ht": "1-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-20",
-                    "league": "Liga Revelação U23",
-                    "match": "Marítimo U23 - União Leiria U23",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-14",
-                    "league": "Liga Revelação U23",
-                    "match": "União Leiria U23 - Estrela U23",
-                    "ht": "0-2",
-                    "ft": "1-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-10",
-                    "league": "Liga Revelação U23",
-                    "match": "Gil Vicente U23 - União Leiria U23",
-                    "ht": "2-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                }
-            ]
-        },
-        "1498079": {
-            "fixture_id": 1498079,
-            "date": "2026-03-09",
-            "time": "16:00",
-            "league": "Liga Revelação U23",
-            "country": "Portugal",
-            "match": "Gil Vicente U23 - Vizela U23",
-            "home_team": "Gil Vicente U23",
-            "away_team": "Vizela U23",
-            "markets": {
-                "q1": 1.85,
-                "qx": 3.6,
-                "q2": 3.45,
-                "o25": 1.7,
-                "o05ht": 1.28,
-                "o15ht": 2.38
-            },
-            "averages": {
-                "home_avg_ft": 3.625,
-                "away_avg_ft": 3.25,
-                "home_avg_ht": 1.75,
-                "away_avg_ht": 1.75,
-                "combined_ht_avg": 1.75
-            },
-            "flags": {
-                "fav_quote": 1.85,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": true
-            },
-            "tags": [
-                "M-Ok",
-                "🚀 BOOST",
-                "🎯PT"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "Liga Revelação U23",
-                    "match": "União Leiria U23 - Gil Vicente U23",
-                    "ht": "1-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Gil Vicente U23 - Portimonense U23",
-                    "ht": "3-2",
-                    "ft": "5-3",
-                    "total_ht_goals": 5,
-                    "total_ft_goals": 8
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Liga Revelação U23",
-                    "match": "Gil Vicente U23 - Estoril U23",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Liga Revelação U23",
-                    "match": "Marítimo U23 - Gil Vicente U23",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-03",
-                    "league": "Liga Revelação U23",
-                    "match": "Estrela U23 - Gil Vicente U23",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-27",
-                    "league": "Liga Revelação U23",
-                    "match": "Portimonense U23 - Gil Vicente U23",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Farense U23 - Gil Vicente U23",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-20",
-                    "league": "Liga Revelação U23",
-                    "match": "Gil Vicente U23 - Rio Ave U23",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-02",
-                    "league": "Liga Revelação U23",
-                    "match": "Farense U23 - Vizela U23",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Rio Ave U23 - Vizela U23",
-                    "ht": "2-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Liga Revelação U23",
-                    "match": "Vizela U23 - Farense U23",
-                    "ht": "0-3",
-                    "ft": "1-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-03",
-                    "league": "Liga Revelação U23",
-                    "match": "Vizela U23 - Portimonense U23",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-29",
-                    "league": "Liga Revelação U23",
-                    "match": "Estoril U23 - Vizela U23",
-                    "ht": "2-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Vizela U23 - Marítimo U23",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-20",
-                    "league": "Liga Revelação U23",
-                    "match": "Estrela U23 - Vizela U23",
-                    "ht": "1-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-14",
-                    "league": "Liga Revelação U23",
-                    "match": "Vizela U23 - Gil Vicente U23",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                }
-            ]
-        },
-        "1391562": {
-            "fixture_id": 1391562,
-            "date": "2026-03-09",
-            "time": "17:00",
-            "league": "Premier League",
-            "country": "Ukraine",
-            "match": "Veres Rivne - LNZ Cherkasy",
-            "home_team": "Veres Rivne",
-            "away_team": "LNZ Cherkasy",
-            "markets": {
-                "q1": 4.33,
-                "qx": 3.0,
-                "q2": 1.85,
-                "o25": 2.7,
-                "o05ht": 1.55,
-                "o15ht": 3.65
-            },
-            "averages": {
-                "home_avg_ft": 2.625,
-                "away_avg_ft": 2.25,
-                "home_avg_ht": 1.625,
-                "away_avg_ht": 0.75,
-                "combined_ht_avg": 1.188
-            },
-            "flags": {
-                "fav_quote": 1.85,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-02-27",
-                    "league": "Premier League",
-                    "match": "Shakhtar Donetsk - Veres Rivne",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Premier League",
-                    "match": "Veres Rivne - SK Poltava",
-                    "ht": "1-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Friendlies Clubs",
-                    "match": "Veres Rivne - Dinamo Tbilisi",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Friendlies Clubs",
-                    "match": "Veres Rivne - Hvidovre",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Friendlies Clubs",
-                    "match": "Veres Rivne - Kudrivka",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Friendlies Clubs",
-                    "match": "Dynamo Kyiv - Veres Rivne",
-                    "ht": "2-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-02",
-                    "league": "Friendlies Clubs",
-                    "match": "Veres Rivne - Saburtalo",
-                    "ht": "2-2",
-                    "ft": "2-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-26",
-                    "league": "Friendlies Clubs",
-                    "match": "Veres Rivne - Dukagjini",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "Premier League",
-                    "match": "LNZ Cherkasy - Polessya",
-                    "ht": "0-2",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Premier League",
-                    "match": "Epitsentr Dunayivtsi - LNZ Cherkasy",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Friendlies Clubs",
-                    "match": "LNZ Cherkasy - Riga",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Friendlies Clubs",
-                    "match": "LNZ Cherkasy - Shakhtar Donetsk",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Friendlies Clubs",
-                    "match": "Kolos Kovalivka - LNZ Cherkasy",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Friendlies Clubs",
-                    "match": "LNZ Cherkasy - Zeljeznicar Sarajevo",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Friendlies Clubs",
-                    "match": "LNZ Cherkasy - FK Sarajevo",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Friendlies Clubs",
-                    "match": "Polonia Warszawa - LNZ Cherkasy",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ]
-        },
-        "1395256": {
-            "fixture_id": 1395256,
-            "date": "2026-03-09",
-            "time": "17:00",
-            "league": "Prva Liga",
-            "country": "Serbia",
-            "match": "Macva - FAP",
-            "home_team": "Macva",
-            "away_team": "FAP",
-            "markets": {
-                "q1": 1.62,
-                "qx": 3.2,
-                "q2": 5.0,
-                "o25": 2.38,
-                "o05ht": 1.44,
-                "o15ht": 3.3
-            },
-            "averages": {
-                "home_avg_ft": 2.0,
-                "away_avg_ft": 2.25,
-                "home_avg_ht": 1.375,
-                "away_avg_ht": 1.0,
-                "combined_ht_avg": 1.188
-            },
-            "flags": {
-                "fav_quote": 1.62,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "Prva Liga",
-                    "match": "Dinamo Jug - Macva",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Prva Liga",
-                    "match": "Macva - Semendrija 1924",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Prva Liga",
-                    "match": "FK Vozdovac - Macva",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-01-17",
-                    "league": "Friendlies Clubs",
-                    "match": "Radnik Bijeljina - Macva",
-                    "ht": "1-1",
-                    "ft": "1-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-12-14",
-                    "league": "Prva Liga",
-                    "match": "Macva - Zemun",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-12-07",
-                    "league": "Prva Liga",
-                    "match": "Borac Cacak - Macva",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-11-29",
-                    "league": "Prva Liga",
-                    "match": "Macva - Jedinstvo Ub",
-                    "ht": "2-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-11-23",
-                    "league": "Prva Liga",
-                    "match": "Kabel Novi Sad - Macva",
-                    "ht": "0-3",
-                    "ft": "0-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-01",
-                    "league": "Prva Liga",
-                    "match": "FAP - Tekstilac Odžaci",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-23",
-                    "league": "Prva Liga",
-                    "match": "Grafičar - FAP",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Prva Liga",
-                    "match": "FAP - Stepojevac Vaga",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-21",
-                    "league": "Friendlies Clubs",
-                    "match": "Semendrija 1924 - FAP",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-12-13",
-                    "league": "Prva Liga",
-                    "match": "FK Trayal - FAP",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-12-07",
-                    "league": "Prva Liga",
-                    "match": "FAP - Dubočica",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-11-28",
-                    "league": "Prva Liga",
-                    "match": "Loznica - FAP",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-11-23",
-                    "league": "Prva Liga",
-                    "match": "FAP - OFK Vršac",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ]
-        },
-        "1400189": {
-            "fixture_id": 1400189,
-            "date": "2026-03-09",
-            "time": "17:00",
-            "league": "Premier League",
-            "country": "Russia",
-            "match": "Spartak Moscow - Akron",
-            "home_team": "Spartak Moscow",
-            "away_team": "Akron",
-            "markets": {
-                "q1": 1.4,
-                "qx": 5.1,
-                "q2": 8.1,
-                "o25": 1.64,
-                "o05ht": 1.28,
-                "o15ht": 2.4
-            },
-            "averages": {
-                "home_avg_ft": 3.625,
-                "away_avg_ft": 2.375,
-                "home_avg_ht": 0.875,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.188
-            },
-            "flags": {
-                "fav_quote": 1.4,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-05",
-                    "league": "Cup",
-                    "match": "Dynamo - Spartak Moscow",
-                    "ht": "1-1",
-                    "ft": "5-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-03-02",
-                    "league": "Premier League",
-                    "match": "FC Sochi - Spartak Moscow",
-                    "ht": "0-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-23",
-                    "league": "Friendlies Clubs",
-                    "match": "Spartak Moscow - Yelimay Semey",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Friendlies Clubs",
-                    "match": "Spartak Moscow - FC Rostov",
-                    "ht": "1-0",
-                    "ft": "5-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Friendlies Clubs",
-                    "match": "Spartak Moscow - FC Astana",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Friendlies Clubs",
-                    "match": "Spartak Moscow - Dalian Zhixing",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-03",
-                    "league": "Friendlies Clubs",
-                    "match": "Spartak Moscow - Pyunik Yerevan",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-12-06",
-                    "league": "Premier League",
-                    "match": "Spartak Moscow - Dynamo",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "Premier League",
-                    "match": "FC Orenburg - Akron",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Friendlies Clubs",
-                    "match": "Ural - Akron",
-                    "ht": "None-None",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Friendlies Clubs",
-                    "match": "Akron - Dalian Zhixing",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Friendlies Clubs",
-                    "match": "Akron - Hangzhou Greentown",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Friendlies Clubs",
-                    "match": "Akron - Dinamo Samarqand",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Friendlies Clubs",
-                    "match": "Akron - Rodina Moskva II",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-22",
-                    "league": "Friendlies Clubs",
-                    "match": "Akron - CSKA Moscow",
-                    "ht": "1-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-12-06",
-                    "league": "Premier League",
-                    "match": "Zenit - Akron",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                }
-            ]
-        },
-        "1400905": {
-            "fixture_id": 1400905,
-            "date": "2026-03-09",
-            "time": "17:00",
-            "league": "Super League 1",
-            "country": "Greece",
-            "match": "Panetolikos - Kifisia",
-            "home_team": "Panetolikos",
-            "away_team": "Kifisia",
-            "markets": {
-                "q1": 2.32,
-                "qx": 3.0,
-                "q2": 3.05,
-                "o25": 2.35,
-                "o05ht": 1.48,
-                "o15ht": 3.2
-            },
-            "averages": {
-                "home_avg_ft": 2.625,
-                "away_avg_ft": 2.625,
-                "home_avg_ht": 1.75,
-                "away_avg_ht": 1.25,
-                "combined_ht_avg": 1.5
-            },
-            "flags": {
-                "fav_quote": 2.32,
-                "is_gold_zone": false,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "Super League 1",
-                    "match": "Atromitos - Panetolikos",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Super League 1",
-                    "match": "Olympiakos Piraeus - Panetolikos",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Super League 1",
-                    "match": "Panetolikos - Asteras Tripolis",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Super League 1",
-                    "match": "Larisa - Panetolikos",
-                    "ht": "1-3",
-                    "ft": "1-4",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Super League 1",
-                    "match": "Panetolikos - Aris Thessalonikis",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Super League 1",
-                    "match": "OFI - Panetolikos",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-19",
-                    "league": "Super League 1",
-                    "match": "Panetolikos - Levadiakos",
-                    "ht": "0-3",
-                    "ft": "1-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-10",
-                    "league": "Super League 1",
-                    "match": "Panetolikos - PAOK",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-04",
-                    "league": "Super League 1",
-                    "match": "Kifisia - PAOK",
-                    "ht": "0-1",
-                    "ft": "1-4",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Super League 1",
-                    "match": "Kifisia - Levadiakos",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Super League 1",
-                    "match": "Aris Thessalonikis - Kifisia",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Super League 1",
-                    "match": "Kifisia - OFI",
-                    "ht": "1-2",
-                    "ft": "2-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Super League 1",
-                    "match": "Kifisia - Atromitos",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Super League 1",
-                    "match": "Panathinaikos - Kifisia",
-                    "ht": "1-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-17",
-                    "league": "Super League 1",
-                    "match": "Panserraikos - Kifisia",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-14",
-                    "league": "Cup",
-                    "match": "Levadiakos - Kifisia",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ]
-        },
-        "1469465": {
-            "fixture_id": 1469465,
-            "date": "2026-03-09",
-            "time": "17:00",
-            "league": "Ligue 1",
-            "country": "Burkina-Faso",
-            "match": "SONABEL - Rahimo",
-            "home_team": "SONABEL",
-            "away_team": "Rahimo",
-            "markets": {
-                "q1": 4.0,
-                "qx": 2.88,
-                "q2": 1.95,
-                "o25": 3.0,
-                "o05ht": 1.57,
-                "o15ht": 3.75
-            },
-            "averages": {
-                "home_avg_ft": 1.75,
-                "away_avg_ft": 2.375,
-                "home_avg_ht": 1.0,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.25
-            },
-            "flags": {
-                "fav_quote": 1.95,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": true
-            },
-            "tags": [
-                "M-Ok"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-01",
-                    "league": "Ligue 1",
-                    "match": "SONABEL - USFA",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Ligue 1",
-                    "match": "Salitas - SONABEL",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Ligue 1",
-                    "match": "SONABEL - Sporting Cascades",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Ligue 1",
-                    "match": "SONABEL - Réal du Faso",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Ligue 1",
-                    "match": "AJEB - SONABEL",
-                    "ht": "2-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Ligue 1",
-                    "match": "SONABEL - Etoile Filante",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2025-12-26",
-                    "league": "Ligue 1",
-                    "match": "Etoile Filante - SONABEL",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-12-18",
-                    "league": "Ligue 1",
-                    "match": "SONABEL - AJEB",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "Ligue 1",
-                    "match": "Salitas - Rahimo",
-                    "ht": "1-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Ligue 1",
-                    "match": "Rahimo - AJEB",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-16",
-                    "league": "Ligue 1",
-                    "match": "Etoile Filante - Rahimo",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Ligue 1",
-                    "match": "ASFA-Yennenga - Rahimo",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Ligue 1",
-                    "match": "Rahimo - ASFB",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-27",
-                    "league": "Ligue 1",
-                    "match": "Douanes - Rahimo",
-                    "ht": "1-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-12-29",
-                    "league": "Ligue 1",
-                    "match": "Rahimo - Douanes",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-12-23",
-                    "league": "Ligue 1",
-                    "match": "Rahimo - Sporting Cascades",
-                    "ht": "2-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                }
-            ]
-        },
         "1384355": {
             "fixture_id": 1384355,
             "date": "2026-03-09",
@@ -3123,12 +13,12 @@
             "home_team": "Radomlje",
             "away_team": "Bravo",
             "markets": {
-                "q1": 2.92,
-                "qx": 3.4,
-                "q2": 2.2,
-                "o25": 1.73,
-                "o05ht": 1.35,
-                "o15ht": 2.55
+                "q1": 2.76,
+                "qx": 3.5,
+                "q2": 2.26,
+                "o25": 1.62,
+                "o05ht": 1.3,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 2.875,
@@ -3138,7 +28,7 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 2.2,
+                "fav_quote": 2.26,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
@@ -3307,12 +197,12 @@
             "home_team": "Polonia Warszawa",
             "away_team": "ŁKS Łódź",
             "markets": {
-                "q1": 2.05,
-                "qx": 3.3,
-                "q2": 3.2,
-                "o25": 1.8,
-                "o05ht": 1.36,
-                "o15ht": 2.65
+                "q1": 1.95,
+                "qx": 3.4,
+                "q2": 3.35,
+                "o25": 1.77,
+                "o05ht": 1.33,
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.5,
@@ -3322,14 +212,13 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 2.05,
+                "fav_quote": 1.95,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
             },
             "tags": [
                 "M-Ok",
-                "🐟G",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -3674,12 +563,12 @@
             "home_team": "OFK Beograd",
             "away_team": "Radnicki 1923",
             "markets": {
-                "q1": 2.2,
-                "qx": 3.4,
-                "q2": 2.92,
-                "o25": 1.75,
-                "o05ht": 1.36,
-                "o15ht": 2.65
+                "q1": 2.24,
+                "qx": 3.3,
+                "q2": 2.94,
+                "o25": 1.91,
+                "o05ht": 1.4,
+                "o15ht": 2.8
             },
             "averages": {
                 "home_avg_ft": 2.0,
@@ -3689,7 +578,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 2.2,
+                "fav_quote": 2.24,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -3858,12 +747,12 @@
             "home_team": "Alanyaspor",
             "away_team": "Gençlerbirliği S.K.",
             "markets": {
-                "q1": 1.9,
+                "q1": 1.97,
                 "qx": 3.4,
-                "q2": 4.0,
+                "q2": 3.75,
                 "o25": 2.0,
-                "o05ht": 1.4,
-                "o15ht": 2.8
+                "o05ht": 1.38,
+                "o15ht": 2.75
             },
             "averages": {
                 "home_avg_ft": 3.375,
@@ -3873,8 +762,8 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.9,
-                "is_gold_zone": true,
+                "fav_quote": 1.97,
+                "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
@@ -4041,12 +930,12 @@
             "home_team": "Kayserispor",
             "away_team": "Trabzonspor",
             "markets": {
-                "q1": 3.6,
+                "q1": 3.45,
                 "qx": 3.55,
-                "q2": 1.97,
+                "q2": 2.0,
                 "o25": 1.8,
-                "o05ht": 1.36,
-                "o15ht": 2.65
+                "o05ht": 1.33,
+                "o15ht": 2.45
             },
             "averages": {
                 "home_avg_ft": 2.125,
@@ -4056,13 +945,14 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.97,
+                "fav_quote": 2.0,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
+                "🐟G",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -4224,12 +1114,12 @@
             "home_team": "AC Horsens",
             "away_team": "Lyngby",
             "markets": {
-                "q1": 2.84,
-                "qx": 2.86,
-                "q2": 2.58,
+                "q1": 2.76,
+                "qx": 3.05,
+                "q2": 2.5,
                 "o25": 2.1,
-                "o05ht": 1.4,
-                "o15ht": 2.75
+                "o05ht": 1.45,
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -4239,15 +1129,14 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 2.58,
+                "fav_quote": 2.5,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -4408,12 +1297,12 @@
             "home_team": "Wisla Plock",
             "away_team": "Arka Gdynia",
             "markets": {
-                "q1": 1.96,
+                "q1": 1.9,
                 "qx": 3.25,
-                "q2": 3.95,
+                "q2": 4.2,
                 "o25": 2.25,
                 "o05ht": 1.42,
-                "o15ht": 2.95
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 2.0,
@@ -4423,8 +1312,8 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 1.96,
-                "is_gold_zone": false,
+                "fav_quote": 1.9,
+                "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
@@ -4580,6 +1469,189 @@
                 }
             ]
         },
+        "1415533": {
+            "fixture_id": 1415533,
+            "date": "2026-03-09",
+            "time": "19:00",
+            "league": "Superliga",
+            "country": "Albania",
+            "match": "Dinamo Tirana - Partizani",
+            "home_team": "Dinamo Tirana",
+            "away_team": "Partizani",
+            "markets": {
+                "q1": 1.85,
+                "qx": 3.2,
+                "q2": 3.7,
+                "o25": 2.05,
+                "o05ht": 1.38,
+                "o15ht": 0.0
+            },
+            "averages": {
+                "home_avg_ft": 1.75,
+                "away_avg_ft": 2.375,
+                "home_avg_ht": 0.75,
+                "away_avg_ht": 1.375,
+                "combined_ht_avg": 1.062
+            },
+            "flags": {
+                "fav_quote": 1.85,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true
+            },
+            "tags": [
+                "M-Ok",
+                "🚀 BOOST"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-04",
+                    "league": "Cup",
+                    "match": "Dinamo Tirana - Tirana",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Superliga",
+                    "match": "Vora - Dinamo Tirana",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Superliga",
+                    "match": "Egnatia Rrogozhinë - Dinamo Tirana",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "Superliga",
+                    "match": "Dinamo Tirana - Flamurtari",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-11",
+                    "league": "Cup",
+                    "match": "Tirana - Dinamo Tirana",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Superliga",
+                    "match": "Tirana - Dinamo Tirana",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Superliga",
+                    "match": "Dinamo Tirana - Bylis",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-01-25",
+                    "league": "Superliga",
+                    "match": "AF Elbasani - Dinamo Tirana",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-02-28",
+                    "league": "Superliga",
+                    "match": "Partizani - Egnatia Rrogozhinë",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Superliga",
+                    "match": "Flamurtari - Partizani",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "Superliga",
+                    "match": "Partizani - Tirana",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-11",
+                    "league": "Cup",
+                    "match": "AF Elbasani - Partizani",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Superliga",
+                    "match": "Bylis - Partizani",
+                    "ht": "1-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Superliga",
+                    "match": "Partizani - AF Elbasani",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-24",
+                    "league": "Superliga",
+                    "match": "Vllaznia Shkodër - Partizani",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-19",
+                    "league": "Superliga",
+                    "match": "Partizani - Teuta Durrës",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
         "1486358": {
             "fixture_id": 1486358,
             "date": "2026-03-09",
@@ -4590,10 +1662,10 @@
             "home_team": "Egersund",
             "away_team": "Aalesund",
             "markets": {
-                "q1": 2.75,
-                "qx": 3.55,
-                "q2": 2.2,
-                "o25": 1.55,
+                "q1": 2.88,
+                "qx": 3.6,
+                "q2": 2.1,
+                "o25": 1.57,
                 "o05ht": 1.25,
                 "o15ht": 2.2
             },
@@ -4605,7 +1677,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 2.2,
+                "fav_quote": 2.1,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -4764,190 +1836,6 @@
                 }
             ]
         },
-        "1522647": {
-            "fixture_id": 1522647,
-            "date": "2026-03-09",
-            "time": "19:00",
-            "league": "Svenska Cupen",
-            "country": "Sweden",
-            "match": "AIK Stockholm - BK Hacken",
-            "home_team": "AIK Stockholm",
-            "away_team": "BK Hacken",
-            "markets": {
-                "q1": 2.6,
-                "qx": 3.45,
-                "q2": 2.35,
-                "o25": 1.77,
-                "o05ht": 1.3,
-                "o15ht": 2.4
-            },
-            "averages": {
-                "home_avg_ft": 3.375,
-                "away_avg_ft": 3.0,
-                "home_avg_ht": 1.625,
-                "away_avg_ht": 0.75,
-                "combined_ht_avg": 1.188
-            },
-            "flags": {
-                "fav_quote": 2.35,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-02-28",
-                    "league": "Svenska Cupen",
-                    "match": "Oddevold - AIK Stockholm",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Svenska Cupen",
-                    "match": "AIK Stockholm - Vasteras SK FK",
-                    "ht": "0-2",
-                    "ft": "0-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Friendlies Clubs",
-                    "match": "Viking - AIK Stockholm",
-                    "ht": "1-1",
-                    "ft": "4-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Friendlies Clubs",
-                    "match": "Toronto FC - AIK Stockholm",
-                    "ht": "1-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-03",
-                    "league": "Friendlies Clubs",
-                    "match": "AIK Stockholm - FK Liepaja",
-                    "ht": "1-2",
-                    "ft": "1-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Friendlies Clubs",
-                    "match": "AIK Stockholm - Flora Tallinn",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-17",
-                    "league": "Friendlies Clubs",
-                    "match": "AIK Stockholm - Degerfors IF",
-                    "ht": "1-2",
-                    "ft": "3-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2025-11-09",
-                    "league": "Allsvenskan",
-                    "match": "AIK Stockholm - Halmstad",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-01",
-                    "league": "Svenska Cupen",
-                    "match": "BK Hacken - Vasteras SK FK",
-                    "ht": "1-0",
-                    "ft": "4-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Svenska Cupen",
-                    "match": "BK Hacken - Oddevold",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Friendlies Clubs",
-                    "match": "BK Hacken - IFK Goteborg",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Friendlies Clubs",
-                    "match": "BK Hacken - Orgryte IS",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Friendlies Clubs",
-                    "match": "BK Hacken - Polessya",
-                    "ht": "0-1",
-                    "ft": "1-5",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Friendlies Clubs",
-                    "match": "BK Hacken - FC Nordsjaelland",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-12-18",
-                    "league": "UEFA Europa Conference League",
-                    "match": "Slovan Bratislava - BK Hacken",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-12-11",
-                    "league": "UEFA Europa Conference League",
-                    "match": "BK Hacken - AEK Larnaca",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                }
-            ]
-        },
         "1522648": {
             "fixture_id": 1522648,
             "date": "2026-03-09",
@@ -4958,12 +1846,12 @@
             "home_team": "Vasteras SK FK",
             "away_team": "Oddevold",
             "markets": {
-                "q1": 1.36,
+                "q1": 1.4,
                 "qx": 4.6,
-                "q2": 6.4,
-                "o25": 1.48,
+                "q2": 5.75,
+                "o25": 1.45,
                 "o05ht": 1.22,
-                "o15ht": 2.1
+                "o15ht": 2.05
             },
             "averages": {
                 "home_avg_ft": 2.875,
@@ -4973,8 +1861,8 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 1.36,
-                "is_gold_zone": false,
+                "fav_quote": 1.4,
+                "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
@@ -5144,7 +2032,7 @@
                 "q1": 2.15,
                 "qx": 3.9,
                 "q2": 2.88,
-                "o25": 1.48,
+                "o25": 1.44,
                 "o05ht": 1.22,
                 "o15ht": 2.05
             },
@@ -5325,12 +2213,12 @@
             "home_team": "Budapest Honved",
             "away_team": "Kecskeméti TE",
             "markets": {
-                "q1": 1.77,
-                "qx": 3.45,
-                "q2": 4.0,
-                "o25": 1.93,
-                "o05ht": 1.36,
-                "o15ht": 2.65
+                "q1": 1.62,
+                "qx": 3.6,
+                "q2": 4.8,
+                "o25": 1.85,
+                "o05ht": 1.42,
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 2.125,
@@ -5340,14 +2228,14 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.77,
+                "fav_quote": 1.62,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🚀 BOOST"
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -5508,12 +2396,12 @@
             "home_team": "Stoke City U21",
             "away_team": "Burnley U21",
             "markets": {
-                "q1": 2.25,
+                "q1": 2.3,
                 "qx": 3.65,
-                "q2": 2.5,
+                "q2": 2.45,
                 "o25": 1.44,
                 "o05ht": 1.2,
-                "o15ht": 1.95
+                "o15ht": 1.93
             },
             "averages": {
                 "home_avg_ft": 3.75,
@@ -5523,7 +2411,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 2.25,
+                "fav_quote": 2.3,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -5691,12 +2579,12 @@
             "home_team": "Sunderland U21",
             "away_team": "Leeds United U21",
             "markets": {
-                "q1": 2.15,
-                "qx": 3.6,
-                "q2": 2.65,
+                "q1": 2.05,
+                "qx": 3.7,
+                "q2": 2.7,
                 "o25": 1.5,
-                "o05ht": 1.22,
-                "o15ht": 2.05
+                "o05ht": 1.2,
+                "o15ht": 1.95
             },
             "averages": {
                 "home_avg_ft": 3.75,
@@ -5706,7 +2594,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.15,
+                "fav_quote": 2.05,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -5877,7 +2765,7 @@
                 "q1": 1.75,
                 "qx": 3.85,
                 "q2": 3.45,
-                "o25": 1.4,
+                "o25": 1.5,
                 "o05ht": 1.2,
                 "o15ht": 1.95
             },
@@ -6056,10 +2944,10 @@
             "home_team": "Reading U21",
             "away_team": "Everton U21",
             "markets": {
-                "q1": 2.65,
-                "qx": 3.6,
-                "q2": 2.15,
-                "o25": 1.5,
+                "q1": 2.38,
+                "qx": 3.55,
+                "q2": 2.38,
+                "o25": 1.53,
                 "o05ht": 1.22,
                 "o15ht": 2.05
             },
@@ -6071,14 +2959,15 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 2.15,
+                "fav_quote": 2.38,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🐟G"
+                "🐟G",
+                "🚀 BOOST"
             ],
             "home_last_8": [
                 {
@@ -6239,12 +3128,12 @@
             "home_team": "Almeria",
             "away_team": "Cultural Leonesa",
             "markets": {
-                "q1": 1.51,
-                "qx": 4.2,
-                "q2": 5.9,
-                "o25": 1.62,
-                "o05ht": 1.28,
-                "o15ht": 2.3
+                "q1": 1.56,
+                "qx": 4.1,
+                "q2": 5.4,
+                "o25": 1.67,
+                "o05ht": 1.3,
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.375,
@@ -6254,7 +3143,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 1.51,
+                "fav_quote": 1.56,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -6423,12 +3312,12 @@
             "home_team": "National Bank of Egypt",
             "away_team": "Pyramids FC",
             "markets": {
-                "q1": 3.7,
-                "qx": 3.2,
-                "q2": 1.98,
-                "o25": 2.35,
+                "q1": 3.9,
+                "qx": 3.15,
+                "q2": 1.94,
+                "o25": 2.25,
                 "o05ht": 1.48,
-                "o15ht": 3.3
+                "o15ht": 3.2
             },
             "averages": {
                 "home_avg_ft": 2.0,
@@ -6438,7 +3327,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.98,
+                "fav_quote": 1.94,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -6605,12 +3494,12 @@
             "home_team": "Campobasso FC",
             "away_team": "Arezzo",
             "markets": {
-                "q1": 3.2,
-                "qx": 3.1,
+                "q1": 3.25,
+                "qx": 3.0,
                 "q2": 2.15,
                 "o25": 2.35,
                 "o05ht": 1.48,
-                "o15ht": 3.3
+                "o15ht": 3.2
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -6789,8 +3678,8 @@
             "away_team": "Ravenna",
             "markets": {
                 "q1": 1.85,
-                "qx": 3.1,
-                "q2": 4.1,
+                "qx": 3.2,
+                "q2": 4.0,
                 "o25": 2.25,
                 "o05ht": 1.48,
                 "o15ht": 3.2
@@ -6970,9 +3859,9 @@
             "home_team": "Catania",
             "away_team": "Casertana",
             "markets": {
-                "q1": 1.45,
-                "qx": 3.65,
-                "q2": 7.0,
+                "q1": 1.4,
+                "qx": 3.7,
+                "q2": 8.8,
                 "o25": 2.1,
                 "o05ht": 1.42,
                 "o15ht": 2.9
@@ -6985,7 +3874,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.45,
+                "fav_quote": 1.4,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
@@ -7154,10 +4043,10 @@
             "away_team": "Audace Cerignola",
             "markets": {
                 "q1": 2.05,
-                "qx": 3.2,
-                "q2": 3.3,
+                "qx": 3.3,
+                "q2": 3.2,
                 "o25": 1.9,
-                "o05ht": 1.38,
+                "o05ht": 1.36,
                 "o15ht": 2.65
             },
             "averages": {
@@ -7337,10 +4226,10 @@
             "home_team": "West Ham",
             "away_team": "Brentford",
             "markets": {
-                "q1": 3.05,
+                "q1": 3.2,
                 "qx": 3.5,
-                "q2": 2.18,
-                "o25": 1.7,
+                "q2": 2.12,
+                "o25": 1.75,
                 "o05ht": 1.33,
                 "o15ht": 2.45
             },
@@ -7352,7 +4241,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 2.18,
+                "fav_quote": 2.12,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
@@ -7524,11 +4413,11 @@
             "away_team": "Newport City",
             "markets": {
                 "q1": 2.33,
-                "qx": 3.5,
-                "q2": 2.45,
-                "o25": 1.55,
+                "qx": 3.45,
+                "q2": 2.5,
+                "o25": 1.57,
                 "o05ht": 1.25,
-                "o15ht": 2.2
+                "o15ht": 2.25
             },
             "averages": {
                 "home_avg_ft": 3.75,
@@ -7707,12 +4596,12 @@
             "home_team": "Shelbourne",
             "away_team": "Shamrock Rovers",
             "markets": {
-                "q1": 2.58,
-                "qx": 3.15,
-                "q2": 2.75,
+                "q1": 2.62,
+                "qx": 3.1,
+                "q2": 2.72,
                 "o25": 2.25,
                 "o05ht": 1.42,
-                "o15ht": 2.95
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 3.375,
@@ -7722,7 +4611,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.58,
+                "fav_quote": 2.62,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -7891,7 +4780,7 @@
             "away_team": "Rio Ave",
             "markets": {
                 "q1": 2.1,
-                "qx": 3.25,
+                "qx": 3.2,
                 "q2": 3.55,
                 "o25": 2.1,
                 "o05ht": 1.42,
@@ -8072,12 +4961,12 @@
             "home_team": "Harbour View",
             "away_team": "Racing United",
             "markets": {
-                "q1": 3.6,
-                "qx": 3.2,
-                "q2": 1.95,
-                "o25": 2.1,
-                "o05ht": 1.48,
-                "o15ht": 3.2
+                "q1": 4.6,
+                "qx": 3.4,
+                "q2": 1.7,
+                "o25": 2.0,
+                "o05ht": 1.45,
+                "o15ht": 3.1
             },
             "averages": {
                 "home_avg_ft": 3.5,
@@ -8087,13 +4976,14 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.95,
-                "is_gold_zone": false,
+                "fav_quote": 1.7,
+                "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
             },
             "tags": [
-                "M-Ok"
+                "M-Ok",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -8254,11 +5144,11 @@
             "home_team": "Santiago Wanderers",
             "away_team": "Deportes Santa Cruz",
             "markets": {
-                "q1": 2.1,
-                "qx": 3.25,
-                "q2": 3.2,
-                "o25": 2.05,
-                "o05ht": 1.4,
+                "q1": 2.2,
+                "qx": 3.1,
+                "q2": 3.1,
+                "o25": 2.1,
+                "o05ht": 1.42,
                 "o15ht": 2.95
             },
             "averages": {
@@ -8269,15 +5159,14 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 2.1,
+                "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
             },
             "tags": [
                 "M-Ok",
-                "🐟G",
-                "⚽ OVER"
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -8438,12 +5327,12 @@
             "home_team": "Cerro Largo",
             "away_team": "Atletico Torque",
             "markets": {
-                "q1": 3.2,
+                "q1": 3.35,
                 "qx": 3.0,
-                "q2": 2.25,
-                "o25": 2.15,
-                "o05ht": 1.42,
-                "o15ht": 2.88
+                "q2": 2.2,
+                "o25": 2.25,
+                "o05ht": 1.48,
+                "o15ht": 3.2
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -8453,7 +5342,7 @@
                 "combined_ht_avg": 1.812
             },
             "flags": {
-                "fav_quote": 2.25,
+                "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -8621,9 +5510,9 @@
             "home_team": "Cienciano",
             "away_team": "Sport Boys",
             "markets": {
-                "q1": 1.39,
-                "qx": 4.55,
-                "q2": 7.7,
+                "q1": 1.35,
+                "qx": 4.6,
+                "q2": 8.9,
                 "o25": 1.7,
                 "o05ht": 1.3,
                 "o15ht": 2.4
@@ -8636,7 +5525,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 1.39,
+                "fav_quote": 1.35,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
