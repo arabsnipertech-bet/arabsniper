@@ -112,6 +112,9 @@ if "odds_memory" not in st.session_state:
 if "match_details" not in st.session_state:
     st.session_state.match_details = {}
 
+if "selected_fixture_for_modal" not in st.session_state:
+    st.session_state.selected_fixture_for_modal = None
+
 def save_config():
     with open(CONFIG_FILE, "w", encoding="utf-8") as f:
         json.dump(st.session_state.config, f, indent=4, ensure_ascii=False)
@@ -317,6 +320,72 @@ def save_match_details_file():
     with open(DETAILS_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=4, ensure_ascii=False)
     return payload
+
+# ==========================================
+# MODAL DETTAGLI MATCH
+# ==========================================
+@st.dialog("🔎 Dettagli partita", width="large")
+def show_match_modal(fixture_id: str):
+    detail = st.session_state.match_details.get(str(fixture_id))
+
+    if not detail:
+        st.warning("Dettagli non disponibili per questa partita.")
+        return
+
+    st.markdown(f"## {detail['match']}")
+    st.write(f"**Data:** {detail['date']}  |  **Ora:** {detail['time']}")
+    st.write(f"**Lega:** {detail['league']} ({detail['country']})")
+    st.write(f"**Tag:** {' '.join(detail.get('tags', []))}")
+
+    m1, m2, m3 = st.columns(3)
+    m1.metric("1", f"{detail['markets'].get('q1', 0):.2f}")
+    m2.metric("X", f"{detail['markets'].get('qx', 0):.2f}")
+    m3.metric("2", f"{detail['markets'].get('q2', 0):.2f}")
+
+    m4, m5, m6 = st.columns(3)
+    m4.metric("O2.5", f"{detail['markets'].get('o25', 0):.2f}")
+    m5.metric("O0.5 HT", f"{detail['markets'].get('o05ht', 0):.2f}")
+    m6.metric("O1.5 HT", f"{detail['markets'].get('o15ht', 0):.2f}")
+
+    st.markdown("---")
+    st.subheader("📊 Medie e flag")
+
+    a1, a2, a3 = st.columns(3)
+    a1.metric("AVG FT Home", f"{detail['averages'].get('home_avg_ft', 0):.2f}")
+    a2.metric("AVG FT Away", f"{detail['averages'].get('away_avg_ft', 0):.2f}")
+    a3.metric("AVG HT Combo", f"{detail['averages'].get('combined_ht_avg', 0):.2f}")
+
+    st.write(
+        f"**AVG HT Home/Away:** "
+        f"{detail['averages'].get('home_avg_ht', 0):.2f} | "
+        f"{detail['averages'].get('away_avg_ht', 0):.2f}"
+    )
+
+    st.write(
+        f"**Fav quota:** {detail['flags'].get('fav_quote', 0):.2f} | "
+        f"**Gold zone:** {'✅' if detail['flags'].get('is_gold_zone') else '❌'} | "
+        f"**Home last 2H zero:** {'✅' if detail['flags'].get('home_last_2h_zero') else '❌'} | "
+        f"**Away last 2H zero:** {'✅' if detail['flags'].get('away_last_2h_zero') else '❌'}"
+    )
+
+    st.markdown("---")
+    c_home, c_away = st.columns(2)
+
+    with c_home:
+        st.markdown(f"### 🏠 Ultime 8 {detail['home_team']}")
+        df_home = pd.DataFrame(detail.get("home_last_8", []))
+        if not df_home.empty:
+            st.dataframe(df_home, use_container_width=True, hide_index=True)
+        else:
+            st.info("Nessun dato home disponibile.")
+
+    with c_away:
+        st.markdown(f"### ✈️ Ultime 8 {detail['away_team']}")
+        df_away = pd.DataFrame(detail.get("away_last_8", []))
+        if not df_away.empty:
+            st.dataframe(df_away, use_container_width=True, hide_index=True)
+        else:
+            st.info("Nessun dato away disponibile.")
 
 # ==========================================
 # SCAN CORE CON STORAGE SOLO TEST
@@ -566,6 +635,9 @@ if c1.button("📌 SNAP + SCAN"):
 if c2.button("🚀 SCAN VELOCE"):
     run_full_scan(snap=False)
 
+if st.session_state.selected_fixture_for_modal:
+    show_match_modal(st.session_state.selected_fixture_for_modal)
+
 if st.session_state.scan_results:
     df = pd.DataFrame(st.session_state.scan_results)
     full_view = df[df["Data"] == target_dates[HORIZON - 1]]
@@ -583,6 +655,30 @@ if st.session_state.scan_results:
                 .row-boost { background-color: #006400 !important; color: white !important; font-weight: bold; }
                 .row-over { background-color: #90EE90 !important; color: black !important; font-weight: bold; }
                 .row-std { background-color: #FFFFFF !important; color: #000000 !important; }
+                .detail-grid-header {
+                    display: grid;
+                    grid-template-columns: 80px 140px 1fr 1fr;
+                    gap: 10px;
+                    font-weight: bold;
+                    padding: 8px 10px;
+                    background: #1a1c23;
+                    color: #00e5ff;
+                    border: 1px solid #333;
+                    border-radius: 8px;
+                    margin-bottom: 6px;
+                }
+                .detail-grid-row {
+                    display: grid;
+                    grid-template-columns: 80px 140px 1fr 1fr;
+                    gap: 10px;
+                    align-items: center;
+                    padding: 6px 10px;
+                    border-bottom: 1px solid #2a2a2a;
+                    background: #0e1117;
+                    color: white;
+                    border-radius: 6px;
+                    margin-bottom: 4px;
+                }
             </style>
         """, unsafe_allow_html=True)
 
@@ -605,6 +701,39 @@ if st.session_state.scan_results:
 
         html += '</tbody></table></div>'
         st.markdown(html, unsafe_allow_html=True)
+
+        st.markdown("---")
+        st.subheader("🔎 Colonna dettagli cliccabile")
+
+        st.markdown(
+            """
+            <div class="detail-grid-header">
+                <div>Apri</div>
+                <div>Ora</div>
+                <div>Match</div>
+                <div>Lega</div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        for _, row in full_view.iterrows():
+            fid = str(row["Fixture_ID"])
+            c_btn, c_ora, c_match, c_lega = st.columns([1, 1.4, 4, 3])
+
+            with c_btn:
+                if st.button("🔎", key=f"open_modal_{fid}", help="Apri dettagli match"):
+                    st.session_state.selected_fixture_for_modal = fid
+                    st.rerun()
+
+            with c_ora:
+                st.write(row["Ora"])
+
+            with c_match:
+                st.write(row["Match"])
+
+            with c_lega:
+                st.write(row["Lega"])
 
         st.markdown("---")
         d1, d2, d3 = st.columns(3)
