@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-09 11:01:29",
+    "updated_at": "2026-03-09 11:12:15",
     "day": 3,
     "date": "2026-03-11",
     "details": {
@@ -929,12 +929,12 @@
             "home_team": "Junior",
             "away_team": "Atletico Nacional",
             "markets": {
-                "q1": 2.46,
+                "q1": 2.64,
                 "qx": 3.3,
-                "q2": 2.78,
-                "o25": 1.95,
-                "o05ht": 1.36,
-                "o15ht": 2.65
+                "q2": 2.56,
+                "o25": 2.0,
+                "o05ht": 1.4,
+                "o15ht": 2.8
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -944,7 +944,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 2.46,
+                "fav_quote": 2.56,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -3870,7 +3870,7 @@
             "away_team": "Bradford",
             "markets": {
                 "q1": 3.05,
-                "qx": 3.3,
+                "qx": 3.25,
                 "q2": 2.28,
                 "o25": 2.1,
                 "o05ht": 1.42,
