@@ -1,559 +1,8 @@
 {
-    "updated_at": "2026-03-10 06:44:40",
+    "updated_at": "2026-03-10 12:08:55",
     "day": 1,
     "date": "2026-03-10",
     "details": {
-        "1525477": {
-            "fixture_id": 1525477,
-            "date": "2026-03-10",
-            "time": "11:00",
-            "league": "AFC Champions League",
-            "country": "World",
-            "match": "Machida Zelvia - Gangwon FC",
-            "home_team": "Machida Zelvia",
-            "away_team": "Gangwon FC",
-            "markets": {
-                "q1": 1.56,
-                "qx": 3.65,
-                "q2": 5.7,
-                "o25": 2.15,
-                "o05ht": 1.42,
-                "o15ht": 3.0
-            },
-            "averages": {
-                "home_avg_ft": 3.125,
-                "away_avg_ft": 2.375,
-                "home_avg_ht": 1.375,
-                "away_avg_ht": 1.0,
-                "combined_ht_avg": 1.188
-            },
-            "flags": {
-                "fav_quote": 1.56,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": true
-            },
-            "tags": [
-                "M-Ok",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "AFC Champions League",
-                    "match": "Gangwon FC - Machida Zelvia",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "J1 League",
-                    "match": "Machida Zelvia - JEF United Chiba",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-17",
-                    "league": "AFC Champions League",
-                    "match": "Machida Zelvia - Chengdu Better City",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "AFC Champions League",
-                    "match": "Shanghai Shenhua - Machida Zelvia",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "J1 League",
-                    "match": "Yokohama F. Marinos - Machida Zelvia",
-                    "ht": "1-3",
-                    "ft": "2-3",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-15",
-                    "league": "Friendlies Clubs",
-                    "match": "Gamba Osaka - Machida Zelvia",
-                    "ht": "None-None",
-                    "ft": "3-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-12-09",
-                    "league": "AFC Champions League",
-                    "match": "Machida Zelvia - Ulsan Hyundai FC",
-                    "ht": "2-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-12-06",
-                    "league": "J1 League",
-                    "match": "Kashiwa Reysol - Machida Zelvia",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "AFC Champions League",
-                    "match": "Gangwon FC - Machida Zelvia",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "K League 1",
-                    "match": "Ulsan Hyundai FC - Gangwon FC",
-                    "ht": "2-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-18",
-                    "league": "AFC Champions League",
-                    "match": "Melbourne City - Gangwon FC",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "AFC Champions League",
-                    "match": "Gangwon FC - SHANGHAI SIPG",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Friendlies Clubs",
-                    "match": "CSKA 1948 - Gangwon FC",
-                    "ht": "0-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-29",
-                    "league": "Friendlies Clubs",
-                    "match": "Gangwon FC - Slovan Bratislava",
-                    "ht": "1-2",
-                    "ft": "2-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-23",
-                    "league": "Friendlies Clubs",
-                    "match": "CSKA Sofia - Gangwon FC",
-                    "ht": "2-1",
-                    "ft": "5-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-01-18",
-                    "league": "Friendlies Clubs",
-                    "match": "Radnicki 1923 - Gangwon FC",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                }
-            ]
-        },
-        "1498012": {
-            "fixture_id": 1498012,
-            "date": "2026-03-10",
-            "time": "12:00",
-            "league": "Liga Revelação U23",
-            "country": "Portugal",
-            "match": "Leixões U23 - Famalicão U23",
-            "home_team": "Leixões U23",
-            "away_team": "Famalicão U23",
-            "markets": {
-                "q1": 3.0,
-                "qx": 3.65,
-                "q2": 2.0,
-                "o25": 1.57,
-                "o05ht": 1.25,
-                "o15ht": 2.25
-            },
-            "averages": {
-                "home_avg_ft": 3.5,
-                "away_avg_ft": 5.0,
-                "home_avg_ht": 1.125,
-                "away_avg_ht": 2.25,
-                "combined_ht_avg": 1.688
-            },
-            "flags": {
-                "fav_quote": 2.0,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "Liga Revelação U23",
-                    "match": "Sporting CP U23 - Leixões U23",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-25",
-                    "league": "Liga Revelação U23",
-                    "match": "Leixões U23 - Academico Viseu U23",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-16",
-                    "league": "Liga Revelação U23",
-                    "match": "Santa Clara U23 - Leixões U23",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Liga Revelação U23",
-                    "match": "Leixões U23 - Sporting CP U23",
-                    "ht": "1-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Liga Revelação U23",
-                    "match": "Leixões U23 - Benfica U23",
-                    "ht": "0-2",
-                    "ft": "2-5",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-01-26",
-                    "league": "Liga Revelação U23",
-                    "match": "Torreense U23 - Leixões U23",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-19",
-                    "league": "Liga Revelação U23",
-                    "match": "Leixões U23 - Sporting Braga U23",
-                    "ht": "1-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-13",
-                    "league": "Liga Revelação U23",
-                    "match": "Famalicão U23 - Leixões U23",
-                    "ht": "1-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-03",
-                    "league": "Liga Revelação U23",
-                    "match": "Famalicão U23 - Santa Clara U23",
-                    "ht": "0-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Liga Revelação U23",
-                    "match": "Famalicão U23 - Benfica U23",
-                    "ht": "3-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Liga Revelação U23",
-                    "match": "Famalicão U23 - Sporting Braga U23",
-                    "ht": "1-2",
-                    "ft": "4-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Liga Revelação U23",
-                    "match": "Santa Clara U23 - Famalicão U23",
-                    "ht": "1-2",
-                    "ft": "4-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 8
-                },
-                {
-                    "date": "2026-01-27",
-                    "league": "Liga Revelação U23",
-                    "match": "Famalicão U23 - Academico Viseu U23",
-                    "ht": "2-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-13",
-                    "league": "Liga Revelação U23",
-                    "match": "Famalicão U23 - Leixões U23",
-                    "ht": "1-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-12-22",
-                    "league": "Liga Revelação U23",
-                    "match": "Famalicão U23 - Marítimo U23",
-                    "ht": "3-1",
-                    "ft": "6-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 8
-                },
-                {
-                    "date": "2025-12-16",
-                    "league": "Liga Revelação U23",
-                    "match": "Academico Viseu U23 - Famalicão U23",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                }
-            ]
-        },
-        "1498081": {
-            "fixture_id": 1498081,
-            "date": "2026-03-10",
-            "time": "12:00",
-            "league": "Liga Revelação U23",
-            "country": "Portugal",
-            "match": "Farense U23 - Rio Ave U23",
-            "home_team": "Farense U23",
-            "away_team": "Rio Ave U23",
-            "markets": {
-                "q1": 1.8,
-                "qx": 3.65,
-                "q2": 3.7,
-                "o25": 1.75,
-                "o05ht": 1.33,
-                "o15ht": 2.5
-            },
-            "averages": {
-                "home_avg_ft": 2.875,
-                "away_avg_ft": 3.125,
-                "home_avg_ht": 1.25,
-                "away_avg_ht": 1.625,
-                "combined_ht_avg": 1.438
-            },
-            "flags": {
-                "fav_quote": 1.8,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false
-            },
-            "tags": [
-                "M-Ok",
-                "🚀 BOOST",
-                "🎯PT"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-02",
-                    "league": "Liga Revelação U23",
-                    "match": "Farense U23 - Vizela U23",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Farense U23 - União Leiria U23",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Liga Revelação U23",
-                    "match": "Farense U23 - Portimonense U23",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Liga Revelação U23",
-                    "match": "Vizela U23 - Farense U23",
-                    "ht": "0-3",
-                    "ft": "1-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-03",
-                    "league": "Liga Revelação U23",
-                    "match": "Farense U23 - Marítimo U23",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Liga Revelação U23",
-                    "match": "Estrela U23 - Farense U23",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Farense U23 - Gil Vicente U23",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-14",
-                    "league": "Liga Revelação U23",
-                    "match": "Rio Ave U23 - Farense U23",
-                    "ht": "1-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-02-24",
-                    "league": "Liga Revelação U23",
-                    "match": "Rio Ave U23 - Vizela U23",
-                    "ht": "2-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Liga Revelação U23",
-                    "match": "Rio Ave U23 - União Leiria U23",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Liga Revelação U23",
-                    "match": "Rio Ave U23 - Estrela U23",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Liga Revelação U23",
-                    "match": "Portimonense U23 - Rio Ave U23",
-                    "ht": "1-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-03",
-                    "league": "Liga Revelação U23",
-                    "match": "Estoril U23 - Rio Ave U23",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Liga Revelação U23",
-                    "match": "Marítimo U23 - Rio Ave U23",
-                    "ht": "0-3",
-                    "ft": "0-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-20",
-                    "league": "Liga Revelação U23",
-                    "match": "Gil Vicente U23 - Rio Ave U23",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-14",
-                    "league": "Liga Revelação U23",
-                    "match": "Rio Ave U23 - Farense U23",
-                    "ht": "1-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                }
-            ]
-        },
         "1498013": {
             "fixture_id": 1498013,
             "date": "2026-03-10",
@@ -564,9 +13,9 @@
             "home_team": "Santa Clara U23",
             "away_team": "Sporting Braga U23",
             "markets": {
-                "q1": 1.95,
-                "qx": 3.45,
-                "q2": 3.35,
+                "q1": 2.15,
+                "qx": 3.4,
+                "q2": 2.95,
                 "o25": 1.77,
                 "o05ht": 1.33,
                 "o15ht": 2.5
@@ -579,13 +28,14 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.95,
+                "fav_quote": 2.15,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
+                "🐟G",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -747,9 +197,9 @@
             "home_team": "Buriram United",
             "away_team": "Melbourne City",
             "markets": {
-                "q1": 1.74,
-                "qx": 3.45,
-                "q2": 4.45,
+                "q1": 1.79,
+                "qx": 3.4,
+                "q2": 4.2,
                 "o25": 1.95,
                 "o05ht": 1.4,
                 "o15ht": 2.8
@@ -762,14 +212,13 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 1.74,
+                "fav_quote": 1.79,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🐟O",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -935,7 +384,7 @@
                 "qx": 3.75,
                 "q2": 2.7,
                 "o25": 1.36,
-                "o05ht": 1.18,
+                "o05ht": 1.2,
                 "o15ht": 1.85
             },
             "averages": {
@@ -1114,12 +563,12 @@
             "home_team": "İskenderunspor",
             "away_team": "Buca FK",
             "markets": {
-                "q1": 1.28,
-                "qx": 4.8,
-                "q2": 8.0,
+                "q1": 1.15,
+                "qx": 5.1,
+                "q2": 16.0,
                 "o25": 1.5,
                 "o05ht": 1.25,
-                "o15ht": 2.1
+                "o15ht": 2.05
             },
             "averages": {
                 "home_avg_ft": 2.875,
@@ -1129,7 +578,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.28,
+                "fav_quote": 1.15,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -1297,12 +746,12 @@
             "home_team": "Serik Spor",
             "away_team": "Pendikspor",
             "markets": {
-                "q1": 6.5,
+                "q1": 6.6,
                 "qx": 3.9,
-                "q2": 1.45,
-                "o25": 1.77,
-                "o05ht": 1.33,
-                "o15ht": 2.4
+                "q2": 1.44,
+                "o25": 1.8,
+                "o05ht": 1.36,
+                "o15ht": 2.62
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -1312,7 +761,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.45,
+                "fav_quote": 1.44,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
@@ -1483,12 +932,12 @@
             "home_team": "FK Rabotnicki",
             "away_team": "Aresimi",
             "markets": {
-                "q1": 1.83,
+                "q1": 1.7,
                 "qx": 3.5,
-                "q2": 3.5,
-                "o25": 1.67,
-                "o05ht": 1.29,
-                "o15ht": 2.3
+                "q2": 4.1,
+                "o25": 1.73,
+                "o05ht": 1.3,
+                "o15ht": 2.38
             },
             "averages": {
                 "home_avg_ft": 3.625,
@@ -1498,13 +947,14 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 1.83,
+                "fav_quote": 1.7,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
+                "🐟O",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -1849,12 +1299,12 @@
             "home_team": "Hull City U21",
             "away_team": "Sheffield United U21",
             "markets": {
-                "q1": 3.45,
-                "qx": 3.7,
-                "q2": 1.8,
+                "q1": 3.1,
+                "qx": 3.9,
+                "q2": 1.85,
                 "o25": 1.44,
-                "o05ht": 1.22,
-                "o15ht": 2.0
+                "o05ht": 1.2,
+                "o15ht": 1.93
             },
             "averages": {
                 "home_avg_ft": 3.875,
@@ -1864,7 +1314,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.8,
+                "fav_quote": 1.85,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -2214,12 +1664,12 @@
             "home_team": "Mbarara City",
             "away_team": "Kitara",
             "markets": {
-                "q1": 4.75,
-                "qx": 3.3,
-                "q2": 1.65,
-                "o25": 2.35,
-                "o05ht": 1.4,
-                "o15ht": 3.0
+                "q1": 5.25,
+                "qx": 3.1,
+                "q2": 1.64,
+                "o25": 2.25,
+                "o05ht": 1.45,
+                "o15ht": 0.0
             },
             "averages": {
                 "home_avg_ft": 2.25,
@@ -2229,15 +1679,14 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 1.65,
+                "fav_quote": 1.64,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🐟O",
-                "⚽ OVER"
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -2399,8 +1848,8 @@
             "away_team": "Arba Minch Kenema",
             "markets": {
                 "q1": 2.3,
-                "qx": 2.7,
-                "q2": 3.2,
+                "qx": 2.62,
+                "q2": 3.25,
                 "o25": 3.0,
                 "o05ht": 1.65,
                 "o15ht": 4.0
@@ -2585,7 +2034,7 @@
                 "qx": 3.6,
                 "q2": 4.2,
                 "o25": 1.8,
-                "o05ht": 1.36,
+                "o05ht": 1.38,
                 "o15ht": 0.0
             },
             "averages": {
@@ -2765,12 +2214,12 @@
             "home_team": "Bjelovar",
             "away_team": "Varteks Varaždin",
             "markets": {
-                "q1": 2.1,
-                "qx": 3.1,
-                "q2": 3.0,
-                "o25": 1.85,
+                "q1": 2.05,
+                "qx": 3.35,
+                "q2": 2.95,
+                "o25": 1.75,
                 "o05ht": 1.33,
-                "o15ht": 2.6
+                "o15ht": 2.5
             },
             "averages": {
                 "home_avg_ft": 3.5,
@@ -2780,7 +2229,7 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 2.1,
+                "fav_quote": 2.05,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -2949,10 +2398,10 @@
             "home_team": "Mash'al",
             "away_team": "Qizilqum",
             "markets": {
-                "q1": 2.6,
+                "q1": 2.5,
                 "qx": 2.9,
-                "q2": 2.6,
-                "o25": 2.25,
+                "q2": 2.65,
+                "o25": 2.3,
                 "o05ht": 1.44,
                 "o15ht": 0.0
             },
@@ -2964,7 +2413,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 2.6,
+                "fav_quote": 2.5,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -3132,12 +2581,12 @@
             "home_team": "Academico Viseu U23",
             "away_team": "Sporting CP U23",
             "markets": {
-                "q1": 2.05,
-                "qx": 3.35,
-                "q2": 3.25,
-                "o25": 1.8,
-                "o05ht": 1.35,
-                "o15ht": 2.62
+                "q1": 1.95,
+                "qx": 3.2,
+                "q2": 3.6,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 2.25,
@@ -3147,15 +2596,13 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 2.05,
+                "fav_quote": 1.95,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "M-Ok"
             ],
             "home_last_8": [
                 {
@@ -3316,12 +2763,12 @@
             "home_team": "Marítimo U23",
             "away_team": "Portimonense U23",
             "markets": {
-                "q1": 3.0,
-                "qx": 3.3,
+                "q1": 3.1,
+                "qx": 3.2,
                 "q2": 2.15,
-                "o25": 1.85,
+                "o25": 2.0,
                 "o05ht": 1.42,
-                "o15ht": 2.88
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 2.125,
@@ -3499,12 +2946,12 @@
             "home_team": "Pakhtakor",
             "away_team": "Navbahor",
             "markets": {
-                "q1": 1.62,
-                "qx": 3.2,
+                "q1": 1.57,
+                "qx": 3.5,
                 "q2": 5.0,
-                "o25": 2.08,
-                "o05ht": 1.36,
-                "o15ht": 2.8
+                "o25": 1.85,
+                "o05ht": 1.38,
+                "o15ht": 2.6
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -3514,7 +2961,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.62,
+                "fav_quote": 1.57,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -3683,12 +3130,12 @@
             "home_team": "Sabah FA",
             "away_team": "Qabala",
             "markets": {
-                "q1": 1.33,
-                "qx": 4.2,
-                "q2": 8.6,
-                "o25": 2.0,
-                "o05ht": 1.38,
-                "o15ht": 2.75
+                "q1": 1.28,
+                "qx": 4.6,
+                "q2": 10.5,
+                "o25": 1.8,
+                "o05ht": 1.33,
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.25,
@@ -3698,7 +3145,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.33,
+                "fav_quote": 1.28,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
@@ -3869,12 +3316,12 @@
             "home_team": "NK Slaven Belupo",
             "away_team": "NK Lokomotiva Zagreb",
             "markets": {
-                "q1": 1.8,
-                "qx": 3.45,
-                "q2": 3.85,
+                "q1": 2.2,
+                "qx": 3.3,
+                "q2": 2.9,
                 "o25": 1.85,
                 "o05ht": 1.33,
-                "o15ht": 2.6
+                "o15ht": 2.55
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -3884,13 +3331,14 @@
                 "combined_ht_avg": 1.812
             },
             "flags": {
-                "fav_quote": 1.8,
-                "is_gold_zone": true,
+                "fav_quote": 2.2,
+                "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
+                "🐟G",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -4052,12 +3500,12 @@
             "home_team": "Douanes",
             "away_team": "Sporting Cascades",
             "markets": {
-                "q1": 2.4,
-                "qx": 2.62,
+                "q1": 2.38,
+                "qx": 2.6,
                 "q2": 3.2,
                 "o25": 3.4,
                 "o05ht": 1.73,
-                "o15ht": 4.33
+                "o15ht": 0.0
             },
             "averages": {
                 "home_avg_ft": 2.25,
@@ -4067,7 +3515,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.4,
+                "fav_quote": 2.38,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": true
@@ -4235,11 +3683,11 @@
             "home_team": "Flora Tallinn",
             "away_team": "Nõmme United",
             "markets": {
-                "q1": 1.17,
-                "qx": 7.0,
-                "q2": 11.0,
-                "o25": 1.36,
-                "o05ht": 1.17,
+                "q1": 1.14,
+                "qx": 6.2,
+                "q2": 12.0,
+                "o25": 1.33,
+                "o05ht": 1.18,
                 "o15ht": 1.8
             },
             "averages": {
@@ -4250,7 +3698,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 1.17,
+                "fav_quote": 1.14,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -4418,12 +3866,12 @@
             "home_team": "Kauno Žalgiris",
             "away_team": "Panevėžys",
             "markets": {
-                "q1": 1.48,
-                "qx": 4.1,
-                "q2": 5.8,
+                "q1": 1.53,
+                "qx": 4.0,
+                "q2": 5.2,
                 "o25": 1.65,
                 "o05ht": 1.28,
-                "o15ht": 2.3
+                "o15ht": 2.38
             },
             "averages": {
                 "home_avg_ft": 2.25,
@@ -4433,7 +3881,7 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 1.48,
+                "fav_quote": 1.53,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -4602,12 +4050,12 @@
             "home_team": "Manisa F.K.",
             "away_team": "Sarıyer",
             "markets": {
-                "q1": 2.35,
-                "qx": 3.5,
-                "q2": 2.6,
-                "o25": 1.65,
-                "o05ht": 1.3,
-                "o15ht": 2.38
+                "q1": 2.5,
+                "qx": 3.35,
+                "q2": 2.5,
+                "o25": 1.8,
+                "o05ht": 1.35,
+                "o15ht": 2.62
             },
             "averages": {
                 "home_avg_ft": 3.5,
@@ -4617,7 +4065,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 2.35,
+                "fav_quote": 2.5,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -4786,12 +4234,12 @@
             "home_team": "Žilina",
             "away_team": "AS Trencin",
             "markets": {
-                "q1": 1.62,
-                "qx": 3.4,
-                "q2": 4.6,
-                "o25": 1.67,
-                "o05ht": 1.25,
-                "o15ht": 2.3
+                "q1": 1.73,
+                "qx": 3.5,
+                "q2": 3.9,
+                "o25": 1.65,
+                "o05ht": 1.29,
+                "o15ht": 2.35
             },
             "averages": {
                 "home_avg_ft": 2.0,
@@ -4801,7 +4249,7 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 1.62,
+                "fav_quote": 1.73,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -4971,10 +4419,10 @@
             "away_team": "Tartu Welco",
             "markets": {
                 "q1": 1.25,
-                "qx": 5.5,
-                "q2": 7.5,
-                "o25": 1.33,
-                "o05ht": 1.15,
+                "qx": 5.1,
+                "q2": 8.4,
+                "o25": 1.36,
+                "o05ht": 1.17,
                 "o15ht": 1.75
             },
             "averages": {
@@ -5153,12 +4601,12 @@
             "home_team": "Sturm Graz II",
             "away_team": "FC Liefering",
             "markets": {
-                "q1": 2.75,
-                "qx": 3.55,
-                "q2": 2.25,
-                "o25": 1.62,
-                "o05ht": 1.28,
-                "o15ht": 2.3
+                "q1": 2.95,
+                "qx": 3.5,
+                "q2": 2.15,
+                "o25": 1.65,
+                "o05ht": 1.3,
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.625,
@@ -5168,7 +4616,7 @@
                 "combined_ht_avg": 1.562
             },
             "flags": {
-                "fav_quote": 2.25,
+                "fav_quote": 2.15,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -5337,10 +4785,10 @@
             "home_team": "Floridsdorfer AC",
             "away_team": "Schwarz-Weiß Bregenz",
             "markets": {
-                "q1": 1.68,
-                "qx": 3.6,
-                "q2": 4.6,
-                "o25": 1.9,
+                "q1": 1.6,
+                "qx": 3.65,
+                "q2": 5.2,
+                "o25": 1.93,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -5352,7 +4800,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.68,
+                "fav_quote": 1.6,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -5521,10 +4969,10 @@
             "home_team": "Orbit College",
             "away_team": "Mamelodi Sundowns",
             "markets": {
-                "q1": 14.5,
-                "qx": 4.6,
+                "q1": 15.0,
+                "qx": 4.55,
                 "q2": 1.27,
-                "o25": 1.95,
+                "o25": 2.0,
                 "o05ht": 1.4,
                 "o15ht": 2.8
             },
@@ -5705,12 +5153,12 @@
             "home_team": "Al Bataeh",
             "away_team": "Ajman",
             "markets": {
-                "q1": 2.68,
-                "qx": 3.25,
-                "q2": 2.44,
-                "o25": 1.93,
-                "o05ht": 1.36,
-                "o15ht": 2.65
+                "q1": 2.92,
+                "qx": 3.2,
+                "q2": 2.3,
+                "o25": 2.05,
+                "o05ht": 1.4,
+                "o15ht": 2.8
             },
             "averages": {
                 "home_avg_ft": 2.25,
@@ -5720,7 +5168,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 2.44,
+                "fav_quote": 2.3,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -5889,10 +5337,10 @@
             "home_team": "Al-Dhafra",
             "away_team": "Al-Jazira",
             "markets": {
-                "q1": 3.95,
-                "qx": 3.6,
-                "q2": 1.78,
-                "o25": 1.75,
+                "q1": 4.45,
+                "qx": 3.75,
+                "q2": 1.67,
+                "o25": 1.73,
                 "o05ht": 1.33,
                 "o15ht": 2.45
             },
@@ -5904,13 +5352,14 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.78,
+                "fav_quote": 1.67,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
+                "🐟O",
                 "⚽ OVER"
             ],
             "home_last_8": [
@@ -6072,10 +5521,10 @@
             "home_team": "Galatasaray",
             "away_team": "Liverpool",
             "markets": {
-                "q1": 4.3,
+                "q1": 4.2,
                 "qx": 4.0,
                 "q2": 1.71,
-                "o25": 1.48,
+                "o25": 1.5,
                 "o05ht": 1.22,
                 "o15ht": 2.05
             },
@@ -6256,10 +5705,10 @@
             "away_team": "Torreense U23",
             "markets": {
                 "q1": 2.05,
-                "qx": 3.45,
-                "q2": 3.1,
+                "qx": 3.5,
+                "q2": 3.0,
                 "o25": 1.77,
-                "o05ht": 1.33,
+                "o05ht": 1.3,
                 "o15ht": 2.5
             },
             "averages": {
@@ -6439,10 +5888,10 @@
             "home_team": "FK Zalgiris Vilnius",
             "away_team": "Suduva Marijampole",
             "markets": {
-                "q1": 1.6,
-                "qx": 3.7,
-                "q2": 5.0,
-                "o25": 1.93,
+                "q1": 1.77,
+                "qx": 3.5,
+                "q2": 4.0,
+                "o25": 1.85,
                 "o05ht": 1.35,
                 "o15ht": 2.62
             },
@@ -6454,15 +5903,13 @@
                 "combined_ht_avg": 1.875
             },
             "flags": {
-                "fav_quote": 1.6,
+                "fav_quote": 1.77,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
             },
             "tags": [
-                "⚽⭐ GOLD",
                 "M-Ok",
-                "🐟O",
                 "🚀 BOOST",
                 "🎯PT"
             ],
@@ -6625,12 +6072,12 @@
             "home_team": "Patro Eisden",
             "away_team": "Liège",
             "markets": {
-                "q1": 1.83,
-                "qx": 3.45,
-                "q2": 4.0,
-                "o25": 1.85,
-                "o05ht": 1.36,
-                "o15ht": 2.65
+                "q1": 1.77,
+                "qx": 3.5,
+                "q2": 4.1,
+                "o25": 2.0,
+                "o05ht": 1.4,
+                "o15ht": 2.8
             },
             "averages": {
                 "home_avg_ft": 3.75,
@@ -6640,7 +6087,7 @@
                 "combined_ht_avg": 1.562
             },
             "flags": {
-                "fav_quote": 1.83,
+                "fav_quote": 1.77,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -6809,10 +6256,10 @@
             "home_team": "AS Eupen",
             "away_team": "K. Lierse S.K.",
             "markets": {
-                "q1": 1.9,
+                "q1": 1.95,
                 "qx": 3.5,
-                "q2": 3.65,
-                "o25": 1.8,
+                "q2": 3.45,
+                "o25": 1.77,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -6824,8 +6271,8 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.9,
-                "is_gold_zone": true,
+                "fav_quote": 1.95,
+                "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
@@ -6993,7 +6440,7 @@
             "away_team": "Club Brugge II",
             "markets": {
                 "q1": 2.2,
-                "qx": 3.65,
+                "qx": 3.7,
                 "q2": 2.75,
                 "o25": 1.53,
                 "o05ht": 1.25,
@@ -7176,12 +6623,12 @@
             "home_team": "Traiskirchen",
             "away_team": "Gloggnitz",
             "markets": {
-                "q1": 1.73,
-                "qx": 3.75,
-                "q2": 3.7,
-                "o25": 1.7,
+                "q1": 1.83,
+                "qx": 3.55,
+                "q2": 3.45,
+                "o25": 1.57,
                 "o05ht": 1.25,
-                "o15ht": 2.3
+                "o15ht": 2.25
             },
             "averages": {
                 "home_avg_ft": 4.0,
@@ -7191,14 +6638,13 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.73,
+                "fav_quote": 1.83,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🐟O",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -7360,9 +6806,9 @@
             "home_team": "Holywell",
             "away_team": "Newtown AFC",
             "markets": {
-                "q1": 1.44,
-                "qx": 4.0,
-                "q2": 5.5,
+                "q1": 1.36,
+                "qx": 4.1,
+                "q2": 6.8,
                 "o25": 1.5,
                 "o05ht": 1.2,
                 "o15ht": 2.0
@@ -7375,8 +6821,8 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 1.44,
-                "is_gold_zone": true,
+                "fav_quote": 1.36,
+                "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
@@ -7543,12 +6989,12 @@
             "home_team": "Fgura United",
             "away_team": "Balzan FC",
             "markets": {
-                "q1": 5.0,
-                "qx": 3.8,
-                "q2": 1.5,
-                "o25": 1.62,
+                "q1": 6.4,
+                "qx": 3.95,
+                "q2": 1.4,
+                "o25": 1.65,
                 "o05ht": 1.3,
-                "o15ht": 2.45
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 3.75,
@@ -7558,7 +7004,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.5,
+                "fav_quote": 1.4,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -7727,9 +7173,9 @@
             "home_team": "Ayr Utd",
             "away_team": "Queen's Park",
             "markets": {
-                "q1": 1.78,
+                "q1": 1.71,
                 "qx": 3.45,
-                "q2": 4.2,
+                "q2": 4.7,
                 "o25": 2.0,
                 "o05ht": 1.4,
                 "o15ht": 2.8
@@ -7742,13 +7188,15 @@
                 "combined_ht_avg": 1.562
             },
             "flags": {
-                "fav_quote": 1.78,
+                "fav_quote": 1.71,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
             },
             "tags": [
+                "⚽⭐ GOLD",
                 "M-Ok",
+                "🐟O",
                 "🚀 BOOST",
                 "🎯PT"
             ],
@@ -7912,8 +7360,8 @@
             "away_team": "Alloa Athletic",
             "markets": {
                 "q1": 2.5,
-                "qx": 3.25,
-                "q2": 2.55,
+                "qx": 3.3,
+                "q2": 2.5,
                 "o25": 1.85,
                 "o05ht": 1.35,
                 "o15ht": 2.62
@@ -8095,12 +7543,12 @@
             "home_team": "Annan Athletic",
             "away_team": "Elgin City",
             "markets": {
-                "q1": 1.85,
-                "qx": 3.6,
-                "q2": 3.5,
-                "o25": 1.62,
-                "o05ht": 1.28,
-                "o15ht": 2.3
+                "q1": 1.95,
+                "qx": 3.5,
+                "q2": 3.3,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.38
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -8110,8 +7558,8 @@
                 "combined_ht_avg": 1.75
             },
             "flags": {
-                "fav_quote": 1.85,
-                "is_gold_zone": true,
+                "fav_quote": 1.95,
+                "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
@@ -8279,8 +7727,8 @@
             "away_team": "Stranraer",
             "markets": {
                 "q1": 2.5,
-                "qx": 3.25,
-                "q2": 2.5,
+                "qx": 3.3,
+                "q2": 2.55,
                 "o25": 1.85,
                 "o05ht": 1.35,
                 "o15ht": 2.62
@@ -8462,12 +7910,12 @@
             "home_team": "Crusaders FC",
             "away_team": "Cliftonville FC",
             "markets": {
-                "q1": 4.1,
-                "qx": 3.75,
+                "q1": 4.0,
+                "qx": 3.8,
                 "q2": 1.7,
-                "o25": 1.55,
-                "o05ht": 1.25,
-                "o15ht": 2.2
+                "o25": 1.62,
+                "o05ht": 1.28,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 4.5,
@@ -8646,9 +8094,9 @@
             "home_team": "Bangor",
             "away_team": "Glentoran",
             "markets": {
-                "q1": 7.0,
-                "qx": 4.1,
-                "q2": 1.4,
+                "q1": 9.5,
+                "qx": 4.33,
+                "q2": 1.3,
                 "o25": 1.8,
                 "o05ht": 1.33,
                 "o15ht": 2.45
@@ -8661,8 +8109,8 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 1.4,
-                "is_gold_zone": true,
+                "fav_quote": 1.3,
+                "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
             },
@@ -8833,10 +8281,10 @@
             "away_team": "Portadown",
             "markets": {
                 "q1": 1.28,
-                "qx": 4.5,
-                "q2": 10.25,
-                "o25": 1.7,
-                "o05ht": 1.33,
+                "qx": 4.75,
+                "q2": 9.75,
+                "o25": 1.77,
+                "o05ht": 1.3,
                 "o15ht": 2.45
             },
             "averages": {
@@ -9200,10 +8648,10 @@
             "home_team": "Barrow",
             "away_team": "Bristol Rovers",
             "markets": {
-                "q1": 2.62,
-                "qx": 3.3,
-                "q2": 2.62,
-                "o25": 1.95,
+                "q1": 2.64,
+                "qx": 3.2,
+                "q2": 2.64,
+                "o25": 2.0,
                 "o05ht": 1.4,
                 "o15ht": 2.8
             },
@@ -9215,7 +8663,7 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 2.62,
+                "fav_quote": 2.64,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -9384,10 +8832,10 @@
             "home_team": "Fleetwood Town",
             "away_team": "Cheltenham",
             "markets": {
-                "q1": 1.76,
-                "qx": 3.6,
-                "q2": 4.45,
-                "o25": 1.9,
+                "q1": 1.81,
+                "qx": 3.55,
+                "q2": 4.3,
+                "o25": 1.93,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -9399,7 +8847,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 1.76,
+                "fav_quote": 1.81,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -9567,9 +9015,9 @@
             "home_team": "Gillingham",
             "away_team": "Milton Keynes Dons",
             "markets": {
-                "q1": 3.15,
+                "q1": 3.2,
                 "qx": 3.3,
-                "q2": 2.24,
+                "q2": 2.2,
                 "o25": 2.1,
                 "o05ht": 1.42,
                 "o15ht": 2.95
@@ -9582,7 +9030,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 2.24,
+                "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -9751,10 +9199,10 @@
             "away_team": "Walsall",
             "markets": {
                 "q1": 1.9,
-                "qx": 3.45,
-                "q2": 3.95,
-                "o25": 1.95,
-                "o05ht": 1.4,
+                "qx": 3.55,
+                "q2": 3.85,
+                "o25": 2.0,
+                "o05ht": 1.38,
                 "o15ht": 2.8
             },
             "averages": {
@@ -9935,9 +9383,9 @@
             "away_team": "Hull City",
             "markets": {
                 "q1": 1.93,
-                "qx": 3.55,
+                "qx": 3.5,
                 "q2": 3.75,
-                "o25": 1.83,
+                "o25": 1.85,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -10118,9 +9566,9 @@
             "home_team": "Leicester",
             "away_team": "Bristol City",
             "markets": {
-                "q1": 2.24,
+                "q1": 2.26,
                 "qx": 3.35,
-                "q2": 3.1,
+                "q2": 3.05,
                 "o25": 1.85,
                 "o05ht": 1.36,
                 "o15ht": 2.65
@@ -10133,7 +9581,7 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 2.24,
+                "fav_quote": 2.26,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
@@ -10304,12 +9752,12 @@
             "home_team": "Millwall",
             "away_team": "Derby",
             "markets": {
-                "q1": 1.93,
-                "qx": 3.35,
-                "q2": 3.95,
-                "o25": 1.95,
-                "o05ht": 1.38,
-                "o15ht": 2.65
+                "q1": 2.08,
+                "qx": 3.25,
+                "q2": 3.5,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -10319,14 +9767,14 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.93,
+                "fav_quote": 2.08,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
             },
             "tags": [
                 "M-Ok",
-                "🚀 BOOST"
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -10487,12 +9935,12 @@
             "home_team": "Sheffield Wednesday",
             "away_team": "Watford",
             "markets": {
-                "q1": 7.3,
-                "qx": 4.33,
-                "q2": 1.42,
-                "o25": 1.75,
-                "o05ht": 1.33,
-                "o15ht": 2.45
+                "q1": 7.4,
+                "qx": 4.3,
+                "q2": 1.43,
+                "o25": 1.85,
+                "o05ht": 1.36,
+                "o15ht": 2.65
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -10502,7 +9950,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.42,
+                "fav_quote": 1.43,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -10672,7 +10120,7 @@
             "away_team": "Cardiff",
             "markets": {
                 "q1": 3.4,
-                "qx": 3.85,
+                "qx": 3.8,
                 "q2": 1.94,
                 "o25": 1.57,
                 "o05ht": 1.25,
@@ -10854,10 +10302,10 @@
             "home_team": "Doncaster",
             "away_team": "Luton",
             "markets": {
-                "q1": 2.62,
+                "q1": 2.6,
                 "qx": 3.45,
-                "q2": 2.5,
-                "o25": 1.85,
+                "q2": 2.54,
+                "o25": 1.83,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -10869,7 +10317,7 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 2.5,
+                "fav_quote": 2.54,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -11038,12 +10486,12 @@
             "home_team": "Stevenage",
             "away_team": "Leyton Orient",
             "markets": {
-                "q1": 1.86,
-                "qx": 3.2,
-                "q2": 4.55,
+                "q1": 1.9,
+                "qx": 3.25,
+                "q2": 4.2,
                 "o25": 2.45,
                 "o05ht": 1.5,
-                "o15ht": 3.3
+                "o15ht": 3.4
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -11053,7 +10501,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.86,
+                "fav_quote": 1.9,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -11220,12 +10668,12 @@
             "home_team": "Wigan",
             "away_team": "Plymouth",
             "markets": {
-                "q1": 2.68,
+                "q1": 2.62,
                 "qx": 3.25,
-                "q2": 2.56,
+                "q2": 2.62,
                 "o25": 2.0,
                 "o05ht": 1.38,
-                "o15ht": 2.75
+                "o15ht": 2.7
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -11235,7 +10683,7 @@
                 "combined_ht_avg": 2.0
             },
             "flags": {
-                "fav_quote": 2.56,
+                "fav_quote": 2.62,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -11409,7 +10857,7 @@
                 "q1": 2.62,
                 "qx": 3.4,
                 "q2": 2.2,
-                "o25": 1.6,
+                "o25": 1.57,
                 "o05ht": 1.25,
                 "o15ht": 2.25
             },
@@ -11777,11 +11225,11 @@
             "away_team": "Gateshead",
             "markets": {
                 "q1": 1.33,
-                "qx": 5.0,
-                "q2": 6.75,
-                "o25": 1.35,
-                "o05ht": 1.18,
-                "o15ht": 1.9
+                "qx": 4.6,
+                "q2": 7.8,
+                "o25": 1.38,
+                "o05ht": 1.2,
+                "o15ht": 1.93
             },
             "averages": {
                 "home_avg_ft": 2.75,
@@ -11959,12 +11407,12 @@
             "home_team": "Scunthorpe",
             "away_team": "Sutton Utd",
             "markets": {
-                "q1": 1.73,
-                "qx": 3.9,
-                "q2": 3.8,
-                "o25": 1.48,
-                "o05ht": 1.22,
-                "o15ht": 2.05
+                "q1": 1.75,
+                "qx": 3.8,
+                "q2": 3.75,
+                "o25": 1.5,
+                "o05ht": 1.25,
+                "o15ht": 2.1
             },
             "averages": {
                 "home_avg_ft": 4.125,
@@ -11974,14 +11422,13 @@
                 "combined_ht_avg": 1.812
             },
             "flags": {
-                "fav_quote": 1.73,
+                "fav_quote": 1.75,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
-                "M-Ok",
-                "🐟O"
+                "M-Ok"
             ],
             "home_last_8": [
                 {
@@ -12145,9 +11592,9 @@
                 "q1": 1.95,
                 "qx": 3.5,
                 "q2": 3.3,
-                "o25": 1.65,
+                "o25": 1.7,
                 "o05ht": 1.3,
-                "o15ht": 2.38
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.375,
@@ -12326,11 +11773,11 @@
             "away_team": "Carlisle",
             "markets": {
                 "q1": 2.45,
-                "qx": 3.45,
-                "q2": 2.45,
+                "qx": 3.4,
+                "q2": 2.5,
                 "o25": 1.7,
                 "o05ht": 1.3,
-                "o15ht": 2.38
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -12509,11 +11956,11 @@
             "home_team": "Woking",
             "away_team": "Boreham Wood",
             "markets": {
-                "q1": 3.0,
+                "q1": 3.3,
                 "qx": 3.55,
-                "q2": 2.05,
-                "o25": 1.7,
-                "o05ht": 1.28,
+                "q2": 1.95,
+                "o25": 1.65,
+                "o05ht": 1.3,
                 "o15ht": 2.38
             },
             "averages": {
@@ -12524,14 +11971,13 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 2.05,
+                "fav_quote": 1.95,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🐟G",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -12693,12 +12139,12 @@
             "home_team": "Bath City",
             "away_team": "Farnborough",
             "markets": {
-                "q1": 2.05,
-                "qx": 3.45,
-                "q2": 3.1,
-                "o25": 1.77,
+                "q1": 2.45,
+                "qx": 3.5,
+                "q2": 2.45,
+                "o25": 1.75,
                 "o05ht": 1.3,
-                "o15ht": 2.5
+                "o15ht": 2.45
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -12708,7 +12154,7 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 2.05,
+                "fav_quote": 2.45,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -12877,12 +12323,12 @@
             "home_team": "Dorking Wanderers",
             "away_team": "Chelmsford City",
             "markets": {
-                "q1": 2.4,
-                "qx": 3.35,
-                "q2": 2.55,
-                "o25": 1.77,
-                "o05ht": 1.33,
-                "o15ht": 2.5
+                "q1": 2.25,
+                "qx": 3.45,
+                "q2": 2.75,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.38
             },
             "averages": {
                 "home_avg_ft": 2.75,
@@ -12892,7 +12338,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 2.4,
+                "fav_quote": 2.25,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -13061,12 +12507,12 @@
             "home_team": "Dover",
             "away_team": "Tonbridge Angels",
             "markets": {
-                "q1": 2.38,
-                "qx": 3.5,
-                "q2": 2.55,
-                "o25": 1.65,
-                "o05ht": 1.28,
-                "o15ht": 2.35
+                "q1": 2.4,
+                "qx": 3.35,
+                "q2": 2.6,
+                "o25": 1.8,
+                "o05ht": 1.35,
+                "o15ht": 2.6
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -13076,7 +12522,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 2.38,
+                "fav_quote": 2.4,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -13247,12 +12693,12 @@
             "home_team": "Eastbourne Borough",
             "away_team": "Ebbsfleet United",
             "markets": {
-                "q1": 3.1,
-                "qx": 3.4,
-                "q2": 2.05,
-                "o25": 1.77,
-                "o05ht": 1.33,
-                "o15ht": 2.5
+                "q1": 4.1,
+                "qx": 3.65,
+                "q2": 1.7,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -13262,14 +12708,14 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 2.05,
-                "is_gold_zone": false,
+                "fav_quote": 1.7,
+                "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
-                "🐟G",
+                "🐟O",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -13433,7 +12879,7 @@
             "markets": {
                 "q1": 2.55,
                 "qx": 3.3,
-                "q2": 2.45,
+                "q2": 2.5,
                 "o25": 1.85,
                 "o05ht": 1.35,
                 "o15ht": 2.62
@@ -13446,7 +12892,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 2.45,
+                "fav_quote": 2.5,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -13616,11 +13062,11 @@
             "away_team": "Hampton & Richmond",
             "markets": {
                 "q1": 2.15,
-                "qx": 3.45,
-                "q2": 2.88,
-                "o25": 1.7,
+                "qx": 3.5,
+                "q2": 2.85,
+                "o25": 1.62,
                 "o05ht": 1.3,
-                "o15ht": 2.4
+                "o15ht": 2.38
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -13800,11 +13246,11 @@
             "away_team": "Salisbury",
             "markets": {
                 "q1": 1.64,
-                "qx": 4.1,
-                "q2": 4.1,
-                "o25": 1.53,
+                "qx": 4.0,
+                "q2": 4.2,
+                "o25": 1.55,
                 "o05ht": 1.25,
-                "o15ht": 2.15
+                "o15ht": 2.2
             },
             "averages": {
                 "home_avg_ft": 3.75,
@@ -13983,10 +13429,10 @@
             "home_team": "Weston-super-Mare",
             "away_team": "AFC Totton",
             "markets": {
-                "q1": 1.7,
+                "q1": 1.91,
                 "qx": 3.5,
-                "q2": 4.33,
-                "o25": 1.85,
+                "q2": 3.4,
+                "o25": 1.8,
                 "o05ht": 1.35,
                 "o15ht": 2.62
             },
@@ -13998,15 +13444,13 @@
                 "combined_ht_avg": 1.562
             },
             "flags": {
-                "fav_quote": 1.7,
-                "is_gold_zone": true,
+                "fav_quote": 1.91,
+                "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
             },
             "tags": [
-                "⚽⭐ GOLD",
                 "M-Ok",
-                "🐟O",
                 "🚀 BOOST",
                 "🎯PT"
             ],
@@ -14172,7 +13616,7 @@
                 "q1": 1.73,
                 "qx": 3.7,
                 "q2": 4.0,
-                "o25": 1.65,
+                "o25": 1.62,
                 "o05ht": 1.28,
                 "o15ht": 2.35
             },
@@ -14354,8 +13798,8 @@
             "away_team": "AFC Telford United",
             "markets": {
                 "q1": 1.64,
-                "qx": 4.0,
-                "q2": 4.1,
+                "qx": 3.95,
+                "q2": 4.2,
                 "o25": 1.45,
                 "o05ht": 1.22,
                 "o15ht": 2.05
@@ -14536,9 +13980,9 @@
             "home_team": "Alfreton Town",
             "away_team": "Radcliffe",
             "markets": {
-                "q1": 2.95,
-                "qx": 3.4,
-                "q2": 2.15,
+                "q1": 2.88,
+                "qx": 3.35,
+                "q2": 2.2,
                 "o25": 1.7,
                 "o05ht": 1.33,
                 "o15ht": 2.5
@@ -14551,7 +13995,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 2.15,
+                "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -14720,12 +14164,12 @@
             "home_team": "Bedford Town",
             "away_team": "Worksop Town",
             "markets": {
-                "q1": 2.05,
-                "qx": 3.65,
-                "q2": 2.95,
-                "o25": 1.53,
-                "o05ht": 1.25,
-                "o15ht": 2.15
+                "q1": 2.2,
+                "qx": 3.4,
+                "q2": 2.85,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.375,
@@ -14735,7 +14179,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 2.05,
+                "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -14906,12 +14350,12 @@
             "home_team": "Chorley",
             "away_team": "South Shields",
             "markets": {
-                "q1": 3.25,
+                "q1": 3.0,
                 "qx": 3.5,
-                "q2": 1.95,
+                "q2": 2.05,
                 "o25": 1.65,
                 "o05ht": 1.3,
-                "o15ht": 2.35
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -14921,13 +14365,14 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.95,
+                "fav_quote": 2.05,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
             },
             "tags": [
                 "M-Ok",
+                "🐟G",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -15089,12 +14534,12 @@
             "home_team": "Hereford",
             "away_team": "Leamington",
             "markets": {
-                "q1": 1.44,
-                "qx": 4.1,
-                "q2": 6.5,
-                "o25": 1.7,
-                "o05ht": 1.3,
-                "o15ht": 2.4
+                "q1": 1.4,
+                "qx": 4.33,
+                "q2": 6.75,
+                "o25": 1.6,
+                "o05ht": 1.28,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 3.5,
@@ -15104,7 +14549,7 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 1.44,
+                "fav_quote": 1.4,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -15643,12 +15088,12 @@
             "home_team": "Merthyr Town",
             "away_team": "Chester",
             "markets": {
-                "q1": 2.8,
-                "qx": 3.55,
-                "q2": 2.2,
+                "q1": 2.7,
+                "qx": 3.5,
+                "q2": 2.25,
                 "o25": 1.62,
-                "o05ht": 1.25,
-                "o15ht": 2.2
+                "o05ht": 1.28,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 4.125,
@@ -15658,7 +15103,7 @@
                 "combined_ht_avg": 1.875
             },
             "flags": {
-                "fav_quote": 2.2,
+                "fav_quote": 2.25,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -15827,10 +15272,10 @@
             "home_team": "Southport",
             "away_team": "Spennymoor Town",
             "markets": {
-                "q1": 1.95,
+                "q1": 2.05,
                 "qx": 3.35,
-                "q2": 3.4,
-                "o25": 1.91,
+                "q2": 3.25,
+                "o25": 1.85,
                 "o05ht": 1.35,
                 "o15ht": 2.62
             },
@@ -15842,13 +15287,14 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.95,
+                "fav_quote": 2.05,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": true
             },
             "tags": [
                 "M-Ok",
+                "🐟G",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -16014,8 +15460,8 @@
                 "qx": 4.2,
                 "q2": 3.75,
                 "o25": 1.36,
-                "o05ht": 1.18,
-                "o15ht": 1.91
+                "o05ht": 1.17,
+                "o15ht": 1.85
             },
             "averages": {
                 "home_avg_ft": 4.375,
@@ -16194,11 +15640,11 @@
             "away_team": "Chichester City",
             "markets": {
                 "q1": 3.1,
-                "qx": 3.25,
+                "qx": 3.3,
                 "q2": 1.95,
-                "o25": 1.8,
-                "o05ht": 1.3,
-                "o15ht": 2.5
+                "o25": 1.73,
+                "o05ht": 1.29,
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -16559,12 +16005,12 @@
             "home_team": "Cheshunt",
             "away_team": "Dartford",
             "markets": {
-                "q1": 2.9,
-                "qx": 3.3,
-                "q2": 2.1,
+                "q1": 2.62,
+                "qx": 3.25,
+                "q2": 2.25,
                 "o25": 1.7,
-                "o05ht": 1.29,
-                "o15ht": 2.38
+                "o05ht": 1.25,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -16574,7 +16020,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 2.1,
+                "fav_quote": 2.25,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -16748,7 +16194,7 @@
                 "q2": 2.15,
                 "o25": 1.73,
                 "o05ht": 1.32,
-                "o15ht": 2.46
+                "o15ht": 2.44
             },
             "averages": {
                 "home_avg_ft": 2.0,
@@ -17298,7 +16744,7 @@
                 "q1": 2.75,
                 "qx": 3.1,
                 "q2": 2.2,
-                "o25": 1.6,
+                "o25": 1.7,
                 "o05ht": 1.3,
                 "o15ht": 2.41
             },
@@ -17483,7 +16929,7 @@
                 "qx": 3.1,
                 "q2": 2.8,
                 "o25": 1.75,
-                "o05ht": 1.32,
+                "o05ht": 1.31,
                 "o15ht": 2.53
             },
             "averages": {
@@ -17663,12 +17109,12 @@
             "home_team": "Chertsey Town",
             "away_team": "Taunton Town",
             "markets": {
-                "q1": 2.05,
-                "qx": 3.1,
+                "q1": 2.0,
+                "qx": 3.2,
                 "q2": 3.1,
                 "o25": 1.75,
-                "o05ht": 1.33,
-                "o15ht": 2.5
+                "o05ht": 1.32,
+                "o15ht": 2.47
             },
             "averages": {
                 "home_avg_ft": 4.125,
@@ -17678,7 +17124,7 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 2.05,
+                "fav_quote": 2.0,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -17849,10 +17295,10 @@
             "markets": {
                 "q1": 1.53,
                 "qx": 4.2,
-                "q2": 4.5,
-                "o25": 1.44,
-                "o05ht": 1.26,
-                "o15ht": 2.29
+                "q2": 4.75,
+                "o25": 1.6,
+                "o05ht": 1.29,
+                "o15ht": 2.41
             },
             "averages": {
                 "home_avg_ft": 4.375,
@@ -17869,7 +17315,8 @@
             },
             "tags": [
                 "M-Ok",
-                "🐟O"
+                "🐟O",
+                "🚀 BOOST"
             ],
             "home_last_8": [
                 {
@@ -18030,12 +17477,12 @@
             "home_team": "Cleethorpes Town",
             "away_team": "Morpeth Town",
             "markets": {
-                "q1": 1.57,
-                "qx": 3.6,
-                "q2": 4.6,
+                "q1": 1.7,
+                "qx": 3.4,
+                "q2": 4.0,
                 "o25": 1.85,
-                "o05ht": 1.33,
-                "o15ht": 2.6
+                "o05ht": 1.35,
+                "o15ht": 2.62
             },
             "averages": {
                 "home_avg_ft": 2.125,
@@ -18045,7 +17492,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.57,
+                "fav_quote": 1.7,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false
@@ -18214,9 +17661,9 @@
             "home_team": "Stoke City",
             "away_team": "Ipswich",
             "markets": {
-                "q1": 4.75,
-                "qx": 3.55,
-                "q2": 1.73,
+                "q1": 4.9,
+                "qx": 3.6,
+                "q2": 1.7,
                 "o25": 2.0,
                 "o05ht": 1.38,
                 "o15ht": 2.75
@@ -18229,7 +17676,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 1.73,
+                "fav_quote": 1.7,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -18399,11 +17846,11 @@
             "away_team": "Popayan",
             "markets": {
                 "q1": 2.5,
-                "qx": 2.95,
-                "q2": 2.75,
+                "qx": 3.1,
+                "q2": 2.7,
                 "o25": 2.35,
                 "o05ht": 1.48,
-                "o15ht": 3.1
+                "o15ht": 3.2
             },
             "averages": {
                 "home_avg_ft": 2.125,
@@ -18581,12 +18028,12 @@
             "home_team": "Newcastle",
             "away_team": "Barcelona",
             "markets": {
-                "q1": 2.74,
+                "q1": 2.55,
                 "qx": 3.8,
-                "q2": 2.28,
-                "o25": 1.45,
+                "q2": 2.42,
+                "o25": 1.42,
                 "o05ht": 1.22,
-                "o15ht": 2.05
+                "o15ht": 1.95
             },
             "averages": {
                 "home_avg_ft": 4.25,
@@ -18596,7 +18043,7 @@
                 "combined_ht_avg": 1.938
             },
             "flags": {
-                "fav_quote": 2.28,
+                "fav_quote": 2.42,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -18764,12 +18211,12 @@
             "home_team": "Atletico Madrid",
             "away_team": "Tottenham",
             "markets": {
-                "q1": 1.55,
-                "qx": 4.1,
-                "q2": 5.4,
-                "o25": 1.67,
-                "o05ht": 1.3,
-                "o15ht": 2.4
+                "q1": 1.71,
+                "qx": 3.65,
+                "q2": 4.8,
+                "o25": 1.9,
+                "o05ht": 1.36,
+                "o15ht": 2.65
             },
             "averages": {
                 "home_avg_ft": 4.125,
@@ -18779,7 +18226,7 @@
                 "combined_ht_avg": 1.875
             },
             "flags": {
-                "fav_quote": 1.55,
+                "fav_quote": 1.71,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
@@ -18950,9 +18397,9 @@
             "home_team": "Atalanta",
             "away_team": "Bayern München",
             "markets": {
-                "q1": 4.65,
-                "qx": 4.33,
-                "q2": 1.61,
+                "q1": 4.45,
+                "qx": 4.1,
+                "q2": 1.66,
                 "o25": 1.48,
                 "o05ht": 1.22,
                 "o15ht": 2.05
@@ -18965,7 +18412,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.61,
+                "fav_quote": 1.66,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -19133,12 +18580,12 @@
             "home_team": "Union Espanola",
             "away_team": "Magallanes",
             "markets": {
-                "q1": 2.2,
-                "qx": 3.2,
-                "q2": 2.95,
-                "o25": 1.95,
-                "o05ht": 1.38,
-                "o15ht": 2.75
+                "q1": 2.15,
+                "qx": 3.35,
+                "q2": 3.0,
+                "o25": 1.85,
+                "o05ht": 1.35,
+                "o15ht": 2.62
             },
             "averages": {
                 "home_avg_ft": 2.75,
@@ -19148,7 +18595,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.2,
+                "fav_quote": 2.15,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
@@ -19317,12 +18764,12 @@
             "home_team": "Joinville",
             "away_team": "São Bernardo",
             "markets": {
-                "q1": 4.5,
-                "qx": 2.98,
-                "q2": 1.88,
-                "o25": 2.85,
+                "q1": 4.9,
+                "qx": 3.1,
+                "q2": 1.78,
+                "o25": 2.65,
                 "o05ht": 1.55,
-                "o15ht": 3.55
+                "o15ht": 3.5
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -19332,7 +18779,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.88,
+                "fav_quote": 1.78,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false
