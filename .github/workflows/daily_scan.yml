@@ -3,7 +3,7 @@ name: Arab Sniper Daily Scan
 on:
   schedule:
     - cron: '27 1 * * *'
-    - cron: '41 1 * * *'
+    - cron: '17 2 * * *'
   workflow_dispatch:
 
 concurrency:
