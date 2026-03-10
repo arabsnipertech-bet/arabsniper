@@ -2,8 +2,13 @@ name: Arab Sniper Daily Scan
 
 on:
   schedule:
-    - cron: '30 1 * * *'
+    - cron: '27 1 * * *'
+    - cron: '41 1 * * *'
   workflow_dispatch:
+
+concurrency:
+  group: arab-sniper-daily-scan
+  cancel-in-progress: false
 
 jobs:
   build:
