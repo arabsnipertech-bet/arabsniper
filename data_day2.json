@@ -18,11 +18,11 @@
         "Ora": "00:00",
         "Lega": "Copa Do Brasil (Brazil)",
         "Match": "Santa Catarina - Jacuipense",
-        "FAV": "❌",
-        "1X2": "1.9|3.1|3.9",
-        "O2.5": "2.35",
-        "O0.5H": "1.48",
-        "O1.5H": "3.25",
+        "FAV": "✅",
+        "1X2": "1.9|3.3|3.9",
+        "O2.5": "2.10",
+        "O0.5H": "1.42",
+        "O1.5H": "2.95",
         "AVG FT": "2.6|2.0",
         "AVG HT": "0.9|1.4",
         "Info": "M-Ok",
@@ -493,5 +493,20 @@
         "Info": "M-Ok 🐟G 🚀 BOOST",
         "Data": "2026-03-12",
         "Fixture_ID": 1492159
+    },
+    {
+        "Ora": "23:30",
+        "Lega": "Copa Do Brasil (Brazil)",
+        "Match": "Sousa - CRB",
+        "FAV": "❌",
+        "1X2": "3.6|3.2|2.0",
+        "O2.5": "2.15",
+        "O0.5H": "1.42",
+        "O1.5H": "2.95",
+        "AVG FT": "2.0|2.8",
+        "AVG HT": "0.9|1.5",
+        "Info": "M-Ok",
+        "Data": "2026-03-12",
+        "Fixture_ID": 1530084
     }
 ]
