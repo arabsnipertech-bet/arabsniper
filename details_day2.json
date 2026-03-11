@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-11 06:20:11",
+    "updated_at": "2026-03-11 06:41:56",
     "day": 2,
     "date": "2026-03-12",
     "details": {
@@ -197,12 +197,12 @@
             "home_team": "Santa Catarina",
             "away_team": "Jacuipense",
             "markets": {
-                "q1": 1.94,
-                "qx": 3.15,
-                "q2": 3.85,
-                "o25": 2.35,
-                "o05ht": 1.48,
-                "o15ht": 3.25
+                "q1": 1.88,
+                "qx": 3.3,
+                "q2": 3.9,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -212,8 +212,8 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.94,
-                "is_gold_zone": false,
+                "fav_quote": 1.88,
+                "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true
             },
@@ -6063,6 +6063,188 @@
                     "ft": "0-1",
                     "total_ht_goals": 0,
                     "total_ft_goals": 1
+                }
+            ]
+        },
+        "1530084": {
+            "fixture_id": 1530084,
+            "date": "2026-03-12",
+            "time": "23:30",
+            "league": "Copa Do Brasil",
+            "country": "Brazil",
+            "match": "Sousa - CRB",
+            "home_team": "Sousa",
+            "away_team": "CRB",
+            "markets": {
+                "q1": 3.65,
+                "qx": 3.25,
+                "q2": 1.98,
+                "o25": 2.15,
+                "o05ht": 1.42,
+                "o15ht": 2.95
+            },
+            "averages": {
+                "home_avg_ft": 2.0,
+                "away_avg_ft": 2.75,
+                "home_avg_ht": 0.875,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 1.98,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true
+            },
+            "tags": [
+                "M-Ok"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-02-28",
+                    "league": "Paraibano",
+                    "match": "Sousa - Campinense",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Paraibano",
+                    "match": "Sousa - Pombal EC",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-18",
+                    "league": "Paraibano",
+                    "match": "Campinense - Sousa",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-12",
+                    "league": "Paraibano",
+                    "match": "Nacional de Patos - Sousa",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Paraibano",
+                    "match": "Sousa - Atlético Cajazeirense",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-01",
+                    "league": "Paraibano",
+                    "match": "Sousa - EC de Patos",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-28",
+                    "league": "Paraibano",
+                    "match": "Sousa - Treze",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-24",
+                    "league": "Paraibano",
+                    "match": "Botafogo PB - Sousa",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-07",
+                    "league": "Alagoano",
+                    "match": "ASA - CRB",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "Copa Do Brasil",
+                    "match": "CRB - Porto BA",
+                    "ht": "3-0",
+                    "ft": "6-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Alagoano",
+                    "match": "CRB - ASA",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Alagoano",
+                    "match": "CSA - CRB",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-18",
+                    "league": "Alagoano",
+                    "match": "CRB - CSA",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-11",
+                    "league": "Copa Alagoas",
+                    "match": "Dimensão Saúde - CRB",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Alagoano",
+                    "match": "Coruripe - CRB",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Alagoano",
+                    "match": "CRB - ASA",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
                 }
             ]
         }
