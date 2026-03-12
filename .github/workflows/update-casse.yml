@@ -2,8 +2,19 @@ name: Update Casse Recenti
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Cosa vuoi eseguire?"
+        required: true
+        default: "build"
+        type: choice
+        options:
+          - auto
+          - snapshot
+          - build
+          - both
+
   schedule:
-    # gira più volte al giorno, poi decide internamente se eseguire snapshot/build
     - cron: "5,20,35,50 * * * *"
 
 permissions:
@@ -29,11 +40,16 @@ jobs:
 
       - name: Decide what to run (Europe/Rome)
         id: decide
+        env:
+          INPUT_MODE: ${{ github.event.inputs.mode }}
         run: |
           python - <<'PY'
           from datetime import datetime
           from zoneinfo import ZoneInfo
           import os
+
+          event_name = os.environ.get("GITHUB_EVENT_NAME", "")
+          input_mode = os.environ.get("INPUT_MODE", "").strip().lower()
 
           now = datetime.now(ZoneInfo("Europe/Rome"))
           hh = now.hour
@@ -42,21 +58,37 @@ jobs:
           run_snapshot = False
           run_build = False
 
-          # Snapshot giornaliero:
-          # finestra 10:05 / 10:20 / 10:35 / 10:50 ora italiana
-          if hh == 10 and mm in (5, 20, 35, 50):
-              run_snapshot = True
+          if event_name == "workflow_dispatch":
+              # Modalità manuale: forza in base alla scelta utente
+              if input_mode == "snapshot":
+                  run_snapshot = True
+              elif input_mode == "build":
+                  run_build = True
+              elif input_mode == "both":
+                  run_snapshot = True
+                  run_build = True
+              else:
+                  # auto anche da manuale: usa la logica oraria
+                  pass
 
-          # Build casse pomeriggio:
-          # finestra 18:05 / 18:20 / 18:35 / 18:50
-          if hh == 18 and mm in (5, 20, 35, 50):
-              run_build = True
+          if event_name != "workflow_dispatch" or input_mode == "auto":
+              # Snapshot giornaliero:
+              # finestra 10:05 / 10:20 / 10:35 / 10:50 ora italiana
+              if hh == 10 and mm in (5, 20, 35, 50):
+                  run_snapshot = True
 
-          # Build casse sera/notte:
-          # finestra 23:05 / 23:20 / 23:35 / 23:50
-          if hh == 23 and mm in (5, 20, 35, 50):
-              run_build = True
+              # Build casse pomeriggio:
+              # finestra 18:05 / 18:20 / 18:35 / 18:50
+              if hh == 18 and mm in (5, 20, 35, 50):
+                  run_build = True
 
+              # Build casse sera/notte:
+              # finestra 23:05 / 23:20 / 23:35 / 23:50
+              if hh == 23 and mm in (5, 20, 35, 50):
+                  run_build = True
+
+          print(f"Event: {event_name}")
+          print(f"Input mode: {input_mode}")
           print(f"Europe/Rome now: {now.strftime('%Y-%m-%d %H:%M')}")
           print(f"run_snapshot={run_snapshot}")
           print(f"run_build={run_build}")
@@ -66,10 +98,26 @@ jobs:
               f.write(f"run_build={'true' if run_build else 'false'}\n")
           PY
 
+      - name: Check snapshot script exists
+        if: steps.decide.outputs.run_snapshot == 'true'
+        run: |
+          if [ ! -f snapshot_free_signals.py ]; then
+            echo "snapshot_free_signals.py non trovato nel repo"
+            exit 1
+          fi
+
       - name: Run snapshot_free_signals.py
         if: steps.decide.outputs.run_snapshot == 'true'
         run: |
           python snapshot_free_signals.py
+
+      - name: Check build script exists
+        if: steps.decide.outputs.run_build == 'true'
+        run: |
+          if [ ! -f build_casse_recenti.py ]; then
+            echo "build_casse_recenti.py non trovato nel repo"
+            exit 1
+          fi
 
       - name: Run build_casse_recenti.py
         if: steps.decide.outputs.run_build == 'true'
