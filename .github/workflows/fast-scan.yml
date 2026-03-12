@@ -5,6 +5,10 @@ on:
     - cron: '0 9,13,17,21 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: arab-sniper-fast-scan
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,7 +24,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install and Run Fast Scan Logic
+      - name: Install dependencies
         env:
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}
@@ -33,4 +37,10 @@ jobs:
           python -m pip list
           python -c "import streamlit; print('STREAMLIT OK:', streamlit.__version__)"
           python -c "import requests, pandas, github; print('DEPENDENCIES OK')"
-          python 3appDays.py --fast
+
+      - name: Run guarded scan
+        env:
+          API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
+          GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}
+        run: |
+          python scan_guard.py
