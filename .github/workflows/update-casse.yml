@@ -6,7 +6,7 @@ on:
       mode:
         description: "Cosa vuoi eseguire?"
         required: true
-        default: "build"
+        default: "both"
         type: choice
         options:
           - auto
@@ -15,7 +15,9 @@ on:
           - both
 
   schedule:
-    - cron: "5,20,35,50 * * * *"
+    - cron: "5,20,35,50 10 * * *"
+    - cron: "5,20,35,50 18 * * *"
+    - cron: "5,20,35,50 23 * * *"
 
 permissions:
   contents: write
@@ -36,20 +38,21 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install -r requirements.txt || true
+          pip install requests python-dateutil
 
-      - name: Decide what to run (Europe/Rome)
+      - name: Decide what to run
         id: decide
         env:
           INPUT_MODE: ${{ github.event.inputs.mode }}
         run: |
           python - <<'PY'
+          import os
           from datetime import datetime
           from zoneinfo import ZoneInfo
-          import os
 
           event_name = os.environ.get("GITHUB_EVENT_NAME", "")
-          input_mode = os.environ.get("INPUT_MODE", "").strip().lower()
+          input_mode = (os.environ.get("INPUT_MODE", "") or "").strip().lower()
 
           now = datetime.now(ZoneInfo("Europe/Rome"))
           hh = now.hour
@@ -59,7 +62,6 @@ jobs:
           run_build = False
 
           if event_name == "workflow_dispatch":
-              # Modalità manuale: forza in base alla scelta utente
               if input_mode == "snapshot":
                   run_snapshot = True
               elif input_mode == "build":
@@ -67,23 +69,19 @@ jobs:
               elif input_mode == "both":
                   run_snapshot = True
                   run_build = True
-              else:
-                  # auto anche da manuale: usa la logica oraria
+              elif input_mode == "auto":
                   pass
 
           if event_name != "workflow_dispatch" or input_mode == "auto":
-              # Snapshot giornaliero:
-              # finestra 10:05 / 10:20 / 10:35 / 10:50 ora italiana
+              # snapshot free: fascia mattutina
               if hh == 10 and mm in (5, 20, 35, 50):
                   run_snapshot = True
 
-              # Build casse pomeriggio:
-              # finestra 18:05 / 18:20 / 18:35 / 18:50
+              # build casse: fascia pomeridiana
               if hh == 18 and mm in (5, 20, 35, 50):
                   run_build = True
 
-              # Build casse sera/notte:
-              # finestra 23:05 / 23:20 / 23:35 / 23:50
+              # build casse: fascia serale/notturna
               if hh == 23 and mm in (5, 20, 35, 50):
                   run_build = True
 
@@ -121,6 +119,9 @@ jobs:
 
       - name: Run build_casse_recenti.py
         if: steps.decide.outputs.run_build == 'true'
+        env:
+          API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
+          GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}
         run: |
           python build_casse_recenti.py
 
@@ -129,8 +130,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add casse_recenti.json
-          git add free_signals_*.json || true
+          git add -A
 
           if git diff --cached --quiet; then
             echo "Nessuna modifica da committare."
