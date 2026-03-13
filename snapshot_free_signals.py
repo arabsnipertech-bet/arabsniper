@@ -5,6 +5,8 @@ from typing import Any
 
 DATA_FILE = Path("data.json")
 MAX_FREE_MATCHES = 4
+KEEP_LAST_DAYS = 14
+SNAPSHOT_PREFIX = "free_signals_"
 
 
 def safe_str(value: Any) -> str:
@@ -37,7 +39,7 @@ def load_data() -> list[dict]:
 
 
 def get_info_text(row: dict) -> str:
-    return safe_str(row.get("Info"))
+    return safe_str(row.get("Info") or row.get("info"))
 
 
 def get_match_text(row: dict) -> str:
@@ -68,11 +70,8 @@ def get_signal_label(row: dict) -> str:
     if "PT" in info:
         return "PT TARGET"
 
-    # fallback morbido
-    if safe_str(row.get("signal")):
-        return safe_str(row.get("signal"))
-
-    return ""
+    fallback_signal = safe_str(row.get("signal"))
+    return fallback_signal
 
 
 def get_quote_value(row: dict) -> str:
@@ -88,7 +87,6 @@ def get_quote_value(row: dict) -> str:
     if "BOOST" in info or "OVER" in info:
         return safe_str(row.get("O2.5"))
 
-    # fallback
     return (
         safe_str(row.get("O2.5"))
         or safe_str(row.get("1X2"))
@@ -112,7 +110,10 @@ def signal_priority(row: dict) -> int:
 
 def has_usable_signal(row: dict) -> bool:
     info = get_info_text(row).upper()
-    return any(tag in info for tag in ("GOLD", "BOOST", "OVER", "PT"))
+    if any(tag in info for tag in ("GOLD", "BOOST", "OVER", "PT")):
+        return True
+
+    return bool(safe_str(row.get("signal")))
 
 
 def normalize_match_key(row: dict) -> str:
@@ -156,8 +157,10 @@ def select_free_matches(rows: list[dict]) -> list[dict]:
         key = normalize_match_key(row)
         if key in seen:
             continue
+
         seen.add(key)
         selected.append(row)
+
         if len(selected) >= MAX_FREE_MATCHES:
             break
 
@@ -177,9 +180,9 @@ def build_snapshot_row(row: dict, snapshot_date: str) -> dict:
     }
 
 
-def write_snapshot(rows: list[dict]) -> None:
+def write_snapshot(rows: list[dict]) -> Path:
     today = datetime.now().strftime("%Y-%m-%d")
-    out_file = Path(f"free_signals_{today}.json")
+    out_file = Path(f"{SNAPSHOT_PREFIX}{today}.json")
 
     snapshot = [build_snapshot_row(r, today) for r in rows]
 
@@ -197,6 +200,36 @@ def write_snapshot(rows: list[dict]) -> None:
             f"{item['signal']} | quota {item['quote']}"
         )
 
+    return out_file
+
+
+def cleanup_old_snapshots() -> None:
+    files = sorted(Path(".").glob(f"{SNAPSHOT_PREFIX}*.json"))
+    dated_files: list[tuple[datetime, Path]] = []
+
+    for f in files:
+        try:
+            date_str = f.stem.replace(SNAPSHOT_PREFIX, "")
+            dt = datetime.strptime(date_str, "%Y-%m-%d")
+            dated_files.append((dt, f))
+        except Exception:
+            continue
+
+    dated_files.sort(key=lambda x: x[0], reverse=True)
+
+    to_delete = dated_files[KEEP_LAST_DAYS:]
+
+    if not to_delete:
+        print(f"Nessun vecchio snapshot da eliminare. Mantengo gli ultimi {KEEP_LAST_DAYS} giorni.")
+        return
+
+    for _, f in to_delete:
+        try:
+            f.unlink()
+            print(f"Eliminato snapshot vecchio: {f.name}")
+        except Exception as exc:
+            print(f"Errore eliminando {f.name}: {exc}")
+
 
 def main() -> None:
     rows = load_data()
@@ -206,6 +239,7 @@ def main() -> None:
 
     selected = select_free_matches(rows)
     write_snapshot(selected)
+    cleanup_old_snapshots()
 
 
 if __name__ == "__main__":
