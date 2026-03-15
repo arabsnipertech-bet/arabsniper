@@ -9,15 +9,16 @@ import requests
 # =========================
 # CONFIG
 # =========================
+BASE_DIR = Path(__file__).resolve().parent
 SNAPSHOT_GLOB = "free_signals_*.json"
-OUT_FILE = Path("casse_recenti.json")
+OUT_FILE = BASE_DIR / "casse_recenti.json"
 
 SPORTSDB_SEARCH_URL = "https://www.thesportsdb.com/api/v1/json/123/searchevents.php"
 REQUEST_TIMEOUT = 12
 MAX_OUTPUT = 8
 
 session = requests.Session()
-session.headers.update({"User-Agent": "ArabSniperBet/1.0"})
+session.headers.update({"User-Agent": "ArabSniperBet/1.1"})
 
 
 # =========================
@@ -46,6 +47,7 @@ def split_match(match_name: str):
         parts = [p.strip() for p in raw.split("-") if p.strip()]
     else:
         parts = []
+
     if len(parts) >= 2:
         return parts[0], parts[1]
     return None, None
@@ -60,6 +62,7 @@ def build_queries(match_name: str):
         f"{home} vs {away}",
         f"{away} vs {home}",
         f"{home} v {away}",
+        f"{home} {away}",
     ]
 
     out = []
@@ -83,7 +86,6 @@ def overlap_score(match_name: str, event_name: str) -> int:
 
 
 def parse_snapshot_date_from_filename(path: Path):
-    # free_signals_2026-03-12.json
     m = re.search(r"free_signals_(\d{4}-\d{2}-\d{2})\.json$", path.name)
     if not m:
         return None
@@ -91,7 +93,7 @@ def parse_snapshot_date_from_filename(path: Path):
 
 
 def load_snapshots():
-    files = sorted(Path(".").glob(SNAPSHOT_GLOB))
+    files = sorted(BASE_DIR.glob(SNAPSHOT_GLOB))
     rows = []
 
     for fp in files:
@@ -101,10 +103,12 @@ def load_snapshots():
 
         try:
             data = json.loads(fp.read_text(encoding="utf-8"))
-        except Exception:
+        except Exception as e:
+            print(f"[WARN] Impossibile leggere {fp.name}: {e}")
             continue
 
         if not isinstance(data, list):
+            print(f"[WARN] {fp.name} non contiene una lista JSON valida.")
             continue
 
         for item in data:
@@ -113,18 +117,21 @@ def load_snapshots():
             quote = str(item.get("quote", "")).strip()
             league = str(item.get("league", "")).strip()
             time_str = str(item.get("time", "")).strip()
+            fixture_id = str(item.get("fixture_id", "")).strip()
 
             if not match_name or not signal:
                 continue
 
             rows.append(
                 {
+                    "data": snapshot_date,
                     "snapshot_date": snapshot_date,
                     "match": match_name,
                     "signal": signal,
                     "quote": quote,
                     "league": league,
                     "time": time_str,
+                    "fixture_id": fixture_id,
                 }
             )
 
@@ -156,10 +163,10 @@ def extract_score(ev: dict):
 
 def choose_best_event(match_name: str, snapshot_date: str, events: list):
     """
-    Prende solo eventi:
+    Accetta solo eventi:
     - con score disponibile
     - con stessa data dello snapshot
-    - con overlap nome decente
+    - con overlap nome almeno discreto
     """
     try:
         target_date = datetime.strptime(snapshot_date, "%Y-%m-%d").date()
@@ -178,16 +185,16 @@ def choose_best_event(match_name: str, snapshot_date: str, events: list):
         if ev_date != target_date:
             continue
 
-        score_name = overlap_score(match_name, ev_name)
-        if score_name < 2:
+        name_score = overlap_score(match_name, ev_name)
+        if name_score < 2:
             continue
 
-        ranked.append((-score_name, ev))
+        ranked.append((name_score, ev))
 
     if not ranked:
         return None
 
-    ranked.sort(key=lambda x: x[0])
+    ranked.sort(key=lambda x: x[0], reverse=True)
     return ranked[0][1]
 
 
@@ -203,7 +210,8 @@ def search_finished_result(match_name: str, snapshot_date: str):
             )
             r.raise_for_status()
             payload = r.json()
-        except Exception:
+        except Exception as e:
+            print(f"[WARN] Errore ricerca '{q}': {e}")
             continue
 
         events = payload.get("event") or []
@@ -229,11 +237,20 @@ def search_finished_result(match_name: str, snapshot_date: str):
     return None
 
 
-def status_from_goals(total_goals: int):
+def evaluate_signal_result(signal: str, total_goals: int):
+    """
+    Manteniamo una logica semplice ma coerente col sito:
+    - se 3+ gol => cassa forte
+    - se 2 gol => cassa soft
+    - altrimenti non pubblichiamo
+    """
+    signal_norm = str(signal or "").upper()
+
     if total_goals >= 3:
-        return "✅ CASSA O2.5"
+        return "✅ CASSA"
     if total_goals >= 2:
-        return "✅ CASSA O1.5"
+        if "OVER" in signal_norm or "GOLD" in signal_norm or "BOOST" in signal_norm or "PT" in signal_norm:
+            return "✅ CASSA SOFT"
     return None
 
 
@@ -252,35 +269,37 @@ def main():
     seen = set()
 
     for row in rows:
-        key = (row["snapshot_date"], row["match"])
-        if key in seen:
+        unique_key = row["fixture_id"] or f'{row["snapshot_date"]}|{row["match"]}'
+        if unique_key in seen:
             continue
-        seen.add(key)
+        seen.add(unique_key)
 
         result = search_finished_result(row["match"], row["snapshot_date"])
         if not result:
             continue
 
-        status = status_from_goals(result["total_goals"])
+        status = evaluate_signal_result(row["signal"], result["total_goals"])
         if not status:
             continue
 
         output.append(
             {
+                "data": row["snapshot_date"],
                 "match": row["match"],
                 "signal": row["signal"],
                 "quote": row["quote"],
                 "result": f'{result["result"]} {status}',
-                "snapshot_date": row["snapshot_date"],
+                "league": row["league"],
+                "time": row["time"],
+                "fixture_id": row["fixture_id"],
             }
         )
 
-    # ordina per data snapshot desc
-    output.sort(key=lambda x: x.get("snapshot_date", ""), reverse=True)
+    output.sort(key=lambda x: (x.get("data", ""), x.get("time", "")), reverse=True)
 
-    # togli la snapshot_date dall'output finale, non ci serve nel sito
     final_output = [
         {
+            "data": x["data"],
             "match": x["match"],
             "signal": x["signal"],
             "quote": x["quote"],
@@ -294,7 +313,7 @@ def main():
         encoding="utf-8"
     )
 
-    print(f"Creato {OUT_FILE} con {len(final_output)} record.")
+    print(f"Creato {OUT_FILE.name} con {len(final_output)} record.")
 
 
 if __name__ == "__main__":
