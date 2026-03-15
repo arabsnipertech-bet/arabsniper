@@ -1,16 +1,25 @@
 import json
-import os
 import subprocess
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
+
+try:
+    from zoneinfo import ZoneInfo
+    ROME_TZ = ZoneInfo("Europe/Rome")
+except Exception:
+    ROME_TZ = None
 
 BASE_DIR = Path(__file__).resolve().parent
 DAY1_FILE = BASE_DIR / "data_day1.json"
 
 
+def now_rome() -> datetime:
+    return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
+
+
 def get_today_str() -> str:
-    return datetime.now().strftime("%Y-%m-%d")
+    return now_rome().strftime("%Y-%m-%d")
 
 
 def extract_date_from_day1() -> str | None:
@@ -26,7 +35,7 @@ def extract_date_from_day1() -> str | None:
 
         first = payload[0]
         if isinstance(first, dict):
-            return first.get("Data")
+            return str(first.get("Data") or "").strip() or None
 
         return None
 
@@ -43,16 +52,16 @@ def should_run_auto() -> bool:
         return True
 
     if day1_date != today:
-        print(f"⚠️ data_day1.json fermo a {day1_date}, oggi è {today} → fallback AUTO")
+        print(f"⚠️ data_day1.json fermo a {day1_date}, oggi Roma è {today} → fallback AUTO")
         return True
 
-    print(f"✅ data_day1.json già aggiornato a oggi ({today}) → FAST normale")
+    print(f"✅ data_day1.json già aggiornato a oggi ({today}, timezone Roma) → FAST normale")
     return False
 
 
 def run_command(args: list[str]) -> int:
     print("▶ Eseguo:", " ".join(args))
-    result = subprocess.run(args)
+    result = subprocess.run(args, cwd=str(BASE_DIR))
     return result.returncode
 
 
