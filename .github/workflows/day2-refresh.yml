@@ -3,7 +3,7 @@ name: Day2 Evening Refresh
 on:
   workflow_dispatch:
   schedule:
-    - cron: "21 20 * * *"
+    - cron: "31 20 * * *"
 
 permissions:
   contents: write
@@ -28,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Day 2 evening refresh
+      - name: Run Day2 refresh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TZ: Europe/Rome
