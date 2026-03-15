@@ -164,7 +164,14 @@ last_snap_ts = load_db()
 # ==========================================
 # API CORE & ROBUSTNESS
 # ==========================================
-API_KEY = os.getenv("API_SPORTS_KEY") or st.secrets.get("API_SPORTS_KEY", None)
+API_KEY = os.getenv("API_SPORTS_KEY")
+
+if not API_KEY:
+    try:
+        import streamlit as st
+        API_KEY = st.secrets.get("API_SPORTS_KEY", None)
+    except Exception:
+        pass
 HEADERS = {"x-apisports-key": API_KEY} if API_KEY else {}
 
 def api_get(session, path, params):
