@@ -2,35 +2,23 @@ name: Update Casse Recenti
 
 on:
   workflow_dispatch:
-    inputs:
-      mode:
-        description: "Cosa vuoi eseguire?"
-        required: true
-        default: "both"
-        type: choice
-        options:
-          - auto
-          - snapshot
-          - build
-          - both
-
   schedule:
-    - cron: "5,20,35,50 10 * * *"
-    - cron: "5,20,35,50 18 * * *"
-    - cron: "5,20,35,50 23 * * *"
+    - cron: "20 1,7,13,19 * * *"
 
 permissions:
   contents: write
 
 jobs:
-  update-casse:
+  build-casse:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -38,104 +26,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt || true
-          pip install requests python-dateutil
-
-      - name: Decide what to run
-        id: decide
-        env:
-          INPUT_MODE: ${{ github.event.inputs.mode }}
-        run: |
-          python - <<'PY'
-          import os
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-
-          event_name = os.environ.get("GITHUB_EVENT_NAME", "")
-          input_mode = (os.environ.get("INPUT_MODE", "") or "").strip().lower()
-
-          now = datetime.now(ZoneInfo("Europe/Rome"))
-          hh = now.hour
-          mm = now.minute
-
-          run_snapshot = False
-          run_build = False
-
-          if event_name == "workflow_dispatch":
-              if input_mode == "snapshot":
-                  run_snapshot = True
-              elif input_mode == "build":
-                  run_build = True
-              elif input_mode == "both":
-                  run_snapshot = True
-                  run_build = True
-              elif input_mode == "auto":
-                  pass
-
-          if event_name != "workflow_dispatch" or input_mode == "auto":
-              # snapshot free: fascia mattutina
-              if hh == 10 and mm in (5, 20, 35, 50):
-                  run_snapshot = True
-
-              # build casse: fascia pomeridiana
-              if hh == 18 and mm in (5, 20, 35, 50):
-                  run_build = True
-
-              # build casse: fascia serale/notturna
-              if hh == 23 and mm in (5, 20, 35, 50):
-                  run_build = True
-
-          print(f"Event: {event_name}")
-          print(f"Input mode: {input_mode}")
-          print(f"Europe/Rome now: {now.strftime('%Y-%m-%d %H:%M')}")
-          print(f"run_snapshot={run_snapshot}")
-          print(f"run_build={run_build}")
-
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
-              f.write(f"run_snapshot={'true' if run_snapshot else 'false'}\n")
-              f.write(f"run_build={'true' if run_build else 'false'}\n")
-          PY
-
-      - name: Check snapshot script exists
-        if: steps.decide.outputs.run_snapshot == 'true'
-        run: |
-          if [ ! -f snapshot_free_signals.py ]; then
-            echo "snapshot_free_signals.py non trovato nel repo"
-            exit 1
-          fi
-
-      - name: Run snapshot_free_signals.py
-        if: steps.decide.outputs.run_snapshot == 'true'
-        run: |
-          python snapshot_free_signals.py
-
-      - name: Check build script exists
-        if: steps.decide.outputs.run_build == 'true'
-        run: |
-          if [ ! -f build_casse_recenti.py ]; then
-            echo "build_casse_recenti.py non trovato nel repo"
-            exit 1
-          fi
+          pip install requests
 
       - name: Run build_casse_recenti.py
-        if: steps.decide.outputs.run_build == 'true'
-        env:
-          API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
-          GITHUB_TOKEN: ${{ secrets.MY_GIT_TOKEN }}
-        run: |
-          python build_casse_recenti.py
+        run: python build_casse_recenti.py
 
-      - name: Commit updated files
+      - name: Commit updated casse_recenti.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add -A
-
-          if git diff --cached --quiet; then
-            echo "Nessuna modifica da committare."
-            exit 0
-          fi
-
-          git commit -m "Auto update casse_recenti and free snapshots"
+          git add casse_recenti.json
+          git diff --cached --quiet || git commit -m "Update casse_recenti.json"
           git push
