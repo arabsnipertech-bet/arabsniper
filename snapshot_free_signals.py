@@ -3,10 +3,21 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-DATA_FILE = Path("data.json")
+try:
+    from zoneinfo import ZoneInfo
+    ROME_TZ = ZoneInfo("Europe/Rome")
+except Exception:
+    ROME_TZ = None
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "data.json"
 MAX_FREE_MATCHES = 4
 KEEP_LAST_DAYS = 14
 SNAPSHOT_PREFIX = "free_signals_"
+
+
+def now_rome() -> datetime:
+    return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
 
 
 def safe_str(value: Any) -> str:
@@ -17,7 +28,7 @@ def safe_str(value: Any) -> str:
 
 def load_data() -> list[dict]:
     if not DATA_FILE.exists():
-        print("data.json non trovato")
+        print(f"data.json non trovato in: {DATA_FILE}")
         return []
 
     try:
@@ -117,6 +128,10 @@ def has_usable_signal(row: dict) -> bool:
 
 
 def normalize_match_key(row: dict) -> str:
+    fixture_id = get_fixture_id(row)
+    if fixture_id:
+        return f"fid:{fixture_id}"
+
     match = get_match_text(row).lower()
     time_ = get_time_text(row)
     league = get_league_text(row).lower()
@@ -181,8 +196,8 @@ def build_snapshot_row(row: dict, snapshot_date: str) -> dict:
 
 
 def write_snapshot(rows: list[dict]) -> Path:
-    today = datetime.now().strftime("%Y-%m-%d")
-    out_file = Path(f"{SNAPSHOT_PREFIX}{today}.json")
+    today = now_rome().strftime("%Y-%m-%d")
+    out_file = BASE_DIR / f"{SNAPSHOT_PREFIX}{today}.json"
 
     snapshot = [build_snapshot_row(r, today) for r in rows]
 
@@ -191,7 +206,8 @@ def write_snapshot(rows: list[dict]) -> Path:
         encoding="utf-8",
     )
 
-    print(f"Creato snapshot: {out_file}")
+    print(f"Creato snapshot: {out_file.name}")
+    print(f"Percorso: {out_file}")
     print(f"Match salvati: {len(snapshot)}")
 
     for idx, item in enumerate(snapshot, start=1):
@@ -204,7 +220,7 @@ def write_snapshot(rows: list[dict]) -> Path:
 
 
 def cleanup_old_snapshots() -> None:
-    files = sorted(Path(".").glob(f"{SNAPSHOT_PREFIX}*.json"))
+    files = sorted(BASE_DIR.glob(f"{SNAPSHOT_PREFIX}*.json"))
     dated_files: list[tuple[datetime, Path]] = []
 
     for f in files:
@@ -216,7 +232,6 @@ def cleanup_old_snapshots() -> None:
             continue
 
     dated_files.sort(key=lambda x: x[0], reverse=True)
-
     to_delete = dated_files[KEEP_LAST_DAYS:]
 
     if not to_delete:
