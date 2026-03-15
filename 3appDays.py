@@ -826,3 +826,9 @@ if __name__ == "__main__":
         print("⚡ Avvio Scan Veloce Automatico (solo Day 1)...")
         run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False)
         print("✅ Scan veloce terminato: data.json + data_day1 + details_day1 aggiornati.")
+
+    elif "--day2-refresh" in sys.argv:
+        HORIZON = 2
+        print("🌙 Avvio Refresh Serale Day 2...")
+        run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False)
+        print("✅ Refresh Day 2 terminato: data_day2 + details_day2 aggiornati.")
