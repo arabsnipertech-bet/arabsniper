@@ -1,547 +1,83 @@
 {
-    "updated_at": "2026-03-16 19:49:31",
+    "updated_at": "2026-03-16 20:44:05",
     "day": 1,
     "date": "2026-03-16",
     "details": {
-        "1382224": {
-            "fixture_id": 1382224,
+        "1389345": {
+            "fixture_id": 1389345,
             "date": "2026-03-16",
-            "time": "20:00",
-            "league": "Eerste Divisie",
-            "country": "Netherlands",
-            "match": "Den Bosch - Jong PSV U21",
-            "home_team": "Den Bosch",
-            "away_team": "Jong PSV U21",
+            "time": "20:45",
+            "league": "Ligue 2",
+            "country": "France",
+            "match": "Annecy - Estac Troyes",
+            "home_team": "Annecy",
+            "away_team": "Estac Troyes",
             "markets": {
-                "q1": 1.9,
-                "qx": 4.1,
-                "q2": 3.35,
-                "o25": 1.33,
-                "o05ht": 1.18,
-                "o15ht": 1.8
+                "q1": 2.75,
+                "qx": 3.2,
+                "q2": 2.6,
+                "o25": 2.1,
+                "o05ht": 1.44,
+                "o15ht": 2.95
             },
             "averages": {
-                "home_avg_ft": 3.0,
-                "away_avg_ft": 3.125,
-                "home_avg_ht": 1.375,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.438
+                "home_avg_ft": 2.5,
+                "away_avg_ft": 3.0,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.9,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.4,
-                "over": 4.4,
-                "boost": 5.614,
-                "gold": 5.717,
-                "max": 5.717
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Eerste Divisie",
-                    "match": "Jong Ajax - Den Bosch",
-                    "ht": "3-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "Eerste Divisie",
-                    "match": "Willem II - Den Bosch",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Eerste Divisie",
-                    "match": "Den Bosch - Roda",
-                    "ht": "2-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-23",
-                    "league": "Eerste Divisie",
-                    "match": "Jong AZ - Den Bosch",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Eerste Divisie",
-                    "match": "Den Bosch - FC Eindhoven",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Eerste Divisie",
-                    "match": "Helmond Sport - Den Bosch",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Eerste Divisie",
-                    "match": "Den Bosch - Emmen",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-26",
-                    "league": "Eerste Divisie",
-                    "match": "De Graafschap - Den Bosch",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Eerste Divisie",
-                    "match": "Jong PSV U21 - FC Eindhoven",
-                    "ht": "1-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "Eerste Divisie",
-                    "match": "Roda - Jong PSV U21",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Eerste Divisie",
-                    "match": "Jong PSV U21 - Dordrecht",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Eerste Divisie",
-                    "match": "Emmen - Jong PSV U21",
-                    "ht": "1-3",
-                    "ft": "2-3",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Eerste Divisie",
-                    "match": "Jong PSV U21 - De Graafschap",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Eerste Divisie",
-                    "match": "Jong PSV U21 - FC OSS",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Eerste Divisie",
-                    "match": "MVV - Jong PSV U21",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-02",
-                    "league": "Eerste Divisie",
-                    "match": "Jong PSV U21 - Cambuur",
-                    "ht": "2-0",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                }
-            ]
-        },
-        "1382226": {
-            "fixture_id": 1382226,
-            "date": "2026-03-16",
-            "time": "20:00",
-            "league": "Eerste Divisie",
-            "country": "Netherlands",
-            "match": "Jong AZ - MVV",
-            "home_team": "Jong AZ",
-            "away_team": "MVV",
-            "markets": {
-                "q1": 1.55,
-                "qx": 4.6,
-                "q2": 4.8,
-                "o25": 1.35,
-                "o05ht": 1.18,
-                "o15ht": 1.85
-            },
-            "averages": {
-                "home_avg_ft": 4.0,
-                "away_avg_ft": 3.25,
-                "home_avg_ht": 1.75,
-                "away_avg_ht": 1.375,
-                "combined_ht_avg": 1.562
-            },
-            "flags": {
-                "fav_quote": 1.55,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.8,
-                "over": 3.6,
-                "boost": 5.382,
-                "gold": 5.836,
-                "max": 5.836
-            },
-            "tags": [
-                "🎯PT",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Eerste Divisie",
-                    "match": "Waalwijk - Jong AZ",
-                    "ht": "2-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-09",
-                    "league": "Eerste Divisie",
-                    "match": "Jong AZ - Emmen",
-                    "ht": "1-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Eerste Divisie",
-                    "match": "Vitesse - Jong AZ",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-23",
-                    "league": "Eerste Divisie",
-                    "match": "Jong AZ - Den Bosch",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Eerste Divisie",
-                    "match": "FC OSS - Jong AZ",
-                    "ht": "0-0",
-                    "ft": "0-3",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Eerste Divisie",
-                    "match": "Jong AZ - Dordrecht",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Eerste Divisie",
-                    "match": "ADO Den Haag - Jong AZ",
-                    "ht": "0-2",
-                    "ft": "1-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-26",
-                    "league": "Eerste Divisie",
-                    "match": "Jong AZ - Almere City FC",
-                    "ht": "1-2",
-                    "ft": "3-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 7
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Eerste Divisie",
-                    "match": "MVV - VVV Venlo",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "Eerste Divisie",
-                    "match": "Dordrecht - MVV",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Eerste Divisie",
-                    "match": "MVV - De Graafschap",
-                    "ht": "1-2",
-                    "ft": "3-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Eerste Divisie",
-                    "match": "Roda - MVV",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Eerste Divisie",
-                    "match": "ADO Den Haag - MVV",
-                    "ht": "0-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Eerste Divisie",
-                    "match": "MVV - Jong PSV U21",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-02",
-                    "league": "Eerste Divisie",
-                    "match": "MVV - Almere City FC",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Eerste Divisie",
-                    "match": "FC Eindhoven - MVV",
-                    "ht": "2-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                }
-            ]
-        },
-        "1382227": {
-            "fixture_id": 1382227,
-            "date": "2026-03-16",
-            "time": "20:00",
-            "league": "Eerste Divisie",
-            "country": "Netherlands",
-            "match": "Roda - Vitesse",
-            "home_team": "Roda",
-            "away_team": "Vitesse",
-            "markets": {
-                "q1": 1.95,
-                "qx": 3.8,
-                "q2": 3.35,
-                "o25": 1.57,
-                "o05ht": 1.25,
-                "o15ht": 2.2
-            },
-            "averages": {
-                "home_avg_ft": 2.875,
-                "away_avg_ft": 3.25,
-                "home_avg_ht": 1.5,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.5
-            },
-            "flags": {
-                "fav_quote": 1.95,
+                "fav_quote": 2.6,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 6.8,
-                "over": 5.8,
-                "boost": 7.018,
-                "gold": 6.072,
-                "max": 7.018
+                "pt": 4.9,
+                "over": 5.1,
+                "boost": 4.86,
+                "gold": 4.26,
+                "max": 5.1
             },
             "tags": [
                 "🎯PT",
-                "⚽ OVER"
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
-                    "date": "2026-03-13",
-                    "league": "Eerste Divisie",
-                    "match": "Cambuur - Roda",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "Eerste Divisie",
-                    "match": "Roda - Jong PSV U21",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
+                    "date": "2026-03-07",
+                    "league": "Ligue 2",
+                    "match": "Le Mans - Annecy",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
                 },
                 {
                     "date": "2026-02-27",
-                    "league": "Eerste Divisie",
-                    "match": "Den Bosch - Roda",
-                    "ht": "2-0",
-                    "ft": "2-2",
+                    "league": "Ligue 2",
+                    "match": "Bastia - Annecy",
+                    "ht": "0-2",
+                    "ft": "0-2",
                     "total_ht_goals": 2,
-                    "total_ft_goals": 4
+                    "total_ft_goals": 2
                 },
                 {
-                    "date": "2026-02-22",
-                    "league": "Eerste Divisie",
-                    "match": "Roda - MVV",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
+                    "date": "2026-02-20",
+                    "league": "Ligue 2",
+                    "match": "Annecy - RED Star FC 93",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
                 },
                 {
                     "date": "2026-02-13",
-                    "league": "Eerste Divisie",
-                    "match": "Waalwijk - Roda",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Eerste Divisie",
-                    "match": "Roda - ADO Den Haag",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Eerste Divisie",
-                    "match": "Almere City FC - Roda",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-26",
-                    "league": "Eerste Divisie",
-                    "match": "Roda - VVV Venlo",
-                    "ht": "2-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Eerste Divisie",
-                    "match": "Vitesse - Almere City FC",
-                    "ht": "1-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "Eerste Divisie",
-                    "match": "De Graafschap - Vitesse",
-                    "ht": "0-2",
-                    "ft": "1-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Eerste Divisie",
-                    "match": "Vitesse - Jong AZ",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Eerste Divisie",
-                    "match": "Willem II - Vitesse",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Eerste Divisie",
-                    "match": "Vitesse - VVV Venlo",
+                    "league": "Ligue 2",
+                    "match": "Laval - Annecy",
                     "ht": "1-0",
                     "ft": "2-2",
                     "total_ht_goals": 1,
@@ -549,412 +85,113 @@
                 },
                 {
                     "date": "2026-02-06",
-                    "league": "Eerste Divisie",
-                    "match": "FC OSS - Vitesse",
+                    "league": "Ligue 2",
+                    "match": "Annecy - Grenoble",
                     "ht": "1-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-02",
-                    "league": "Eerste Divisie",
-                    "match": "Vitesse - FC Eindhoven",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Eerste Divisie",
-                    "match": "Vitesse - Dordrecht",
-                    "ht": "1-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                }
-            ]
-        },
-        "1434555": {
-            "fixture_id": 1434555,
-            "date": "2026-03-16",
-            "time": "20:00",
-            "league": "Premier League 2 Division One",
-            "country": "England",
-            "match": "Manchester City U21 - Liverpool U21",
-            "home_team": "Manchester City U21",
-            "away_team": "Liverpool U21",
-            "markets": {
-                "q1": 1.64,
-                "qx": 4.1,
-                "q2": 3.75,
-                "o25": 1.36,
-                "o05ht": 1.17,
-                "o15ht": 1.77
-            },
-            "averages": {
-                "home_avg_ft": 4.5,
-                "away_avg_ft": 4.25,
-                "home_avg_ht": 2.375,
-                "away_avg_ht": 2.625,
-                "combined_ht_avg": 2.5
-            },
-            "flags": {
-                "fav_quote": 1.64,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": true,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 4.0,
-                "over": 4.4,
-                "boost": 5.082,
-                "gold": 5.578,
-                "max": 5.578
-            },
-            "tags": [
-                "⚽ OVER",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-06",
-                    "league": "Premier League 2 Division One",
-                    "match": "Aston Villa U21 - Manchester City U21",
-                    "ht": "0-4",
-                    "ft": "0-4",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Premier League 2 Division One",
-                    "match": "Manchester City U21 - Nottingham Forest U21",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Premier League 2 Division One",
-                    "match": "Manchester City U21 - Wolves U21",
-                    "ht": "2-0",
-                    "ft": "6-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Premier League 2 Division One",
-                    "match": "Manchester City U21 - Leeds United U21",
-                    "ht": "1-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Premier League 2 Division One",
-                    "match": "Stoke City U21 - Manchester City U21",
-                    "ht": "0-2",
-                    "ft": "1-6",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Premier League 2 Division One",
-                    "match": "Everton U21 - Manchester City U21",
-                    "ht": "2-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-20",
-                    "league": "Premier League International Cup",
-                    "match": "Manchester City U21 - Monaco U21",
-                    "ht": "0-2",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-14",
-                    "league": "Premier League International Cup",
-                    "match": "Manchester City U21 - RB Leipzig U21",
-                    "ht": "2-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-08",
-                    "league": "Premier League 2 Division One",
-                    "match": "Liverpool U21 - Wolves U21",
-                    "ht": "5-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 5,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-03-01",
-                    "league": "Premier League 2 Division One",
-                    "match": "Liverpool U21 - Tottenham Hotspur U21",
-                    "ht": "1-1",
-                    "ft": "4-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Premier League 2 Division One",
-                    "match": "Nottingham Forest U21 - Liverpool U21",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Premier League 2 Division One",
-                    "match": "Liverpool U21 - West Bromwich Albion U21",
-                    "ht": "3-2",
-                    "ft": "4-3",
-                    "total_ht_goals": 5,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Premier League 2 Division One",
-                    "match": "Southampton U21 - Liverpool U21",
-                    "ht": "0-1",
                     "ft": "1-1",
                     "total_ht_goals": 1,
                     "total_ft_goals": 2
                 },
                 {
-                    "date": "2026-01-30",
-                    "league": "Premier League 2 Division One",
-                    "match": "Brighton U21 - Liverpool U21",
+                    "date": "2026-01-31",
+                    "league": "Ligue 2",
+                    "match": "Dunkerque - Annecy",
                     "ht": "0-1",
                     "ft": "0-1",
                     "total_ht_goals": 1,
                     "total_ft_goals": 1
                 },
                 {
-                    "date": "2026-01-25",
-                    "league": "Premier League 2 Division One",
-                    "match": "Liverpool U21 - Leeds United U21",
-                    "ht": "0-1",
+                    "date": "2026-01-23",
+                    "league": "Ligue 2",
+                    "match": "Annecy - Clermont Foot",
+                    "ht": "1-0",
                     "ft": "2-1",
                     "total_ht_goals": 1,
                     "total_ft_goals": 3
                 },
                 {
-                    "date": "2026-01-17",
-                    "league": "Premier League 2 Division One",
-                    "match": "Liverpool U21 - Arsenal U21",
-                    "ht": "4-0",
-                    "ft": "7-0",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 7
-                }
-            ]
-        },
-        "1434565": {
-            "fixture_id": 1434565,
-            "date": "2026-03-16",
-            "time": "20:00",
-            "league": "Premier League 2 Division One",
-            "country": "England",
-            "match": "Burnley U21 - Brighton U21",
-            "home_team": "Burnley U21",
-            "away_team": "Brighton U21",
-            "markets": {
-                "q1": 3.2,
-                "qx": 3.75,
-                "q2": 1.85,
-                "o25": 1.44,
-                "o05ht": 1.2,
-                "o15ht": 2.0
-            },
-            "averages": {
-                "home_avg_ft": 4.25,
-                "away_avg_ft": 3.25,
-                "home_avg_ht": 1.625,
-                "away_avg_ht": 1.625,
-                "combined_ht_avg": 1.625
-            },
-            "flags": {
-                "fav_quote": 1.85,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 6.8,
-                "over": 4.4,
-                "boost": 6.146,
-                "gold": 6.206,
-                "max": 6.8
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-09",
-                    "league": "Premier League 2 Division One",
-                    "match": "Stoke City U21 - Burnley U21",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-05",
-                    "league": "Premier League Cup",
-                    "match": "Burnley U21 - Colchester United U21",
-                    "ht": "1-1",
-                    "ft": "5-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-03-04",
-                    "league": "Premier League Cup",
-                    "match": "Stockport County U21 - Burnley U21",
-                    "ht": "0-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Premier League 2 Division One",
-                    "match": "Fulham U21 - Burnley U21",
-                    "ht": "2-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-23",
-                    "league": "Premier League 2 Division One",
-                    "match": "Burnley U21 - Derby County U21",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-16",
-                    "league": "Premier League 2 Division One",
-                    "match": "Everton U21 - Burnley U21",
-                    "ht": "0-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Premier League Cup",
-                    "match": "Burnley U21 - Brentford U21",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Premier League 2 Division One",
-                    "match": "Burnley U21 - Reading U21",
-                    "ht": "0-2",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-06",
-                    "league": "Premier League 2 Division One",
-                    "match": "Brighton U21 - Fulham U21",
-                    "ht": "2-1",
-                    "ft": "3-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Premier League 2 Division One",
-                    "match": "Newcastle United U21 - Brighton U21",
-                    "ht": "2-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Premier League 2 Division One",
-                    "match": "Brighton U21 - Birmingham City U21",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-16",
-                    "league": "Premier League 2 Division One",
-                    "match": "Wolves U21 - Brighton U21",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Premier League 2 Division One",
-                    "match": "Brighton U21 - Sunderland U21",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Premier League 2 Division One",
-                    "match": "Brighton U21 - Liverpool U21",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-26",
-                    "league": "Premier League 2 Division One",
-                    "match": "Manchester United U21 - Brighton U21",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-20",
-                    "league": "Premier League International Cup",
-                    "match": "Brighton U21 - Dinamo Zagreb U21",
+                    "date": "2026-01-16",
+                    "league": "Ligue 2",
+                    "match": "Annecy - Amiens",
                     "ht": "0-0",
                     "ft": "2-0",
                     "total_ht_goals": 0,
                     "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-07",
+                    "league": "Ligue 2",
+                    "match": "Estac Troyes - Clermont Foot",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-02",
+                    "league": "Ligue 2",
+                    "match": "Amiens - Estac Troyes",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Ligue 2",
+                    "match": "Estac Troyes - PAU",
+                    "ht": "2-2",
+                    "ft": "4-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-16",
+                    "league": "Ligue 2",
+                    "match": "Bastia - Estac Troyes",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Ligue 2",
+                    "match": "Nancy - Estac Troyes",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-04",
+                    "league": "Coupe de France",
+                    "match": "Estac Troyes - Lens",
+                    "ht": "1-1",
+                    "ft": "2-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Ligue 2",
+                    "match": "Estac Troyes - Le Mans",
+                    "ht": "0-2",
+                    "ft": "0-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-24",
+                    "league": "Ligue 2",
+                    "match": "Guingamp - Estac Troyes",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
                 }
             ]
         },
@@ -1161,9 +398,9 @@
             "home_team": "Drogheda United",
             "away_team": "Shamrock Rovers",
             "markets": {
-                "q1": 3.9,
-                "qx": 3.35,
-                "q2": 1.95,
+                "q1": 4.1,
+                "qx": 3.3,
+                "q2": 1.9,
                 "o25": 2.25,
                 "o05ht": 1.42,
                 "o15ht": 2.95
@@ -1176,8 +413,8 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 1.95,
-                "is_gold_zone": false,
+                "fav_quote": 1.9,
+                "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true,
                 "drop_diff": 0.0
@@ -1186,7 +423,7 @@
                 "pt": 3.6,
                 "over": 5.2,
                 "boost": 4.414,
-                "gold": 3.853,
+                "gold": 4.703,
                 "max": 5.2
             },
             "tags": [
@@ -1928,11 +1165,11 @@
             "away_team": "Levante",
             "markets": {
                 "q1": 1.69,
-                "qx": 3.65,
-                "q2": 4.9,
-                "o25": 2.0,
-                "o05ht": 1.4,
-                "o15ht": 2.8
+                "qx": 3.6,
+                "q2": 5.0,
+                "o25": 1.95,
+                "o05ht": 1.36,
+                "o15ht": 2.65
             },
             "averages": {
                 "home_avg_ft": 2.875,
@@ -1951,9 +1188,9 @@
             "scores": {
                 "pt": 3.7,
                 "over": 5.2,
-                "boost": 4.452,
-                "gold": 5.088,
-                "max": 5.2
+                "boost": 5.002,
+                "gold": 5.275,
+                "max": 5.275
             },
             "tags": [
                 "⚽ OVER",
