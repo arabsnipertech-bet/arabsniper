@@ -25,6 +25,7 @@ DETAILS_FILE = str(BASE_DIR / "match_details.json")
 
 DEFAULT_EXCLUDED = ["Thailand", "Indonesia", "India", "Kenya", "Morocco", "Rwanda", "Nigeria", "Oman", "Algeria", "UAE"]
 LEAGUE_BLACKLIST = ["u19", "u20", "youth", "women", "friendly", "carioca", "paulista", "mineiro"]
+ROLLING_SNAPSHOT_HORIZONS = [1, 2, 3, 4, 5]
 
 REMOTE_DAY_FILES = {
     1: "data_day1.json",
@@ -284,7 +285,93 @@ def extract_elite_markets(session, fid):
         return "SKIP"
 
     return mk
+def save_snapshot_file(payload):
+    with open(SNAP_FILE, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=4, ensure_ascii=False)
 
+
+def load_existing_snapshot_payload():
+    if os.path.exists(SNAP_FILE):
+        try:
+            with open(SNAP_FILE, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+                if isinstance(payload, dict):
+                    payload.setdefault("odds", {})
+                    return payload
+        except Exception:
+            pass
+
+    return {
+        "odds": {},
+        "timestamp": None,
+        "updated_at": None,
+        "coverage": "rolling_day1_day5"
+    }
+
+
+def build_rolling_multiday_snapshot(session):
+    """
+    Salva la baseline quote di tutti i fixture Day1+Day2+Day3+Day4+Day5.
+    Se un fixture_id esiste già, NON lo sovrascrive:
+    così il drop resta ancorato alla prima quota vista.
+    """
+    target_dates = get_target_dates()
+    existing_payload = load_existing_snapshot_payload()
+    existing_odds = existing_payload.get("odds", {}) or {}
+
+    new_odds = dict(existing_odds)
+    active_fixture_ids = set()
+
+    for horizon in ROLLING_SNAPSHOT_HORIZONS:
+        target_date = target_dates[horizon - 1]
+
+        res = api_get(session, "fixtures", {"date": target_date, "timezone": "Europe/Rome"})
+        if not res:
+            continue
+
+        fx_list = [
+            f for f in res.get("response", [])
+            if f["fixture"]["status"]["short"] == "NS"
+            and not is_blacklisted_league(f.get("league", {}).get("name", ""))
+        ]
+
+        for f in fx_list:
+            fid = str(f["fixture"]["id"])
+            active_fixture_ids.add(fid)
+
+            mk = extract_elite_markets(session, f["fixture"]["id"])
+            if not mk or mk == "SKIP":
+                continue
+
+            if fid not in new_odds:
+                new_odds[fid] = {
+                    "q1": mk["q1"],
+                    "q2": mk["q2"],
+                    "first_seen_date": target_date,
+                    "first_seen_horizon": horizon,
+                    "first_seen_ts": now_rome().strftime("%Y-%m-%d %H:%M:%S")
+                }
+            else:
+                if isinstance(new_odds[fid], dict):
+                    new_odds[fid]["last_seen_date"] = target_date
+                    new_odds[fid]["last_seen_horizon"] = horizon
+                    new_odds[fid]["last_seen_ts"] = now_rome().strftime("%Y-%m-%d %H:%M:%S")
+
+    cleaned_odds = {}
+    for fid, data in new_odds.items():
+        if fid in active_fixture_ids:
+            cleaned_odds[fid] = data
+
+    payload = {
+        "odds": cleaned_odds,
+        "timestamp": now_rome().strftime("%H:%M"),
+        "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
+        "coverage": "rolling_day1_day5"
+    }
+
+    st.session_state.odds_memory = cleaned_odds
+    save_snapshot_file(payload)
+    return payload
 
 def get_team_last_matches(session, tid):
     cache_key = str(tid)
@@ -381,12 +468,17 @@ def compute_drop_diff(fid, mk):
         return 0.0
 
     old_data = st.session_state.odds_memory.get(fid, {})
+
+    if not isinstance(old_data, dict):
+        return 0.0
+
     fav_is_home = mk["q1"] <= mk["q2"]
     old_q = safe_float(old_data.get("q1") if fav_is_home else old_data.get("q2"), 0.0)
     fav_now = min(mk["q1"], mk["q2"])
 
     if old_q > 0 and fav_now > 0 and old_q > fav_now:
         return round(old_q - fav_now, 3)
+
     return 0.0
 
 
@@ -796,25 +888,11 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                 list(set(st.session_state.available_countries) | {fx["league"]["country"] for fx in day_fx})
             )
 
-            if snap and use_horizon == 1:
-                csnap = {}
-                snap_bar = st.progress(0, text="📌 SNAPSHOT IN CORSO...")
-
-                for i, f in enumerate(day_fx):
-                    snap_bar.progress((i + 1) / len(day_fx) if day_fx else 1.0)
-                    m = extract_elite_markets(s, f["fixture"]["id"])
-                    if m and m != "SKIP":
-                        csnap[str(f["fixture"]["id"])] = {"q1": m["q1"], "q2": m["q2"]}
-                    time.sleep(0.2)
-
-                st.session_state.odds_memory = csnap
-                with open(SNAP_FILE, "w", encoding="utf-8") as f:
-                    json.dump(
-                        {"odds": csnap, "timestamp": now_rome().strftime("%H:%M")},
-                        f,
-                        indent=4,
-                        ensure_ascii=False
-                    )
+                        if snap and use_horizon == 1:
+                snap_bar = st.progress(0, text="📌 SNAPSHOT ROLLING DAY1+DAY2+DAY3+DAY4+DAY5...")
+                build_rolling_multiday_snapshot(s)
+                snap_bar.progress(1.0)
+                time.sleep(0.3)
                 snap_bar.empty()
 
             final_list = []
@@ -973,13 +1051,19 @@ def run_nightly_multiday_build():
     print("📆 DAY 3: scan statico + update data_day3/details_day3")
     run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False)
 
+    print("📆 DAY 4: scan statico + update data_day4/details_day4")
+    run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False)
+
+    print("📆 DAY 5: scan statico + update data_day5/details_day5")
+    run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False)
+
     print("✅ Build multi-day completata.")
 
 # ==========================================
 # UI SIDEBAR
 # ==========================================
 st.sidebar.header("👑 Arab Sniper V24.1 Multi-Day WEB")
-HORIZON = st.sidebar.selectbox("Orizzonte Temporale:", options=[1, 2, 3], index=0)
+HORIZON = st.sidebar.selectbox("Orizzonte Temporale:", options=[1, 2, 3, 4, 5], index=0)
 target_dates = get_target_dates()
 
 all_discovered = sorted(list(set(st.session_state.get("available_countries", []))))
