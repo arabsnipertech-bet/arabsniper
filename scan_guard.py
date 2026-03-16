@@ -4,6 +4,8 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
+from league_rules import is_hard_excluded_league, is_minor_risk_league
+
 try:
     from zoneinfo import ZoneInfo
     ROME_TZ = ZoneInfo("Europe/Rome")
@@ -115,6 +117,80 @@ def validate_details_files() -> list[str]:
     return issues
 
 
+def parse_float(value) -> float:
+    try:
+        return float(str(value).replace(",", ".").strip())
+    except Exception:
+        return 0.0
+
+
+def count_signal_rows(rows: list[dict]) -> int:
+    count = 0
+    for row in rows:
+        info = str(row.get("Info") or "").upper()
+        if any(tag in info for tag in ("GOLD", "BOOST", "OVER", "PT")):
+            count += 1
+    return count
+
+
+def analyze_day_dataset(day_num: int):
+    path = DAY_FILES[day_num]
+    payload = read_json_file(path)
+
+    if not isinstance(payload, list):
+        print(f"📉 DAY{day_num}: dataset non leggibile")
+        return
+
+    total = len(payload)
+    excluded = 0
+    minor = 0
+    incomplete_markets = 0
+
+    for row in payload:
+        league = str(row.get("Lega") or "")
+        q_o25 = parse_float(row.get("O2.5"))
+        q_o05h = parse_float(row.get("O0.5H"))
+        q_o15h = parse_float(row.get("O1.5H"))
+
+        if is_hard_excluded_league(league):
+            excluded += 1
+
+        if is_minor_risk_league(league):
+            minor += 1
+
+        if q_o25 <= 0 or q_o05h <= 0 or q_o15h <= 0:
+            incomplete_markets += 1
+
+    signals = count_signal_rows(payload)
+
+    good_rows = total - excluded - incomplete_markets
+    if total == 0:
+        status = "VUOTO"
+    elif good_rows <= 3:
+        status = "DEBOLE"
+    elif good_rows <= 10:
+        status = "MEDIO"
+    else:
+        status = "BUONO"
+
+    print("")
+    print(f"📊 DAY{day_num} QUALITY REPORT")
+    print(f" - match totali: {total}")
+    print(f" - femminili/amichevoli/youth/reserve: {excluded}")
+    print(f" - campionati minori sospetti: {minor}")
+    print(f" - mercati incompleti o nulli: {incomplete_markets}")
+    print(f" - righe con segnali utili: {signals}")
+    print(f" - giudizio dataset: {status}")
+
+
+def quality_report():
+    print("")
+    print("🧪 POST-SCAN QUALITY CHECK")
+    for day_num in (1, 2, 3):
+        analyze_day_dataset(day_num)
+    print("")
+
+
 def should_run_auto() -> bool:
     print(f"🕒 Ora Roma: {now_rome().strftime('%Y-%m-%d %H:%M:%S')}")
     print("🔎 Controllo integrità file giorno...")
@@ -152,4 +228,5 @@ if __name__ == "__main__":
     else:
         code = run_command([python_exe, "3appDays.py", "--fast"])
 
+    quality_report()
     sys.exit(code)
