@@ -18,12 +18,16 @@ DAY_FILES = {
     1: BASE_DIR / "data_day1.json",
     2: BASE_DIR / "data_day2.json",
     3: BASE_DIR / "data_day3.json",
+    4: BASE_DIR / "data_day4.json",
+    5: BASE_DIR / "data_day5.json",
 }
 
 DETAILS_FILES = {
     1: BASE_DIR / "details_day1.json",
     2: BASE_DIR / "details_day2.json",
     3: BASE_DIR / "details_day3.json",
+    4: BASE_DIR / "details_day4.json",
+    5: BASE_DIR / "details_day5.json",
 }
 
 
@@ -37,6 +41,8 @@ def expected_dates() -> dict[int, str]:
         1: base.strftime("%Y-%m-%d"),
         2: (base + timedelta(days=1)).strftime("%Y-%m-%d"),
         3: (base + timedelta(days=2)).strftime("%Y-%m-%d"),
+        4: (base + timedelta(days=3)).strftime("%Y-%m-%d"),
+        5: (base + timedelta(days=4)).strftime("%Y-%m-%d"),
     }
 
 
@@ -72,6 +78,12 @@ def extract_day_date_from_details_file(path: Path) -> str | None:
     if not isinstance(details, dict) or not details:
         return None
 
+    # prima prova: data dichiarata nel payload
+    value = str(payload.get("date") or "").strip()
+    if value:
+        return value
+
+    # fallback: prima data trovata nei dettagli
     for _, item in details.items():
         if isinstance(item, dict):
             value = str(item.get("date") or "").strip()
@@ -186,7 +198,7 @@ def analyze_day_dataset(day_num: int):
 def quality_report():
     print("")
     print("🧪 POST-SCAN QUALITY CHECK")
-    for day_num in (1, 2, 3):
+    for day_num in (1, 2, 3, 4, 5):
         analyze_day_dataset(day_num)
     print("")
 
@@ -210,6 +222,8 @@ def should_run_auto() -> bool:
     print(f" - Day1 = {exp[1]}")
     print(f" - Day2 = {exp[2]}")
     print(f" - Day3 = {exp[3]}")
+    print(f" - Day4 = {exp[4]}")
+    print(f" - Day5 = {exp[5]}")
     print("➡️ Posso eseguire FAST su Day1.")
     return False
 
