@@ -3,8 +3,8 @@ name: Day1 Fast Refresh
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 9 * * *"
-    - cron: "30 13 * * *"
+    - cron: "30 8 * * *"
+    - cron: "30 12 * * *"
     - cron: "30 16 * * *"
 
 permissions:
@@ -37,5 +37,6 @@ jobs:
       - name: Run Day1 fast refresh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           TZ: Europe/Rome
         run: python 3appDays.py --fast
