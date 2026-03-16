@@ -10,8 +10,12 @@ from pathlib import Path
 from github import Github
 
 # ==========================================
-# CONFIGURAZIONE ARAB SNIPER V23 MULTI-DAY WEB
-# Base derivata dalla V22.04.31 produzione
+# CONFIGURAZIONE ARAB SNIPER V24.1 MULTI-DAY WEB
+# Base derivata dalla V24 test
+# Stretta selettiva su:
+# - BOOST
+# - GOLD
+# Tutto il resto invariato
 # ==========================================
 BASE_DIR = Path(__file__).resolve().parent
 DB_FILE = str(BASE_DIR / "arab_sniper_database.json")
@@ -40,10 +44,12 @@ try:
 except Exception:
     ROME_TZ = None
 
+
 def now_rome():
     return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
 
-st.set_page_config(page_title="ARAB SNIPER V23 MULTI-DAY WEB", layout="wide")
+
+st.set_page_config(page_title="ARAB SNIPER V24.1 MULTI-DAY WEB", layout="wide")
 
 # ==========================================
 # GITHUB UPDATE CORE
@@ -69,6 +75,7 @@ def github_write_json(filename, payload, commit_message):
     except Exception as e:
         return str(e)
 
+
 def upload_to_github_main(results):
     return github_write_json(
         REMOTE_MAIN_FILE,
@@ -76,12 +83,14 @@ def upload_to_github_main(results):
         "Update Arab Sniper Data"
     )
 
+
 def upload_day_to_github(day_num, results):
     return github_write_json(
         REMOTE_DAY_FILES[day_num],
         results,
         f"Update Arab Sniper Day {day_num} Data"
     )
+
 
 def upload_details_to_github(day_num, payload):
     return github_write_json(
@@ -124,9 +133,11 @@ if "match_details" not in st.session_state:
 if "selected_fixture_for_modal" not in st.session_state:
     st.session_state.selected_fixture_for_modal = None
 
+
 def save_config():
     with open(CONFIG_FILE, "w", encoding="utf-8") as f:
         json.dump(st.session_state.config, f, indent=4, ensure_ascii=False)
+
 
 def load_db():
     today = now_rome().strftime("%Y-%m-%d")
@@ -159,6 +170,7 @@ def load_db():
 
     return ts
 
+
 last_snap_ts = load_db()
 
 # ==========================================
@@ -168,11 +180,12 @@ API_KEY = os.getenv("API_SPORTS_KEY")
 
 if not API_KEY:
     try:
-        import streamlit as st
         API_KEY = st.secrets.get("API_SPORTS_KEY", None)
     except Exception:
         pass
+
 HEADERS = {"x-apisports-key": API_KEY} if API_KEY else {}
+
 
 def api_get(session, path, params):
     if not API_KEY:
@@ -195,9 +208,11 @@ def api_get(session, path, params):
             time.sleep(1)
     return None
 
+
 def _contains_ht(text):
     t = str(text or "").lower()
     return any(k in t for k in ["1st half", "first half", "1h", "ht", "half time", "halftime", "1° tempo"])
+
 
 def safe_float(x, default=0.0):
     try:
@@ -212,9 +227,11 @@ def safe_float(x, default=0.0):
     except Exception:
         return default
 
+
 def is_blacklisted_league(league_name):
     name = str(league_name or "").lower()
     return any(k in name for k in LEAGUE_BLACKLIST)
+
 
 def extract_elite_markets(session, fid):
     res = api_get(session, "odds", {"fixture": fid})
@@ -264,6 +281,7 @@ def extract_elite_markets(session, fid):
 
     return mk
 
+
 def get_team_last_matches(session, tid):
     cache_key = str(tid)
     if cache_key in st.session_state.team_last_matches_cache:
@@ -293,6 +311,7 @@ def get_team_last_matches(session, tid):
 
     st.session_state.team_last_matches_cache[cache_key] = last_matches
     return last_matches
+
 
 def get_team_performance(session, tid):
     if str(tid) in st.session_state.team_stats_cache:
@@ -329,6 +348,297 @@ def get_team_performance(session, tid):
     return stats
 
 # ==========================================
+# SCORING HELPERS V24.1
+# ==========================================
+def round3(x):
+    return round(float(x), 3)
+
+
+def symmetry_bonus(a, b, tight=0.22, medium=0.45):
+    diff = abs(float(a) - float(b))
+    if diff <= tight:
+        return 0.8
+    if diff <= medium:
+        return 0.4
+    return 0.0
+
+
+def band_score(value, core_low, core_high, soft_low=None, soft_high=None, core_pts=1.0, soft_pts=0.45):
+    v = safe_float(value, 0.0)
+    if core_low <= v <= core_high:
+        return core_pts
+    if soft_low is not None and soft_high is not None and soft_low <= v <= soft_high:
+        return soft_pts
+    return 0.0
+
+
+def compute_drop_diff(fid, mk):
+    if fid not in st.session_state.odds_memory:
+        return 0.0
+
+    old_data = st.session_state.odds_memory.get(fid, {})
+    fav_is_home = mk["q1"] <= mk["q2"]
+    old_q = safe_float(old_data.get("q1") if fav_is_home else old_data.get("q2"), 0.0)
+    fav_now = min(mk["q1"], mk["q2"])
+
+    if old_q > 0 and fav_now > 0 and old_q > fav_now:
+        return round(old_q - fav_now, 3)
+    return 0.0
+
+
+def score_drop(drop_diff):
+    if drop_diff >= 0.15:
+        return 1.2
+    if drop_diff >= 0.10:
+        return 0.9
+    if drop_diff >= 0.05:
+        return 0.5
+    return 0.0
+
+
+def score_pt_signal(mk, s_h, s_a, combined_ht_avg):
+    score = 0.0
+
+    score += band_score(combined_ht_avg, 1.12, 1.70, 1.05, 1.90, core_pts=1.5, soft_pts=0.8)
+
+    if s_h["avg_ht"] >= 1.10 and s_a["avg_ht"] >= 1.10:
+        score += 1.6
+    elif (s_h["avg_ht"] >= 1.25 and s_a["avg_ht"] >= 0.95) or (s_a["avg_ht"] >= 1.25 and s_h["avg_ht"] >= 0.95):
+        score += 1.0
+
+    score += symmetry_bonus(s_h["avg_ht"], s_a["avg_ht"], tight=0.20, medium=0.40)
+
+    score += band_score(mk["o05ht"], 1.20, 1.40, 1.15, 1.48, core_pts=1.6, soft_pts=0.7)
+    score += band_score(mk["o15ht"], 2.00, 3.60, 1.80, 4.20, core_pts=0.8, soft_pts=0.3)
+
+    if s_h["last_2h_zero"] or s_a["last_2h_zero"]:
+        score += 0.8
+
+    if s_h["avg_total"] >= 1.20 and s_a["avg_total"] >= 1.20:
+        score += 0.5
+
+    return round3(score)
+
+
+def score_over_signal(mk, s_h, s_a, combined_ht_avg, fav, drop_diff):
+    score = 0.0
+
+    if s_h["avg_total"] >= 1.55 and s_a["avg_total"] >= 1.55:
+        score += 2.2
+    elif s_h["avg_total"] >= 1.45 and s_a["avg_total"] >= 1.45:
+        score += 1.4
+    elif (s_h["avg_total"] >= 1.80 and s_a["avg_total"] >= 1.20) or (s_a["avg_total"] >= 1.80 and s_h["avg_total"] >= 1.20):
+        score += 1.0
+
+    score += symmetry_bonus(s_h["avg_total"], s_a["avg_total"], tight=0.28, medium=0.50)
+
+    score += band_score(mk["o25"], 1.51, 2.37, 1.40, 2.55, core_pts=1.8, soft_pts=0.8)
+
+    if combined_ht_avg >= 1.10:
+        score += 0.7
+    if combined_ht_avg >= 1.20:
+        score += 0.3
+
+    if 1.35 <= fav <= 2.20:
+        score += 0.4
+
+    score += score_drop(drop_diff) * 0.7
+
+    return round3(score)
+
+
+def score_boost_signal(mk, s_h, s_a, pt_score, over_score, drop_diff, combined_ht_avg):
+    """
+    BOOST più selettivo:
+    - pesa meno il semplice accumulo score
+    - richiede migliore convergenza HT/FT
+    - bonus più stretti
+    """
+    score = 0.0
+    score += pt_score * 0.38
+    score += over_score * 0.48
+
+    # Bonus solo se c'è vera struttura HT
+    if (s_h["avg_ht"] >= 1.30 and s_a["avg_ht"] >= 1.00) or (s_a["avg_ht"] >= 1.30 and s_h["avg_ht"] >= 1.00):
+        score += 0.55
+    elif s_h["avg_ht"] >= 1.15 and s_a["avg_ht"] >= 1.15:
+        score += 0.35
+
+    # Bonus FT solo se c'è convergenza reale
+    if s_h["avg_total"] >= 1.65 and s_a["avg_total"] >= 1.65:
+        score += 0.55
+    elif (s_h["avg_total"] >= 1.95 and s_a["avg_total"] >= 1.35) or (s_a["avg_total"] >= 1.95 and s_h["avg_total"] >= 1.35):
+        score += 0.25
+
+    # Mercati più stretti
+    if 1.60 <= mk["o25"] <= 2.12 and 1.22 <= mk["o05ht"] <= 1.36:
+        score += 0.55
+    elif 1.55 <= mk["o25"] <= 2.20 and 1.20 <= mk["o05ht"] <= 1.38:
+        score += 0.20
+
+    if combined_ht_avg >= 1.16:
+        score += 0.35
+
+    score += score_drop(drop_diff) * 0.45
+
+    return round3(score)
+
+
+def score_gold_signal(mk, s_h, s_a, pt_score, over_score, boost_score, fav, drop_diff, is_gold_zone, combined_ht_avg):
+    """
+    GOLD più selettivo:
+    - meno bonus automatici
+    - dipende di più da BOOST forte
+    - drop pesa meno se il resto non è già buono
+    """
+    score = 0.0
+    score += pt_score * 0.22
+    score += over_score * 0.30
+    score += boost_score * 0.34
+
+    if is_gold_zone:
+        score += 0.85
+
+    if combined_ht_avg >= 1.18 and s_h["avg_total"] >= 1.55 and s_a["avg_total"] >= 1.50:
+        score += 0.45
+
+    if 1.42 <= fav <= 1.82:
+        score += 0.35
+
+    if drop_diff >= 0.10:
+        score += 0.55
+    elif drop_diff >= 0.05:
+        score += 0.25
+
+    return round3(score)
+
+
+def build_signal_package(fid, mk, s_h, s_a, combined_ht_avg):
+    fav = min(mk["q1"], mk["q2"])
+    is_gold_zone = (1.40 <= fav <= 1.90)
+    drop_diff = compute_drop_diff(fid, mk)
+
+    pt_score = score_pt_signal(mk, s_h, s_a, combined_ht_avg)
+    over_score = score_over_signal(mk, s_h, s_a, combined_ht_avg, fav, drop_diff)
+    boost_score = score_boost_signal(mk, s_h, s_a, pt_score, over_score, drop_diff, combined_ht_avg)
+    gold_score = score_gold_signal(mk, s_h, s_a, pt_score, over_score, boost_score, fav, drop_diff, is_gold_zone, combined_ht_avg)
+
+    tags = []
+    probe_tags = []
+
+    # Probe / contesto
+    if (fav < 1.75) and (s_h["avg_total"] >= 1.0 and s_a["avg_total"] >= 1.0):
+        probe_tags.append("🐟O")
+
+    if (2.0 <= mk["q1"] <= 3.5) and (2.0 <= mk["q2"] <= 3.5) and (s_h["avg_total"] >= 1.0 and s_a["avg_total"] >= 1.0):
+        probe_tags.append("🐟G")
+
+    # Tag primari
+    if pt_score >= 4.1:
+        tags.append("🎯PT")
+
+    if over_score >= 4.0:
+        tags.append("⚽ OVER")
+
+    # BOOST più selettivo
+    boost_gate_ht = (
+        (s_h["avg_ht"] >= 1.28 and s_a["avg_ht"] >= 1.00) or
+        (s_a["avg_ht"] >= 1.28 and s_h["avg_ht"] >= 1.00) or
+        (s_h["avg_ht"] >= 1.12 and s_a["avg_ht"] >= 1.12)
+    )
+    boost_gate_ft = (
+        (s_h["avg_total"] >= 1.60 and s_a["avg_total"] >= 1.55) or
+        (s_a["avg_total"] >= 1.60 and s_h["avg_total"] >= 1.55)
+    )
+    boost_gate_market = (1.58 <= mk["o25"] <= 2.18 and 1.21 <= mk["o05ht"] <= 1.37)
+    ft_convergence = (
+    (s_h["avg_total"] >= 1.45 and s_a["avg_total"] >= 1.45)
+    or
+    (s_h["avg_total"] >= 1.80 and s_a["avg_total"] >= 1.20)
+    or
+    (s_a["avg_total"] >= 1.80 and s_h["avg_total"] >= 1.20)
+)
+    if (
+        boost_score >= 5.85
+        and pt_score >= 4.00
+        and over_score >= 4.15
+        and combined_ht_avg >= 1.14
+        and boost_gate_ht
+        and boost_gate_ft
+        and boost_gate_market
+        and ft_convergence
+    ):
+        tags.append("🚀 BOOST")
+
+    # GOLD molto più selettivo
+    gold_gate_core = (
+        (s_h["avg_total"] >= 1.55 and s_a["avg_total"] >= 1.50)
+        and (s_h["avg_ht"] >= 1.05 and s_a["avg_ht"] >= 1.05)
+        and combined_ht_avg >= 1.16
+    )
+    gold_gate_quote = (1.42 <= fav <= 1.85)
+    gold_gate_extra = (
+        drop_diff >= 0.05 or
+        (
+            s_h["avg_total"] >= 1.75 and
+            s_a["avg_total"] >= 1.65 and
+            combined_ht_avg >= 1.20
+        )
+    )
+
+    if (
+        gold_score >= 6.75
+        and boost_score >= 5.95
+        and pt_score >= 4.00
+        and over_score >= 4.20
+        and is_gold_zone
+        and gold_gate_core
+        and gold_gate_quote
+        and gold_gate_extra
+    ):
+        tags.insert(0, "⚽⭐ GOLD")
+
+    if drop_diff >= 0.05:
+        tags.append(f"📉-{drop_diff:.2f}")
+
+    # Aggiungo probe dopo i tag forti
+    tags.extend(probe_tags)
+
+    primary_signal_count = sum(1 for t in tags if any(k in t for k in ["GOLD", "BOOST", "OVER", "PT"]))
+    max_score = max(pt_score, over_score, boost_score, gold_score)
+
+    return {
+        "tags": tags,
+        "scores": {
+            "pt": pt_score,
+            "over": over_score,
+            "boost": boost_score,
+            "gold": gold_score,
+            "max": round3(max_score),
+        },
+        "drop_diff": round3(drop_diff),
+        "fav_quote": round3(fav),
+        "is_gold_zone": is_gold_zone,
+        "primary_signal_count": primary_signal_count
+    }
+
+
+def should_keep_match(signal_pack):
+    """
+    Manteniamo il match se:
+    - ha almeno un tag primario
+    - oppure ha probe + score max discreto
+    """
+    if signal_pack["primary_signal_count"] >= 1:
+        return True
+
+    has_probe = any(t in signal_pack["tags"] for t in ["🐟O", "🐟G"])
+    if has_probe and signal_pack["scores"]["max"] >= 3.4:
+        return True
+
+    return False
+
+# ==========================================
 # DETAILS / DAY PAYLOAD HELPERS
 # ==========================================
 def save_match_details_file():
@@ -340,14 +650,17 @@ def save_match_details_file():
         json.dump(payload, f, indent=4, ensure_ascii=False)
     return payload
 
+
 def get_target_dates():
     return [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(3)]
+
 
 def build_day_results(day_num):
     target_date = get_target_dates()[day_num - 1]
     results = [r for r in st.session_state.scan_results if r.get("Data") == target_date]
     results.sort(key=lambda x: x.get("Ora", "99:99"))
     return results
+
 
 def build_day_details_payload(day_num):
     target_date = get_target_dates()[day_num - 1]
@@ -361,6 +674,7 @@ def build_day_details_payload(day_num):
         "date": target_date,
         "details": details
     }
+
 
 def sync_day_outputs_to_github(day_num, update_main=False):
     day_results = build_day_results(day_num)
@@ -420,8 +734,19 @@ def show_match_modal(fixture_id: str):
         f"**Fav quota:** {detail['flags'].get('fav_quote', 0):.2f} | "
         f"**Gold zone:** {'✅' if detail['flags'].get('is_gold_zone') else '❌'} | "
         f"**Home last 2H zero:** {'✅' if detail['flags'].get('home_last_2h_zero') else '❌'} | "
-        f"**Away last 2H zero:** {'✅' if detail['flags'].get('away_last_2h_zero') else '❌'}"
+        f"**Away last 2H zero:** {'✅' if detail['flags'].get('away_last_2h_zero') else '❌'} | "
+        f"**Drop:** {detail['flags'].get('drop_diff', 0):.2f}"
     )
+
+    scores = detail.get("scores", {})
+    if scores:
+        st.markdown("---")
+        st.subheader("🧠 Score interni V24.1")
+        s1, s2, s3, s4 = st.columns(4)
+        s1.metric("PT", f"{scores.get('pt', 0):.2f}")
+        s2.metric("OVER", f"{scores.get('over', 0):.2f}")
+        s3.metric("BOOST", f"{scores.get('boost', 0):.2f}")
+        s4.metric("GOLD", f"{scores.get('gold', 0):.2f}")
 
     st.markdown("---")
     c_home, c_away = st.columns(2)
@@ -513,56 +838,17 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                     continue
 
                 combined_ht_avg = (s_h["avg_ht"] + s_a["avg_ht"]) / 2
-                if combined_ht_avg < 1.05:
+                if combined_ht_avg < 1.03:
                     continue
 
-                fav = min(mk["q1"], mk["q2"])
-                is_gold_zone = (1.40 <= fav <= 1.90)
-                tags = ["M-Ok"]
+                signal_pack = build_signal_package(fid, mk, s_h, s_a, combined_ht_avg)
+                tags = signal_pack["tags"]
 
-                if use_horizon == 1 and fid in st.session_state.odds_memory:
-                    old_data = st.session_state.odds_memory[fid]
-                    old_q = old_data["q1"] if mk["q1"] < mk["q2"] else old_data["q2"]
-                    if old_q > fav:
-                        diff = old_q - fav
-                        if diff >= 0.05:
-                            tags.append(f"📉-{diff:.2f}")
+                if not should_keep_match(signal_pack):
+                    continue
 
-                h_p, h_o, h_g = False, False, False
-
-                if (fav < 1.75) and (s_h["avg_total"] >= 1.0 and s_a["avg_total"] >= 1.0):
-                    tags.append("🐟O")
-                    h_p = True
-
-                if (2.0 <= mk["q1"] <= 3.5) and (2.0 <= mk["q2"] <= 3.5) and (s_h["avg_total"] >= 1.0 and s_a["avg_total"] >= 1.0):
-                    tags.append("🐟G")
-                    h_p = True
-
-                cond_ft_155 = (s_h["avg_total"] >= 1.55 and s_a["avg_total"] >= 1.55)
-                cond_q_o25 = (1.51 <= mk["o25"] <= 2.37)
-                cond_q_o05h = (1.21 <= mk["o05ht"] <= 1.40)
-
-                if cond_ft_155 and cond_q_o25 and cond_q_o05h:
-                    cond_boost_ht = (s_h["avg_ht"] >= 1.27 or s_a["avg_ht"] >= 1.27)
-                    cond_boost_ft = (s_h["avg_total"] > 1.85 or s_a["avg_total"] > 1.85)
-                    if cond_boost_ht and cond_boost_ft:
-                        tags.append("🚀 BOOST")
-                        h_o = True
-                    else:
-                        tags.append("⚽ OVER")
-                        h_o = True
-
-                cond_pt_ht = (s_h["avg_ht"] >= 1.1 and s_a["avg_ht"] >= 1.1)
-                cond_pt_ft = (s_h["avg_total"] >= 1.1 and s_a["avg_total"] >= 1.1)
-                cond_pt_odd = (1.20 <= mk["o05ht"] <= 1.40)
-                cond_pt_last = (s_h["last_2h_zero"] or s_a["last_2h_zero"])
-
-                if cond_pt_ht and cond_pt_ft and cond_pt_odd and cond_pt_last:
-                    tags.append("🎯PT")
-                    h_g = True
-
-                if h_p and h_o and h_g:
-                    tags.insert(0, "⚽⭐ GOLD")
+                fav = signal_pack["fav_quote"]
+                is_gold_zone = signal_pack["is_gold_zone"]
 
                 row = {
                     "Ora": f["fixture"]["date"][11:16],
@@ -609,8 +895,10 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                         "fav_quote": round(fav, 3),
                         "is_gold_zone": is_gold_zone,
                         "home_last_2h_zero": s_h["last_2h_zero"],
-                        "away_last_2h_zero": s_a["last_2h_zero"]
+                        "away_last_2h_zero": s_a["last_2h_zero"],
+                        "drop_diff": signal_pack["drop_diff"]
                     },
+                    "scores": signal_pack["scores"],
                     "tags": tags,
                     "home_last_8": get_team_last_matches(s, home_team["id"]),
                     "away_last_8": get_team_last_matches(s, away_team["id"])
@@ -662,7 +950,7 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 
             pb.empty()
 
-            if "--auto" not in sys.argv and "--fast" not in sys.argv:
+            if "--auto" not in sys.argv and "--fast" not in sys.argv and "--day2-refresh" not in sys.argv:
                 time.sleep(2)
                 st.rerun()
 
@@ -686,7 +974,7 @@ def run_nightly_multiday_build():
 # ==========================================
 # UI SIDEBAR
 # ==========================================
-st.sidebar.header("👑 Arab Sniper V23 Multi-Day WEB")
+st.sidebar.header("👑 Arab Sniper V24.1 Multi-Day WEB")
 HORIZON = st.sidebar.selectbox("Orizzonte Temporale:", options=[1, 2, 3], index=0)
 target_dates = get_target_dates()
 
