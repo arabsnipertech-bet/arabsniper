@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-16 07:26:13",
+    "updated_at": "2026-03-16 11:47:49",
     "day": 2,
     "date": "2026-03-17",
     "details": {
@@ -13,9 +13,9 @@
             "home_team": "Liverpool Montevideo",
             "away_team": "Atletico Torque",
             "markets": {
-                "q1": 2.25,
-                "qx": 3.25,
-                "q2": 2.98,
+                "q1": 2.36,
+                "qx": 3.2,
+                "q2": 2.84,
                 "o25": 2.1,
                 "o05ht": 1.42,
                 "o15ht": 2.95
@@ -28,13 +28,22 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 2.25,
+                "fav_quote": 2.36,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.3,
+                "over": 5.0,
+                "boost": 4.934,
+                "gold": 4.574,
+                "max": 5.0
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -197,11 +206,11 @@
             "away_team": "Santiago Wanderers",
             "markets": {
                 "q1": 2.05,
-                "qx": 3.3,
-                "q2": 3.2,
-                "o25": 1.95,
-                "o05ht": 1.38,
-                "o15ht": 2.75
+                "qx": 3.2,
+                "q2": 3.35,
+                "o25": 2.05,
+                "o05ht": 1.42,
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 2.0,
@@ -214,12 +223,20 @@
                 "fav_quote": 2.05,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.3,
+                "over": 5.1,
+                "boost": 4.982,
+                "gold": 4.62,
+                "max": 5.1
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -384,8 +401,8 @@
                 "qx": 3.6,
                 "q2": 3.8,
                 "o25": 1.75,
-                "o05ht": 0.0,
-                "o15ht": 0.0
+                "o05ht": 1.3,
+                "o15ht": 2.45
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -398,10 +415,19 @@
                 "fav_quote": 1.73,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.9,
+                "boost": 5.954,
+                "gold": 6.412,
+                "max": 6.412
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -563,11 +589,11 @@
             "home_team": "Atlas W",
             "away_team": "Monterrey W",
             "markets": {
-                "q1": 7.1,
-                "qx": 4.6,
-                "q2": 1.41,
+                "q1": 6.25,
+                "qx": 4.85,
+                "q2": 1.42,
                 "o25": 1.57,
-                "o05ht": 1.28,
+                "o05ht": 1.25,
                 "o15ht": 2.25
             },
             "averages": {
@@ -578,15 +604,23 @@
                 "combined_ht_avg": 1.875
             },
             "flags": {
-                "fav_quote": 1.41,
+                "fav_quote": 1.42,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.7,
+                "over": 5.4,
+                "boost": 6.408,
+                "gold": 6.703,
+                "max": 6.703
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -765,10 +799,18 @@
                 "fav_quote": 2.72,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.2,
+                "over": 3.3,
+                "boost": 3.73,
+                "gold": 3.182,
+                "max": 4.2
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
                 "🐟G"
             ],
             "home_last_8": [
@@ -948,10 +990,18 @@
                 "fav_quote": 2.06,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.3,
+                "over": 4.4,
+                "boost": 3.916,
+                "gold": 3.377,
+                "max": 4.4
             },
             "tags": [
-                "M-Ok",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -1113,11 +1163,11 @@
             "home_team": "América W",
             "away_team": "Toluca W",
             "markets": {
-                "q1": 1.31,
-                "qx": 5.2,
-                "q2": 8.9,
-                "o25": 1.44,
-                "o05ht": 1.22,
+                "q1": 1.33,
+                "qx": 5.25,
+                "q2": 7.75,
+                "o25": 1.42,
+                "o05ht": 1.2,
                 "o15ht": 1.95
             },
             "averages": {
@@ -1128,13 +1178,22 @@
                 "combined_ht_avg": 1.75
             },
             "flags": {
-                "fav_quote": 1.31,
+                "fav_quote": 1.33,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.8,
+                "over": 4.4,
+                "boost": 5.386,
+                "gold": 4.657,
+                "max": 5.386
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -1296,10 +1355,10 @@
             "home_team": "León W",
             "away_team": "Mazatlán W",
             "markets": {
-                "q1": 1.25,
-                "qx": 5.9,
-                "q2": 10.0,
-                "o25": 1.38,
+                "q1": 1.2,
+                "qx": 6.0,
+                "q2": 14.0,
+                "o25": 1.4,
                 "o05ht": 1.2,
                 "o15ht": 1.95
             },
@@ -1311,13 +1370,22 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.25,
+                "fav_quote": 1.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.3,
+                "over": 4.0,
+                "boost": 5.764,
+                "gold": 4.996,
+                "max": 6.3
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -1497,12 +1565,20 @@
                 "fav_quote": 2.55,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.3,
+                "over": 5.8,
+                "boost": 6.448,
+                "gold": 5.548,
+                "max": 6.448
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -1681,10 +1757,19 @@
                 "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.3,
+                "over": 4.1,
+                "boost": 4.152,
+                "gold": 3.588,
+                "max": 4.3
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -1864,12 +1949,20 @@
                 "fav_quote": 1.55,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.6,
+                "over": 5.1,
+                "boost": 6.056,
+                "gold": 6.241,
+                "max": 6.6
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -2048,11 +2141,19 @@
                 "fav_quote": 1.81,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.4,
+                "boost": 5.714,
+                "gold": 6.181,
+                "max": 6.181
             },
             "tags": [
-                "M-Ok",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -2218,7 +2319,7 @@
                 "q2": 10.75,
                 "o25": 1.4,
                 "o05ht": 1.22,
-                "o15ht": 2.1
+                "o15ht": 2.05
             },
             "averages": {
                 "home_avg_ft": 3.5,
@@ -2231,12 +2332,20 @@
                 "fav_quote": 1.23,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 4.8,
+                "boost": 6.49,
+                "gold": 5.681,
+                "max": 7.2
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🎯PT"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -2415,14 +2524,21 @@
                 "fav_quote": 2.25,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.3,
+                "over": 5.0,
+                "boost": 6.414,
+                "gold": 5.297,
+                "max": 6.414
             },
             "tags": [
-                "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟G",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST",
-                "🎯PT"
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -2583,9 +2699,9 @@
             "home_team": "Sporting CP",
             "away_team": "Bodo/Glimt",
             "markets": {
-                "q1": 1.58,
-                "qx": 4.65,
-                "q2": 4.5,
+                "q1": 1.57,
+                "qx": 4.85,
+                "q2": 4.4,
                 "o25": 1.42,
                 "o05ht": 1.22,
                 "o15ht": 2.05
@@ -2598,13 +2714,22 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.58,
+                "fav_quote": 1.57,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 4.4,
+                "boost": 4.684,
+                "gold": 5.531,
+                "max": 5.531
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -2784,12 +2909,21 @@
                 "fav_quote": 1.7,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.4,
+                "over": 5.4,
+                "boost": 6.644,
+                "gold": 6.717,
+                "max": 6.717
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -2968,12 +3102,20 @@
                 "fav_quote": 1.62,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.8,
+                "over": 5.1,
+                "boost": 6.102,
+                "gold": 6.531,
+                "max": 6.531
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -3152,10 +3294,19 @@
                 "fav_quote": 2.4,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.9,
+                "over": 5.1,
+                "boost": 5.76,
+                "gold": 5.016,
+                "max": 5.76
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -3335,10 +3486,19 @@
                 "fav_quote": 1.7,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 4.8,
+                "boost": 4.876,
+                "gold": 5.716,
+                "max": 5.716
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -3518,12 +3678,20 @@
                 "fav_quote": 2.04,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.1,
+                "over": 4.4,
+                "boost": 4.77,
+                "gold": 3.844,
+                "max": 4.77
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -3702,12 +3870,20 @@
                 "fav_quote": 2.05,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.1,
+                "over": 4.8,
+                "boost": 6.452,
+                "gold": 5.646,
+                "max": 7.1
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🎯PT"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -3886,10 +4062,18 @@
                 "fav_quote": 1.25,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.8,
+                "over": 3.0,
+                "boost": 3.814,
+                "gold": 3.253,
+                "max": 4.8
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
                 "🐟O"
             ],
             "home_last_8": [
@@ -4069,14 +4253,21 @@
                 "fav_quote": 1.26,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 5.8,
+                "boost": 7.52,
+                "gold": 6.331,
+                "max": 7.52
             },
             "tags": [
-                "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟O",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST",
-                "🎯PT"
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -4237,10 +4428,10 @@
             "home_team": "Mantova",
             "away_team": "Cesena",
             "markets": {
-                "q1": 2.45,
-                "qx": 3.4,
+                "q1": 2.46,
+                "qx": 3.35,
                 "q2": 2.74,
-                "o25": 1.9,
+                "o25": 1.95,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -4252,15 +4443,24 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 2.45,
+                "fav_quote": 2.46,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.4,
+                "over": 5.0,
+                "boost": 6.832,
+                "gold": 5.681,
+                "max": 6.832
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -4421,9 +4621,9 @@
             "home_team": "Spezia",
             "away_team": "Empoli",
             "markets": {
-                "q1": 2.5,
-                "qx": 2.9,
-                "q2": 3.05,
+                "q1": 2.46,
+                "qx": 3.0,
+                "q2": 3.0,
                 "o25": 2.25,
                 "o05ht": 1.42,
                 "o15ht": 2.88
@@ -4436,13 +4636,22 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 2.5,
+                "fav_quote": 2.46,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 5.0,
+                "boost": 6.092,
+                "gold": 5.319,
+                "max": 6.092
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -4604,12 +4813,12 @@
             "home_team": "Reggiana",
             "away_team": "Monza",
             "markets": {
-                "q1": 4.65,
-                "qx": 3.5,
+                "q1": 4.7,
+                "qx": 3.45,
                 "q2": 1.76,
                 "o25": 2.1,
                 "o05ht": 1.42,
-                "o15ht": 2.95
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -4622,10 +4831,19 @@
                 "fav_quote": 1.76,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.9,
+                "over": 5.5,
+                "boost": 5.052,
+                "gold": 5.646,
+                "max": 5.646
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -4786,12 +5004,12 @@
             "home_team": "Catanzaro",
             "away_team": "Modena",
             "markets": {
-                "q1": 2.94,
-                "qx": 3.2,
+                "q1": 2.95,
+                "qx": 3.15,
                 "q2": 2.4,
                 "o25": 2.1,
                 "o05ht": 1.42,
-                "o15ht": 2.9
+                "o15ht": 2.88
             },
             "averages": {
                 "home_avg_ft": 3.625,
@@ -4804,10 +5022,19 @@
                 "fav_quote": 2.4,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.5,
+                "over": 5.0,
+                "boost": 5.94,
+                "gold": 5.18,
+                "max": 5.94
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -4987,10 +5214,19 @@
                 "fav_quote": 1.78,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.3,
+                "over": 4.4,
+                "boost": 5.196,
+                "gold": 5.683,
+                "max": 5.683
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -5169,12 +5405,21 @@
                 "fav_quote": 1.8,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 5.4,
+                "boost": 7.48,
+                "gold": 7.485,
+                "max": 7.6
             },
             "tags": [
-                "M-Ok",
-                "🚀 BOOST",
-                "🎯PT"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST"
             ],
             "home_last_8": [
                 {
@@ -5335,10 +5580,10 @@
             "home_team": "Inverness CT",
             "away_team": "Peterhead",
             "markets": {
-                "q1": 1.3,
+                "q1": 1.33,
                 "qx": 4.75,
-                "q2": 8.0,
-                "o25": 1.65,
+                "q2": 7.75,
+                "o25": 1.62,
                 "o05ht": 1.25,
                 "o15ht": 2.3
             },
@@ -5350,15 +5595,24 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 1.3,
+                "fav_quote": 1.33,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 7.176,
+                "gold": 6.006,
+                "max": 7.176
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -5537,10 +5791,19 @@
                 "fav_quote": 1.96,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.3,
+                "over": 6.2,
+                "boost": 6.44,
+                "gold": 5.666,
+                "max": 6.44
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -5701,12 +5964,12 @@
             "home_team": "Cheltenham",
             "away_team": "Crewe",
             "markets": {
-                "q1": 2.75,
-                "qx": 3.3,
-                "q2": 2.48,
-                "o25": 1.91,
-                "o05ht": 1.4,
-                "o15ht": 2.8
+                "q1": 2.68,
+                "qx": 3.35,
+                "q2": 2.5,
+                "o25": 1.93,
+                "o05ht": 1.36,
+                "o15ht": 2.65
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -5716,15 +5979,23 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.48,
+                "fav_quote": 2.5,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.1,
+                "over": 4.0,
+                "boost": 4.578,
+                "gold": 3.659,
+                "max": 4.578
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -5903,10 +6174,19 @@
                 "fav_quote": 1.97,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.4,
+                "over": 5.4,
+                "boost": 6.644,
+                "gold": 5.517,
+                "max": 6.644
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -6070,8 +6350,8 @@
             "markets": {
                 "q1": 2.16,
                 "qx": 3.3,
-                "q2": 3.3,
-                "o25": 2.0,
+                "q2": 3.25,
+                "o25": 1.95,
                 "o05ht": 1.4,
                 "o15ht": 2.8
             },
@@ -6086,12 +6366,20 @@
                 "fav_quote": 2.16,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.3,
+                "over": 4.4,
+                "boost": 4.676,
+                "gold": 4.076,
+                "max": 5.3
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -6270,10 +6558,19 @@
                 "fav_quote": 2.1,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.9,
+                "over": 5.9,
+                "boost": 6.144,
+                "gold": 5.387,
+                "max": 6.144
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -6434,11 +6731,11 @@
             "home_team": "Watford",
             "away_team": "Wrexham",
             "markets": {
-                "q1": 2.18,
-                "qx": 3.4,
+                "q1": 2.2,
+                "qx": 3.35,
                 "q2": 3.15,
-                "o25": 2.0,
-                "o05ht": 1.38,
+                "o25": 2.05,
+                "o05ht": 1.4,
                 "o15ht": 2.8
             },
             "averages": {
@@ -6449,15 +6746,22 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.18,
+                "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.7,
+                "over": 4.4,
+                "boost": 4.068,
+                "gold": 3.517,
+                "max": 4.4
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -6618,11 +6922,11 @@
             "home_team": "AFC Wimbledon",
             "away_team": "Leyton Orient",
             "markets": {
-                "q1": 2.22,
-                "qx": 3.2,
-                "q2": 3.3,
+                "q1": 2.28,
+                "qx": 3.25,
+                "q2": 3.1,
                 "o25": 2.1,
-                "o05ht": 1.44,
+                "o05ht": 1.42,
                 "o15ht": 2.95
             },
             "averages": {
@@ -6633,13 +6937,22 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 2.22,
+                "fav_quote": 2.28,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 5.0,
+                "boost": 6.092,
+                "gold": 5.319,
+                "max": 6.092
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -6819,10 +7132,19 @@
                 "fav_quote": 1.96,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.7,
+                "over": 5.4,
+                "boost": 6.588,
+                "gold": 5.784,
+                "max": 6.7
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -6985,7 +7307,7 @@
             "markets": {
                 "q1": 1.59,
                 "qx": 4.0,
-                "q2": 5.25,
+                "q2": 5.2,
                 "o25": 1.62,
                 "o05ht": 1.28,
                 "o15ht": 2.2
@@ -7001,12 +7323,22 @@
                 "fav_quote": 1.59,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.4,
+                "over": 5.4,
+                "boost": 7.024,
+                "gold": 7.066,
+                "max": 7.066
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -7185,12 +7517,20 @@
                 "fav_quote": 2.18,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.5,
+                "over": 4.4,
+                "boost": 4.922,
+                "gold": 3.983,
+                "max": 4.922
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -7369,12 +7709,20 @@
                 "fav_quote": 1.67,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.8,
+                "over": 5.5,
+                "boost": 5.944,
+                "gold": 6.147,
+                "max": 6.147
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -7535,12 +7883,12 @@
             "home_team": "Peterborough",
             "away_team": "Rotherham",
             "markets": {
-                "q1": 2.18,
+                "q1": 2.2,
                 "qx": 3.55,
-                "q2": 3.05,
-                "o25": 1.7,
-                "o05ht": 1.3,
-                "o15ht": 2.4
+                "q2": 3.0,
+                "o25": 1.73,
+                "o05ht": 1.33,
+                "o15ht": 2.45
             },
             "averages": {
                 "home_avg_ft": 3.875,
@@ -7550,15 +7898,23 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 2.18,
+                "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.1,
+                "boost": 5.22,
+                "gold": 4.273,
+                "max": 5.22
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -7737,10 +8093,19 @@
                 "fav_quote": 1.9,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.4,
+                "boost": 5.714,
+                "gold": 5.831,
+                "max": 5.831
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -7919,12 +8284,22 @@
                 "fav_quote": 1.73,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.0,
+                "over": 5.8,
+                "boost": 7.064,
+                "gold": 7.112,
+                "max": 7.112
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -8103,10 +8478,19 @@
                 "fav_quote": 2.45,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 4.0,
+                "boost": 5.954,
+                "gold": 5.17,
+                "max": 6.8
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -8269,8 +8653,8 @@
             "away_team": "Yeovil Town",
             "markets": {
                 "q1": 2.0,
-                "qx": 3.2,
-                "q2": 3.55,
+                "qx": 3.25,
+                "q2": 3.5,
                 "o25": 2.1,
                 "o05ht": 1.42,
                 "o15ht": 2.9
@@ -8286,10 +8670,20 @@
                 "fav_quote": 2.0,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.5,
+                "over": 6.2,
+                "boost": 6.516,
+                "gold": 5.735,
+                "max": 6.516
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -8468,12 +8862,21 @@
                 "fav_quote": 2.55,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.8,
+                "boost": 7.368,
+                "gold": 6.191,
+                "max": 7.368
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -8634,12 +9037,12 @@
             "home_team": "Truro City",
             "away_team": "Scunthorpe",
             "markets": {
-                "q1": 4.2,
-                "qx": 3.6,
-                "q2": 1.73,
+                "q1": 3.75,
+                "qx": 3.55,
+                "q2": 1.8,
                 "o25": 1.7,
                 "o05ht": 1.3,
-                "o15ht": 2.38
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -8649,15 +9052,22 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.73,
+                "fav_quote": 1.8,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.4,
+                "boost": 5.714,
+                "gold": 6.181,
+                "max": 6.181
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -8836,12 +9246,21 @@
                 "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 6.2,
+                "boost": 7.56,
+                "gold": 6.376,
+                "max": 7.56
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -9004,10 +9423,10 @@
             "markets": {
                 "q1": 2.2,
                 "qx": 3.35,
-                "q2": 2.9,
+                "q2": 2.88,
                 "o25": 1.93,
                 "o05ht": 1.42,
-                "o15ht": 3.0
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 1.75,
@@ -9020,10 +9439,19 @@
                 "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.5,
+                "over": 5.4,
+                "boost": 5.752,
+                "gold": 5.016,
+                "max": 5.752
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -9203,11 +9631,21 @@
                 "fav_quote": 1.85,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 6.976,
+                "gold": 6.788,
+                "max": 6.976
             },
             "tags": [
-                "M-Ok",
-                "⚽ OVER"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST"
             ],
             "home_last_8": [
                 {
@@ -9372,8 +9810,8 @@
                 "qx": 3.7,
                 "q2": 1.8,
                 "o25": 1.62,
-                "o05ht": 1.25,
-                "o15ht": 2.25
+                "o05ht": 1.28,
+                "o15ht": 2.35
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -9386,10 +9824,19 @@
                 "fav_quote": 1.8,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 6.2,
+                "boost": 7.332,
+                "gold": 7.367,
+                "max": 7.367
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -9569,10 +10016,19 @@
                 "fav_quote": 2.15,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 4.6,
+                "boost": 6.264,
+                "gold": 5.324,
+                "max": 6.264
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -9752,10 +10208,19 @@
                 "fav_quote": 1.85,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.9,
+                "over": 5.1,
+                "boost": 5.76,
+                "gold": 5.866,
+                "max": 5.866
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -9916,11 +10381,11 @@
             "home_team": "Weston-super-Mare",
             "away_team": "Tonbridge Angels",
             "markets": {
-                "q1": 1.83,
-                "qx": 3.4,
-                "q2": 3.8,
+                "q1": 1.77,
+                "qx": 3.5,
+                "q2": 4.0,
                 "o25": 1.8,
-                "o05ht": 1.36,
+                "o05ht": 1.35,
                 "o15ht": 2.62
             },
             "averages": {
@@ -9931,13 +10396,23 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.83,
+                "fav_quote": 1.77,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.0,
+                "over": 6.2,
+                "boost": 7.256,
+                "gold": 7.297,
+                "max": 7.297
             },
             "tags": [
-                "M-Ok",
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -10117,12 +10592,21 @@
                 "fav_quote": 1.55,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.8,
+                "over": 5.9,
+                "boost": 7.036,
+                "gold": 7.088,
+                "max": 7.088
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -10301,12 +10785,21 @@
                 "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 7.176,
+                "gold": 6.006,
+                "max": 7.176
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -10485,10 +10978,19 @@
                 "fav_quote": 1.83,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.4,
+                "over": 4.4,
+                "boost": 5.614,
+                "gold": 5.717,
+                "max": 5.717
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -10650,9 +11152,9 @@
             "away_team": "AFC Fylde",
             "markets": {
                 "q1": 4.0,
-                "qx": 3.95,
+                "qx": 4.0,
                 "q2": 1.67,
-                "o25": 1.44,
+                "o25": 1.45,
                 "o05ht": 1.25,
                 "o15ht": 2.1
             },
@@ -10667,10 +11169,19 @@
                 "fav_quote": 1.67,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.1,
+                "over": 5.2,
+                "boost": 6.264,
+                "gold": 6.682,
+                "max": 6.682
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -10832,7 +11343,7 @@
             "home_team": "AFC Telford United",
             "away_team": "Macclesfield",
             "markets": {
-                "q1": 2.4,
+                "q1": 2.38,
                 "qx": 3.5,
                 "q2": 2.55,
                 "o25": 1.62,
@@ -10847,15 +11358,23 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 2.4,
+                "fav_quote": 2.38,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 4.7,
+                "boost": 5.94,
+                "gold": 4.926,
+                "max": 6.8
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -11034,10 +11553,19 @@
                 "fav_quote": 2.1,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 6.2,
+                "boost": 6.668,
+                "gold": 5.875,
+                "max": 6.668
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -11199,9 +11727,9 @@
             "home_team": "Southport",
             "away_team": "Alfreton Town",
             "markets": {
-                "q1": 1.8,
+                "q1": 1.77,
                 "qx": 3.5,
-                "q2": 3.9,
+                "q2": 4.0,
                 "o25": 1.93,
                 "o05ht": 1.38,
                 "o15ht": 2.8
@@ -11214,14 +11742,23 @@
                 "combined_ht_avg": 1.562
             },
             "flags": {
-                "fav_quote": 1.8,
+                "fav_quote": 1.77,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.4,
+                "over": 6.2,
+                "boost": 7.058,
+                "gold": 7.318,
+                "max": 7.318
             },
             "tags": [
-                "M-Ok",
-                "🚀 BOOST"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -11400,14 +11937,21 @@
                 "fav_quote": 2.05,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.3,
+                "over": 5.4,
+                "boost": 6.606,
+                "gold": 5.482,
+                "max": 6.606
             },
             "tags": [
-                "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟G",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST",
-                "🎯PT"
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -11586,12 +12130,20 @@
                 "fav_quote": 1.4,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 6.626,
+                "gold": 6.669,
+                "max": 6.8
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -11770,10 +12322,19 @@
                 "fav_quote": 1.85,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.6,
+                "over": 5.1,
+                "boost": 6.956,
+                "gold": 6.647,
+                "max": 6.956
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -11940,7 +12501,7 @@
                 "q2": 1.44,
                 "o25": 1.7,
                 "o05ht": 1.3,
-                "o15ht": 2.47
+                "o15ht": 2.46
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -11953,12 +12514,22 @@
                 "fav_quote": 1.44,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 7.176,
+                "gold": 7.206,
+                "max": 7.206
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -12137,11 +12708,19 @@
                 "fav_quote": 1.95,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.1,
+                "boost": 5.22,
+                "gold": 4.273,
+                "max": 5.22
             },
             "tags": [
-                "M-Ok",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -12320,12 +12899,20 @@
                 "fav_quote": 1.83,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 5.4,
+                "boost": 6.978,
+                "gold": 6.877,
+                "max": 7.2
             },
             "tags": [
-                "M-Ok",
-                "🚀 BOOST",
-                "🎯PT"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -12504,12 +13091,21 @@
                 "fav_quote": 2.05,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.4,
+                "over": 5.4,
+                "boost": 6.644,
+                "gold": 5.517,
+                "max": 6.644
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -12688,12 +13284,21 @@
                 "fav_quote": 1.73,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 5.8,
+                "boost": 7.14,
+                "gold": 7.182,
+                "max": 7.182
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -12872,12 +13477,21 @@
                 "fav_quote": 2.38,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.8,
+                "boost": 7.368,
+                "gold": 6.191,
+                "max": 7.368
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -13056,12 +13670,21 @@
                 "fav_quote": 2.1,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 6.976,
+                "gold": 5.938,
+                "max": 6.976
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -13226,7 +13849,7 @@
                 "qx": 4.75,
                 "q2": 1.36,
                 "o25": 1.62,
-                "o05ht": 1.27,
+                "o05ht": 1.26,
                 "o15ht": 2.36
             },
             "averages": {
@@ -13240,14 +13863,21 @@
                 "fav_quote": 1.36,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 5.8,
+                "boost": 7.52,
+                "gold": 6.331,
+                "max": 7.52
             },
             "tags": [
-                "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟O",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST",
-                "🎯PT"
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -13411,7 +14041,7 @@
                 "q1": 2.24,
                 "qx": 3.45,
                 "q2": 3.0,
-                "o25": 1.8,
+                "o25": 1.83,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -13426,12 +14056,21 @@
                 "fav_quote": 2.24,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 7.176,
+                "gold": 6.006,
+                "max": 7.176
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -13592,10 +14231,10 @@
             "home_team": "Manchester City",
             "away_team": "Real Madrid",
             "markets": {
-                "q1": 1.5,
-                "qx": 4.9,
-                "q2": 5.1,
-                "o25": 1.5,
+                "q1": 1.55,
+                "qx": 4.75,
+                "q2": 4.7,
+                "o25": 1.48,
                 "o05ht": 1.22,
                 "o15ht": 2.15
             },
@@ -13607,15 +14246,23 @@
                 "combined_ht_avg": 1.938
             },
             "flags": {
-                "fav_quote": 1.5,
+                "fav_quote": 1.55,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.1,
+                "over": 5.2,
+                "boost": 6.264,
+                "gold": 6.682,
+                "max": 6.682
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🎯PT"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -13776,11 +14423,11 @@
             "home_team": "Chelsea",
             "away_team": "Paris Saint Germain",
             "markets": {
-                "q1": 2.08,
-                "qx": 4.1,
-                "q2": 2.92,
-                "o25": 1.38,
-                "o05ht": 1.2,
+                "q1": 2.06,
+                "qx": 4.2,
+                "q2": 2.88,
+                "o25": 1.4,
+                "o05ht": 1.18,
                 "o15ht": 1.95
             },
             "averages": {
@@ -13791,15 +14438,23 @@
                 "combined_ht_avg": 1.875
             },
             "flags": {
-                "fav_quote": 2.08,
+                "fav_quote": 2.06,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.5,
+                "over": 4.8,
+                "boost": 5.844,
+                "gold": 5.087,
+                "max": 5.844
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🎯PT"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -13960,9 +14615,9 @@
             "home_team": "Arsenal",
             "away_team": "Bayer Leverkusen",
             "markets": {
-                "q1": 1.3,
-                "qx": 5.4,
-                "q2": 8.9,
+                "q1": 1.29,
+                "qx": 5.2,
+                "q2": 10.0,
                 "o25": 1.62,
                 "o05ht": 1.28,
                 "o15ht": 2.3
@@ -13975,15 +14630,22 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 1.3,
+                "fav_quote": 1.29,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.7,
+                "over": 4.0,
+                "boost": 4.426,
+                "gold": 3.519,
+                "max": 4.426
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -14146,7 +14808,7 @@
             "markets": {
                 "q1": 1.9,
                 "qx": 3.2,
-                "q2": 4.33,
+                "q2": 4.35,
                 "o25": 2.3,
                 "o05ht": 1.48,
                 "o15ht": 3.2
@@ -14162,10 +14824,18 @@
                 "fav_quote": 1.9,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.5,
+                "over": 5.1,
+                "boost": 4.678,
+                "gold": 5.191,
+                "max": 5.191
             },
             "tags": [
-                "M-Ok"
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -14344,10 +15014,19 @@
                 "fav_quote": 1.94,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.7,
+                "over": 5.9,
+                "boost": 5.928,
+                "gold": 5.26,
+                "max": 6.7
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -14512,8 +15191,8 @@
                 "qx": 3.1,
                 "q2": 2.18,
                 "o25": 2.2,
-                "o05ht": 1.42,
-                "o15ht": 2.9
+                "o05ht": 1.48,
+                "o15ht": 3.2
             },
             "averages": {
                 "home_avg_ft": 2.0,
@@ -14526,10 +15205,19 @@
                 "fav_quote": 2.18,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.7,
+                "over": 5.1,
+                "boost": 5.164,
+                "gold": 4.54,
+                "max": 5.7
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
