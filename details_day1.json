@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-16 11:45:25",
+    "updated_at": "2026-03-16 12:32:40",
     "day": 1,
     "date": "2026-03-16",
     "details": {
@@ -13,12 +13,12 @@
             "home_team": "FK Tobol Kostanay",
             "away_team": "Zhetysu",
             "markets": {
-                "q1": 1.28,
-                "qx": 4.5,
-                "q2": 11.0,
-                "o25": 1.75,
-                "o05ht": 1.35,
-                "o15ht": 2.55
+                "q1": 1.53,
+                "qx": 3.65,
+                "q2": 5.75,
+                "o25": 2.0,
+                "o05ht": 1.38,
+                "o15ht": 2.75
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -28,23 +28,23 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.28,
-                "is_gold_zone": false,
+                "fav_quote": 1.53,
+                "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
                 "pt": 6.4,
-                "over": 5.0,
-                "boost": 6.832,
-                "gold": 5.681,
-                "max": 6.832
+                "over": 5.4,
+                "boost": 6.674,
+                "gold": 6.947,
+                "max": 6.947
             },
             "tags": [
+                "⚽⭐ GOLD",
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST",
                 "🐟O"
             ],
             "home_last_8": [
@@ -591,9 +591,9 @@
             "home_team": "Sileks",
             "away_team": "Pelister",
             "markets": {
-                "q1": 1.6,
-                "qx": 3.4,
-                "q2": 5.0,
+                "q1": 1.68,
+                "qx": 3.3,
+                "q2": 4.5,
                 "o25": 2.0,
                 "o05ht": 1.4,
                 "o15ht": 0.0
@@ -606,7 +606,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.6,
+                "fav_quote": 1.68,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": true,
@@ -1556,9 +1556,9 @@
                 "q1": 1.17,
                 "qx": 5.5,
                 "q2": 17.0,
-                "o25": 1.53,
+                "o25": 1.55,
                 "o05ht": 1.25,
-                "o15ht": 2.1
+                "o15ht": 2.15
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -1577,9 +1577,9 @@
             "scores": {
                 "pt": 6.4,
                 "over": 5.8,
-                "boost": 6.666,
-                "gold": 5.864,
-                "max": 6.666
+                "boost": 6.866,
+                "gold": 5.932,
+                "max": 6.866
             },
             "tags": [
                 "🎯PT",
@@ -1745,11 +1745,11 @@
             "home_team": "Zhenys",
             "away_team": "Ordabasy",
             "markets": {
-                "q1": 2.9,
+                "q1": 2.7,
                 "qx": 3.1,
-                "q2": 2.3,
+                "q2": 2.45,
                 "o25": 2.15,
-                "o05ht": 1.44,
+                "o05ht": 1.45,
                 "o15ht": 3.0
             },
             "averages": {
@@ -1760,7 +1760,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 2.3,
+                "fav_quote": 2.45,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -4241,10 +4241,10 @@
             "home_team": "FK Zalgiris Vilnius",
             "away_team": "TransINVEST Vilnius",
             "markets": {
-                "q1": 1.64,
-                "qx": 3.75,
-                "q2": 4.5,
-                "o25": 1.73,
+                "q1": 1.75,
+                "qx": 3.55,
+                "q2": 4.0,
+                "o25": 1.77,
                 "o05ht": 1.3,
                 "o15ht": 2.4
             },
@@ -4256,7 +4256,7 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 1.64,
+                "fav_quote": 1.75,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
@@ -4273,8 +4273,7 @@
                 "⚽⭐ GOLD",
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST",
-                "🐟O"
+                "🚀 BOOST"
             ],
             "home_last_8": [
                 {
@@ -5011,12 +5010,12 @@
             "home_team": "Den Bosch",
             "away_team": "Jong PSV U21",
             "markets": {
-                "q1": 1.83,
-                "qx": 4.1,
-                "q2": 3.6,
+                "q1": 1.85,
+                "qx": 4.2,
+                "q2": 3.5,
                 "o25": 1.33,
-                "o05ht": 1.18,
-                "o15ht": 1.85
+                "o05ht": 1.17,
+                "o15ht": 1.8
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -5026,7 +5025,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.83,
+                "fav_quote": 1.85,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -5394,8 +5393,8 @@
             "away_team": "Vitesse",
             "markets": {
                 "q1": 1.95,
-                "qx": 3.85,
-                "q2": 3.3,
+                "qx": 3.9,
+                "q2": 3.4,
                 "o25": 1.57,
                 "o05ht": 1.25,
                 "o15ht": 2.2
@@ -6928,12 +6927,12 @@
             "home_team": "Portsmouth",
             "away_team": "Derby",
             "markets": {
-                "q1": 2.22,
-                "qx": 3.15,
-                "q2": 3.3,
+                "q1": 2.14,
+                "qx": 3.2,
+                "q2": 3.45,
                 "o25": 2.2,
                 "o05ht": 1.42,
-                "o15ht": 2.88
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -6943,7 +6942,7 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 2.22,
+                "fav_quote": 2.14,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true,
@@ -6951,10 +6950,10 @@
             },
             "scores": {
                 "pt": 4.3,
-                "over": 5.0,
-                "boost": 4.934,
-                "gold": 4.574,
-                "max": 5.0
+                "over": 5.4,
+                "boost": 5.126,
+                "gold": 4.759,
+                "max": 5.4
             },
             "tags": [
                 "🎯PT",
