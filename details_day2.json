@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-16 19:52:38",
+    "updated_at": "2026-03-16 21:19:33",
     "day": 2,
     "date": "2026-03-17",
     "details": {
@@ -400,7 +400,7 @@
                 "q1": 1.5,
                 "qx": 4.4,
                 "q2": 4.8,
-                "o25": 1.75,
+                "o25": 1.53,
                 "o05ht": 1.22,
                 "o15ht": 2.15
             },
@@ -421,9 +421,9 @@
             "scores": {
                 "pt": 4.4,
                 "over": 5.9,
-                "boost": 5.954,
-                "gold": 6.412,
-                "max": 6.412
+                "boost": 5.404,
+                "gold": 6.225,
+                "max": 6.225
             },
             "tags": [
                 "🎯PT",
@@ -781,12 +781,12 @@
             "home_team": "Instituto Cordoba",
             "away_team": "Independiente",
             "markets": {
-                "q1": 2.68,
-                "qx": 2.98,
-                "q2": 2.76,
+                "q1": 2.62,
+                "qx": 2.94,
+                "q2": 2.88,
                 "o25": 2.7,
                 "o05ht": 1.55,
-                "o15ht": 3.55
+                "o15ht": 3.5
             },
             "averages": {
                 "home_avg_ft": 2.5,
@@ -796,7 +796,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 2.68,
+                "fav_quote": 2.62,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -1353,10 +1353,10 @@
             "home_team": "León W",
             "away_team": "Mazatlán W",
             "markets": {
-                "q1": 1.18,
-                "qx": 6.4,
-                "q2": 14.0,
-                "o25": 1.36,
+                "q1": 1.17,
+                "qx": 7.1,
+                "q2": 14.5,
+                "o25": 1.33,
                 "o05ht": 1.18,
                 "o15ht": 1.85
             },
@@ -1368,7 +1368,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.18,
+                "fav_quote": 1.17,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -2111,6 +2111,196 @@
                 }
             ]
         },
+        "1434126": {
+            "fixture_id": 1434126,
+            "date": "2026-03-17",
+            "time": "14:30",
+            "league": "Professional Development League",
+            "country": "England",
+            "match": "Charlton Athletic U21 - Huddersfield Town U21",
+            "home_team": "Charlton Athletic U21",
+            "away_team": "Huddersfield Town U21",
+            "markets": {
+                "q1": 1.85,
+                "qx": 3.9,
+                "q2": 3.2,
+                "o25": 1.33,
+                "o05ht": 1.17,
+                "o15ht": 1.83
+            },
+            "averages": {
+                "home_avg_ft": 3.625,
+                "away_avg_ft": 4.5,
+                "home_avg_ht": 1.625,
+                "away_avg_ht": 1.75,
+                "combined_ht_avg": 1.688
+            },
+            "flags": {
+                "fav_quote": 1.85,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.4,
+                "over": 3.6,
+                "boost": 5.23,
+                "gold": 5.346,
+                "max": 5.4
+            },
+            "tags": [
+                "🎯PT"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-10",
+                    "league": "Professional Development League",
+                    "match": "Cardiff City U21 - Charlton Athletic U21",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "Professional Development League",
+                    "match": "Charlton Athletic U21 - Bristol City U21",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Professional Development League",
+                    "match": "Charlton Athletic U21 - Millwall U21",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "Professional Development League",
+                    "match": "Charlton Athletic U21 - Swansea City U21",
+                    "ht": "3-0",
+                    "ft": "6-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "Professional Development League",
+                    "match": "Brentford U21 - Charlton Athletic U21",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-09",
+                    "league": "Premier League Cup",
+                    "match": "Watford U21 - Charlton Athletic U21",
+                    "ht": "0-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-01-23",
+                    "league": "Professional Development League",
+                    "match": "Queens Park Rangers U21 - Charlton Athletic U21",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-12",
+                    "league": "Professional Development League",
+                    "match": "AFC Bournemouth U21 - Charlton Athletic U21",
+                    "ht": "4-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-10",
+                    "league": "Professional Development League",
+                    "match": "Huddersfield Town U21 - Crewe Alexandra U21",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "Professional Development League",
+                    "match": "Fleetwood Town U21 - Huddersfield Town U21",
+                    "ht": "1-0",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-25",
+                    "league": "Professional Development League",
+                    "match": "Huddersfield Town U21 - Hull City U21",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Professional Development League",
+                    "match": "Sheffield Wednesday U21 - Huddersfield Town U21",
+                    "ht": "3-2",
+                    "ft": "6-8",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 14
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "Professional Development League",
+                    "match": "Huddersfield Town U21 - Barnsley U21",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-03",
+                    "league": "Professional Development League",
+                    "match": "Peterborough United U21 - Huddersfield Town U21",
+                    "ht": "2-3",
+                    "ft": "2-4",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-01-20",
+                    "league": "Professional Development League",
+                    "match": "Huddersfield Town U21 - Wigan Athletic U21",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-13",
+                    "league": "Professional Development League",
+                    "match": "Huddersfield Town U21 - Sheffield United U21",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
         "1434128": {
             "fixture_id": 1434128,
             "date": "2026-03-17",
@@ -2121,9 +2311,9 @@
             "home_team": "Queens Park Rangers U21",
             "away_team": "Sheffield United U21",
             "markets": {
-                "q1": 3.1,
-                "qx": 3.8,
-                "q2": 1.85,
+                "q1": 2.8,
+                "qx": 3.6,
+                "q2": 2.1,
                 "o25": 1.4,
                 "o05ht": 1.2,
                 "o15ht": 1.95
@@ -2136,8 +2326,8 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.85,
-                "is_gold_zone": true,
+                "fav_quote": 2.1,
+                "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
@@ -2146,11 +2336,12 @@
                 "pt": 3.9,
                 "over": 4.5,
                 "boost": 4.542,
-                "gold": 5.052,
-                "max": 5.052
+                "gold": 4.202,
+                "max": 4.542
             },
             "tags": [
-                "⚽ OVER"
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -2876,6 +3067,198 @@
                 }
             ]
         },
+        "1410635": {
+            "fixture_id": 1410635,
+            "date": "2026-03-17",
+            "time": "17:00",
+            "league": "III Liga - Group 2",
+            "country": "Poland",
+            "match": "Elana Toruń - Stargard Szczeciński",
+            "home_team": "Elana Toruń",
+            "away_team": "Stargard Szczeciński",
+            "markets": {
+                "q1": 1.91,
+                "qx": 3.6,
+                "q2": 3.25,
+                "o25": 1.73,
+                "o05ht": 1.29,
+                "o15ht": 2.4
+            },
+            "averages": {
+                "home_avg_ft": 3.25,
+                "away_avg_ft": 3.0,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.75,
+                "combined_ht_avg": 1.5
+            },
+            "flags": {
+                "fav_quote": 1.91,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.0,
+                "over": 6.2,
+                "boost": 7.256,
+                "gold": 6.097,
+                "max": 7.256
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "III Liga - Group 2",
+                    "match": "Elana Toruń - Pogoń Nowe Skalmierzyce",
+                    "ht": "2-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "III Liga - Group 2",
+                    "match": "Elana Toruń - Polonia Środa",
+                    "ht": "0-0",
+                    "ft": "0-3",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "III Liga - Group 2",
+                    "match": "Elana Toruń - Cartusia Kartuzy",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Friendlies Clubs",
+                    "match": "Elana Toruń - Wikielec",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Friendlies Clubs",
+                    "match": "Warta Poznań - Elana Toruń",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Friendlies Clubs",
+                    "match": "Olimpia Grudziądz - Elana Toruń",
+                    "ht": "None-None",
+                    "ft": "3-3",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Friendlies Clubs",
+                    "match": "Elana Toruń - Wisła Płock II",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-11-23",
+                    "league": "III Liga - Group 2",
+                    "match": "Lech Poznań II - Elana Toruń",
+                    "ht": "1-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "III Liga - Group 2",
+                    "match": "Stargard Szczeciński - Cartusia Kartuzy",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "III Liga - Group 2",
+                    "match": "Lipno Stęszew - Stargard Szczeciński",
+                    "ht": "1-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "III Liga - Group 2",
+                    "match": "Stargard Szczeciński - Kluczevia Stargard",
+                    "ht": "0-1",
+                    "ft": "0-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Friendlies Clubs",
+                    "match": "Stargard Szczeciński - Stilon Gorzów",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-11-22",
+                    "league": "III Liga - Group 2",
+                    "match": "Stargard Szczeciński - Polonia Środa",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "III Liga - Group 2",
+                    "match": "Flota Świnoujście - Stargard Szczeciński",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-08",
+                    "league": "III Liga - Group 2",
+                    "match": "Stargard Szczeciński - Tłuchowia",
+                    "ht": "1-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-11-02",
+                    "league": "III Liga - Group 2",
+                    "match": "Noteć Czarnków - Stargard Szczeciński",
+                    "ht": "2-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
         "1451561": {
             "fixture_id": 1451561,
             "date": "2026-03-17",
@@ -2887,9 +3270,9 @@
             "away_team": "Septemvri Sofia",
             "markets": {
                 "q1": 1.6,
-                "qx": 3.6,
-                "q2": 5.1,
-                "o25": 1.95,
+                "qx": 3.65,
+                "q2": 5.0,
+                "o25": 1.93,
                 "o05ht": 1.38,
                 "o15ht": 2.75
             },
@@ -3269,10 +3652,10 @@
             "home_team": "Fenerbahçe",
             "away_team": "Gaziantep FK",
             "markets": {
-                "q1": 1.22,
+                "q1": 1.23,
                 "qx": 6.0,
-                "q2": 11.5,
-                "o25": 1.44,
+                "q2": 10.75,
+                "o25": 1.42,
                 "o05ht": 1.22,
                 "o15ht": 2.05
             },
@@ -3284,7 +3667,7 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 1.22,
+                "fav_quote": 1.23,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
@@ -4039,12 +4422,12 @@
             "home_team": "Al-Ittihad Kalba",
             "away_team": "Sharjah FC",
             "markets": {
-                "q1": 3.8,
+                "q1": 3.75,
                 "qx": 3.45,
-                "q2": 1.86,
-                "o25": 1.75,
+                "q2": 1.87,
+                "o25": 1.8,
                 "o05ht": 1.33,
-                "o15ht": 2.45
+                "o15ht": 2.55
             },
             "averages": {
                 "home_avg_ft": 3.75,
@@ -4054,7 +4437,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.86,
+                "fav_quote": 1.87,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -4230,12 +4613,12 @@
             "home_team": "Sporting CP",
             "away_team": "Bodo/Glimt",
             "markets": {
-                "q1": 1.57,
-                "qx": 4.6,
-                "q2": 4.6,
-                "o25": 1.42,
-                "o05ht": 1.22,
-                "o15ht": 2.05
+                "q1": 1.5,
+                "qx": 4.85,
+                "q2": 5.0,
+                "o25": 1.38,
+                "o05ht": 1.2,
+                "o15ht": 1.95
             },
             "averages": {
                 "home_avg_ft": 2.5,
@@ -4245,22 +4628,20 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.57,
+                "fav_quote": 1.5,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 4.4,
-                "over": 4.4,
-                "boost": 4.684,
-                "gold": 5.531,
-                "max": 5.531
+                "pt": 3.9,
+                "over": 3.6,
+                "boost": 4.11,
+                "gold": 4.985,
+                "max": 4.985
             },
             "tags": [
-                "🎯PT",
-                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -4422,9 +4803,9 @@
             "home_team": "Jagiellonia",
             "away_team": "GKS Katowice",
             "markets": {
-                "q1": 1.7,
+                "q1": 1.75,
                 "qx": 3.85,
-                "q2": 4.45,
+                "q2": 4.2,
                 "o25": 1.65,
                 "o05ht": 1.3,
                 "o15ht": 2.4
@@ -4437,7 +4818,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.7,
+                "fav_quote": 1.75,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -4453,8 +4834,7 @@
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST",
-                "🐟O"
+                "🚀 BOOST"
             ],
             "home_last_8": [
                 {
@@ -4601,6 +4981,199 @@
                     "ht": "1-0",
                     "ft": "2-1",
                     "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1418021": {
+            "fixture_id": 1418021,
+            "date": "2026-03-17",
+            "time": "19:00",
+            "league": "Regionalliga - Ost",
+            "country": "Austria",
+            "match": "Donau - Fach-Donaufeld",
+            "home_team": "Donau",
+            "away_team": "Fach-Donaufeld",
+            "markets": {
+                "q1": 3.0,
+                "qx": 3.6,
+                "q2": 2.0,
+                "o25": 1.75,
+                "o05ht": 1.3,
+                "o15ht": 2.5
+            },
+            "averages": {
+                "home_avg_ft": 2.625,
+                "away_avg_ft": 3.375,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.375
+            },
+            "flags": {
+                "fav_quote": 2.0,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 5.4,
+                "boost": 7.328,
+                "gold": 6.146,
+                "max": 7.328
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "Regionalliga - Ost",
+                    "match": "Donau - Mannsdorf-Großenzersdorf",
+                    "ht": "0-2",
+                    "ft": "3-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "Regionalliga - Ost",
+                    "match": "TWL Elektra - Donau",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Regionalliga - Ost",
+                    "match": "Donau - SV Horn",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-27",
+                    "league": "Friendlies Clubs",
+                    "match": "Donau - Stockerau",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-16",
+                    "league": "Friendlies Clubs",
+                    "match": "Rapid Wien II - Donau",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-11-21",
+                    "league": "Regionalliga - Ost",
+                    "match": "Parndorf - Donau",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "Regionalliga - Ost",
+                    "match": "Donau - Krems / Rehberg",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-11-08",
+                    "league": "Regionalliga - Ost",
+                    "match": "Wiener Viktoria - Donau",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Regionalliga - Ost",
+                    "match": "Leobendorf - Fach-Donaufeld",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Regionalliga - Ost",
+                    "match": "Fach-Donaufeld - Neusiedl",
+                    "ht": "0-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Regionalliga - Ost",
+                    "match": "Oberwart - Fach-Donaufeld",
+                    "ht": "0-2",
+                    "ft": "2-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Friendlies Clubs",
+                    "match": "Fach-Donaufeld - Wiener Neudorf",
+                    "ht": "None-None",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Friendlies Clubs",
+                    "match": "Floridsdorfer AC - Fach-Donaufeld",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Friendlies Clubs",
+                    "match": "Fach-Donaufeld - SV Horn",
+                    "ht": "3-1",
+                    "ft": "3-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Friendlies Clubs",
+                    "match": "Columbia Floridsdorf - Fach-Donaufeld",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-27",
+                    "league": "Friendlies Clubs",
+                    "match": "Hellas Kagran - Fach-Donaufeld",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
                     "total_ft_goals": 3
                 }
             ]
@@ -4797,6 +5370,198 @@
                 }
             ]
         },
+        "1512252": {
+            "fixture_id": 1512252,
+            "date": "2026-03-17",
+            "time": "19:00",
+            "league": "Reserve League",
+            "country": "Argentina",
+            "match": "Sarmiento Res. - Gimnasia La Plata Res.",
+            "home_team": "Sarmiento Res.",
+            "away_team": "Gimnasia La Plata Res.",
+            "markets": {
+                "q1": 3.1,
+                "qx": 2.88,
+                "q2": 2.15,
+                "o25": 2.15,
+                "o05ht": 1.4,
+                "o15ht": 2.9
+            },
+            "averages": {
+                "home_avg_ft": 1.875,
+                "away_avg_ft": 2.75,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.125,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 2.15,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 5.1,
+                "boost": 5.886,
+                "gold": 5.203,
+                "max": 7.6
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-02",
+                    "league": "Reserve League",
+                    "match": "Unión Santa Fe Res. - Sarmiento Res.",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-18",
+                    "league": "Reserve League",
+                    "match": "Sarmiento Res. - Atlético Tucumán Res.",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-12",
+                    "league": "Reserve League",
+                    "match": "Godoy Cruz Res. - Sarmiento Res.",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-04",
+                    "league": "Reserve League",
+                    "match": "Sarmiento Res. - Gimnasia Mendoza 2",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-28",
+                    "league": "Reserve League",
+                    "match": "San Lorenzo Res. - Sarmiento Res.",
+                    "ht": "2-2",
+                    "ft": "5-2",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2025-10-21",
+                    "league": "Reserve League",
+                    "match": "Sarmiento Res. - Instituto Res.",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-14",
+                    "league": "Reserve League",
+                    "match": "Platense Res. - Sarmiento Res.",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-08",
+                    "league": "Reserve League",
+                    "match": "Sarmiento Res. - Vélez Sársfield Res.",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-02",
+                    "league": "Reserve League",
+                    "match": "Gimnasia La Plata Res. - Argentinos Juniors Res.",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-16",
+                    "league": "Reserve League",
+                    "match": "Aldosivi Res. - Gimnasia La Plata Res.",
+                    "ht": "0-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "Reserve League",
+                    "match": "Gimnasia La Plata Res. - Instituto Res.",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-03",
+                    "league": "Reserve League",
+                    "match": "Gimnasia La Plata Res. - Unión Santa Fe Res.",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-11-27",
+                    "league": "Reserve League",
+                    "match": "Gimnasia La Plata Res. - Argentinos Juniors Res.",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-11-19",
+                    "league": "Reserve League",
+                    "match": "Gimnasia La Plata Res. - San Lorenzo Res.",
+                    "ht": "2-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-11-12",
+                    "league": "Reserve League",
+                    "match": "Gimnasia La Plata Res. - Newell's Old Boys Res.",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-28",
+                    "league": "Reserve League",
+                    "match": "Platense Res. - Gimnasia La Plata Res.",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
         "1529144": {
             "fixture_id": 1529144,
             "date": "2026-03-17",
@@ -4989,6 +5754,198 @@
                 }
             ]
         },
+        "1418019": {
+            "fixture_id": 1418019,
+            "date": "2026-03-17",
+            "time": "19:30",
+            "league": "Regionalliga - Ost",
+            "country": "Austria",
+            "match": "SV Horn - Mannsdorf-Großenzersdorf",
+            "home_team": "SV Horn",
+            "away_team": "Mannsdorf-Großenzersdorf",
+            "markets": {
+                "q1": 1.85,
+                "qx": 3.5,
+                "q2": 3.5,
+                "o25": 1.8,
+                "o05ht": 1.3,
+                "o15ht": 2.5
+            },
+            "averages": {
+                "home_avg_ft": 2.375,
+                "away_avg_ft": 3.75,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 2.25,
+                "combined_ht_avg": 1.625
+            },
+            "flags": {
+                "fav_quote": 1.85,
+                "is_gold_zone": true,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 5.4,
+                "boost": 6.948,
+                "gold": 6.646,
+                "max": 6.948
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "Regionalliga - Ost",
+                    "match": "Neusiedl - SV Horn",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "Regionalliga - Ost",
+                    "match": "SV Horn - Oberwart",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Regionalliga - Ost",
+                    "match": "Donau - SV Horn",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Friendlies Clubs",
+                    "match": "Fach-Donaufeld - SV Horn",
+                    "ht": "3-1",
+                    "ft": "3-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-11-21",
+                    "league": "Regionalliga - Ost",
+                    "match": "SV Horn - TWL Elektra",
+                    "ht": "2-0",
+                    "ft": "7-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2025-11-08",
+                    "league": "Regionalliga - Ost",
+                    "match": "Fach-Donaufeld - SV Horn",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-31",
+                    "league": "Regionalliga - Ost",
+                    "match": "SV Horn - Parndorf",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-24",
+                    "league": "Regionalliga - Ost",
+                    "match": "Krems / Rehberg - SV Horn",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "Regionalliga - Ost",
+                    "match": "Donau - Mannsdorf-Großenzersdorf",
+                    "ht": "0-2",
+                    "ft": "3-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Regionalliga - Ost",
+                    "match": "Mannsdorf-Großenzersdorf - TWL Elektra",
+                    "ht": "2-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Friendlies Clubs",
+                    "match": "Wienerberg - Mannsdorf-Großenzersdorf",
+                    "ht": "1-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-24",
+                    "league": "Friendlies Clubs",
+                    "match": "Inter Bratislava - Mannsdorf-Großenzersdorf",
+                    "ht": "3-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-01-21",
+                    "league": "Friendlies Clubs",
+                    "match": "Rapid Wien II - Mannsdorf-Großenzersdorf",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-16",
+                    "league": "Friendlies Clubs",
+                    "match": "Mannsdorf-Großenzersdorf - Schwechat",
+                    "ht": "2-1",
+                    "ft": "5-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-11-22",
+                    "league": "Regionalliga - Ost",
+                    "match": "Fach-Donaufeld - Mannsdorf-Großenzersdorf",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-11-14",
+                    "league": "Regionalliga - Ost",
+                    "match": "Mannsdorf-Großenzersdorf - Parndorf",
+                    "ht": "1-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
         "1422997": {
             "fixture_id": 1422997,
             "date": "2026-03-17",
@@ -5001,10 +5958,10 @@
             "markets": {
                 "q1": 2.62,
                 "qx": 3.2,
-                "q2": 2.5,
+                "q2": 2.45,
                 "o25": 2.05,
-                "o05ht": 1.42,
-                "o15ht": 2.9
+                "o05ht": 1.38,
+                "o15ht": 2.75
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -5014,18 +5971,18 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.5,
+                "fav_quote": 2.45,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 4.9,
+                "pt": 5.8,
                 "over": 5.1,
-                "boost": 5.76,
-                "gold": 5.016,
-                "max": 5.76
+                "boost": 6.302,
+                "gold": 5.399,
+                "max": 6.302
             },
             "tags": [
                 "🎯PT",
@@ -5383,12 +6340,12 @@
             "home_team": "Al Shamal",
             "away_team": "Al-Duhail SC",
             "markets": {
-                "q1": 3.25,
+                "q1": 2.88,
                 "qx": 3.4,
-                "q2": 2.04,
+                "q2": 2.22,
                 "o25": 1.67,
                 "o05ht": 1.3,
-                "o15ht": 2.3
+                "o15ht": 2.35
             },
             "averages": {
                 "home_avg_ft": 1.875,
@@ -5398,7 +6355,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.04,
+                "fav_quote": 2.22,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -5406,10 +6363,10 @@
             },
             "scores": {
                 "pt": 4.1,
-                "over": 4.4,
-                "boost": 4.77,
-                "gold": 3.844,
-                "max": 4.77
+                "over": 4.0,
+                "boost": 4.578,
+                "gold": 3.659,
+                "max": 4.578
             },
             "tags": [
                 "🎯PT",
@@ -5580,7 +6537,7 @@
                 "q2": 3.1,
                 "o25": 1.42,
                 "o05ht": 1.22,
-                "o15ht": 1.95
+                "o15ht": 2.05
             },
             "averages": {
                 "home_avg_ft": 3.25,
@@ -5597,11 +6554,11 @@
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 7.1,
+                "pt": 7.6,
                 "over": 4.8,
-                "boost": 6.452,
-                "gold": 5.646,
-                "max": 7.1
+                "boost": 6.642,
+                "gold": 5.82,
+                "max": 7.6
             },
             "tags": [
                 "🎯PT",
@@ -5769,8 +6726,8 @@
             "markets": {
                 "q1": 1.25,
                 "qx": 5.75,
-                "q2": 10.25,
-                "o25": 1.36,
+                "q2": 10.5,
+                "o25": 1.38,
                 "o05ht": 1.2,
                 "o15ht": 1.91
             },
@@ -6151,10 +7108,10 @@
             "home_team": "Mantova",
             "away_team": "Cesena",
             "markets": {
-                "q1": 2.26,
+                "q1": 2.32,
                 "qx": 3.35,
-                "q2": 3.0,
-                "o25": 1.9,
+                "q2": 2.92,
+                "o25": 1.85,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -6166,7 +7123,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 2.26,
+                "fav_quote": 2.32,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -6536,12 +7493,12 @@
             "home_team": "Reggiana",
             "away_team": "Monza",
             "markets": {
-                "q1": 4.9,
+                "q1": 5.25,
                 "qx": 3.5,
-                "q2": 1.73,
-                "o25": 2.2,
+                "q2": 1.68,
+                "o25": 2.1,
                 "o05ht": 1.42,
-                "o15ht": 2.95
+                "o15ht": 2.88
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -6551,7 +7508,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.73,
+                "fav_quote": 1.68,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -6728,12 +7685,12 @@
             "home_team": "Catanzaro",
             "away_team": "Modena",
             "markets": {
-                "q1": 2.95,
-                "qx": 3.15,
-                "q2": 2.4,
+                "q1": 2.72,
+                "qx": 3.2,
+                "q2": 2.55,
                 "o25": 2.1,
                 "o05ht": 1.42,
-                "o15ht": 2.88
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 3.625,
@@ -6743,7 +7700,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 2.4,
+                "fav_quote": 2.55,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -7293,6 +8250,389 @@
                 }
             ]
         },
+        "1512238": {
+            "fixture_id": 1512238,
+            "date": "2026-03-17",
+            "time": "20:00",
+            "league": "Reserve League",
+            "country": "Argentina",
+            "match": "Belgrano Córdoba Res. - Defensa y Justicia Res.",
+            "home_team": "Belgrano Córdoba Res.",
+            "away_team": "Defensa y Justicia Res.",
+            "markets": {
+                "q1": 1.75,
+                "qx": 3.0,
+                "q2": 4.33,
+                "o25": 2.38,
+                "o05ht": 1.44,
+                "o15ht": 3.3
+            },
+            "averages": {
+                "home_avg_ft": 2.5,
+                "away_avg_ft": 2.75,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.125,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 1.75,
+                "is_gold_zone": true,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.7,
+                "over": 4.9,
+                "boost": 5.798,
+                "gold": 6.565,
+                "max": 6.7
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-04",
+                    "league": "Reserve League",
+                    "match": "Estudiantes Rio Cuarto 2 - Belgrano Córdoba Res.",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-18",
+                    "league": "Reserve League",
+                    "match": "Belgrano Córdoba Res. - Huracán Res.",
+                    "ht": "0-2",
+                    "ft": "0-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "Reserve League",
+                    "match": "Ferro 2 - Belgrano Córdoba Res.",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-04",
+                    "league": "Reserve League",
+                    "match": "Belgrano Córdoba Res. - Boca Juniors Res.",
+                    "ht": "0-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-11-13",
+                    "league": "Reserve League",
+                    "match": "Belgrano Córdoba Res. - San Lorenzo Res.",
+                    "ht": "0-1",
+                    "ft": "0-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-29",
+                    "league": "Reserve League",
+                    "match": "Belgrano Córdoba Res. - Unión Santa Fe Res.",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-25",
+                    "league": "Reserve League",
+                    "match": "Boca Juniors Res. - Belgrano Córdoba Res.",
+                    "ht": "1-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-21",
+                    "league": "Reserve League",
+                    "match": "Argentinos Juniors Res. - Belgrano Córdoba Res.",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-02",
+                    "league": "Reserve League",
+                    "match": "Defensa y Justicia Res. - Lanús Res.",
+                    "ht": "1-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "Reserve League",
+                    "match": "Newell's Old Boys Res. - Defensa y Justicia Res.",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-12",
+                    "league": "Reserve League",
+                    "match": "Defensa y Justicia Res. - Colón Res.",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-05",
+                    "league": "Reserve League",
+                    "match": "Defensa y Justicia Res. - Estudiantes Rio Cuarto 2",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-30",
+                    "league": "Reserve League",
+                    "match": "Defensa y Justicia Res. - Independiente Riva. Res.",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-23",
+                    "league": "Reserve League",
+                    "match": "Racing Club Res. - Defensa y Justicia Res.",
+                    "ht": "1-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-10-15",
+                    "league": "Reserve League",
+                    "match": "Defensa y Justicia Res. - Huracán Res.",
+                    "ht": "1-0",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-07",
+                    "league": "Reserve League",
+                    "match": "Unión Santa Fe Res. - Defensa y Justicia Res.",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ]
+        },
+        "1512249": {
+            "fixture_id": 1512249,
+            "date": "2026-03-17",
+            "time": "20:00",
+            "league": "Reserve League",
+            "country": "Argentina",
+            "match": "Rosario Central Res. - Talleres Córdoba Res.",
+            "home_team": "Rosario Central Res.",
+            "away_team": "Talleres Córdoba Res.",
+            "markets": {
+                "q1": 1.67,
+                "qx": 3.2,
+                "q2": 4.8,
+                "o25": 2.1,
+                "o05ht": 1.4,
+                "o15ht": 2.9
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 2.75,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 1.67,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.5,
+                "boost": 6.124,
+                "gold": 6.878,
+                "max": 6.878
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-04",
+                    "league": "Reserve League",
+                    "match": "Banfield Res. - Rosario Central Res.",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-16",
+                    "league": "Reserve League",
+                    "match": "Instituto Res. - Rosario Central Res.",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "Reserve League",
+                    "match": "Rosario Central Res. - Tigre Res.",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-03",
+                    "league": "Reserve League",
+                    "match": "San Lorenzo Res. - Rosario Central Res.",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-29",
+                    "league": "Reserve League",
+                    "match": "Independiente Res. - Rosario Central Res.",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-22",
+                    "league": "Reserve League",
+                    "match": "Rosario Central Res. - San Lorenzo Res.",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-14",
+                    "league": "Reserve League",
+                    "match": "Instituto Res. - Rosario Central Res.",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-07",
+                    "league": "Reserve League",
+                    "match": "Rosario Central Res. - Platense Res.",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-03",
+                    "league": "Reserve League",
+                    "match": "Talleres Córdoba Res. - Tigre Res.",
+                    "ht": "None-None",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "Reserve League",
+                    "match": "San Lorenzo Res. - Talleres Córdoba Res.",
+                    "ht": "0-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-12",
+                    "league": "Reserve League",
+                    "match": "Talleres Córdoba Res. - Vélez Sársfield Res.",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-05",
+                    "league": "Reserve League",
+                    "match": "River Plate Res. - Talleres Córdoba Res.",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-28",
+                    "league": "Reserve League",
+                    "match": "Instituto Res. - Talleres Córdoba Res.",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-21",
+                    "league": "Reserve League",
+                    "match": "Talleres Córdoba Res. - Platense Res.",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-14",
+                    "league": "Reserve League",
+                    "match": "Vélez Sársfield Res. - Talleres Córdoba Res.",
+                    "ht": "2-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-07",
+                    "league": "Reserve League",
+                    "match": "Talleres Córdoba Res. - River Plate Res.",
+                    "ht": "0-3",
+                    "ft": "0-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
         "1526217": {
             "fixture_id": 1526217,
             "date": "2026-03-17",
@@ -7482,6 +8822,199 @@
                     "ft": "5-0",
                     "total_ht_goals": 2,
                     "total_ft_goals": 5
+                }
+            ]
+        },
+        "1395651": {
+            "fixture_id": 1395651,
+            "date": "2026-03-17",
+            "time": "20:30",
+            "league": "FAW Championship",
+            "country": "Wales",
+            "match": "Trefelin - Cambrian & Clydach",
+            "home_team": "Trefelin",
+            "away_team": "Cambrian & Clydach",
+            "markets": {
+                "q1": 2.0,
+                "qx": 3.5,
+                "q2": 3.0,
+                "o25": 1.85,
+                "o05ht": 1.33,
+                "o15ht": 2.6
+            },
+            "averages": {
+                "home_avg_ft": 2.875,
+                "away_avg_ft": 3.25,
+                "home_avg_ht": 1.5,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.375
+            },
+            "flags": {
+                "fav_quote": 2.0,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.4,
+                "over": 5.8,
+                "boost": 7.216,
+                "gold": 6.051,
+                "max": 7.216
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-07",
+                    "league": "FAW Championship",
+                    "match": "Trefelin - Aberystwyth Town",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-04",
+                    "league": "FAW Championship",
+                    "match": "Trefelin - Cardiff Draconians",
+                    "ht": "2-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "FAW Championship",
+                    "match": "Llantwit Major - Trefelin",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "FAW Championship",
+                    "match": "Trefelin - Ynyshir Albions",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "FAW Championship",
+                    "match": "Trefelin - Baglan Dragons",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "FAW Championship",
+                    "match": "Carmarthen Town - Trefelin",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-23",
+                    "league": "FAW Championship",
+                    "match": "Ammanford AFC - Trefelin",
+                    "ht": "0-3",
+                    "ft": "0-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-16",
+                    "league": "FAW Championship",
+                    "match": "Caerau (Ely) - Trefelin",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "FAW Championship",
+                    "match": "Afan Lido - Cambrian & Clydach",
+                    "ht": "0-2",
+                    "ft": "0-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "FAW Championship",
+                    "match": "Treowen Stars - Cambrian & Clydach",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "FAW Championship",
+                    "match": "Cambrian & Clydach - Trethomas Bluebirds",
+                    "ht": "1-1",
+                    "ft": "4-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "FAW Championship",
+                    "match": "Cambrian & Clydach - Caerau (Ely)",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-23",
+                    "league": "FAW Championship",
+                    "match": "Cambrian & Clydach - Newport City",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-10",
+                    "league": "FAW Championship",
+                    "match": "Cardiff Draconians - Cambrian & Clydach",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-01",
+                    "league": "FAW Championship",
+                    "match": "Cambrian & Clydach - Pontypridd Town",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-12-26",
+                    "league": "FAW Championship",
+                    "match": "Ynyshir Albions - Cambrian & Clydach",
+                    "ht": "1-2",
+                    "ft": "1-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
                 }
             ]
         },
@@ -7688,9 +9221,9 @@
             "home_team": "Petrojet",
             "away_team": "Pyramids FC",
             "markets": {
-                "q1": 4.2,
-                "qx": 3.25,
-                "q2": 1.8,
+                "q1": 3.4,
+                "qx": 3.2,
+                "q2": 2.05,
                 "o25": 2.15,
                 "o05ht": 1.42,
                 "o15ht": 2.95
@@ -7703,8 +9236,8 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.8,
-                "is_gold_zone": true,
+                "fav_quote": 2.05,
+                "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
@@ -7713,13 +9246,13 @@
                 "pt": 5.5,
                 "over": 6.2,
                 "boost": 6.516,
-                "gold": 6.935,
-                "max": 6.935
+                "gold": 5.735,
+                "max": 6.516
             },
             "tags": [
-                "⚽⭐ GOLD",
                 "🎯PT",
-                "⚽ OVER"
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -8839,12 +10372,12 @@
             "home_team": "Walsall",
             "away_team": "Cambridge United",
             "markets": {
-                "q1": 3.7,
-                "qx": 3.1,
-                "q2": 2.12,
-                "o25": 2.6,
+                "q1": 3.65,
+                "qx": 3.15,
+                "q2": 2.1,
+                "o25": 2.65,
                 "o05ht": 1.5,
-                "o15ht": 3.4
+                "o15ht": 3.45
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -8854,7 +10387,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.12,
+                "fav_quote": 2.1,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -9030,11 +10563,11 @@
             "home_team": "Watford",
             "away_team": "Wrexham",
             "markets": {
-                "q1": 2.2,
-                "qx": 3.35,
+                "q1": 2.18,
+                "qx": 3.4,
                 "q2": 3.15,
                 "o25": 2.0,
-                "o05ht": 1.4,
+                "o05ht": 1.38,
                 "o15ht": 2.8
             },
             "averages": {
@@ -9045,7 +10578,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.2,
+                "fav_quote": 2.18,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -9054,8 +10587,8 @@
             "scores": {
                 "pt": 3.7,
                 "over": 4.4,
-                "boost": 4.068,
-                "gold": 3.517,
+                "boost": 4.268,
+                "gold": 3.585,
                 "max": 4.4
             },
             "tags": [
@@ -9608,8 +11141,8 @@
                 "qx": 4.0,
                 "q2": 5.2,
                 "o25": 1.62,
-                "o05ht": 1.28,
-                "o15ht": 2.2
+                "o05ht": 1.3,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 3.625,
@@ -9990,9 +11523,9 @@
             "home_team": "Luton",
             "away_team": "Exeter City",
             "markets": {
-                "q1": 1.67,
-                "qx": 3.75,
-                "q2": 4.9,
+                "q1": 1.7,
+                "qx": 3.7,
+                "q2": 4.75,
                 "o25": 1.83,
                 "o05ht": 1.36,
                 "o15ht": 2.65
@@ -10005,7 +11538,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.67,
+                "fav_quote": 1.7,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -10759,9 +12292,9 @@
             "home_team": "Gateshead",
             "away_team": "Wealdstone",
             "markets": {
-                "q1": 2.7,
-                "qx": 3.4,
-                "q2": 2.3,
+                "q1": 2.75,
+                "qx": 3.5,
+                "q2": 2.25,
                 "o25": 1.48,
                 "o05ht": 1.22,
                 "o15ht": 2.05
@@ -10774,7 +12307,7 @@
                 "combined_ht_avg": 1.688
             },
             "flags": {
-                "fav_quote": 2.3,
+                "fav_quote": 2.25,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -11336,12 +12869,12 @@
             "home_team": "Truro City",
             "away_team": "Scunthorpe",
             "markets": {
-                "q1": 3.75,
-                "qx": 3.45,
-                "q2": 1.83,
+                "q1": 3.8,
+                "qx": 3.4,
+                "q2": 1.85,
                 "o25": 1.7,
                 "o05ht": 1.3,
-                "o15ht": 2.4
+                "o15ht": 2.38
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -11351,7 +12884,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.83,
+                "fav_quote": 1.85,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -12105,7 +13638,7 @@
             "home_team": "Enfield Town",
             "away_team": "Dorking Wanderers",
             "markets": {
-                "q1": 3.7,
+                "q1": 3.65,
                 "qx": 3.65,
                 "q2": 1.8,
                 "o25": 1.62,
@@ -12297,10 +13830,10 @@
             "home_team": "Farnborough",
             "away_team": "Dagenham & Redbridge",
             "markets": {
-                "q1": 2.95,
-                "qx": 3.45,
+                "q1": 3.0,
+                "qx": 3.4,
                 "q2": 2.1,
-                "o25": 1.73,
+                "o25": 1.77,
                 "o05ht": 1.33,
                 "o15ht": 2.5
             },
@@ -14221,7 +15754,7 @@
                 "q1": 2.8,
                 "qx": 3.7,
                 "q2": 2.0,
-                "o25": 1.44,
+                "o25": 1.53,
                 "o05ht": 1.22,
                 "o15ht": 2.15
             },
@@ -14241,10 +15774,10 @@
             },
             "scores": {
                 "pt": 6.0,
-                "over": 4.8,
-                "boost": 6.034,
-                "gold": 5.262,
-                "max": 6.034
+                "over": 5.8,
+                "boost": 6.514,
+                "gold": 5.725,
+                "max": 6.514
             },
             "tags": [
                 "🎯PT",
@@ -16724,7 +18257,7 @@
                 "q1": 2.24,
                 "qx": 3.4,
                 "q2": 3.05,
-                "o25": 1.83,
+                "o25": 1.8,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -16914,10 +18447,10 @@
             "home_team": "Manchester City",
             "away_team": "Real Madrid",
             "markets": {
-                "q1": 1.5,
-                "qx": 4.8,
-                "q2": 5.2,
-                "o25": 1.5,
+                "q1": 1.45,
+                "qx": 5.1,
+                "q2": 5.4,
+                "o25": 1.44,
                 "o05ht": 1.22,
                 "o15ht": 2.05
             },
@@ -16929,7 +18462,7 @@
                 "combined_ht_avg": 1.938
             },
             "flags": {
-                "fav_quote": 1.5,
+                "fav_quote": 1.45,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
@@ -17106,11 +18639,11 @@
             "home_team": "Chelsea",
             "away_team": "Paris Saint Germain",
             "markets": {
-                "q1": 2.06,
+                "q1": 2.12,
                 "qx": 4.2,
-                "q2": 2.88,
-                "o25": 1.4,
-                "o05ht": 1.18,
+                "q2": 2.76,
+                "o25": 1.38,
+                "o05ht": 1.2,
                 "o15ht": 1.95
             },
             "averages": {
@@ -17121,18 +18654,18 @@
                 "combined_ht_avg": 1.875
             },
             "flags": {
-                "fav_quote": 2.06,
+                "fav_quote": 2.12,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 5.5,
-                "over": 4.8,
-                "boost": 5.844,
-                "gold": 5.087,
-                "max": 5.844
+                "pt": 6.4,
+                "over": 4.0,
+                "boost": 5.802,
+                "gold": 5.031,
+                "max": 6.4
             },
             "tags": [
                 "🎯PT",
@@ -17479,6 +19012,198 @@
                 }
             ]
         },
+        "1532620": {
+            "fixture_id": 1532620,
+            "date": "2026-03-17",
+            "time": "21:15",
+            "league": "Iraqi League",
+            "country": "Iraq",
+            "match": "Gharraf - Al Zawra'a",
+            "home_team": "Gharraf",
+            "away_team": "Al Zawra'a",
+            "markets": {
+                "q1": 2.6,
+                "qx": 3.0,
+                "q2": 2.6,
+                "o25": 2.38,
+                "o05ht": 1.44,
+                "o15ht": 3.3
+            },
+            "averages": {
+                "home_avg_ft": 3.25,
+                "away_avg_ft": 3.125,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 2.6,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.7,
+                "over": 4.5,
+                "boost": 5.606,
+                "gold": 5.18,
+                "max": 6.7
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-12",
+                    "league": "Iraqi League",
+                    "match": "Al-Karma - Gharraf",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "Iraqi League",
+                    "match": "Gharraf - Al Quwa Al Jawiya",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-26",
+                    "league": "Iraqi League",
+                    "match": "Zakho - Gharraf",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Iraqi League",
+                    "match": "Gharraf - Duhok",
+                    "ht": "2-1",
+                    "ft": "4-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Iraqi League",
+                    "match": "Al Minaa Basra - Gharraf",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-04",
+                    "league": "Iraqi League",
+                    "match": "Gharraf - Al Shorta",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Iraqi League",
+                    "match": "Al Talaba - Gharraf",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-26",
+                    "league": "Iraqi League",
+                    "match": "Gharraf - Baghdad",
+                    "ht": "1-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "Iraqi League",
+                    "match": "Al Zawra'a - Naft Maysan",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Iraqi League",
+                    "match": "Newroz - Al Zawra'a",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-02",
+                    "league": "Iraqi League",
+                    "match": "Al Zawra'a - Mosul",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-26",
+                    "league": "Iraqi League",
+                    "match": "Al Zawra'a - Al Shorta",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Iraqi League",
+                    "match": "Al Karkh - Al Zawra'a",
+                    "ht": "1-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "AFC Cup",
+                    "match": "Al Zawra'a - Al-Wasl FC",
+                    "ht": "1-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-05",
+                    "league": "Iraqi League",
+                    "match": "Al Zawra'a - Zakho",
+                    "ht": "0-0",
+                    "ft": "4-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-01",
+                    "league": "Iraqi League",
+                    "match": "Naft - Al Zawra'a",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ]
+        },
         "1506037": {
             "fixture_id": 1506037,
             "date": "2026-03-17",
@@ -17679,12 +19404,12 @@
             "home_team": "Nova Iguaçu",
             "away_team": "Fortaleza EC",
             "markets": {
-                "q1": 3.8,
-                "qx": 3.2,
-                "q2": 1.94,
+                "q1": 4.33,
+                "qx": 3.25,
+                "q2": 1.82,
                 "o25": 2.2,
-                "o05ht": 1.42,
-                "o15ht": 2.95
+                "o05ht": 1.48,
+                "o15ht": 3.2
             },
             "averages": {
                 "home_avg_ft": 2.25,
@@ -17694,8 +19419,8 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.94,
-                "is_gold_zone": false,
+                "fav_quote": 1.82,
+                "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
@@ -17704,7 +19429,7 @@
                 "pt": 6.7,
                 "over": 5.9,
                 "boost": 5.928,
-                "gold": 5.26,
+                "gold": 6.46,
                 "max": 6.7
             },
             "tags": [
@@ -17870,12 +19595,12 @@
             "home_team": "Puerto Cabello",
             "away_team": "UCV",
             "markets": {
-                "q1": 2.3,
-                "qx": 3.0,
-                "q2": 3.0,
-                "o25": 2.2,
-                "o05ht": 1.5,
-                "o15ht": 3.2
+                "q1": 2.4,
+                "qx": 2.55,
+                "q2": 3.35,
+                "o25": 2.3,
+                "o05ht": 1.48,
+                "o15ht": 3.1
             },
             "averages": {
                 "home_avg_ft": 1.75,
@@ -17885,18 +19610,18 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 2.3,
+                "fav_quote": 2.4,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": true,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 5.2,
+                "pt": 5.9,
                 "over": 5.0,
-                "boost": 5.826,
-                "gold": 5.075,
-                "max": 5.826
+                "boost": 6.092,
+                "gold": 5.319,
+                "max": 6.092
             },
             "tags": [
                 "🎯PT",
