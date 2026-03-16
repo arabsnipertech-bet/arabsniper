@@ -26,16 +26,20 @@ DETAILS_FILE = str(BASE_DIR / "match_details.json")
 DEFAULT_EXCLUDED = ["Thailand", "Indonesia", "India", "Kenya", "Morocco", "Rwanda", "Nigeria", "Oman", "Algeria", "UAE"]
 LEAGUE_BLACKLIST = ["u19", "u20", "youth", "women", "friendly", "carioca", "paulista", "mineiro"]
 
-REMOTE_MAIN_FILE = "data.json"
 REMOTE_DAY_FILES = {
     1: "data_day1.json",
     2: "data_day2.json",
     3: "data_day3.json",
+    4: "data_day4.json",
+    5: "data_day5.json",
 }
+
 REMOTE_DETAILS_FILES = {
     1: "details_day1.json",
     2: "details_day2.json",
     3: "details_day3.json",
+    4: "details_day4.json",
+    5: "details_day5.json",
 }
 
 try:
@@ -652,7 +656,7 @@ def save_match_details_file():
 
 
 def get_target_dates():
-    return [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(3)]
+    return [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(5)]
 
 
 def build_day_results(day_num):
