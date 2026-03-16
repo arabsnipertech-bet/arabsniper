@@ -15,14 +15,14 @@ OUT_FILE = BASE_DIR / "casse_recenti.json"
 
 SPORTSDB_SEARCH_URL = "https://www.thesportsdb.com/api/v1/json/123/searchevents.php"
 REQUEST_TIMEOUT = 12
-MAX_OUTPUT = 8
+MAX_OUTPUT = 12
 
 session = requests.Session()
-session.headers.update({"User-Agent": "ArabSniperBet/1.1"})
+session.headers.update({"User-Agent": "ArabSniperBet/2.0"})
 
 
 # =========================
-# HELPERS
+# HELPERS TESTO / MATCH
 # =========================
 def strip_accents(value: str) -> str:
     value = unicodedata.normalize("NFD", value)
@@ -85,6 +85,59 @@ def overlap_score(match_name: str, event_name: str) -> int:
     return len(a & b)
 
 
+# =========================
+# HELPERS QUOTE / SIGNAL
+# =========================
+def parse_float(value) -> float | None:
+    try:
+        v = str(value or "").strip().replace(",", ".")
+        if not v:
+            return None
+        return float(v)
+    except Exception:
+        return None
+
+
+def normalize_signal(signal: str) -> str:
+    s = str(signal or "").upper().strip()
+
+    if "OVER" in s:
+        return "OVER 2.5"
+    if "PT" in s:
+        return "PT TARGET"
+    if "BOOST" in s:
+        return "BOOST TARGET"
+    if "GOLD" in s:
+        return "GOLD TARGET"
+
+    return s or "UNKNOWN"
+
+
+def quote_band_status(signal: str, quote_value: str) -> str:
+    """
+    Non blocca l'esito: aggiunge solo un contesto sintetico.
+    """
+    q = parse_float(quote_value)
+    sig = normalize_signal(signal)
+
+    if q is None:
+        return "quota n/d"
+
+    if sig == "GOLD TARGET":
+        return "quota ok" if 1.40 <= q <= 2.80 else "quota fuori range"
+    if sig == "BOOST TARGET":
+        return "quota ok" if 1.40 <= q <= 2.80 else "quota fuori range"
+    if sig == "OVER 2.5":
+        return "quota ok" if 1.40 <= q <= 2.80 else "quota fuori range"
+    if sig == "PT TARGET":
+        return "quota ok" if 1.20 <= q <= 2.20 else "quota fuori range"
+
+    return "quota non classificata"
+
+
+# =========================
+# SNAPSHOTS
+# =========================
 def parse_snapshot_date_from_filename(path: Path):
     m = re.search(r"free_signals_(\d{4}-\d{2}-\d{2})\.json$", path.name)
     if not m:
@@ -118,6 +171,7 @@ def load_snapshots():
             league = str(item.get("league", "")).strip()
             time_str = str(item.get("time", "")).strip()
             fixture_id = str(item.get("fixture_id", "")).strip()
+            info = str(item.get("info", "")).strip()
 
             if not match_name or not signal:
                 continue
@@ -127,17 +181,21 @@ def load_snapshots():
                     "data": snapshot_date,
                     "snapshot_date": snapshot_date,
                     "match": match_name,
-                    "signal": signal,
+                    "signal": normalize_signal(signal),
                     "quote": quote,
                     "league": league,
                     "time": time_str,
                     "fixture_id": fixture_id,
+                    "info": info,
                 }
             )
 
     return rows
 
 
+# =========================
+# SEARCH RISULTATI
+# =========================
 def parse_event_date(ev: dict):
     date_str = ev.get("dateEvent")
     if not date_str:
@@ -162,12 +220,6 @@ def extract_score(ev: dict):
 
 
 def choose_best_event(match_name: str, snapshot_date: str, events: list):
-    """
-    Accetta solo eventi:
-    - con score disponibile
-    - con stessa data dello snapshot
-    - con overlap nome almeno discreto
-    """
     try:
         target_date = datetime.strptime(snapshot_date, "%Y-%m-%d").date()
     except Exception:
@@ -230,28 +282,69 @@ def search_finished_result(match_name: str, snapshot_date: str):
         total_goals = hs_i + aw_i
 
         return {
-            "result": f"{hs_i}-{aw_i}",
+            "ft_score": f"{hs_i}-{aw_i}",
+            "home_goals": hs_i,
+            "away_goals": aw_i,
             "total_goals": total_goals,
         }
 
     return None
 
 
-def evaluate_signal_result(signal: str, total_goals: int):
-    """
-    Manteniamo una logica semplice ma coerente col sito:
-    - se 3+ gol => cassa forte
-    - se 2 gol => cassa soft
-    - altrimenti non pubblichiamo
-    """
-    signal_norm = str(signal or "").upper()
+# =========================
+# VALUTAZIONE PIU' FEDELE
+# =========================
+def evaluate_signal_result(signal: str, total_goals: int, quote_value: str) -> str | None:
+    sig = normalize_signal(signal)
+    qtag = quote_band_status(sig, quote_value)
 
+    # OVER 2.5 = verifica netta FT
+    if sig == "OVER 2.5":
+        if total_goals >= 3:
+            return f"✅ O2.5 VERIFICATA | FT>=3 | {qtag}"
+        return f"❌ O2.5 NON VERIFICATA | FT<3 | {qtag}"
+
+    # GOLD = segnale composito, ma sul sito lo leggiamo in chiave gol finale
+    if sig == "GOLD TARGET":
+        if total_goals >= 3:
+            return f"✅ GOLD FORTE | FT>=3 | {qtag}"
+        if total_goals == 2:
+            return f"🟡 GOLD SOFT | FT=2 | {qtag}"
+        return f"❌ GOLD NON VERIFICATA | FT<2 | {qtag}"
+
+    # BOOST = segnale forte ma non identico a un over puro
+    if sig == "BOOST TARGET":
+        if total_goals >= 3:
+            return f"✅ BOOST FORTE | FT>=3 | {qtag}"
+        if total_goals == 2:
+            return f"🟡 BOOST SOFT | FT=2 | {qtag}"
+        return f"❌ BOOST NON VERIFICATA | FT<2 | {qtag}"
+
+    # PT TARGET = con i dati attuali non possiamo certificare l'HT reale
+    # quindi usiamo un esito prudente e onesto, basato sul FT
+    if sig == "PT TARGET":
+        if total_goals >= 3:
+            return f"✅ PT-LIKE FORTE | HT n/d | FT>=3 | {qtag}"
+        if total_goals == 2:
+            return f"🟡 PT-LIKE SOFT | HT n/d | FT=2 | {qtag}"
+        return f"❌ PT-LIKE NON VERIFICATA | HT n/d | FT<2 | {qtag}"
+
+    # fallback
     if total_goals >= 3:
-        return "✅ CASSA"
-    if total_goals >= 2:
-        if "OVER" in signal_norm or "GOLD" in signal_norm or "BOOST" in signal_norm or "PT" in signal_norm:
-            return "✅ CASSA SOFT"
-    return None
+        return f"✅ VERIFICATA | FT>=3 | {qtag}"
+    if total_goals == 2:
+        return f"🟡 SOFT | FT=2 | {qtag}"
+    return f"❌ NON VERIFICATA | FT<2 | {qtag}"
+
+
+def should_publish_row(signal: str, verdict: str) -> bool:
+    """
+    Per la homepage tengo solo risultati almeno 'soft' o forti.
+    Gli esiti completamente negativi non li mostro nella sezione casse.
+    """
+    if not verdict:
+        return False
+    return verdict.startswith("✅") or verdict.startswith("🟡")
 
 
 # =========================
@@ -276,10 +369,16 @@ def main():
 
         result = search_finished_result(row["match"], row["snapshot_date"])
         if not result:
+            print(f"[INFO] Nessun risultato trovato per {row['match']} ({row['snapshot_date']})")
             continue
 
-        status = evaluate_signal_result(row["signal"], result["total_goals"])
-        if not status:
+        verdict = evaluate_signal_result(
+            signal=row["signal"],
+            total_goals=result["total_goals"],
+            quote_value=row["quote"],
+        )
+
+        if not should_publish_row(row["signal"], verdict):
             continue
 
         output.append(
@@ -288,7 +387,7 @@ def main():
                 "match": row["match"],
                 "signal": row["signal"],
                 "quote": row["quote"],
-                "result": f'{result["result"]} {status}',
+                "result": f'{result["ft_score"]} {verdict}',
                 "league": row["league"],
                 "time": row["time"],
                 "fixture_id": row["fixture_id"],
@@ -314,6 +413,8 @@ def main():
     )
 
     print(f"Creato {OUT_FILE.name} con {len(final_output)} record.")
+    for row in final_output:
+        print(f"- {row['data']} | {row['match']} | {row['signal']} | {row['result']}")
 
 
 if __name__ == "__main__":
