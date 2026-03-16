@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-16 20:53:05",
+    "updated_at": "2026-03-16 20:58:30",
     "day": 1,
     "date": "2026-03-16",
     "details": {
@@ -32,7 +32,7 @@
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true,
-                "drop_diff": 0.02
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 4.3,
