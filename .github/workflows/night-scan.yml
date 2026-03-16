@@ -38,4 +38,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           TZ: Europe/Rome
-        run: python 3appDays.py
+        run: python 3appDays.py --auto
