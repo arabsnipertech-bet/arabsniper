@@ -888,7 +888,7 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                 list(set(st.session_state.available_countries) | {fx["league"]["country"] for fx in day_fx})
             )
 
-                        if snap and use_horizon == 1:
+         if snap and use_horizon == 1:
                 snap_bar = st.progress(0, text="📌 SNAPSHOT ROLLING DAY1+DAY2+DAY3+DAY4+DAY5...")
                 build_rolling_multiday_snapshot(s)
                 snap_bar.progress(1.0)
