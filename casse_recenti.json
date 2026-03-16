@@ -4,20 +4,20 @@
     "match": "Ballkani - Drita",
     "signal": "GOLD TARGET",
     "quote": "2.4",
-    "result": "3-0 ✅ CASSA"
+    "result": "3-0 ✅ GOLD FORTE | FT>=3 | quota ok"
   },
   {
     "data": "2026-03-15",
     "match": "Twente - Utrecht",
     "signal": "GOLD TARGET",
     "quote": "1.6",
-    "result": "0-2 ✅ CASSA SOFT"
+    "result": "0-2 🟡 GOLD SOFT | FT=2 | quota ok"
   },
   {
     "data": "2026-03-13",
     "match": "Alemannia Aachen - Energie Cottbus",
     "signal": "GOLD TARGET",
     "quote": "2.6",
-    "result": "4-1 ✅ CASSA"
+    "result": "4-1 ✅ GOLD FORTE | FT>=3 | quota ok"
   }
 ]
