@@ -502,7 +502,7 @@
         "1X2": "3.9|3.3|2.0",
         "O2.5": "2.15",
         "O0.5H": "1.42",
-        "O1.5H": "2.90",
+        "O1.5H": "2.95",
         "AVG FT": "2.8|2.5",
         "AVG HT": "0.8|1.4",
         "Info": "⚽ OVER",
@@ -583,21 +583,6 @@
         "Info": "🎯PT ⚽ OVER",
         "Data": "2026-03-16",
         "Fixture_ID": 1398201
-    },
-    {
-        "Ora": "22:00",
-        "Lega": "Liga de Ascenso (Costa-Rica)",
-        "Match": "AD Carmelita - Pitbulls Santa Barbara FC",
-        "FAV": "❌",
-        "1X2": "2.2|3.2|2.8",
-        "O2.5": "1.91",
-        "O0.5H": "1.40",
-        "O1.5H": "0.00",
-        "AVG FT": "3.6|2.1",
-        "AVG HT": "1.8|0.5",
-        "Info": "⚽ OVER 🐟G",
-        "Data": "2026-03-16",
-        "Fixture_ID": 1476901
     },
     {
         "Ora": "22:00",
