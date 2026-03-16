@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-16 07:27:24",
+    "updated_at": "2026-03-16 11:53:02",
     "day": 3,
     "date": "2026-03-18",
     "details": {
@@ -13,10 +13,10 @@
             "home_team": "Bucaramanga",
             "away_team": "Once Caldas",
             "markets": {
-                "q1": 1.93,
+                "q1": 1.9,
                 "qx": 3.25,
-                "q2": 4.1,
-                "o25": 2.15,
+                "q2": 4.2,
+                "o25": 2.2,
                 "o05ht": 1.42,
                 "o15ht": 2.88
             },
@@ -28,13 +28,22 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.93,
-                "is_gold_zone": false,
+                "fav_quote": 1.9,
+                "is_gold_zone": true,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.3,
+                "over": 5.4,
+                "boost": 6.056,
+                "gold": 6.145,
+                "max": 6.145
             },
             "tags": [
-                "M-Ok"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -185,6 +194,197 @@
                 }
             ]
         },
+        "1519290": {
+            "fixture_id": 1519290,
+            "date": "2026-03-18",
+            "time": "01:00",
+            "league": "Liga Pro",
+            "country": "Ecuador",
+            "match": "Leones del Norte - LDU de Quito",
+            "home_team": "Leones del Norte",
+            "away_team": "LDU de Quito",
+            "markets": {
+                "q1": 5.0,
+                "qx": 3.35,
+                "q2": 1.75,
+                "o25": 2.35,
+                "o05ht": 1.48,
+                "o15ht": 3.2
+            },
+            "averages": {
+                "home_avg_ft": 1.875,
+                "away_avg_ft": 3.25,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 2.0,
+                "combined_ht_avg": 1.5
+            },
+            "flags": {
+                "fav_quote": 1.75,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.5,
+                "over": 5.4,
+                "boost": 5.752,
+                "gold": 6.216,
+                "max": 6.216
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Liga Pro",
+                    "match": "Deportivo Cuenca - Leones del Norte",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Liga Pro",
+                    "match": "Universidad Catolica - Leones del Norte",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Liga Pro",
+                    "match": "Leones del Norte - Libertad",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Liga Pro",
+                    "match": "Macara - Leones del Norte",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-29",
+                    "league": "Liga Pro Serie B",
+                    "match": "Leones del Norte - Guayaquil City FC",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-26",
+                    "league": "Liga Pro Serie B",
+                    "match": "9 de Octubre - Leones del Norte",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-16",
+                    "league": "Liga Pro Serie B",
+                    "match": "Leones del Norte - San Antonio",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-11",
+                    "league": "Liga Pro Serie B",
+                    "match": "Gualaceo SC - Leones del Norte",
+                    "ht": "1-2",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "Liga Pro",
+                    "match": "LDU de Quito - Universidad Catolica",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Liga Pro",
+                    "match": "Libertad - LDU de Quito",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "Liga Pro",
+                    "match": "LDU de Quito - Macara",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Liga Pro",
+                    "match": "Orense SC - LDU de Quito",
+                    "ht": "1-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-08",
+                    "league": "Friendlies Clubs",
+                    "match": "LDU de Quito - Always Ready",
+                    "ht": "3-2",
+                    "ft": "4-2",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-12-21",
+                    "league": "Liga Pro",
+                    "match": "LDU de Quito - Universidad Catolica",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-12-19",
+                    "league": "Copa Ecuador",
+                    "match": "LDU de Quito - Universidad Catolica",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-12-14",
+                    "league": "Liga Pro",
+                    "match": "Libertad - LDU de Quito",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
         "1532915": {
             "fixture_id": 1532915,
             "date": "2026-03-18",
@@ -213,10 +413,19 @@
                 "fav_quote": 2.52,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.0,
+                "over": 4.5,
+                "boost": 5.51,
+                "gold": 4.773,
+                "max": 5.51
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -396,10 +605,19 @@
                 "fav_quote": 1.56,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.5,
+                "over": 5.4,
+                "boost": 6.132,
+                "gold": 6.565,
+                "max": 6.565
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -561,9 +779,9 @@
             "home_team": "Santos Laguna W",
             "away_team": "Cruz Azul W",
             "markets": {
-                "q1": 6.8,
-                "qx": 4.65,
-                "q2": 1.41,
+                "q1": 7.0,
+                "qx": 4.55,
+                "q2": 1.42,
                 "o25": 1.48,
                 "o05ht": 1.25,
                 "o15ht": 2.15
@@ -576,13 +794,22 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 1.41,
+                "fav_quote": 1.42,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.0,
+                "over": 4.4,
+                "boost": 5.842,
+                "gold": 6.276,
+                "max": 6.276
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -744,12 +971,12 @@
             "home_team": "Millonarios",
             "away_team": "Atletico Nacional",
             "markets": {
-                "q1": 2.82,
-                "qx": 3.0,
-                "q2": 2.62,
-                "o25": 2.3,
-                "o05ht": 1.42,
-                "o15ht": 2.88
+                "q1": 2.75,
+                "qx": 3.15,
+                "q2": 2.56,
+                "o25": 2.35,
+                "o05ht": 1.48,
+                "o15ht": 3.25
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -759,13 +986,22 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.62,
+                "fav_quote": 2.56,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 5.1,
+                "boost": 5.59,
+                "gold": 5.179,
+                "max": 5.9
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -927,9 +1163,9 @@
             "home_team": "Cruz Azul",
             "away_team": "Monterrey",
             "markets": {
-                "q1": 1.84,
+                "q1": 1.9,
                 "qx": 3.65,
-                "q2": 3.9,
+                "q2": 3.7,
                 "o25": 1.7,
                 "o05ht": 1.33,
                 "o15ht": 2.45
@@ -942,13 +1178,22 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.84,
+                "fav_quote": 1.9,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 7.176,
+                "gold": 6.856,
+                "max": 7.176
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -1110,12 +1355,12 @@
             "home_team": "Tijuana W",
             "away_team": "Pumas UNAM W",
             "markets": {
-                "q1": 2.6,
-                "qx": 3.65,
-                "q2": 2.42,
-                "o25": 1.57,
+                "q1": 2.68,
+                "qx": 3.7,
+                "q2": 2.36,
+                "o25": 1.62,
                 "o05ht": 1.28,
-                "o15ht": 2.25
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -1125,17 +1370,24 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 2.42,
+                "fav_quote": 2.36,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 5.8,
+                "boost": 7.52,
+                "gold": 6.331,
+                "max": 7.52
             },
             "tags": [
-                "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟G",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST",
-                "🎯PT"
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -1314,12 +1566,20 @@
                 "fav_quote": 2.15,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.2,
+                "over": 5.9,
+                "boost": 5.708,
+                "gold": 5.305,
+                "max": 5.9
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -1498,12 +1758,20 @@
                 "fav_quote": 1.73,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.1,
+                "boost": 5.22,
+                "gold": 5.473,
+                "max": 5.473
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -1682,10 +1950,19 @@
                 "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.3,
+                "over": 5.9,
+                "boost": 5.016,
+                "gold": 4.421,
+                "max": 5.9
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -1865,12 +2142,21 @@
                 "fav_quote": 2.3,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 5.8,
+                "boost": 7.14,
+                "gold": 5.982,
+                "max": 7.14
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -2049,10 +2335,18 @@
                 "fav_quote": 2.32,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 2.0,
+                "over": 5.0,
+                "boost": 4.06,
+                "gold": 3.77,
+                "max": 5.0
             },
             "tags": [
-                "M-Ok",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -2217,7 +2511,7 @@
                 "q1": 1.5,
                 "qx": 4.2,
                 "q2": 6.0,
-                "o25": 1.83,
+                "o25": 1.85,
                 "o05ht": 1.35,
                 "o15ht": 2.65
             },
@@ -2232,12 +2526,22 @@
                 "fav_quote": 1.5,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.4,
+                "over": 5.8,
+                "boost": 7.216,
+                "gold": 7.251,
+                "max": 7.251
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -2416,12 +2720,21 @@
                 "fav_quote": 1.5,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.1,
+                "boost": 6.482,
+                "gold": 6.88,
+                "max": 6.88
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -2582,9 +2895,9 @@
             "home_team": "Eyüpspor",
             "away_team": "Trabzonspor",
             "markets": {
-                "q1": 5.25,
+                "q1": 4.7,
                 "qx": 4.1,
-                "q2": 1.58,
+                "q2": 1.63,
                 "o25": 1.62,
                 "o05ht": 1.28,
                 "o15ht": 2.3
@@ -2597,17 +2910,25 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.58,
+                "fav_quote": 1.63,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 5.4,
+                "boost": 7.328,
+                "gold": 7.346,
+                "max": 7.346
             },
             "tags": [
                 "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟O",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST",
-                "🎯PT"
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -2786,14 +3107,20 @@
                 "fav_quote": 2.58,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 6.826,
+                "gold": 5.887,
+                "max": 6.826
             },
             "tags": [
-                "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST",
-                "🎯PT"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -2944,6 +3271,197 @@
                 }
             ]
         },
+        "1531505": {
+            "fixture_id": 1531505,
+            "date": "2026-03-18",
+            "time": "18:00",
+            "league": "NM Cupen",
+            "country": "Norway",
+            "match": "Viking - Aalesund",
+            "home_team": "Viking",
+            "away_team": "Aalesund",
+            "markets": {
+                "q1": 1.4,
+                "qx": 4.5,
+                "q2": 5.5,
+                "o25": 1.39,
+                "o05ht": 1.22,
+                "o15ht": 2.05
+            },
+            "averages": {
+                "home_avg_ft": 3.125,
+                "away_avg_ft": 4.25,
+                "home_avg_ht": 1.5,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.375
+            },
+            "flags": {
+                "fav_quote": 1.4,
+                "is_gold_zone": true,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 3.6,
+                "boost": 5.914,
+                "gold": 5.975,
+                "max": 7.2
+            },
+            "tags": [
+                "🎯PT",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Eliteserien",
+                    "match": "Ham-Kam - Viking",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "NM Cupen",
+                    "match": "Bjarg - Viking",
+                    "ht": "0-1",
+                    "ft": "0-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "Friendlies Clubs",
+                    "match": "Viking - Sarpsborg 08 FF",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Friendlies Clubs",
+                    "match": "Tromso - Viking",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "Friendlies Clubs",
+                    "match": "Molde - Viking",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Friendlies Clubs",
+                    "match": "Viking - AIK Stockholm",
+                    "ht": "1-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Friendlies Clubs",
+                    "match": "Viking - Start",
+                    "ht": "3-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Friendlies Clubs",
+                    "match": "Sandnes ULF - Viking",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "Eliteserien",
+                    "match": "Aalesund - Lillestrom",
+                    "ht": "1-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-09",
+                    "league": "NM Cupen",
+                    "match": "Egersund - Aalesund",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Friendlies Clubs",
+                    "match": "Aalesund - Brattvåg",
+                    "ht": "None-None",
+                    "ft": "6-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Friendlies Clubs",
+                    "match": "Molde - Aalesund",
+                    "ht": "2-0",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Friendlies Clubs",
+                    "match": "Aalesund - Fredrikstad",
+                    "ht": "0-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "Friendlies Clubs",
+                    "match": "Sirius - Aalesund",
+                    "ht": "1-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Friendlies Clubs",
+                    "match": "Aalesund - hodd",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Friendlies Clubs",
+                    "match": "Aalesund - Kristiansund BK",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
         "1488481": {
             "fixture_id": 1488481,
             "date": "2026-03-18",
@@ -2957,7 +3475,7 @@
                 "q1": 1.89,
                 "qx": 3.98,
                 "q2": 3.98,
-                "o25": 1.52,
+                "o25": 1.51,
                 "o05ht": 1.28,
                 "o15ht": 2.35
             },
@@ -2972,12 +3490,19 @@
                 "fav_quote": 1.89,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 5.4,
+                "boost": 6.93,
+                "gold": 6.948,
+                "max": 7.6
             },
             "tags": [
-                "M-Ok",
-                "🚀 BOOST",
-                "🎯PT"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -3139,11 +3664,11 @@
             "away_team": "Newcastle",
             "markets": {
                 "q1": 1.56,
-                "qx": 4.4,
-                "q2": 5.0,
-                "o25": 1.4,
-                "o05ht": 1.2,
-                "o15ht": 1.95
+                "qx": 4.5,
+                "q2": 4.8,
+                "o25": 1.38,
+                "o05ht": 1.18,
+                "o15ht": 1.91
             },
             "averages": {
                 "home_avg_ft": 3.5,
@@ -3156,12 +3681,19 @@
                 "fav_quote": 1.56,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.9,
+                "over": 4.4,
+                "boost": 5.044,
+                "gold": 5.543,
+                "max": 5.543
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🎯PT"
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -3322,9 +3854,9 @@
             "home_team": "Frosinone",
             "away_team": "Bari",
             "markets": {
-                "q1": 1.45,
-                "qx": 4.35,
-                "q2": 6.6,
+                "q1": 1.46,
+                "qx": 4.4,
+                "q2": 6.4,
                 "o25": 1.57,
                 "o05ht": 1.25,
                 "o15ht": 2.2
@@ -3337,15 +3869,24 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.45,
+                "fav_quote": 1.46,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 6.826,
+                "gold": 7.087,
+                "max": 7.087
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -3524,10 +4065,19 @@
                 "fav_quote": 2.1,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.7,
+                "over": 5.2,
+                "boost": 6.112,
+                "gold": 5.342,
+                "max": 6.112
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -3679,6 +4229,196 @@
                 }
             ]
         },
+        "1531847": {
+            "fixture_id": 1531847,
+            "date": "2026-03-18",
+            "time": "19:30",
+            "league": "Cup",
+            "country": "Slovakia",
+            "match": "Žilina - Podbrezová",
+            "home_team": "Žilina",
+            "away_team": "Podbrezová",
+            "markets": {
+                "q1": 1.8,
+                "qx": 3.5,
+                "q2": 3.4,
+                "o25": 1.49,
+                "o05ht": 1.22,
+                "o15ht": 2.15
+            },
+            "averages": {
+                "home_avg_ft": 1.375,
+                "away_avg_ft": 3.625,
+                "home_avg_ht": 0.875,
+                "away_avg_ht": 2.0,
+                "combined_ht_avg": 1.438
+            },
+            "flags": {
+                "fav_quote": 1.8,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 3.2,
+                "boost": 3.808,
+                "gold": 4.423,
+                "max": 4.423
+            },
+            "tags": [
+                "🎯PT"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "Super Liga",
+                    "match": "Slovan Bratislava - Žilina",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "Cup",
+                    "match": "Žilina - AS Trencin",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Super Liga",
+                    "match": "Žilina - Spartak Trnava",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Super Liga",
+                    "match": "Žilina - Dunajska Streda",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Super Liga",
+                    "match": "FK Košice - Žilina",
+                    "ht": "0-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "Super Liga",
+                    "match": "Spartak Trnava - Žilina",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-08",
+                    "league": "Super Liga",
+                    "match": "Žilina - Komárno",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Friendlies Clubs",
+                    "match": "Žilina - Opava",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Super Liga",
+                    "match": "Podbrezová - Zemplín Michalovce",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Super Liga",
+                    "match": "Dunajska Streda - Podbrezová",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "Cup",
+                    "match": "Podbrezová - Spartak Trnava",
+                    "ht": "1-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Super Liga",
+                    "match": "Podbrezová - Tatran Prešov",
+                    "ht": "3-0",
+                    "ft": "4-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Super Liga",
+                    "match": "Spartak Trnava - Podbrezová",
+                    "ht": "0-2",
+                    "ft": "0-5",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Super Liga",
+                    "match": "Podbrezová - Ružomberok",
+                    "ht": "2-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Super Liga",
+                    "match": "AS Trencin - Podbrezová",
+                    "ht": "0-4",
+                    "ft": "0-4",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Friendlies Clubs",
+                    "match": "Podbrezová - Pohronie",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
         "1417294": {
             "fixture_id": 1417294,
             "date": "2026-03-18",
@@ -3707,10 +4447,19 @@
                 "fav_quote": 1.22,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 4.4,
+                "boost": 5.804,
+                "gold": 5.041,
+                "max": 5.9
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -3873,10 +4622,10 @@
             "away_team": "Virtus Entella",
             "markets": {
                 "q1": 2.18,
-                "qx": 3.4,
-                "q2": 3.15,
-                "o25": 1.9,
-                "o05ht": 1.36,
+                "qx": 3.45,
+                "q2": 3.1,
+                "o25": 1.95,
+                "o05ht": 1.35,
                 "o15ht": 2.65
             },
             "averages": {
@@ -3890,14 +4639,21 @@
                 "fav_quote": 2.18,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 5.9,
+                "boost": 7.17,
+                "gold": 6.33,
+                "max": 7.6
             },
             "tags": [
-                "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟G",
+                "🎯PT",
                 "⚽ OVER",
-                "🎯PT"
+                "🚀 BOOST",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -4076,10 +4832,19 @@
                 "fav_quote": 1.23,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.0,
+                "over": 4.0,
+                "boost": 5.65,
+                "gold": 4.891,
+                "max": 6.0
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -4259,12 +5024,20 @@
                 "fav_quote": 1.67,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.8,
+                "over": 5.5,
+                "boost": 5.944,
+                "gold": 6.147,
+                "max": 6.147
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "⚽ OVER"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -4425,9 +5198,9 @@
             "home_team": "Southampton",
             "away_team": "Norwich",
             "markets": {
-                "q1": 1.9,
+                "q1": 1.95,
                 "qx": 3.65,
-                "q2": 3.7,
+                "q2": 3.55,
                 "o25": 1.7,
                 "o05ht": 1.3,
                 "o15ht": 2.4
@@ -4440,13 +5213,22 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.9,
-                "is_gold_zone": true,
+                "fav_quote": 1.95,
+                "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 5.8,
+                "boost": 7.14,
+                "gold": 5.982,
+                "max": 7.14
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST"
             ],
             "home_last_8": [
@@ -4610,8 +5392,8 @@
             "markets": {
                 "q1": 1.74,
                 "qx": 3.6,
-                "q2": 4.65,
-                "o25": 1.93,
+                "q2": 4.6,
+                "o25": 2.0,
                 "o05ht": 1.4,
                 "o15ht": 2.8
             },
@@ -4626,12 +5408,20 @@
                 "fav_quote": 1.74,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 5.4,
+                "boost": 6.398,
+                "gold": 6.809,
+                "max": 6.809
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -4792,10 +5582,10 @@
             "home_team": "Tottenham",
             "away_team": "Atletico Madrid",
             "markets": {
-                "q1": 2.48,
+                "q1": 2.5,
                 "qx": 3.75,
-                "q2": 2.48,
-                "o25": 1.75,
+                "q2": 2.5,
+                "o25": 1.7,
                 "o05ht": 1.3,
                 "o15ht": 2.4
             },
@@ -4807,17 +5597,24 @@
                 "combined_ht_avg": 2.125
             },
             "flags": {
-                "fav_quote": 2.48,
+                "fav_quote": 2.5,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": true
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.7,
+                "over": 5.4,
+                "boost": 6.758,
+                "gold": 5.622,
+                "max": 6.758
             },
             "tags": [
-                "⚽⭐ GOLD",
-                "M-Ok",
-                "🐟G",
+                "🎯PT",
+                "⚽ OVER",
                 "🚀 BOOST",
-                "🎯PT"
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -4996,12 +5793,20 @@
                 "fav_quote": 1.42,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.1,
+                "boost": 4.67,
+                "gold": 5.286,
+                "max": 5.286
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -5162,10 +5967,10 @@
             "home_team": "Deportivo Pasto",
             "away_team": "Chico",
             "markets": {
-                "q1": 1.48,
-                "qx": 3.6,
-                "q2": 8.8,
-                "o25": 2.6,
+                "q1": 1.49,
+                "qx": 3.65,
+                "q2": 8.2,
+                "o25": 2.35,
                 "o05ht": 1.5,
                 "o15ht": 3.3
             },
@@ -5177,13 +5982,22 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.48,
+                "fav_quote": 1.49,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.2,
+                "over": 5.9,
+                "boost": 5.708,
+                "gold": 6.505,
+                "max": 6.505
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟O"
             ],
             "home_last_8": [
@@ -5363,10 +6177,19 @@
                 "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 5.4,
+                "boost": 5.984,
+                "gold": 5.403,
+                "max": 5.984
             },
             "tags": [
-                "M-Ok",
+                "🎯PT",
+                "⚽ OVER",
                 "🐟G"
             ],
             "home_last_8": [
@@ -5528,9 +6351,9 @@
             "home_team": "Bahia",
             "away_team": "RB Bragantino",
             "markets": {
-                "q1": 1.9,
+                "q1": 1.92,
                 "qx": 3.5,
-                "q2": 3.85,
+                "q2": 3.8,
                 "o25": 1.85,
                 "o05ht": 1.36,
                 "o15ht": 2.65
@@ -5543,14 +6366,22 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.9,
-                "is_gold_zone": true,
+                "fav_quote": 1.92,
+                "is_gold_zone": false,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.2,
+                "over": 5.4,
+                "boost": 6.018,
+                "gold": 5.26,
+                "max": 6.018
             },
             "tags": [
-                "M-Ok",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -5712,8 +6543,8 @@
             "away_team": "Botafogo",
             "markets": {
                 "q1": 1.53,
-                "qx": 3.95,
-                "q2": 6.2,
+                "qx": 4.0,
+                "q2": 6.0,
                 "o25": 1.8,
                 "o05ht": 1.33,
                 "o15ht": 2.45
@@ -5729,12 +6560,21 @@
                 "fav_quote": 1.53,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 5.4,
+                "boost": 6.948,
+                "gold": 6.996,
+                "max": 6.996
             },
             "tags": [
-                "M-Ok",
-                "🐟O",
-                "🚀 BOOST"
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -5895,12 +6735,12 @@
             "home_team": "Atletico Paranaense",
             "away_team": "Cruzeiro",
             "markets": {
-                "q1": 2.48,
-                "qx": 3.2,
-                "q2": 2.85,
+                "q1": 2.38,
+                "qx": 3.25,
+                "q2": 2.95,
                 "o25": 2.1,
-                "o05ht": 1.4,
-                "o15ht": 2.8
+                "o05ht": 1.42,
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -5910,15 +6750,22 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 2.48,
+                "fav_quote": 2.38,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
-                "away_last_2h_zero": false
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.5,
+                "over": 5.0,
+                "boost": 4.63,
+                "gold": 4.294,
+                "max": 5.0
             },
             "tags": [
-                "M-Ok",
-                "🐟G",
-                "🚀 BOOST"
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
