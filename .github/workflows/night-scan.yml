@@ -2,7 +2,7 @@ name: Night Scan Guard
 
 on:
   schedule:
-    - cron: "30 5 * * *"
+    - cron: "30 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -32,6 +32,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Ensure quote_history exists
+        run: |
+          test -f quote_history.json || echo "{}" > quote_history.json
+
       - name: Run guarded night scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,3 +43,11 @@ jobs:
           TZ: Europe/Rome
           PYTHONUNBUFFERED: "1"
         run: python scan_guard.py
+
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json data_day*.json details_day*.json quote_history.json archives/ || true
+          git diff --cached --quiet || git commit -m "Night scan update"
+          git push
