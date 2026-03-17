@@ -5,9 +5,12 @@ on:
     - cron: "30 5 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 concurrency:
   group: night-scan
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   night-scan:
@@ -34,4 +37,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           TZ: Europe/Rome
+          PYTHONUNBUFFERED: "1"
         run: python scan_guard.py
