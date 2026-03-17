@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: day1-fast-refresh
+  group: arabsniper-data-updates
   cancel-in-progress: false
 
 jobs:
@@ -55,5 +55,4 @@ jobs:
 
           git diff --cached --quiet && echo "Nessuna modifica da committare" || git commit -m "Day1 fast refresh update"
 
-          git pull --rebase origin main
-          git push
+          git push --force-with-lease
