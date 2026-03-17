@@ -114,18 +114,83 @@ def upload_snapshot_to_github(payload):
     )
 
 
-def download_remote_snapshot():
+def download_remote_json(filename):
     try:
-        url = f"https://raw.githubusercontent.com/arabsnipertech-bet/arabsniper/main/{REMOTE_SNAPSHOT_FILE}?v={int(time.time())}"
+        url = f"https://raw.githubusercontent.com/arabsnipertech-bet/arabsniper/main/{filename}?v={int(time.time())}"
         r = requests.get(url, timeout=20)
         if r.status_code != 200:
             return None
-        payload = r.json()
-        if not isinstance(payload, dict):
-            return None
-        return payload
+        return r.json()
     except Exception:
         return None
+
+
+def download_remote_snapshot():
+    payload = download_remote_json(REMOTE_SNAPSHOT_FILE)
+    if not isinstance(payload, dict):
+        return None
+    return payload
+
+
+def read_json_file(filepath, default=None):
+    try:
+        if os.path.exists(filepath):
+            with open(filepath, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return default
+
+
+def write_json_file(filepath, payload):
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=4, ensure_ascii=False)
+
+
+def get_local_day_file(day_num):
+    return str(BASE_DIR / REMOTE_DAY_FILES[day_num])
+
+
+def get_local_details_file(day_num):
+    return str(BASE_DIR / REMOTE_DETAILS_FILES[day_num])
+
+
+def load_existing_day_results(day_num):
+    local_path = get_local_day_file(day_num)
+    payload = read_json_file(local_path, default=None)
+    if isinstance(payload, list):
+        return payload
+
+    payload = download_remote_json(REMOTE_DAY_FILES[day_num])
+    if isinstance(payload, list):
+        return payload
+
+    return []
+
+
+def load_existing_day_details_payload(day_num):
+    local_path = get_local_details_file(day_num)
+    payload = read_json_file(local_path, default=None)
+    if isinstance(payload, dict):
+        payload.setdefault("details", {})
+        return payload
+
+    payload = download_remote_json(REMOTE_DETAILS_FILES[day_num])
+    if isinstance(payload, dict):
+        payload.setdefault("details", {})
+        return payload
+
+    return {
+        "updated_at": None,
+        "day": day_num,
+        "date": get_target_dates()[day_num - 1],
+        "details": {}
+    }
+
+
+def write_local_day_outputs(day_num, results, details_payload):
+    write_json_file(get_local_day_file(day_num), results)
+    write_json_file(get_local_details_file(day_num), details_payload)
 
 # ==========================================
 # SESSION STATE
@@ -346,13 +411,16 @@ def build_rolling_multiday_snapshot(session):
     Salva la baseline quote di tutti i fixture Day1+Day2+Day3+Day4+Day5.
     Se un fixture_id esiste già, NON lo sovrascrive:
     così il drop resta ancorato alla prima quota vista.
+
+    La pulizia è morbida: eliminiamo solo fixture molto vecchi,
+    per non perdere la baseline se l'API salta temporaneamente una quota.
     """
     target_dates = get_target_dates()
     existing_payload = load_existing_snapshot_payload()
     existing_odds = existing_payload.get("odds", {}) or {}
 
     new_odds = dict(existing_odds)
-    active_fixture_ids = set()
+    now_ts = now_rome().strftime("%Y-%m-%d %H:%M:%S")
 
     for horizon in ROLLING_SNAPSHOT_HORIZONS:
         target_date = target_dates[horizon - 1]
@@ -369,7 +437,6 @@ def build_rolling_multiday_snapshot(session):
 
         for f in fx_list:
             fid = str(f["fixture"]["id"])
-            active_fixture_ids.add(fid)
 
             mk = extract_elite_markets(session, f["fixture"]["id"])
             if not mk or mk == "SKIP":
@@ -381,19 +448,40 @@ def build_rolling_multiday_snapshot(session):
                     "q2": mk["q2"],
                     "first_seen_date": target_date,
                     "first_seen_horizon": horizon,
-                    "first_seen_ts": now_rome().strftime("%Y-%m-%d %H:%M:%S")
+                    "first_seen_ts": now_ts,
+                    "last_seen_date": target_date,
+                    "last_seen_horizon": horizon,
+                    "last_seen_ts": now_ts
                 }
             else:
                 if isinstance(new_odds[fid], dict):
+                    new_odds[fid].setdefault("q1", mk["q1"])
+                    new_odds[fid].setdefault("q2", mk["q2"])
+                    new_odds[fid].setdefault("first_seen_date", target_date)
+                    new_odds[fid].setdefault("first_seen_horizon", horizon)
+                    new_odds[fid].setdefault("first_seen_ts", now_ts)
                     new_odds[fid]["last_seen_date"] = target_date
                     new_odds[fid]["last_seen_horizon"] = horizon
-                    new_odds[fid]["last_seen_ts"] = now_rome().strftime("%Y-%m-%d %H:%M:%S")
+                    new_odds[fid]["last_seen_ts"] = now_ts
 
         time.sleep(0.15)
 
     cleaned_odds = {}
+    now_dt = now_rome()
     for fid, data in new_odds.items():
-        if fid in active_fixture_ids:
+        if not isinstance(data, dict):
+            continue
+
+        ts_txt = data.get("last_seen_ts") or data.get("first_seen_ts")
+        keep_item = True
+        if ts_txt:
+            try:
+                ts_dt = datetime.strptime(ts_txt, "%Y-%m-%d %H:%M:%S")
+                keep_item = (now_dt - ts_dt).days <= 10
+            except Exception:
+                keep_item = True
+
+        if keep_item:
             cleaned_odds[fid] = data
 
     payload = {
@@ -794,6 +882,75 @@ def sync_day_outputs_to_github(day_num, update_main=False):
 
     return status_main, status_day, status_details
 
+
+def build_empty_details_payload(day_num):
+    return {
+        "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
+        "day": day_num,
+        "date": get_target_dates()[day_num - 1],
+        "details": {}
+    }
+
+
+def normalize_results_for_day(day_num, results):
+    target_date = get_target_dates()[day_num - 1]
+    normalized = []
+
+    for row in results or []:
+        if not isinstance(row, dict):
+            continue
+        new_row = dict(row)
+        new_row["Data"] = target_date
+        normalized.append(new_row)
+
+    normalized.sort(key=lambda x: (x.get("Ora", "99:99"), x.get("Match", "")))
+    return normalized
+
+
+def normalize_details_payload_for_day(day_num, payload):
+    target_date = get_target_dates()[day_num - 1]
+    raw_details = payload.get("details", {}) if isinstance(payload, dict) else {}
+    normalized_details = {}
+
+    for fid, item in raw_details.items():
+        if not isinstance(item, dict):
+            continue
+        new_item = dict(item)
+        new_item["date"] = target_date
+        normalized_details[str(fid)] = new_item
+
+    return {
+        "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
+        "day": day_num,
+        "date": target_date,
+        "details": normalized_details
+    }
+
+
+def rotate_future_day_files():
+    target_dates = get_target_dates()
+    print("🔁 Rotazione reale file future-day...")
+
+    for dst_day in [2, 3, 4]:
+        src_day = dst_day + 1
+        src_results = load_existing_day_results(src_day)
+        src_details_payload = load_existing_day_details_payload(src_day)
+
+        rotated_results = normalize_results_for_day(dst_day, src_results)
+        rotated_details_payload = normalize_details_payload_for_day(dst_day, src_details_payload)
+        write_local_day_outputs(dst_day, rotated_results, rotated_details_payload)
+
+    empty_day5_results = []
+    empty_day5_details = {
+        "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
+        "day": 5,
+        "date": target_dates[4],
+        "details": {}
+    }
+    write_local_day_outputs(5, empty_day5_results, empty_day5_details)
+
+    print("✅ Rotazione completata: day3→day2, day4→day3, day5→day4, nuovo day5 vuoto.")
+
 # ==========================================
 # MODAL DETTAGLI MATCH
 # ==========================================
@@ -874,7 +1031,7 @@ def show_match_modal(fixture_id: str):
 # ==========================================
 # SCAN CORE
 # ==========================================
-def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success=True):
+def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success=True, preserve_existing=False):
     use_horizon = horizon if horizon is not None else HORIZON
     target_dates = get_target_dates()
 
@@ -903,8 +1060,27 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                 time.sleep(0.3)
                 snap_bar.empty()
 
-            final_list = []
-            details_map = dict(st.session_state.match_details)
+            seed_rows = []
+            seed_details = {}
+            if preserve_existing:
+                seed_rows = normalize_results_for_day(use_horizon, load_existing_day_results(use_horizon))
+                existing_details_payload = normalize_details_payload_for_day(
+                    use_horizon,
+                    load_existing_day_details_payload(use_horizon)
+                )
+                seed_details = existing_details_payload.get("details", {})
+
+            final_map = {}
+            details_map = {}
+
+            for row in seed_rows:
+                fid = str(row.get("Fixture_ID", "")).strip()
+                if fid:
+                    final_map[fid] = row
+
+            for fid, detail in seed_details.items():
+                if isinstance(detail, dict):
+                    details_map[str(fid)] = detail
 
             pb = st.progress(0, text="🚀 ANALISI SEGNALI E MEDIE...")
             for i, f in enumerate(day_fx):
@@ -955,7 +1131,7 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                     "Data": f["fixture"]["date"][:10],
                     "Fixture_ID": f["fixture"]["id"]
                 }
-                final_list.append(row)
+                final_map[fid] = row
 
                 details_map[fid] = {
                     "fixture_id": f["fixture"]["id"],
@@ -996,12 +1172,13 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 
                 time.sleep(0.2)
 
-            current_db = {str(r["Fixture_ID"]): r for r in st.session_state.scan_results}
-            target_date_ids = {str(r["Fixture_ID"]) for r in final_list}
+            final_list = list(final_map.values())
+            final_list.sort(key=lambda x: (x.get("Ora", "99:99"), x.get("Match", "")))
 
+            current_db = {str(r["Fixture_ID"]): r for r in st.session_state.scan_results}
             for existing in list(current_db.keys()):
                 existing_row = current_db[existing]
-                if existing_row.get("Data") == target_date and existing not in target_date_ids:
+                if existing_row.get("Data") == target_date:
                     del current_db[existing]
 
             for r in final_list:
@@ -1009,17 +1186,30 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 
             st.session_state.scan_results = list(current_db.values())
             st.session_state.scan_results.sort(key=lambda x: (x.get("Data", ""), x.get("Ora", "99:99")))
+            write_json_file(DB_FILE, {"results": st.session_state.scan_results})
 
-            with open(DB_FILE, "w", encoding="utf-8") as f:
-                json.dump({"results": st.session_state.scan_results}, f, indent=4, ensure_ascii=False)
+            current_details = dict(st.session_state.match_details)
+            for existing_fid in list(current_details.keys()):
+                if str(current_details[existing_fid].get("date", "")) == target_date:
+                    del current_details[existing_fid]
 
-            st.session_state.match_details = details_map
+            for fid, detail in details_map.items():
+                current_details[str(fid)] = detail
+
+            st.session_state.match_details = current_details
             save_match_details_file()
 
-            status_main, status_day, status_details = sync_day_outputs_to_github(
-                day_num=use_horizon,
-                update_main=update_main_site
-            )
+            day_details_payload = {
+                "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
+                "day": use_horizon,
+                "date": target_date,
+                "details": details_map
+            }
+            write_local_day_outputs(use_horizon, final_list, day_details_payload)
+
+            status_day = upload_day_to_github(use_horizon, final_list)
+            status_details = upload_details_to_github(use_horizon, day_details_payload)
+            status_main = upload_to_github_main(final_list) if update_main_site else None
 
             if show_success:
                 if update_main_site:
@@ -1040,7 +1230,8 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 
             pb.empty()
 
-            if "--auto" not in sys.argv and "--fast" not in sys.argv and "--day2-refresh" not in sys.argv:
+            automation_args = {"--auto", "--fast", "--day2-refresh", "--day3-refresh", "--day4-refresh", "--day5-refresh"}
+            if not any(arg in sys.argv for arg in automation_args):
                 time.sleep(2)
                 st.rerun()
 
@@ -1050,22 +1241,24 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 def run_nightly_multiday_build():
     print("🚀 Avvio scan notturno multi-day...")
 
+    rotate_future_day_files()
+
     print("📌 DAY 1: SNAP + SCAN + update data.json/data_day1/details_day1")
-    run_full_scan(horizon=1, snap=True, update_main_site=True, show_success=False)
+    run_full_scan(horizon=1, snap=True, update_main_site=True, show_success=False, preserve_existing=False)
 
-    print("📆 DAY 2: scan statico + update data_day2/details_day2")
-    run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False)
+    print("📆 DAY 2: refresh non distruttivo + update data_day2/details_day2")
+    run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
 
-    print("📆 DAY 3: scan statico + update data_day3/details_day3")
-    run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False)
+    print("📆 DAY 3: refresh non distruttivo + update data_day3/details_day3")
+    run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
 
-    print("📆 DAY 4: scan statico + update data_day4/details_day4")
-    run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False)
+    print("📆 DAY 4: refresh non distruttivo + update data_day4/details_day4")
+    run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
 
-    print("📆 DAY 5: scan statico + update data_day5/details_day5")
-    run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False)
+    print("📆 DAY 5: scan nuovo orizzonte + update data_day5/details_day5")
+    run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
 
-    print("✅ Build multi-day completata.")
+    print("✅ Build multi-day completata con rotazione reale + refresh non distruttivo.")
 
 # ==========================================
 # UI SIDEBAR
@@ -1215,11 +1408,29 @@ if __name__ == "__main__":
     elif "--fast" in sys.argv:
         HORIZON = 1
         print("⚡ Avvio Scan Veloce Automatico (solo Day 1)...")
-        run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False)
+        run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False, preserve_existing=False)
         print("✅ Scan veloce terminato: data.json + data_day1 + details_day1 aggiornati.")
 
     elif "--day2-refresh" in sys.argv:
         HORIZON = 2
         print("🌙 Avvio Refresh Serale Day 2...")
-        run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False)
+        run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
         print("✅ Refresh Day 2 terminato: data_day2 + details_day2 aggiornati.")
+
+    elif "--day3-refresh" in sys.argv:
+        HORIZON = 3
+        print("🌙 Avvio Refresh Day 3...")
+        run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
+        print("✅ Refresh Day 3 terminato: data_day3 + details_day3 aggiornati.")
+
+    elif "--day4-refresh" in sys.argv:
+        HORIZON = 4
+        print("🌙 Avvio Refresh Day 4...")
+        run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
+        print("✅ Refresh Day 4 terminato: data_day4 + details_day4 aggiornati.")
+
+    elif "--day5-refresh" in sys.argv:
+        HORIZON = 5
+        print("🌙 Avvio Refresh Day 5...")
+        run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
+        print("✅ Refresh Day 5 terminato: data_day5 + details_day5 aggiornati.")
