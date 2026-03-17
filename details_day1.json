@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 18:39:02",
+    "updated_at": "2026-03-17 19:07:24",
     "day": 1,
     "date": "2026-03-17",
     "details": {
@@ -21,11 +21,11 @@
                 "o15ht": 2.62
             },
             "averages": {
-                "home_avg_ft": 2.5,
-                "away_avg_ft": 2.875,
-                "home_avg_ht": 1.5,
-                "away_avg_ht": 1.125,
-                "combined_ht_avg": 1.312
+                "home_avg_ft": 2.875,
+                "away_avg_ft": 2.5,
+                "home_avg_ht": 1.875,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.562
             },
             "flags": {
                 "fav_quote": 1.85,
@@ -35,17 +35,26 @@
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 6.3,
+                "pt": 5.9,
                 "over": 5.8,
-                "boost": 6.628,
-                "gold": 6.68,
-                "max": 6.68
+                "boost": 6.476,
+                "gold": 6.54,
+                "max": 6.54
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER"
             ],
             "home_last_8": [
+                {
+                    "date": "2026-03-17",
+                    "league": "Elite One",
+                    "match": "Cotonsport - Dynamo de Douala",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
                 {
                     "date": "2026-03-14",
                     "league": "Elite One",
@@ -108,18 +117,18 @@
                     "ft": "0-1",
                     "total_ht_goals": 1,
                     "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Elite One",
-                    "match": "Cotonsport - Aigle Royal de Moungo",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
                 }
             ],
             "away_last_8": [
+                {
+                    "date": "2026-03-17",
+                    "league": "Elite One",
+                    "match": "Cotonsport - Dynamo de Douala",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
                 {
                     "date": "2026-03-14",
                     "league": "Elite One",
@@ -180,396 +189,6 @@
                     "match": "Dynamo de Douala - Victoria United",
                     "ht": "1-1",
                     "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Elite One",
-                    "match": "Dynamo de Douala - Fortuna Mfou",
-                    "ht": "1-1",
-                    "ft": "4-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 6
-                }
-            ]
-        },
-        "1521247": {
-            "fixture_id": 1521247,
-            "date": "2026-03-17",
-            "time": "18:30",
-            "league": "Pro League",
-            "country": "United-Arab-Emirates",
-            "match": "Al-Ittihad Kalba - Sharjah FC",
-            "home_team": "Al-Ittihad Kalba",
-            "away_team": "Sharjah FC",
-            "markets": {
-                "q1": 3.65,
-                "qx": 3.5,
-                "q2": 1.88,
-                "o25": 1.75,
-                "o05ht": 1.33,
-                "o15ht": 2.45
-            },
-            "averages": {
-                "home_avg_ft": 3.75,
-                "away_avg_ft": 3.75,
-                "home_avg_ht": 0.625,
-                "away_avg_ht": 2.125,
-                "combined_ht_avg": 1.375
-            },
-            "flags": {
-                "fav_quote": 1.88,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 4.4,
-                "over": 6.2,
-                "boost": 6.098,
-                "gold": 6.201,
-                "max": 6.201
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-11",
-                    "league": "Pro League",
-                    "match": "Shabab Al Ahli Dubai - Al-Ittihad Kalba",
-                    "ht": "1-0",
-                    "ft": "5-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-26",
-                    "league": "Pro League",
-                    "match": "Al-Ittihad Kalba - Al-Dhafra",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Pro League",
-                    "match": "Al-Ittihad Kalba - Dibba Al-Fujairah",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Pro League",
-                    "match": "Al-Jazira - Al-Ittihad Kalba",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Pro League",
-                    "match": "Al-Ittihad Kalba - Ajman",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-27",
-                    "league": "Pro League",
-                    "match": "Al-Ittihad Kalba - Al Ain",
-                    "ht": "0-0",
-                    "ft": "1-3",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-18",
-                    "league": "Pro League",
-                    "match": "Sharjah FC - Al-Ittihad Kalba",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-07",
-                    "league": "Pro League",
-                    "match": "Al-Ittihad Kalba - Al-Wasl FC",
-                    "ht": "0-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-11",
-                    "league": "Pro League",
-                    "match": "Sharjah FC - Al Nasr",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Pro League",
-                    "match": "Sharjah FC - Dibba Al-Fujairah",
-                    "ht": "4-0",
-                    "ft": "4-1",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-26",
-                    "league": "Pro League",
-                    "match": "Al-Jazira - Sharjah FC",
-                    "ht": "4-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Pro League",
-                    "match": "Ajman - Sharjah FC",
-                    "ht": "2-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-16",
-                    "league": "AFC Champions League",
-                    "match": "Sharjah FC - Nasaf",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "AFC Champions League",
-                    "match": "Al-Duhail SC - Sharjah FC",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Pro League",
-                    "match": "Sharjah FC - Shabab Al Ahli Dubai",
-                    "ht": "1-1",
-                    "ft": "1-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Pro League",
-                    "match": "Al-Dhafra - Sharjah FC",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                }
-            ]
-        },
-        "1528333": {
-            "fixture_id": 1528333,
-            "date": "2026-03-17",
-            "time": "18:45",
-            "league": "UEFA Champions League",
-            "country": "World",
-            "match": "Sporting CP - Bodo/Glimt",
-            "home_team": "Sporting CP",
-            "away_team": "Bodo/Glimt",
-            "markets": {
-                "q1": 1.46,
-                "qx": 5.2,
-                "q2": 5.2,
-                "o25": 1.38,
-                "o05ht": 1.18,
-                "o15ht": 1.95
-            },
-            "averages": {
-                "home_avg_ft": 2.5,
-                "away_avg_ft": 3.625,
-                "home_avg_ht": 0.875,
-                "away_avg_ht": 2.0,
-                "combined_ht_avg": 1.438
-            },
-            "flags": {
-                "fav_quote": 1.46,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 3.0,
-                "over": 3.6,
-                "boost": 3.768,
-                "gold": 4.671,
-                "max": 4.671
-            },
-            "tags": [
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-11",
-                    "league": "UEFA Champions League",
-                    "match": "Bodo/Glimt - Sporting CP",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Primeira Liga",
-                    "match": "SC Braga - Sporting CP",
-                    "ht": "1-2",
-                    "ft": "2-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-03",
-                    "league": "Taça de Portugal",
-                    "match": "Sporting CP - FC Porto",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Primeira Liga",
-                    "match": "Sporting CP - Estoril",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Primeira Liga",
-                    "match": "Moreirense - Sporting CP",
-                    "ht": "0-0",
-                    "ft": "0-3",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Primeira Liga",
-                    "match": "Sporting CP - Famalicao",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Primeira Liga",
-                    "match": "FC Porto - Sporting CP",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Primeira Liga",
-                    "match": "Sporting CP - Nacional",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-11",
-                    "league": "UEFA Champions League",
-                    "match": "Bodo/Glimt - Sporting CP",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-05",
-                    "league": "NM Cupen",
-                    "match": "Molde - Bodo/Glimt",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "UEFA Champions League",
-                    "match": "Inter - Bodo/Glimt",
-                    "ht": "0-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-18",
-                    "league": "UEFA Champions League",
-                    "match": "Bodo/Glimt - Inter",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "UEFA Champions League",
-                    "match": "Atletico Madrid - Bodo/Glimt",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-20",
-                    "league": "UEFA Champions League",
-                    "match": "Bodo/Glimt - Manchester City",
-                    "ht": "2-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-13",
-                    "league": "Friendlies Clubs",
-                    "match": "Bodo/Glimt - Diosgyori VTK",
-                    "ht": "4-1",
-                    "ft": "4-1",
-                    "total_ht_goals": 5,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-06",
-                    "league": "Friendlies Clubs",
-                    "match": "Groningen - Bodo/Glimt",
-                    "ht": "0-2",
-                    "ft": "0-4",
                     "total_ht_goals": 2,
                     "total_ft_goals": 4
                 }
@@ -2123,9 +1742,9 @@
             "markets": {
                 "q1": 1.7,
                 "qx": 4.1,
-                "q2": 3.7,
+                "q2": 3.75,
                 "o25": 1.33,
-                "o05ht": 1.17,
+                "o05ht": 1.18,
                 "o15ht": 1.85
             },
             "averages": {
@@ -4036,10 +3655,10 @@
             "home_team": "Venezia",
             "away_team": "Padova",
             "markets": {
-                "q1": 1.26,
-                "qx": 5.6,
-                "q2": 10.5,
-                "o25": 1.57,
+                "q1": 1.27,
+                "qx": 5.4,
+                "q2": 10.25,
+                "o25": 1.62,
                 "o05ht": 1.25,
                 "o15ht": 2.2
             },
@@ -4051,7 +3670,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.26,
+                "fav_quote": 1.27,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
@@ -4060,13 +3679,14 @@
             "scores": {
                 "pt": 7.2,
                 "over": 5.8,
-                "boost": 7.17,
-                "gold": 6.212,
-                "max": 7.2
+                "boost": 7.52,
+                "gold": 6.331,
+                "max": 7.52
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
+                "🚀 BOOST",
                 "🐟O"
             ],
             "home_last_8": [
@@ -4824,7 +4444,7 @@
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.03
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 4.6,
@@ -5767,7 +5387,7 @@
             "markets": {
                 "q1": 3.45,
                 "qx": 3.25,
-                "q2": 1.91,
+                "q2": 1.9,
                 "o25": 1.8,
                 "o05ht": 1.36,
                 "o15ht": 2.55
@@ -5780,8 +5400,8 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 1.91,
-                "is_gold_zone": false,
+                "fav_quote": 1.9,
+                "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
@@ -5790,7 +5410,7 @@
                 "pt": 7.6,
                 "over": 5.4,
                 "boost": 7.48,
-                "gold": 6.285,
+                "gold": 7.135,
                 "max": 7.6
             },
             "tags": [
@@ -6341,12 +5961,12 @@
             "home_team": "Bristol Rovers",
             "away_team": "Shrewsbury",
             "markets": {
-                "q1": 2.0,
-                "qx": 3.25,
-                "q2": 3.8,
-                "o25": 2.15,
+                "q1": 2.08,
+                "qx": 3.3,
+                "q2": 3.5,
+                "o25": 2.1,
                 "o05ht": 1.42,
-                "o15ht": 2.88
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 2.875,
@@ -6356,7 +5976,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 2.0,
+                "fav_quote": 2.08,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
@@ -6371,7 +5991,8 @@
             },
             "tags": [
                 "🎯PT",
-                "⚽ OVER"
+                "⚽ OVER",
+                "🐟G"
             ],
             "home_last_8": [
                 {
@@ -6532,12 +6153,12 @@
             "home_team": "Cheltenham",
             "away_team": "Crewe",
             "markets": {
-                "q1": 2.64,
+                "q1": 2.7,
                 "qx": 3.2,
-                "q2": 2.64,
-                "o25": 2.0,
-                "o05ht": 1.4,
-                "o15ht": 2.8
+                "q2": 2.58,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -6547,22 +6168,22 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.64,
+                "fav_quote": 2.58,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.0
+                "drop_diff": 0.06
             },
             "scores": {
-                "pt": 4.1,
-                "over": 4.0,
-                "boost": 4.028,
-                "gold": 3.472,
-                "max": 4.1
+                "pt": 3.2,
+                "over": 4.35,
+                "boost": 4.079,
+                "gold": 3.646,
+                "max": 4.35
             },
             "tags": [
-                "🎯PT",
                 "⚽ OVER",
+                "📉-0.06",
                 "🐟G"
             ],
             "home_last_8": [
@@ -6916,12 +6537,12 @@
             "home_team": "Tranmere",
             "away_team": "Harrogate Town",
             "markets": {
-                "q1": 2.22,
-                "qx": 3.35,
-                "q2": 3.15,
-                "o25": 1.95,
-                "o05ht": 1.4,
-                "o15ht": 2.8
+                "q1": 2.24,
+                "qx": 3.25,
+                "q2": 3.2,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 2.75,
@@ -6931,18 +6552,18 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.22,
+                "fav_quote": 2.24,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 5.3,
+                "pt": 4.4,
                 "over": 4.0,
-                "boost": 4.484,
-                "gold": 3.891,
-                "max": 5.3
+                "boost": 4.142,
+                "gold": 3.576,
+                "max": 4.4
             },
             "tags": [
                 "🎯PT",
@@ -10394,20 +10015,19 @@
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.08
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 6.2,
-                "over": 6.55,
-                "boost": 7.725,
-                "gold": 7.505,
-                "max": 7.725
+                "over": 6.2,
+                "boost": 7.332,
+                "gold": 7.017,
+                "max": 7.332
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST",
-                "📉-0.08"
+                "🚀 BOOST"
             ],
             "home_last_8": [
                 {
@@ -10761,7 +10381,7 @@
             "away_team": "Bath City",
             "markets": {
                 "q1": 1.85,
-                "qx": 3.25,
+                "qx": 3.3,
                 "q2": 3.85,
                 "o25": 2.05,
                 "o05ht": 1.45,
@@ -11142,9 +10762,9 @@
             "home_team": "Leamington",
             "away_team": "Buxton",
             "markets": {
-                "q1": 4.1,
+                "q1": 4.2,
                 "qx": 3.45,
-                "q2": 1.77,
+                "q2": 1.73,
                 "o25": 1.93,
                 "o05ht": 1.38,
                 "o15ht": 2.75
@@ -11157,7 +10777,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.77,
+                "fav_quote": 1.73,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -11172,7 +10792,8 @@
             },
             "tags": [
                 "🎯PT",
-                "⚽ OVER"
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -11527,9 +11148,9 @@
             "away_team": "Curzon Ashton",
             "markets": {
                 "q1": 1.85,
-                "qx": 3.7,
-                "q2": 3.4,
-                "o25": 1.53,
+                "qx": 3.75,
+                "q2": 3.35,
+                "o25": 1.55,
                 "o05ht": 1.25,
                 "o15ht": 2.2
             },
@@ -11550,9 +11171,9 @@
             "scores": {
                 "pt": 5.4,
                 "over": 5.4,
-                "boost": 6.094,
-                "gold": 6.18,
-                "max": 6.18
+                "boost": 6.294,
+                "gold": 6.248,
+                "max": 6.294
             },
             "tags": [
                 "🎯PT",
@@ -11717,10 +11338,10 @@
             "home_team": "Hereford",
             "away_team": "AFC Fylde",
             "markets": {
-                "q1": 4.1,
+                "q1": 4.2,
                 "qx": 4.0,
-                "q2": 1.65,
-                "o25": 1.48,
+                "q2": 1.64,
+                "o25": 1.45,
                 "o05ht": 1.22,
                 "o15ht": 2.05
             },
@@ -11732,7 +11353,7 @@
                 "combined_ht_avg": 1.812
             },
             "flags": {
-                "fav_quote": 1.65,
+                "fav_quote": 1.64,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -12677,9 +12298,9 @@
             "home_team": "Cowdenbeath",
             "away_team": "Stirling University",
             "markets": {
-                "q1": 1.91,
+                "q1": 1.95,
                 "qx": 3.8,
-                "q2": 2.9,
+                "q2": 2.85,
                 "o25": 1.44,
                 "o05ht": 1.2,
                 "o15ht": 2.05
@@ -12692,7 +12313,7 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 1.91,
+                "fav_quote": 1.95,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
