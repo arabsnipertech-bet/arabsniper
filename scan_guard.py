@@ -78,12 +78,10 @@ def extract_day_date_from_details_file(path: Path) -> str | None:
     if not isinstance(details, dict) or not details:
         return None
 
-    # prima prova: data dichiarata nel payload
     value = str(payload.get("date") or "").strip()
     if value:
         return value
 
-    # fallback: prima data trovata nei dettagli
     for _, item in details.items():
         if isinstance(item, dict):
             value = str(item.get("date") or "").strip()
@@ -243,4 +241,11 @@ if __name__ == "__main__":
         code = run_command([python_exe, "3appDays.py", "--fast"])
 
     quality_report()
-    sys.exit(code)
+
+    print("📦 Aggiorno casse recenti...")
+    casse_code = run_command([python_exe, "build_casse_recenti.py"])
+
+    if code != 0:
+        sys.exit(code)
+
+    sys.exit(casse_code)
