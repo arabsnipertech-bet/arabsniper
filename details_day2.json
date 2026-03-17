@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 18:14:16",
+    "updated_at": "2026-03-17 18:41:33",
     "day": 2,
     "date": "2026-03-18",
     "details": {
@@ -2128,7 +2128,7 @@
                 "q1": 5.4,
                 "qx": 4.33,
                 "q2": 1.53,
-                "o25": 1.6,
+                "o25": 1.62,
                 "o05ht": 1.28,
                 "o15ht": 2.3
             },
@@ -3471,7 +3471,7 @@
             "away_team": "Gamba Osaka",
             "markets": {
                 "q1": 1.73,
-                "qx": 3.65,
+                "qx": 3.6,
                 "q2": 4.6,
                 "o25": 1.85,
                 "o05ht": 1.36,
@@ -9820,9 +9820,9 @@
                 "q1": 1.82,
                 "qx": 3.45,
                 "q2": 3.95,
-                "o25": 1.8,
-                "o05ht": 1.35,
-                "o15ht": 2.55
+                "o25": 1.93,
+                "o05ht": 1.36,
+                "o15ht": 2.7
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -11963,8 +11963,540 @@
                 "🚀 BOOST",
                 "🐟G"
             ],
-            "home_last_8": [],
-            "away_last_8": []
+            "home_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "Pro League",
+                    "match": "Al-Qadisiyah FC - Al-Ahli Jeddah",
+                    "ht": "0-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "Pro League",
+                    "match": "Al-Ahli Jeddah - Al-Ittihad FC",
+                    "ht": "1-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-26",
+                    "league": "Pro League",
+                    "match": "Al Riyadh - Al-Ahli Jeddah",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-23",
+                    "league": "Pro League",
+                    "match": "Damac - Al-Ahli Jeddah",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-19",
+                    "league": "Pro League",
+                    "match": "Al-Ahli Jeddah - Al Najma",
+                    "ht": "0-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-16",
+                    "league": "AFC Champions League",
+                    "match": "Al-Ahli Jeddah - Shabab Al Ahli Dubai",
+                    "ht": "3-0",
+                    "ft": "4-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Pro League",
+                    "match": "Al Shabab - Al-Ahli Jeddah",
+                    "ht": "2-4",
+                    "ft": "2-5",
+                    "total_ht_goals": 6,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-09",
+                    "league": "AFC Champions League",
+                    "match": "Al Wahda FC - Al-Ahli Jeddah",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Pro League",
+                    "match": "Al-Fateh - Al-Hilal Saudi FC",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "Pro League",
+                    "match": "Al-Hilal Saudi FC - Al Najma",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Pro League",
+                    "match": "Al Shabab - Al-Hilal Saudi FC",
+                    "ht": "2-3",
+                    "ft": "3-5",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 8
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "Pro League",
+                    "match": "Al Taawon - Al-Hilal Saudi FC",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Pro League",
+                    "match": "Al-Hilal Saudi FC - Al-Ittihad FC",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-16",
+                    "league": "AFC Champions League",
+                    "match": "Al-Hilal Saudi FC - Al Wahda FC",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Pro League",
+                    "match": "Al-Hilal Saudi FC - Al-Ettifaq",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-09",
+                    "league": "AFC Champions League",
+                    "match": "Shabab Al Ahli Dubai - Al-Hilal Saudi FC",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ]
+        },
+        "1529040": {
+            "fixture_id": 1529040,
+            "date": "2026-03-18",
+            "time": "20:00",
+            "league": "League",
+            "country": "Jordan",
+            "match": "Al Faisaly - Al Buqa'a",
+            "home_team": "Al Faisaly",
+            "away_team": "Al Buqa'a",
+            "markets": {
+                "q1": 1.3,
+                "qx": 4.5,
+                "q2": 9.4,
+                "o25": 1.67,
+                "o05ht": 1.3,
+                "o15ht": 2.4
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 4.625,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 2.0,
+                "combined_ht_avg": 1.625
+            },
+            "flags": {
+                "fav_quote": 1.3,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.0,
+                "boost": 6.984,
+                "gold": 5.821,
+                "max": 6.984
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-12",
+                    "league": "League",
+                    "match": "Al Faisaly - Shabab Al Ordon",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "League",
+                    "match": "Sama Al Sarhan - Al Faisaly",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "League",
+                    "match": "Al Ahli - Al Faisaly",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-25",
+                    "league": "League",
+                    "match": "Al Faisaly - Sama Al Sarhan",
+                    "ht": "2-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "League",
+                    "match": "Al Buqa'a - Al Faisaly",
+                    "ht": "0-3",
+                    "ft": "1-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League",
+                    "match": "Al Faisaly - Al Wihdat",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-02",
+                    "league": "League",
+                    "match": "Shabab Al Ordon - Al Faisaly",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-29",
+                    "league": "League",
+                    "match": "Al Faisaly - Al Ramtha",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League",
+                    "match": "Al Buqa'a - Sama Al Sarhan",
+                    "ht": "1-2",
+                    "ft": "4-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-03-11",
+                    "league": "League",
+                    "match": "Al Hussein - Al Buqa'a",
+                    "ht": "1-1",
+                    "ft": "5-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League",
+                    "match": "Al Buqa'a - Al Wihdat",
+                    "ht": "0-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-26",
+                    "league": "League",
+                    "match": "Al Hussein - Al Buqa'a",
+                    "ht": "2-1",
+                    "ft": "5-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "League",
+                    "match": "Al Buqa'a - Al Faisaly",
+                    "ht": "0-3",
+                    "ft": "1-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League",
+                    "match": "Shabab Al Ordon - Al Buqa'a",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-08",
+                    "league": "League",
+                    "match": "Al Buqa'a - Al Ramtha",
+                    "ht": "1-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-04",
+                    "league": "League",
+                    "match": "Al Salt - Al Buqa'a",
+                    "ht": "1-2",
+                    "ft": "1-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
+        "1529042": {
+            "fixture_id": 1529042,
+            "date": "2026-03-18",
+            "time": "20:00",
+            "league": "League",
+            "country": "Jordan",
+            "match": "Al Jazeera - Al Hussein",
+            "home_team": "Al Jazeera",
+            "away_team": "Al Hussein",
+            "markets": {
+                "q1": 12.0,
+                "qx": 4.8,
+                "q2": 1.22,
+                "o25": 1.7,
+                "o05ht": 1.33,
+                "o15ht": 2.5
+            },
+            "averages": {
+                "home_avg_ft": 2.5,
+                "away_avg_ft": 3.875,
+                "home_avg_ht": 1.375,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.312
+            },
+            "flags": {
+                "fav_quote": 1.22,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.0,
+                "boost": 6.984,
+                "gold": 5.821,
+                "max": 6.984
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "League",
+                    "match": "Al Ramtha - Al Jazeera",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "League",
+                    "match": "Al Jazeera - Al Ahli",
+                    "ht": "2-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-02",
+                    "league": "League",
+                    "match": "Shabab Al Ordon - Al Jazeera",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-25",
+                    "league": "League",
+                    "match": "Al Jazeera - Al Ramtha",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-19",
+                    "league": "League",
+                    "match": "Al Salt - Al Jazeera",
+                    "ht": "0-1",
+                    "ft": "0-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "League",
+                    "match": "Al Wihdat - Al Jazeera",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League",
+                    "match": "Al Jazeera - Al Ahli",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-03",
+                    "league": "League",
+                    "match": "Sama Al Sarhan - Al Jazeera",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League",
+                    "match": "Al Wihdat - Al Hussein",
+                    "ht": "0-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-11",
+                    "league": "League",
+                    "match": "Al Hussein - Al Buqa'a",
+                    "ht": "1-1",
+                    "ft": "5-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-26",
+                    "league": "League",
+                    "match": "Al Hussein - Al Buqa'a",
+                    "ht": "2-1",
+                    "ft": "5-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League",
+                    "match": "Al Hussein - Al Wihdat",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "AFC Cup",
+                    "match": "Al Hussein - Esteghlal FC",
+                    "ht": "1-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "AFC Cup",
+                    "match": "Esteghlal FC - Al Hussein",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "League",
+                    "match": "Al Hussein - Shabab Al Ordon",
+                    "ht": "1-1",
+                    "ft": "5-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-02",
+                    "league": "League",
+                    "match": "Al Ramtha - Al Hussein",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ]
         },
         "1417292": {
             "fixture_id": 1417292,
