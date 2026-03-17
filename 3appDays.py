@@ -1,4 +1,104 @@
-import streamlit as st
+import sys
+
+CLI_FLAGS = {"--auto", "--fast", "--day2-refresh", "--day3-refresh", "--day4-refresh", "--day5-refresh"}
+CLI_MODE = any(arg in CLI_FLAGS for arg in sys.argv)
+
+if not CLI_MODE:
+    import streamlit as st
+else:
+    class _DummyProgress:
+        def progress(self, *args, **kwargs):
+            return self
+        def empty(self):
+            return None
+
+    class _DummySpinner:
+        def __enter__(self):
+            return self
+        def __exit__(self, exc_type, exc, tb):
+            return False
+
+    class _DummyColumn:
+        def button(self, *args, **kwargs):
+            return False
+        def write(self, *args, **kwargs):
+            return None
+        def metric(self, *args, **kwargs):
+            return None
+        def markdown(self, *args, **kwargs):
+            return None
+        def dataframe(self, *args, **kwargs):
+            return None
+        def info(self, *args, **kwargs):
+            return None
+        def download_button(self, *args, **kwargs):
+            return None
+        def __enter__(self):
+            return self
+        def __exit__(self, exc_type, exc, tb):
+            return False
+
+    class _DummySidebar:
+        def header(self, *args, **kwargs):
+            return None
+        def selectbox(self, label, options=None, index=0, **kwargs):
+            return options[index] if options else None
+        def multiselect(self, *args, default=None, **kwargs):
+            return default or []
+        def button(self, *args, **kwargs):
+            return False
+        def success(self, *args, **kwargs):
+            return None
+        def warning(self, *args, **kwargs):
+            return None
+        def markdown(self, *args, **kwargs):
+            return None
+        def caption(self, *args, **kwargs):
+            return None
+
+    class _DummyStreamlit:
+        def __init__(self):
+            self.session_state = {}
+            self.secrets = {}
+            self.sidebar = _DummySidebar()
+        def set_page_config(self, *args, **kwargs):
+            return None
+        def spinner(self, *args, **kwargs):
+            return _DummySpinner()
+        def progress(self, *args, **kwargs):
+            return _DummyProgress()
+        def success(self, *args, **kwargs):
+            return None
+        def error(self, *args, **kwargs):
+            return None
+        def warning(self, *args, **kwargs):
+            return None
+        def info(self, *args, **kwargs):
+            return None
+        def markdown(self, *args, **kwargs):
+            return None
+        def write(self, *args, **kwargs):
+            return None
+        def subheader(self, *args, **kwargs):
+            return None
+        def dataframe(self, *args, **kwargs):
+            return None
+        def columns(self, spec):
+            n = spec if isinstance(spec, int) else len(spec)
+            return [_DummyColumn() for _ in range(n)]
+        def button(self, *args, **kwargs):
+            return False
+        def rerun(self):
+            return None
+        def download_button(self, *args, **kwargs):
+            return None
+        def dialog(self, *args, **kwargs):
+            def decorator(func):
+                return func
+            return decorator
+
+    st = _DummyStreamlit()
+
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
@@ -55,7 +155,8 @@ def now_rome():
     return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
 
 
-st.set_page_config(page_title="ARAB SNIPER V24.1 MULTI-DAY WEB", layout="wide")
+if not CLI_MODE:
+    st.set_page_config(page_title="ARAB SNIPER V24.1 MULTI-DAY WEB", layout="wide")
 
 # ==========================================
 # GITHUB UPDATE CORE
@@ -114,83 +215,18 @@ def upload_snapshot_to_github(payload):
     )
 
 
-def download_remote_json(filename):
+def download_remote_snapshot():
     try:
-        url = f"https://raw.githubusercontent.com/arabsnipertech-bet/arabsniper/main/{filename}?v={int(time.time())}"
+        url = f"https://raw.githubusercontent.com/arabsnipertech-bet/arabsniper/main/{REMOTE_SNAPSHOT_FILE}?v={int(time.time())}"
         r = requests.get(url, timeout=20)
         if r.status_code != 200:
             return None
-        return r.json()
+        payload = r.json()
+        if not isinstance(payload, dict):
+            return None
+        return payload
     except Exception:
         return None
-
-
-def download_remote_snapshot():
-    payload = download_remote_json(REMOTE_SNAPSHOT_FILE)
-    if not isinstance(payload, dict):
-        return None
-    return payload
-
-
-def read_json_file(filepath, default=None):
-    try:
-        if os.path.exists(filepath):
-            with open(filepath, "r", encoding="utf-8") as f:
-                return json.load(f)
-    except Exception:
-        pass
-    return default
-
-
-def write_json_file(filepath, payload):
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(payload, f, indent=4, ensure_ascii=False)
-
-
-def get_local_day_file(day_num):
-    return str(BASE_DIR / REMOTE_DAY_FILES[day_num])
-
-
-def get_local_details_file(day_num):
-    return str(BASE_DIR / REMOTE_DETAILS_FILES[day_num])
-
-
-def load_existing_day_results(day_num):
-    local_path = get_local_day_file(day_num)
-    payload = read_json_file(local_path, default=None)
-    if isinstance(payload, list):
-        return payload
-
-    payload = download_remote_json(REMOTE_DAY_FILES[day_num])
-    if isinstance(payload, list):
-        return payload
-
-    return []
-
-
-def load_existing_day_details_payload(day_num):
-    local_path = get_local_details_file(day_num)
-    payload = read_json_file(local_path, default=None)
-    if isinstance(payload, dict):
-        payload.setdefault("details", {})
-        return payload
-
-    payload = download_remote_json(REMOTE_DETAILS_FILES[day_num])
-    if isinstance(payload, dict):
-        payload.setdefault("details", {})
-        return payload
-
-    return {
-        "updated_at": None,
-        "day": day_num,
-        "date": get_target_dates()[day_num - 1],
-        "details": {}
-    }
-
-
-def write_local_day_outputs(day_num, results, details_payload):
-    write_json_file(get_local_day_file(day_num), results)
-    write_json_file(get_local_details_file(day_num), details_payload)
 
 # ==========================================
 # SESSION STATE
@@ -411,16 +447,13 @@ def build_rolling_multiday_snapshot(session):
     Salva la baseline quote di tutti i fixture Day1+Day2+Day3+Day4+Day5.
     Se un fixture_id esiste già, NON lo sovrascrive:
     così il drop resta ancorato alla prima quota vista.
-
-    La pulizia è morbida: eliminiamo solo fixture molto vecchi,
-    per non perdere la baseline se l'API salta temporaneamente una quota.
     """
     target_dates = get_target_dates()
     existing_payload = load_existing_snapshot_payload()
     existing_odds = existing_payload.get("odds", {}) or {}
 
     new_odds = dict(existing_odds)
-    now_ts = now_rome().strftime("%Y-%m-%d %H:%M:%S")
+    active_fixture_ids = set()
 
     for horizon in ROLLING_SNAPSHOT_HORIZONS:
         target_date = target_dates[horizon - 1]
@@ -437,6 +470,7 @@ def build_rolling_multiday_snapshot(session):
 
         for f in fx_list:
             fid = str(f["fixture"]["id"])
+            active_fixture_ids.add(fid)
 
             mk = extract_elite_markets(session, f["fixture"]["id"])
             if not mk or mk == "SKIP":
@@ -448,40 +482,19 @@ def build_rolling_multiday_snapshot(session):
                     "q2": mk["q2"],
                     "first_seen_date": target_date,
                     "first_seen_horizon": horizon,
-                    "first_seen_ts": now_ts,
-                    "last_seen_date": target_date,
-                    "last_seen_horizon": horizon,
-                    "last_seen_ts": now_ts
+                    "first_seen_ts": now_rome().strftime("%Y-%m-%d %H:%M:%S")
                 }
             else:
                 if isinstance(new_odds[fid], dict):
-                    new_odds[fid].setdefault("q1", mk["q1"])
-                    new_odds[fid].setdefault("q2", mk["q2"])
-                    new_odds[fid].setdefault("first_seen_date", target_date)
-                    new_odds[fid].setdefault("first_seen_horizon", horizon)
-                    new_odds[fid].setdefault("first_seen_ts", now_ts)
                     new_odds[fid]["last_seen_date"] = target_date
                     new_odds[fid]["last_seen_horizon"] = horizon
-                    new_odds[fid]["last_seen_ts"] = now_ts
+                    new_odds[fid]["last_seen_ts"] = now_rome().strftime("%Y-%m-%d %H:%M:%S")
 
         time.sleep(0.15)
 
     cleaned_odds = {}
-    now_dt = now_rome()
     for fid, data in new_odds.items():
-        if not isinstance(data, dict):
-            continue
-
-        ts_txt = data.get("last_seen_ts") or data.get("first_seen_ts")
-        keep_item = True
-        if ts_txt:
-            try:
-                ts_dt = datetime.strptime(ts_txt, "%Y-%m-%d %H:%M:%S")
-                keep_item = (now_dt - ts_dt).days <= 10
-            except Exception:
-                keep_item = True
-
-        if keep_item:
+        if fid in active_fixture_ids:
             cleaned_odds[fid] = data
 
     payload = {
@@ -882,75 +895,6 @@ def sync_day_outputs_to_github(day_num, update_main=False):
 
     return status_main, status_day, status_details
 
-
-def build_empty_details_payload(day_num):
-    return {
-        "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
-        "day": day_num,
-        "date": get_target_dates()[day_num - 1],
-        "details": {}
-    }
-
-
-def normalize_results_for_day(day_num, results):
-    target_date = get_target_dates()[day_num - 1]
-    normalized = []
-
-    for row in results or []:
-        if not isinstance(row, dict):
-            continue
-        new_row = dict(row)
-        new_row["Data"] = target_date
-        normalized.append(new_row)
-
-    normalized.sort(key=lambda x: (x.get("Ora", "99:99"), x.get("Match", "")))
-    return normalized
-
-
-def normalize_details_payload_for_day(day_num, payload):
-    target_date = get_target_dates()[day_num - 1]
-    raw_details = payload.get("details", {}) if isinstance(payload, dict) else {}
-    normalized_details = {}
-
-    for fid, item in raw_details.items():
-        if not isinstance(item, dict):
-            continue
-        new_item = dict(item)
-        new_item["date"] = target_date
-        normalized_details[str(fid)] = new_item
-
-    return {
-        "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
-        "day": day_num,
-        "date": target_date,
-        "details": normalized_details
-    }
-
-
-def rotate_future_day_files():
-    target_dates = get_target_dates()
-    print("🔁 Rotazione reale file future-day...")
-
-    for dst_day in [2, 3, 4]:
-        src_day = dst_day + 1
-        src_results = load_existing_day_results(src_day)
-        src_details_payload = load_existing_day_details_payload(src_day)
-
-        rotated_results = normalize_results_for_day(dst_day, src_results)
-        rotated_details_payload = normalize_details_payload_for_day(dst_day, src_details_payload)
-        write_local_day_outputs(dst_day, rotated_results, rotated_details_payload)
-
-    empty_day5_results = []
-    empty_day5_details = {
-        "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
-        "day": 5,
-        "date": target_dates[4],
-        "details": {}
-    }
-    write_local_day_outputs(5, empty_day5_results, empty_day5_details)
-
-    print("✅ Rotazione completata: day3→day2, day4→day3, day5→day4, nuovo day5 vuoto.")
-
 # ==========================================
 # MODAL DETTAGLI MATCH
 # ==========================================
@@ -1031,7 +975,7 @@ def show_match_modal(fixture_id: str):
 # ==========================================
 # SCAN CORE
 # ==========================================
-def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success=True, preserve_existing=False):
+def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success=True, non_destructive=False):
     use_horizon = horizon if horizon is not None else HORIZON
     target_dates = get_target_dates()
 
@@ -1060,27 +1004,8 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                 time.sleep(0.3)
                 snap_bar.empty()
 
-            seed_rows = []
-            seed_details = {}
-            if preserve_existing:
-                seed_rows = normalize_results_for_day(use_horizon, load_existing_day_results(use_horizon))
-                existing_details_payload = normalize_details_payload_for_day(
-                    use_horizon,
-                    load_existing_day_details_payload(use_horizon)
-                )
-                seed_details = existing_details_payload.get("details", {})
-
-            final_map = {}
-            details_map = {}
-
-            for row in seed_rows:
-                fid = str(row.get("Fixture_ID", "")).strip()
-                if fid:
-                    final_map[fid] = row
-
-            for fid, detail in seed_details.items():
-                if isinstance(detail, dict):
-                    details_map[str(fid)] = detail
+            final_list = []
+            details_map = dict(st.session_state.match_details)
 
             pb = st.progress(0, text="🚀 ANALISI SEGNALI E MEDIE...")
             for i, f in enumerate(day_fx):
@@ -1131,7 +1056,7 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                     "Data": f["fixture"]["date"][:10],
                     "Fixture_ID": f["fixture"]["id"]
                 }
-                final_map[fid] = row
+                final_list.append(row)
 
                 details_map[fid] = {
                     "fixture_id": f["fixture"]["id"],
@@ -1172,44 +1097,31 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 
                 time.sleep(0.2)
 
-            final_list = list(final_map.values())
-            final_list.sort(key=lambda x: (x.get("Ora", "99:99"), x.get("Match", "")))
-
             current_db = {str(r["Fixture_ID"]): r for r in st.session_state.scan_results}
-            for existing in list(current_db.keys()):
-                existing_row = current_db[existing]
-                if existing_row.get("Data") == target_date:
-                    del current_db[existing]
+            target_date_ids = {str(r["Fixture_ID"]) for r in final_list}
+
+            if not non_destructive:
+                for existing in list(current_db.keys()):
+                    existing_row = current_db[existing]
+                    if existing_row.get("Data") == target_date and existing not in target_date_ids:
+                        del current_db[existing]
 
             for r in final_list:
                 current_db[str(r["Fixture_ID"])] = r
 
             st.session_state.scan_results = list(current_db.values())
             st.session_state.scan_results.sort(key=lambda x: (x.get("Data", ""), x.get("Ora", "99:99")))
-            write_json_file(DB_FILE, {"results": st.session_state.scan_results})
 
-            current_details = dict(st.session_state.match_details)
-            for existing_fid in list(current_details.keys()):
-                if str(current_details[existing_fid].get("date", "")) == target_date:
-                    del current_details[existing_fid]
+            with open(DB_FILE, "w", encoding="utf-8") as f:
+                json.dump({"results": st.session_state.scan_results}, f, indent=4, ensure_ascii=False)
 
-            for fid, detail in details_map.items():
-                current_details[str(fid)] = detail
-
-            st.session_state.match_details = current_details
+            st.session_state.match_details = details_map
             save_match_details_file()
 
-            day_details_payload = {
-                "updated_at": now_rome().strftime("%Y-%m-%d %H:%M:%S"),
-                "day": use_horizon,
-                "date": target_date,
-                "details": details_map
-            }
-            write_local_day_outputs(use_horizon, final_list, day_details_payload)
-
-            status_day = upload_day_to_github(use_horizon, final_list)
-            status_details = upload_details_to_github(use_horizon, day_details_payload)
-            status_main = upload_to_github_main(final_list) if update_main_site else None
+            status_main, status_day, status_details = sync_day_outputs_to_github(
+                day_num=use_horizon,
+                update_main=update_main_site
+            )
 
             if show_success:
                 if update_main_site:
@@ -1230,10 +1142,84 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 
             pb.empty()
 
-            automation_args = {"--auto", "--fast", "--day2-refresh", "--day3-refresh", "--day4-refresh", "--day5-refresh"}
-            if not any(arg in sys.argv for arg in automation_args):
+            if not CLI_MODE:
                 time.sleep(2)
                 st.rerun()
+
+
+
+def save_db_file():
+    with open(DB_FILE, "w", encoding="utf-8") as f:
+        json.dump({"results": st.session_state.scan_results}, f, indent=4, ensure_ascii=False)
+
+
+def rotate_future_day_buckets():
+    """
+    Rotazione reale non distruttiva:
+    - day3 -> day2
+    - day4 -> day3
+    - day5 -> day4
+    - day5 viene svuotato e sarà riempito dal nuovo scan
+    """
+    target_dates = get_target_dates()
+    old_dates = [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(1, 6)]
+    # old_dates[0]=oggi+1(day2 vecchio) ... old_dates[3]=oggi+4(day5 vecchio)
+
+    scan_results = list(st.session_state.get("scan_results", []))
+    details = dict(st.session_state.get("match_details", {}))
+
+    new_results = []
+    for row in scan_results:
+        row = dict(row)
+        row_date = row.get("Data")
+        moved = False
+        if row_date == old_dates[1]:  # old day3 -> new day2
+            row["Data"] = target_dates[1]
+            moved = True
+        elif row_date == old_dates[2]:  # old day4 -> new day3
+            row["Data"] = target_dates[2]
+            moved = True
+        elif row_date == old_dates[3]:  # old day5 -> new day4
+            row["Data"] = target_dates[3]
+            moved = True
+        elif row_date == old_dates[4] if len(old_dates) > 4 else False:
+            # non usato, tenuto per sicurezza
+            moved = False
+
+        # scarta il vecchio day2 e il vecchio day5 se non entrano nella rotazione
+        if row_date == old_dates[0]:
+            continue
+        if row_date == old_dates[4] if len(old_dates) > 4 else False:
+            continue
+
+        # il vecchio day5 è old_dates[3] e già gestito sopra -> nuovo day4
+        new_results.append(row)
+
+    new_details = {}
+    for fid, detail in details.items():
+        d = dict(detail)
+        d_date = d.get("date")
+        if d_date == old_dates[1]:
+            d["date"] = target_dates[1]
+        elif d_date == old_dates[2]:
+            d["date"] = target_dates[2]
+        elif d_date == old_dates[3]:
+            d["date"] = target_dates[3]
+        elif d_date == old_dates[0]:
+            continue
+        new_details[str(fid)] = d
+
+    st.session_state.scan_results = new_results
+    st.session_state.match_details = new_details
+    save_db_file()
+    save_match_details_file()
+
+
+def rotate_future_day_files_if_needed():
+    """
+    La rotazione va fatta solo nel build notturno.
+    """
+    rotate_future_day_buckets()
 
 # ==========================================
 # AUTO BUILD 5 GIORNI
@@ -1241,159 +1227,159 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 def run_nightly_multiday_build():
     print("🚀 Avvio scan notturno multi-day...")
 
-    rotate_future_day_files()
-
     print("📌 DAY 1: SNAP + SCAN + update data.json/data_day1/details_day1")
-    run_full_scan(horizon=1, snap=True, update_main_site=True, show_success=False, preserve_existing=False)
+    run_full_scan(horizon=1, snap=True, update_main_site=True, show_success=False)
 
-    print("📆 DAY 2: refresh non distruttivo + update data_day2/details_day2")
-    run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
+    print("📆 DAY 2: scan statico + update data_day2/details_day2")
+    run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False)
 
-    print("📆 DAY 3: refresh non distruttivo + update data_day3/details_day3")
-    run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
+    print("📆 DAY 3: scan statico + update data_day3/details_day3")
+    run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False)
 
-    print("📆 DAY 4: refresh non distruttivo + update data_day4/details_day4")
-    run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
+    print("📆 DAY 4: scan statico + update data_day4/details_day4")
+    run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False)
 
-    print("📆 DAY 5: scan nuovo orizzonte + update data_day5/details_day5")
-    run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
+    print("📆 DAY 5: scan statico + update data_day5/details_day5")
+    run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False)
 
-    print("✅ Build multi-day completata con rotazione reale + refresh non distruttivo.")
+    print("✅ Build multi-day completata.")
 
-# ==========================================
-# UI SIDEBAR
-# ==========================================
-st.sidebar.header("👑 Arab Sniper V24.1 Multi-Day WEB")
-HORIZON = st.sidebar.selectbox("Orizzonte Temporale:", options=[1, 2, 3, 4, 5], index=0)
-target_dates = get_target_dates()
+if not CLI_MODE:
+    # ==========================================
+    # UI SIDEBAR
+    # ==========================================
+    st.sidebar.header("👑 Arab Sniper V24.1 Multi-Day WEB")
+    HORIZON = st.sidebar.selectbox("Orizzonte Temporale:", options=[1, 2, 3, 4, 5], index=0)
+    target_dates = get_target_dates()
 
-all_discovered = sorted(list(set(st.session_state.get("available_countries", []))))
-if st.session_state.scan_results:
-    historical_cnt = {r["Lega"].split("(")[-1].replace(")", "") for r in st.session_state.scan_results}
-    all_discovered = sorted(list(set(all_discovered) | historical_cnt))
+    all_discovered = sorted(list(set(st.session_state.get("available_countries", []))))
+    if st.session_state.scan_results:
+        historical_cnt = {r["Lega"].split("(")[-1].replace(")", "") for r in st.session_state.scan_results}
+        all_discovered = sorted(list(set(all_discovered) | historical_cnt))
 
-if all_discovered:
-    new_ex = st.sidebar.multiselect(
-        "Escludi Nazioni:",
-        options=all_discovered,
-        default=[c for c in st.session_state.config.get("excluded", []) if c in all_discovered]
-    )
-    if st.sidebar.button("💾 SALVA CONFIG"):
-        st.session_state.config["excluded"] = new_ex
-        save_config()
-        st.rerun()
-
-if last_snap_ts:
-    st.sidebar.success(f"✅ SNAPSHOT: {last_snap_ts}")
-else:
-    st.sidebar.warning("⚠️ SNAPSHOT ASSENTE")
-
-st.sidebar.markdown("---")
-st.sidebar.caption(f"DB: {Path(DB_FILE).name}")
-st.sidebar.caption(f"SNAP: {Path(SNAP_FILE).name}")
-st.sidebar.caption(f"DETAILS: {Path(DETAILS_FILE).name}")
-st.sidebar.caption("GitHub: data.json + data_day1/2/3/4/5 + details_day1/2/3/4/5")
-
-# ==========================================
-# UI MAIN
-# ==========================================
-c1, c2 = st.columns(2)
-if c1.button("📌 SNAP + SCAN"):
-    run_full_scan(horizon=HORIZON, snap=(HORIZON == 1), update_main_site=(HORIZON == 1))
-if c2.button("🚀 SCAN VELOCE"):
-    run_full_scan(horizon=HORIZON, snap=False, update_main_site=(HORIZON == 1))
-
-if st.session_state.selected_fixture_for_modal:
-    show_match_modal(st.session_state.selected_fixture_for_modal)
-
-if st.session_state.scan_results:
-    df = pd.DataFrame(st.session_state.scan_results)
-    full_view = df[df["Data"] == target_dates[HORIZON - 1]]
-
-    if not full_view.empty:
-        full_view = full_view.sort_values(by=["Ora", "Match"])
-        view = full_view.drop(columns=["Data", "Fixture_ID"])
-
-        st.markdown("""
-            <style>
-                .main-container { width: 100%; max-height: 800px; overflow: auto; border: 1px solid #444; border-radius: 8px; background-color: #0e1117; }
-                .mobile-table { width: 100%; min-width: 1000px; border-collapse: separate; border-spacing: 0; font-family: sans-serif; font-size: 11px; }
-                .mobile-table th { position: sticky; top: 0; background: #1a1c23; color: #00e5ff; z-index: 10; padding: 12px 5px; border-bottom: 2px solid #333; border-right: 1px solid #333; }
-                .mobile-table td { padding: 8px 5px; border-bottom: 1px solid #333; border-right: 1px solid #333; text-align: center; white-space: nowrap; }
-                .row-gold { background-color: #FFD700 !important; color: black !important; font-weight: bold; }
-                .row-boost { background-color: #006400 !important; color: white !important; font-weight: bold; }
-                .row-over { background-color: #90EE90 !important; color: black !important; font-weight: bold; }
-                .row-std { background-color: #FFFFFF !important; color: #000000 !important; }
-            </style>
-        """, unsafe_allow_html=True)
-
-        def get_row_class(info):
-            if "GOLD" in info:
-                return "row-gold"
-            if "BOOST" in info:
-                return "row-boost"
-            if "OVER" in info:
-                return "row-over"
-            return "row-std"
-
-        html = '<div class="main-container"><table class="mobile-table"><thead><tr>'
-        html += ''.join(f'<th>{c}</th>' for c in view.columns)
-        html += '</tr></thead><tbody>'
-
-        for _, row in view.iterrows():
-            cls = get_row_class(row["Info"])
-            html += f'<tr class="{cls}">' + ''.join(f'<td>{v}</td>' for v in row) + '</tr>'
-
-        html += '</tbody></table></div>'
-        st.markdown(html, unsafe_allow_html=True)
-
-        st.markdown("---")
-        st.subheader("🔎 Dettagli partite")
-
-        for _, row in full_view.iterrows():
-            fid = str(row["Fixture_ID"])
-            c_btn, c_ora, c_match, c_lega = st.columns([1, 1.3, 4, 3])
-
-            with c_btn:
-                if st.button("🔎", key=f"open_modal_{fid}", help="Apri dettagli match"):
-                    st.session_state.selected_fixture_for_modal = fid
-                    st.rerun()
-
-            with c_ora:
-                st.write(row["Ora"])
-
-            with c_match:
-                st.write(row["Match"])
-
-            with c_lega:
-                st.write(row["Lega"])
-
-        st.markdown("---")
-        d1, d2, d3 = st.columns(3)
-        d1.download_button(
-            "💾 CSV",
-            full_view.to_csv(index=False).encode("utf-8"),
-            f"arab_{target_dates[HORIZON - 1]}.csv"
+    if all_discovered:
+        new_ex = st.sidebar.multiselect(
+            "Escludi Nazioni:",
+            options=all_discovered,
+            default=[c for c in st.session_state.config.get("excluded", []) if c in all_discovered]
         )
-        d2.download_button(
-            "🌐 HTML",
-            html.encode("utf-8"),
-            f"arab_{target_dates[HORIZON - 1]}.html"
-        )
-        d3.download_button(
-            "🧠 DETAILS JSON",
-            json.dumps(
-                {
-                    k: v for k, v in st.session_state.match_details.items()
-                    if v.get("date") == target_dates[HORIZON - 1]
-                },
-                indent=4,
-                ensure_ascii=False
-            ).encode("utf-8"),
-            f"details_{target_dates[HORIZON - 1]}.json"
-        )
-else:
-    st.info("Esegui uno scan.")
+        if st.sidebar.button("💾 SALVA CONFIG"):
+            st.session_state.config["excluded"] = new_ex
+            save_config()
+            st.rerun()
+
+    if last_snap_ts:
+        st.sidebar.success(f"✅ SNAPSHOT: {last_snap_ts}")
+    else:
+        st.sidebar.warning("⚠️ SNAPSHOT ASSENTE")
+
+    st.sidebar.markdown("---")
+    st.sidebar.caption(f"DB: {Path(DB_FILE).name}")
+    st.sidebar.caption(f"SNAP: {Path(SNAP_FILE).name}")
+    st.sidebar.caption(f"DETAILS: {Path(DETAILS_FILE).name}")
+    st.sidebar.caption("GitHub: data.json + data_day1/2/3/4/5 + details_day1/2/3/4/5")
+
+    # ==========================================
+    # UI MAIN
+    # ==========================================
+    c1, c2 = st.columns(2)
+    if c1.button("📌 SNAP + SCAN"):
+        run_full_scan(horizon=HORIZON, snap=(HORIZON == 1), update_main_site=(HORIZON == 1))
+    if c2.button("🚀 SCAN VELOCE"):
+        run_full_scan(horizon=HORIZON, snap=False, update_main_site=(HORIZON == 1))
+
+    if st.session_state.selected_fixture_for_modal:
+        show_match_modal(st.session_state.selected_fixture_for_modal)
+
+    if st.session_state.scan_results:
+        df = pd.DataFrame(st.session_state.scan_results)
+        full_view = df[df["Data"] == target_dates[HORIZON - 1]]
+
+        if not full_view.empty:
+            full_view = full_view.sort_values(by=["Ora", "Match"])
+            view = full_view.drop(columns=["Data", "Fixture_ID"])
+
+            st.markdown("""
+                <style>
+                    .main-container { width: 100%; max-height: 800px; overflow: auto; border: 1px solid #444; border-radius: 8px; background-color: #0e1117; }
+                    .mobile-table { width: 100%; min-width: 1000px; border-collapse: separate; border-spacing: 0; font-family: sans-serif; font-size: 11px; }
+                    .mobile-table th { position: sticky; top: 0; background: #1a1c23; color: #00e5ff; z-index: 10; padding: 12px 5px; border-bottom: 2px solid #333; border-right: 1px solid #333; }
+                    .mobile-table td { padding: 8px 5px; border-bottom: 1px solid #333; border-right: 1px solid #333; text-align: center; white-space: nowrap; }
+                    .row-gold { background-color: #FFD700 !important; color: black !important; font-weight: bold; }
+                    .row-boost { background-color: #006400 !important; color: white !important; font-weight: bold; }
+                    .row-over { background-color: #90EE90 !important; color: black !important; font-weight: bold; }
+                    .row-std { background-color: #FFFFFF !important; color: #000000 !important; }
+                </style>
+            """, unsafe_allow_html=True)
+
+            def get_row_class(info):
+                if "GOLD" in info:
+                    return "row-gold"
+                if "BOOST" in info:
+                    return "row-boost"
+                if "OVER" in info:
+                    return "row-over"
+                return "row-std"
+
+            html = '<div class="main-container"><table class="mobile-table"><thead><tr>'
+            html += ''.join(f'<th>{c}</th>' for c in view.columns)
+            html += '</tr></thead><tbody>'
+
+            for _, row in view.iterrows():
+                cls = get_row_class(row["Info"])
+                html += f'<tr class="{cls}">' + ''.join(f'<td>{v}</td>' for v in row) + '</tr>'
+
+            html += '</tbody></table></div>'
+            st.markdown(html, unsafe_allow_html=True)
+
+            st.markdown("---")
+            st.subheader("🔎 Dettagli partite")
+
+            for _, row in full_view.iterrows():
+                fid = str(row["Fixture_ID"])
+                c_btn, c_ora, c_match, c_lega = st.columns([1, 1.3, 4, 3])
+
+                with c_btn:
+                    if st.button("🔎", key=f"open_modal_{fid}", help="Apri dettagli match"):
+                        st.session_state.selected_fixture_for_modal = fid
+                        st.rerun()
+
+                with c_ora:
+                    st.write(row["Ora"])
+
+                with c_match:
+                    st.write(row["Match"])
+
+                with c_lega:
+                    st.write(row["Lega"])
+
+            st.markdown("---")
+            d1, d2, d3 = st.columns(3)
+            d1.download_button(
+                "💾 CSV",
+                full_view.to_csv(index=False).encode("utf-8"),
+                f"arab_{target_dates[HORIZON - 1]}.csv"
+            )
+            d2.download_button(
+                "🌐 HTML",
+                html.encode("utf-8"),
+                f"arab_{target_dates[HORIZON - 1]}.html"
+            )
+            d3.download_button(
+                "🧠 DETAILS JSON",
+                json.dumps(
+                    {
+                        k: v for k, v in st.session_state.match_details.items()
+                        if v.get("date") == target_dates[HORIZON - 1]
+                    },
+                    indent=4,
+                    ensure_ascii=False
+                ).encode("utf-8"),
+                f"details_{target_dates[HORIZON - 1]}.json"
+            )
+    else:
+        st.info("Esegui uno scan.")
+
 
 # ==========================================
 # LOGICA ESECUZIONE AUTOMATICA GITHUB ACTIONS
@@ -1401,36 +1387,42 @@ else:
 if __name__ == "__main__":
     if "--auto" in sys.argv:
         print("🚀 Avvio Scan Automatico Notturno Multi-Day...")
-        HORIZON = 1
         run_nightly_multiday_build()
         print("✅ Scan completo terminato: data.json + data_day1/2/3/4/5 + details_day1/2/3/4/5 aggiornati.")
 
     elif "--fast" in sys.argv:
+        print("⚡ Avvio Scan Veloce Automatico (solo Day 1)...")
+        run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False, non_destructive=False)
+        print("✅ Scan veloce terminato: data.json + data_day1 + details_day1 aggiornati.")
+
+    elif "--day2-refresh" in sys.argv:
+        print("🌙 Avvio Refresh Serale Day 2...")
+        run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False, non_destructive=True)
+        print("✅ Refresh Day 2 terminato: data_day2 + details_day2 aggiornati.")
+
+    elif "--day3-refresh" in sys.argv:
+        print("🌙 Avvio Refresh Serale Day 3...")
+        run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False, non_destructive=True)
+        print("✅ Refresh Day 3 terminato: data_day3 + details_day3 aggiornati.")
+
+    elif "--day4-refresh" in sys.argv:
+        print("🌙 Avvio Refresh Serale Day 4...")
+        run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False, non_destructive=True)
+        print("✅ Refresh Day 4 terminato: data_day4 + details_day4 aggiornati.")
+
+    elif "--day5-refresh" in sys.argv:
+        print("🌙 Avvio Refresh Serale Day 5...")
+        run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False, non_destructive=True)
+        print("✅ Refresh Day 5 terminato: data_day5 + details_day5 aggiornati.")
+
+    elif "--fast" in sys.argv:
         HORIZON = 1
         print("⚡ Avvio Scan Veloce Automatico (solo Day 1)...")
-        run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False, preserve_existing=False)
+        run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False)
         print("✅ Scan veloce terminato: data.json + data_day1 + details_day1 aggiornati.")
 
     elif "--day2-refresh" in sys.argv:
         HORIZON = 2
         print("🌙 Avvio Refresh Serale Day 2...")
-        run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
+        run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False)
         print("✅ Refresh Day 2 terminato: data_day2 + details_day2 aggiornati.")
-
-    elif "--day3-refresh" in sys.argv:
-        HORIZON = 3
-        print("🌙 Avvio Refresh Day 3...")
-        run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
-        print("✅ Refresh Day 3 terminato: data_day3 + details_day3 aggiornati.")
-
-    elif "--day4-refresh" in sys.argv:
-        HORIZON = 4
-        print("🌙 Avvio Refresh Day 4...")
-        run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
-        print("✅ Refresh Day 4 terminato: data_day4 + details_day4 aggiornati.")
-
-    elif "--day5-refresh" in sys.argv:
-        HORIZON = 5
-        print("🌙 Avvio Refresh Day 5...")
-        run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False, preserve_existing=True)
-        print("✅ Refresh Day 5 terminato: data_day5 + details_day5 aggiornati.")
