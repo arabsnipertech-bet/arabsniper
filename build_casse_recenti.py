@@ -82,15 +82,25 @@ def save_output(matches):
 if __name__ == "__main__":
     print("📦 Costruzione casse recenti...")
 
-    matches = extract_casse()
+    try:
+        matches = extract_casse()
 
-    if not matches:
-        print("⚠️ Nessuna cassa trovata")
-        save_output([])
-        exit(0)
+        print(f"DEBUG: matches trovati = {len(matches)}")
 
-    matches = deduplicate(matches)
+        if not matches:
+            print("⚠️ Nessuna cassa trovata")
+            save_output([])
+            exit(0)
 
-    save_output(matches)
+        matches = deduplicate(matches)
 
-    print(f"✅ Casse salvate: {len(matches)}")
+        print(f"DEBUG: matches dopo dedup = {len(matches)}")
+
+        save_output(matches)
+
+        print(f"✅ Casse salvate: {len(matches)}")
+
+    except Exception as e:
+        print("❌ ERRORE DETTAGLIATO:")
+        print(str(e))
+        raise
