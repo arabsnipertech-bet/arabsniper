@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 18:45:12",
+    "updated_at": "2026-03-17 19:13:41",
     "day": 4,
     "date": "2026-03-20",
     "details": {
@@ -9023,12 +9023,12 @@
             "home_team": "Jong PSV U21",
             "away_team": "Vitesse",
             "markets": {
-                "q1": 2.88,
+                "q1": 2.9,
                 "qx": 3.9,
                 "q2": 2.15,
                 "o25": 1.45,
-                "o05ht": 1.2,
-                "o15ht": 1.95
+                "o05ht": 1.22,
+                "o15ht": 2.05
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -9045,11 +9045,11 @@
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 7.1,
+                "pt": 7.6,
                 "over": 4.8,
-                "boost": 6.452,
-                "gold": 5.646,
-                "max": 7.1
+                "boost": 6.642,
+                "gold": 5.82,
+                "max": 7.6
             },
             "tags": [
                 "🎯PT",
