@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 15:50:31",
+    "updated_at": "2026-03-17 17:34:37",
     "day": 3,
     "date": "2026-03-19",
     "details": {
@@ -14,11 +14,11 @@
             "away_team": "Coritiba",
             "markets": {
                 "q1": 1.72,
-                "qx": 3.45,
-                "q2": 5.0,
-                "o25": 2.0,
-                "o05ht": 1.38,
-                "o15ht": 2.7
+                "qx": 3.35,
+                "q2": 5.2,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.88
             },
             "averages": {
                 "home_avg_ft": 2.75,
@@ -35,11 +35,11 @@
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 7.2,
+                "pt": 6.3,
                 "over": 6.2,
-                "boost": 7.362,
-                "gold": 7.597,
-                "max": 7.597
+                "boost": 6.82,
+                "gold": 7.215,
+                "max": 7.215
             },
             "tags": [
                 "⚽⭐ GOLD",
@@ -208,7 +208,7 @@
             "markets": {
                 "q1": 1.67,
                 "qx": 4.1,
-                "q2": 4.35,
+                "q2": 4.4,
                 "o25": 1.57,
                 "o05ht": 1.25,
                 "o15ht": 2.2
@@ -400,8 +400,8 @@
             "away_team": "Nacional Asuncion",
             "markets": {
                 "q1": 2.06,
-                "qx": 3.1,
-                "q2": 3.55,
+                "qx": 3.05,
+                "q2": 3.6,
                 "o25": 2.38,
                 "o05ht": 1.48,
                 "o15ht": 3.2
@@ -973,12 +973,12 @@
             "home_team": "CRB",
             "away_team": "Figueirense",
             "markets": {
-                "q1": 1.57,
-                "qx": 3.8,
-                "q2": 6.0,
-                "o25": 2.35,
-                "o05ht": 1.5,
-                "o15ht": 3.4
+                "q1": 1.55,
+                "qx": 3.5,
+                "q2": 6.2,
+                "o25": 2.25,
+                "o05ht": 1.48,
+                "o15ht": 3.2
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -988,18 +988,18 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.57,
+                "fav_quote": 1.55,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 4.2,
+                "pt": 4.9,
                 "over": 5.5,
-                "boost": 5.686,
-                "gold": 6.157,
-                "max": 6.157
+                "boost": 5.952,
+                "gold": 6.402,
+                "max": 6.402
             },
             "tags": [
                 "🎯PT",
@@ -1550,12 +1550,12 @@
             "home_team": "Jacuipense",
             "away_team": "Novorizontino",
             "markets": {
-                "q1": 4.75,
-                "qx": 3.4,
-                "q2": 1.8,
-                "o25": 2.25,
-                "o05ht": 1.44,
-                "o15ht": 3.4
+                "q1": 7.4,
+                "qx": 3.3,
+                "q2": 1.54,
+                "o25": 2.2,
+                "o05ht": 1.42,
+                "o15ht": 2.88
             },
             "averages": {
                 "home_avg_ft": 2.125,
@@ -1565,7 +1565,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.8,
+                "fav_quote": 1.54,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -1580,7 +1580,8 @@
             },
             "tags": [
                 "🎯PT",
-                "⚽ OVER"
+                "⚽ OVER",
+                "🐟O"
             ],
             "home_last_8": [
                 {
@@ -1933,12 +1934,12 @@
             "home_team": "Club America",
             "away_team": "Philadelphia Union",
             "markets": {
-                "q1": 1.35,
-                "qx": 5.1,
-                "q2": 7.6,
-                "o25": 1.6,
-                "o05ht": 1.25,
-                "o15ht": 2.2
+                "q1": 1.52,
+                "qx": 4.55,
+                "q2": 5.25,
+                "o25": 1.7,
+                "o05ht": 1.28,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -1948,8 +1949,8 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 1.35,
-                "is_gold_zone": false,
+                "fav_quote": 1.52,
+                "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
@@ -1958,10 +1959,11 @@
                 "pt": 6.4,
                 "over": 5.4,
                 "boost": 7.024,
-                "gold": 5.866,
-                "max": 7.024
+                "gold": 7.066,
+                "max": 7.066
             },
             "tags": [
+                "⚽⭐ GOLD",
                 "🎯PT",
                 "⚽ OVER",
                 "🚀 BOOST",
@@ -2703,10 +2705,10 @@
             "home_team": "Toluca",
             "away_team": "San Diego",
             "markets": {
-                "q1": 1.3,
+                "q1": 1.29,
                 "qx": 5.0,
-                "q2": 10.0,
-                "o25": 1.62,
+                "q2": 10.5,
+                "o25": 1.6,
                 "o05ht": 1.3,
                 "o15ht": 2.3
             },
@@ -2718,7 +2720,7 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.3,
+                "fav_quote": 1.29,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -6555,9 +6557,9 @@
                 "q1": 1.86,
                 "qx": 3.3,
                 "q2": 4.33,
-                "o25": 2.45,
+                "o25": 2.35,
                 "o05ht": 1.48,
-                "o15ht": 3.3
+                "o15ht": 3.25
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -6575,10 +6577,10 @@
             },
             "scores": {
                 "pt": 5.5,
-                "over": 5.2,
-                "boost": 6.036,
-                "gold": 6.122,
-                "max": 6.122
+                "over": 6.2,
+                "boost": 6.516,
+                "gold": 6.585,
+                "max": 6.585
             },
             "tags": [
                 "🎯PT",
@@ -7126,11 +7128,11 @@
             "away_team": "Goias",
             "markets": {
                 "q1": 3.25,
-                "qx": 3.0,
+                "qx": 3.05,
                 "q2": 2.2,
-                "o25": 2.3,
-                "o05ht": 1.5,
-                "o15ht": 3.4
+                "o25": 2.25,
+                "o05ht": 1.42,
+                "o15ht": 2.88
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -7147,13 +7149,14 @@
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 3.6,
+                "pt": 4.3,
                 "over": 5.1,
-                "boost": 4.366,
-                "gold": 3.806,
+                "boost": 4.632,
+                "gold": 4.051,
                 "max": 5.1
             },
             "tags": [
+                "🎯PT",
                 "⚽ OVER",
                 "🐟G"
             ],
