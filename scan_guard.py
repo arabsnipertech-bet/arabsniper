@@ -18,12 +18,16 @@ DAY_FILES = {
     1: BASE_DIR / "data_day1.json",
     2: BASE_DIR / "data_day2.json",
     3: BASE_DIR / "data_day3.json",
+    4: BASE_DIR / "data_day4.json",
+    5: BASE_DIR / "data_day5.json",
 }
 
 DETAILS_FILES = {
     1: BASE_DIR / "details_day1.json",
     2: BASE_DIR / "details_day2.json",
     3: BASE_DIR / "details_day3.json",
+    4: BASE_DIR / "details_day4.json",
+    5: BASE_DIR / "details_day5.json",
 }
 
 
@@ -37,6 +41,8 @@ def expected_dates() -> dict[int, str]:
         1: base.strftime("%Y-%m-%d"),
         2: (base + timedelta(days=1)).strftime("%Y-%m-%d"),
         3: (base + timedelta(days=2)).strftime("%Y-%m-%d"),
+        4: (base + timedelta(days=3)).strftime("%Y-%m-%d"),
+        5: (base + timedelta(days=4)).strftime("%Y-%m-%d"),
     }
 
 
@@ -67,6 +73,10 @@ def extract_day_date_from_details_file(path: Path) -> str | None:
     payload = read_json_file(path)
     if not isinstance(payload, dict):
         return None
+
+    value = str(payload.get("date") or "").strip()
+    if value:
+        return value
 
     details = payload.get("details")
     if not isinstance(details, dict) or not details:
@@ -186,7 +196,7 @@ def analyze_day_dataset(day_num: int):
 def quality_report():
     print("")
     print("🧪 POST-SCAN QUALITY CHECK")
-    for day_num in (1, 2, 3):
+    for day_num in (1, 2, 3, 4, 5):
         analyze_day_dataset(day_num)
     print("")
 
@@ -210,6 +220,8 @@ def should_run_auto() -> bool:
     print(f" - Day1 = {exp[1]}")
     print(f" - Day2 = {exp[2]}")
     print(f" - Day3 = {exp[3]}")
+    print(f" - Day4 = {exp[4]}")
+    print(f" - Day5 = {exp[5]}")
     print("➡️ Posso eseguire FAST su Day1.")
     return False
 
@@ -229,4 +241,13 @@ if __name__ == "__main__":
         code = run_command([python_exe, "3appDays.py", "--fast"])
 
     quality_report()
+
+    print("📦 Tentativo aggiornamento casse recenti...")
+    try:
+        casse_code = run_command([python_exe, "build_casse_recenti.py"])
+        if casse_code != 0:
+            print(f"⚠️ build_casse_recenti.py ha restituito codice {casse_code}, ma non blocco il night scan.")
+    except Exception as e:
+        print(f"⚠️ Errore build_casse_recenti.py ignorato: {e}")
+
     sys.exit(code)
