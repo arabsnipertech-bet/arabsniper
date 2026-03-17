@@ -99,6 +99,13 @@ def upload_day_to_github(day_num, results):
 
 
 def upload_details_to_github(day_num, payload):
+    return github_write_json(
+        REMOTE_DETAILS_FILES[day_num],
+        payload,
+        f"Update Arab Sniper Day {day_num} Details"
+    )
+
+
 def upload_snapshot_to_github(payload):
     return github_write_json(
         REMOTE_SNAPSHOT_FILE,
@@ -118,13 +125,7 @@ def download_remote_snapshot():
             return None
         return payload
     except Exception:
-        return None    
-    return github_write_json(
-        REMOTE_DETAILS_FILES[day_num],
-        payload,
-        f"Update Arab Sniper Day {day_num} Details"
-    )
-
+        return None
 # ==========================================
 # SESSION STATE
 # ==========================================
