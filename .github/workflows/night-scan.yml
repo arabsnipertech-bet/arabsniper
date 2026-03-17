@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: night-scan
-  cancel-in-progress: true
+  group: arabsniper-data-updates
+  cancel-in-progress: false
 
 jobs:
   night-scan:
@@ -53,5 +53,4 @@ jobs:
 
           git diff --cached --quiet && echo "Nessuna modifica da committare" || git commit -m "Night scan update"
 
-          git pull --rebase origin main
-          git push
+          git push --force-with-lease
