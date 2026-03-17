@@ -1,13 +1,9 @@
 name: Night Scan Guard
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "35 0 * * *"
-    - cron: "20 1 * * *"
-
-permissions:
-  contents: write
+    - cron: "30 5 * * *"
+  workflow_dispatch:
 
 concurrency:
   group: night-scan
