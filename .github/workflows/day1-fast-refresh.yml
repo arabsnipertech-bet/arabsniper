@@ -1,20 +1,21 @@
-name: Night Scan Guard
+name: Day1 Fast Refresh
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "35 0 * * *"
-    - cron: "20 1 * * *"
+    - cron: "30 8 * * *"
+    - cron: "30 12 * * *"
+    - cron: "30 16 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: night-scan
+  group: day1-fast-refresh
   cancel-in-progress: false
 
 jobs:
-  night-scan:
+  day1-fast-refresh:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,9 +34,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run guarded night scan
+      - name: Run Day1 fast refresh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           TZ: Europe/Rome
-        run: python scan_guard.py
+        run: python 3appDays.py --fast
