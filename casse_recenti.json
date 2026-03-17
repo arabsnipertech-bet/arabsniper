@@ -1,5 +1,26 @@
 [
   {
+    "data": "2026-03-16",
+    "match": "Chelmsford City - Slough Town",
+    "signal": "GOLD TARGET",
+    "quote": "1.5",
+    "result": "2-0 🟡 GOLD SOFT | FT=2 | quota ok"
+  },
+  {
+    "data": "2026-03-16",
+    "match": "Ethnikos Achna - AEK Larnaca",
+    "signal": "BOOST TARGET",
+    "quote": "1.85",
+    "result": "0-2 🟡 BOOST SOFT | FT=2 | quota ok"
+  },
+  {
+    "data": "2026-03-16",
+    "match": "Krasava Ypsonas - Enosis",
+    "signal": "BOOST TARGET",
+    "quote": "1.62",
+    "result": "4-0 ✅ BOOST FORTE | FT>=3 | quota ok"
+  },
+  {
     "data": "2026-03-15",
     "match": "Ballkani - Drita",
     "signal": "GOLD TARGET",
