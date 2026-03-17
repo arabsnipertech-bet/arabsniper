@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 06:47:37",
+    "updated_at": "2026-03-17 07:06:24",
     "day": 3,
     "date": "2026-03-19",
     "details": {
@@ -206,9 +206,9 @@
             "home_team": "Inter Miami",
             "away_team": "Nashville SC",
             "markets": {
-                "q1": 1.63,
+                "q1": 1.67,
                 "qx": 4.1,
-                "q2": 4.7,
+                "q2": 4.35,
                 "o25": 1.57,
                 "o05ht": 1.25,
                 "o15ht": 2.2
@@ -221,7 +221,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 1.63,
+                "fav_quote": 1.67,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
