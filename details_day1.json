@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 18:12:36",
+    "updated_at": "2026-03-17 18:39:02",
     "day": 1,
     "date": "2026-03-17",
     "details": {
@@ -1354,9 +1354,9 @@
             "home_team": "Palermo",
             "away_team": "Juve Stabia",
             "markets": {
-                "q1": 1.68,
+                "q1": 1.73,
                 "qx": 3.45,
-                "q2": 5.4,
+                "q2": 4.9,
                 "o25": 2.2,
                 "o05ht": 1.42,
                 "o15ht": 2.95
@@ -1369,7 +1369,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.68,
+                "fav_quote": 1.73,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -2886,12 +2886,12 @@
             "home_team": "Stade Briochin",
             "away_team": "Chateauroux",
             "markets": {
-                "q1": 2.65,
-                "qx": 3.1,
-                "q2": 2.5,
-                "o25": 2.0,
-                "o05ht": 1.42,
-                "o15ht": 2.85
+                "q1": 2.62,
+                "qx": 3.2,
+                "q2": 2.45,
+                "o25": 1.95,
+                "o05ht": 1.38,
+                "o15ht": 2.7
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -2901,18 +2901,18 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.5,
+                "fav_quote": 2.45,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 4.9,
+                "pt": 5.8,
                 "over": 5.1,
-                "boost": 5.76,
-                "gold": 5.016,
-                "max": 5.76
+                "boost": 6.302,
+                "gold": 5.399,
+                "max": 6.302
             },
             "tags": [
                 "🎯PT",
@@ -3461,12 +3461,12 @@
             "home_team": "Al Shamal",
             "away_team": "Al-Duhail SC",
             "markets": {
-                "q1": 2.82,
+                "q1": 2.86,
                 "qx": 3.5,
-                "q2": 2.22,
+                "q2": 2.2,
                 "o25": 1.65,
-                "o05ht": 1.28,
-                "o15ht": 2.3
+                "o05ht": 1.3,
+                "o15ht": 2.4
             },
             "averages": {
                 "home_avg_ft": 1.875,
@@ -3476,7 +3476,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.22,
+                "fav_quote": 2.2,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -3484,10 +3484,10 @@
             },
             "scores": {
                 "pt": 4.1,
-                "over": 4.0,
-                "boost": 4.578,
-                "gold": 3.659,
-                "max": 4.578
+                "over": 4.4,
+                "boost": 4.77,
+                "gold": 3.844,
+                "max": 4.77
             },
             "tags": [
                 "🎯PT",
@@ -4422,9 +4422,9 @@
             "away_team": "Empoli",
             "markets": {
                 "q1": 2.62,
-                "qx": 2.9,
-                "q2": 2.92,
-                "o25": 2.25,
+                "qx": 2.92,
+                "q2": 2.9,
+                "o25": 2.2,
                 "o05ht": 1.42,
                 "o15ht": 2.88
             },
@@ -4805,12 +4805,12 @@
             "home_team": "Colchester United U21",
             "away_team": "Hull City U21",
             "markets": {
-                "q1": 2.33,
-                "qx": 3.85,
-                "q2": 2.33,
+                "q1": 2.3,
+                "qx": 3.9,
+                "q2": 2.3,
                 "o25": 1.36,
                 "o05ht": 1.18,
-                "o15ht": 1.77
+                "o15ht": 1.8
             },
             "averages": {
                 "home_avg_ft": 4.25,
@@ -4820,18 +4820,18 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 2.33,
+                "fav_quote": 2.3,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.0
+                "drop_diff": 0.03
             },
             "scores": {
-                "pt": 4.3,
+                "pt": 4.6,
                 "over": 4.0,
-                "boost": 5.004,
-                "gold": 4.297,
-                "max": 5.004
+                "boost": 5.118,
+                "gold": 4.402,
+                "max": 5.118
             },
             "tags": [
                 "🎯PT",
@@ -6331,6 +6331,2693 @@
                 }
             ]
         },
+        "1386442": {
+            "fixture_id": 1386442,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League Two",
+            "country": "England",
+            "match": "Bristol Rovers - Shrewsbury",
+            "home_team": "Bristol Rovers",
+            "away_team": "Shrewsbury",
+            "markets": {
+                "q1": 2.0,
+                "qx": 3.25,
+                "q2": 3.8,
+                "o25": 2.15,
+                "o05ht": 1.42,
+                "o15ht": 2.88
+            },
+            "averages": {
+                "home_avg_ft": 2.875,
+                "away_avg_ft": 2.875,
+                "home_avg_ht": 1.5,
+                "away_avg_ht": 1.0,
+                "combined_ht_avg": 1.25
+            },
+            "flags": {
+                "fav_quote": 2.0,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.3,
+                "over": 6.2,
+                "boost": 6.44,
+                "gold": 5.666,
+                "max": 6.44
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Bromley - Bristol Rovers",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League Two",
+                    "match": "Barrow - Bristol Rovers",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Bristol Rovers - Crewe",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League Two",
+                    "match": "Swindon Town - Bristol Rovers",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Bristol Rovers - Grimsby",
+                    "ht": "2-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Oldham - Bristol Rovers",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Cambridge United - Bristol Rovers",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Bristol Rovers - Chesterfield",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Shrewsbury - Cheltenham",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Chesterfield - Shrewsbury",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League Two",
+                    "match": "Shrewsbury - Walsall",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "League Two",
+                    "match": "Salford City - Shrewsbury",
+                    "ht": "1-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Accrington ST - Shrewsbury",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Shrewsbury - Notts County",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Shrewsbury - Swindon Town",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "League Two",
+                    "match": "Shrewsbury - Barrow",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1386443": {
+            "fixture_id": 1386443,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League Two",
+            "country": "England",
+            "match": "Cheltenham - Crewe",
+            "home_team": "Cheltenham",
+            "away_team": "Crewe",
+            "markets": {
+                "q1": 2.64,
+                "qx": 3.2,
+                "q2": 2.64,
+                "o25": 2.0,
+                "o05ht": 1.4,
+                "o15ht": 2.8
+            },
+            "averages": {
+                "home_avg_ft": 3.0,
+                "away_avg_ft": 2.125,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 0.875,
+                "combined_ht_avg": 1.062
+            },
+            "flags": {
+                "fav_quote": 2.64,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.1,
+                "over": 4.0,
+                "boost": 4.028,
+                "gold": 3.472,
+                "max": 4.1
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Shrewsbury - Cheltenham",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League Two",
+                    "match": "Fleetwood Town - Cheltenham",
+                    "ht": "2-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "League Two",
+                    "match": "Cheltenham - Barrow",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "League Two",
+                    "match": "Harrogate Town - Cheltenham",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Cheltenham - Salford City",
+                    "ht": "0-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Bromley - Cheltenham",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Barnet - Cheltenham",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Cheltenham - Milton Keynes Dons",
+                    "ht": "1-2",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Crewe - Walsall",
+                    "ht": "0-1",
+                    "ft": "0-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Bristol Rovers - Crewe",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League Two",
+                    "match": "Crewe - Tranmere",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Swindon Town - Crewe",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Crewe - Fleetwood Town",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Crewe - Gillingham",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Crawley Town - Crewe",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-03",
+                    "league": "League Two",
+                    "match": "Barnet - Crewe",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                }
+            ]
+        },
+        "1386444": {
+            "fixture_id": 1386444,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League Two",
+            "country": "England",
+            "match": "Chesterfield - Oldham",
+            "home_team": "Chesterfield",
+            "away_team": "Oldham",
+            "markets": {
+                "q1": 1.99,
+                "qx": 3.5,
+                "q2": 3.55,
+                "o25": 1.9,
+                "o05ht": 1.36,
+                "o15ht": 2.65
+            },
+            "averages": {
+                "home_avg_ft": 3.0,
+                "away_avg_ft": 2.125,
+                "home_avg_ht": 1.625,
+                "away_avg_ht": 1.0,
+                "combined_ht_avg": 1.312
+            },
+            "flags": {
+                "fav_quote": 1.99,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.4,
+                "over": 5.4,
+                "boost": 6.644,
+                "gold": 5.517,
+                "max": 6.644
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Notts County - Chesterfield",
+                    "ht": "2-2",
+                    "ft": "2-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Chesterfield - Shrewsbury",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League Two",
+                    "match": "Chesterfield - Colchester",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League Two",
+                    "match": "Barnet - Chesterfield",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Crawley Town - Chesterfield",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Chesterfield - Gillingham",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Chesterfield - Harrogate Town",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Bristol Rovers - Chesterfield",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Oldham - Grimsby",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Tranmere - Oldham",
+                    "ht": "0-2",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League Two",
+                    "match": "Bromley - Oldham",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League Two",
+                    "match": "Oldham - Crawley Town",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Gillingham - Oldham",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Oldham - Bristol Rovers",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Oldham - Fleetwood Town",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Swindon Town - Oldham",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1386450": {
+            "fixture_id": 1386450,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League Two",
+            "country": "England",
+            "match": "Tranmere - Harrogate Town",
+            "home_team": "Tranmere",
+            "away_team": "Harrogate Town",
+            "markets": {
+                "q1": 2.22,
+                "qx": 3.35,
+                "q2": 3.15,
+                "o25": 1.95,
+                "o05ht": 1.4,
+                "o15ht": 2.8
+            },
+            "averages": {
+                "home_avg_ft": 2.75,
+                "away_avg_ft": 1.875,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.0,
+                "combined_ht_avg": 1.062
+            },
+            "flags": {
+                "fav_quote": 2.22,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.3,
+                "over": 4.0,
+                "boost": 4.484,
+                "gold": 3.891,
+                "max": 5.3
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Fleetwood Town - Tranmere",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Tranmere - Oldham",
+                    "ht": "0-2",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League Two",
+                    "match": "Newport County - Tranmere",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League Two",
+                    "match": "Crewe - Tranmere",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Notts County - Tranmere",
+                    "ht": "1-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Tranmere - Accrington ST",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Tranmere - Crawley Town",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Gillingham - Tranmere",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Harrogate Town - Salford City",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Milton Keynes Dons - Harrogate Town",
+                    "ht": "2-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "League Two",
+                    "match": "Harrogate Town - Cheltenham",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Harrogate Town - Bromley",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Barrow - Harrogate Town",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Chesterfield - Harrogate Town",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Harrogate Town - Cambridge United",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-03",
+                    "league": "League Two",
+                    "match": "Harrogate Town - Swindon Town",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
+        "1386451": {
+            "fixture_id": 1386451,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League Two",
+            "country": "England",
+            "match": "Walsall - Cambridge United",
+            "home_team": "Walsall",
+            "away_team": "Cambridge United",
+            "markets": {
+                "q1": 3.55,
+                "qx": 3.1,
+                "q2": 2.15,
+                "o25": 2.62,
+                "o05ht": 1.5,
+                "o15ht": 3.4
+            },
+            "averages": {
+                "home_avg_ft": 2.625,
+                "away_avg_ft": 2.875,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 1.375,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 2.15,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.2,
+                "over": 4.1,
+                "boost": 5.014,
+                "gold": 4.309,
+                "max": 5.014
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Crewe - Walsall",
+                    "ht": "0-1",
+                    "ft": "0-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League Two",
+                    "match": "Salford City - Walsall",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Walsall - Notts County",
+                    "ht": "1-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League Two",
+                    "match": "Walsall - Fleetwood Town",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League Two",
+                    "match": "Shrewsbury - Walsall",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-23",
+                    "league": "League Two",
+                    "match": "Walsall - Milton Keynes Dons",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-18",
+                    "league": "League Two",
+                    "match": "Grimsby - Walsall",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Walsall - Barnet",
+                    "ht": "0-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League Two",
+                    "match": "Cambridge United - Gillingham",
+                    "ht": "2-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League Two",
+                    "match": "Accrington ST - Cambridge United",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League Two",
+                    "match": "Cambridge United - Milton Keynes Dons",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League Two",
+                    "match": "Newport County - Cambridge United",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League Two",
+                    "match": "Cambridge United - Colchester",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League Two",
+                    "match": "Cambridge United - Bristol Rovers",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "League Two",
+                    "match": "Crawley Town - Cambridge United",
+                    "ht": "0-1",
+                    "ft": "0-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League Two",
+                    "match": "Harrogate Town - Cambridge United",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1386977": {
+            "fixture_id": 1386977,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "Championship",
+            "country": "England",
+            "match": "Watford - Wrexham",
+            "home_team": "Watford",
+            "away_team": "Wrexham",
+            "markets": {
+                "q1": 2.26,
+                "qx": 3.3,
+                "q2": 3.1,
+                "o25": 2.0,
+                "o05ht": 1.4,
+                "o15ht": 2.8
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 3.0,
+                "home_avg_ht": 0.75,
+                "away_avg_ht": 1.375,
+                "combined_ht_avg": 1.062
+            },
+            "flags": {
+                "fav_quote": 2.26,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.7,
+                "over": 4.0,
+                "boost": 3.876,
+                "gold": 3.332,
+                "max": 4.0
+            },
+            "tags": [
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Championship",
+                    "match": "Stoke City - Watford",
+                    "ht": "1-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "Championship",
+                    "match": "Sheffield Wednesday - Watford",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Championship",
+                    "match": "Bristol City - Watford",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "Championship",
+                    "match": "Watford - Ipswich",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Championship",
+                    "match": "Watford - Derby",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Championship",
+                    "match": "Preston - Watford",
+                    "ht": "1-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Championship",
+                    "match": "Southampton - Watford",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-03",
+                    "league": "Championship",
+                    "match": "Hull City - Watford",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "Championship",
+                    "match": "Wrexham - Swansea",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "Championship",
+                    "match": "Wrexham - Hull City",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Championship",
+                    "match": "Charlton - Wrexham",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "Championship",
+                    "match": "Wrexham - Portsmouth",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Championship",
+                    "match": "Wrexham - Ipswich",
+                    "ht": "2-2",
+                    "ft": "5-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 8
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "Championship",
+                    "match": "Bristol City - Wrexham",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "FA Cup",
+                    "match": "Wrexham - Ipswich",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Championship",
+                    "match": "Wrexham - Millwall",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                }
+            ]
+        },
+        "1387547": {
+            "fixture_id": 1387547,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League One",
+            "country": "England",
+            "match": "AFC Wimbledon - Leyton Orient",
+            "home_team": "AFC Wimbledon",
+            "away_team": "Leyton Orient",
+            "markets": {
+                "q1": 2.3,
+                "qx": 3.15,
+                "q2": 3.15,
+                "o25": 2.25,
+                "o05ht": 1.48,
+                "o15ht": 3.2
+            },
+            "averages": {
+                "home_avg_ft": 3.625,
+                "away_avg_ft": 2.625,
+                "home_avg_ht": 1.875,
+                "away_avg_ht": 1.375,
+                "combined_ht_avg": 1.625
+            },
+            "flags": {
+                "fav_quote": 2.3,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 5.0,
+                "boost": 6.092,
+                "gold": 5.319,
+                "max": 6.092
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Stevenage - AFC Wimbledon",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-11",
+                    "league": "League One",
+                    "match": "AFC Wimbledon - Blackpool",
+                    "ht": "1-0",
+                    "ft": "4-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "League One",
+                    "match": "AFC Wimbledon - Northampton",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Mansfield Town - AFC Wimbledon",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "AFC Wimbledon - Bradford",
+                    "ht": "2-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Cardiff - AFC Wimbledon",
+                    "ht": "1-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Barnsley - AFC Wimbledon",
+                    "ht": "2-2",
+                    "ft": "3-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "EFL Trophy",
+                    "match": "AFC Wimbledon - Northampton",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Leyton Orient - Peterborough",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League One",
+                    "match": "Stevenage - Leyton Orient",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Bradford - Leyton Orient",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Leyton Orient - Barnsley",
+                    "ht": "1-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Northampton - Leyton Orient",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Leyton Orient - Plymouth",
+                    "ht": "1-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Stockport County - Leyton Orient",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "League One",
+                    "match": "Leyton Orient - Port Vale",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
+        "1387549": {
+            "fixture_id": 1387549,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League One",
+            "country": "England",
+            "match": "Blackpool - Port Vale",
+            "home_team": "Blackpool",
+            "away_team": "Port Vale",
+            "markets": {
+                "q1": 1.84,
+                "qx": 3.45,
+                "q2": 4.2,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.95
+            },
+            "averages": {
+                "home_avg_ft": 3.375,
+                "away_avg_ft": 1.875,
+                "home_avg_ht": 1.375,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.312
+            },
+            "flags": {
+                "fav_quote": 1.84,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.7,
+                "over": 5.4,
+                "boost": 6.588,
+                "gold": 6.634,
+                "max": 6.7
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Doncaster - Blackpool",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-11",
+                    "league": "League One",
+                    "match": "AFC Wimbledon - Blackpool",
+                    "ht": "1-0",
+                    "ft": "4-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Blackpool - Wigan",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Lincoln - Blackpool",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Bolton - Blackpool",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Blackpool - Mansfield Town",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Blackpool - Plymouth",
+                    "ht": "0-3",
+                    "ft": "0-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Huddersfield - Blackpool",
+                    "ht": "0-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Port Vale - Huddersfield",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-11",
+                    "league": "League One",
+                    "match": "Port Vale - Bradford",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "FA Cup",
+                    "match": "Port Vale - Sunderland",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Port Vale - Luton",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "League One",
+                    "match": "Northampton - Port Vale",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Port Vale - Reading",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Stevenage - Port Vale",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "EFL Trophy",
+                    "match": "Port Vale - Stockport County",
+                    "ht": "0-1",
+                    "ft": "0-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
+        "1387550": {
+            "fixture_id": 1387550,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League One",
+            "country": "England",
+            "match": "Bolton - Doncaster",
+            "home_team": "Bolton",
+            "away_team": "Doncaster",
+            "markets": {
+                "q1": 1.59,
+                "qx": 4.1,
+                "q2": 5.1,
+                "o25": 1.6,
+                "o05ht": 1.28,
+                "o15ht": 2.3
+            },
+            "averages": {
+                "home_avg_ft": 3.625,
+                "away_avg_ft": 2.625,
+                "home_avg_ht": 1.375,
+                "away_avg_ht": 1.125,
+                "combined_ht_avg": 1.25
+            },
+            "flags": {
+                "fav_quote": 1.59,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.4,
+                "over": 5.4,
+                "boost": 7.024,
+                "gold": 7.066,
+                "max": 7.066
+            },
+            "tags": [
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Rotherham - Bolton",
+                    "ht": "2-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Bolton - Wycombe",
+                    "ht": "0-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Exeter City - Bolton",
+                    "ht": "0-1",
+                    "ft": "1-5",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Bolton - Blackpool",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Reading - Bolton",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Lincoln - Bolton",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Bolton - Barnsley",
+                    "ht": "3-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "League One",
+                    "match": "AFC Wimbledon - Bolton",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Doncaster - Blackpool",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League One",
+                    "match": "Doncaster - Luton",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Plymouth - Doncaster",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "EFL Trophy",
+                    "match": "Doncaster - Stockport County",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Doncaster - Cardiff",
+                    "ht": "0-1",
+                    "ft": "0-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Rotherham - Doncaster",
+                    "ht": "1-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Doncaster - Huddersfield",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Wycombe - Doncaster",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
+        "1387552": {
+            "fixture_id": 1387552,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League One",
+            "country": "England",
+            "match": "Burton Albion - Reading",
+            "home_team": "Burton Albion",
+            "away_team": "Reading",
+            "markets": {
+                "q1": 2.2,
+                "qx": 3.3,
+                "q2": 3.2,
+                "o25": 1.95,
+                "o05ht": 1.4,
+                "o15ht": 2.8
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 3.125,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 1.125,
+                "combined_ht_avg": 1.062
+            },
+            "flags": {
+                "fav_quote": 2.2,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.5,
+                "over": 4.4,
+                "boost": 4.372,
+                "gold": 3.796,
+                "max": 4.5
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Northampton - Burton Albion",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Burton Albion - Stevenage",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League One",
+                    "match": "Exeter City - Burton Albion",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Wycombe - Burton Albion",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "League One",
+                    "match": "Burton Albion - Stockport County",
+                    "ht": "0-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Luton - Burton Albion",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Burton Albion - Rotherham",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Port Vale - Burton Albion",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Reading - Plymouth",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League One",
+                    "match": "Mansfield Town - Reading",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Luton - Reading",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Reading - Bradford",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Port Vale - Reading",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Reading - Bolton",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Reading - Wycombe",
+                    "ht": "2-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "League One",
+                    "match": "Wigan - Reading",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1387554": {
+            "fixture_id": 1387554,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League One",
+            "country": "England",
+            "match": "Luton - Exeter City",
+            "home_team": "Luton",
+            "away_team": "Exeter City",
+            "markets": {
+                "q1": 1.63,
+                "qx": 3.95,
+                "q2": 4.9,
+                "o25": 1.67,
+                "o05ht": 1.3,
+                "o15ht": 2.4
+            },
+            "averages": {
+                "home_avg_ft": 2.625,
+                "away_avg_ft": 3.0,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.0,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 1.63,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.8,
+                "over": 5.5,
+                "boost": 5.944,
+                "gold": 6.147,
+                "max": 6.147
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Wycombe - Luton",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League One",
+                    "match": "Doncaster - Luton",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Luton - Reading",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-04",
+                    "league": "EFL Trophy",
+                    "match": "Luton - Northampton",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Port Vale - Luton",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "EFL Trophy",
+                    "match": "Luton - Plymouth",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Luton - Burton Albion",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-18",
+                    "league": "League One",
+                    "match": "Wigan - Luton",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Exeter City - Cardiff",
+                    "ht": "0-2",
+                    "ft": "0-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League One",
+                    "match": "Exeter City - Lincoln",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Barnsley - Exeter City",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League One",
+                    "match": "Exeter City - Burton Albion",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Exeter City - Bolton",
+                    "ht": "0-1",
+                    "ft": "1-5",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Peterborough - Exeter City",
+                    "ht": "1-0",
+                    "ft": "3-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Exeter City - Wycombe",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Exeter City - Northampton",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ]
+        },
+        "1387555": {
+            "fixture_id": 1387555,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League One",
+            "country": "England",
+            "match": "Peterborough - Rotherham",
+            "home_team": "Peterborough",
+            "away_team": "Rotherham",
+            "markets": {
+                "q1": 2.4,
+                "qx": 3.6,
+                "q2": 2.66,
+                "o25": 1.67,
+                "o05ht": 1.28,
+                "o15ht": 2.3
+            },
+            "averages": {
+                "home_avg_ft": 3.875,
+                "away_avg_ft": 1.75,
+                "home_avg_ht": 1.375,
+                "away_avg_ht": 0.875,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 2.4,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 4.7,
+                "boost": 5.028,
+                "gold": 4.088,
+                "max": 5.028
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Leyton Orient - Peterborough",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Northampton - Peterborough",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Peterborough - Exeter City",
+                    "ht": "1-0",
+                    "ft": "3-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Barnsley - Peterborough",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Bradford - Peterborough",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "League One",
+                    "match": "Mansfield Town - Peterborough",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Peterborough - Wigan",
+                    "ht": "3-1",
+                    "ft": "6-1",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "League One",
+                    "match": "Peterborough - Huddersfield",
+                    "ht": "0-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Rotherham - Bolton",
+                    "ht": "2-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Huddersfield - Rotherham",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League One",
+                    "match": "Rotherham - Mansfield Town",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Rotherham - Plymouth",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "League One",
+                    "match": "Bradford - Rotherham",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Rotherham - Doncaster",
+                    "ht": "1-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Burton Albion - Rotherham",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Rotherham - Cardiff",
+                    "ht": "0-1",
+                    "ft": "0-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1387556": {
+            "fixture_id": 1387556,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League One",
+            "country": "England",
+            "match": "Plymouth - Stevenage",
+            "home_team": "Plymouth",
+            "away_team": "Stevenage",
+            "markets": {
+                "q1": 1.96,
+                "qx": 3.25,
+                "q2": 3.95,
+                "o25": 2.25,
+                "o05ht": 1.42,
+                "o15ht": 2.9
+            },
+            "averages": {
+                "home_avg_ft": 3.625,
+                "away_avg_ft": 2.5,
+                "home_avg_ht": 2.375,
+                "away_avg_ht": 1.625,
+                "combined_ht_avg": 2.0
+            },
+            "flags": {
+                "fav_quote": 1.96,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.4,
+                "boost": 5.714,
+                "gold": 4.981,
+                "max": 5.714
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Reading - Plymouth",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League One",
+                    "match": "Wigan - Plymouth",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Plymouth - Doncaster",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Rotherham - Plymouth",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "EFL Trophy",
+                    "match": "Luton - Plymouth",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Plymouth - Cardiff",
+                    "ht": "3-2",
+                    "ft": "5-2",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Leyton Orient - Plymouth",
+                    "ht": "1-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Blackpool - Plymouth",
+                    "ht": "0-3",
+                    "ft": "0-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Stevenage - AFC Wimbledon",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League One",
+                    "match": "Stevenage - Leyton Orient",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Burton Albion - Stevenage",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Stevenage - Stockport County",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Wycombe - Stevenage",
+                    "ht": "1-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Stevenage - Port Vale",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Stevenage - Huddersfield",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Northampton - Stevenage",
+                    "ht": "2-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
+        "1387558": {
+            "fixture_id": 1387558,
+            "date": "2026-03-17",
+            "time": "20:45",
+            "league": "League One",
+            "country": "England",
+            "match": "Cardiff - Wycombe",
+            "home_team": "Cardiff",
+            "away_team": "Wycombe",
+            "markets": {
+                "q1": 1.64,
+                "qx": 3.9,
+                "q2": 4.9,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.4
+            },
+            "averages": {
+                "home_avg_ft": 3.875,
+                "away_avg_ft": 3.375,
+                "home_avg_ht": 2.125,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.688
+            },
+            "flags": {
+                "fav_quote": 1.64,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.0,
+                "over": 5.8,
+                "boost": 7.064,
+                "gold": 7.112,
+                "max": 7.112
+            },
+            "tags": [
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Exeter City - Cardiff",
+                    "ht": "0-2",
+                    "ft": "0-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "League One",
+                    "match": "Barnsley - Cardiff",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Cardiff - Lincoln",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Doncaster - Cardiff",
+                    "ht": "0-1",
+                    "ft": "0-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Plymouth - Cardiff",
+                    "ht": "3-2",
+                    "ft": "5-2",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Cardiff - AFC Wimbledon",
+                    "ht": "1-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Cardiff - Luton",
+                    "ht": "3-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Rotherham - Cardiff",
+                    "ht": "0-1",
+                    "ft": "0-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Wycombe - Luton",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Bolton - Wycombe",
+                    "ht": "0-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "League One",
+                    "match": "Barnsley - Wycombe",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Wycombe - Burton Albion",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Wycombe - Stevenage",
+                    "ht": "1-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "League One",
+                    "match": "Exeter City - Wycombe",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Reading - Wycombe",
+                    "ht": "2-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Wycombe - Doncaster",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
         "1399739": {
             "fixture_id": 1399739,
             "date": "2026-03-17",
@@ -7302,7 +9989,7 @@
             "away_team": "Ebbsfleet United",
             "markets": {
                 "q1": 2.2,
-                "qx": 3.35,
+                "qx": 3.3,
                 "q2": 2.9,
                 "o25": 1.85,
                 "o05ht": 1.35,
@@ -7688,9 +10375,9 @@
             "home_team": "Enfield Town",
             "away_team": "Dorking Wanderers",
             "markets": {
-                "q1": 3.4,
-                "qx": 3.55,
-                "q2": 1.91,
+                "q1": 3.55,
+                "qx": 3.65,
+                "q2": 1.83,
                 "o25": 1.65,
                 "o05ht": 1.28,
                 "o15ht": 2.35
@@ -7703,23 +10390,24 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.91,
-                "is_gold_zone": false,
+                "fav_quote": 1.83,
+                "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.0
+                "drop_diff": 0.08
             },
             "scores": {
                 "pt": 6.2,
-                "over": 6.2,
-                "boost": 7.332,
-                "gold": 6.167,
-                "max": 7.332
+                "over": 6.55,
+                "boost": 7.725,
+                "gold": 7.505,
+                "max": 7.725
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST"
+                "🚀 BOOST",
+                "📉-0.08"
             ],
             "home_last_8": [
                 {
@@ -8264,11 +10952,11 @@
             "away_team": "Tonbridge Angels",
             "markets": {
                 "q1": 1.85,
-                "qx": 3.25,
+                "qx": 3.3,
                 "q2": 3.9,
-                "o25": 2.2,
-                "o05ht": 1.45,
-                "o15ht": 3.1
+                "o25": 2.05,
+                "o05ht": 1.42,
+                "o15ht": 2.95
             },
             "averages": {
                 "home_avg_ft": 2.125,
@@ -9221,12 +11909,12 @@
             "home_team": "AFC Telford United",
             "away_team": "Macclesfield",
             "markets": {
-                "q1": 2.38,
-                "qx": 3.55,
-                "q2": 2.5,
+                "q1": 2.55,
+                "qx": 3.5,
+                "q2": 2.38,
                 "o25": 1.57,
-                "o05ht": 1.25,
-                "o15ht": 2.25
+                "o05ht": 1.28,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 2.875,
@@ -9605,9 +12293,9 @@
             "home_team": "Southport",
             "away_team": "Alfreton Town",
             "markets": {
-                "q1": 1.77,
-                "qx": 3.5,
-                "q2": 4.0,
+                "q1": 1.8,
+                "qx": 3.45,
+                "q2": 3.9,
                 "o25": 1.93,
                 "o05ht": 1.35,
                 "o15ht": 2.62
@@ -9620,7 +12308,7 @@
                 "combined_ht_avg": 1.562
             },
             "flags": {
-                "fav_quote": 1.77,
+                "fav_quote": 1.8,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -9798,12 +12486,12 @@
             "home_team": "Broxburn Athletic",
             "away_team": "Linlithgow Rose",
             "markets": {
-                "q1": 2.9,
-                "qx": 3.75,
+                "q1": 3.1,
+                "qx": 3.65,
                 "q2": 1.91,
                 "o25": 1.4,
                 "o05ht": 1.2,
-                "o15ht": 2.0
+                "o15ht": 1.93
             },
             "averages": {
                 "home_avg_ft": 3.125,
@@ -9820,11 +12508,11 @@
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 6.0,
+                "pt": 5.5,
                 "over": 4.8,
-                "boost": 6.034,
-                "gold": 5.262,
-                "max": 6.034
+                "boost": 5.844,
+                "gold": 5.087,
+                "max": 5.844
             },
             "tags": [
                 "🎯PT",
@@ -10969,19 +13657,18 @@
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.13
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 4.4,
-                "over": 5.73,
-                "boost": 5.927,
-                "gold": 5.252,
-                "max": 5.927
+                "over": 5.1,
+                "boost": 5.22,
+                "gold": 4.273,
+                "max": 5.22
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "📉-0.13",
                 "🐟G"
             ],
             "home_last_8": [
@@ -12298,10 +14985,10 @@
             "away_team": "Wigan",
             "markets": {
                 "q1": 2.24,
-                "qx": 3.4,
+                "qx": 3.35,
                 "q2": 3.05,
                 "o25": 1.83,
-                "o05ht": 1.36,
+                "o05ht": 1.38,
                 "o15ht": 2.65
             },
             "averages": {
@@ -12321,14 +15008,13 @@
             "scores": {
                 "pt": 6.8,
                 "over": 5.4,
-                "boost": 7.176,
-                "gold": 6.006,
-                "max": 7.176
+                "boost": 6.826,
+                "gold": 5.887,
+                "max": 6.826
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST",
                 "🐟G"
             ],
             "home_last_8": [
