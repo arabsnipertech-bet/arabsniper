@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 18:15:07",
+    "updated_at": "2026-03-17 18:42:50",
     "day": 3,
     "date": "2026-03-19",
     "details": {
@@ -5205,9 +5205,9 @@
             "home_team": "FSV Mainz 05",
             "away_team": "Sigma Olomouc",
             "markets": {
-                "q1": 1.36,
-                "qx": 4.8,
-                "q2": 7.9,
+                "q1": 1.34,
+                "qx": 4.85,
+                "q2": 8.5,
                 "o25": 1.8,
                 "o05ht": 1.33,
                 "o15ht": 2.45
@@ -5220,7 +5220,7 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.36,
+                "fav_quote": 1.34,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -5228,10 +5228,10 @@
             },
             "scores": {
                 "pt": 6.0,
-                "over": 6.2,
-                "boost": 7.256,
-                "gold": 6.097,
-                "max": 7.256
+                "over": 5.8,
+                "boost": 7.064,
+                "gold": 5.912,
+                "max": 7.064
             },
             "tags": [
                 "🎯PT",
@@ -6170,12 +6170,12 @@
             "home_team": "Rayo Vallecano",
             "away_team": "Samsunspor",
             "markets": {
-                "q1": 1.69,
-                "qx": 3.75,
-                "q2": 4.7,
-                "o25": 2.0,
-                "o05ht": 1.36,
-                "o15ht": 2.75
+                "q1": 1.65,
+                "qx": 3.85,
+                "q2": 4.85,
+                "o25": 1.9,
+                "o05ht": 1.35,
+                "o15ht": 2.65
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -6185,7 +6185,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.69,
+                "fav_quote": 1.65,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
