@@ -3,9 +3,9 @@ name: Day1 Fast Refresh
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 8 * * *"
-    - cron: "30 12 * * *"
-    - cron: "30 16 * * *"
+    - cron: "30 7 * * *"
+    - cron: "30 11 * * *"
+    - cron: "30 15 * * *"
 
 permissions:
   contents: write
@@ -34,9 +34,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Ensure quote_history exists
+        run: |
+          test -f quote_history.json || echo "{}" > quote_history.json
+
       - name: Run Day1 fast refresh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           TZ: Europe/Rome
-        run: python 3appDays.py --fast
+          PYTHONUNBUFFERED: "1"
+        run: python 3appDays_runner.py --fast-day1
+
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json data_day1.json details_day1.json quote_history.json || true
+          git diff --cached --quiet || git commit -m "Day1 fast refresh update"
+          git push
