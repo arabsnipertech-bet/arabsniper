@@ -67,7 +67,7 @@ def github_write_json(filename, payload, commit_message):
             return "MISSING_TOKEN"
 
         g = Github(token)
-        repo = g.get_repo("Arabsnipertech-bet/arabsniper")
+        repo = g.get_repo("arabsnipertech-bet/arabsniper")
         content_str = json.dumps(payload, indent=4, ensure_ascii=False)
 
         try:
@@ -109,7 +109,7 @@ def upload_snapshot_to_github(payload):
 
 def download_remote_snapshot():
     try:
-        url = f"https://raw.githubusercontent.com/Arabsnipertech-bet/arabsniper/main/{REMOTE_SNAPSHOT_FILE}?v={int(time.time())}"
+        url = f"https://raw.githubusercontent.com/arabsnipertech-bet/arabsniper/main/{REMOTE_SNAPSHOT_FILE}?v={int(time.time())}"
         r = requests.get(url, timeout=20)
         if r.status_code != 200:
             return None
