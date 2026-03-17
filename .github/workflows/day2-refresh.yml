@@ -3,7 +3,7 @@ name: Day2 Refresh
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 19 * * *"
+    - cron: "10 20 * * *"
 
 permissions:
   contents: write
