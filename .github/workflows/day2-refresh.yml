@@ -3,7 +3,7 @@ name: Day2 Refresh
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 19 * * *"
+    - cron: "10 19 * * *"
 
 permissions:
   contents: write
@@ -44,6 +44,25 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python 3appDays_runner.py --refresh-day2
 
+      - name: Save generated files temporarily
+        run: |
+          mkdir -p /tmp/arabsniper_out
+          cp -f data_day2.json /tmp/arabsniper_out/ 2>/dev/null || true
+          cp -f details_day2.json /tmp/arabsniper_out/ 2>/dev/null || true
+          cp -f quote_history.json /tmp/arabsniper_out/ 2>/dev/null || true
+
+      - name: Refresh repo to latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          git clean -fd
+
+      - name: Restore generated files
+        run: |
+          cp -f /tmp/arabsniper_out/data_day2.json . 2>/dev/null || true
+          cp -f /tmp/arabsniper_out/details_day2.json . 2>/dev/null || true
+          cp -f /tmp/arabsniper_out/quote_history.json . 2>/dev/null || true
+
       - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
@@ -51,6 +70,10 @@ jobs:
 
           git add data_day2.json details_day2.json quote_history.json || true
 
-          git diff --cached --quiet && echo "Nessuna modifica da committare" || git commit -m "Day2 refresh update"
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica da committare"
+            exit 0
+          fi
 
-          git push --force-with-lease
+          git commit -m "Day2 refresh update"
+          git push origin main
