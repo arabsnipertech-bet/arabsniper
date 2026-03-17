@@ -8,7 +8,7 @@ def run_scan():
     try:
         print("🚀 Avvio Night Scan...")
         result = subprocess.run(
-            ["python", "3appDays.py", "--snap"],
+            ["python", "3appDays.py", "--auto"],
             capture_output=True,
             text=True
         )
@@ -39,8 +39,9 @@ def main():
             sys.exit(0)
 
         attempt += 1
-        print(f"🔁 Retry {attempt}/{MAX_RETRY} tra 30 secondi...")
-        time.sleep(30)
+        if attempt <= MAX_RETRY:
+            print(f"🔁 Retry {attempt}/{MAX_RETRY} tra 30 secondi...")
+            time.sleep(30)
 
     print("💥 Scan fallito definitivamente")
     sys.exit(1)
