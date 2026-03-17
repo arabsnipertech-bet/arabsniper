@@ -895,19 +895,32 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                 list(set(st.session_state.available_countries) | {fx["league"]["country"] for fx in day_fx})
             )
 
-            if snap and use_horizon == 1:
-                snap_bar = st.progress(0, text="📌 SNAPSHOT ROLLING DAY1+DAY2+DAY3+DAY4+DAY5...")
-                build_rolling_multiday_snapshot(s)
-                snap_bar.progress(1.0)
-                time.sleep(0.3)
-                snap_bar.empty()
+if snap and use_horizon == 1:
+    try:
+        print("📌 Avvio build_rolling_multiday_snapshot...")
+        snap_bar = st.progress(0, text="📌 SNAPSHOT ROLLING DAY1+DAY2+DAY3+DAY4+DAY5...")
+        payload = build_rolling_multiday_snapshot(s)
+        snap_bar.progress(1.0)
+        time.sleep(0.3)
+        snap_bar.empty()
 
-            final_list = []
-            details_map = dict(st.session_state.match_details)
+        odds_count = len((payload or {}).get("odds", {}) or {})
+        print(f"📦 Snapshot rolling creato con {odds_count} fixture")
 
-            pb = st.progress(0, text="🚀 ANALISI SEGNALI E MEDIE...")
-            for i, f in enumerate(day_fx):
-                pb.progress((i + 1) / len(day_fx) if day_fx else 1.0)
+        if odds_count == 0:
+            print("⚠️ Snapshot creato ma senza odds")
+        else:
+            print("✅ Snapshot popolato correttamente")
+
+    except Exception as e:
+        print(f"❌ Errore durante build_rolling_multiday_snapshot: {e}")
+
+# 👇 QUESTE DEVONO STARE FUORI
+final_list = []
+details_map = dict(st.session_state.match_details)
+pb = st.progress(0, text="🚀 ANALISI SEGNALI E MEDIE...")
+for i, f in enumerate(day_fx):
+    pb.progress((i + 1) / len(day_fx) if day_fx else 1.0)
 
                 cnt = f["league"]["country"]
                 if cnt in st.session_state.config["excluded"]:
