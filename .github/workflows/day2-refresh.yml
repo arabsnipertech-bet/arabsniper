@@ -1,9 +1,9 @@
-name: Day2 Evening Refresh
+name: Day2 Refresh
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 20 * * *"
+    - cron: "0 19 * * *"
 
 permissions:
   contents: write
@@ -32,9 +32,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Ensure quote_history exists
+        run: |
+          test -f quote_history.json || echo "{}" > quote_history.json
+
       - name: Run Day2 refresh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           TZ: Europe/Rome
-        run: python 3appDays.py --day2-refresh
+          PYTHONUNBUFFERED: "1"
+        run: python 3appDays_runner.py --refresh-day2
+
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data_day2.json details_day2.json quote_history.json || true
+          git diff --cached --quiet || git commit -m "Day2 refresh update"
+          git push
