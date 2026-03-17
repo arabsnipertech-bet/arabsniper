@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 17:33:46",
+    "updated_at": "2026-03-17 17:51:18",
     "day": 2,
     "date": "2026-03-18",
     "details": {
@@ -10011,8 +10011,8 @@
                 "q1": 1.54,
                 "qx": 4.55,
                 "q2": 4.9,
-                "o25": 1.35,
-                "o05ht": 1.2,
+                "o25": 1.36,
+                "o05ht": 1.18,
                 "o15ht": 1.91
             },
             "averages": {
@@ -10030,14 +10030,13 @@
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 4.8,
+                "pt": 3.9,
                 "over": 4.4,
-                "boost": 5.386,
-                "gold": 5.857,
-                "max": 5.857
+                "boost": 5.044,
+                "gold": 5.543,
+                "max": 5.543
             },
             "tags": [
-                "🎯PT",
                 "⚽ OVER",
                 "🐟O"
             ],
@@ -12894,10 +12893,10 @@
             "home_team": "Tottenham",
             "away_team": "Atletico Madrid",
             "markets": {
-                "q1": 2.5,
-                "qx": 3.7,
-                "q2": 2.5,
-                "o25": 1.7,
+                "q1": 2.48,
+                "qx": 3.8,
+                "q2": 2.48,
+                "o25": 1.65,
                 "o05ht": 1.3,
                 "o15ht": 2.4
             },
@@ -12909,7 +12908,7 @@
                 "combined_ht_avg": 2.125
             },
             "flags": {
-                "fav_quote": 2.5,
+                "fav_quote": 2.48,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true,
