@@ -74,14 +74,16 @@ def extract_day_date_from_details_file(path: Path) -> str | None:
     if not isinstance(payload, dict):
         return None
 
-    value = str(payload.get("date") or "").strip()
-    if value:
-        return value
-
     details = payload.get("details")
     if not isinstance(details, dict) or not details:
         return None
 
+    # prima prova: data dichiarata nel payload
+    value = str(payload.get("date") or "").strip()
+    if value:
+        return value
+
+    # fallback: prima data trovata nei dettagli
     for _, item in details.items():
         if isinstance(item, dict):
             value = str(item.get("date") or "").strip()
@@ -241,13 +243,4 @@ if __name__ == "__main__":
         code = run_command([python_exe, "3appDays.py", "--fast"])
 
     quality_report()
-
-    print("📦 Tentativo aggiornamento casse recenti...")
-    try:
-        casse_code = run_command([python_exe, "build_casse_recenti.py"])
-        if casse_code != 0:
-            print(f"⚠️ build_casse_recenti.py ha restituito codice {casse_code}, ma non blocco il night scan.")
-    except Exception as e:
-        print(f"⚠️ Errore build_casse_recenti.py ignorato: {e}")
-
     sys.exit(code)
