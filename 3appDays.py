@@ -1,104 +1,4 @@
-import sys
-
-CLI_FLAGS = {"--auto", "--fast", "--day2-refresh", "--day3-refresh", "--day4-refresh", "--day5-refresh"}
-CLI_MODE = any(arg in CLI_FLAGS for arg in sys.argv)
-
-if not CLI_MODE:
-    import streamlit as st
-else:
-    class _DummyProgress:
-        def progress(self, *args, **kwargs):
-            return self
-        def empty(self):
-            return None
-
-    class _DummySpinner:
-        def __enter__(self):
-            return self
-        def __exit__(self, exc_type, exc, tb):
-            return False
-
-    class _DummyColumn:
-        def button(self, *args, **kwargs):
-            return False
-        def write(self, *args, **kwargs):
-            return None
-        def metric(self, *args, **kwargs):
-            return None
-        def markdown(self, *args, **kwargs):
-            return None
-        def dataframe(self, *args, **kwargs):
-            return None
-        def info(self, *args, **kwargs):
-            return None
-        def download_button(self, *args, **kwargs):
-            return None
-        def __enter__(self):
-            return self
-        def __exit__(self, exc_type, exc, tb):
-            return False
-
-    class _DummySidebar:
-        def header(self, *args, **kwargs):
-            return None
-        def selectbox(self, label, options=None, index=0, **kwargs):
-            return options[index] if options else None
-        def multiselect(self, *args, default=None, **kwargs):
-            return default or []
-        def button(self, *args, **kwargs):
-            return False
-        def success(self, *args, **kwargs):
-            return None
-        def warning(self, *args, **kwargs):
-            return None
-        def markdown(self, *args, **kwargs):
-            return None
-        def caption(self, *args, **kwargs):
-            return None
-
-    class _DummyStreamlit:
-        def __init__(self):
-            self.session_state = {}
-            self.secrets = {}
-            self.sidebar = _DummySidebar()
-        def set_page_config(self, *args, **kwargs):
-            return None
-        def spinner(self, *args, **kwargs):
-            return _DummySpinner()
-        def progress(self, *args, **kwargs):
-            return _DummyProgress()
-        def success(self, *args, **kwargs):
-            return None
-        def error(self, *args, **kwargs):
-            return None
-        def warning(self, *args, **kwargs):
-            return None
-        def info(self, *args, **kwargs):
-            return None
-        def markdown(self, *args, **kwargs):
-            return None
-        def write(self, *args, **kwargs):
-            return None
-        def subheader(self, *args, **kwargs):
-            return None
-        def dataframe(self, *args, **kwargs):
-            return None
-        def columns(self, spec):
-            n = spec if isinstance(spec, int) else len(spec)
-            return [_DummyColumn() for _ in range(n)]
-        def button(self, *args, **kwargs):
-            return False
-        def rerun(self):
-            return None
-        def download_button(self, *args, **kwargs):
-            return None
-        def dialog(self, *args, **kwargs):
-            def decorator(func):
-                return func
-            return decorator
-
-    st = _DummyStreamlit()
-
+import streamlit as st
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
@@ -108,6 +8,90 @@ import time
 import sys
 from pathlib import Path
 from github import Github
+
+AUTO_MODE = any(
+    arg in sys.argv
+    for arg in ["--auto", "--fast", "--day2-refresh", "--day3-refresh", "--day4-refresh", "--day5-refresh"]
+)
+
+
+class _FakeSessionState(dict):
+    def __getattr__(self, name):
+        return self.get(name)
+
+    def __setattr__(self, name, value):
+        self[name] = value
+
+
+class _FakeStreamlit:
+    def __init__(self):
+        self.session_state = _FakeSessionState()
+        self.secrets = {}
+        self.sidebar = self
+
+    def __getattr__(self, name):
+        def _noop(*args, **kwargs):
+            return None
+        return _noop
+
+    def columns(self, spec):
+        n = spec if isinstance(spec, int) else len(spec)
+        return [self for _ in range(n)]
+
+    def selectbox(self, label, options=None, index=0, **kwargs):
+        if options is None:
+            return None
+        try:
+            return options[index]
+        except Exception:
+            return options[0] if options else None
+
+    def multiselect(self, label, options=None, default=None, **kwargs):
+        return default or []
+
+    def button(self, *args, **kwargs):
+        return False
+
+    def download_button(self, *args, **kwargs):
+        return False
+
+    def rerun(self):
+        return None
+
+    def dataframe(self, *args, **kwargs):
+        return None
+
+    def markdown(self, *args, **kwargs):
+        return None
+
+    def write(self, *args, **kwargs):
+        return None
+
+    def info(self, *args, **kwargs):
+        return None
+
+    def warning(self, *args, **kwargs):
+        return None
+
+    def error(self, *args, **kwargs):
+        return None
+
+    def success(self, *args, **kwargs):
+        return None
+
+    def subheader(self, *args, **kwargs):
+        return None
+
+    def caption(self, *args, **kwargs):
+        return None
+
+    def header(self, *args, **kwargs):
+        return None
+
+
+if AUTO_MODE:
+    st = _FakeStreamlit()
+
 
 # ==========================================
 # CONFIGURAZIONE ARAB SNIPER V24.1 MULTI-DAY WEB
@@ -155,7 +139,7 @@ def now_rome():
     return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
 
 
-if not CLI_MODE:
+if not AUTO_MODE:
     st.set_page_config(page_title="ARAB SNIPER V24.1 MULTI-DAY WEB", layout="wide")
 
 # ==========================================
@@ -975,7 +959,7 @@ def show_match_modal(fixture_id: str):
 # ==========================================
 # SCAN CORE
 # ==========================================
-def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success=True, non_destructive=False):
+def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success=True):
     use_horizon = horizon if horizon is not None else HORIZON
     target_dates = get_target_dates()
 
@@ -1100,11 +1084,10 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
             current_db = {str(r["Fixture_ID"]): r for r in st.session_state.scan_results}
             target_date_ids = {str(r["Fixture_ID"]) for r in final_list}
 
-            if not non_destructive:
-                for existing in list(current_db.keys()):
-                    existing_row = current_db[existing]
-                    if existing_row.get("Data") == target_date and existing not in target_date_ids:
-                        del current_db[existing]
+            for existing in list(current_db.keys()):
+                existing_row = current_db[existing]
+                if existing_row.get("Data") == target_date and existing not in target_date_ids:
+                    del current_db[existing]
 
             for r in final_list:
                 current_db[str(r["Fixture_ID"])] = r
@@ -1142,84 +1125,9 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
 
             pb.empty()
 
-            if not CLI_MODE:
+            if "--auto" not in sys.argv and "--fast" not in sys.argv and "--day2-refresh" not in sys.argv:
                 time.sleep(2)
                 st.rerun()
-
-
-
-def save_db_file():
-    with open(DB_FILE, "w", encoding="utf-8") as f:
-        json.dump({"results": st.session_state.scan_results}, f, indent=4, ensure_ascii=False)
-
-
-def rotate_future_day_buckets():
-    """
-    Rotazione reale non distruttiva:
-    - day3 -> day2
-    - day4 -> day3
-    - day5 -> day4
-    - day5 viene svuotato e sarà riempito dal nuovo scan
-    """
-    target_dates = get_target_dates()
-    old_dates = [(now_rome().date() + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(1, 6)]
-    # old_dates[0]=oggi+1(day2 vecchio) ... old_dates[3]=oggi+4(day5 vecchio)
-
-    scan_results = list(st.session_state.get("scan_results", []))
-    details = dict(st.session_state.get("match_details", {}))
-
-    new_results = []
-    for row in scan_results:
-        row = dict(row)
-        row_date = row.get("Data")
-        moved = False
-        if row_date == old_dates[1]:  # old day3 -> new day2
-            row["Data"] = target_dates[1]
-            moved = True
-        elif row_date == old_dates[2]:  # old day4 -> new day3
-            row["Data"] = target_dates[2]
-            moved = True
-        elif row_date == old_dates[3]:  # old day5 -> new day4
-            row["Data"] = target_dates[3]
-            moved = True
-        elif row_date == old_dates[4] if len(old_dates) > 4 else False:
-            # non usato, tenuto per sicurezza
-            moved = False
-
-        # scarta il vecchio day2 e il vecchio day5 se non entrano nella rotazione
-        if row_date == old_dates[0]:
-            continue
-        if row_date == old_dates[4] if len(old_dates) > 4 else False:
-            continue
-
-        # il vecchio day5 è old_dates[3] e già gestito sopra -> nuovo day4
-        new_results.append(row)
-
-    new_details = {}
-    for fid, detail in details.items():
-        d = dict(detail)
-        d_date = d.get("date")
-        if d_date == old_dates[1]:
-            d["date"] = target_dates[1]
-        elif d_date == old_dates[2]:
-            d["date"] = target_dates[2]
-        elif d_date == old_dates[3]:
-            d["date"] = target_dates[3]
-        elif d_date == old_dates[0]:
-            continue
-        new_details[str(fid)] = d
-
-    st.session_state.scan_results = new_results
-    st.session_state.match_details = new_details
-    save_db_file()
-    save_match_details_file()
-
-
-def rotate_future_day_files_if_needed():
-    """
-    La rotazione va fatta solo nel build notturno.
-    """
-    rotate_future_day_buckets()
 
 # ==========================================
 # AUTO BUILD 5 GIORNI
@@ -1244,7 +1152,7 @@ def run_nightly_multiday_build():
 
     print("✅ Build multi-day completata.")
 
-if not CLI_MODE:
+if not AUTO_MODE:
     # ==========================================
     # UI SIDEBAR
     # ==========================================
@@ -1387,33 +1295,9 @@ if not CLI_MODE:
 if __name__ == "__main__":
     if "--auto" in sys.argv:
         print("🚀 Avvio Scan Automatico Notturno Multi-Day...")
+        HORIZON = 1
         run_nightly_multiday_build()
         print("✅ Scan completo terminato: data.json + data_day1/2/3/4/5 + details_day1/2/3/4/5 aggiornati.")
-
-    elif "--fast" in sys.argv:
-        print("⚡ Avvio Scan Veloce Automatico (solo Day 1)...")
-        run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False, non_destructive=False)
-        print("✅ Scan veloce terminato: data.json + data_day1 + details_day1 aggiornati.")
-
-    elif "--day2-refresh" in sys.argv:
-        print("🌙 Avvio Refresh Serale Day 2...")
-        run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False, non_destructive=True)
-        print("✅ Refresh Day 2 terminato: data_day2 + details_day2 aggiornati.")
-
-    elif "--day3-refresh" in sys.argv:
-        print("🌙 Avvio Refresh Serale Day 3...")
-        run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False, non_destructive=True)
-        print("✅ Refresh Day 3 terminato: data_day3 + details_day3 aggiornati.")
-
-    elif "--day4-refresh" in sys.argv:
-        print("🌙 Avvio Refresh Serale Day 4...")
-        run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False, non_destructive=True)
-        print("✅ Refresh Day 4 terminato: data_day4 + details_day4 aggiornati.")
-
-    elif "--day5-refresh" in sys.argv:
-        print("🌙 Avvio Refresh Serale Day 5...")
-        run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False, non_destructive=True)
-        print("✅ Refresh Day 5 terminato: data_day5 + details_day5 aggiornati.")
 
     elif "--fast" in sys.argv:
         HORIZON = 1
@@ -1426,3 +1310,21 @@ if __name__ == "__main__":
         print("🌙 Avvio Refresh Serale Day 2...")
         run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False)
         print("✅ Refresh Day 2 terminato: data_day2 + details_day2 aggiornati.")
+
+    elif "--day3-refresh" in sys.argv:
+        HORIZON = 3
+        print("🌙 Avvio Refresh Day 3...")
+        run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False)
+        print("✅ Refresh Day 3 terminato: data_day3 + details_day3 aggiornati.")
+
+    elif "--day4-refresh" in sys.argv:
+        HORIZON = 4
+        print("🌙 Avvio Refresh Day 4...")
+        run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False)
+        print("✅ Refresh Day 4 terminato: data_day4 + details_day4 aggiornati.")
+
+    elif "--day5-refresh" in sys.argv:
+        HORIZON = 5
+        print("🌙 Avvio Refresh Day 5...")
+        run_full_scan(horizon=5, snap=False, update_main_site=False, show_success=False)
+        print("✅ Refresh Day 5 terminato: data_day5 + details_day5 aggiornati.")
