@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 07:08:24",
+    "updated_at": "2026-03-17 17:36:11",
     "day": 4,
     "date": "2026-03-20",
     "details": {
@@ -15,10 +15,10 @@
             "markets": {
                 "q1": 1.19,
                 "qx": 5.9,
-                "q2": 17.5,
+                "q2": 18.0,
                 "o25": 1.55,
                 "o05ht": 1.25,
-                "o15ht": 2.15
+                "o15ht": 2.2
             },
             "averages": {
                 "home_avg_ft": 3.875,
@@ -205,12 +205,12 @@
             "home_team": "Volta Redonda",
             "away_team": "Barra",
             "markets": {
-                "q1": 2.08,
+                "q1": 1.94,
                 "qx": 3.1,
-                "q2": 3.5,
+                "q2": 4.0,
                 "o25": 2.45,
-                "o05ht": 1.5,
-                "o15ht": 3.4
+                "o05ht": 1.48,
+                "o15ht": 3.2
             },
             "averages": {
                 "home_avg_ft": 2.75,
@@ -220,23 +220,22 @@
                 "combined_ht_avg": 1.625
             },
             "flags": {
-                "fav_quote": 2.08,
+                "fav_quote": 1.94,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 4.4,
+                "pt": 5.1,
                 "over": 5.2,
-                "boost": 5.618,
-                "gold": 4.888,
-                "max": 5.618
+                "boost": 5.884,
+                "gold": 5.133,
+                "max": 5.884
             },
             "tags": [
                 "🎯PT",
-                "⚽ OVER",
-                "🐟G"
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
@@ -590,8 +589,8 @@
             "away_team": "Independiente del Valle",
             "markets": {
                 "q1": 3.5,
-                "qx": 3.3,
-                "q2": 2.08,
+                "qx": 3.25,
+                "q2": 2.1,
                 "o25": 2.2,
                 "o05ht": 1.42,
                 "o15ht": 2.95
@@ -604,7 +603,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.08,
+                "fav_quote": 2.1,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -780,9 +779,9 @@
             "home_team": "Tigres UANL",
             "away_team": "FC Cincinnati",
             "markets": {
-                "q1": 1.38,
-                "qx": 4.5,
-                "q2": 8.2,
+                "q1": 1.43,
+                "qx": 4.4,
+                "q2": 7.0,
                 "o25": 1.73,
                 "o05ht": 1.3,
                 "o15ht": 2.4
@@ -795,8 +794,8 @@
                 "combined_ht_avg": 1.125
             },
             "flags": {
-                "fav_quote": 1.38,
-                "is_gold_zone": false,
+                "fav_quote": 1.43,
+                "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
@@ -805,8 +804,8 @@
                 "pt": 5.2,
                 "over": 5.1,
                 "boost": 5.524,
-                "gold": 4.552,
-                "max": 5.524
+                "gold": 5.752,
+                "max": 5.752
             },
             "tags": [
                 "🎯PT",
@@ -972,10 +971,10 @@
             "home_team": "Independiente Medellin",
             "away_team": "Junior",
             "markets": {
-                "q1": 1.94,
-                "qx": 3.5,
-                "q2": 3.75,
-                "o25": 1.83,
+                "q1": 1.97,
+                "qx": 3.4,
+                "q2": 3.7,
+                "o25": 1.9,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -987,7 +986,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.94,
+                "fav_quote": 1.97,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -1737,11 +1736,11 @@
             "home_team": "Atyrau",
             "away_team": "Zhenys",
             "markets": {
-                "q1": 2.93,
-                "qx": 2.78,
-                "q2": 2.44,
+                "q1": 2.94,
+                "qx": 2.79,
+                "q2": 2.43,
                 "o25": 2.12,
-                "o05ht": 1.5,
+                "o05ht": 1.49,
                 "o15ht": 3.08
             },
             "averages": {
@@ -1752,7 +1751,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.44,
+                "fav_quote": 2.43,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
@@ -2121,8 +2120,8 @@
             "away_team": "Kaisar",
             "markets": {
                 "q1": 1.72,
-                "qx": 3.22,
-                "q2": 4.6,
+                "qx": 3.24,
+                "q2": 4.55,
                 "o25": 1.96,
                 "o05ht": 1.42,
                 "o15ht": 2.9
@@ -3081,9 +3080,9 @@
             "home_team": "Slavia Sofia",
             "away_team": "Botev Plovdiv",
             "markets": {
-                "q1": 2.7,
-                "qx": 3.1,
-                "q2": 2.3,
+                "q1": 2.38,
+                "qx": 3.0,
+                "q2": 2.75,
                 "o25": 2.05,
                 "o05ht": 1.3,
                 "o15ht": 2.5
@@ -3096,7 +3095,7 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.3,
+                "fav_quote": 2.38,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -6920,8 +6919,8 @@
                 "qx": 2.8,
                 "q2": 2.88,
                 "o25": 2.15,
-                "o05ht": 1.36,
-                "o15ht": 2.88
+                "o05ht": 1.4,
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -6940,14 +6939,13 @@
             "scores": {
                 "pt": 6.4,
                 "over": 5.4,
-                "boost": 6.674,
-                "gold": 5.747,
-                "max": 6.674
+                "boost": 6.474,
+                "gold": 5.679,
+                "max": 6.474
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST",
                 "🐟G"
             ],
             "home_last_8": [
@@ -7303,8 +7301,8 @@
                 "qx": 2.9,
                 "q2": 3.1,
                 "o25": 2.05,
-                "o05ht": 1.36,
-                "o15ht": 2.8
+                "o05ht": 1.4,
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 2.75,
@@ -7323,8 +7321,8 @@
             "scores": {
                 "pt": 4.1,
                 "over": 5.2,
-                "boost": 5.154,
-                "gold": 4.214,
+                "boost": 4.604,
+                "gold": 4.027,
                 "max": 5.2
             },
             "tags": [
@@ -8633,6 +8631,388 @@
                 }
             ]
         },
+        "1382232": {
+            "fixture_id": 1382232,
+            "date": "2026-03-20",
+            "time": "20:00",
+            "league": "Eerste Divisie",
+            "country": "Netherlands",
+            "match": "Cambuur - Jong AZ",
+            "home_team": "Cambuur",
+            "away_team": "Jong AZ",
+            "markets": {
+                "q1": 1.48,
+                "qx": 4.6,
+                "q2": 5.6,
+                "o25": 1.35,
+                "o05ht": 1.18,
+                "o15ht": 1.85
+            },
+            "averages": {
+                "home_avg_ft": 2.5,
+                "away_avg_ft": 3.375,
+                "home_avg_ht": 0.75,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 1.48,
+                "is_gold_zone": true,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.8,
+                "over": 3.3,
+                "boost": 3.578,
+                "gold": 4.243,
+                "max": 4.243
+            },
+            "tags": [
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-16",
+                    "league": "Eerste Divisie",
+                    "match": "Helmond Sport - Cambuur",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "Eerste Divisie",
+                    "match": "Cambuur - Roda",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Eerste Divisie",
+                    "match": "Cambuur - Jong Utrecht",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "Eerste Divisie",
+                    "match": "Cambuur - Almere City FC",
+                    "ht": "1-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Eerste Divisie",
+                    "match": "FC OSS - Cambuur",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "Eerste Divisie",
+                    "match": "Cambuur - FC Eindhoven",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Eerste Divisie",
+                    "match": "Cambuur - Waalwijk",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-16",
+                    "league": "Eerste Divisie",
+                    "match": "Jong Ajax - Cambuur",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-16",
+                    "league": "Eerste Divisie",
+                    "match": "Jong AZ - MVV",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "Eerste Divisie",
+                    "match": "Waalwijk - Jong AZ",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-09",
+                    "league": "Eerste Divisie",
+                    "match": "Jong AZ - Emmen",
+                    "ht": "1-2",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Eerste Divisie",
+                    "match": "Vitesse - Jong AZ",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-23",
+                    "league": "Eerste Divisie",
+                    "match": "Jong AZ - Den Bosch",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Eerste Divisie",
+                    "match": "FC OSS - Jong AZ",
+                    "ht": "0-0",
+                    "ft": "0-3",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-09",
+                    "league": "Eerste Divisie",
+                    "match": "Jong AZ - Dordrecht",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Eerste Divisie",
+                    "match": "ADO Den Haag - Jong AZ",
+                    "ht": "0-2",
+                    "ft": "1-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                }
+            ]
+        },
+        "1382235": {
+            "fixture_id": 1382235,
+            "date": "2026-03-20",
+            "time": "20:00",
+            "league": "Eerste Divisie",
+            "country": "Netherlands",
+            "match": "Jong Ajax - Almere City FC",
+            "home_team": "Jong Ajax",
+            "away_team": "Almere City FC",
+            "markets": {
+                "q1": 4.33,
+                "qx": 4.33,
+                "q2": 1.65,
+                "o25": 1.35,
+                "o05ht": 1.2,
+                "o15ht": 1.91
+            },
+            "averages": {
+                "home_avg_ft": 3.125,
+                "away_avg_ft": 3.25,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.312
+            },
+            "flags": {
+                "fav_quote": 1.65,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 4.4,
+                "boost": 5.804,
+                "gold": 6.241,
+                "max": 6.241
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "Eerste Divisie",
+                    "match": "Jong Ajax - Den Bosch",
+                    "ht": "3-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "Eerste Divisie",
+                    "match": "FC Eindhoven - Jong Ajax",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Eerste Divisie",
+                    "match": "Jong Ajax - Helmond Sport",
+                    "ht": "2-0",
+                    "ft": "5-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-23",
+                    "league": "Eerste Divisie",
+                    "match": "Emmen - Jong Ajax",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Eerste Divisie",
+                    "match": "Dordrecht - Jong Ajax",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-16",
+                    "league": "Eerste Divisie",
+                    "match": "Jong Ajax - Cambuur",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Eerste Divisie",
+                    "match": "De Graafschap - Jong Ajax",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-02",
+                    "league": "Eerste Divisie",
+                    "match": "Jong Ajax - Willem II",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "Eerste Divisie",
+                    "match": "Vitesse - Almere City FC",
+                    "ht": "1-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Eerste Divisie",
+                    "match": "Almere City FC - ADO Den Haag",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "Eerste Divisie",
+                    "match": "Cambuur - Almere City FC",
+                    "ht": "1-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Eerste Divisie",
+                    "match": "Jong Utrecht - Almere City FC",
+                    "ht": "2-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Eerste Divisie",
+                    "match": "FC Eindhoven - Almere City FC",
+                    "ht": "1-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Eerste Divisie",
+                    "match": "Almere City FC - Helmond Sport",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-02",
+                    "league": "Eerste Divisie",
+                    "match": "MVV - Almere City FC",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Eerste Divisie",
+                    "match": "Almere City FC - Roda",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
         "1382236": {
             "fixture_id": 1382236,
             "date": "2026-03-20",
@@ -8643,7 +9023,7 @@
             "home_team": "Jong PSV U21",
             "away_team": "Vitesse",
             "markets": {
-                "q1": 2.9,
+                "q1": 2.88,
                 "qx": 3.9,
                 "q2": 2.15,
                 "o25": 1.45,
@@ -11368,154 +11748,8 @@
                 "🚀 BOOST",
                 "🐟O"
             ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "Premiership",
-                    "match": "Crusaders FC - Glenavon FC",
-                    "ht": "0-0",
-                    "ft": "0-3",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Premiership",
-                    "match": "Glenavon FC - Portadown",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Premiership",
-                    "match": "Ballymena United - Glenavon FC",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Premiership",
-                    "match": "Bangor - Glenavon FC",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Premiership",
-                    "match": "Glenavon FC - Linfield",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Premiership",
-                    "match": "Carrick Rangers - Glenavon FC",
-                    "ht": "2-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Irish Cup",
-                    "match": "Cliftonville FC - Glenavon FC",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Premiership",
-                    "match": "Glenavon FC - Cliftonville FC",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Premiership",
-                    "match": "Larne - Dungannon Swifts",
-                    "ht": "2-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Premiership",
-                    "match": "Ballymena United - Larne",
-                    "ht": "0-2",
-                    "ft": "0-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Premiership",
-                    "match": "Larne - Linfield",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Premiership",
-                    "match": "Larne - Carrick Rangers",
-                    "ht": "0-3",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Premiership",
-                    "match": "Portadown - Larne",
-                    "ht": "2-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Premiership",
-                    "match": "Larne - Glentoran",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Irish Cup",
-                    "match": "Warrenpoint Town - Larne",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-03",
-                    "league": "Irish Cup",
-                    "match": "Ballymena United - Larne",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                }
-            ]
+            "home_last_8": [],
+            "away_last_8": []
         },
         "1492846": {
             "fixture_id": 1492846,
@@ -12295,12 +12529,12 @@
             "home_team": "Preston",
             "away_team": "Stoke City",
             "markets": {
-                "q1": 2.52,
-                "qx": 3.2,
-                "q2": 2.78,
-                "o25": 2.1,
-                "o05ht": 1.42,
-                "o15ht": 2.9
+                "q1": 2.5,
+                "qx": 3.25,
+                "q2": 2.76,
+                "o25": 2.05,
+                "o05ht": 1.38,
+                "o15ht": 2.75
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -12310,18 +12544,18 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.52,
+                "fav_quote": 2.5,
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
                 "drop_diff": 0.0
             },
             "scores": {
-                "pt": 6.7,
+                "pt": 7.6,
                 "over": 4.7,
-                "boost": 5.702,
-                "gold": 5.273,
-                "max": 6.7
+                "boost": 6.244,
+                "gold": 5.655,
+                "max": 7.6
             },
             "tags": [
                 "🎯PT",
