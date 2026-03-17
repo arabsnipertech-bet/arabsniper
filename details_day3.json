@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-17 17:52:19",
+    "updated_at": "2026-03-17 18:15:07",
     "day": 3,
     "date": "2026-03-19",
     "details": {
@@ -784,11 +784,11 @@
             "away_team": "Malacateco",
             "markets": {
                 "q1": 1.85,
-                "qx": 3.2,
-                "q2": 3.95,
+                "qx": 3.25,
+                "q2": 3.9,
                 "o25": 2.15,
                 "o05ht": 1.42,
-                "o15ht": 2.88
+                "o15ht": 2.9
             },
             "averages": {
                 "home_avg_ft": 2.625,
@@ -1358,12 +1358,12 @@
             "home_team": "Vasco DA Gama",
             "away_team": "Fluminense",
             "markets": {
-                "q1": 2.94,
-                "qx": 3.2,
+                "q1": 2.98,
+                "qx": 3.15,
                 "q2": 2.4,
                 "o25": 2.0,
-                "o05ht": 1.4,
-                "o15ht": 2.8
+                "o05ht": 1.38,
+                "o15ht": 2.65
             },
             "averages": {
                 "home_avg_ft": 2.5,
@@ -1382,8 +1382,8 @@
             "scores": {
                 "pt": 4.4,
                 "over": 5.5,
-                "boost": 4.862,
-                "gold": 4.271,
+                "boost": 5.062,
+                "gold": 4.339,
                 "max": 5.5
             },
             "tags": [
@@ -5013,12 +5013,12 @@
             "home_team": "AEK Athens FC",
             "away_team": "Celje",
             "markets": {
-                "q1": 1.22,
-                "qx": 5.6,
-                "q2": 13.5,
-                "o25": 1.6,
-                "o05ht": 1.25,
-                "o15ht": 2.2
+                "q1": 1.25,
+                "qx": 6.25,
+                "q2": 9.2,
+                "o25": 1.53,
+                "o05ht": 1.22,
+                "o15ht": 2.15
             },
             "averages": {
                 "home_avg_ft": 2.875,
@@ -5028,7 +5028,7 @@
                 "combined_ht_avg": 1.562
             },
             "flags": {
-                "fav_quote": 1.22,
+                "fav_quote": 1.25,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true,
@@ -5037,14 +5037,13 @@
             "scores": {
                 "pt": 6.2,
                 "over": 5.0,
-                "boost": 6.756,
-                "gold": 5.611,
-                "max": 6.756
+                "boost": 6.206,
+                "gold": 5.424,
+                "max": 6.206
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST",
                 "🐟O"
             ],
             "home_last_8": [
@@ -5593,8 +5592,8 @@
             "away_team": "VfB Stuttgart",
             "markets": {
                 "q1": 2.42,
-                "qx": 3.55,
-                "q2": 2.68,
+                "qx": 3.5,
+                "q2": 2.7,
                 "o25": 1.77,
                 "o05ht": 1.33,
                 "o15ht": 2.45
@@ -5978,11 +5977,11 @@
             "home_team": "Sparta Praha",
             "away_team": "AZ Alkmaar",
             "markets": {
-                "q1": 2.2,
-                "qx": 3.3,
-                "q2": 3.2,
+                "q1": 2.18,
+                "qx": 3.4,
+                "q2": 3.15,
                 "o25": 1.85,
-                "o05ht": 1.38,
+                "o05ht": 1.36,
                 "o15ht": 2.65
             },
             "averages": {
@@ -5993,7 +5992,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 2.2,
+                "fav_quote": 2.18,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -6002,13 +6001,14 @@
             "scores": {
                 "pt": 6.8,
                 "over": 5.1,
-                "boost": 6.132,
-                "gold": 5.561,
+                "boost": 6.482,
+                "gold": 5.68,
                 "max": 6.8
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
+                "🚀 BOOST",
                 "🐟G"
             ],
             "home_last_8": [
@@ -6362,9 +6362,9 @@
             "home_team": "Shakhtar Donetsk",
             "away_team": "Lech Poznan",
             "markets": {
-                "q1": 2.02,
-                "qx": 3.6,
-                "q2": 3.4,
+                "q1": 2.0,
+                "qx": 3.35,
+                "q2": 3.7,
                 "o25": 1.8,
                 "o05ht": 1.33,
                 "o15ht": 2.45
@@ -6377,7 +6377,7 @@
                 "combined_ht_avg": 1.25
             },
             "flags": {
-                "fav_quote": 2.02,
+                "fav_quote": 2.0,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true,
@@ -6392,8 +6392,7 @@
             },
             "tags": [
                 "🎯PT",
-                "⚽ OVER",
-                "🐟G"
+                "⚽ OVER"
             ],
             "home_last_8": [
                 {
