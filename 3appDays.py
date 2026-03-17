@@ -28,6 +28,7 @@ LEAGUE_BLACKLIST = ["u19", "u20", "youth", "women", "friendly", "carioca", "paul
 ROLLING_SNAPSHOT_HORIZONS = [1, 2, 3, 4, 5]
 
 REMOTE_MAIN_FILE = "data.json"
+REMOTE_SNAPSHOT_FILE = "snapshot_odds.json"
 REMOTE_DAY_FILES = {
     1: "data_day1.json",
     2: "data_day2.json",
@@ -98,6 +99,26 @@ def upload_day_to_github(day_num, results):
 
 
 def upload_details_to_github(day_num, payload):
+def upload_snapshot_to_github(payload):
+    return github_write_json(
+        REMOTE_SNAPSHOT_FILE,
+        payload,
+        "Update rolling snapshot odds"
+    )
+
+
+def download_remote_snapshot():
+    try:
+        url = f"https://raw.githubusercontent.com/Arabsnipertech-bet/arabsniper/main/{REMOTE_SNAPSHOT_FILE}?v={int(time.time())}"
+        r = requests.get(url, timeout=20)
+        if r.status_code != 200:
+            return None
+        payload = r.json()
+        if not isinstance(payload, dict):
+            return None
+        return payload
+    except Exception:
+        return None    
     return github_write_json(
         REMOTE_DETAILS_FILES[day_num],
         payload,
@@ -291,6 +312,8 @@ def save_snapshot_file(payload):
     with open(SNAP_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=4, ensure_ascii=False)
 
+    upload_snapshot_to_github(payload)
+
 
 def load_existing_snapshot_payload():
     if os.path.exists(SNAP_FILE):
@@ -302,6 +325,11 @@ def load_existing_snapshot_payload():
                     return payload
         except Exception:
             pass
+
+    remote_payload = download_remote_snapshot()
+    if isinstance(remote_payload, dict):
+        remote_payload.setdefault("odds", {})
+        return remote_payload
 
     return {
         "odds": {},
