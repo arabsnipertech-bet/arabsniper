@@ -1090,7 +1090,7 @@ if st.session_state.scan_results:
     if not full_view.empty:
         full_view = full_view.sort_values(by=["Ora", "Match"])
         view = full_view.copy()
-                def build_1x2_visual(row):
+        def build_1x2_visual(row):
             q1 = str(row.get("Q1_MOVE", "")).strip()
             qx = str(row.get("QX_MOVE", "")).strip()
             q2 = str(row.get("Q2_MOVE", "")).strip()
