@@ -2,7 +2,7 @@ name: Night Scan Guard
 
 on:
   schedule:
-    - cron: "30 2 * * *"
+    - cron: "13 2 * * *"
   workflow_dispatch:
 
 permissions:
