@@ -1089,14 +1089,68 @@ if st.session_state.scan_results:
 
     if not full_view.empty:
         full_view = full_view.sort_values(by=["Ora", "Match"])
-        view = full_view.drop(columns=["Data", "Fixture_ID"])
+        view = full_view.copy()
+                def build_1x2_visual(row):
+            q1 = str(row.get("Q1_MOVE", "")).strip()
+            qx = str(row.get("QX_MOVE", "")).strip()
+            q2 = str(row.get("Q2_MOVE", "")).strip()
+
+            base_1x2 = str(row.get("1X2", "")).split("|")
+            while len(base_1x2) < 3:
+                base_1x2.append("")
+
+            left = q1 if q1 else base_1x2[0]
+            mid = qx if qx else base_1x2[1]
+            right = q2 if q2 else base_1x2[2]
+
+            return f"""
+            <div style="line-height:1.15; white-space:pre-line;">
+                <div><b>1</b> {left}</div>
+                <div><b>X</b> {mid}</div>
+                <div><b>2</b> {right}</div>
+            </div>
+            """
+
+        def build_o25_visual(row):
+            move = str(row.get("O25_MOVE", "")).strip()
+            current = str(row.get("O2.5", "")).strip()
+
+            if move:
+                return f"""
+                <div style="line-height:1.15; white-space:pre-line;">
+                    {move}
+                </div>
+                """
+            return current
+
+        view["1X2_VIS"] = view.apply(build_1x2_visual, axis=1)
+        view["O25_VIS"] = view.apply(build_o25_visual, axis=1)
+
+        # Rimuoviamo colonne tecniche che non vogliamo mostrare in tabella
+        cols_to_drop = [
+            "Data", "Fixture_ID",
+            "Q1_OPEN", "QX_OPEN", "Q2_OPEN", "O25_OPEN",
+            "Q1_CURR", "QX_CURR", "Q2_CURR", "O25_CURR",
+            "Q1_MOVE", "QX_MOVE", "Q2_MOVE", "O25_MOVE",
+            "INVERSION", "INV_FROM", "INV_TO"
+        ]
+        view = view.drop(columns=[c for c in cols_to_drop if c in view.columns], errors="ignore")
+
+        if "1X2" in view.columns:
+            view["1X2"] = view["1X2_VIS"]
+
+        if "O2.5" in view.columns:
+            view["O2.5"] = view["O25_VIS"]
+
+        view = view.drop(columns=["1X2_VIS", "O25_VIS"], errors="ignore")
 
         st.markdown("""
             <style>
                 .main-container { width: 100%; max-height: 800px; overflow: auto; border: 1px solid #444; border-radius: 8px; background-color: #0e1117; }
                 .mobile-table { width: 100%; min-width: 1000px; border-collapse: separate; border-spacing: 0; font-family: sans-serif; font-size: 11px; }
                 .mobile-table th { position: sticky; top: 0; background: #1a1c23; color: #00e5ff; z-index: 10; padding: 12px 5px; border-bottom: 2px solid #333; border-right: 1px solid #333; }
-                .mobile-table td { padding: 8px 5px; border-bottom: 1px solid #333; border-right: 1px solid #333; text-align: center; white-space: nowrap; }
+                .mobile-table td { padding: 8px 5px; border-bottom: 1px solid #333; border-right: 1px solid #333; text-align: center; white-space: nowrap; vertical-align: middle; }
+                .mobile-table td div { white-space: pre-line; }
                 .row-gold { background-color: #FFD700 !important; color: black !important; font-weight: bold; }
                 .row-boost { background-color: #006400 !important; color: white !important; font-weight: bold; }
                 .row-over { background-color: #90EE90 !important; color: black !important; font-weight: bold; }
