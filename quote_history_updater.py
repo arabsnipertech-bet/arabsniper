@@ -7,6 +7,9 @@ BASE_DIR = Path(__file__).resolve().parent
 QUOTE_HISTORY_FILE = BASE_DIR / "quote_history.json"
 
 
+# =========================
+# IO HELPERS
+# =========================
 def load_json(path, default):
     if not path.exists():
         return default
@@ -31,17 +34,20 @@ def parse_float(v):
         return None
 
 
+def fmt_num(v):
+    if v is None:
+        return ""
+    try:
+        return f"{float(v):.2f}".rstrip("0").rstrip(".")
+    except Exception:
+        return str(v)
+
+
 def round_or_zero(v, nd=4):
     try:
         return round(float(v), nd)
     except Exception:
         return 0.0
-
-
-def market_drop(old_val, new_val):
-    if old_val is None or new_val is None:
-        return 0.0
-    return round_or_zero(old_val - new_val, 4)
 
 
 def normalize_fixture_id(v):
@@ -63,81 +69,52 @@ def dedupe_preserve_order(items):
     return out
 
 
-LIGHT_DROP = 0.04
-MEDIUM_DROP = 0.08
-STRONG_DROP = 0.15
+# =========================
+# SOGLIE
+# =========================
+DROP_1X2_LIGHT = 0.06
+DROP_1X2_MEDIUM = 0.12
+DROP_1X2_STRONG = 0.20
+
+DROP_O25_INFO = 0.08
 
 
-def strength_from_drop(value):
-    if value >= STRONG_DROP:
+def strength_1x2(value):
+    if value >= DROP_1X2_STRONG:
         return "strong"
-    if value >= MEDIUM_DROP:
+    if value >= DROP_1X2_MEDIUM:
         return "medium"
-    if value >= LIGHT_DROP:
+    if value >= DROP_1X2_LIGHT:
         return "light"
     return "none"
 
 
-def market_label_map():
-    return {
-        "o25": "O25",
-        "o05ht": "O05HT",
-        "o15ht": "O15HT",
-        "q1": "1",
-        "qx": "X",
-        "q2": "2",
+def market_drop(old_val, new_val):
+    """
+    Drop positivo = quota scesa.
+    Esempio: 2.10 -> 1.85 = +0.25
+    """
+    if old_val is None or new_val is None:
+        return 0.0
+    return round_or_zero(old_val - new_val, 4)
+
+
+def best_1x2_side(markets):
+    cands = {
+        "1": markets.get("q1"),
+        "X": markets.get("qx"),
+        "2": markets.get("q2"),
     }
+    valid = {k: v for k, v in cands.items() if v is not None}
+    if not valid:
+        return "", None
+    side = min(valid.items(), key=lambda x: x[1])[0]
+    return side, valid[side]
 
 
-def build_drop_tags(drop_map):
-    label_map = market_label_map()
-    positive = {k: v for k, v in drop_map.items() if v >= LIGHT_DROP}
-    if not positive:
-        return []
-
-    sorted_markets = sorted(positive.items(), key=lambda x: x[1], reverse=True)
-    best_market, best_value = sorted_markets[0]
-    strength = strength_from_drop(best_value)
-
-    tags = ["📉 DROP", f"📉 {label_map.get(best_market, best_market)}"]
-
-    if len(positive) >= 2:
-        tags.append("📉 MULTI")
-
-    if strength == "strong":
-        tags.append("🔥 DROP STRONG")
-    elif strength == "medium":
-        tags.append("⚠️ DROP MEDIUM")
-    elif strength == "light":
-        tags.append("▫️ DROP LIGHT")
-
-    return dedupe_preserve_order(tags)
-
-
-def build_info_drop_suffix(drop_map):
-    label_map = market_label_map()
-    positive = {k: v for k, v in drop_map.items() if v >= LIGHT_DROP}
-    if not positive:
-        return ""
-
-    best_market = max(positive.items(), key=lambda x: x[1])[0]
-    strength = strength_from_drop(positive[best_market])
-
-    bits = ["📉DROP", f"📉{label_map.get(best_market, best_market)}"]
-
-    if len(positive) >= 2:
-        bits.append("MULTI")
-
-    if strength == "strong":
-        bits.append("STRONG")
-    elif strength == "medium":
-        bits.append("MED")
-    else:
-        bits.append("LIGHT")
-
-    return " ".join(bits)
-
-
+# =========================
+# SNAPSHOT MERCATI
+# =========================
 def build_market_snapshot(detail_item):
     markets = detail_item.get("markets", {}) or {}
     return {
@@ -151,7 +128,11 @@ def build_market_snapshot(detail_item):
 
 
 def compute_drop_maps(history_points):
-    empty_map = {"q1": 0.0, "qx": 0.0, "q2": 0.0, "o25": 0.0, "o05ht": 0.0, "o15ht": 0.0}
+    """
+    open_map = dal primo snapshot all'ultimo
+    last_map = dal penultimo snapshot all'ultimo
+    """
+    empty_map = {"q1": 0.0, "qx": 0.0, "q2": 0.0, "o25": 0.0}
 
     if not history_points:
         return empty_map.copy(), empty_map.copy()
@@ -174,16 +155,90 @@ def compute_drop_maps(history_points):
     return open_map, last_map
 
 
-def best_positive_drop(drop_map):
-    best_key = None
-    best_val = 0.0
-    for key, val in drop_map.items():
-        if val > best_val:
-            best_key = key
-            best_val = val
-    return best_key, round_or_zero(best_val, 4)
+def detect_inversion(history_points):
+    """
+    INVERSION = la favorita iniziale non è più la favorita attuale.
+    """
+    if not history_points:
+        return False, "", "", None, None
+
+    first = history_points[0].get("markets", {})
+    last = history_points[-1].get("markets", {})
+
+    first_side, first_quote = best_1x2_side(first)
+    last_side, last_quote = best_1x2_side(last)
+
+    if not first_side or not last_side:
+        return False, first_side, last_side, first_quote, last_quote
+
+    inverted = first_side != last_side
+    return inverted, first_side, last_side, first_quote, last_quote
 
 
+# =========================
+# TAGS PROFESSIONALI
+# =========================
+def build_signal_tags(open_map, inversion_flag, inversion_from, inversion_to):
+    tags = []
+
+    # 1X2 forti
+    if open_map.get("q1", 0.0) >= DROP_1X2_LIGHT:
+        tags.append("DROP_1")
+    if open_map.get("qx", 0.0) >= DROP_1X2_LIGHT:
+        tags.append("DROP_X")
+    if open_map.get("q2", 0.0) >= DROP_1X2_LIGHT:
+        tags.append("DROP_2")
+
+    # O25 solo informativo
+    if open_map.get("o25", 0.0) >= DROP_O25_INFO:
+        tags.append("O25_DROP")
+
+    # Inversione
+    if inversion_flag:
+        tags.append("INVERSION")
+        if inversion_from and inversion_to:
+            tags.append(f"INV_{inversion_from}_TO_{inversion_to}")
+
+    return dedupe_preserve_order(tags)
+
+
+def build_strength_tags(open_map):
+    tags = []
+    for key, label in [("q1", "1"), ("qx", "X"), ("q2", "2")]:
+        val = open_map.get(key, 0.0)
+        lvl = strength_1x2(val)
+        if lvl == "strong":
+            tags.append(f"DROP_{label}_STRONG")
+        elif lvl == "medium":
+            tags.append(f"DROP_{label}_MED")
+    return dedupe_preserve_order(tags)
+
+
+def build_info_suffix(open_map, inversion_flag, inversion_from, inversion_to):
+    parts = []
+
+    if open_map.get("q1", 0.0) >= DROP_1X2_LIGHT:
+        parts.append("DROP_1")
+    if open_map.get("qx", 0.0) >= DROP_1X2_LIGHT:
+        parts.append("DROP_X")
+    if open_map.get("q2", 0.0) >= DROP_1X2_LIGHT:
+        parts.append("DROP_2")
+
+    if inversion_flag:
+        if inversion_from and inversion_to:
+            parts.append(f"INV {inversion_from}>{inversion_to}")
+        else:
+            parts.append("INVERSION")
+
+    if open_map.get("o25", 0.0) >= DROP_O25_INFO:
+        parts.append("O25_DROP")
+
+    return " ".join(parts).strip()
+
+
+# =========================
+# HISTORY UPDATE
+# =========================
 def append_history_from_day(day_num, label, history_db):
     path = BASE_DIR / f"details_day{day_num}.json"
     payload = load_json(path, {})
@@ -229,6 +284,8 @@ def append_history_from_day(day_num, label, history_db):
         }
 
         hist = rec.get("history", [])
+
+        # evita duplicato consecutivo identico
         if hist:
             last_point = hist[-1]
             last_markets = last_point.get("markets", {})
@@ -246,6 +303,9 @@ def append_history_from_day(day_num, label, history_db):
     return history_db
 
 
+# =========================
+# DETAILS ENRICHMENT
+# =========================
 def enrich_details_file(day_num, history_db):
     path = BASE_DIR / f"details_day{day_num}.json"
     payload = load_json(path, {})
@@ -269,36 +329,62 @@ def enrich_details_file(day_num, history_db):
             continue
 
         open_map, last_map = compute_drop_maps(hist)
-        best_market_open, best_open = best_positive_drop(open_map)
-        best_market_last, best_last = best_positive_drop(last_map)
+        inversion_flag, inversion_from, inversion_to, open_fav_q, curr_fav_q = detect_inversion(hist)
 
         flags = item.get("flags", {})
         if not isinstance(flags, dict):
             flags = {}
 
-        flags["drop_diff"] = round_or_zero(best_open, 4)
-        flags["drop_open_diff"] = round_or_zero(best_open, 4)
-        flags["drop_last_diff"] = round_or_zero(best_last, 4)
-        flags["drop_market"] = best_market_open or ""
-        flags["drop_last_market"] = best_market_last or ""
-        flags["drop_strength"] = strength_from_drop(best_open)
-        flags["history_points"] = len(hist)
-        flags["first_seen_at"] = hist[0].get("ts")
-        flags["last_seen_at"] = hist[-1].get("ts")
+        first_markets = hist[0].get("markets", {})
+        last_markets = hist[-1].get("markets", {})
 
-        flags["drop_o25"] = round_or_zero(open_map["o25"], 4)
-        flags["drop_o05ht"] = round_or_zero(open_map["o05ht"], 4)
-        flags["drop_o15ht"] = round_or_zero(open_map["o15ht"], 4)
+        # quote di apertura e quote attuali
+        flags["open_q1"] = first_markets.get("q1")
+        flags["open_qx"] = first_markets.get("qx")
+        flags["open_q2"] = first_markets.get("q2")
+        flags["open_o25"] = first_markets.get("o25")
+
+        flags["curr_q1"] = last_markets.get("q1")
+        flags["curr_qx"] = last_markets.get("qx")
+        flags["curr_q2"] = last_markets.get("q2")
+        flags["curr_o25"] = last_markets.get("o25")
+
+        # drop 1X2
         flags["drop_q1"] = round_or_zero(open_map["q1"], 4)
         flags["drop_qx"] = round_or_zero(open_map["qx"], 4)
         flags["drop_q2"] = round_or_zero(open_map["q2"], 4)
+        flags["drop_o25"] = round_or_zero(open_map["o25"], 4)
 
-        flags["drop_last_o25"] = round_or_zero(last_map["o25"], 4)
-        flags["drop_last_o05ht"] = round_or_zero(last_map["o05ht"], 4)
-        flags["drop_last_o15ht"] = round_or_zero(last_map["o15ht"], 4)
         flags["drop_last_q1"] = round_or_zero(last_map["q1"], 4)
         flags["drop_last_qx"] = round_or_zero(last_map["qx"], 4)
         flags["drop_last_q2"] = round_or_zero(last_map["q2"], 4)
+        flags["drop_last_o25"] = round_or_zero(last_map["o25"], 4)
+
+        # dominante 1X2
+        drop_candidates = {
+            "1": open_map["q1"],
+            "X": open_map["qx"],
+            "2": open_map["q2"],
+        }
+        best_side = max(drop_candidates.items(), key=lambda x: x[1])[0]
+        best_val = max(drop_candidates.values())
+
+        flags["drop_diff"] = round_or_zero(best_val, 4)
+        flags["drop_side"] = best_side if best_val >= DROP_1X2_LIGHT else ""
+        flags["drop_strength"] = strength_1x2(best_val)
+
+        # inversione
+        flags["inversion"] = bool(inversion_flag)
+        flags["inversion_from"] = inversion_from
+        flags["inversion_to"] = inversion_to
+        flags["open_fav_side"] = inversion_from
+        flags["curr_fav_side"] = inversion_to
+        flags["open_fav_quote"] = open_fav_q
+        flags["curr_fav_quote"] = curr_fav_q
+
+        flags["history_points"] = len(hist)
+        flags["first_seen_at"] = hist[0].get("ts")
+        flags["last_seen_at"] = hist[-1].get("ts")
 
         item["flags"] = flags
 
@@ -306,8 +392,10 @@ def enrich_details_file(day_num, history_db):
         if not isinstance(original_tags, list):
             original_tags = []
 
-        drop_tags = build_drop_tags(open_map)
-        item["tags"] = dedupe_preserve_order(original_tags + drop_tags)
+        signal_tags = build_signal_tags(open_map, inversion_flag, inversion_from, inversion_to)
+        strength_tags = build_strength_tags(open_map)
+
+        item["tags"] = dedupe_preserve_order(original_tags + signal_tags + strength_tags)
 
         details[str(fixture_id)] = item
         touched += 1
@@ -317,6 +405,9 @@ def enrich_details_file(day_num, history_db):
     print(f"✅ details_day{day_num}.json arricchito per {touched} fixture.")
 
 
+# =========================
+# DATA TABLE ENRICHMENT
+# =========================
 def enrich_data_file(day_num, history_db):
     path = BASE_DIR / f"data_day{day_num}.json"
     rows = load_json(path, [])
@@ -338,22 +429,46 @@ def enrich_data_file(day_num, history_db):
             continue
 
         open_map, _ = compute_drop_maps(hist)
-        info_suffix = build_info_drop_suffix(open_map)
+        inversion_flag, inversion_from, inversion_to, _, _ = detect_inversion(hist)
 
+        first_markets = hist[0].get("markets", {})
+        last_markets = hist[-1].get("markets", {})
+
+        # Info: aggiungiamo solo tag professionali nuovi
+        info_suffix = build_info_suffix(open_map, inversion_flag, inversion_from, inversion_to)
         current_info = str(row.get("Info", "")).strip()
-        if info_suffix:
-            if info_suffix not in current_info:
-                row["Info"] = (current_info + " " + info_suffix).strip()
-                touched += 1
+        if info_suffix and info_suffix not in current_info:
+            row["Info"] = (current_info + " " + info_suffix).strip()
+            touched += 1
+
+        # Campi extra per futura visualizzazione professionale in web/streamlit
+        row["Q1_OPEN"] = fmt_num(first_markets.get("q1"))
+        row["QX_OPEN"] = fmt_num(first_markets.get("qx"))
+        row["Q2_OPEN"] = fmt_num(first_markets.get("q2"))
+        row["O25_OPEN"] = fmt_num(first_markets.get("o25"))
+
+        row["Q1_CURR"] = fmt_num(last_markets.get("q1"))
+        row["QX_CURR"] = fmt_num(last_markets.get("qx"))
+        row["Q2_CURR"] = fmt_num(last_markets.get("q2"))
+        row["O25_CURR"] = fmt_num(last_markets.get("o25"))
+
+        # Stringhe compatte già pronte per essere mostrate in cella
+        row["Q1_MOVE"] = f"{fmt_num(last_markets.get('q1'))}\n↓ {fmt_num(first_markets.get('q1'))}" if first_markets.get("q1") and last_markets.get("q1") and open_map.get("q1", 0.0) >= DROP_1X2_LIGHT else ""
+        row["QX_MOVE"] = f"{fmt_num(last_markets.get('qx'))}\n↓ {fmt_num(first_markets.get('qx'))}" if first_markets.get("qx") and last_markets.get("qx") and open_map.get("qx", 0.0) >= DROP_1X2_LIGHT else ""
+        row["Q2_MOVE"] = f"{fmt_num(last_markets.get('q2'))}\n↓ {fmt_num(first_markets.get('q2'))}" if first_markets.get("q2") and last_markets.get("q2") and open_map.get("q2", 0.0) >= DROP_1X2_LIGHT else ""
+        row["O25_MOVE"] = f"{fmt_num(last_markets.get('o25'))}\n↓ {fmt_num(first_markets.get('o25'))}" if first_markets.get("o25") and last_markets.get("o25") and open_map.get("o25", 0.0) >= DROP_O25_INFO else ""
+
+        row["INVERSION"] = "YES" if inversion_flag else ""
+        row["INV_FROM"] = inversion_from or ""
+        row["INV_TO"] = inversion_to or ""
 
     save_json(path, rows)
-    print(f"✅ data_day{day_num}.json aggiornato con tag drop per {touched} righe.")
+    print(f"✅ data_day{day_num}.json aggiornato per {len(rows)} righe.")
 
     if day_num == 1:
         live_path = BASE_DIR / "data.json"
         live_rows = load_json(live_path, [])
         if isinstance(live_rows, list):
-            touched_live = 0
             for row in live_rows:
                 fixture_id = normalize_fixture_id(row.get("Fixture_ID"))
                 rec = history_db.get(fixture_id)
@@ -365,17 +480,42 @@ def enrich_data_file(day_num, history_db):
                     continue
 
                 open_map, _ = compute_drop_maps(hist)
-                info_suffix = build_info_drop_suffix(open_map)
+                inversion_flag, inversion_from, inversion_to, _, _ = detect_inversion(hist)
 
+                first_markets = hist[0].get("markets", {})
+                last_markets = hist[-1].get("markets", {})
+
+                info_suffix = build_info_suffix(open_map, inversion_flag, inversion_from, inversion_to)
                 current_info = str(row.get("Info", "")).strip()
                 if info_suffix and info_suffix not in current_info:
                     row["Info"] = (current_info + " " + info_suffix).strip()
-                    touched_live += 1
+
+                row["Q1_OPEN"] = fmt_num(first_markets.get("q1"))
+                row["QX_OPEN"] = fmt_num(first_markets.get("qx"))
+                row["Q2_OPEN"] = fmt_num(first_markets.get("q2"))
+                row["O25_OPEN"] = fmt_num(first_markets.get("o25"))
+
+                row["Q1_CURR"] = fmt_num(last_markets.get("q1"))
+                row["QX_CURR"] = fmt_num(last_markets.get("qx"))
+                row["Q2_CURR"] = fmt_num(last_markets.get("q2"))
+                row["O25_CURR"] = fmt_num(last_markets.get("o25"))
+
+                row["Q1_MOVE"] = f"{fmt_num(last_markets.get('q1'))}\n↓ {fmt_num(first_markets.get('q1'))}" if first_markets.get("q1") and last_markets.get("q1") and open_map.get("q1", 0.0) >= DROP_1X2_LIGHT else ""
+                row["QX_MOVE"] = f"{fmt_num(last_markets.get('qx'))}\n↓ {fmt_num(first_markets.get('qx'))}" if first_markets.get("qx") and last_markets.get("qx") and open_map.get("qx", 0.0) >= DROP_1X2_LIGHT else ""
+                row["Q2_MOVE"] = f"{fmt_num(last_markets.get('q2'))}\n↓ {fmt_num(first_markets.get('q2'))}" if first_markets.get("q2") and last_markets.get("q2") and open_map.get("q2", 0.0) >= DROP_1X2_LIGHT else ""
+                row["O25_MOVE"] = f"{fmt_num(last_markets.get('o25'))}\n↓ {fmt_num(first_markets.get('o25'))}" if first_markets.get("o25") and last_markets.get("o25") and open_map.get("o25", 0.0) >= DROP_O25_INFO else ""
+
+                row["INVERSION"] = "YES" if inversion_flag else ""
+                row["INV_FROM"] = inversion_from or ""
+                row["INV_TO"] = inversion_to or ""
 
             save_json(live_path, live_rows)
-            print(f"✅ data.json aggiornato con tag drop per {touched_live} righe.")
+            print(f"✅ data.json aggiornato con logica drop/inversion.")
 
 
+# =========================
+# MAIN
+# =========================
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", required=True, help="Lista giorni separati da virgola, es. 1,2,3")
@@ -394,12 +534,14 @@ def main():
 
     history_db = load_json(QUOTE_HISTORY_FILE, {})
 
+    # 1) aggiorna lo storico
     for day_num in days:
         history_db = append_history_from_day(day_num, args.label, history_db)
 
     save_json(QUOTE_HISTORY_FILE, history_db)
     print(f"✅ quote_history.json aggiornato. Fixture archiviate: {len(history_db)}")
 
+    # 2) arricchisce details e data
     for day_num in days:
         enrich_details_file(day_num, history_db)
         enrich_data_file(day_num, history_db)
