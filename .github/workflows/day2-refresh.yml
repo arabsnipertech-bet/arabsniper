@@ -1,9 +1,9 @@
-name: Day2 Refresh
+name: Evening Multi Refresh
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 20 * * *"
+    - cron: "10 19 * * *"
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  day2-refresh:
+  evening-multi-refresh:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,19 +36,26 @@ jobs:
         run: |
           test -f quote_history.json || echo "{}" > quote_history.json
 
-      - name: Run Day2 refresh
+      - name: Run evening multi refresh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           TZ: Europe/Rome
           PYTHONUNBUFFERED: "1"
-        run: python 3appDays_runner.py --refresh-day2
+        run: python 3appDays_runner.py --evening-multi
 
       - name: Save generated files temporarily
         run: |
           mkdir -p /tmp/arabsniper_out
+          cp -f data.json /tmp/arabsniper_out/ 2>/dev/null || true
+          cp -f data_day1.json /tmp/arabsniper_out/ 2>/dev/null || true
           cp -f data_day2.json /tmp/arabsniper_out/ 2>/dev/null || true
+          cp -f data_day3.json /tmp/arabsniper_out/ 2>/dev/null || true
+          cp -f data_day4.json /tmp/arabsniper_out/ 2>/dev/null || true
+          cp -f details_day1.json /tmp/arabsniper_out/ 2>/dev/null || true
           cp -f details_day2.json /tmp/arabsniper_out/ 2>/dev/null || true
+          cp -f details_day3.json /tmp/arabsniper_out/ 2>/dev/null || true
+          cp -f details_day4.json /tmp/arabsniper_out/ 2>/dev/null || true
           cp -f quote_history.json /tmp/arabsniper_out/ 2>/dev/null || true
 
       - name: Refresh repo to latest main
@@ -59,8 +66,15 @@ jobs:
 
       - name: Restore generated files
         run: |
+          cp -f /tmp/arabsniper_out/data.json . 2>/dev/null || true
+          cp -f /tmp/arabsniper_out/data_day1.json . 2>/dev/null || true
           cp -f /tmp/arabsniper_out/data_day2.json . 2>/dev/null || true
+          cp -f /tmp/arabsniper_out/data_day3.json . 2>/dev/null || true
+          cp -f /tmp/arabsniper_out/data_day4.json . 2>/dev/null || true
+          cp -f /tmp/arabsniper_out/details_day1.json . 2>/dev/null || true
           cp -f /tmp/arabsniper_out/details_day2.json . 2>/dev/null || true
+          cp -f /tmp/arabsniper_out/details_day3.json . 2>/dev/null || true
+          cp -f /tmp/arabsniper_out/details_day4.json . 2>/dev/null || true
           cp -f /tmp/arabsniper_out/quote_history.json . 2>/dev/null || true
 
       - name: Commit updated files
@@ -68,12 +82,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data_day2.json details_day2.json quote_history.json || true
+          git add data.json data_day1.json data_day2.json data_day3.json data_day4.json details_day1.json details_day2.json details_day3.json details_day4.json quote_history.json || true
 
           if git diff --cached --quiet; then
             echo "Nessuna modifica da committare"
             exit 0
           fi
 
-          git commit -m "Day2 refresh update"
+          git commit -m "Evening multi refresh update"
           git push origin main
