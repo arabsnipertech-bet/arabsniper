@@ -1089,14 +1089,72 @@ if st.session_state.scan_results:
 
     if not full_view.empty:
         full_view = full_view.sort_values(by=["Ora", "Match"])
-        view = full_view.drop(columns=["Data", "Fixture_ID"])
+        view = full_view.copy()
+
+        # Prepariamo colonne visuali professionali senza toccare la logica segnali
+        def build_1x2_visual(row):
+            q1 = row.get("Q1_MOVE", "")
+            qx = row.get("QX_MOVE", "")
+            q2 = row.get("Q2_MOVE", "")
+
+            base_1x2 = str(row.get("1X2", "")).split("|")
+            while len(base_1x2) < 3:
+                base_1x2.append("")
+
+            left = q1 if str(q1).strip() else base_1x2[0]
+            mid = qx if str(qx).strip() else base_1x2[1]
+            right = q2 if str(q2).strip() else base_1x2[2]
+
+            return f"""
+            <div style="line-height:1.15; white-space:pre-line;">
+                <div><b>1</b> {left}</div>
+                <div><b>X</b> {mid}</div>
+                <div><b>2</b> {right}</div>
+            </div>
+            """
+
+        def build_o25_visual(row):
+            move = str(row.get("O25_MOVE", "")).strip()
+            current = str(row.get("O2.5", "")).strip()
+
+            if move:
+                return f"""
+                <div style="line-height:1.15; white-space:pre-line;">
+                    {move}
+                </div>
+                """
+
+            return current
+
+        view["1X2_VIS"] = view.apply(build_1x2_visual, axis=1)
+        view["O25_VIS"] = view.apply(build_o25_visual, axis=1)
+
+        # Teniamo solo le colonne utili alla tabella principale
+        drop_cols_if_exist = [
+            "Data", "Fixture_ID",
+            "Q1_OPEN", "QX_OPEN", "Q2_OPEN", "O25_OPEN",
+            "Q1_CURR", "QX_CURR", "Q2_CURR", "O25_CURR",
+            "Q1_MOVE", "QX_MOVE", "Q2_MOVE", "O25_MOVE",
+            "INVERSION", "INV_FROM", "INV_TO"
+        ]
+        cols_to_drop = [c for c in drop_cols_if_exist if c in view.columns]
+        view = view.drop(columns=cols_to_drop, errors="ignore")
+
+        # Sostituiamo le colonne visuali
+        if "1X2" in view.columns:
+            view["1X2"] = view["1X2_VIS"]
+        if "O2.5" in view.columns:
+            view["O2.5"] = view["O25_VIS"]
+
+        view = view.drop(columns=["1X2_VIS", "O25_VIS"], errors="ignore")
 
         st.markdown("""
             <style>
                 .main-container { width: 100%; max-height: 800px; overflow: auto; border: 1px solid #444; border-radius: 8px; background-color: #0e1117; }
                 .mobile-table { width: 100%; min-width: 1000px; border-collapse: separate; border-spacing: 0; font-family: sans-serif; font-size: 11px; }
                 .mobile-table th { position: sticky; top: 0; background: #1a1c23; color: #00e5ff; z-index: 10; padding: 12px 5px; border-bottom: 2px solid #333; border-right: 1px solid #333; }
-                .mobile-table td { padding: 8px 5px; border-bottom: 1px solid #333; border-right: 1px solid #333; text-align: center; white-space: nowrap; }
+                .mobile-table td { padding: 8px 5px; border-bottom: 1px solid #333; border-right: 1px solid #333; text-align: center; white-space: nowrap; vertical-align: middle; }
+                .mobile-table td div { white-space: pre-line; }
                 .row-gold { background-color: #FFD700 !important; color: black !important; font-weight: bold; }
                 .row-boost { background-color: #006400 !important; color: white !important; font-weight: bold; }
                 .row-over { background-color: #90EE90 !important; color: black !important; font-weight: bold; }
@@ -1119,9 +1177,14 @@ if st.session_state.scan_results:
 
         for _, row in view.iterrows():
             cls = get_row_class(row["Info"])
-            html += f'<tr class="{cls}">' + ''.join(f'<td>{v}</td>' for v in row) + '</tr>'
+            html += f'<tr class="{cls}">'
+            for col in view.columns:
+                value = row[col]
+                html += f'<td>{value}</td>'
+            html += '</tr>'
 
         html += '</tbody></table></div>'
+        st.markdown(html, unsafe_allow_html=True)
         st.markdown(html, unsafe_allow_html=True)
 
         st.markdown("---")
