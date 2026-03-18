@@ -153,7 +153,6 @@ class FakeStreamlitModule(types.ModuleType):
         return decorator
 
 
-# Finto modulo streamlit PRIMA dell'import della web app
 fake_st = FakeStreamlitModule()
 sys.modules["streamlit"] = fake_st
 
@@ -231,23 +230,23 @@ def run_night():
     return 0
 
 
-def run_fast_day1():
-    print("⚡ RUNNER: avvio refresh Day1...", flush=True)
+def run_mid_day1():
+    print("☀️ RUNNER: avvio refresh centrale Day1...", flush=True)
     app.HORIZON = 1
     app.run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False)
-    print("✅ RUNNER: refresh Day1 completato.", flush=True)
+    print("✅ RUNNER: refresh centrale Day1 completato.", flush=True)
 
-    run_quote_history([1], "fast_day1")
+    run_quote_history([1], "mid_day1")
     return 0
 
 
-def run_day2_refresh():
-    print("🌆 RUNNER: avvio refresh Day2...", flush=True)
-    app.HORIZON = 2
-    app.run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False)
-    print("✅ RUNNER: refresh Day2 completato.", flush=True)
+def run_evening_multi():
+    print("🌆 RUNNER: avvio refresh serale multi-day (Day1..Day4)...", flush=True)
+    app.HORIZON = 4
+    app.run_full_scan(horizon=4, snap=False, update_main_site=True, show_success=False)
+    print("✅ RUNNER: refresh serale multi-day completato.", flush=True)
 
-    run_quote_history([2], "refresh_day2")
+    run_quote_history([1, 2, 3, 4], "evening_multi")
     return 0
 
 
@@ -257,13 +256,13 @@ def main():
     if "--night" in args:
         return run_night()
 
-    if "--fast-day1" in args:
-        return run_fast_day1()
+    if "--mid-day1" in args:
+        return run_mid_day1()
 
-    if "--refresh-day2" in args:
-        return run_day2_refresh()
+    if "--evening-multi" in args:
+        return run_evening_multi()
 
-    print("❌ Argomento non valido. Usa: --night | --fast-day1 | --refresh-day2", flush=True)
+    print("❌ Argomento non valido. Usa: --night | --mid-day1 | --evening-multi", flush=True)
     return 1
 
 
