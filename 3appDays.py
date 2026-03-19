@@ -997,30 +997,36 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                 time.sleep(0.2)
 
             current_db = {str(r["Fixture_ID"]): r for r in st.session_state.scan_results}
-            target_date_ids = {str(r["Fixture_ID"]) for r in final_list}
 
-            for existing in list(current_db.keys()):
-                existing_row = current_db[existing]
-                if existing_row.get("Data") == target_date and existing not in target_date_ids:
-                    del current_db[existing]
+            if final_list:
+                target_date_ids = {str(r["Fixture_ID"]) for r in final_list}
 
-            for r in final_list:
-                current_db[str(r["Fixture_ID"])] = r
+                for existing in list(current_db.keys()):
+                    existing_row = current_db[existing]
+                    if existing_row.get("Data") == target_date and existing not in target_date_ids:
+                        del current_db[existing]
 
-            st.session_state.scan_results = list(current_db.values())
-            st.session_state.scan_results.sort(key=lambda x: (x.get("Data", ""), x.get("Ora", "99:99")))
+                for r in final_list:
+                    current_db[str(r["Fixture_ID"])] = r
 
-            with open(DB_FILE, "w", encoding="utf-8") as f:
-                json.dump({"results": st.session_state.scan_results}, f, indent=4, ensure_ascii=False)
+                st.session_state.scan_results = list(current_db.values())
+                st.session_state.scan_results.sort(key=lambda x: (x.get("Data", ""), x.get("Ora", "99:99")))
 
-            st.session_state.match_details = details_map
-            save_match_details_file()
+                with open(DB_FILE, "w", encoding="utf-8") as f:
+                    json.dump({"results": st.session_state.scan_results}, f, indent=4, ensure_ascii=False)
 
-            status_main, status_day, status_details = sync_day_outputs_to_github(
-                day_num=use_horizon,
-                update_main=update_main_site
-            )
+                st.session_state.match_details = details_map
+                save_match_details_file()
 
+                status_main, status_day, status_details = sync_day_outputs_to_github(
+                    day_num=use_horizon,
+                    update_main=update_main_site
+                )
+            else:
+                print(f"⚠️ Nessun match valido trovato per day {use_horizon} ({target_date}) -> mantengo i file esistenti, nessuna sovrascrittura.", flush=True)
+                status_main = "SKIPPED_EMPTY"
+                status_day = "SKIPPED_EMPTY"
+                status_details = "SKIPPED_EMPTY"
             if show_success:
                 if update_main_site:
                     if status_main == "SUCCESS":
