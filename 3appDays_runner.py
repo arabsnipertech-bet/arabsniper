@@ -258,6 +258,37 @@ def read_json_safe(path: Path):
         return None
 
 
+def write_json_atomic(path: Path, payload):
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(payload, indent=4, ensure_ascii=False), encoding="utf-8")
+    # validazione prima del replace
+    json.loads(tmp.read_text(encoding="utf-8"))
+    tmp.replace(path)
+
+
+def export_local_day_outputs(days=None, update_main_from_day1=True):
+    if days is None:
+        days = [1, 2, 3, 4, 5]
+
+    for day_num in days:
+        try:
+            day_results = app.build_day_results(day_num)
+            details_payload = app.build_day_details_payload(day_num)
+
+            write_json_atomic(BASE_DIR / f"data_day{day_num}.json", day_results)
+            write_json_atomic(BASE_DIR / f"details_day{day_num}.json", details_payload)
+            print(
+                f"💾 Export locale day{day_num}: data={len(day_results)} | details={len(details_payload.get('details', {}))}",
+                flush=True,
+            )
+
+            if day_num == 1 and update_main_from_day1:
+                write_json_atomic(BASE_DIR / "data.json", day_results)
+                print("💾 Export locale data.json da day1", flush=True)
+        except Exception as e:
+            print(f"⚠️ Export locale fallito per day{day_num}: {e}", flush=True)
+
+
 def expected_day1_date() -> str:
     return app.get_target_dates()[0]
 
@@ -274,12 +305,39 @@ def is_day1_synced_correctly() -> bool:
     return actual == expected
 
 
+def is_non_empty_text(text: str) -> bool:
+    return bool(str(text or "").strip())
+
+
+def validate_remote_json_text(name: str, text: str):
+    if not is_non_empty_text(text):
+        return False, "contenuto vuoto"
+
+    try:
+        obj = json.loads(text)
+    except Exception as e:
+        return False, f"json non valido: {e}"
+
+    if name.startswith("data"):
+        if not isinstance(obj, list):
+            return False, "data file non è una lista"
+        if name in ("data.json", "data_day1.json", "data_day2.json", "data_day3.json", "data_day4.json") and len(obj) == 0:
+            return False, "data file vuoto"
+        return True, "ok"
+
+    if name.startswith("details"):
+        if not isinstance(obj, dict):
+            return False, "details file non è un oggetto"
+        if "details" not in obj:
+            return False, "chiave 'details' mancante"
+        if not isinstance(obj.get("details"), dict):
+            return False, "campo 'details' non è un dict"
+        return True, "ok"
+
+    return True, "ok"
+
+
 def sync_remote_outputs_to_local(max_attempts=6, wait_seconds=10):
-    """
-    Dopo che 3appDays.py ha scritto i file su GitHub via API,
-    li riscarichiamo tramite GitHub Contents API (non raw CDN).
-    Continuiamo a riprovare finché data_day1.json non contiene la data attesa.
-    """
     print("🔄 Sincronizzo i file remoti GitHub nel workspace locale...", flush=True)
 
     expected = expected_day1_date()
@@ -292,15 +350,39 @@ def sync_remote_outputs_to_local(max_attempts=6, wait_seconds=10):
 
         for name in SYNC_FILES:
             dest = BASE_DIR / name
+            tmp_dest = BASE_DIR / f"{name}.tmp"
+
             try:
                 text = fetch_github_file(name)
-                dest.write_text(text, encoding="utf-8")
+                is_valid, reason = validate_remote_json_text(name, text)
+                if not is_valid:
+                    print(f"⚠️ Sync scartata per {name}: {reason}", flush=True)
+                    continue
+
+                tmp_dest.write_text(text, encoding="utf-8")
+                tmp_obj = read_json_safe(tmp_dest)
+                if tmp_obj is None:
+                    print(f"⚠️ Sync scartata per {name}: file tmp non leggibile", flush=True)
+                    try:
+                        tmp_dest.unlink(missing_ok=True)
+                    except Exception:
+                        pass
+                    continue
+
+                tmp_dest.replace(dest)
                 print(f"✅ Sync locale: {name}", flush=True)
+
             except Exception as e:
                 all_ok = False
                 print(f"⚠️ Sync fallita per {name}: {e}", flush=True)
+            finally:
+                try:
+                    if tmp_dest.exists():
+                        tmp_dest.unlink()
+                except Exception:
+                    pass
 
-        if all_ok and is_day1_synced_correctly():
+        if is_day1_synced_correctly():
             print("✅ Sync completata: data_day1.json contiene la data corretta.", flush=True)
             return True
 
@@ -319,21 +401,18 @@ def sync_remote_outputs_to_local(max_attempts=6, wait_seconds=10):
     return False
 
 
-def run_quote_history(days, label):
-    args = [
+def run_quote_history(days: str, label: str):
+    cmd = [
         sys.executable,
         "-u",
         str(BASE_DIR / "quote_history_updater.py"),
         "--days",
-        ",".join(str(d) for d in days),
+        days,
         "--label",
         label,
     ]
-    print("🧠 Aggiorno quote_history:", " ".join(args), flush=True)
-    result = subprocess.run(args, cwd=str(BASE_DIR))
-    if result.returncode != 0:
-        print("⚠️ Aggiornamento quote_history terminato con errore.", flush=True)
-    return result.returncode
+    print(f"🧠 Aggiorno quote_history: {' '.join(cmd)}", flush=True)
+    subprocess.run(cmd, cwd=BASE_DIR, check=False)
 
 
 def run_night():
@@ -341,64 +420,48 @@ def run_night():
     archive_live_files()
 
     print("🌙 RUNNER: avvio build multi-day notturna...", flush=True)
-    app.HORIZON = 1
     app.run_nightly_multiday_build()
     print("✅ RUNNER: build multi-day completata.", flush=True)
 
-    synced = sync_remote_outputs_to_local()
-    if not synced:
-        print("❌ Interrompo: i file remoti non sono coerenti, evito di sporcare quote_history.", flush=True)
-        return 1
+    # NUOVO: esporta SEMPRE i file day in locale prima della sync remota
+    export_local_day_outputs(days=[1, 2, 3, 4, 5], update_main_from_day1=True)
 
-    result = run_quote_history([1, 2, 3, 4, 5], "night")
-    return result
+    sync_remote_outputs_to_local()
+    run_quote_history("1,2,3,4,5", "night")
 
 
 def run_mid_day1():
-    print("☀️ RUNNER: avvio refresh centrale Day1...", flush=True)
-    app.HORIZON = 1
+    print("☀️ RUNNER: refresh veloce day1...", flush=True)
     app.run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False)
-    print("✅ RUNNER: refresh centrale Day1 completato.", flush=True)
-
-    synced = sync_remote_outputs_to_local()
-    if not synced:
-        print("❌ Interrompo: i file remoti non sono coerenti dopo mid-day1.", flush=True)
-        return 1
-
-    result = run_quote_history([1], "mid_day1")
-    return result
+    export_local_day_outputs(days=[1], update_main_from_day1=True)
+    sync_remote_outputs_to_local(max_attempts=4, wait_seconds=5)
+    run_quote_history("1", "mid-day1")
 
 
 def run_evening_multi():
-    print("🌆 RUNNER: avvio refresh serale multi-day (Day1..Day4)...", flush=True)
-    app.HORIZON = 4
-    app.run_full_scan(horizon=4, snap=False, update_main_site=True, show_success=False)
-    print("✅ RUNNER: refresh serale multi-day completato.", flush=True)
-
-    synced = sync_remote_outputs_to_local()
-    if not synced:
-        print("❌ Interrompo: i file remoti non sono coerenti dopo evening-multi.", flush=True)
-        return 1
-
-    result = run_quote_history([1, 2, 3, 4], "evening_multi")
-    return result
+    print("🌆 RUNNER: refresh serale multi-day (day1-day4)...", flush=True)
+    app.run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False)
+    app.run_full_scan(horizon=2, snap=False, update_main_site=False, show_success=False)
+    app.run_full_scan(horizon=3, snap=False, update_main_site=False, show_success=False)
+    app.run_full_scan(horizon=4, snap=False, update_main_site=False, show_success=False)
+    export_local_day_outputs(days=[1, 2, 3, 4], update_main_from_day1=True)
+    sync_remote_outputs_to_local(max_attempts=4, wait_seconds=5)
+    run_quote_history("1,2,3,4", "evening-multi")
 
 
 def main():
-    args = sys.argv[1:]
+    arg = sys.argv[1] if len(sys.argv) > 1 else ""
 
-    if "--night" in args:
-        return run_night()
-
-    if "--mid-day1" in args:
-        return run_mid_day1()
-
-    if "--evening-multi" in args:
-        return run_evening_multi()
-
-    print("❌ Argomento non valido. Usa: --night | --mid-day1 | --evening-multi", flush=True)
-    return 1
+    if arg == "--night":
+        run_night()
+    elif arg == "--mid-day1":
+        run_mid_day1()
+    elif arg == "--evening-multi":
+        run_evening_multi()
+    else:
+        print("❌ Argomento non valido. Usa: --night | --mid-day1 | --evening-multi", flush=True)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
