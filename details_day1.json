@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-19 12:42:52",
+    "updated_at": "2026-03-19 13:08:59",
     "day": 1,
     "date": "2026-03-19",
     "details": {
@@ -1738,12 +1738,12 @@
             "home_team": "Viimsi",
             "away_team": "Tallinna Kalev",
             "markets": {
-                "q1": 1.55,
-                "qx": 4.1,
-                "q2": 4.33,
-                "o25": 1.36,
+                "q1": 1.57,
+                "qx": 4.2,
+                "q2": 4.0,
+                "o25": 1.4,
                 "o05ht": 1.2,
-                "o15ht": 1.85
+                "o15ht": 1.9
             },
             "averages": {
                 "home_avg_ft": 3.875,
@@ -1753,7 +1753,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 1.55,
+                "fav_quote": 1.57,
                 "is_gold_zone": true,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
@@ -1761,10 +1761,10 @@
             },
             "scores": {
                 "pt": 6.3,
-                "over": 4.0,
-                "boost": 5.764,
-                "gold": 6.196,
-                "max": 6.3
+                "over": 4.8,
+                "boost": 6.148,
+                "gold": 6.566,
+                "max": 6.566
             },
             "tags": [
                 "🎯PT",
@@ -2122,9 +2122,9 @@
             "home_team": "KFUM Oslo",
             "away_team": "Fredrikstad",
             "markets": {
-                "q1": 2.1,
+                "q1": 2.15,
                 "qx": 3.2,
-                "q2": 3.3,
+                "q2": 3.1,
                 "o25": 2.05,
                 "o05ht": 1.42,
                 "o15ht": 2.95
@@ -2137,7 +2137,7 @@
                 "combined_ht_avg": 1.5
             },
             "flags": {
-                "fav_quote": 2.1,
+                "fav_quote": 2.15,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -3467,11 +3467,11 @@
             "away_team": "Brann",
             "markets": {
                 "q1": 5.0,
-                "qx": 3.8,
-                "q2": 1.57,
-                "o25": 1.5,
-                "o05ht": 1.22,
-                "o15ht": 2.05
+                "qx": 3.9,
+                "q2": 1.55,
+                "o25": 1.65,
+                "o05ht": 1.28,
+                "o15ht": 2.3
             },
             "averages": {
                 "home_avg_ft": 3.25,
@@ -3481,23 +3481,24 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.57,
+                "fav_quote": 1.55,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.0
+                "drop_diff": 0.02
             },
             "scores": {
                 "pt": 6.8,
-                "over": 5.2,
-                "boost": 6.53,
-                "gold": 6.926,
-                "max": 6.926
+                "over": 6.2,
+                "boost": 7.56,
+                "gold": 7.576,
+                "max": 7.576
             },
             "tags": [
                 "⚽⭐ GOLD",
                 "🎯PT",
                 "⚽ OVER",
+                "🚀 BOOST",
                 "🐟O"
             ],
             "home_last_8": [
@@ -4427,12 +4428,12 @@
             "home_team": "Real Betis",
             "away_team": "Panathinaikos",
             "markets": {
-                "q1": 1.38,
-                "qx": 4.45,
-                "q2": 8.2,
-                "o25": 1.85,
-                "o05ht": 1.36,
-                "o15ht": 2.65
+                "q1": 1.39,
+                "qx": 4.5,
+                "q2": 7.6,
+                "o25": 1.8,
+                "o05ht": 1.33,
+                "o15ht": 2.45
             },
             "averages": {
                 "home_avg_ft": 2.5,
@@ -4442,7 +4443,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 1.38,
+                "fav_quote": 1.39,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": true,
