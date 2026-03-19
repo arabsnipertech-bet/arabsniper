@@ -502,8 +502,6 @@ def enrich_data_file(day_num, history_db):
         print(f"⚠️ data_day{day_num}.json non valido per enrich.")
         return
 
-    touched = 0
-
     for row in rows:
         fixture_id = normalize_fixture_id(row.get("Fixture_ID"))
         rec = history_db.get(fixture_id)
@@ -525,7 +523,6 @@ def enrich_data_file(day_num, history_db):
         current_info = str(row.get("Info", "")).strip()
         if info_suffix and info_suffix not in current_info:
             row["Info"] = (current_info + " " + info_suffix).strip()
-            touched += 1
 
         # Campi extra per futura visualizzazione professionale in web/streamlit
         row["Q1_OPEN"] = fmt_num(first_markets.get("q1"))
@@ -596,4 +593,43 @@ def enrich_data_file(day_num, history_db):
                 row["INV_TO"] = inversion_to or ""
 
             save_json(live_path, live_rows)
-            print(f"✅ data.json aggiorn
+            print(f"✅ data.json aggiornato per {len(live_rows)} righe.")
+
+
+# =========================
+# MAIN
+# =========================
+def main():
+    parser = argparse.ArgumentParser(description="Aggiorna quote_history e arricchisce data/details con variazioni quota.")
+    parser.add_argument("--days", required=True, help="Lista giorni separati da virgola, es. 1,2,3,4,5")
+    parser.add_argument("--label", default="manual", help="Etichetta dello snapshot, es. night / mid_day1 / evening_multi")
+    args = parser.parse_args()
+
+    try:
+        days = [int(x.strip()) for x in str(args.days).split(",") if str(x).strip()]
+    except Exception:
+        print("❌ Parametro --days non valido.")
+        return 1
+
+    history_db = load_json(QUOTE_HISTORY_FILE, {})
+    if not isinstance(history_db, dict):
+        history_db = {}
+
+    for day_num in days:
+        history_db = append_history_from_day(day_num, args.label, history_db)
+
+    save_json(QUOTE_HISTORY_FILE, history_db)
+    print(f"✅ quote_history.json aggiornato con {len(history_db)} fixture totali.")
+
+    for day_num in days:
+        enrich_details_file(day_num, history_db)
+
+    for day_num in days:
+        enrich_data_file(day_num, history_db)
+
+    print("✅ quote_history_updater completato.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
