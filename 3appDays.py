@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import json
 import os
 import time
@@ -52,6 +52,33 @@ except Exception:
 
 def now_rome():
     return datetime.now(ROME_TZ) if ROME_TZ else datetime.now()
+
+
+def fixture_dt_rome(fixture_obj):
+    """
+    Converte la data fixture in Europe/Rome in modo robusto.
+    Usa timestamp se disponibile, altrimenti prova con il campo date ISO.
+    """
+    try:
+        ts = fixture_obj.get("timestamp")
+        if ts:
+            dt_utc = datetime.fromtimestamp(int(ts), tz=timezone.utc)
+            return dt_utc.astimezone(ROME_TZ) if ROME_TZ else dt_utc
+    except Exception:
+        pass
+
+    try:
+        raw = str(fixture_obj.get("date", "")).strip()
+        if raw:
+            raw = raw.replace("Z", "+00:00")
+            dt = datetime.fromisoformat(raw)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(ROME_TZ) if ROME_TZ else dt
+    except Exception:
+        pass
+
+    return None
 
 
 st.set_page_config(page_title="ARAB SNIPER V24.1 MULTI-DAY WEB", layout="wide")
@@ -892,6 +919,9 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                 home_team = f["teams"]["home"]
                 away_team = f["teams"]["away"]
 
+                fixture_local_dt = fixture_dt_rome(f["fixture"])
+                ora_local = fixture_local_dt.strftime("%H:%M") if fixture_local_dt else f["fixture"]["date"][11:16]
+
                 s_h = get_team_performance(s, home_team["id"])
                 s_a = get_team_performance(s, away_team["id"])
                 if not s_h or not s_a:
@@ -911,7 +941,7 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                 is_gold_zone = signal_pack["is_gold_zone"]
 
                 row = {
-                    "Ora": f["fixture"]["date"][11:16],
+                    "Ora": ora_local,
                     "Lega": f"{f['league']['name']} ({cnt})",
                     "Match": f"{home_team['name']} - {away_team['name']}",
                     "FAV": "✅" if is_gold_zone else "❌",
@@ -922,15 +952,15 @@ def run_full_scan(horizon=None, snap=False, update_main_site=False, show_success
                     "AVG FT": f"{s_h['avg_total']:.1f}|{s_a['avg_total']:.1f}",
                     "AVG HT": f"{s_h['avg_ht']:.1f}|{s_a['avg_ht']:.1f}",
                     "Info": " ".join(tags),
-                    "Data": f["fixture"]["date"][:10],
+                    "Data": target_date,
                     "Fixture_ID": f["fixture"]["id"]
                 }
                 final_list.append(row)
 
                 details_map[fid] = {
                     "fixture_id": f["fixture"]["id"],
-                    "date": f["fixture"]["date"][:10],
-                    "time": f["fixture"]["date"][11:16],
+                    "date": target_date,
+                    "time": ora_local,
                     "league": f["league"]["name"],
                     "country": cnt,
                     "match": f"{home_team['name']} - {away_team['name']}",
