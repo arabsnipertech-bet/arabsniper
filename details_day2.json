@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-19 11:47:45",
+    "updated_at": "2026-03-19 12:31:12",
     "day": 2,
     "date": "2026-03-20",
     "details": {
@@ -781,7 +781,7 @@
             "away_team": "Independiente del Valle",
             "markets": {
                 "q1": 3.45,
-                "qx": 3.25,
+                "qx": 3.2,
                 "q2": 2.14,
                 "o25": 2.15,
                 "o05ht": 1.42,
@@ -1546,9 +1546,9 @@
             "home_team": "Albirex Niigata",
             "away_team": "Kataller Toyama",
             "markets": {
-                "q1": 2.05,
+                "q1": 2.1,
                 "qx": 3.4,
-                "q2": 3.2,
+                "q2": 3.1,
                 "o25": 1.75,
                 "o05ht": 1.33,
                 "o15ht": 2.45
@@ -1561,7 +1561,7 @@
                 "combined_ht_avg": 1.375
             },
             "flags": {
-                "fav_quote": 2.05,
+                "fav_quote": 2.1,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -9224,8 +9224,8 @@
             "away_team": "Uta Arad",
             "markets": {
                 "q1": 1.49,
-                "qx": 4.0,
-                "q2": 5.9,
+                "qx": 4.1,
+                "q2": 5.8,
                 "o25": 1.7,
                 "o05ht": 1.33,
                 "o15ht": 2.45
@@ -12686,9 +12686,9 @@
                 "q1": 3.75,
                 "qx": 3.1,
                 "q2": 1.95,
-                "o25": 2.45,
+                "o25": 2.35,
                 "o05ht": 1.48,
-                "o15ht": 3.2
+                "o15ht": 3.1
             },
             "averages": {
                 "home_avg_ft": 2.375,
@@ -12706,10 +12706,10 @@
             },
             "scores": {
                 "pt": 3.6,
-                "over": 4.2,
-                "boost": 3.934,
-                "gold": 3.39,
-                "max": 4.2
+                "over": 5.2,
+                "boost": 4.414,
+                "gold": 3.853,
+                "max": 5.2
             },
             "tags": [
                 "⚽ OVER"
