@@ -127,6 +127,68 @@ def build_market_snapshot(detail_item):
     }
 
 
+def build_market_snapshot_from_row(row):
+    parts = str(row.get("1X2", "")).split("|")
+    while len(parts) < 3:
+        parts.append("")
+
+    return {
+        "q1": parse_float(parts[0]),
+        "qx": parse_float(parts[1]),
+        "q2": parse_float(parts[2]),
+        "o25": parse_float(row.get("O2.5")),
+        "o05ht": parse_float(row.get("O0.5H")),
+        "o15ht": parse_float(row.get("O1.5H")),
+    }
+
+
+def extract_country_from_lega(lega_value):
+    lega = str(lega_value or "")
+    if "(" in lega and ")" in lega:
+        try:
+            return lega.rsplit("(", 1)[1].replace(")", "").strip()
+        except Exception:
+            return ""
+    return ""
+
+
+def append_history_point(history_db, fixture_id, match_name, country, league, day_date, day_num, label, markets, ts):
+    rec = history_db.get(fixture_id, {
+        "fixture_id": fixture_id,
+        "match": match_name,
+        "country": country,
+        "league": league,
+        "first_date": day_date,
+        "history": []
+    })
+
+    rec["match"] = match_name or rec.get("match", "")
+    rec["country"] = country or rec.get("country", "")
+    rec["league"] = league or rec.get("league", "")
+    rec["first_date"] = rec.get("first_date") or day_date
+
+    point = {
+        "ts": ts,
+        "label": label,
+        "day": day_num,
+        "date": day_date,
+        "markets": markets
+    }
+
+    hist = rec.get("history", [])
+    if hist:
+        last_point = hist[-1]
+        last_markets = last_point.get("markets", {})
+        if last_markets == markets:
+            history_db[fixture_id] = rec
+            return history_db, False  # invariato
+
+    hist.append(point)
+    rec["history"] = hist[-40:]
+    history_db[fixture_id] = rec
+    return history_db, True  # aggiornato
+
+
 def compute_drop_maps(history_points):
     """
     open_map = dal primo snapshot all'ultimo
@@ -240,66 +302,90 @@ def build_info_suffix(open_map, inversion_flag, inversion_from, inversion_to):
 # HISTORY UPDATE
 # =========================
 def append_history_from_day(day_num, label, history_db):
-    path = BASE_DIR / f"details_day{day_num}.json"
-    payload = load_json(path, {})
+    details_path = BASE_DIR / f"details_day{day_num}.json"
+    data_path = BASE_DIR / f"data_day{day_num}.json"
 
-    if not isinstance(payload, dict) or "details" not in payload:
-        print(f"⚠️ details_day{day_num}.json non valido o mancante.")
-        return history_db
-
+    details_payload = load_json(details_path, {})
     ts = datetime.now().isoformat(timespec="seconds")
     updated = 0
     skipped = 0
 
-    details = payload.get("details", {})
-    for fixture_id, item in details.items():
-        fixture_id = normalize_fixture_id(item.get("fixture_id", fixture_id))
+    # =========================
+    # PRIORITÀ 1: details_dayX.json
+    # =========================
+    if isinstance(details_payload, dict) and isinstance(details_payload.get("details"), dict):
+        details = details_payload.get("details", {})
 
-        markets = build_market_snapshot(item)
-        match_name = item.get("match", "")
-        country = item.get("country", "")
-        league = item.get("league", "")
-        day_date = item.get("date", payload.get("date", ""))
+        for fixture_id, item in details.items():
+            fixture_id = normalize_fixture_id(item.get("fixture_id", fixture_id))
+            markets = build_market_snapshot(item)
+            match_name = item.get("match", "")
+            country = item.get("country", "")
+            league = item.get("league", "")
+            day_date = item.get("date", details_payload.get("date", ""))
 
-        rec = history_db.get(fixture_id, {
-            "fixture_id": fixture_id,
-            "match": match_name,
-            "country": country,
-            "league": league,
-            "first_date": day_date,
-            "history": []
-        })
+            history_db, was_updated = append_history_point(
+                history_db=history_db,
+                fixture_id=fixture_id,
+                match_name=match_name,
+                country=country,
+                league=league,
+                day_date=day_date,
+                day_num=day_num,
+                label=label,
+                markets=markets,
+                ts=ts
+            )
 
-        rec["match"] = match_name or rec.get("match", "")
-        rec["country"] = country or rec.get("country", "")
-        rec["league"] = league or rec.get("league", "")
-        rec["first_date"] = rec.get("first_date") or day_date
-
-        point = {
-            "ts": ts,
-            "label": label,
-            "day": day_num,
-            "date": day_date,
-            "markets": markets
-        }
-
-        hist = rec.get("history", [])
-
-        # evita duplicato consecutivo identico
-        if hist:
-            last_point = hist[-1]
-            last_markets = last_point.get("markets", {})
-            if last_markets == markets:
+            if was_updated:
+                updated += 1
+            else:
                 skipped += 1
-                history_db[fixture_id] = rec
-                continue
 
-        hist.append(point)
-        rec["history"] = hist[-40:]
-        history_db[fixture_id] = rec
-        updated += 1
+        print(f"🧠 DAY{day_num}: history aggiornata per {updated} fixture, {skipped} invariati.")
+        return history_db
 
-    print(f"🧠 DAY{day_num}: history aggiornata per {updated} fixture, {skipped} invariati.")
+    # =========================
+    # FALLBACK: data_dayX.json
+    # =========================
+    rows = load_json(data_path, [])
+    if not isinstance(rows, list):
+        print(f"⚠️ details_day{day_num}.json non valido o mancante, e data_day{day_num}.json non valido.")
+        return history_db
+
+    print(f"⚠️ details_day{day_num}.json non valido o mancante. Uso fallback da data_day{day_num}.json")
+
+    for row in rows:
+        fixture_id = normalize_fixture_id(row.get("Fixture_ID"))
+        if not fixture_id:
+            continue
+
+        markets = build_market_snapshot_from_row(row)
+        match_name = row.get("Match", "")
+        lega = row.get("Lega", "")
+        country = extract_country_from_lega(lega)
+        day_date = row.get("Data", "")
+        league = lega
+
+        history_db, was_updated = append_history_point(
+            history_db=history_db,
+            fixture_id=fixture_id,
+            match_name=match_name,
+            country=country,
+            league=league,
+            day_date=day_date,
+            day_num=day_num,
+            label=label,
+            markets=markets,
+            ts=ts
+        )
+
+        if was_updated:
+            updated += 1
+        else:
+            skipped += 1
+
+    print(f"🧠 DAY{day_num}: history aggiornata per {updated} fixture, {skipped} invariati. (fallback data_day)")
     return history_db
 
 
@@ -510,42 +596,4 @@ def enrich_data_file(day_num, history_db):
                 row["INV_TO"] = inversion_to or ""
 
             save_json(live_path, live_rows)
-            print(f"✅ data.json aggiornato con logica drop/inversion.")
-
-
-# =========================
-# MAIN
-# =========================
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--days", required=True, help="Lista giorni separati da virgola, es. 1,2,3")
-    parser.add_argument("--label", default="manual")
-    args = parser.parse_args()
-
-    days = []
-    for part in args.days.split(","):
-        part = part.strip()
-        if part.isdigit():
-            days.append(int(part))
-
-    if not days:
-        print("❌ Nessun day valido passato a --days")
-        return
-
-    history_db = load_json(QUOTE_HISTORY_FILE, {})
-
-    # 1) aggiorna lo storico
-    for day_num in days:
-        history_db = append_history_from_day(day_num, args.label, history_db)
-
-    save_json(QUOTE_HISTORY_FILE, history_db)
-    print(f"✅ quote_history.json aggiornato. Fixture archiviate: {len(history_db)}")
-
-    # 2) arricchisce details e data
-    for day_num in days:
-        enrich_details_file(day_num, history_db)
-        enrich_data_file(day_num, history_db)
-
-
-if __name__ == "__main__":
-    main()
+            print(f"✅ data.json aggiorn
