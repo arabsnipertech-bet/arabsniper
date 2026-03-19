@@ -3,12 +3,15 @@ import types
 import importlib.util
 import subprocess
 import shutil
+import requests
 from pathlib import Path
 from datetime import datetime
 
 BASE_DIR = Path(__file__).resolve().parent
 APP_PATH = BASE_DIR / "3appDays.py"
 ARCHIVE_DIR = BASE_DIR / "archives"
+
+RAW_BASE = "https://raw.githubusercontent.com/arabsnipertech-bet/arabsniper/main/"
 
 
 # =========================
@@ -183,6 +186,20 @@ LIVE_FILES = [
     "quote_history.json",
 ]
 
+SYNC_FILES = [
+    "data.json",
+    "data_day1.json",
+    "data_day2.json",
+    "data_day3.json",
+    "data_day4.json",
+    "data_day5.json",
+    "details_day1.json",
+    "details_day2.json",
+    "details_day3.json",
+    "details_day4.json",
+    "details_day5.json",
+]
+
 
 def archive_live_files():
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -198,6 +215,29 @@ def archive_live_files():
 
     print(f"📦 Backup creato in: {target}", flush=True)
     print(f"📦 File copiati: {copied}", flush=True)
+
+
+def sync_remote_outputs_to_local():
+    """
+    Dopo che 3appDays.py ha scritto i file su GitHub via API,
+    li riscarichiamo nel workspace locale del workflow.
+    Così quote_history lavora sui file freschi, non su copie vecchie.
+    """
+    print("🔄 Sincronizzo i file remoti GitHub nel workspace locale...", flush=True)
+
+    stamp = datetime.now().strftime("%Y%m%d%H%M%S")
+
+    for name in SYNC_FILES:
+        url = f"{RAW_BASE}{name}?v={stamp}"
+        dest = BASE_DIR / name
+
+        try:
+            r = requests.get(url, timeout=30)
+            r.raise_for_status()
+            dest.write_text(r.text, encoding="utf-8")
+            print(f"✅ Sync locale: {name}", flush=True)
+        except Exception as e:
+            print(f"⚠️ Sync fallita per {name}: {e}", flush=True)
 
 
 def run_quote_history(days, label):
@@ -226,6 +266,7 @@ def run_night():
     app.run_nightly_multiday_build()
     print("✅ RUNNER: build multi-day completata.", flush=True)
 
+    sync_remote_outputs_to_local()
     run_quote_history([1, 2, 3, 4, 5], "night")
     return 0
 
@@ -236,6 +277,7 @@ def run_mid_day1():
     app.run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False)
     print("✅ RUNNER: refresh centrale Day1 completato.", flush=True)
 
+    sync_remote_outputs_to_local()
     run_quote_history([1], "mid_day1")
     return 0
 
@@ -246,6 +288,7 @@ def run_evening_multi():
     app.run_full_scan(horizon=4, snap=False, update_main_site=True, show_success=False)
     print("✅ RUNNER: refresh serale multi-day completato.", flush=True)
 
+    sync_remote_outputs_to_local()
     run_quote_history([1, 2, 3, 4], "evening_multi")
     return 0
 
