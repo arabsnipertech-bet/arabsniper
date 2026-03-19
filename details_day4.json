@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-19 12:59:07",
+    "updated_at": "2026-03-19 13:25:39",
     "day": 4,
     "date": "2026-03-22",
     "details": {
@@ -1694,9 +1694,9 @@
             "home_team": "Sao Paulo",
             "away_team": "Palmeiras",
             "markets": {
-                "q1": 2.6,
+                "q1": 2.68,
                 "qx": 3.4,
-                "q2": 2.54,
+                "q2": 2.48,
                 "o25": 2.0,
                 "o05ht": 1.38,
                 "o15ht": 2.8
@@ -1709,21 +1709,22 @@
                 "combined_ht_avg": 1.062
             },
             "flags": {
-                "fav_quote": 2.54,
+                "fav_quote": 2.48,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.0
+                "drop_diff": 0.06
             },
             "scores": {
                 "pt": 3.7,
-                "over": 4.4,
-                "boost": 4.268,
-                "gold": 3.585,
-                "max": 4.4
+                "over": 4.75,
+                "boost": 4.661,
+                "gold": 4.074,
+                "max": 4.75
             },
             "tags": [
                 "⚽ OVER",
+                "📉-0.06",
                 "🐟G"
             ],
             "home_last_8": [
