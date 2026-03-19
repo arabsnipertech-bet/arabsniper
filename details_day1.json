@@ -1,778 +1,8 @@
 {
-    "updated_at": "2026-03-19 12:16:44",
+    "updated_at": "2026-03-19 12:28:08",
     "day": 1,
     "date": "2026-03-19",
     "details": {
-        "1445910": {
-            "fixture_id": 1445910,
-            "date": "2026-03-19",
-            "time": "12:00",
-            "league": "Premyer Liqa",
-            "country": "Azerbaijan",
-            "match": "Karvan - Zira",
-            "home_team": "Karvan",
-            "away_team": "Zira",
-            "markets": {
-                "q1": 8.75,
-                "qx": 4.0,
-                "q2": 1.36,
-                "o25": 2.0,
-                "o05ht": 1.38,
-                "o15ht": 2.75
-            },
-            "averages": {
-                "home_avg_ft": 2.25,
-                "away_avg_ft": 2.375,
-                "home_avg_ht": 1.5,
-                "away_avg_ht": 1.25,
-                "combined_ht_avg": 1.375
-            },
-            "flags": {
-                "fav_quote": 1.36,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 6.4,
-                "over": 6.2,
-                "boost": 7.058,
-                "gold": 6.118,
-                "max": 7.058
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Premyer Liqa",
-                    "match": "Araz - Karvan",
-                    "ht": "2-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Premyer Liqa",
-                    "match": "Karvan - Sumqayıt",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Premyer Liqa",
-                    "match": "Qabala - Karvan",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Premyer Liqa",
-                    "match": "Karvan - Araz",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Premyer Liqa",
-                    "match": "Zira - Karvan",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Premyer Liqa",
-                    "match": "Turan - Karvan",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Premyer Liqa",
-                    "match": "Karvan - Sumqayıt",
-                    "ht": "0-2",
-                    "ft": "0-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Premyer Liqa",
-                    "match": "Sabah FA - Karvan",
-                    "ht": "3-0",
-                    "ft": "4-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "Premyer Liqa",
-                    "match": "Zira - Qarabag",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-09",
-                    "league": "Premyer Liqa",
-                    "match": "Zira - Kapaz",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-03",
-                    "league": "Cup",
-                    "match": "Zira - Sumqayıt",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Premyer Liqa",
-                    "match": "Araz - Zira",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Premyer Liqa",
-                    "match": "Turan - Zira",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Premyer Liqa",
-                    "match": "Zira - Karvan",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Premyer Liqa",
-                    "match": "Sumqayıt - Zira",
-                    "ht": "1-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-04",
-                    "league": "Cup",
-                    "match": "Sumqayıt - Zira",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                }
-            ]
-        },
-        "1458152": {
-            "fixture_id": 1458152,
-            "date": "2026-03-19",
-            "time": "12:00",
-            "league": "Tercera División RFEF - Group 1",
-            "country": "Spain",
-            "match": "Atlético Arteixo - Coruña",
-            "home_team": "Atlético Arteixo",
-            "away_team": "Coruña",
-            "markets": {
-                "q1": 2.5,
-                "qx": 2.9,
-                "q2": 2.65,
-                "o25": 2.05,
-                "o05ht": 1.45,
-                "o15ht": 0.0
-            },
-            "averages": {
-                "home_avg_ft": 2.75,
-                "away_avg_ft": 2.875,
-                "home_avg_ht": 1.25,
-                "away_avg_ht": 1.25,
-                "combined_ht_avg": 1.25
-            },
-            "flags": {
-                "fav_quote": 2.5,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.1,
-                "over": 5.8,
-                "boost": 5.972,
-                "gold": 5.342,
-                "max": 5.972
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-15",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Arosa - Atlético Arteixo",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Atlético Arteixo - Viveiro",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Villalbés - Atlético Arteixo",
-                    "ht": "0-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Atlético Arteixo - Barbadás",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Alondras - Atlético Arteixo",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Atlético Arteixo - Polvorín",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Celta de Vigo III - Atlético Arteixo",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-18",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Silva - Atlético Arteixo",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-15",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Coruña - Noia",
-                    "ht": "1-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Villalbés - Coruña",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Alondras - Coruña",
-                    "ht": "1-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Coruña - Polvorín",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Celta de Vigo III - Coruña",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Coruña - Silva",
-                    "ht": "2-0",
-                    "ft": "4-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Celtiga - Coruña",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-18",
-                    "league": "Tercera División RFEF - Group 1",
-                    "match": "Cambados - Coruña",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                }
-            ]
-        },
-        "1466940": {
-            "fixture_id": 1466940,
-            "date": "2026-03-19",
-            "time": "12:00",
-            "league": "Birinci Dasta",
-            "country": "Azerbaijan",
-            "match": "Difai Ağsu - Cəbrayıl",
-            "home_team": "Difai Ağsu",
-            "away_team": "Cəbrayıl",
-            "markets": {
-                "q1": 2.7,
-                "qx": 3.35,
-                "q2": 2.2,
-                "o25": 1.65,
-                "o05ht": 1.3,
-                "o15ht": 2.3
-            },
-            "averages": {
-                "home_avg_ft": 4.5,
-                "away_avg_ft": 4.0,
-                "home_avg_ht": 2.0,
-                "away_avg_ht": 2.0,
-                "combined_ht_avg": 2.0
-            },
-            "flags": {
-                "fav_quote": 2.2,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.3,
-                "over": 5.8,
-                "boost": 6.798,
-                "gold": 5.667,
-                "max": 6.798
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🚀 BOOST",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-12",
-                    "league": "Birinci Dasta",
-                    "match": "Difai Ağsu - Baku Sportinq",
-                    "ht": "1-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "Birinci Dasta",
-                    "match": "MOIK - Difai Ağsu",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-25",
-                    "league": "Birinci Dasta",
-                    "match": "Difai Ağsu - Safa Baku",
-                    "ht": "0-3",
-                    "ft": "1-8",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 9
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Birinci Dasta",
-                    "match": "Zaqatala - Difai Ağsu",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Birinci Dasta",
-                    "match": "Difai Ağsu - Şimal",
-                    "ht": "2-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Birinci Dasta",
-                    "match": "Şahdağ - Difai Ağsu",
-                    "ht": "1-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-12-25",
-                    "league": "Birinci Dasta",
-                    "match": "Difai Ağsu - Cəbrayıl",
-                    "ht": "3-1",
-                    "ft": "5-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2025-12-18",
-                    "league": "Birinci Dasta",
-                    "match": "Difai Ağsu - Mingəçevir",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Birinci Dasta",
-                    "match": "Cəbrayıl - Zaqatala",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "Birinci Dasta",
-                    "match": "Cəbrayıl - Səbail",
-                    "ht": "0-2",
-                    "ft": "1-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Birinci Dasta",
-                    "match": "Şimal - Cəbrayıl",
-                    "ht": "1-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-18",
-                    "league": "Birinci Dasta",
-                    "match": "Cəbrayıl - Baku Sportinq",
-                    "ht": "0-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Birinci Dasta",
-                    "match": "Şahdağ - Cəbrayıl",
-                    "ht": "2-1",
-                    "ft": "4-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Birinci Dasta",
-                    "match": "Cəbrayıl - MOIK",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-12-25",
-                    "league": "Birinci Dasta",
-                    "match": "Difai Ağsu - Cəbrayıl",
-                    "ht": "3-1",
-                    "ft": "5-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2025-12-19",
-                    "league": "Birinci Dasta",
-                    "match": "Cəbrayıl - Safa Baku",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ]
-        },
-        "1466941": {
-            "fixture_id": 1466941,
-            "date": "2026-03-19",
-            "time": "12:00",
-            "league": "Birinci Dasta",
-            "country": "Azerbaijan",
-            "match": "Şimal - Zaqatala",
-            "home_team": "Şimal",
-            "away_team": "Zaqatala",
-            "markets": {
-                "q1": 5.4,
-                "qx": 3.8,
-                "q2": 1.48,
-                "o25": 1.6,
-                "o05ht": 1.3,
-                "o15ht": 2.2
-            },
-            "averages": {
-                "home_avg_ft": 3.75,
-                "away_avg_ft": 2.5,
-                "home_avg_ht": 1.5,
-                "away_avg_ht": 1.0,
-                "combined_ht_avg": 1.25
-            },
-            "flags": {
-                "fav_quote": 1.48,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.4,
-                "over": 5.4,
-                "boost": 6.644,
-                "gold": 6.717,
-                "max": 6.717
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🚀 BOOST",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-11",
-                    "league": "Birinci Dasta",
-                    "match": "Şimal - Safa Baku",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-05",
-                    "league": "Birinci Dasta",
-                    "match": "Zaqatala - Şimal",
-                    "ht": "2-2",
-                    "ft": "3-4",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-24",
-                    "league": "Birinci Dasta",
-                    "match": "Şimal - Cəbrayıl",
-                    "ht": "1-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Birinci Dasta",
-                    "match": "Şimal - Şahdağ",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Birinci Dasta",
-                    "match": "Difai Ağsu - Şimal",
-                    "ht": "2-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Birinci Dasta",
-                    "match": "Şimal - Mingəçevir",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-12-24",
-                    "league": "Birinci Dasta",
-                    "match": "Səbail - Şimal",
-                    "ht": "1-0",
-                    "ft": "3-4",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2025-12-17",
-                    "league": "Birinci Dasta",
-                    "match": "Şimal - Baku Sportinq",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "Birinci Dasta",
-                    "match": "Cəbrayıl - Zaqatala",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-05",
-                    "league": "Birinci Dasta",
-                    "match": "Zaqatala - Şimal",
-                    "ht": "2-2",
-                    "ft": "3-4",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-25",
-                    "league": "Birinci Dasta",
-                    "match": "Şahdağ - Zaqatala",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Birinci Dasta",
-                    "match": "Zaqatala - Difai Ağsu",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-13",
-                    "league": "Birinci Dasta",
-                    "match": "Mingəçevir - Zaqatala",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Birinci Dasta",
-                    "match": "Zaqatala - Səbail",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-12-24",
-                    "league": "Birinci Dasta",
-                    "match": "Baku Sportinq - Zaqatala",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-12-17",
-                    "league": "Birinci Dasta",
-                    "match": "Zaqatala - MOIK",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                }
-            ]
-        },
         "1458154": {
             "fixture_id": 1458154,
             "date": "2026-03-19",
@@ -2893,10 +2123,10 @@
             "markets": {
                 "q1": 1.35,
                 "qx": 4.85,
-                "q2": 8.1,
-                "o25": 1.62,
-                "o05ht": 1.28,
-                "o15ht": 2.3
+                "q2": 8.0,
+                "o25": 1.57,
+                "o05ht": 1.25,
+                "o15ht": 2.2
             },
             "averages": {
                 "home_avg_ft": 3.0,
@@ -2915,14 +2145,13 @@
             "scores": {
                 "pt": 6.2,
                 "over": 5.8,
-                "boost": 7.14,
-                "gold": 5.982,
-                "max": 7.14
+                "boost": 6.79,
+                "gold": 5.863,
+                "max": 6.79
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "🚀 BOOST",
                 "🐟O"
             ],
             "home_last_8": [
@@ -3853,10 +3082,10 @@
             "home_team": "FSV Mainz 05",
             "away_team": "Sigma Olomouc",
             "markets": {
-                "q1": 1.37,
+                "q1": 1.36,
                 "qx": 4.75,
-                "q2": 7.75,
-                "o25": 1.83,
+                "q2": 8.2,
+                "o25": 1.85,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -3868,11 +3097,11 @@
                 "combined_ht_avg": 1.438
             },
             "flags": {
-                "fav_quote": 1.37,
+                "fav_quote": 1.36,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.0
+                "drop_diff": 0.01
             },
             "scores": {
                 "pt": 6.0,
@@ -4640,20 +3869,19 @@
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.25
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 6.0,
-                "over": 5.84,
-                "boost": 7.623,
-                "gold": 6.664,
-                "max": 7.623
+                "over": 5.0,
+                "boost": 6.68,
+                "gold": 5.541,
+                "max": 6.68
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
                 "🚀 BOOST",
-                "📉-0.25",
                 "🐟G"
             ],
             "home_last_8": [
@@ -5025,19 +4253,18 @@
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.1
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 4.4,
-                "over": 6.03,
-                "boost": 6.071,
-                "gold": 5.841,
-                "max": 6.071
+                "over": 5.4,
+                "boost": 5.364,
+                "gold": 4.862,
+                "max": 5.4
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "📉-0.10",
                 "🐟G"
             ],
             "home_last_8": [
@@ -5218,7 +4445,7 @@
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.03
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 6.0,
@@ -5779,8 +5006,8 @@
             "markets": {
                 "q1": 1.65,
                 "qx": 3.65,
-                "q2": 5.3,
-                "o25": 2.0,
+                "q2": 5.2,
+                "o25": 1.93,
                 "o05ht": 1.36,
                 "o15ht": 2.65
             },
@@ -6372,19 +5599,18 @@
                 "is_gold_zone": false,
                 "home_last_2h_zero": true,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.1
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 5.2,
-                "over": 6.03,
-                "boost": 6.725,
-                "gold": 6.24,
-                "max": 6.725
+                "over": 5.4,
+                "boost": 6.018,
+                "gold": 5.26,
+                "max": 6.018
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
-                "📉-0.10",
                 "🐟G"
             ],
             "home_last_8": [
