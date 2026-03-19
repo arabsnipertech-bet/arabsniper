@@ -4,9 +4,9 @@
         "Lega": "Primera B (Chile)",
         "Match": "Union Espanola - D. Puerto Montt",
         "FAV": "❌",
-        "1X2": "2.2|3.2|2.9",
-        "O2.5": "1.93",
-        "O0.5H": "1.38",
+        "1X2": "2.3|3.2|2.9",
+        "O2.5": "1.95",
+        "O0.5H": "1.40",
         "O1.5H": "2.75",
         "AVG FT": "2.6|2.6",
         "AVG HT": "1.4|1.2",
@@ -211,6 +211,21 @@
     },
     {
         "Ora": "07:00",
+        "Lega": "New South Wales NPL (Australia)",
+        "Match": "SD Raiders - Manly United",
+        "FAV": "❌",
+        "1X2": "2.5|3.4|2.4",
+        "O2.5": "1.73",
+        "O0.5H": "1.33",
+        "O1.5H": "2.50",
+        "AVG FT": "3.6|1.5",
+        "AVG HT": "1.8|0.5",
+        "Info": "🎯PT 🐟G",
+        "Data": "2026-03-21",
+        "Fixture_ID": 1517479
+    },
+    {
+        "Ora": "07:00",
         "Lega": "New South Wales NPL 2 (Australia)",
         "Match": "Newcastle Jets II - Blacktown Spartans",
         "FAV": "❌",
@@ -238,21 +253,6 @@
         "Info": "🎯PT ⚽ OVER 🐟O",
         "Data": "2026-03-21",
         "Fixture_ID": 1523704
-    },
-    {
-        "Ora": "07:00",
-        "Lega": "New South Wales NPL (Australia)",
-        "Match": "SD Raiders - Manly United",
-        "FAV": "❌",
-        "1X2": "2.5|3.4|2.4",
-        "O2.5": "1.73",
-        "O0.5H": "1.33",
-        "O1.5H": "2.50",
-        "AVG FT": "3.6|1.5",
-        "AVG HT": "1.8|0.5",
-        "Info": "🎯PT 🐟G",
-        "Data": "2026-03-21",
-        "Fixture_ID": 1517479
     },
     {
         "Ora": "07:10",
@@ -330,6 +330,21 @@
         "Fixture_ID": 1517715
     },
     {
+        "Ora": "08:30",
+        "Lega": "Super League (China)",
+        "Match": "Beijing Guoan - Shanghai Shenhua",
+        "FAV": "❌",
+        "1X2": "2.1|3.8|2.9",
+        "O2.5": "1.42",
+        "O0.5H": "1.20",
+        "O1.5H": "1.95",
+        "AVG FT": "3.1|2.9",
+        "AVG HT": "0.9|1.6",
+        "Info": "⚽ OVER 🐟G",
+        "Data": "2026-03-21",
+        "Fixture_ID": 1523077
+    },
+    {
         "Ora": "09:00",
         "Lega": "New South Wales NPL 2 (Australia)",
         "Match": "Mt Druitt Town - Bulls Academy",
@@ -343,21 +358,6 @@
         "Info": "🎯PT ⚽ OVER 🐟G",
         "Data": "2026-03-21",
         "Fixture_ID": 1517714
-    },
-    {
-        "Ora": "09:00",
-        "Lega": "Victoria NPL (Australia)",
-        "Match": "Dandenong Thunder - South Melbourne",
-        "FAV": "❌",
-        "1X2": "3.0|3.5|2.1",
-        "O2.5": "1.65",
-        "O0.5H": "1.30",
-        "O1.5H": "2.38",
-        "AVG FT": "2.5|2.6",
-        "AVG HT": "1.6|1.1",
-        "Info": "🎯PT ⚽ OVER 🚀 BOOST 🐟G",
-        "Data": "2026-03-21",
-        "Fixture_ID": 1521894
     },
     {
         "Ora": "09:00",
@@ -388,6 +388,36 @@
         "Info": "🎯PT ⚽ OVER 🐟O",
         "Data": "2026-03-21",
         "Fixture_ID": 1517717
+    },
+    {
+        "Ora": "09:00",
+        "Lega": "New South Wales NPL 2 (Australia)",
+        "Match": "Canterbury Bankstown - Hurstville FC",
+        "FAV": "❌",
+        "1X2": "2.1|3.6|2.8",
+        "O2.5": "1.65",
+        "O0.5H": "1.26",
+        "O1.5H": "2.39",
+        "AVG FT": "3.6|3.5",
+        "AVG HT": "2.1|1.8",
+        "Info": "🎯PT ⚽ OVER 🚀 BOOST 🐟G",
+        "Data": "2026-03-21",
+        "Fixture_ID": 1517870
+    },
+    {
+        "Ora": "09:00",
+        "Lega": "Victoria NPL (Australia)",
+        "Match": "Dandenong Thunder - South Melbourne",
+        "FAV": "❌",
+        "1X2": "3.0|3.5|2.1",
+        "O2.5": "1.65",
+        "O0.5H": "1.30",
+        "O1.5H": "2.38",
+        "AVG FT": "2.5|2.6",
+        "AVG HT": "1.6|1.1",
+        "Info": "🎯PT ⚽ OVER 🚀 BOOST 🐟G",
+        "Data": "2026-03-21",
+        "Fixture_ID": 1521894
     },
     {
         "Ora": "09:00",
@@ -580,7 +610,7 @@
         "O1.5H": "2.62",
         "AVG FT": "2.1|3.0",
         "AVG HT": "1.5|1.2",
-        "Info": "🎯PT ⚽ OVER 🚀 BOOST 📉-0.10 🐟G",
+        "Info": "🎯PT ⚽ OVER 🚀 BOOST 🐟G",
         "Data": "2026-03-21",
         "Fixture_ID": 1391576
     },
@@ -628,6 +658,21 @@
         "Info": "🎯PT ⚽ OVER 🚀 BOOST",
         "Data": "2026-03-21",
         "Fixture_ID": 1498014
+    },
+    {
+        "Ora": "12:35",
+        "Lega": "Super League (China)",
+        "Match": "Chongqing Tongliang Long - Chengdu Better City",
+        "FAV": "✅",
+        "1X2": "4.4|3.5|1.7",
+        "O2.5": "1.80",
+        "O0.5H": "1.36",
+        "O1.5H": "2.65",
+        "AVG FT": "1.4|3.2",
+        "AVG HT": "0.6|1.9",
+        "Info": "🎯PT ⚽ OVER 🐟O",
+        "Data": "2026-03-21",
+        "Fixture_ID": 1523080
     },
     {
         "Ora": "13:00",
@@ -793,6 +838,21 @@
         "Info": "🐟O",
         "Data": "2026-03-21",
         "Fixture_ID": 1445914
+    },
+    {
+        "Ora": "13:00",
+        "Lega": "Super League (China)",
+        "Match": "Yunnan Yukun - Shandong Luneng",
+        "FAV": "❌",
+        "1X2": "3.2|3.5|2.0",
+        "O2.5": "1.40",
+        "O0.5H": "1.20",
+        "O1.5H": "1.91",
+        "AVG FT": "3.6|3.6",
+        "AVG HT": "1.1|1.6",
+        "Info": "🎯PT ⚽ OVER 🐟G",
+        "Data": "2026-03-21",
+        "Fixture_ID": 1523082
     },
     {
         "Ora": "13:00",
@@ -1315,7 +1375,7 @@
         "O1.5H": "3.25",
         "AVG FT": "2.5|2.2",
         "AVG HT": "1.2|0.9",
-        "Info": "⚽ OVER 📉-0.07 🐟O",
+        "Info": "⚽ OVER 🐟O",
         "Data": "2026-03-21",
         "Fixture_ID": 1391578
     },
@@ -4684,7 +4744,7 @@
         "Lega": "Serie A (Brazil)",
         "Match": "Fluminense - Atletico-MG",
         "FAV": "✅",
-        "1X2": "1.8|3.5|4.4",
+        "1X2": "1.8|3.5|4.7",
         "O2.5": "2.00",
         "O0.5H": "1.40",
         "O1.5H": "2.80",
