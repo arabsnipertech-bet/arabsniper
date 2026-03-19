@@ -4,6 +4,10 @@ import importlib.util
 import subprocess
 import shutil
 import requests
+import os
+import json
+import base64
+import time
 from pathlib import Path
 from datetime import datetime
 
@@ -11,7 +15,10 @@ BASE_DIR = Path(__file__).resolve().parent
 APP_PATH = BASE_DIR / "3appDays.py"
 ARCHIVE_DIR = BASE_DIR / "archives"
 
-RAW_BASE = "https://raw.githubusercontent.com/arabsnipertech-bet/arabsniper/main/"
+GITHUB_OWNER = "arabsnipertech-bet"
+GITHUB_REPO = "arabsniper"
+GITHUB_BRANCH = "main"
+GITHUB_API = f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/contents"
 
 
 # =========================
@@ -217,27 +224,99 @@ def archive_live_files():
     print(f"📦 File copiati: {copied}", flush=True)
 
 
-def sync_remote_outputs_to_local():
+def github_headers():
+    token = os.getenv("GITHUB_TOKEN")
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "arabsniper-runner"
+    }
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
+def fetch_github_file(path: str) -> str:
+    url = f"{GITHUB_API}/{path}"
+    params = {"ref": GITHUB_BRANCH}
+    r = requests.get(url, headers=github_headers(), params=params, timeout=30)
+    r.raise_for_status()
+    payload = r.json()
+
+    if "content" not in payload:
+        raise RuntimeError(f"Contenuto mancante per {path}")
+
+    content = payload["content"].replace("\n", "")
+    return base64.b64decode(content).decode("utf-8")
+
+
+def read_json_safe(path: Path):
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def expected_day1_date() -> str:
+    return app.get_target_dates()[0]
+
+
+def is_day1_synced_correctly() -> bool:
+    p = BASE_DIR / "data_day1.json"
+    data = read_json_safe(p)
+    if not isinstance(data, list) or not data:
+        return False
+
+    expected = expected_day1_date()
+    first = data[0]
+    actual = str(first.get("Data", "")).strip()
+    return actual == expected
+
+
+def sync_remote_outputs_to_local(max_attempts=6, wait_seconds=10):
     """
     Dopo che 3appDays.py ha scritto i file su GitHub via API,
-    li riscarichiamo nel workspace locale del workflow.
-    Così quote_history lavora sui file freschi, non su copie vecchie.
+    li riscarichiamo tramite GitHub Contents API (non raw CDN).
+    Continuiamo a riprovare finché data_day1.json non contiene la data attesa.
     """
     print("🔄 Sincronizzo i file remoti GitHub nel workspace locale...", flush=True)
 
-    stamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    expected = expected_day1_date()
+    print(f"📅 Attendo day1 coerente con data: {expected}", flush=True)
 
-    for name in SYNC_FILES:
-        url = f"{RAW_BASE}{name}?v={stamp}"
-        dest = BASE_DIR / name
+    for attempt in range(1, max_attempts + 1):
+        print(f"🔁 Tentativo sync {attempt}/{max_attempts}", flush=True)
 
-        try:
-            r = requests.get(url, timeout=30)
-            r.raise_for_status()
-            dest.write_text(r.text, encoding="utf-8")
-            print(f"✅ Sync locale: {name}", flush=True)
-        except Exception as e:
-            print(f"⚠️ Sync fallita per {name}: {e}", flush=True)
+        all_ok = True
+
+        for name in SYNC_FILES:
+            dest = BASE_DIR / name
+            try:
+                text = fetch_github_file(name)
+                dest.write_text(text, encoding="utf-8")
+                print(f"✅ Sync locale: {name}", flush=True)
+            except Exception as e:
+                all_ok = False
+                print(f"⚠️ Sync fallita per {name}: {e}", flush=True)
+
+        if all_ok and is_day1_synced_correctly():
+            print("✅ Sync completata: data_day1.json contiene la data corretta.", flush=True)
+            return True
+
+        actual = ""
+        p = BASE_DIR / "data_day1.json"
+        data = read_json_safe(p)
+        if isinstance(data, list) and data:
+            actual = str(data[0].get("Data", "")).strip()
+
+        print(f"⚠️ Data day1 non ancora coerente. Attesa: {expected} | Trovata: {actual or 'N/D'}", flush=True)
+
+        if attempt < max_attempts:
+            time.sleep(wait_seconds)
+
+    print("❌ Sync remota fallita o day1 ancora incoerente dopo tutti i tentativi.", flush=True)
+    return False
 
 
 def run_quote_history(days, label):
@@ -266,9 +345,13 @@ def run_night():
     app.run_nightly_multiday_build()
     print("✅ RUNNER: build multi-day completata.", flush=True)
 
-    sync_remote_outputs_to_local()
-    run_quote_history([1, 2, 3, 4, 5], "night")
-    return 0
+    synced = sync_remote_outputs_to_local()
+    if not synced:
+        print("❌ Interrompo: i file remoti non sono coerenti, evito di sporcare quote_history.", flush=True)
+        return 1
+
+    result = run_quote_history([1, 2, 3, 4, 5], "night")
+    return result
 
 
 def run_mid_day1():
@@ -277,9 +360,13 @@ def run_mid_day1():
     app.run_full_scan(horizon=1, snap=False, update_main_site=True, show_success=False)
     print("✅ RUNNER: refresh centrale Day1 completato.", flush=True)
 
-    sync_remote_outputs_to_local()
-    run_quote_history([1], "mid_day1")
-    return 0
+    synced = sync_remote_outputs_to_local()
+    if not synced:
+        print("❌ Interrompo: i file remoti non sono coerenti dopo mid-day1.", flush=True)
+        return 1
+
+    result = run_quote_history([1], "mid_day1")
+    return result
 
 
 def run_evening_multi():
@@ -288,9 +375,13 @@ def run_evening_multi():
     app.run_full_scan(horizon=4, snap=False, update_main_site=True, show_success=False)
     print("✅ RUNNER: refresh serale multi-day completato.", flush=True)
 
-    sync_remote_outputs_to_local()
-    run_quote_history([1, 2, 3, 4], "evening_multi")
-    return 0
+    synced = sync_remote_outputs_to_local()
+    if not synced:
+        print("❌ Interrompo: i file remoti non sono coerenti dopo evening-multi.", flush=True)
+        return 1
+
+    result = run_quote_history([1, 2, 3, 4], "evening_multi")
+    return result
 
 
 def main():
