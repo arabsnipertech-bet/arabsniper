@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-19 13:20:12",
+    "updated_at": "2026-03-19 14:12:57",
     "day": 3,
     "date": "2026-03-21",
     "details": {
@@ -13,11 +13,11 @@
             "home_team": "Union Espanola",
             "away_team": "D. Puerto Montt",
             "markets": {
-                "q1": 2.2,
-                "qx": 3.25,
+                "q1": 2.3,
+                "qx": 3.2,
                 "q2": 2.9,
-                "o25": 1.93,
-                "o05ht": 1.38,
+                "o25": 1.95,
+                "o05ht": 1.4,
                 "o15ht": 2.75
             },
             "averages": {
@@ -28,7 +28,7 @@
                 "combined_ht_avg": 1.312
             },
             "flags": {
-                "fav_quote": 2.2,
+                "fav_quote": 2.3,
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -36,10 +36,10 @@
             },
             "scores": {
                 "pt": 6.8,
-                "over": 6.2,
-                "boost": 7.21,
-                "gold": 6.257,
-                "max": 7.21
+                "over": 5.8,
+                "boost": 6.818,
+                "gold": 6.004,
+                "max": 6.818
             },
             "tags": [
                 "🎯PT",
@@ -2699,6 +2699,197 @@
                 }
             ]
         },
+        "1517479": {
+            "fixture_id": 1517479,
+            "date": "2026-03-21",
+            "time": "07:00",
+            "league": "New South Wales NPL",
+            "country": "Australia",
+            "match": "SD Raiders - Manly United",
+            "home_team": "SD Raiders",
+            "away_team": "Manly United",
+            "markets": {
+                "q1": 2.55,
+                "qx": 3.4,
+                "q2": 2.4,
+                "o25": 1.73,
+                "o05ht": 1.33,
+                "o15ht": 2.5
+            },
+            "averages": {
+                "home_avg_ft": 3.625,
+                "away_avg_ft": 1.5,
+                "home_avg_ht": 1.75,
+                "away_avg_ht": 0.5,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 2.4,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 3.9,
+                "boost": 4.344,
+                "gold": 3.615,
+                "max": 4.4
+            },
+            "tags": [
+                "🎯PT",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL",
+                    "match": "St George City FA - SD Raiders",
+                    "ht": "0-2",
+                    "ft": "4-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL",
+                    "match": "SD Raiders - Sydney United",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL",
+                    "match": "SD Raiders - Rockdale City Suns",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL",
+                    "match": "UNSW - SD Raiders",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL",
+                    "match": "SD Raiders - Sydney Olympic",
+                    "ht": "1-1",
+                    "ft": "1-5",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "New South Wales NPL",
+                    "match": "Sydney FC U23 - SD Raiders",
+                    "ht": "2-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-09-12",
+                    "league": "New South Wales NPL",
+                    "match": "Central Coast II - SD Raiders",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-09-06",
+                    "league": "New South Wales NPL",
+                    "match": "SD Raiders - Central Coast II",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-13",
+                    "league": "New South Wales NPL",
+                    "match": "Manly United - Western Sydney Wanderers U23",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL",
+                    "match": "St. George Saints - Manly United",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "New South Wales NPL",
+                    "match": "Sydney United - Manly United",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "New South Wales NPL",
+                    "match": "Manly United - APIA Leichhardt Tigers",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL",
+                    "match": "Blacktown City - Manly United",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "New South Wales NPL",
+                    "match": "Manly United - St George City FA",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-08-31",
+                    "league": "New South Wales NPL",
+                    "match": "St. George Saints - Manly United",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-08-24",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - Manly United",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ]
+        },
         "1517712": {
             "fixture_id": 1517712,
             "date": "2026-03-21",
@@ -3274,6 +3465,391 @@
                 }
             ]
         },
+        "1517480": {
+            "fixture_id": 1517480,
+            "date": "2026-03-21",
+            "time": "07:30",
+            "league": "New South Wales NPL",
+            "country": "Australia",
+            "match": "NWS Spirit - Rockdale City Suns",
+            "home_team": "NWS Spirit",
+            "away_team": "Rockdale City Suns",
+            "markets": {
+                "q1": 2.8,
+                "qx": 3.7,
+                "q2": 2.1,
+                "o25": 1.45,
+                "o05ht": 1.25,
+                "o15ht": 2.1
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 3.125,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.25
+            },
+            "flags": {
+                "fav_quote": 2.1,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.2,
+                "over": 4.4,
+                "boost": 5.918,
+                "gold": 5.146,
+                "max": 6.2
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "New South Wales NPL",
+                    "match": "Wollongong Wolves - NWS Spirit",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL",
+                    "match": "NWS Spirit - St George City FA",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL",
+                    "match": "Sydney Olympic - NWS Spirit",
+                    "ht": "1-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL",
+                    "match": "NWS Spirit - Sydney FC U23",
+                    "ht": "0-2",
+                    "ft": "0-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL",
+                    "match": "APIA Leichhardt Tigers - NWS Spirit",
+                    "ht": "2-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL",
+                    "match": "NWS Spirit - Sutherland Sharks",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-11-23",
+                    "league": "Australian Championship",
+                    "match": "South Melbourne - NWS Spirit",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-16",
+                    "league": "Australian Championship",
+                    "match": "Canberra FC - NWS Spirit",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - APIA Leichhardt Tigers",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - Sydney Olympic",
+                    "ht": "1-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL",
+                    "match": "SD Raiders - Rockdale City Suns",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - Blacktown City",
+                    "ht": "1-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - Marconi Stallions",
+                    "ht": "0-3",
+                    "ft": "1-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-08",
+                    "league": "New South Wales NPL",
+                    "match": "Western Sydney Wanderers U23 - Rockdale City Suns",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-13",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - APIA Leichhardt Tigers",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-03",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - Blacktown City",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
+        "1517481": {
+            "fixture_id": 1517481,
+            "date": "2026-03-21",
+            "time": "07:45",
+            "league": "New South Wales NPL",
+            "country": "Australia",
+            "match": "APIA Leichhardt Tigers - Sutherland Sharks",
+            "home_team": "APIA Leichhardt Tigers",
+            "away_team": "Sutherland Sharks",
+            "markets": {
+                "q1": 1.44,
+                "qx": 4.5,
+                "q2": 5.6,
+                "o25": 1.44,
+                "o05ht": 1.22,
+                "o15ht": 2.05
+            },
+            "averages": {
+                "home_avg_ft": 3.125,
+                "away_avg_ft": 2.625,
+                "home_avg_ht": 1.5,
+                "away_avg_ht": 1.375,
+                "combined_ht_avg": 1.438
+            },
+            "flags": {
+                "fav_quote": 1.44,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 4.8,
+                "boost": 6.642,
+                "gold": 7.02,
+                "max": 7.6
+            },
+            "tags": [
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - APIA Leichhardt Tigers",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL",
+                    "match": "APIA Leichhardt Tigers - Blacktown City",
+                    "ht": "3-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL",
+                    "match": "APIA Leichhardt Tigers - Wollongong Wolves",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "New South Wales NPL",
+                    "match": "Manly United - APIA Leichhardt Tigers",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL",
+                    "match": "APIA Leichhardt Tigers - NWS Spirit",
+                    "ht": "2-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL",
+                    "match": "Marconi Stallions - APIA Leichhardt Tigers",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-13",
+                    "league": "New South Wales NPL",
+                    "match": "Rockdale City Suns - APIA Leichhardt Tigers",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-07",
+                    "league": "New South Wales NPL",
+                    "match": "APIA Leichhardt Tigers - Marconi Stallions",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL",
+                    "match": "Sutherland Sharks - UNSW",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "New South Wales NPL",
+                    "match": "Sutherland Sharks - Western Sydney Wanderers U23",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "New South Wales NPL",
+                    "match": "Blacktown City - Sutherland Sharks",
+                    "ht": "1-0",
+                    "ft": "2-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL",
+                    "match": "Sutherland Sharks - St. George Saints",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL",
+                    "match": "Sutherland Sharks - Sydney United",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL",
+                    "match": "NWS Spirit - Sutherland Sharks",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-08-31",
+                    "league": "New South Wales NPL",
+                    "match": "Marconi Stallions - Sutherland Sharks",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL",
+                    "match": "Sutherland Sharks - Mt Druitt Town",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ]
+        },
         "1517482": {
             "fixture_id": 1517482,
             "date": "2026-03-21",
@@ -3464,6 +4040,389 @@
                     "ft": "1-0",
                     "total_ht_goals": 0,
                     "total_ft_goals": 1
+                }
+            ]
+        },
+        "1517715": {
+            "fixture_id": 1517715,
+            "date": "2026-03-21",
+            "time": "08:30",
+            "league": "New South Wales NPL 2",
+            "country": "Australia",
+            "match": "Northern Tigers - Hills Brumbies",
+            "home_team": "Northern Tigers",
+            "away_team": "Hills Brumbies",
+            "markets": {
+                "q1": 1.62,
+                "qx": 4.0,
+                "q2": 4.0,
+                "o25": 1.5,
+                "o05ht": 1.22,
+                "o15ht": 2.16
+            },
+            "averages": {
+                "home_avg_ft": 3.0,
+                "away_avg_ft": 4.25,
+                "home_avg_ht": 1.625,
+                "away_avg_ht": 1.625,
+                "combined_ht_avg": 1.625
+            },
+            "flags": {
+                "fav_quote": 1.62,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 4.4,
+                "boost": 6.146,
+                "gold": 6.556,
+                "max": 6.8
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Dulwich Hill - Northern Tigers",
+                    "ht": "0-2",
+                    "ft": "0-5",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Northern Tigers - Hakoah Sydney City",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL 2",
+                    "match": "Inter Lions - Northern Tigers",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL 2",
+                    "match": "Northern Tigers - Bankstown City Lions",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Northern Tigers - Prospect United",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Northern Tigers - Canterbury Bankstown",
+                    "ht": "3-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-08-30",
+                    "league": "New South Wales NPL 2",
+                    "match": "UNSW - Northern Tigers",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL 2",
+                    "match": "Northern Tigers - Canterbury Bankstown",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hills Brumbies - Hurstville FC",
+                    "ht": "2-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "New South Wales NPL 2",
+                    "match": "Prospect United - Hills Brumbies",
+                    "ht": "0-3",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hills Brumbies - Macarthur Rams",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL 2",
+                    "match": "Bulls Academy - Hills Brumbies",
+                    "ht": "1-0",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hills Brumbies - Dulwich Hill",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "New South Wales NPL 2",
+                    "match": "Blacktown Spartans - Hills Brumbies",
+                    "ht": "1-0",
+                    "ft": "4-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-08-30",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hills Brumbies - Blacktown Spartans",
+                    "ht": "2-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hills Brumbies - Mounties Wanderers",
+                    "ht": "0-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                }
+            ]
+        },
+        "1523077": {
+            "fixture_id": 1523077,
+            "date": "2026-03-21",
+            "time": "08:30",
+            "league": "Super League",
+            "country": "China",
+            "match": "Beijing Guoan - Shanghai Shenhua",
+            "home_team": "Beijing Guoan",
+            "away_team": "Shanghai Shenhua",
+            "markets": {
+                "q1": 2.12,
+                "qx": 3.75,
+                "q2": 2.85,
+                "o25": 1.42,
+                "o05ht": 1.2,
+                "o15ht": 1.95
+            },
+            "averages": {
+                "home_avg_ft": 3.125,
+                "away_avg_ft": 2.875,
+                "home_avg_ht": 0.875,
+                "away_avg_ht": 1.625,
+                "combined_ht_avg": 1.25
+            },
+            "flags": {
+                "fav_quote": 2.12,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.9,
+                "over": 5.2,
+                "boost": 4.878,
+                "gold": 4.527,
+                "max": 5.2
+            },
+            "tags": [
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Super League",
+                    "match": "Shandong Luneng - Beijing Guoan",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Super League",
+                    "match": "Wuhan Three Towns - Beijing Guoan",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "Super Cup",
+                    "match": "SHANGHAI SIPG - Beijing Guoan",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-12-11",
+                    "league": "AFC Cup",
+                    "match": "Beijing Guoan - Macarthur",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-12-06",
+                    "league": "FA Cup",
+                    "match": "Beijing Guoan - Henan Jianye",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-11-27",
+                    "league": "AFC Cup",
+                    "match": "Công An Nhân Dân - Beijing Guoan",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-11-22",
+                    "league": "Super League",
+                    "match": "Beijing Guoan - Meizhou Kejia",
+                    "ht": "2-0",
+                    "ft": "5-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-11-06",
+                    "league": "AFC Cup",
+                    "match": "Beijing Guoan - Wofoo Tai Po",
+                    "ht": "0-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Super League",
+                    "match": "Hangzhou Greentown - Shanghai Shenhua",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Super League",
+                    "match": "Shanghai Shenhua - Dalian Zhixing",
+                    "ht": "3-1",
+                    "ft": "5-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 8
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "AFC Champions League",
+                    "match": "Buriram United - Shanghai Shenhua",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "AFC Champions League",
+                    "match": "Shanghai Shenhua - Machida Zelvia",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-26",
+                    "league": "Friendlies Clubs",
+                    "match": "Rodina Moskva - Shanghai Shenhua",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-23",
+                    "league": "Friendlies Clubs",
+                    "match": "Dynamo - Shanghai Shenhua",
+                    "ht": "1-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-20",
+                    "league": "Friendlies Clubs",
+                    "match": "Ulsan Hyundai FC - Shanghai Shenhua",
+                    "ht": "None-None",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-17",
+                    "league": "Friendlies Clubs",
+                    "match": "Shanghai Shenhua - Auda",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
                 }
             ]
         },
@@ -3659,6 +4618,566 @@
                 }
             ]
         },
+        "1517716": {
+            "fixture_id": 1517716,
+            "date": "2026-03-21",
+            "time": "09:00",
+            "league": "New South Wales NPL 2",
+            "country": "Australia",
+            "match": "Inter Lions - Macarthur Rams",
+            "home_team": "Inter Lions",
+            "away_team": "Macarthur Rams",
+            "markets": {
+                "q1": 3.6,
+                "qx": 4.2,
+                "q2": 1.67,
+                "o25": 1.53,
+                "o05ht": 1.23,
+                "o15ht": 2.24
+            },
+            "averages": {
+                "home_avg_ft": 3.5,
+                "away_avg_ft": 3.5,
+                "home_avg_ht": 1.875,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.688
+            },
+            "flags": {
+                "fav_quote": 1.67,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 6.2,
+                "boost": 7.162,
+                "gold": 7.529,
+                "max": 7.529
+            },
+            "tags": [
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "New South Wales NPL 2",
+                    "match": "Newcastle Jets II - Inter Lions",
+                    "ht": "2-1",
+                    "ft": "5-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Mt Druitt Town - Inter Lions",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL 2",
+                    "match": "Inter Lions - Northern Tigers",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hurstville FC - Inter Lions",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Inter Lions - Canterbury Bankstown",
+                    "ht": "1-3",
+                    "ft": "2-5",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Bulls Academy - Inter Lions",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-08-30",
+                    "league": "New South Wales NPL 2",
+                    "match": "Inter Lions - Bonnyrigg White Eagles",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL 2",
+                    "match": "Inter Lions - Dulwich Hill",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hakoah Sydney City - Macarthur Rams",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Macarthur Rams - Newcastle Jets II",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hills Brumbies - Macarthur Rams",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL 2",
+                    "match": "Macarthur Rams - Rydalmere Lions",
+                    "ht": "1-3",
+                    "ft": "3-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "New South Wales NPL 2",
+                    "match": "Central Coast II - Macarthur Rams",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-08",
+                    "league": "New South Wales NPL 2",
+                    "match": "Macarthur Rams - Mt Druitt Town",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-08-30",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hakoah Sydney City - Macarthur Rams",
+                    "ht": "2-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL 2",
+                    "match": "Newcastle Jets II - Macarthur Rams",
+                    "ht": "2-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                }
+            ]
+        },
+        "1517717": {
+            "fixture_id": 1517717,
+            "date": "2026-03-21",
+            "time": "09:00",
+            "league": "New South Wales NPL 2",
+            "country": "Australia",
+            "match": "Dulwich Hill - Bankstown City Lions",
+            "home_team": "Dulwich Hill",
+            "away_team": "Bankstown City Lions",
+            "markets": {
+                "q1": 4.0,
+                "qx": 4.33,
+                "q2": 1.57,
+                "o25": 1.4,
+                "o05ht": 1.18,
+                "o15ht": 2.01
+            },
+            "averages": {
+                "home_avg_ft": 3.375,
+                "away_avg_ft": 3.875,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.375
+            },
+            "flags": {
+                "fav_quote": 1.57,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.5,
+                "over": 4.8,
+                "boost": 5.844,
+                "gold": 6.287,
+                "max": 6.287
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Dulwich Hill - Northern Tigers",
+                    "ht": "0-2",
+                    "ft": "0-5",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "New South Wales NPL 2",
+                    "match": "Blacktown Spartans - Dulwich Hill",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL 2",
+                    "match": "Dulwich Hill - Prospect United",
+                    "ht": "1-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "New South Wales NPL 2",
+                    "match": "Central Coast II - Dulwich Hill",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hills Brumbies - Dulwich Hill",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Dulwich Hill - Hakoah Sydney City",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-08-30",
+                    "league": "New South Wales NPL 2",
+                    "match": "Dulwich Hill - SD Raiders",
+                    "ht": "1-1",
+                    "ft": "1-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL 2",
+                    "match": "Inter Lions - Dulwich Hill",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Bankstown City Lions - Mt Druitt Town",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "New South Wales NPL 2",
+                    "match": "Central Coast II - Bankstown City Lions",
+                    "ht": "0-3",
+                    "ft": "1-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL 2",
+                    "match": "Bankstown City Lions - Blacktown Spartans",
+                    "ht": "1-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL 2",
+                    "match": "Northern Tigers - Bankstown City Lions",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Bankstown City Lions - Hakoah Sydney City",
+                    "ht": "0-2",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Bankstown City Lions - Rydalmere Lions",
+                    "ht": "1-2",
+                    "ft": "4-5",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 9
+                },
+                {
+                    "date": "2025-08-30",
+                    "league": "New South Wales NPL 2",
+                    "match": "Rydalmere Lions - Bankstown City Lions",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL 2",
+                    "match": "Bankstown City Lions - UNSW",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                }
+            ]
+        },
+        "1517870": {
+            "fixture_id": 1517870,
+            "date": "2026-03-21",
+            "time": "09:00",
+            "league": "New South Wales NPL 2",
+            "country": "Australia",
+            "match": "Canterbury Bankstown - Hurstville FC",
+            "home_team": "Canterbury Bankstown",
+            "away_team": "Hurstville FC",
+            "markets": {
+                "q1": 2.1,
+                "qx": 3.6,
+                "q2": 2.75,
+                "o25": 1.65,
+                "o05ht": 1.26,
+                "o15ht": 2.39
+            },
+            "averages": {
+                "home_avg_ft": 3.625,
+                "away_avg_ft": 3.5,
+                "home_avg_ht": 2.125,
+                "away_avg_ht": 1.833,
+                "combined_ht_avg": 1.979
+            },
+            "flags": {
+                "fav_quote": 2.1,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.7,
+                "over": 6.2,
+                "boost": 7.142,
+                "gold": 5.992,
+                "max": 7.142
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "New South Wales NPL 2",
+                    "match": "Central Coast II - Canterbury Bankstown",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Canterbury Bankstown - Rydalmere Lions",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL 2",
+                    "match": "Newcastle Jets II - Canterbury Bankstown",
+                    "ht": "0-1",
+                    "ft": "1-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "New South Wales NPL 2",
+                    "match": "Canterbury Bankstown - Mt Druitt Town",
+                    "ht": "1-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Inter Lions - Canterbury Bankstown",
+                    "ht": "1-3",
+                    "ft": "2-5",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL 2",
+                    "match": "Northern Tigers - Canterbury Bankstown",
+                    "ht": "3-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-08-30",
+                    "league": "New South Wales NPL 2",
+                    "match": "Canterbury Bankstown - Newcastle Jets II",
+                    "ht": "1-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL 2",
+                    "match": "Northern Tigers - Canterbury Bankstown",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hills Brumbies - Hurstville FC",
+                    "ht": "2-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hurstville FC - Bulls Academy",
+                    "ht": "0-2",
+                    "ft": "2-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL 2",
+                    "match": "Mt Druitt Town - Hurstville FC",
+                    "ht": "2-2",
+                    "ft": "4-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hurstville FC - Inter Lions",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL 2",
+                    "match": "Rydalmere Lions - Hurstville FC",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "New South Wales NPL 2",
+                    "match": "Hurstville FC - Newcastle Jets II",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ]
+        },
         "1521894": {
             "fixture_id": 1521894,
             "date": "2026-03-21",
@@ -3849,6 +5368,388 @@
                     "ft": "1-1",
                     "total_ht_goals": 0,
                     "total_ft_goals": 2
+                }
+            ]
+        },
+        "1523706": {
+            "fixture_id": 1523706,
+            "date": "2026-03-21",
+            "time": "09:00",
+            "league": "Northern NSW NPL",
+            "country": "Australia",
+            "match": "Hamilton Olympic - Maitland",
+            "home_team": "Hamilton Olympic",
+            "away_team": "Maitland",
+            "markets": {
+                "q1": 2.35,
+                "qx": 4.1,
+                "q2": 2.25,
+                "o25": 1.36,
+                "o05ht": 1.16,
+                "o15ht": 1.98
+            },
+            "averages": {
+                "home_avg_ft": 4.625,
+                "away_avg_ft": 4.125,
+                "home_avg_ht": 1.875,
+                "away_avg_ht": 2.375,
+                "combined_ht_avg": 2.125
+            },
+            "flags": {
+                "fav_quote": 2.25,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.1,
+                "over": 3.6,
+                "boost": 4.356,
+                "gold": 3.693,
+                "max": 4.356
+            },
+            "tags": [
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "Northern NSW NPL",
+                    "match": "Kahibah - Hamilton Olympic",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "Northern NSW NPL",
+                    "match": "Charlestown City Blues - Hamilton Olympic",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Northern NSW NPL",
+                    "match": "Weston Bears - Hamilton Olympic",
+                    "ht": "1-0",
+                    "ft": "4-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-08-13",
+                    "league": "Northern NSW NPL",
+                    "match": "New Lambton - Hamilton Olympic",
+                    "ht": "0-3",
+                    "ft": "1-5",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-08-10",
+                    "league": "Northern NSW NPL",
+                    "match": "Belmont Swansea - Hamilton Olympic",
+                    "ht": "1-0",
+                    "ft": "2-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-08-06",
+                    "league": "Northern NSW NPL",
+                    "match": "Weston Bears - Hamilton Olympic",
+                    "ht": "3-1",
+                    "ft": "5-1",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-07-30",
+                    "league": "Northern NSW NPL",
+                    "match": "Cooks Hill United - Hamilton Olympic",
+                    "ht": "1-2",
+                    "ft": "1-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-07-20",
+                    "league": "Northern NSW NPL",
+                    "match": "Hamilton Olympic - Edgeworth Eagles",
+                    "ht": "1-0",
+                    "ft": "2-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Northern NSW NPL",
+                    "match": "Valentine - Maitland",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Northern NSW NPL",
+                    "match": "Belmont Swansea - Maitland",
+                    "ht": "3-1",
+                    "ft": "3-4",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Northern NSW NPL",
+                    "match": "Maitland - Weston Bears",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Northern NSW NPL",
+                    "match": "Cooks Hill United - Maitland",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-08-17",
+                    "league": "Northern NSW NPL",
+                    "match": "Lambton Jaffas - Maitland",
+                    "ht": "2-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-08-13",
+                    "league": "Northern NSW NPL",
+                    "match": "Maitland - Belmont Swansea",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-08-10",
+                    "league": "Northern NSW NPL",
+                    "match": "Lambton Jaffas - Maitland",
+                    "ht": "2-2",
+                    "ft": "4-2",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-08-06",
+                    "league": "Northern NSW NPL",
+                    "match": "Maitland - Cooks Hill United",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1517483": {
+            "fixture_id": 1517483,
+            "date": "2026-03-21",
+            "time": "09:15",
+            "league": "New South Wales NPL",
+            "country": "Australia",
+            "match": "St George City FA - Wollongong Wolves",
+            "home_team": "St George City FA",
+            "away_team": "Wollongong Wolves",
+            "markets": {
+                "q1": 2.05,
+                "qx": 3.45,
+                "q2": 3.1,
+                "o25": 1.77,
+                "o05ht": 1.33,
+                "o15ht": 2.5
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 2.625,
+                "home_avg_ht": 0.75,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 2.05,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.2,
+                "over": 5.5,
+                "boost": 5.716,
+                "gold": 4.737,
+                "max": 5.716
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "New South Wales NPL",
+                    "match": "St George City FA - SD Raiders",
+                    "ht": "0-2",
+                    "ft": "4-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "New South Wales NPL",
+                    "match": "NWS Spirit - St George City FA",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL",
+                    "match": "St George City FA - Western Sydney Wanderers U23",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "New South Wales NPL",
+                    "match": "Sydney Olympic - St George City FA",
+                    "ht": "2-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "New South Wales NPL",
+                    "match": "St George City FA - St. George Saints",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "New South Wales NPL",
+                    "match": "Manly United - St George City FA",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-08-31",
+                    "league": "New South Wales NPL",
+                    "match": "St George City FA - Sydney United",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-08-23",
+                    "league": "New South Wales NPL",
+                    "match": "APIA Leichhardt Tigers - St George City FA",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "New South Wales NPL",
+                    "match": "Wollongong Wolves - NWS Spirit",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "New South Wales NPL",
+                    "match": "Sydney FC U23 - Wollongong Wolves",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "New South Wales NPL",
+                    "match": "APIA Leichhardt Tigers - Wollongong Wolves",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "New South Wales NPL",
+                    "match": "Wollongong Wolves - Marconi Stallions",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "New South Wales NPL",
+                    "match": "Wollongong Wolves - UNSW",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "New South Wales NPL",
+                    "match": "St. George Saints - Wollongong Wolves",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "Australian Championship",
+                    "match": "Wollongong Wolves - Marconi Stallions",
+                    "ht": "2-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-11-09",
+                    "league": "Australian Championship",
+                    "match": "Heidelberg United - Wollongong Wolves",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
                 }
             ]
         },
@@ -5802,20 +7703,19 @@
                 "is_gold_zone": false,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.1
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 6.4,
-                "over": 6.03,
-                "boost": 7.731,
-                "gold": 6.846,
-                "max": 7.731
+                "over": 5.4,
+                "boost": 7.024,
+                "gold": 5.866,
+                "max": 7.024
             },
             "tags": [
                 "🎯PT",
                 "⚽ OVER",
                 "🚀 BOOST",
-                "📉-0.10",
                 "🐟G"
             ],
             "home_last_8": [
@@ -6539,6 +8439,198 @@
                     "ft": "1-2",
                     "total_ht_goals": 2,
                     "total_ft_goals": 3
+                }
+            ]
+        },
+        "1523080": {
+            "fixture_id": 1523080,
+            "date": "2026-03-21",
+            "time": "12:35",
+            "league": "Super League",
+            "country": "China",
+            "match": "Chongqing Tongliang Long - Chengdu Better City",
+            "home_team": "Chongqing Tongliang Long",
+            "away_team": "Chengdu Better City",
+            "markets": {
+                "q1": 4.4,
+                "qx": 3.55,
+                "q2": 1.72,
+                "o25": 1.8,
+                "o05ht": 1.36,
+                "o15ht": 2.65
+            },
+            "averages": {
+                "home_avg_ft": 1.375,
+                "away_avg_ft": 3.25,
+                "home_avg_ht": 0.625,
+                "away_avg_ht": 1.875,
+                "combined_ht_avg": 1.25
+            },
+            "flags": {
+                "fav_quote": 1.72,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 4.2,
+                "boost": 4.838,
+                "gold": 5.073,
+                "max": 5.073
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Super League",
+                    "match": "Chongqing Tongliang Long - Shenyang Urban",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Super League",
+                    "match": "Tianjin Teda - Chongqing Tongliang Long",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-11-08",
+                    "league": "League One",
+                    "match": "Shanghai Jiading - Chongqing Tongliang Long",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-01",
+                    "league": "League One",
+                    "match": "Chongqing Tongliang Long - Suzhou Dongwu",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-26",
+                    "league": "League One",
+                    "match": "Chongqing Tongliang Long - Hebei Kungfu",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-18",
+                    "league": "League One",
+                    "match": "Dalian Huayi - Chongqing Tongliang Long",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-11",
+                    "league": "League One",
+                    "match": "Chongqing Tongliang Long - Dongguan United",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-05",
+                    "league": "League One",
+                    "match": "Guangxi Baoyun - Chongqing Tongliang Long",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "Super League",
+                    "match": "Chengdu Better City - Qingdao Jonoon",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "Super League",
+                    "match": "Chengdu Better City - Sichuan Jiuniu",
+                    "ht": "3-1",
+                    "ft": "5-1",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "AFC Champions League",
+                    "match": "Machida Zelvia - Chengdu Better City",
+                    "ht": "2-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "AFC Champions League",
+                    "match": "Chengdu Better City - Buriram United",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-26",
+                    "league": "Friendlies Clubs",
+                    "match": "Dynamo - Chengdu Better City",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-20",
+                    "league": "Friendlies Clubs",
+                    "match": "Lokomotiv - Chengdu Better City",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-17",
+                    "league": "Friendlies Clubs",
+                    "match": "FC Rostov - Chengdu Better City",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-12-09",
+                    "league": "AFC Champions League",
+                    "match": "Vissel Kobe - Chengdu Better City",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
                 }
             ]
         },
@@ -8650,6 +10742,198 @@
                     "ft": "0-0",
                     "total_ht_goals": 0,
                     "total_ft_goals": 0
+                }
+            ]
+        },
+        "1523082": {
+            "fixture_id": 1523082,
+            "date": "2026-03-21",
+            "time": "13:00",
+            "league": "Super League",
+            "country": "China",
+            "match": "Yunnan Yukun - Shandong Luneng",
+            "home_team": "Yunnan Yukun",
+            "away_team": "Shandong Luneng",
+            "markets": {
+                "q1": 3.25,
+                "qx": 3.45,
+                "q2": 2.04,
+                "o25": 1.4,
+                "o05ht": 1.2,
+                "o15ht": 1.91
+            },
+            "averages": {
+                "home_avg_ft": 3.625,
+                "away_avg_ft": 3.625,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.625,
+                "combined_ht_avg": 1.375
+            },
+            "flags": {
+                "fav_quote": 2.04,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.5,
+                "over": 5.2,
+                "boost": 6.036,
+                "gold": 5.272,
+                "max": 6.036
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "Super League",
+                    "match": "Henan Jianye - Yunnan Yukun",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Super League",
+                    "match": "Yunnan Yukun - Qingdao Jonoon",
+                    "ht": "3-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-09",
+                    "league": "Friendlies Clubs",
+                    "match": "Ural - Yunnan Yukun",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Friendlies Clubs",
+                    "match": "FC Noah - Yunnan Yukun",
+                    "ht": "0-0",
+                    "ft": "5-5",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 10
+                },
+                {
+                    "date": "2025-11-22",
+                    "league": "Super League",
+                    "match": "Henan Jianye - Yunnan Yukun",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-02",
+                    "league": "Super League",
+                    "match": "Yunnan Yukun - Qingdao Youth Island",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-24",
+                    "league": "Super League",
+                    "match": "Meizhou Kejia - Yunnan Yukun",
+                    "ht": "0-0",
+                    "ft": "1-4",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-10-18",
+                    "league": "Super League",
+                    "match": "Yunnan Yukun - Tianjin Teda",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-14",
+                    "league": "Super League",
+                    "match": "Shandong Luneng - Beijing Guoan",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Super League",
+                    "match": "Shandong Luneng - Shenyang Urban",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-11-22",
+                    "league": "Super League",
+                    "match": "Wuhan Three Towns - Shandong Luneng",
+                    "ht": "0-2",
+                    "ft": "1-5",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-11-01",
+                    "league": "Super League",
+                    "match": "Shandong Luneng - Tianjin Teda",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-26",
+                    "league": "Super League",
+                    "match": "Shandong Luneng - SHANGHAI SIPG",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-18",
+                    "league": "Super League",
+                    "match": "Hangzhou Greentown - Shandong Luneng",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-04",
+                    "league": "Super League",
+                    "match": "Shandong Luneng - Yunnan Yukun",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-20",
+                    "league": "Super League",
+                    "match": "Qingdao Jonoon - Shandong Luneng",
+                    "ht": "0-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
                 }
             ]
         },
@@ -15206,18 +17490,17 @@
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
-                "drop_diff": 0.07
+                "drop_diff": 0.0
             },
             "scores": {
                 "pt": 3.2,
-                "over": 4.55,
-                "boost": 4.175,
-                "gold": 4.938,
-                "max": 4.938
+                "over": 4.2,
+                "boost": 3.782,
+                "gold": 4.45,
+                "max": 4.45
             },
             "tags": [
                 "⚽ OVER",
-                "📉-0.07",
                 "🐟O"
             ],
             "home_last_8": [
@@ -44996,7 +47279,7 @@
             "away_team": "Farul Constanta",
             "markets": {
                 "q1": 2.56,
-                "qx": 3.2,
+                "qx": 3.25,
                 "q2": 2.56,
                 "o25": 1.95,
                 "o05ht": 1.4,
@@ -58414,9 +60697,9 @@
             "home_team": "Fluminense",
             "away_team": "Atletico-MG",
             "markets": {
-                "q1": 1.8,
+                "q1": 1.77,
                 "qx": 3.45,
-                "q2": 4.4,
+                "q2": 4.65,
                 "o25": 2.0,
                 "o05ht": 1.4,
                 "o15ht": 2.8
@@ -58429,7 +60712,7 @@
                 "combined_ht_avg": 1.188
             },
             "flags": {
-                "fav_quote": 1.8,
+                "fav_quote": 1.77,
                 "is_gold_zone": true,
                 "home_last_2h_zero": false,
                 "away_last_2h_zero": false,
@@ -58785,1541 +61068,6 @@
                     "ft": "1-2",
                     "total_ht_goals": 1,
                     "total_ft_goals": 3
-                }
-            ]
-        },
-        "1517479": {
-            "fixture_id": 1517479,
-            "date": "2026-03-21",
-            "time": "07:00",
-            "league": "New South Wales NPL",
-            "country": "Australia",
-            "match": "SD Raiders - Manly United",
-            "home_team": "SD Raiders",
-            "away_team": "Manly United",
-            "markets": {
-                "q1": 2.55,
-                "qx": 3.4,
-                "q2": 2.4,
-                "o25": 1.73,
-                "o05ht": 1.33,
-                "o15ht": 2.5
-            },
-            "averages": {
-                "home_avg_ft": 3.625,
-                "away_avg_ft": 1.5,
-                "home_avg_ht": 1.75,
-                "away_avg_ht": 0.5,
-                "combined_ht_avg": 1.125
-            },
-            "flags": {
-                "fav_quote": 2.4,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 4.4,
-                "over": 3.9,
-                "boost": 4.344,
-                "gold": 3.615,
-                "max": 4.4
-            },
-            "tags": [
-                "🎯PT",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL",
-                    "match": "St George City FA - SD Raiders",
-                    "ht": "0-2",
-                    "ft": "4-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL",
-                    "match": "SD Raiders - Sydney United",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL",
-                    "match": "SD Raiders - Rockdale City Suns",
-                    "ht": "0-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "New South Wales NPL",
-                    "match": "UNSW - SD Raiders",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL",
-                    "match": "SD Raiders - Sydney Olympic",
-                    "ht": "1-1",
-                    "ft": "1-5",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "New South Wales NPL",
-                    "match": "Sydney FC U23 - SD Raiders",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-09-12",
-                    "league": "New South Wales NPL",
-                    "match": "Central Coast II - SD Raiders",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-09-06",
-                    "league": "New South Wales NPL",
-                    "match": "SD Raiders - Central Coast II",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-13",
-                    "league": "New South Wales NPL",
-                    "match": "Manly United - Western Sydney Wanderers U23",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL",
-                    "match": "St. George Saints - Manly United",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "New South Wales NPL",
-                    "match": "Sydney United - Manly United",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "New South Wales NPL",
-                    "match": "Manly United - APIA Leichhardt Tigers",
-                    "ht": "0-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL",
-                    "match": "Blacktown City - Manly United",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "New South Wales NPL",
-                    "match": "Manly United - St George City FA",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-08-31",
-                    "league": "New South Wales NPL",
-                    "match": "St. George Saints - Manly United",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-08-24",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - Manly United",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                }
-            ]
-        },
-        "1517480": {
-            "fixture_id": 1517480,
-            "date": "2026-03-21",
-            "time": "07:30",
-            "league": "New South Wales NPL",
-            "country": "Australia",
-            "match": "NWS Spirit - Rockdale City Suns",
-            "home_team": "NWS Spirit",
-            "away_team": "Rockdale City Suns",
-            "markets": {
-                "q1": 2.8,
-                "qx": 3.7,
-                "q2": 2.1,
-                "o25": 1.45,
-                "o05ht": 1.25,
-                "o15ht": 2.1
-            },
-            "averages": {
-                "home_avg_ft": 2.25,
-                "away_avg_ft": 3.125,
-                "home_avg_ht": 1.0,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.25
-            },
-            "flags": {
-                "fav_quote": 2.1,
-                "is_gold_zone": false,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 6.2,
-                "over": 4.4,
-                "boost": 5.918,
-                "gold": 5.146,
-                "max": 6.2
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-15",
-                    "league": "New South Wales NPL",
-                    "match": "Wollongong Wolves - NWS Spirit",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL",
-                    "match": "NWS Spirit - St George City FA",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL",
-                    "match": "Sydney Olympic - NWS Spirit",
-                    "ht": "1-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "New South Wales NPL",
-                    "match": "NWS Spirit - Sydney FC U23",
-                    "ht": "0-2",
-                    "ft": "0-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL",
-                    "match": "APIA Leichhardt Tigers - NWS Spirit",
-                    "ht": "2-0",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "New South Wales NPL",
-                    "match": "NWS Spirit - Sutherland Sharks",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-11-23",
-                    "league": "Australian Championship",
-                    "match": "South Melbourne - NWS Spirit",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-11-16",
-                    "league": "Australian Championship",
-                    "match": "Canberra FC - NWS Spirit",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - APIA Leichhardt Tigers",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - Sydney Olympic",
-                    "ht": "1-1",
-                    "ft": "4-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL",
-                    "match": "SD Raiders - Rockdale City Suns",
-                    "ht": "0-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - Blacktown City",
-                    "ht": "1-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - Marconi Stallions",
-                    "ht": "0-3",
-                    "ft": "1-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "New South Wales NPL",
-                    "match": "Western Sydney Wanderers U23 - Rockdale City Suns",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-09-13",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - APIA Leichhardt Tigers",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-09-03",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - Blacktown City",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ]
-        },
-        "1517481": {
-            "fixture_id": 1517481,
-            "date": "2026-03-21",
-            "time": "07:45",
-            "league": "New South Wales NPL",
-            "country": "Australia",
-            "match": "APIA Leichhardt Tigers - Sutherland Sharks",
-            "home_team": "APIA Leichhardt Tigers",
-            "away_team": "Sutherland Sharks",
-            "markets": {
-                "q1": 1.44,
-                "qx": 4.5,
-                "q2": 5.6,
-                "o25": 1.44,
-                "o05ht": 1.22,
-                "o15ht": 2.05
-            },
-            "averages": {
-                "home_avg_ft": 3.125,
-                "away_avg_ft": 2.625,
-                "home_avg_ht": 1.5,
-                "away_avg_ht": 1.375,
-                "combined_ht_avg": 1.438
-            },
-            "flags": {
-                "fav_quote": 1.44,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": true,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 7.6,
-                "over": 4.8,
-                "boost": 6.642,
-                "gold": 7.02,
-                "max": 7.6
-            },
-            "tags": [
-                "⚽⭐ GOLD",
-                "🎯PT",
-                "⚽ OVER",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - APIA Leichhardt Tigers",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL",
-                    "match": "APIA Leichhardt Tigers - Blacktown City",
-                    "ht": "3-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL",
-                    "match": "APIA Leichhardt Tigers - Wollongong Wolves",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "New South Wales NPL",
-                    "match": "Manly United - APIA Leichhardt Tigers",
-                    "ht": "0-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL",
-                    "match": "APIA Leichhardt Tigers - NWS Spirit",
-                    "ht": "2-0",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "New South Wales NPL",
-                    "match": "Marconi Stallions - APIA Leichhardt Tigers",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-09-13",
-                    "league": "New South Wales NPL",
-                    "match": "Rockdale City Suns - APIA Leichhardt Tigers",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-09-07",
-                    "league": "New South Wales NPL",
-                    "match": "APIA Leichhardt Tigers - Marconi Stallions",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL",
-                    "match": "Sutherland Sharks - UNSW",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "New South Wales NPL",
-                    "match": "Sutherland Sharks - Western Sydney Wanderers U23",
-                    "ht": "1-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-03-01",
-                    "league": "New South Wales NPL",
-                    "match": "Blacktown City - Sutherland Sharks",
-                    "ht": "1-0",
-                    "ft": "2-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "New South Wales NPL",
-                    "match": "Sutherland Sharks - St. George Saints",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL",
-                    "match": "Sutherland Sharks - Sydney United",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "New South Wales NPL",
-                    "match": "NWS Spirit - Sutherland Sharks",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-08-31",
-                    "league": "New South Wales NPL",
-                    "match": "Marconi Stallions - Sutherland Sharks",
-                    "ht": "3-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-08-23",
-                    "league": "New South Wales NPL",
-                    "match": "Sutherland Sharks - Mt Druitt Town",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ]
-        },
-        "1517715": {
-            "fixture_id": 1517715,
-            "date": "2026-03-21",
-            "time": "08:30",
-            "league": "New South Wales NPL 2",
-            "country": "Australia",
-            "match": "Northern Tigers - Hills Brumbies",
-            "home_team": "Northern Tigers",
-            "away_team": "Hills Brumbies",
-            "markets": {
-                "q1": 1.62,
-                "qx": 4.0,
-                "q2": 4.0,
-                "o25": 1.5,
-                "o05ht": 1.22,
-                "o15ht": 2.16
-            },
-            "averages": {
-                "home_avg_ft": 3.0,
-                "away_avg_ft": 4.25,
-                "home_avg_ht": 1.625,
-                "away_avg_ht": 1.625,
-                "combined_ht_avg": 1.625
-            },
-            "flags": {
-                "fav_quote": 1.62,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 6.8,
-                "over": 4.4,
-                "boost": 6.146,
-                "gold": 6.556,
-                "max": 6.8
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Dulwich Hill - Northern Tigers",
-                    "ht": "0-2",
-                    "ft": "0-5",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL 2",
-                    "match": "Northern Tigers - Hakoah Sydney City",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL 2",
-                    "match": "Inter Lions - Northern Tigers",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "New South Wales NPL 2",
-                    "match": "Northern Tigers - Bankstown City Lions",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Northern Tigers - Prospect United",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "New South Wales NPL 2",
-                    "match": "Northern Tigers - Canterbury Bankstown",
-                    "ht": "3-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 5,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-08-30",
-                    "league": "New South Wales NPL 2",
-                    "match": "UNSW - Northern Tigers",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-08-23",
-                    "league": "New South Wales NPL 2",
-                    "match": "Northern Tigers - Canterbury Bankstown",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hills Brumbies - Hurstville FC",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "New South Wales NPL 2",
-                    "match": "Prospect United - Hills Brumbies",
-                    "ht": "0-3",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hills Brumbies - Macarthur Rams",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "New South Wales NPL 2",
-                    "match": "Bulls Academy - Hills Brumbies",
-                    "ht": "1-0",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hills Brumbies - Dulwich Hill",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "New South Wales NPL 2",
-                    "match": "Blacktown Spartans - Hills Brumbies",
-                    "ht": "1-0",
-                    "ft": "4-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-08-30",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hills Brumbies - Blacktown Spartans",
-                    "ht": "2-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-08-23",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hills Brumbies - Mounties Wanderers",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                }
-            ]
-        },
-        "1517716": {
-            "fixture_id": 1517716,
-            "date": "2026-03-21",
-            "time": "09:00",
-            "league": "New South Wales NPL 2",
-            "country": "Australia",
-            "match": "Inter Lions - Macarthur Rams",
-            "home_team": "Inter Lions",
-            "away_team": "Macarthur Rams",
-            "markets": {
-                "q1": 3.6,
-                "qx": 4.2,
-                "q2": 1.67,
-                "o25": 1.53,
-                "o05ht": 1.23,
-                "o15ht": 2.24
-            },
-            "averages": {
-                "home_avg_ft": 3.5,
-                "away_avg_ft": 3.5,
-                "home_avg_ht": 1.875,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.688
-            },
-            "flags": {
-                "fav_quote": 1.67,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": true,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 7.2,
-                "over": 6.2,
-                "boost": 7.162,
-                "gold": 7.529,
-                "max": 7.529
-            },
-            "tags": [
-                "⚽⭐ GOLD",
-                "🎯PT",
-                "⚽ OVER",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-15",
-                    "league": "New South Wales NPL 2",
-                    "match": "Newcastle Jets II - Inter Lions",
-                    "ht": "2-1",
-                    "ft": "5-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL 2",
-                    "match": "Mt Druitt Town - Inter Lions",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL 2",
-                    "match": "Inter Lions - Northern Tigers",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hurstville FC - Inter Lions",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Inter Lions - Canterbury Bankstown",
-                    "ht": "1-3",
-                    "ft": "2-5",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "New South Wales NPL 2",
-                    "match": "Bulls Academy - Inter Lions",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-08-30",
-                    "league": "New South Wales NPL 2",
-                    "match": "Inter Lions - Bonnyrigg White Eagles",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-08-23",
-                    "league": "New South Wales NPL 2",
-                    "match": "Inter Lions - Dulwich Hill",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-15",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hakoah Sydney City - Macarthur Rams",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL 2",
-                    "match": "Macarthur Rams - Newcastle Jets II",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hills Brumbies - Macarthur Rams",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "New South Wales NPL 2",
-                    "match": "Macarthur Rams - Rydalmere Lions",
-                    "ht": "1-3",
-                    "ft": "3-3",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "New South Wales NPL 2",
-                    "match": "Central Coast II - Macarthur Rams",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "New South Wales NPL 2",
-                    "match": "Macarthur Rams - Mt Druitt Town",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-08-30",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hakoah Sydney City - Macarthur Rams",
-                    "ht": "2-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-08-23",
-                    "league": "New South Wales NPL 2",
-                    "match": "Newcastle Jets II - Macarthur Rams",
-                    "ht": "2-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                }
-            ]
-        },
-        "1517717": {
-            "fixture_id": 1517717,
-            "date": "2026-03-21",
-            "time": "09:00",
-            "league": "New South Wales NPL 2",
-            "country": "Australia",
-            "match": "Dulwich Hill - Bankstown City Lions",
-            "home_team": "Dulwich Hill",
-            "away_team": "Bankstown City Lions",
-            "markets": {
-                "q1": 4.0,
-                "qx": 4.33,
-                "q2": 1.57,
-                "o25": 1.4,
-                "o05ht": 1.18,
-                "o15ht": 2.01
-            },
-            "averages": {
-                "home_avg_ft": 3.375,
-                "away_avg_ft": 3.875,
-                "home_avg_ht": 1.25,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.375
-            },
-            "flags": {
-                "fav_quote": 1.57,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.5,
-                "over": 4.8,
-                "boost": 5.844,
-                "gold": 6.287,
-                "max": 6.287
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Dulwich Hill - Northern Tigers",
-                    "ht": "0-2",
-                    "ft": "0-5",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "New South Wales NPL 2",
-                    "match": "Blacktown Spartans - Dulwich Hill",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL 2",
-                    "match": "Dulwich Hill - Prospect United",
-                    "ht": "1-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "New South Wales NPL 2",
-                    "match": "Central Coast II - Dulwich Hill",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Hills Brumbies - Dulwich Hill",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "New South Wales NPL 2",
-                    "match": "Dulwich Hill - Hakoah Sydney City",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-08-30",
-                    "league": "New South Wales NPL 2",
-                    "match": "Dulwich Hill - SD Raiders",
-                    "ht": "1-1",
-                    "ft": "1-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-08-23",
-                    "league": "New South Wales NPL 2",
-                    "match": "Inter Lions - Dulwich Hill",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Bankstown City Lions - Mt Druitt Town",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "New South Wales NPL 2",
-                    "match": "Central Coast II - Bankstown City Lions",
-                    "ht": "0-3",
-                    "ft": "1-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL 2",
-                    "match": "Bankstown City Lions - Blacktown Spartans",
-                    "ht": "1-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "New South Wales NPL 2",
-                    "match": "Northern Tigers - Bankstown City Lions",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL 2",
-                    "match": "Bankstown City Lions - Hakoah Sydney City",
-                    "ht": "0-2",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "New South Wales NPL 2",
-                    "match": "Bankstown City Lions - Rydalmere Lions",
-                    "ht": "1-2",
-                    "ft": "4-5",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 9
-                },
-                {
-                    "date": "2025-08-30",
-                    "league": "New South Wales NPL 2",
-                    "match": "Rydalmere Lions - Bankstown City Lions",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-08-23",
-                    "league": "New South Wales NPL 2",
-                    "match": "Bankstown City Lions - UNSW",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                }
-            ]
-        },
-        "1523706": {
-            "fixture_id": 1523706,
-            "date": "2026-03-21",
-            "time": "09:00",
-            "league": "Northern NSW NPL",
-            "country": "Australia",
-            "match": "Hamilton Olympic - Maitland",
-            "home_team": "Hamilton Olympic",
-            "away_team": "Maitland",
-            "markets": {
-                "q1": 2.35,
-                "qx": 4.1,
-                "q2": 2.25,
-                "o25": 1.36,
-                "o05ht": 1.16,
-                "o15ht": 1.98
-            },
-            "averages": {
-                "home_avg_ft": 4.625,
-                "away_avg_ft": 4.125,
-                "home_avg_ht": 1.875,
-                "away_avg_ht": 2.375,
-                "combined_ht_avg": 2.125
-            },
-            "flags": {
-                "fav_quote": 2.25,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 3.1,
-                "over": 3.6,
-                "boost": 4.356,
-                "gold": 3.693,
-                "max": 4.356
-            },
-            "tags": [
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-15",
-                    "league": "Northern NSW NPL",
-                    "match": "Kahibah - Hamilton Olympic",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-01",
-                    "league": "Northern NSW NPL",
-                    "match": "Charlestown City Blues - Hamilton Olympic",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Northern NSW NPL",
-                    "match": "Weston Bears - Hamilton Olympic",
-                    "ht": "1-0",
-                    "ft": "4-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-08-13",
-                    "league": "Northern NSW NPL",
-                    "match": "New Lambton - Hamilton Olympic",
-                    "ht": "0-3",
-                    "ft": "1-5",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2025-08-10",
-                    "league": "Northern NSW NPL",
-                    "match": "Belmont Swansea - Hamilton Olympic",
-                    "ht": "1-0",
-                    "ft": "2-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-08-06",
-                    "league": "Northern NSW NPL",
-                    "match": "Weston Bears - Hamilton Olympic",
-                    "ht": "3-1",
-                    "ft": "5-1",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2025-07-30",
-                    "league": "Northern NSW NPL",
-                    "match": "Cooks Hill United - Hamilton Olympic",
-                    "ht": "1-2",
-                    "ft": "1-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-07-20",
-                    "league": "Northern NSW NPL",
-                    "match": "Hamilton Olympic - Edgeworth Eagles",
-                    "ht": "1-0",
-                    "ft": "2-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "Northern NSW NPL",
-                    "match": "Valentine - Maitland",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Northern NSW NPL",
-                    "match": "Belmont Swansea - Maitland",
-                    "ht": "3-1",
-                    "ft": "3-4",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Northern NSW NPL",
-                    "match": "Maitland - Weston Bears",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Northern NSW NPL",
-                    "match": "Cooks Hill United - Maitland",
-                    "ht": "2-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-08-17",
-                    "league": "Northern NSW NPL",
-                    "match": "Lambton Jaffas - Maitland",
-                    "ht": "2-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-08-13",
-                    "league": "Northern NSW NPL",
-                    "match": "Maitland - Belmont Swansea",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-08-10",
-                    "league": "Northern NSW NPL",
-                    "match": "Lambton Jaffas - Maitland",
-                    "ht": "2-2",
-                    "ft": "4-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2025-08-06",
-                    "league": "Northern NSW NPL",
-                    "match": "Maitland - Cooks Hill United",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                }
-            ]
-        },
-        "1517483": {
-            "fixture_id": 1517483,
-            "date": "2026-03-21",
-            "time": "09:15",
-            "league": "New South Wales NPL",
-            "country": "Australia",
-            "match": "St George City FA - Wollongong Wolves",
-            "home_team": "St George City FA",
-            "away_team": "Wollongong Wolves",
-            "markets": {
-                "q1": 2.05,
-                "qx": 3.45,
-                "q2": 3.1,
-                "o25": 1.77,
-                "o05ht": 1.33,
-                "o15ht": 2.5
-            },
-            "averages": {
-                "home_avg_ft": 2.25,
-                "away_avg_ft": 2.625,
-                "home_avg_ht": 0.75,
-                "away_avg_ht": 1.5,
-                "combined_ht_avg": 1.125
-            },
-            "flags": {
-                "fav_quote": 2.05,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": true,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.2,
-                "over": 5.5,
-                "boost": 5.716,
-                "gold": 4.737,
-                "max": 5.716
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "New South Wales NPL",
-                    "match": "St George City FA - SD Raiders",
-                    "ht": "0-2",
-                    "ft": "4-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "New South Wales NPL",
-                    "match": "NWS Spirit - St George City FA",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL",
-                    "match": "St George City FA - Western Sydney Wanderers U23",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "New South Wales NPL",
-                    "match": "Sydney Olympic - St George City FA",
-                    "ht": "2-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "New South Wales NPL",
-                    "match": "St George City FA - St. George Saints",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "New South Wales NPL",
-                    "match": "Manly United - St George City FA",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-08-31",
-                    "league": "New South Wales NPL",
-                    "match": "St George City FA - Sydney United",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-08-23",
-                    "league": "New South Wales NPL",
-                    "match": "APIA Leichhardt Tigers - St George City FA",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-15",
-                    "league": "New South Wales NPL",
-                    "match": "Wollongong Wolves - NWS Spirit",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "New South Wales NPL",
-                    "match": "Sydney FC U23 - Wollongong Wolves",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "New South Wales NPL",
-                    "match": "APIA Leichhardt Tigers - Wollongong Wolves",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "New South Wales NPL",
-                    "match": "Wollongong Wolves - Marconi Stallions",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "New South Wales NPL",
-                    "match": "Wollongong Wolves - UNSW",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "New South Wales NPL",
-                    "match": "St. George Saints - Wollongong Wolves",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-11-15",
-                    "league": "Australian Championship",
-                    "match": "Wollongong Wolves - Marconi Stallions",
-                    "ht": "2-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-11-09",
-                    "league": "Australian Championship",
-                    "match": "Heidelberg United - Wollongong Wolves",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
                 }
             ]
         }
