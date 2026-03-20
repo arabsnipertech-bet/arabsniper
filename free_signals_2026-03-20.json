@@ -7,7 +7,7 @@
     "fixture_id": "1517652",
     "signal": "GOLD TARGET",
     "quote": "1.8",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER"
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER DROP_1"
   },
   {
     "data": "2026-03-20",
@@ -17,7 +17,7 @@
     "fixture_id": "1523076",
     "signal": "GOLD TARGET",
     "quote": "3.9",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER"
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER DROP_2"
   },
   {
     "data": "2026-03-20",
@@ -37,6 +37,6 @@
     "fixture_id": "1531509",
     "signal": "GOLD TARGET",
     "quote": "1.5",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O"
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_2"
   }
 ]
