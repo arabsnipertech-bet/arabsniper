@@ -1,583 +1,667 @@
 {
-    "updated_at": "2026-03-21 06:52:23",
-    "day": 5,
-    "date": "2026-03-25",
-    "details": {
-        "1506054": {
-            "fixture_id": 1506054,
-            "date": "2026-03-25",
-            "time": "00:00",
-            "league": "Primera A",
-            "country": "Colombia",
-            "match": "Junior - Bucaramanga",
-            "home_team": "Junior",
-            "away_team": "Bucaramanga",
-            "markets": {
-                "q1": 2.1,
-                "qx": 3.15,
-                "q2": 3.65,
-                "o25": 2.25,
-                "o05ht": 1.42,
-                "o15ht": 2.88
-            },
-            "averages": {
-                "home_avg_ft": 2.75,
-                "away_avg_ft": 1.375,
-                "home_avg_ht": 1.625,
-                "away_avg_ht": 0.875,
-                "combined_ht_avg": 1.25
-            },
-            "flags": {
-                "fav_quote": 2.1,
-                "is_gold_zone": false,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": true,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 4.3,
-                "over": 4.2,
-                "boost": 4.25,
-                "gold": 3.651,
-                "max": 4.3
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-20",
-                    "league": "Primera A",
-                    "match": "Independiente Medellin - Junior",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-16",
-                    "league": "Primera A",
-                    "match": "Junior - Fortaleza FC",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-11",
-                    "league": "Primera A",
-                    "match": "Junior - Atletico Nacional",
-                    "ht": "0-1",
-                    "ft": "0-4",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "Primera A",
-                    "match": "Junior - Alianza Valledupar",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Primera A",
-                    "match": "Jaguares - Junior",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Primera A",
-                    "match": "Santa Fe - Junior",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Primera A",
-                    "match": "Junior - America de Cali",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Primera A",
-                    "match": "Once Caldas - Junior",
-                    "ht": "2-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-19",
-                    "league": "Primera A",
-                    "match": "Bucaramanga - Once Caldas",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-14",
-                    "league": "Primera A",
-                    "match": "Internacional de Bogota - Bucaramanga",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-03-10",
-                    "league": "Primera A",
-                    "match": "Bucaramanga - Deportivo Pereira",
-                    "ht": "1-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "CONMEBOL Sudamericana",
-                    "match": "America de Cali - Bucaramanga",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-01",
-                    "league": "Primera A",
-                    "match": "Independiente Medellin - Bucaramanga",
-                    "ht": "0-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Primera A",
-                    "match": "Bucaramanga - Deportivo Cali",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Primera A",
-                    "match": "Bucaramanga - Deportes Tolima",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-06",
-                    "league": "Primera A",
-                    "match": "Deportivo Pasto - Bucaramanga",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                }
-            ]
+  "updated_at": "2026-03-21 06:52:23",
+  "day": 5,
+  "date": "2026-03-25",
+  "details": {
+    "1506054": {
+      "fixture_id": 1506054,
+      "date": "2026-03-25",
+      "time": "00:00",
+      "league": "Primera A",
+      "country": "Colombia",
+      "match": "Junior - Bucaramanga",
+      "home_team": "Junior",
+      "away_team": "Bucaramanga",
+      "markets": {
+        "q1": 2.1,
+        "qx": 3.15,
+        "q2": 3.65,
+        "o25": 2.25,
+        "o05ht": 1.42,
+        "o15ht": 2.88
+      },
+      "averages": {
+        "home_avg_ft": 2.75,
+        "away_avg_ft": 1.375,
+        "home_avg_ht": 1.625,
+        "away_avg_ht": 0.875,
+        "combined_ht_avg": 1.25
+      },
+      "flags": {
+        "fav_quote": 2.1,
+        "is_gold_zone": false,
+        "home_last_2h_zero": true,
+        "away_last_2h_zero": true,
+        "drop_diff": 0.0,
+        "open_q1": 2.1,
+        "open_qx": 3.15,
+        "open_q2": 3.65,
+        "open_o25": 2.25,
+        "curr_q1": 2.1,
+        "curr_qx": 3.15,
+        "curr_q2": 3.65,
+        "curr_o25": 2.25,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 2.1,
+        "curr_fav_quote": 2.1,
+        "history_points": 1,
+        "first_seen_at": "2026-03-21T06:52:30",
+        "last_seen_at": "2026-03-21T06:52:30"
+      },
+      "scores": {
+        "pt": 4.3,
+        "over": 4.2,
+        "boost": 4.25,
+        "gold": 3.651,
+        "max": 4.3
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-20",
+          "league": "Primera A",
+          "match": "Independiente Medellin - Junior",
+          "ht": "2-0",
+          "ft": "2-0",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
         },
-        "1507292": {
-            "fixture_id": 1507292,
-            "date": "2026-03-25",
-            "time": "16:00",
-            "league": "Liga 3",
-            "country": "Georgia",
-            "match": "Gonio - Lokomotivi Tbilisi",
-            "home_team": "Gonio",
-            "away_team": "Lokomotivi Tbilisi",
-            "markets": {
-                "q1": 1.55,
-                "qx": 4.0,
-                "q2": 4.33,
-                "o25": 1.53,
-                "o05ht": 1.22,
-                "o15ht": 2.1
-            },
-            "averages": {
-                "home_avg_ft": 3.25,
-                "away_avg_ft": 5.25,
-                "home_avg_ht": 0.75,
-                "away_avg_ht": 2.5,
-                "combined_ht_avg": 1.625
-            },
-            "flags": {
-                "fav_quote": 1.55,
-                "is_gold_zone": true,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.2,
-                "over": 5.4,
-                "boost": 5.468,
-                "gold": 6.273,
-                "max": 6.273
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-12",
-                    "league": "Liga 3",
-                    "match": "Iveria Khashuri - Gonio",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-05",
-                    "league": "Liga 3",
-                    "match": "Gonio - Iberia 2010",
-                    "ht": "0-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-12-06",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Sioni - Gonio",
-                    "ht": "1-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-11-29",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Gonio - Rustavi",
-                    "ht": "0-1",
-                    "ft": "0-4",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-11-25",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Samtredia - Gonio",
-                    "ht": "2-0",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-11-21",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Gonio - Merani Martvili",
-                    "ht": "1-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-11-08",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Meshakhte - Gonio",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-11-01",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Gonio - Saburtalo II",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-12",
-                    "league": "Liga 3",
-                    "match": "Lokomotivi Tbilisi - Saburtalo II",
-                    "ht": "0-3",
-                    "ft": "1-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-03-05",
-                    "league": "Liga 3",
-                    "match": "Lokomotivi Tbilisi - Guria",
-                    "ht": "0-3",
-                    "ft": "1-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-12-11",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Aragvi Dusheti - Lokomotivi Tbilisi",
-                    "ht": "1-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-12-06",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Lokomotivi Tbilisi - Dinamo Tbilisi II",
-                    "ht": "3-1",
-                    "ft": "5-1",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2025-11-29",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Spaeri - Lokomotivi Tbilisi",
-                    "ht": "1-0",
-                    "ft": "2-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-11-25",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Saburtalo II - Lokomotivi Tbilisi",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-11-21",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Lokomotivi Tbilisi - Sioni",
-                    "ht": "0-2",
-                    "ft": "3-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2025-11-08",
-                    "league": "Erovnuli Liga 2",
-                    "match": "Rustavi - Lokomotivi Tbilisi",
-                    "ht": "3-0",
-                    "ft": "5-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                }
-            ]
+        {
+          "date": "2026-03-16",
+          "league": "Primera A",
+          "match": "Junior - Fortaleza FC",
+          "ht": "1-0",
+          "ft": "2-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
         },
-        "1399872": {
-            "fixture_id": 1399872,
-            "date": "2026-03-25",
-            "time": "20:45",
-            "league": "National League",
-            "country": "England",
-            "match": "Morecambe - Hartlepool",
-            "home_team": "Morecambe",
-            "away_team": "Hartlepool",
-            "markets": {
-                "q1": 2.74,
-                "qx": 3.52,
-                "q2": 2.17,
-                "o25": 1.62,
-                "o05ht": 1.27,
-                "o15ht": 2.38
-            },
-            "averages": {
-                "home_avg_ft": 4.375,
-                "away_avg_ft": 3.125,
-                "home_avg_ht": 2.125,
-                "away_avg_ht": 1.0,
-                "combined_ht_avg": 1.562
-            },
-            "flags": {
-                "fav_quote": 2.17,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.4,
-                "over": 5.4,
-                "boost": 6.644,
-                "gold": 5.517,
-                "max": 6.644
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🚀 BOOST",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "National League",
-                    "match": "Morecambe - Braintree",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "National League",
-                    "match": "Sutton Utd - Morecambe",
-                    "ht": "0-4",
-                    "ft": "0-5",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-03-03",
-                    "league": "National League",
-                    "match": "Wealdstone - Morecambe",
-                    "ht": "1-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "National League",
-                    "match": "Morecambe - York",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-25",
-                    "league": "National League",
-                    "match": "Gateshead - Morecambe",
-                    "ht": "2-3",
-                    "ft": "4-4",
-                    "total_ht_goals": 5,
-                    "total_ft_goals": 8
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "National League",
-                    "match": "Morecambe - Eastleigh",
-                    "ht": "1-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "National League",
-                    "match": "Southend - Morecambe",
-                    "ht": "2-0",
-                    "ft": "5-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "National League",
-                    "match": "Morecambe - Tamworth",
-                    "ht": "1-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "National League",
-                    "match": "Truro City - Hartlepool",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "National League",
-                    "match": "Hartlepool - FC Halifax Town",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-03",
-                    "league": "National League",
-                    "match": "Hartlepool - Sutton Utd",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-25",
-                    "league": "National League",
-                    "match": "Hartlepool - Carlisle",
-                    "ht": "1-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "National League",
-                    "match": "Solihull Moors - Hartlepool",
-                    "ht": "2-2",
-                    "ft": "3-4",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "National League",
-                    "match": "York - Hartlepool",
-                    "ht": "1-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "National League",
-                    "match": "Tamworth - Hartlepool",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "National League",
-                    "match": "Hartlepool - Aldershot Town",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                }
-            ]
+        {
+          "date": "2026-03-11",
+          "league": "Primera A",
+          "match": "Junior - Atletico Nacional",
+          "ht": "0-1",
+          "ft": "0-4",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-06",
+          "league": "Primera A",
+          "match": "Junior - Alianza Valledupar",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-28",
+          "league": "Primera A",
+          "match": "Jaguares - Junior",
+          "ht": "0-1",
+          "ft": "0-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-22",
+          "league": "Primera A",
+          "match": "Santa Fe - Junior",
+          "ht": "1-1",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-19",
+          "league": "Primera A",
+          "match": "Junior - America de Cali",
+          "ht": "1-1",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-12",
+          "league": "Primera A",
+          "match": "Once Caldas - Junior",
+          "ht": "2-1",
+          "ft": "2-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
         }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-19",
+          "league": "Primera A",
+          "match": "Bucaramanga - Once Caldas",
+          "ht": "1-1",
+          "ft": "1-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-14",
+          "league": "Primera A",
+          "match": "Internacional de Bogota - Bucaramanga",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-03-10",
+          "league": "Primera A",
+          "match": "Bucaramanga - Deportivo Pereira",
+          "ht": "1-0",
+          "ft": "3-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-06",
+          "league": "CONMEBOL Sudamericana",
+          "match": "America de Cali - Bucaramanga",
+          "ht": "1-1",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-01",
+          "league": "Primera A",
+          "match": "Independiente Medellin - Bucaramanga",
+          "ht": "0-2",
+          "ft": "1-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Primera A",
+          "match": "Bucaramanga - Deportivo Cali",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-02-11",
+          "league": "Primera A",
+          "match": "Bucaramanga - Deportes Tolima",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-02-06",
+          "league": "Primera A",
+          "match": "Deportivo Pasto - Bucaramanga",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        }
+      ]
+    },
+    "1507292": {
+      "fixture_id": 1507292,
+      "date": "2026-03-25",
+      "time": "16:00",
+      "league": "Liga 3",
+      "country": "Georgia",
+      "match": "Gonio - Lokomotivi Tbilisi",
+      "home_team": "Gonio",
+      "away_team": "Lokomotivi Tbilisi",
+      "markets": {
+        "q1": 1.55,
+        "qx": 4.0,
+        "q2": 4.33,
+        "o25": 1.53,
+        "o05ht": 1.22,
+        "o15ht": 2.1
+      },
+      "averages": {
+        "home_avg_ft": 3.25,
+        "away_avg_ft": 5.25,
+        "home_avg_ht": 0.75,
+        "away_avg_ht": 2.5,
+        "combined_ht_avg": 1.625
+      },
+      "flags": {
+        "fav_quote": 1.55,
+        "is_gold_zone": true,
+        "home_last_2h_zero": true,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 1.55,
+        "open_qx": 4.0,
+        "open_q2": 4.33,
+        "open_o25": 1.53,
+        "curr_q1": 1.55,
+        "curr_qx": 4.0,
+        "curr_q2": 4.33,
+        "curr_o25": 1.53,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 1.55,
+        "curr_fav_quote": 1.55,
+        "history_points": 1,
+        "first_seen_at": "2026-03-19T10:09:09",
+        "last_seen_at": "2026-03-19T10:09:09"
+      },
+      "scores": {
+        "pt": 5.2,
+        "over": 5.4,
+        "boost": 5.468,
+        "gold": 6.273,
+        "max": 6.273
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🐟O"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-12",
+          "league": "Liga 3",
+          "match": "Iveria Khashuri - Gonio",
+          "ht": "0-1",
+          "ft": "0-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-05",
+          "league": "Liga 3",
+          "match": "Gonio - Iberia 2010",
+          "ht": "0-0",
+          "ft": "3-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-12-06",
+          "league": "Erovnuli Liga 2",
+          "match": "Sioni - Gonio",
+          "ht": "1-0",
+          "ft": "5-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-11-29",
+          "league": "Erovnuli Liga 2",
+          "match": "Gonio - Rustavi",
+          "ht": "0-1",
+          "ft": "0-4",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-11-25",
+          "league": "Erovnuli Liga 2",
+          "match": "Samtredia - Gonio",
+          "ht": "2-0",
+          "ft": "3-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-11-21",
+          "league": "Erovnuli Liga 2",
+          "match": "Gonio - Merani Martvili",
+          "ht": "1-0",
+          "ft": "4-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-11-08",
+          "league": "Erovnuli Liga 2",
+          "match": "Meshakhte - Gonio",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-11-01",
+          "league": "Erovnuli Liga 2",
+          "match": "Gonio - Saburtalo II",
+          "ht": "0-0",
+          "ft": "2-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-12",
+          "league": "Liga 3",
+          "match": "Lokomotivi Tbilisi - Saburtalo II",
+          "ht": "0-3",
+          "ft": "1-4",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-03-05",
+          "league": "Liga 3",
+          "match": "Lokomotivi Tbilisi - Guria",
+          "ht": "0-3",
+          "ft": "1-4",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-12-11",
+          "league": "Erovnuli Liga 2",
+          "match": "Aragvi Dusheti - Lokomotivi Tbilisi",
+          "ht": "1-1",
+          "ft": "2-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-12-06",
+          "league": "Erovnuli Liga 2",
+          "match": "Lokomotivi Tbilisi - Dinamo Tbilisi II",
+          "ht": "3-1",
+          "ft": "5-1",
+          "total_ht_goals": 4,
+          "total_ft_goals": 6
+        },
+        {
+          "date": "2025-11-29",
+          "league": "Erovnuli Liga 2",
+          "match": "Spaeri - Lokomotivi Tbilisi",
+          "ht": "1-0",
+          "ft": "2-3",
+          "total_ht_goals": 1,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-11-25",
+          "league": "Erovnuli Liga 2",
+          "match": "Saburtalo II - Lokomotivi Tbilisi",
+          "ht": "1-1",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-11-21",
+          "league": "Erovnuli Liga 2",
+          "match": "Lokomotivi Tbilisi - Sioni",
+          "ht": "0-2",
+          "ft": "3-4",
+          "total_ht_goals": 2,
+          "total_ft_goals": 7
+        },
+        {
+          "date": "2025-11-08",
+          "league": "Erovnuli Liga 2",
+          "match": "Rustavi - Lokomotivi Tbilisi",
+          "ht": "3-0",
+          "ft": "5-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 6
+        }
+      ]
+    },
+    "1399872": {
+      "fixture_id": 1399872,
+      "date": "2026-03-25",
+      "time": "20:45",
+      "league": "National League",
+      "country": "England",
+      "match": "Morecambe - Hartlepool",
+      "home_team": "Morecambe",
+      "away_team": "Hartlepool",
+      "markets": {
+        "q1": 2.74,
+        "qx": 3.52,
+        "q2": 2.17,
+        "o25": 1.62,
+        "o05ht": 1.27,
+        "o15ht": 2.38
+      },
+      "averages": {
+        "home_avg_ft": 4.375,
+        "away_avg_ft": 3.125,
+        "home_avg_ht": 2.125,
+        "away_avg_ht": 1.0,
+        "combined_ht_avg": 1.562
+      },
+      "flags": {
+        "fav_quote": 2.17,
+        "is_gold_zone": false,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 2.74,
+        "open_qx": 3.52,
+        "open_q2": 2.17,
+        "open_o25": 1.62,
+        "curr_q1": 2.74,
+        "curr_qx": 3.52,
+        "curr_q2": 2.17,
+        "curr_o25": 1.62,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "2",
+        "inversion_to": "2",
+        "open_fav_side": "2",
+        "curr_fav_side": "2",
+        "open_fav_quote": 2.17,
+        "curr_fav_quote": 2.17,
+        "history_points": 1,
+        "first_seen_at": "2026-03-21T06:52:30",
+        "last_seen_at": "2026-03-21T06:52:30"
+      },
+      "scores": {
+        "pt": 5.4,
+        "over": 5.4,
+        "boost": 6.644,
+        "gold": 5.517,
+        "max": 6.644
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🚀 BOOST",
+        "🐟G"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-14",
+          "league": "National League",
+          "match": "Morecambe - Braintree",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-07",
+          "league": "National League",
+          "match": "Sutton Utd - Morecambe",
+          "ht": "0-4",
+          "ft": "0-5",
+          "total_ht_goals": 4,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-03-03",
+          "league": "National League",
+          "match": "Wealdstone - Morecambe",
+          "ht": "1-2",
+          "ft": "2-3",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-02-28",
+          "league": "National League",
+          "match": "Morecambe - York",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-25",
+          "league": "National League",
+          "match": "Gateshead - Morecambe",
+          "ht": "2-3",
+          "ft": "4-4",
+          "total_ht_goals": 5,
+          "total_ft_goals": 8
+        },
+        {
+          "date": "2026-02-21",
+          "league": "National League",
+          "match": "Morecambe - Eastleigh",
+          "ht": "1-0",
+          "ft": "4-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-14",
+          "league": "National League",
+          "match": "Southend - Morecambe",
+          "ht": "2-0",
+          "ft": "5-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 6
+        },
+        {
+          "date": "2026-02-10",
+          "league": "National League",
+          "match": "Morecambe - Tamworth",
+          "ht": "1-1",
+          "ft": "2-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-14",
+          "league": "National League",
+          "match": "Truro City - Hartlepool",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-07",
+          "league": "National League",
+          "match": "Hartlepool - FC Halifax Town",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-03",
+          "league": "National League",
+          "match": "Hartlepool - Sutton Utd",
+          "ht": "0-0",
+          "ft": "0-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-25",
+          "league": "National League",
+          "match": "Hartlepool - Carlisle",
+          "ht": "1-0",
+          "ft": "3-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-21",
+          "league": "National League",
+          "match": "Solihull Moors - Hartlepool",
+          "ht": "2-2",
+          "ft": "3-4",
+          "total_ht_goals": 4,
+          "total_ft_goals": 7
+        },
+        {
+          "date": "2026-02-11",
+          "league": "National League",
+          "match": "York - Hartlepool",
+          "ht": "1-1",
+          "ft": "3-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-02-07",
+          "league": "National League",
+          "match": "Tamworth - Hartlepool",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-01-31",
+          "league": "National League",
+          "match": "Hartlepool - Aldershot Town",
+          "ht": "0-1",
+          "ft": "0-3",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        }
+      ]
     }
+  }
 }
