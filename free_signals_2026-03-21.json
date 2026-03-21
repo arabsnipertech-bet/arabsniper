@@ -1,42 +1,42 @@
 [
   {
     "data": "2026-03-21",
-    "time": "09:30",
-    "match": "Sydney FC U23 - UNSW",
-    "league": "New South Wales NPL (Australia)",
-    "fixture_id": "1517652",
+    "time": "09:00",
+    "match": "Inter Lions - Macarthur Rams",
+    "league": "New South Wales NPL 2 (Australia)",
+    "fixture_id": "1517716",
     "signal": "GOLD TARGET",
-    "quote": "1.8",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER DROP_1"
+    "quote": "4.0",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🐟O DROP_X"
   },
   {
     "data": "2026-03-21",
-    "time": "12:35",
-    "match": "Qingdao Jonoon - Hangzhou Greentown",
-    "league": "Super League (China)",
-    "fixture_id": "1523076",
-    "signal": "GOLD TARGET",
-    "quote": "3.9",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER DROP_2"
-  },
-  {
-    "data": "2026-03-21",
-    "time": "17:00",
-    "match": "Hranice - Frýdek-Místek",
-    "league": "3. liga - MSFL (Czech-Republic)",
-    "fixture_id": "1487360",
-    "signal": "GOLD TARGET",
-    "quote": "4.4",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🐟O"
-  },
-  {
-    "data": "2026-03-21",
-    "time": "18:00",
-    "match": "FCSB - Uta Arad",
-    "league": "Liga I (Romania)",
-    "fixture_id": "1531509",
+    "time": "11:30",
+    "match": "Ascoli U19 - Monopoli U19",
+    "league": "Campionato Primavera - 2 (Italy)",
+    "fixture_id": "1467991",
     "signal": "GOLD TARGET",
     "quote": "1.5",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_2"
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O"
+  },
+  {
+    "data": "2026-03-21",
+    "time": "11:30",
+    "match": "Corvinul Hunedoara - CSA Steaua Bucureşti",
+    "league": "Liga II (Romania)",
+    "fixture_id": "1533975",
+    "signal": "GOLD TARGET",
+    "quote": "1.6",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_1"
+  },
+  {
+    "data": "2026-03-21",
+    "time": "11:30",
+    "match": "Sampdoria U19 - Como U19",
+    "league": "Campionato Primavera - 2 (Italy)",
+    "fixture_id": "1468837",
+    "signal": "GOLD TARGET",
+    "quote": "3.9",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O"
   }
 ]
