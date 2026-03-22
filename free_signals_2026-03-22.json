@@ -1,42 +1,42 @@
 [
   {
     "data": "2026-03-22",
-    "time": "14:30",
-    "match": "CSKA Sofia II - Hebar 1918",
-    "league": "Second League (Bulgaria)",
-    "fixture_id": "1451876",
+    "time": "10:15",
+    "match": "Pardubice II - Varnsdorf",
+    "league": "3. liga - CFL B (Czech-Republic)",
+    "fixture_id": "1489504",
     "signal": "GOLD TARGET",
-    "quote": "1.6",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O O25_DROP"
+    "quote": "1.4",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🐟O"
   },
   {
     "data": "2026-03-22",
-    "time": "22:00",
-    "match": "Lexington W - Fort Lauderdale United W",
-    "league": "USL Super League (USA)",
-    "fixture_id": "1446200",
+    "time": "11:00",
+    "match": "MTE 1904 - Bicskei",
+    "league": "NB III - Northwest (Hungary)",
+    "fixture_id": "1414901",
     "signal": "GOLD TARGET",
-    "quote": "1.4",
+    "quote": "1.7",
     "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O"
   },
   {
     "data": "2026-03-22",
-    "time": "23:00",
-    "match": "Deportivo Zap - Cordobés",
-    "league": "Liga Premier Serie A (Mexico)",
-    "fixture_id": "1457046",
+    "time": "11:30",
+    "match": "Getafe II - Tenerife II",
+    "league": "Segunda División RFEF - Group 5 (Spain)",
+    "fixture_id": "1433358",
     "signal": "GOLD TARGET",
-    "quote": "1.5",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🐟O DROP_X DROP_2 O25_DROP"
+    "quote": "1.6",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_1 O25_DROP"
   },
   {
     "data": "2026-03-22",
-    "time": "09:00",
-    "match": "Mt Druitt Town - Bulls Academy",
-    "league": "New South Wales NPL 2 (Australia)",
-    "fixture_id": "1517714",
-    "signal": "OVER 2.5",
-    "quote": "1.40",
-    "info": "🎯PT ⚽ OVER 🐟G"
+    "time": "11:45",
+    "match": "FC Orenburg - Spartak Moscow",
+    "league": "Premier League (Russia)",
+    "fixture_id": "1400206",
+    "signal": "GOLD TARGET",
+    "quote": "4.2",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST DROP_1"
   }
 ]
