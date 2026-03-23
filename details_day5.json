@@ -1,3312 +1,2314 @@
 {
-  "updated_at": "2026-03-23 07:04:51",
-  "day": 5,
-  "date": "2026-03-27",
-  "details": {
-    "1512757": {
-      "fixture_id": 1512757,
-      "date": "2026-03-27",
-      "time": "00:30",
-      "league": "Friendlies",
-      "country": "World",
-      "match": "Colombia - Croatia",
-      "home_team": "Colombia",
-      "away_team": "Croatia",
-      "markets": {
-        "q1": 2.44,
-        "qx": 3.0,
-        "q2": 3.05,
-        "o25": 1.93,
-        "o05ht": 1.36,
-        "o15ht": 2.6
-      },
-      "averages": {
-        "home_avg_ft": 3.0,
-        "away_avg_ft": 3.75,
-        "home_avg_ht": 1.0,
-        "away_avg_ht": 1.375,
-        "combined_ht_avg": 1.188
-      },
-      "flags": {
-        "fav_quote": 2.44,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 2.44,
-        "open_qx": 3.0,
-        "open_q2": 3.05,
-        "open_o25": 1.93,
-        "curr_q1": 2.44,
-        "curr_qx": 3.0,
-        "curr_q2": 3.05,
-        "curr_o25": 1.93,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.44,
-        "curr_fav_quote": 2.44,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.8,
-        "over": 4.7,
-        "boost": 6.46,
-        "gold": 5.332,
-        "max": 6.46
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-19",
-          "league": "Friendlies",
-          "match": "Colombia - Australia",
-          "ht": "0-0",
-          "ft": "3-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
+    "updated_at": "2026-03-23 07:18:59",
+    "day": 5,
+    "date": "2026-03-27",
+    "details": {
+        "1512757": {
+            "fixture_id": 1512757,
+            "date": "2026-03-27",
+            "time": "00:30",
+            "league": "Friendlies",
+            "country": "World",
+            "match": "Colombia - Croatia",
+            "home_team": "Colombia",
+            "away_team": "Croatia",
+            "markets": {
+                "q1": 2.44,
+                "qx": 3.0,
+                "q2": 3.05,
+                "o25": 1.93,
+                "o05ht": 1.36,
+                "o15ht": 2.6
+            },
+            "averages": {
+                "home_avg_ft": 3.0,
+                "away_avg_ft": 3.75,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 1.375,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 2.44,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.8,
+                "over": 4.7,
+                "boost": 6.46,
+                "gold": 5.332,
+                "max": 6.46
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-19",
+                    "league": "Friendlies",
+                    "match": "Colombia - Australia",
+                    "ht": "0-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-11-16",
+                    "league": "Friendlies",
+                    "match": "Colombia - New Zealand",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-15",
+                    "league": "Friendlies",
+                    "match": "Canada - Colombia",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-12",
+                    "league": "Friendlies",
+                    "match": "Mexico - Colombia",
+                    "ht": "0-1",
+                    "ft": "0-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-09-09",
+                    "league": "World Cup - Qualification South America",
+                    "match": "Venezuela - Colombia",
+                    "ht": "2-2",
+                    "ft": "3-6",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 9
+                },
+                {
+                    "date": "2025-09-04",
+                    "league": "World Cup - Qualification South America",
+                    "match": "Colombia - Bolivia",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-06-11",
+                    "league": "World Cup - Qualification South America",
+                    "match": "Argentina - Colombia",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "World Cup - Qualification South America",
+                    "match": "Colombia - Peru",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-17",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Montenegro - Croatia",
+                    "ht": "2-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-11-14",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Croatia - Faroe Islands",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-12",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Croatia - Gibraltar",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Czech Republic - Croatia",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-09-08",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Croatia - Montenegro",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Faroe Islands - Croatia",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-06-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Croatia - Czech Republic",
+                    "ht": "1-0",
+                    "ft": "5-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Gibraltar - Croatia",
+                    "ht": "0-2",
+                    "ft": "0-7",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 7
+                }
+            ]
         },
-        {
-          "date": "2025-11-16",
-          "league": "Friendlies",
-          "match": "Colombia - New Zealand",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
+        "1535576": {
+            "fixture_id": 1535576,
+            "date": "2026-03-27",
+            "time": "00:30",
+            "league": "Copa De La Liga",
+            "country": "Chile",
+            "match": "Universidad de Concepcion - Cobresal",
+            "home_team": "Universidad de Concepcion",
+            "away_team": "Cobresal",
+            "markets": {
+                "q1": 2.15,
+                "qx": 3.25,
+                "q2": 3.1,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.5
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 3.5,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.875,
+                "combined_ht_avg": 1.562
+            },
+            "flags": {
+                "fav_quote": 2.15,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.4,
+                "boost": 7.176,
+                "gold": 6.006,
+                "max": 7.176
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-22",
+                    "league": "Copa De La Liga",
+                    "match": "U. Catolica - Universidad de Concepcion",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-15",
+                    "league": "Primera División",
+                    "match": "Universidad de Concepcion - Palestino",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-09",
+                    "league": "Primera División",
+                    "match": "Universidad de Chile - Universidad de Concepcion",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "Primera División",
+                    "match": "Universidad de Concepcion - Everton de Vina",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Primera División",
+                    "match": "D. La Serena - Universidad de Concepcion",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "Primera División",
+                    "match": "Universidad de Concepcion - Concepción",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Primera División",
+                    "match": "A. Italiano - Universidad de Concepcion",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Primera División",
+                    "match": "Universidad de Concepcion - Coquimbo Unido",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "Copa De La Liga",
+                    "match": "Cobresal - Nublense",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-15",
+                    "league": "Primera División",
+                    "match": "Cobresal - Deportes Limache",
+                    "ht": "0-3",
+                    "ft": "2-5",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Primera División",
+                    "match": "Palestino - Cobresal",
+                    "ht": "1-0",
+                    "ft": "4-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Primera División",
+                    "match": "Cobresal - D. La Serena",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Primera División",
+                    "match": "Concepción - Cobresal",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Primera División",
+                    "match": "Cobresal - U. Catolica",
+                    "ht": "2-1",
+                    "ft": "3-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-09",
+                    "league": "Primera División",
+                    "match": "Union La Calera - Cobresal",
+                    "ht": "3-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Primera División",
+                    "match": "Cobresal - Huachipato",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ]
         },
-        {
-          "date": "2025-10-15",
-          "league": "Friendlies",
-          "match": "Canada - Colombia",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
+        "1525450": {
+            "fixture_id": 1525450,
+            "date": "2026-03-27",
+            "time": "16:00",
+            "league": "Friendlies",
+            "country": "World",
+            "match": "Russia - Mali",
+            "home_team": "Russia",
+            "away_team": "Mali",
+            "markets": {
+                "q1": 1.71,
+                "qx": 3.52,
+                "q2": 4.95,
+                "o25": 2.18,
+                "o05ht": 1.46,
+                "o15ht": 3.1
+            },
+            "averages": {
+                "home_avg_ft": 2.75,
+                "away_avg_ft": 1.625,
+                "home_avg_ht": 1.5,
+                "away_avg_ht": 0.625,
+                "combined_ht_avg": 1.062
+            },
+            "flags": {
+                "fav_quote": 1.71,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.6,
+                "over": 4.4,
+                "boost": 3.73,
+                "gold": 4.58,
+                "max": 4.58
+            },
+            "tags": [
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-15",
+                    "league": "Friendlies",
+                    "match": "Russia - Chile",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-12",
+                    "league": "Friendlies",
+                    "match": "Russia - Peru",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-14",
+                    "league": "Friendlies",
+                    "match": "Russia - Bolivia",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "Friendlies",
+                    "match": "Russia - Iran",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-07",
+                    "league": "Friendlies",
+                    "match": "Qatar - Russia",
+                    "ht": "0-3",
+                    "ft": "1-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-09-04",
+                    "league": "Friendlies",
+                    "match": "Russia - Jordan",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "Friendlies",
+                    "match": "Belarus - Russia",
+                    "ht": "0-3",
+                    "ft": "1-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "Friendlies",
+                    "match": "Russia - Nigeria",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-01-09",
+                    "league": "Africa Cup of Nations",
+                    "match": "Mali - Senegal",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-12-29",
+                    "league": "Africa Cup of Nations",
+                    "match": "Comoros - Mali",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-12-26",
+                    "league": "Africa Cup of Nations",
+                    "match": "Morocco - Mali",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-12-22",
+                    "league": "Africa Cup of Nations",
+                    "match": "Mali - Zambia",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-18",
+                    "league": "Friendlies",
+                    "match": "Jordan - Mali",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-12",
+                    "league": "World Cup - Qualification Africa",
+                    "match": "Mali - Madagascar",
+                    "ht": "2-0",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-10-08",
+                    "league": "World Cup - Qualification Africa",
+                    "match": "Chad - Mali",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-08",
+                    "league": "World Cup - Qualification Africa",
+                    "match": "Ghana - Mali",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ]
         },
-        {
-          "date": "2025-10-12",
-          "league": "Friendlies",
-          "match": "Mexico - Colombia",
-          "ht": "0-1",
-          "ft": "0-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
+        "1392111": {
+            "fixture_id": 1392111,
+            "date": "2026-03-27",
+            "time": "19:00",
+            "league": "Segunda División",
+            "country": "Spain",
+            "match": "Cordoba - Mirandes",
+            "home_team": "Cordoba",
+            "away_team": "Mirandes",
+            "markets": {
+                "q1": 1.58,
+                "qx": 3.95,
+                "q2": 5.4,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.4
+            },
+            "averages": {
+                "home_avg_ft": 4.125,
+                "away_avg_ft": 2.125,
+                "home_avg_ht": 2.375,
+                "away_avg_ht": 1.0,
+                "combined_ht_avg": 1.688
+            },
+            "flags": {
+                "fav_quote": 1.58,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.4,
+                "over": 5.4,
+                "boost": 6.644,
+                "gold": 6.717,
+                "max": 6.717
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-22",
+                    "league": "Segunda División",
+                    "match": "Burgos - Cordoba",
+                    "ht": "2-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-15",
+                    "league": "Segunda División",
+                    "match": "Cordoba - Real Sociedad II",
+                    "ht": "0-2",
+                    "ft": "0-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Segunda División",
+                    "match": "Racing Santander - Cordoba",
+                    "ht": "1-1",
+                    "ft": "4-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-03-02",
+                    "league": "Segunda División",
+                    "match": "Cordoba - FC Andorra",
+                    "ht": "0-3",
+                    "ft": "1-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-25",
+                    "league": "Segunda División",
+                    "match": "AD Ceuta FC - Cordoba",
+                    "ht": "3-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Segunda División",
+                    "match": "Almeria - Cordoba",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Segunda División",
+                    "match": "Cordoba - Leganes",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Segunda División",
+                    "match": "Cordoba - Valladolid",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-22",
+                    "league": "Segunda División",
+                    "match": "Mirandes - Valladolid",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "Segunda División",
+                    "match": "Mirandes - Cadiz",
+                    "ht": "0-2",
+                    "ft": "0-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Segunda División",
+                    "match": "Burgos - Mirandes",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "Segunda División",
+                    "match": "Mirandes - AD Ceuta FC",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Segunda División",
+                    "match": "Huesca - Mirandes",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "Segunda División",
+                    "match": "Mirandes - Las Palmas",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-09",
+                    "league": "Segunda División",
+                    "match": "Racing Santander - Mirandes",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-02",
+                    "league": "Segunda División",
+                    "match": "Mirandes - Malaga",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ]
         },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification South America",
-          "match": "Venezuela - Colombia",
-          "ht": "2-2",
-          "ft": "3-6",
-          "total_ht_goals": 4,
-          "total_ft_goals": 9
+        "1423038": {
+            "fixture_id": 1423038,
+            "date": "2026-03-27",
+            "time": "19:30",
+            "league": "National 1",
+            "country": "France",
+            "match": "Fleury 91 - Bourg-en-bresse 01",
+            "home_team": "Fleury 91",
+            "away_team": "Bourg-en-bresse 01",
+            "markets": {
+                "q1": 1.75,
+                "qx": 3.1,
+                "q2": 4.0,
+                "o25": 2.1,
+                "o05ht": 1.4,
+                "o15ht": 2.9
+            },
+            "averages": {
+                "home_avg_ft": 2.875,
+                "away_avg_ft": 2.125,
+                "home_avg_ht": 1.375,
+                "away_avg_ht": 0.75,
+                "combined_ht_avg": 1.062
+            },
+            "flags": {
+                "fav_quote": 1.75,
+                "is_gold_zone": true,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.5,
+                "over": 4.4,
+                "boost": 4.372,
+                "gold": 4.996,
+                "max": 4.996
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "National 1",
+                    "match": "Versailles - Fleury 91",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Fleury 91 - Quevilly",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Aubagne - Fleury 91",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "National 1",
+                    "match": "Fleury 91 - Concarneau",
+                    "ht": "0-2",
+                    "ft": "0-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "National 1",
+                    "match": "Stade Briochin - Fleury 91",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Fleury 91 - Villefranche",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Caen - Fleury 91",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "National 1",
+                    "match": "Fleury 91 - Gobelins",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "National 1",
+                    "match": "Bourg-en-bresse 01 - Stade Briochin",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Versailles - Bourg-en-bresse 01",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Bourg-en-bresse 01 - Rouen",
+                    "ht": "0-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "National 1",
+                    "match": "Quevilly - Bourg-en-bresse 01",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Bourg-en-bresse 01 - Orleans",
+                    "ht": "0-0",
+                    "ft": "0-3",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Aubagne - Bourg-en-bresse 01",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Bourg-en-bresse 01 - Le Puy Foot",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "National 1",
+                    "match": "Concarneau - Bourg-en-bresse 01",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ]
         },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification South America",
-          "match": "Colombia - Bolivia",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
+        "1423039": {
+            "fixture_id": 1423039,
+            "date": "2026-03-27",
+            "time": "19:30",
+            "league": "National 1",
+            "country": "France",
+            "match": "Orleans - Villefranche",
+            "home_team": "Orleans",
+            "away_team": "Villefranche",
+            "markets": {
+                "q1": 1.83,
+                "qx": 3.0,
+                "q2": 4.0,
+                "o25": 1.95,
+                "o05ht": 1.36,
+                "o15ht": 2.7
+            },
+            "averages": {
+                "home_avg_ft": 2.625,
+                "away_avg_ft": 3.125,
+                "home_avg_ht": 1.375,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.312
+            },
+            "flags": {
+                "fav_quote": 1.83,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.8,
+                "over": 5.8,
+                "boost": 7.368,
+                "gold": 7.041,
+                "max": 7.368
+            },
+            "tags": [
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "National 1",
+                    "match": "Caen - Orleans",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Orleans - Gobelins",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Stade Briochin - Orleans",
+                    "ht": "0-3",
+                    "ft": "1-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "National 1",
+                    "match": "Orleans - Rouen",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Bourg-en-bresse 01 - Orleans",
+                    "ht": "0-0",
+                    "ft": "0-3",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Le Puy Foot - Orleans",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Orleans - Chateauroux",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "National 1",
+                    "match": "Valenciennes - Orleans",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "National 1",
+                    "match": "Villefranche - Le Puy Foot",
+                    "ht": "0-3",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Chateauroux - Villefranche",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Villefranche - Valenciennes",
+                    "ht": "2-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "National 1",
+                    "match": "Sochaux - Villefranche",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Villefranche - Dijon",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Fleury 91 - Villefranche",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Villefranche - Versailles",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "National 1",
+                    "match": "Quevilly - Villefranche",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ]
         },
-        {
-          "date": "2025-06-11",
-          "league": "World Cup - Qualification South America",
-          "match": "Argentina - Colombia",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
+        "1423041": {
+            "fixture_id": 1423041,
+            "date": "2026-03-27",
+            "time": "19:30",
+            "league": "National 1",
+            "country": "France",
+            "match": "Sochaux - Quevilly",
+            "home_team": "Sochaux",
+            "away_team": "Quevilly",
+            "markets": {
+                "q1": 1.5,
+                "qx": 3.5,
+                "q2": 6.0,
+                "o25": 2.15,
+                "o05ht": 1.4,
+                "o15ht": 2.9
+            },
+            "averages": {
+                "home_avg_ft": 2.875,
+                "away_avg_ft": 2.375,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.375,
+                "combined_ht_avg": 1.25
+            },
+            "flags": {
+                "fav_quote": 1.5,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.2,
+                "over": 5.8,
+                "boost": 6.97,
+                "gold": 7.344,
+                "max": 7.344
+            },
+            "tags": [
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "National 1",
+                    "match": "Aubagne - Sochaux",
+                    "ht": "0-1",
+                    "ft": "1-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Sochaux - Concarneau",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "National 1",
+                    "match": "Sochaux - Villefranche",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Caen - Sochaux",
+                    "ht": "0-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Sochaux - Gobelins",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Stade Briochin - Sochaux",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "National 1",
+                    "match": "Sochaux - Rouen",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-23",
+                    "league": "National 1",
+                    "match": "Orleans - Sochaux",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-19",
+                    "league": "National 1",
+                    "match": "Quevilly - Dijon",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Fleury 91 - Quevilly",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Quevilly - Versailles",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "National 1",
+                    "match": "Quevilly - Bourg-en-bresse 01",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Aubagne - Quevilly",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-12",
+                    "league": "National 1",
+                    "match": "Quevilly - Concarneau",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "National 1",
+                    "match": "Quevilly - Villefranche",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-23",
+                    "league": "National 1",
+                    "match": "Caen - Quevilly",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ]
         },
-        {
-          "date": "2025-06-06",
-          "league": "World Cup - Qualification South America",
-          "match": "Colombia - Peru",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
+        "1423042": {
+            "fixture_id": 1423042,
+            "date": "2026-03-27",
+            "time": "19:30",
+            "league": "National 1",
+            "country": "France",
+            "match": "Stade Briochin - Gobelins",
+            "home_team": "Stade Briochin",
+            "away_team": "Gobelins",
+            "markets": {
+                "q1": 2.45,
+                "qx": 2.88,
+                "q2": 2.7,
+                "o25": 2.3,
+                "o05ht": 1.4,
+                "o15ht": 3.0
+            },
+            "averages": {
+                "home_avg_ft": 3.125,
+                "away_avg_ft": 1.875,
+                "home_avg_ht": 1.625,
+                "away_avg_ht": 0.875,
+                "combined_ht_avg": 1.25
+            },
+            "flags": {
+                "fav_quote": 2.45,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.2,
+                "over": 5.0,
+                "boost": 5.276,
+                "gold": 4.888,
+                "max": 5.276
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "National 1",
+                    "match": "Bourg-en-bresse 01 - Stade Briochin",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-17",
+                    "league": "National 1",
+                    "match": "Stade Briochin - Chateauroux",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Rouen - Stade Briochin",
+                    "ht": "1-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Stade Briochin - Orleans",
+                    "ht": "0-3",
+                    "ft": "1-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "National 1",
+                    "match": "Le Puy Foot - Stade Briochin",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-17",
+                    "league": "National 1",
+                    "match": "Stade Briochin - Fleury 91",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Valenciennes - Stade Briochin",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Stade Briochin - Sochaux",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "National 1",
+                    "match": "Gobelins - Rouen",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Orleans - Gobelins",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Gobelins - Le Puy Foot",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "National 1",
+                    "match": "Chateauroux - Gobelins",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Gobelins - Valenciennes",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Sochaux - Gobelins",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Gobelins - Dijon",
+                    "ht": "0-2",
+                    "ft": "1-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "National 1",
+                    "match": "Fleury 91 - Gobelins",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
+        "1423043": {
+            "fixture_id": 1423043,
+            "date": "2026-03-27",
+            "time": "19:30",
+            "league": "National 1",
+            "country": "France",
+            "match": "Valenciennes - Aubagne",
+            "home_team": "Valenciennes",
+            "away_team": "Aubagne",
+            "markets": {
+                "q1": 1.85,
+                "qx": 3.0,
+                "q2": 3.8,
+                "o25": 2.08,
+                "o05ht": 1.36,
+                "o15ht": 2.8
+            },
+            "averages": {
+                "home_avg_ft": 2.875,
+                "away_avg_ft": 2.5,
+                "home_avg_ht": 1.375,
+                "away_avg_ht": 0.875,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 1.85,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.5,
+                "boost": 5.412,
+                "gold": 5.308,
+                "max": 5.5
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "National 1",
+                    "match": "Concarneau - Valenciennes",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Villefranche - Valenciennes",
+                    "ht": "2-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "National 1",
+                    "match": "Valenciennes - Caen",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Gobelins - Valenciennes",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Valenciennes - Stade Briochin",
+                    "ht": "0-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Rouen - Valenciennes",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "National 1",
+                    "match": "Valenciennes - Orleans",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-23",
+                    "league": "National 1",
+                    "match": "Le Puy Foot - Valenciennes",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "National 1",
+                    "match": "Aubagne - Sochaux",
+                    "ht": "0-1",
+                    "ft": "1-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Dijon - Aubagne",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Aubagne - Fleury 91",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "National 1",
+                    "match": "Versailles - Aubagne",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Aubagne - Quevilly",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Aubagne - Bourg-en-bresse 01",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Concarneau - Aubagne",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-23",
+                    "league": "National 1",
+                    "match": "Villefranche - Aubagne",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1423040": {
+            "fixture_id": 1423040,
+            "date": "2026-03-27",
+            "time": "20:00",
+            "league": "National 1",
+            "country": "France",
+            "match": "Rouen - Caen",
+            "home_team": "Rouen",
+            "away_team": "Caen",
+            "markets": {
+                "q1": 1.95,
+                "qx": 3.0,
+                "q2": 3.5,
+                "o25": 2.2,
+                "o05ht": 1.4,
+                "o15ht": 3.0
+            },
+            "averages": {
+                "home_avg_ft": 2.625,
+                "away_avg_ft": 3.0,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.125,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 1.95,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 5.5,
+                "boost": 6.078,
+                "gold": 5.389,
+                "max": 7.6
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "National 1",
+                    "match": "Gobelins - Rouen",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Rouen - Stade Briochin",
+                    "ht": "1-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Bourg-en-bresse 01 - Rouen",
+                    "ht": "0-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "National 1",
+                    "match": "Orleans - Rouen",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Rouen - Le Puy Foot",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Chateauroux - Rouen",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Rouen - Valenciennes",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "National 1",
+                    "match": "Sochaux - Rouen",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "National 1",
+                    "match": "Caen - Orleans",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "National 1",
+                    "match": "Le Puy Foot - Caen",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "National 1",
+                    "match": "Caen - Chateauroux",
+                    "ht": "1-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "National 1",
+                    "match": "Valenciennes - Caen",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "National 1",
+                    "match": "Caen - Sochaux",
+                    "ht": "0-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "National 1",
+                    "match": "Dijon - Caen",
+                    "ht": "0-1",
+                    "ft": "3-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "National 1",
+                    "match": "Caen - Fleury 91",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "National 1",
+                    "match": "Versailles - Caen",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1383016": {
+            "fixture_id": 1383016,
+            "date": "2026-03-27",
+            "time": "20:45",
+            "league": "Championship",
+            "country": "Scotland",
+            "match": "Partick - Ross County",
+            "home_team": "Partick",
+            "away_team": "Ross County",
+            "markets": {
+                "q1": 1.71,
+                "qx": 3.6,
+                "q2": 4.4,
+                "o25": 1.85,
+                "o05ht": 1.36,
+                "o15ht": 2.65
+            },
+            "averages": {
+                "home_avg_ft": 2.5,
+                "away_avg_ft": 1.5,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.125,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 1.71,
+                "is_gold_zone": true,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 4.3,
+                "boost": 6.102,
+                "gold": 6.687,
+                "max": 7.6
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "Championship",
+                    "match": "Partick - ST Johnstone",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "Championship",
+                    "match": "Morton - Partick",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "FA Cup",
+                    "match": "ST Mirren - Partick",
+                    "ht": "2-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Championship",
+                    "match": "Partick - Arbroath",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "Championship",
+                    "match": "Dunfermline - Partick",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Championship",
+                    "match": "Partick - Airdrie United",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "FA Cup",
+                    "match": "Elgin City - Partick",
+                    "ht": "1-2",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Championship",
+                    "match": "ST Johnstone - Partick",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "Championship",
+                    "match": "Ross County - Dunfermline",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-14",
+                    "league": "Championship",
+                    "match": "ST Johnstone - Ross County",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Championship",
+                    "match": "Arbroath - Ross County",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-03-03",
+                    "league": "Championship",
+                    "match": "Dunfermline - Ross County",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Championship",
+                    "match": "Ross County - Raith Rovers",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Championship",
+                    "match": "Ayr Utd - Ross County",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Championship",
+                    "match": "Ross County - Queen's Park",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-03",
+                    "league": "Championship",
+                    "match": "Queen's Park - Ross County",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
+        "1383197": {
+            "fixture_id": 1383197,
+            "date": "2026-03-27",
+            "time": "20:45",
+            "league": "League One",
+            "country": "Scotland",
+            "match": "Inverness CT - Queen of the South",
+            "home_team": "Inverness CT",
+            "away_team": "Queen of the South",
+            "markets": {
+                "q1": 1.48,
+                "qx": 3.8,
+                "q2": 5.75,
+                "o25": 1.75,
+                "o05ht": 1.33,
+                "o15ht": 2.5
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 3.25,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.625,
+                "combined_ht_avg": 1.438
+            },
+            "flags": {
+                "fav_quote": 1.48,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.4,
+                "over": 5.4,
+                "boost": 7.024,
+                "gold": 7.066,
+                "max": 7.066
+            },
+            "tags": [
+                "⚽⭐ GOLD",
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "League One",
+                    "match": "Alloa Athletic - Inverness CT",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-17",
+                    "league": "League One",
+                    "match": "Inverness CT - Peterhead",
+                    "ht": "2-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Inverness CT - Cove Rangers",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Inverness CT - Montrose",
+                    "ht": "1-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Kelty Hearts - Inverness CT",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-24",
+                    "league": "Challenge Cup",
+                    "match": "Ayr Utd - Inverness CT",
+                    "ht": "1-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Inverness CT - Stenhousemuir",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Hamilton Academical - Inverness CT",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "League One",
+                    "match": "Queen of the South - East Fife",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-14",
+                    "league": "League One",
+                    "match": "Hamilton Academical - Queen of the South",
+                    "ht": "1-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "League One",
+                    "match": "Queen of the South - Stenhousemuir",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "League One",
+                    "match": "Queen of the South - Peterhead",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "League One",
+                    "match": "Montrose - Queen of the South",
+                    "ht": "2-0",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "League One",
+                    "match": "Queen of the South - Alloa Athletic",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "League One",
+                    "match": "Cove Rangers - Queen of the South",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "League One",
+                    "match": "Queen of the South - Inverness CT",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                }
+            ]
         }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Montenegro - Croatia",
-          "ht": "2-1",
-          "ft": "2-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-11-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Croatia - Faroe Islands",
-          "ht": "1-1",
-          "ft": "3-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-12",
-          "league": "World Cup - Qualification Europe",
-          "match": "Croatia - Gibraltar",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-10-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Czech Republic - Croatia",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-09-08",
-          "league": "World Cup - Qualification Europe",
-          "match": "Croatia - Montenegro",
-          "ht": "1-0",
-          "ft": "4-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Faroe Islands - Croatia",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Croatia - Czech Republic",
-          "ht": "1-0",
-          "ft": "5-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-06-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "Gibraltar - Croatia",
-          "ht": "0-2",
-          "ft": "0-7",
-          "total_ht_goals": 2,
-          "total_ft_goals": 7
-        }
-      ]
-    },
-    "1535576": {
-      "fixture_id": 1535576,
-      "date": "2026-03-27",
-      "time": "00:30",
-      "league": "Copa De La Liga",
-      "country": "Chile",
-      "match": "Universidad de Concepcion - Cobresal",
-      "home_team": "Universidad de Concepcion",
-      "away_team": "Cobresal",
-      "markets": {
-        "q1": 2.15,
-        "qx": 3.25,
-        "q2": 3.1,
-        "o25": 1.7,
-        "o05ht": 1.3,
-        "o15ht": 2.5
-      },
-      "averages": {
-        "home_avg_ft": 2.25,
-        "away_avg_ft": 3.5,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.875,
-        "combined_ht_avg": 1.562
-      },
-      "flags": {
-        "fav_quote": 2.15,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 2.15,
-        "open_qx": 3.25,
-        "open_q2": 3.1,
-        "open_o25": 1.7,
-        "curr_q1": 2.15,
-        "curr_qx": 3.25,
-        "curr_q2": 3.1,
-        "curr_o25": 1.7,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.15,
-        "curr_fav_quote": 2.15,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.8,
-        "over": 5.4,
-        "boost": 7.176,
-        "gold": 6.006,
-        "max": 7.176
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-22",
-          "league": "Copa De La Liga",
-          "match": "U. Catolica - Universidad de Concepcion",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera División",
-          "match": "Universidad de Concepcion - Palestino",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-09",
-          "league": "Primera División",
-          "match": "Universidad de Chile - Universidad de Concepcion",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-01",
-          "league": "Primera División",
-          "match": "Universidad de Concepcion - Everton de Vina",
-          "ht": "0-2",
-          "ft": "0-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera División",
-          "match": "D. La Serena - Universidad de Concepcion",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-15",
-          "league": "Primera División",
-          "match": "Universidad de Concepcion - Concepción",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-06",
-          "league": "Primera División",
-          "match": "A. Italiano - Universidad de Concepcion",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Primera División",
-          "match": "Universidad de Concepcion - Coquimbo Unido",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Copa De La Liga",
-          "match": "Cobresal - Nublense",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera División",
-          "match": "Cobresal - Deportes Limache",
-          "ht": "0-3",
-          "ft": "2-5",
-          "total_ht_goals": 3,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2026-03-08",
-          "league": "Primera División",
-          "match": "Palestino - Cobresal",
-          "ht": "1-0",
-          "ft": "4-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-02-27",
-          "league": "Primera División",
-          "match": "Cobresal - D. La Serena",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-20",
-          "league": "Primera División",
-          "match": "Concepción - Cobresal",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Primera División",
-          "match": "Cobresal - U. Catolica",
-          "ht": "2-1",
-          "ft": "3-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-09",
-          "league": "Primera División",
-          "match": "Union La Calera - Cobresal",
-          "ht": "3-1",
-          "ft": "3-1",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Primera División",
-          "match": "Cobresal - Huachipato",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1525450": {
-      "fixture_id": 1525450,
-      "date": "2026-03-27",
-      "time": "16:00",
-      "league": "Friendlies",
-      "country": "World",
-      "match": "Russia - Mali",
-      "home_team": "Russia",
-      "away_team": "Mali",
-      "markets": {
-        "q1": 1.71,
-        "qx": 3.52,
-        "q2": 4.95,
-        "o25": 2.18,
-        "o05ht": 1.46,
-        "o15ht": 3.1
-      },
-      "averages": {
-        "home_avg_ft": 2.75,
-        "away_avg_ft": 1.625,
-        "home_avg_ht": 1.5,
-        "away_avg_ht": 0.625,
-        "combined_ht_avg": 1.062
-      },
-      "flags": {
-        "fav_quote": 1.71,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 1.71,
-        "open_qx": 3.52,
-        "open_q2": 4.95,
-        "open_o25": 2.18,
-        "curr_q1": 1.71,
-        "curr_qx": 3.52,
-        "curr_q2": 4.95,
-        "curr_o25": 2.18,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.71,
-        "curr_fav_quote": 1.71,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 3.6,
-        "over": 4.4,
-        "boost": 3.73,
-        "gold": 4.58,
-        "max": 4.58
-      },
-      "tags": [
-        "⚽ OVER",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-15",
-          "league": "Friendlies",
-          "match": "Russia - Chile",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-12",
-          "league": "Friendlies",
-          "match": "Russia - Peru",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-14",
-          "league": "Friendlies",
-          "match": "Russia - Bolivia",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-10-10",
-          "league": "Friendlies",
-          "match": "Russia - Iran",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-07",
-          "league": "Friendlies",
-          "match": "Qatar - Russia",
-          "ht": "0-3",
-          "ft": "1-4",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-09-04",
-          "league": "Friendlies",
-          "match": "Russia - Jordan",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "Belarus - Russia",
-          "ht": "0-3",
-          "ft": "1-4",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-06-06",
-          "league": "Friendlies",
-          "match": "Russia - Nigeria",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-01-09",
-          "league": "Africa Cup of Nations",
-          "match": "Mali - Senegal",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-12-29",
-          "league": "Africa Cup of Nations",
-          "match": "Comoros - Mali",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-12-26",
-          "league": "Africa Cup of Nations",
-          "match": "Morocco - Mali",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-12-22",
-          "league": "Africa Cup of Nations",
-          "match": "Mali - Zambia",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-18",
-          "league": "Friendlies",
-          "match": "Jordan - Mali",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-10-12",
-          "league": "World Cup - Qualification Africa",
-          "match": "Mali - Madagascar",
-          "ht": "2-0",
-          "ft": "4-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-08",
-          "league": "World Cup - Qualification Africa",
-          "match": "Chad - Mali",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-08",
-          "league": "World Cup - Qualification Africa",
-          "match": "Ghana - Mali",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1392111": {
-      "fixture_id": 1392111,
-      "date": "2026-03-27",
-      "time": "19:00",
-      "league": "Segunda División",
-      "country": "Spain",
-      "match": "Cordoba - Mirandes",
-      "home_team": "Cordoba",
-      "away_team": "Mirandes",
-      "markets": {
-        "q1": 1.58,
-        "qx": 3.95,
-        "q2": 5.4,
-        "o25": 1.7,
-        "o05ht": 1.3,
-        "o15ht": 2.4
-      },
-      "averages": {
-        "home_avg_ft": 4.125,
-        "away_avg_ft": 2.125,
-        "home_avg_ht": 2.375,
-        "away_avg_ht": 1.0,
-        "combined_ht_avg": 1.688
-      },
-      "flags": {
-        "fav_quote": 1.58,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.58,
-        "open_qx": 3.95,
-        "open_q2": 5.4,
-        "open_o25": 1.7,
-        "curr_q1": 1.58,
-        "curr_qx": 3.95,
-        "curr_q2": 5.4,
-        "curr_o25": 1.7,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.58,
-        "curr_fav_quote": 1.58,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.4,
-        "over": 5.4,
-        "boost": 6.644,
-        "gold": 6.717,
-        "max": 6.717
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-22",
-          "league": "Segunda División",
-          "match": "Burgos - Cordoba",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Segunda División",
-          "match": "Cordoba - Real Sociedad II",
-          "ht": "0-2",
-          "ft": "0-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-08",
-          "league": "Segunda División",
-          "match": "Racing Santander - Cordoba",
-          "ht": "1-1",
-          "ft": "4-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2026-03-02",
-          "league": "Segunda División",
-          "match": "Cordoba - FC Andorra",
-          "ht": "0-3",
-          "ft": "1-4",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-25",
-          "league": "Segunda División",
-          "match": "AD Ceuta FC - Cordoba",
-          "ht": "3-2",
-          "ft": "3-2",
-          "total_ht_goals": 5,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Segunda División",
-          "match": "Almeria - Cordoba",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Segunda División",
-          "match": "Cordoba - Leganes",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Segunda División",
-          "match": "Cordoba - Valladolid",
-          "ht": "1-1",
-          "ft": "3-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-22",
-          "league": "Segunda División",
-          "match": "Mirandes - Valladolid",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-13",
-          "league": "Segunda División",
-          "match": "Mirandes - Cadiz",
-          "ht": "0-2",
-          "ft": "0-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Segunda División",
-          "match": "Burgos - Mirandes",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-01",
-          "league": "Segunda División",
-          "match": "Mirandes - AD Ceuta FC",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Segunda División",
-          "match": "Huesca - Mirandes",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-15",
-          "league": "Segunda División",
-          "match": "Mirandes - Las Palmas",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-09",
-          "league": "Segunda División",
-          "match": "Racing Santander - Mirandes",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-02",
-          "league": "Segunda División",
-          "match": "Mirandes - Malaga",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1423038": {
-      "fixture_id": 1423038,
-      "date": "2026-03-27",
-      "time": "19:30",
-      "league": "National 1",
-      "country": "France",
-      "match": "Fleury 91 - Bourg-en-bresse 01",
-      "home_team": "Fleury 91",
-      "away_team": "Bourg-en-bresse 01",
-      "markets": {
-        "q1": 1.75,
-        "qx": 3.1,
-        "q2": 4.0,
-        "o25": 2.1,
-        "o05ht": 1.4,
-        "o15ht": 2.9
-      },
-      "averages": {
-        "home_avg_ft": 2.875,
-        "away_avg_ft": 2.125,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 0.75,
-        "combined_ht_avg": 1.062
-      },
-      "flags": {
-        "fav_quote": 1.75,
-        "is_gold_zone": true,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.75,
-        "open_qx": 3.1,
-        "open_q2": 4.0,
-        "open_o25": 2.1,
-        "curr_q1": 1.75,
-        "curr_qx": 3.1,
-        "curr_q2": 4.0,
-        "curr_o25": 2.1,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.75,
-        "curr_fav_quote": 1.75,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 4.5,
-        "over": 4.4,
-        "boost": 4.372,
-        "gold": 4.996,
-        "max": 4.996
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "National 1",
-          "match": "Versailles - Fleury 91",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Fleury 91 - Quevilly",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Aubagne - Fleury 91",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-27",
-          "league": "National 1",
-          "match": "Fleury 91 - Concarneau",
-          "ht": "0-2",
-          "ft": "0-4",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-17",
-          "league": "National 1",
-          "match": "Stade Briochin - Fleury 91",
-          "ht": "1-1",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Fleury 91 - Villefranche",
-          "ht": "0-0",
-          "ft": "2-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Caen - Fleury 91",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-01-30",
-          "league": "National 1",
-          "match": "Fleury 91 - Gobelins",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National 1",
-          "match": "Bourg-en-bresse 01 - Stade Briochin",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Versailles - Bourg-en-bresse 01",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Bourg-en-bresse 01 - Rouen",
-          "ht": "0-1",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National 1",
-          "match": "Quevilly - Bourg-en-bresse 01",
-          "ht": "2-1",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Bourg-en-bresse 01 - Orleans",
-          "ht": "0-0",
-          "ft": "0-3",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Aubagne - Bourg-en-bresse 01",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Bourg-en-bresse 01 - Le Puy Foot",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-01-30",
-          "league": "National 1",
-          "match": "Concarneau - Bourg-en-bresse 01",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1423039": {
-      "fixture_id": 1423039,
-      "date": "2026-03-27",
-      "time": "19:30",
-      "league": "National 1",
-      "country": "France",
-      "match": "Orleans - Villefranche",
-      "home_team": "Orleans",
-      "away_team": "Villefranche",
-      "markets": {
-        "q1": 1.83,
-        "qx": 3.0,
-        "q2": 4.0,
-        "o25": 1.95,
-        "o05ht": 1.36,
-        "o15ht": 2.7
-      },
-      "averages": {
-        "home_avg_ft": 2.625,
-        "away_avg_ft": 3.125,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 1.25,
-        "combined_ht_avg": 1.312
-      },
-      "flags": {
-        "fav_quote": 1.83,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.83,
-        "open_qx": 3.0,
-        "open_q2": 4.0,
-        "open_o25": 1.95,
-        "curr_q1": 1.83,
-        "curr_qx": 3.0,
-        "curr_q2": 4.0,
-        "curr_o25": 1.95,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.83,
-        "curr_fav_quote": 1.83,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.8,
-        "over": 5.8,
-        "boost": 7.368,
-        "gold": 7.041,
-        "max": 7.368
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National 1",
-          "match": "Caen - Orleans",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Orleans - Gobelins",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Stade Briochin - Orleans",
-          "ht": "0-3",
-          "ft": "1-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National 1",
-          "match": "Orleans - Rouen",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Bourg-en-bresse 01 - Orleans",
-          "ht": "0-0",
-          "ft": "0-3",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Le Puy Foot - Orleans",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Orleans - Chateauroux",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-01-31",
-          "league": "National 1",
-          "match": "Valenciennes - Orleans",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "National 1",
-          "match": "Villefranche - Le Puy Foot",
-          "ht": "0-3",
-          "ft": "2-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Chateauroux - Villefranche",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Villefranche - Valenciennes",
-          "ht": "2-1",
-          "ft": "2-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-27",
-          "league": "National 1",
-          "match": "Sochaux - Villefranche",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Villefranche - Dijon",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Fleury 91 - Villefranche",
-          "ht": "0-0",
-          "ft": "2-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Villefranche - Versailles",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-01-30",
-          "league": "National 1",
-          "match": "Quevilly - Villefranche",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1423041": {
-      "fixture_id": 1423041,
-      "date": "2026-03-27",
-      "time": "19:30",
-      "league": "National 1",
-      "country": "France",
-      "match": "Sochaux - Quevilly",
-      "home_team": "Sochaux",
-      "away_team": "Quevilly",
-      "markets": {
-        "q1": 1.5,
-        "qx": 3.5,
-        "q2": 6.0,
-        "o25": 2.15,
-        "o05ht": 1.4,
-        "o15ht": 2.9
-      },
-      "averages": {
-        "home_avg_ft": 2.875,
-        "away_avg_ft": 2.375,
-        "home_avg_ht": 1.125,
-        "away_avg_ht": 1.375,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 1.5,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 1.5,
-        "open_qx": 3.5,
-        "open_q2": 6.0,
-        "open_o25": 2.15,
-        "curr_q1": 1.5,
-        "curr_qx": 3.5,
-        "curr_q2": 6.0,
-        "curr_o25": 2.15,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.5,
-        "curr_fav_quote": 1.5,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 7.2,
-        "over": 5.8,
-        "boost": 6.97,
-        "gold": 7.344,
-        "max": 7.344
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "National 1",
-          "match": "Aubagne - Sochaux",
-          "ht": "0-1",
-          "ft": "1-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Sochaux - Concarneau",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-27",
-          "league": "National 1",
-          "match": "Sochaux - Villefranche",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Caen - Sochaux",
-          "ht": "0-1",
-          "ft": "1-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Sochaux - Gobelins",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Stade Briochin - Sochaux",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-01-30",
-          "league": "National 1",
-          "match": "Sochaux - Rouen",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-01-23",
-          "league": "National 1",
-          "match": "Orleans - Sochaux",
-          "ht": "0-2",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-19",
-          "league": "National 1",
-          "match": "Quevilly - Dijon",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Fleury 91 - Quevilly",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Quevilly - Versailles",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National 1",
-          "match": "Quevilly - Bourg-en-bresse 01",
-          "ht": "2-1",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Aubagne - Quevilly",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-12",
-          "league": "National 1",
-          "match": "Quevilly - Concarneau",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-30",
-          "league": "National 1",
-          "match": "Quevilly - Villefranche",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-23",
-          "league": "National 1",
-          "match": "Caen - Quevilly",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        }
-      ]
-    },
-    "1423042": {
-      "fixture_id": 1423042,
-      "date": "2026-03-27",
-      "time": "19:30",
-      "league": "National 1",
-      "country": "France",
-      "match": "Stade Briochin - Gobelins",
-      "home_team": "Stade Briochin",
-      "away_team": "Gobelins",
-      "markets": {
-        "q1": 2.45,
-        "qx": 2.88,
-        "q2": 2.7,
-        "o25": 2.3,
-        "o05ht": 1.4,
-        "o15ht": 3.0
-      },
-      "averages": {
-        "home_avg_ft": 3.125,
-        "away_avg_ft": 1.875,
-        "home_avg_ht": 1.625,
-        "away_avg_ht": 0.875,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 2.45,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 2.45,
-        "open_qx": 2.88,
-        "open_q2": 2.7,
-        "open_o25": 2.3,
-        "curr_q1": 2.45,
-        "curr_qx": 2.88,
-        "curr_q2": 2.7,
-        "curr_o25": 2.3,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.45,
-        "curr_fav_quote": 2.45,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.2,
-        "over": 5.0,
-        "boost": 5.276,
-        "gold": 4.888,
-        "max": 5.276
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National 1",
-          "match": "Bourg-en-bresse 01 - Stade Briochin",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-17",
-          "league": "National 1",
-          "match": "Stade Briochin - Chateauroux",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Rouen - Stade Briochin",
-          "ht": "1-0",
-          "ft": "3-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Stade Briochin - Orleans",
-          "ht": "0-3",
-          "ft": "1-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-27",
-          "league": "National 1",
-          "match": "Le Puy Foot - Stade Briochin",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-17",
-          "league": "National 1",
-          "match": "Stade Briochin - Fleury 91",
-          "ht": "1-1",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Valenciennes - Stade Briochin",
-          "ht": "0-2",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Stade Briochin - Sochaux",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "National 1",
-          "match": "Gobelins - Rouen",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Orleans - Gobelins",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Gobelins - Le Puy Foot",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-27",
-          "league": "National 1",
-          "match": "Chateauroux - Gobelins",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Gobelins - Valenciennes",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Sochaux - Gobelins",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Gobelins - Dijon",
-          "ht": "0-2",
-          "ft": "1-4",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-01-30",
-          "league": "National 1",
-          "match": "Fleury 91 - Gobelins",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1423043": {
-      "fixture_id": 1423043,
-      "date": "2026-03-27",
-      "time": "19:30",
-      "league": "National 1",
-      "country": "France",
-      "match": "Valenciennes - Aubagne",
-      "home_team": "Valenciennes",
-      "away_team": "Aubagne",
-      "markets": {
-        "q1": 1.85,
-        "qx": 3.0,
-        "q2": 3.8,
-        "o25": 2.08,
-        "o05ht": 1.36,
-        "o15ht": 2.8
-      },
-      "averages": {
-        "home_avg_ft": 2.875,
-        "away_avg_ft": 2.5,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 0.875,
-        "combined_ht_avg": 1.125
-      },
-      "flags": {
-        "fav_quote": 1.85,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.85,
-        "open_qx": 3.0,
-        "open_q2": 3.8,
-        "open_o25": 2.08,
-        "curr_q1": 1.85,
-        "curr_qx": 3.0,
-        "curr_q2": 3.8,
-        "curr_o25": 2.08,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.85,
-        "curr_fav_quote": 1.85,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 4.4,
-        "over": 5.5,
-        "boost": 5.412,
-        "gold": 5.308,
-        "max": 5.5
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "National 1",
-          "match": "Concarneau - Valenciennes",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Villefranche - Valenciennes",
-          "ht": "2-1",
-          "ft": "2-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National 1",
-          "match": "Valenciennes - Caen",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Gobelins - Valenciennes",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Valenciennes - Stade Briochin",
-          "ht": "0-2",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Rouen - Valenciennes",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-31",
-          "league": "National 1",
-          "match": "Valenciennes - Orleans",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-01-23",
-          "league": "National 1",
-          "match": "Le Puy Foot - Valenciennes",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "National 1",
-          "match": "Aubagne - Sochaux",
-          "ht": "0-1",
-          "ft": "1-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Dijon - Aubagne",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Aubagne - Fleury 91",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-27",
-          "league": "National 1",
-          "match": "Versailles - Aubagne",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Aubagne - Quevilly",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Aubagne - Bourg-en-bresse 01",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Concarneau - Aubagne",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-01-23",
-          "league": "National 1",
-          "match": "Villefranche - Aubagne",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1423040": {
-      "fixture_id": 1423040,
-      "date": "2026-03-27",
-      "time": "20:00",
-      "league": "National 1",
-      "country": "France",
-      "match": "Rouen - Caen",
-      "home_team": "Rouen",
-      "away_team": "Caen",
-      "markets": {
-        "q1": 1.95,
-        "qx": 3.0,
-        "q2": 3.5,
-        "o25": 2.2,
-        "o05ht": 1.4,
-        "o15ht": 3.0
-      },
-      "averages": {
-        "home_avg_ft": 2.625,
-        "away_avg_ft": 3.0,
-        "home_avg_ht": 1.125,
-        "away_avg_ht": 1.125,
-        "combined_ht_avg": 1.125
-      },
-      "flags": {
-        "fav_quote": 1.95,
-        "is_gold_zone": false,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.95,
-        "open_qx": 3.0,
-        "open_q2": 3.5,
-        "open_o25": 2.2,
-        "curr_q1": 1.95,
-        "curr_qx": 3.0,
-        "curr_q2": 3.5,
-        "curr_o25": 2.2,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.95,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 7.6,
-        "over": 5.5,
-        "boost": 6.078,
-        "gold": 5.389,
-        "max": 7.6
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "National 1",
-          "match": "Gobelins - Rouen",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Rouen - Stade Briochin",
-          "ht": "1-0",
-          "ft": "3-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Bourg-en-bresse 01 - Rouen",
-          "ht": "0-1",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National 1",
-          "match": "Orleans - Rouen",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Rouen - Le Puy Foot",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Chateauroux - Rouen",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Rouen - Valenciennes",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-30",
-          "league": "National 1",
-          "match": "Sochaux - Rouen",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National 1",
-          "match": "Caen - Orleans",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-13",
-          "league": "National 1",
-          "match": "Le Puy Foot - Caen",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-06",
-          "league": "National 1",
-          "match": "Caen - Chateauroux",
-          "ht": "1-0",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National 1",
-          "match": "Valenciennes - Caen",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-20",
-          "league": "National 1",
-          "match": "Caen - Sochaux",
-          "ht": "0-1",
-          "ft": "1-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-13",
-          "league": "National 1",
-          "match": "Dijon - Caen",
-          "ht": "0-1",
-          "ft": "3-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-02-06",
-          "league": "National 1",
-          "match": "Caen - Fleury 91",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-01-30",
-          "league": "National 1",
-          "match": "Versailles - Caen",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1383016": {
-      "fixture_id": 1383016,
-      "date": "2026-03-27",
-      "time": "20:45",
-      "league": "Championship",
-      "country": "Scotland",
-      "match": "Partick - Ross County",
-      "home_team": "Partick",
-      "away_team": "Ross County",
-      "markets": {
-        "q1": 1.71,
-        "qx": 3.6,
-        "q2": 4.4,
-        "o25": 1.85,
-        "o05ht": 1.36,
-        "o15ht": 2.65
-      },
-      "averages": {
-        "home_avg_ft": 2.5,
-        "away_avg_ft": 1.5,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.125,
-        "combined_ht_avg": 1.188
-      },
-      "flags": {
-        "fav_quote": 1.71,
-        "is_gold_zone": true,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.71,
-        "open_qx": 3.6,
-        "open_q2": 4.4,
-        "open_o25": 1.85,
-        "curr_q1": 1.71,
-        "curr_qx": 3.6,
-        "curr_q2": 4.4,
-        "curr_o25": 1.85,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.71,
-        "curr_fav_quote": 1.71,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 7.6,
-        "over": 4.3,
-        "boost": 6.102,
-        "gold": 6.687,
-        "max": 7.6
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "Championship",
-          "match": "Partick - ST Johnstone",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-13",
-          "league": "Championship",
-          "match": "Morton - Partick",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-08",
-          "league": "FA Cup",
-          "match": "ST Mirren - Partick",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Championship",
-          "match": "Partick - Arbroath",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-24",
-          "league": "Championship",
-          "match": "Dunfermline - Partick",
-          "ht": "0-1",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Championship",
-          "match": "Partick - Airdrie United",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-07",
-          "league": "FA Cup",
-          "match": "Elgin City - Partick",
-          "ht": "1-2",
-          "ft": "2-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-01-30",
-          "league": "Championship",
-          "match": "ST Johnstone - Partick",
-          "ht": "0-1",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Championship",
-          "match": "Ross County - Dunfermline",
-          "ht": "2-1",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Championship",
-          "match": "ST Johnstone - Ross County",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Championship",
-          "match": "Arbroath - Ross County",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-03",
-          "league": "Championship",
-          "match": "Dunfermline - Ross County",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Championship",
-          "match": "Ross County - Raith Rovers",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Championship",
-          "match": "Ayr Utd - Ross County",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Championship",
-          "match": "Ross County - Queen's Park",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-03",
-          "league": "Championship",
-          "match": "Queen's Park - Ross County",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1383197": {
-      "fixture_id": 1383197,
-      "date": "2026-03-27",
-      "time": "20:45",
-      "league": "League One",
-      "country": "Scotland",
-      "match": "Inverness CT - Queen of the South",
-      "home_team": "Inverness CT",
-      "away_team": "Queen of the South",
-      "markets": {
-        "q1": 1.48,
-        "qx": 3.8,
-        "q2": 5.75,
-        "o25": 1.75,
-        "o05ht": 1.33,
-        "o15ht": 2.5
-      },
-      "averages": {
-        "home_avg_ft": 2.25,
-        "away_avg_ft": 3.25,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.625,
-        "combined_ht_avg": 1.438
-      },
-      "flags": {
-        "fav_quote": 1.48,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.48,
-        "open_qx": 3.8,
-        "open_q2": 5.75,
-        "open_o25": 1.75,
-        "curr_q1": 1.48,
-        "curr_qx": 3.8,
-        "curr_q2": 5.75,
-        "curr_o25": 1.75,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.48,
-        "curr_fav_quote": 1.48,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.4,
-        "over": 5.4,
-        "boost": 7.024,
-        "gold": 7.066,
-        "max": 7.066
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "League One",
-          "match": "Alloa Athletic - Inverness CT",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-17",
-          "league": "League One",
-          "match": "Inverness CT - Peterhead",
-          "ht": "2-0",
-          "ft": "3-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-14",
-          "league": "League One",
-          "match": "Inverness CT - Cove Rangers",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "League One",
-          "match": "Inverness CT - Montrose",
-          "ht": "1-0",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-28",
-          "league": "League One",
-          "match": "Kelty Hearts - Inverness CT",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-24",
-          "league": "Challenge Cup",
-          "match": "Ayr Utd - Inverness CT",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-21",
-          "league": "League One",
-          "match": "Inverness CT - Stenhousemuir",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-14",
-          "league": "League One",
-          "match": "Hamilton Academical - Inverness CT",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "League One",
-          "match": "Queen of the South - East Fife",
-          "ht": "2-1",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-14",
-          "league": "League One",
-          "match": "Hamilton Academical - Queen of the South",
-          "ht": "1-1",
-          "ft": "1-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-07",
-          "league": "League One",
-          "match": "Queen of the South - Stenhousemuir",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-28",
-          "league": "League One",
-          "match": "Queen of the South - Peterhead",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-21",
-          "league": "League One",
-          "match": "Montrose - Queen of the South",
-          "ht": "2-0",
-          "ft": "3-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-14",
-          "league": "League One",
-          "match": "Queen of the South - Alloa Athletic",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-07",
-          "league": "League One",
-          "match": "Cove Rangers - Queen of the South",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-01-31",
-          "league": "League One",
-          "match": "Queen of the South - Inverness CT",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        }
-      ]
-    },
-    "1502470": {
-      "fixture_id": 1502470,
-      "date": "2026-03-27",
-      "time": "20:45",
-      "league": "Friendlies",
-      "country": "World",
-      "match": "England - Uruguay",
-      "home_team": "England",
-      "away_team": "Uruguay",
-      "markets": {
-        "q1": 1.5,
-        "qx": 4.0,
-        "q2": 5.8,
-        "o25": 1.85,
-        "o05ht": 1.35,
-        "o15ht": 2.62
-      },
-      "averages": {
-        "home_avg_ft": 3.0,
-        "away_avg_ft": 2.125,
-        "home_avg_ht": 1.5,
-        "away_avg_ht": 1.0,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 1.5,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.5,
-        "open_qx": 4.0,
-        "open_q2": 5.8,
-        "open_o25": 1.85,
-        "curr_q1": 1.5,
-        "curr_qx": 4.0,
-        "curr_q2": 5.8,
-        "curr_o25": 1.85,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.5,
-        "curr_fav_quote": 1.5,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.4,
-        "over": 5.4,
-        "boost": 6.644,
-        "gold": 6.717,
-        "max": 6.717
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-16",
-          "league": "World Cup - Qualification Europe",
-          "match": "Albania - England",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "England - Serbia",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Latvia - England",
-          "ht": "0-3",
-          "ft": "0-5",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-09",
-          "league": "Friendlies",
-          "match": "England - Wales",
-          "ht": "3-0",
-          "ft": "3-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Serbia - England",
-          "ht": "0-2",
-          "ft": "0-5",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-09-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "England - Andorra",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "England - Senegal",
-          "ht": "1-1",
-          "ft": "1-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-06-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Andorra - England",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-19",
-          "league": "Friendlies",
-          "match": "USA - Uruguay",
-          "ht": "4-1",
-          "ft": "5-1",
-          "total_ht_goals": 5,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-11-16",
-          "league": "Friendlies",
-          "match": "Mexico - Uruguay",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-10-13",
-          "league": "Friendlies",
-          "match": "Uzbekistan - Uruguay",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-10-10",
-          "league": "Friendlies",
-          "match": "Uruguay - Dominican Republic",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification South America",
-          "match": "Chile - Uruguay",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification South America",
-          "match": "Uruguay - Peru",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-06-10",
-          "league": "World Cup - Qualification South America",
-          "match": "Uruguay - Venezuela",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-05",
-          "league": "World Cup - Qualification South America",
-          "match": "Paraguay - Uruguay",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1502471": {
-      "fixture_id": 1502471,
-      "date": "2026-03-27",
-      "time": "20:45",
-      "league": "Friendlies",
-      "country": "World",
-      "match": "Switzerland - Germany",
-      "home_team": "Switzerland",
-      "away_team": "Germany",
-      "markets": {
-        "q1": 3.0,
-        "qx": 3.75,
-        "q2": 2.12,
-        "o25": 1.57,
-        "o05ht": 1.25,
-        "o15ht": 2.2
-      },
-      "averages": {
-        "home_avg_ft": 3.25,
-        "away_avg_ft": 3.0,
-        "home_avg_ht": 1.75,
-        "away_avg_ht": 1.375,
-        "combined_ht_avg": 1.562
-      },
-      "flags": {
-        "fav_quote": 2.12,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 3.0,
-        "open_qx": 3.75,
-        "open_q2": 2.12,
-        "open_o25": 1.57,
-        "curr_q1": 3.0,
-        "curr_qx": 3.75,
-        "curr_q2": 2.12,
-        "curr_o25": 1.57,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 2.12,
-        "curr_fav_quote": 2.12,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.4,
-        "over": 6.2,
-        "boost": 7.058,
-        "gold": 6.118,
-        "max": 7.058
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Kosovo - Switzerland",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-15",
-          "league": "World Cup - Qualification Europe",
-          "match": "Switzerland - Sweden",
-          "ht": "1-1",
-          "ft": "4-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovenia - Switzerland",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Sweden - Switzerland",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-08",
-          "league": "World Cup - Qualification Europe",
-          "match": "Switzerland - Slovenia",
-          "ht": "3-0",
-          "ft": "3-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Switzerland - Kosovo",
-          "ht": "4-0",
-          "ft": "4-0",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-06-11",
-          "league": "Friendlies",
-          "match": "USA - Switzerland",
-          "ht": "0-4",
-          "ft": "0-4",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-06-07",
-          "league": "Friendlies",
-          "match": "Mexico - Switzerland",
-          "ht": "0-1",
-          "ft": "2-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Germany - Slovakia",
-          "ht": "4-0",
-          "ft": "6-0",
-          "total_ht_goals": 4,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-11-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Luxembourg - Germany",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Northern Ireland - Germany",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Germany - Luxembourg",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Germany - Northern Ireland",
-          "ht": "1-1",
-          "ft": "3-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovakia - Germany",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-08",
-          "league": "UEFA Nations League",
-          "match": "Germany - France",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-04",
-          "league": "UEFA Nations League",
-          "match": "Germany - Portugal",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1503005": {
-      "fixture_id": 1503005,
-      "date": "2026-03-27",
-      "time": "20:45",
-      "league": "Friendlies",
-      "country": "World",
-      "match": "Netherlands - Norway",
-      "home_team": "Netherlands",
-      "away_team": "Norway",
-      "markets": {
-        "q1": 1.8,
-        "qx": 3.6,
-        "q2": 3.9,
-        "o25": 1.67,
-        "o05ht": 1.29,
-        "o15ht": 2.38
-      },
-      "averages": {
-        "home_avg_ft": 3.875,
-        "away_avg_ft": 4.25,
-        "home_avg_ht": 2.0,
-        "away_avg_ht": 1.75,
-        "combined_ht_avg": 1.875
-      },
-      "flags": {
-        "fav_quote": 1.8,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.8,
-        "open_qx": 3.6,
-        "open_q2": 3.9,
-        "open_o25": 1.67,
-        "curr_q1": 1.8,
-        "curr_qx": 3.6,
-        "curr_q2": 3.9,
-        "curr_o25": 1.67,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.8,
-        "curr_fav_quote": 1.8,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.7,
-        "over": 5.8,
-        "boost": 6.95,
-        "gold": 7.007,
-        "max": 7.007
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Netherlands - Lithuania",
-          "ht": "1-0",
-          "ft": "4-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-11-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Poland - Netherlands",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-12",
-          "league": "World Cup - Qualification Europe",
-          "match": "Netherlands - Finland",
-          "ht": "3-0",
-          "ft": "4-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Malta - Netherlands",
-          "ht": "0-1",
-          "ft": "0-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Lithuania - Netherlands",
-          "ht": "2-2",
-          "ft": "2-3",
-          "total_ht_goals": 4,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification Europe",
-          "match": "Netherlands - Poland",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Netherlands - Malta",
-          "ht": "3-0",
-          "ft": "8-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2025-06-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Finland - Netherlands",
-          "ht": "0-2",
-          "ft": "0-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-16",
-          "league": "World Cup - Qualification Europe",
-          "match": "Italy - Norway",
-          "ht": "1-0",
-          "ft": "1-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-11-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Norway - Estonia",
-          "ht": "0-0",
-          "ft": "4-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-14",
-          "league": "Friendlies",
-          "match": "Norway - New Zealand",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-11",
-          "league": "World Cup - Qualification Europe",
-          "match": "Norway - Israel",
-          "ht": "3-0",
-          "ft": "5-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Norway - Moldova",
-          "ht": "5-0",
-          "ft": "11-1",
-          "total_ht_goals": 5,
-          "total_ft_goals": 12
-        },
-        {
-          "date": "2025-09-04",
-          "league": "Friendlies",
-          "match": "Norway - Finland",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Estonia - Norway",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "Norway - Italy",
-          "ht": "3-0",
-          "ft": "3-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        }
-      ]
     }
-  }
 }
