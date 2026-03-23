@@ -1,42 +1,42 @@
 [
   {
     "data": "2026-03-23",
-    "time": "22:00",
-    "match": "Santiago Morning - Colchagua",
-    "league": "Segunda División (Chile)",
-    "fixture_id": "1529066",
+    "time": "19:30",
+    "match": "Granada - Deportivo de La Coruña W",
+    "league": "Primera División Femenina (Spain)",
+    "fixture_id": "1397236",
     "signal": "GOLD TARGET",
-    "quote": "1.6",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O"
+    "quote": "1.7",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_1 O25_DROP"
   },
   {
     "data": "2026-03-23",
-    "time": "22:00",
-    "match": "U. Catolica - Universidad de Concepcion",
-    "league": "Copa De La Liga (Chile)",
-    "fixture_id": "1535566",
-    "signal": "GOLD TARGET",
-    "quote": "1.6",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_X DROP_2"
+    "time": "16:00",
+    "match": "Portimonense U23 - Estoril U23",
+    "league": "Liga Revelação U23 (Portugal)",
+    "fixture_id": "1498083",
+    "signal": "BOOST TARGET",
+    "quote": "1.85",
+    "info": "🎯PT ⚽ OVER 🚀 BOOST 🐟G DROP_X"
   },
   {
     "data": "2026-03-23",
-    "time": "23:30",
-    "match": "Portuguesa FC - Rayo Zuliano",
-    "league": "Primera División (Venezuela)",
-    "fixture_id": "1506156",
-    "signal": "GOLD TARGET",
-    "quote": "1.5",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_2"
+    "time": "17:00",
+    "match": "Rodina Moskva - Chayka",
+    "league": "First League (Russia)",
+    "fixture_id": "1528801",
+    "signal": "BOOST TARGET",
+    "quote": "1.68",
+    "info": "🎯PT ⚽ OVER 🚀 BOOST 🐟O O25_DROP"
   },
   {
     "data": "2026-03-23",
-    "time": "21:00",
-    "match": "Chicago Fire II - Carolina Core",
-    "league": "MLS Next Pro (USA)",
-    "fixture_id": "1513010",
-    "signal": "OVER 2.5",
-    "quote": "1.50",
-    "info": "🎯PT ⚽ OVER 🐟G DROP_2"
+    "time": "18:00",
+    "match": "Union Berlin W - Werder Bremen W",
+    "league": "Frauen Bundesliga (Germany)",
+    "fixture_id": "1401355",
+    "signal": "BOOST TARGET",
+    "quote": "1.65",
+    "info": "🎯PT ⚽ OVER 🚀 BOOST 🐟G DROP_2 INV 1>2"
   }
 ]
