@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-23 07:03:12",
-  "day": 2,
+  "updated_at": "2026-03-22 20:52:20",
+  "day": 3,
   "date": "2026-03-24",
   "details": {
     "1506154": {
@@ -13,9 +13,9 @@
       "home_team": "Metropolitanos FC",
       "away_team": "Academia Anzoátegui",
       "markets": {
-        "q1": 1.9,
+        "q1": 1.91,
         "qx": 3.2,
-        "q2": 3.9,
+        "q2": 3.85,
         "o25": 1.95,
         "o05ht": 1.44,
         "o15ht": 2.95
@@ -28,26 +28,26 @@
         "combined_ht_avg": 1.125
       },
       "flags": {
-        "fav_quote": 1.9,
-        "is_gold_zone": true,
+        "fav_quote": 1.91,
+        "is_gold_zone": false,
         "home_last_2h_zero": true,
         "away_last_2h_zero": true,
-        "drop_diff": 0.15,
+        "drop_diff": 0.14,
         "open_q1": 2.05,
         "open_qx": 3.1,
         "open_q2": 3.5,
         "open_o25": 2.08,
-        "curr_q1": 1.9,
+        "curr_q1": 1.91,
         "curr_qx": 3.2,
-        "curr_q2": 3.9,
+        "curr_q2": 3.85,
         "curr_o25": 1.95,
-        "drop_q1": 0.15,
+        "drop_q1": 0.14,
         "drop_qx": -0.1,
-        "drop_q2": -0.4,
+        "drop_q2": -0.35,
         "drop_o25": 0.13,
-        "drop_last_q1": 0.01,
+        "drop_last_q1": 0.09,
         "drop_last_qx": 0.0,
-        "drop_last_q2": -0.05,
+        "drop_last_q2": -0.3,
         "drop_last_o25": 0.0,
         "drop_side": "1",
         "drop_strength": "medium",
@@ -57,16 +57,16 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 2.05,
-        "curr_fav_quote": 1.9,
-        "history_points": 4,
+        "curr_fav_quote": 1.91,
+        "history_points": 3,
         "first_seen_at": "2026-03-21T06:52:30",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 6.7,
         "over": 5.5,
         "boost": 5.736,
-        "gold": 5.924,
+        "gold": 5.074,
         "max": 6.7
       },
       "tags": [
@@ -235,11 +235,11 @@
       "home_team": "Cobreloa",
       "away_team": "Magallanes",
       "markets": {
-        "q1": 1.77,
-        "qx": 3.35,
-        "q2": 4.2,
-        "o25": 1.95,
-        "o05ht": 1.4,
+        "q1": 1.85,
+        "qx": 3.25,
+        "q2": 3.85,
+        "o25": 2.05,
+        "o05ht": 1.38,
         "o15ht": 2.75
       },
       "averages": {
@@ -250,52 +250,51 @@
         "combined_ht_avg": 1.312
       },
       "flags": {
-        "fav_quote": 1.77,
+        "fav_quote": 1.85,
         "is_gold_zone": true,
         "home_last_2h_zero": true,
         "away_last_2h_zero": true,
-        "drop_diff": 0.08,
+        "drop_diff": 0.0,
         "open_q1": 1.85,
         "open_qx": 3.2,
         "open_q2": 3.75,
         "open_o25": 2.0,
-        "curr_q1": 1.77,
-        "curr_qx": 3.35,
-        "curr_q2": 4.2,
-        "curr_o25": 1.95,
-        "drop_q1": 0.08,
-        "drop_qx": -0.15,
-        "drop_q2": -0.45,
-        "drop_o25": 0.05,
-        "drop_last_q1": 0.08,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.35,
-        "drop_last_o25": 0.1,
-        "drop_side": "1",
-        "drop_strength": "light",
+        "curr_q1": 1.85,
+        "curr_qx": 3.25,
+        "curr_q2": 3.85,
+        "curr_o25": 2.05,
+        "drop_q1": 0.0,
+        "drop_qx": -0.05,
+        "drop_q2": -0.1,
+        "drop_o25": -0.05,
+        "drop_last_q1": 0.06,
+        "drop_last_qx": -0.05,
+        "drop_last_q2": -0.15,
+        "drop_last_o25": -0.1,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.85,
-        "curr_fav_quote": 1.77,
-        "history_points": 5,
+        "curr_fav_quote": 1.85,
+        "history_points": 4,
         "first_seen_at": "2026-03-20T07:09:51",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 7.2,
         "over": 6.2,
-        "boost": 7.162,
-        "gold": 7.529,
-        "max": 7.529
+        "boost": 7.362,
+        "gold": 7.247,
+        "max": 7.362
       },
       "tags": [
         "⚽⭐ GOLD",
         "🎯PT",
-        "⚽ OVER",
-        "DROP_1"
+        "⚽ OVER"
       ],
       "home_last_8": [
         {
@@ -457,11 +456,11 @@
       "away_team": "Orense SC",
       "markets": {
         "q1": 1.64,
-        "qx": 3.6,
-        "q2": 5.4,
+        "qx": 3.55,
+        "q2": 5.5,
         "o25": 2.05,
-        "o05ht": 1.42,
-        "o15ht": 2.9
+        "o05ht": 1.38,
+        "o15ht": 2.7
       },
       "averages": {
         "home_avg_ft": 1.75,
@@ -481,17 +480,17 @@
         "open_q2": 4.4,
         "open_o25": 2.2,
         "curr_q1": 1.64,
-        "curr_qx": 3.6,
-        "curr_q2": 5.4,
+        "curr_qx": 3.55,
+        "curr_q2": 5.5,
         "curr_o25": 2.05,
         "drop_q1": 0.22,
-        "drop_qx": -0.3,
-        "drop_q2": -1.0,
+        "drop_qx": -0.25,
+        "drop_q2": -1.1,
         "drop_o25": 0.15,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": -0.05,
-        "drop_last_q2": 0.1,
-        "drop_last_o25": 0.0,
+        "drop_last_q1": 0.2,
+        "drop_last_qx": -0.25,
+        "drop_last_q2": -1.0,
+        "drop_last_o25": 0.1,
         "drop_side": "1",
         "drop_strength": "strong",
         "inversion": false,
@@ -501,18 +500,19 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.86,
         "curr_fav_quote": 1.64,
-        "history_points": 5,
+        "history_points": 4,
         "first_seen_at": "2026-03-20T07:09:51",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
-        "pt": 3.5,
+        "pt": 4.4,
         "over": 5.1,
-        "boost": 4.678,
-        "gold": 5.541,
-        "max": 5.541
+        "boost": 5.22,
+        "gold": 5.923,
+        "max": 5.923
       },
       "tags": [
+        "🎯PT",
         "⚽ OVER",
         "🐟O",
         "DROP_1",
@@ -890,229 +890,6 @@
         }
       ]
     },
-    "1499204": {
-      "fixture_id": 1499204,
-      "date": "2026-03-24",
-      "time": "02:00",
-      "league": "Liga Nacional",
-      "country": "Guatemala",
-      "match": "Antigua GFC - Marquense",
-      "home_team": "Antigua GFC",
-      "away_team": "Marquense",
-      "markets": {
-        "q1": 1.33,
-        "qx": 4.6,
-        "q2": 7.6,
-        "o25": 1.77,
-        "o05ht": 1.33,
-        "o15ht": 2.62
-      },
-      "averages": {
-        "home_avg_ft": 2.75,
-        "away_avg_ft": 2.375,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.625,
-        "combined_ht_avg": 1.438
-      },
-      "flags": {
-        "fav_quote": 1.33,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 3.4,
-        "open_q1": 1.29,
-        "open_qx": 4.4,
-        "open_q2": 11.0,
-        "open_o25": 1.8,
-        "curr_q1": 1.33,
-        "curr_qx": 4.6,
-        "curr_q2": 7.6,
-        "curr_o25": 1.77,
-        "drop_q1": -0.04,
-        "drop_qx": -0.2,
-        "drop_q2": 3.4,
-        "drop_o25": 0.03,
-        "drop_last_q1": 0.07,
-        "drop_last_qx": -0.5,
-        "drop_last_q2": -0.2,
-        "drop_last_o25": 0.08,
-        "drop_side": "2",
-        "drop_strength": "strong",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.29,
-        "curr_fav_quote": 1.33,
-        "history_points": 4,
-        "first_seen_at": "2026-03-21T06:52:30",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.4,
-        "over": 5.4,
-        "boost": 7.024,
-        "gold": 5.866,
-        "max": 7.024
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O",
-        "DROP_2",
-        "DROP_2_STRONG"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "Liga Nacional",
-          "match": "Comunicaciones - Antigua GFC",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Liga Nacional",
-          "match": "Xelajú - Antigua GFC",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-09",
-          "league": "Liga Nacional",
-          "match": "Antigua GFC - Cobán Imperial",
-          "ht": "2-0",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-05",
-          "league": "Liga Nacional",
-          "match": "Antigua GFC - Achuapa",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-01",
-          "league": "Liga Nacional",
-          "match": "Malacateco - Antigua GFC",
-          "ht": "0-2",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-25",
-          "league": "Liga Nacional",
-          "match": "Antigua GFC - Guastatoya",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Liga Nacional",
-          "match": "Municipal - Antigua GFC",
-          "ht": "2-0",
-          "ft": "4-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-02-19",
-          "league": "Liga Nacional",
-          "match": "Antigua GFC - Aurora",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-19",
-          "league": "Liga Nacional",
-          "match": "Marquense - Cobán Imperial",
-          "ht": "2-1",
-          "ft": "3-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Liga Nacional",
-          "match": "Achuapa - Marquense",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-08",
-          "league": "Liga Nacional",
-          "match": "Marquense - Malacateco",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-05",
-          "league": "Liga Nacional",
-          "match": "Marquense - Guastatoya",
-          "ht": "1-2",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-01",
-          "league": "Liga Nacional",
-          "match": "Municipal - Marquense",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-26",
-          "league": "Liga Nacional",
-          "match": "Marquense - Aurora",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Liga Nacional",
-          "match": "Mictlán - Marquense",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-20",
-          "league": "Liga Nacional",
-          "match": "Marquense - Mixco",
-          "ht": "2-1",
-          "ft": "2-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        }
-      ]
-    },
     "1526662": {
       "fixture_id": 1526662,
       "date": "2026-03-24",
@@ -1345,10 +1122,10 @@
       "home_team": "UMECIT",
       "away_team": "Herrera",
       "markets": {
-        "q1": 1.49,
+        "q1": 1.48,
         "qx": 3.75,
-        "q2": 6.5,
-        "o25": 2.15,
+        "q2": 6.75,
+        "o25": 2.2,
         "o05ht": 1.45,
         "o15ht": 3.1
       },
@@ -1360,7 +1137,7 @@
         "combined_ht_avg": 1.25
       },
       "flags": {
-        "fav_quote": 1.49,
+        "fav_quote": 1.48,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
@@ -1369,18 +1146,18 @@
         "open_qx": 3.9,
         "open_q2": 6.4,
         "open_o25": 2.05,
-        "curr_q1": 1.49,
+        "curr_q1": 1.48,
         "curr_qx": 3.75,
-        "curr_q2": 6.5,
-        "curr_o25": 2.15,
-        "drop_q1": -0.02,
+        "curr_q2": 6.75,
+        "curr_o25": 2.2,
+        "drop_q1": -0.01,
         "drop_qx": 0.15,
-        "drop_q2": -0.1,
-        "drop_o25": -0.1,
+        "drop_q2": -0.35,
+        "drop_o25": -0.15,
         "drop_last_q1": -0.01,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.25,
-        "drop_last_o25": 0.05,
+        "drop_last_qx": 0.05,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": -0.15,
         "drop_side": "X",
         "drop_strength": "medium",
         "inversion": false,
@@ -1389,10 +1166,10 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.47,
-        "curr_fav_quote": 1.49,
-        "history_points": 4,
+        "curr_fav_quote": 1.48,
+        "history_points": 3,
         "first_seen_at": "2026-03-20T07:09:51",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 5.9,
@@ -1555,6 +1332,231 @@
           "ft": "2-2",
           "total_ht_goals": 1,
           "total_ft_goals": 4
+        }
+      ]
+    },
+    "1499204": {
+      "fixture_id": 1499204,
+      "date": "2026-03-24",
+      "time": "03:00",
+      "league": "Liga Nacional",
+      "country": "Guatemala",
+      "match": "Antigua GFC - Marquense",
+      "home_team": "Antigua GFC",
+      "away_team": "Marquense",
+      "markets": {
+        "q1": 1.4,
+        "qx": 4.1,
+        "q2": 7.4,
+        "o25": 1.85,
+        "o05ht": 1.35,
+        "o15ht": 2.62
+      },
+      "averages": {
+        "home_avg_ft": 2.75,
+        "away_avg_ft": 2.375,
+        "home_avg_ht": 1.25,
+        "away_avg_ht": 1.625,
+        "combined_ht_avg": 1.438
+      },
+      "flags": {
+        "fav_quote": 1.4,
+        "is_gold_zone": true,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 3.6,
+        "open_q1": 1.29,
+        "open_qx": 4.4,
+        "open_q2": 11.0,
+        "open_o25": 1.8,
+        "curr_q1": 1.4,
+        "curr_qx": 4.1,
+        "curr_q2": 7.4,
+        "curr_o25": 1.85,
+        "drop_q1": -0.11,
+        "drop_qx": 0.3,
+        "drop_q2": 3.6,
+        "drop_o25": -0.05,
+        "drop_last_q1": -0.04,
+        "drop_last_qx": -0.1,
+        "drop_last_q2": 0.6,
+        "drop_last_o25": 0.0,
+        "drop_side": "2",
+        "drop_strength": "strong",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 1.29,
+        "curr_fav_quote": 1.4,
+        "history_points": 3,
+        "first_seen_at": "2026-03-21T06:52:30",
+        "last_seen_at": "2026-03-22T06:54:44"
+      },
+      "scores": {
+        "pt": 6.4,
+        "over": 5.8,
+        "boost": 7.216,
+        "gold": 6.901,
+        "max": 7.216
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🚀 BOOST",
+        "🐟O",
+        "DROP_X",
+        "DROP_2",
+        "DROP_X_STRONG",
+        "DROP_2_STRONG"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-20",
+          "league": "Liga Nacional",
+          "match": "Comunicaciones - Antigua GFC",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-15",
+          "league": "Liga Nacional",
+          "match": "Xelajú - Antigua GFC",
+          "ht": "1-1",
+          "ft": "1-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-09",
+          "league": "Liga Nacional",
+          "match": "Antigua GFC - Cobán Imperial",
+          "ht": "2-0",
+          "ft": "2-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-05",
+          "league": "Liga Nacional",
+          "match": "Antigua GFC - Achuapa",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-01",
+          "league": "Liga Nacional",
+          "match": "Malacateco - Antigua GFC",
+          "ht": "0-2",
+          "ft": "2-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-25",
+          "league": "Liga Nacional",
+          "match": "Antigua GFC - Guastatoya",
+          "ht": "0-0",
+          "ft": "2-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-22",
+          "league": "Liga Nacional",
+          "match": "Municipal - Antigua GFC",
+          "ht": "2-0",
+          "ft": "4-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 6
+        },
+        {
+          "date": "2026-02-19",
+          "league": "Liga Nacional",
+          "match": "Antigua GFC - Aurora",
+          "ht": "2-0",
+          "ft": "2-0",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-19",
+          "league": "Liga Nacional",
+          "match": "Marquense - Cobán Imperial",
+          "ht": "2-1",
+          "ft": "3-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-15",
+          "league": "Liga Nacional",
+          "match": "Achuapa - Marquense",
+          "ht": "1-1",
+          "ft": "1-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-08",
+          "league": "Liga Nacional",
+          "match": "Marquense - Malacateco",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-05",
+          "league": "Liga Nacional",
+          "match": "Marquense - Guastatoya",
+          "ht": "1-2",
+          "ft": "2-2",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-01",
+          "league": "Liga Nacional",
+          "match": "Municipal - Marquense",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-26",
+          "league": "Liga Nacional",
+          "match": "Marquense - Aurora",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-02-22",
+          "league": "Liga Nacional",
+          "match": "Mictlán - Marquense",
+          "ht": "2-0",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-20",
+          "league": "Liga Nacional",
+          "match": "Marquense - Mixco",
+          "ht": "2-1",
+          "ft": "2-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
         }
       ]
     },
@@ -3109,9 +3111,9 @@
       "home_team": "Emmen",
       "away_team": "Cambuur",
       "markets": {
-        "q1": 3.2,
+        "q1": 3.3,
         "qx": 3.9,
-        "q2": 2.0,
+        "q2": 1.95,
         "o25": 1.45,
         "o05ht": 1.22,
         "o15ht": 2.05
@@ -3124,39 +3126,39 @@
         "combined_ht_avg": 1.188
       },
       "flags": {
-        "fav_quote": 2.0,
+        "fav_quote": 1.95,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.2,
+        "drop_diff": 0.1,
         "open_q1": 3.4,
         "open_qx": 4.0,
         "open_q2": 1.9,
         "open_o25": 1.44,
-        "curr_q1": 3.2,
+        "curr_q1": 3.3,
         "curr_qx": 3.9,
-        "curr_q2": 2.0,
+        "curr_q2": 1.95,
         "curr_o25": 1.45,
-        "drop_q1": 0.2,
+        "drop_q1": 0.1,
         "drop_qx": 0.1,
-        "drop_q2": -0.1,
+        "drop_q2": -0.05,
         "drop_o25": -0.01,
-        "drop_last_q1": 0.1,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": -0.05,
-        "drop_last_o25": 0.0,
+        "drop_last_q1": 0.25,
+        "drop_last_qx": 0.2,
+        "drop_last_q2": -0.1,
+        "drop_last_o25": -0.03,
         "drop_side": "1",
-        "drop_strength": "strong",
+        "drop_strength": "light",
         "inversion": false,
         "inversion_from": "2",
         "inversion_to": "2",
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 1.9,
-        "curr_fav_quote": 2.0,
-        "history_points": 5,
+        "curr_fav_quote": 1.95,
+        "history_points": 4,
         "first_seen_at": "2026-03-21T06:52:30",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 4.4,
@@ -3168,10 +3170,8 @@
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🐟G",
         "DROP_1",
-        "DROP_X",
-        "DROP_1_STRONG"
+        "DROP_X"
       ],
       "home_last_8": [
         {
@@ -3335,9 +3335,9 @@
         "q1": 2.9,
         "qx": 3.1,
         "q2": 2.36,
-        "o25": 2.15,
+        "o25": 2.2,
         "o05ht": 1.42,
-        "o15ht": 2.9
+        "o15ht": 2.95
       },
       "averages": {
         "home_avg_ft": 2.25,
@@ -3359,15 +3359,15 @@
         "curr_q1": 2.9,
         "curr_qx": 3.1,
         "curr_q2": 2.36,
-        "curr_o25": 2.15,
+        "curr_o25": 2.2,
         "drop_q1": -0.04,
         "drop_qx": 0.0,
         "drop_q2": 0.02,
-        "drop_o25": -0.17,
-        "drop_last_q1": 0.0,
+        "drop_o25": -0.22,
+        "drop_last_q1": 0.02,
         "drop_last_qx": 0.0,
         "drop_last_q2": 0.0,
-        "drop_last_o25": 0.05,
+        "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -3377,9 +3377,9 @@
         "curr_fav_side": "2",
         "open_fav_quote": 2.38,
         "curr_fav_quote": 2.36,
-        "history_points": 6,
+        "history_points": 5,
         "first_seen_at": "2026-03-20T07:09:51",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 4.0,
@@ -3551,12 +3551,12 @@
       "home_team": "Stranraer",
       "away_team": "Clyde",
       "markets": {
-        "q1": 2.5,
-        "qx": 3.4,
-        "q2": 2.5,
-        "o25": 1.77,
-        "o05ht": 1.3,
-        "o15ht": 2.5
+        "q1": 2.88,
+        "qx": 3.25,
+        "q2": 2.2,
+        "o25": 1.85,
+        "o05ht": 1.36,
+        "o15ht": 2.62
       },
       "averages": {
         "home_avg_ft": 2.625,
@@ -3566,55 +3566,50 @@
         "combined_ht_avg": 1.062
       },
       "flags": {
-        "fav_quote": 2.5,
+        "fav_quote": 2.2,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.38,
+        "drop_diff": 0.0,
         "open_q1": 2.88,
         "open_qx": 3.25,
         "open_q2": 2.2,
         "open_o25": 1.85,
-        "curr_q1": 2.5,
-        "curr_qx": 3.4,
-        "curr_q2": 2.5,
-        "curr_o25": 1.77,
-        "drop_q1": 0.38,
-        "drop_qx": -0.15,
-        "drop_q2": -0.3,
-        "drop_o25": 0.08,
-        "drop_last_q1": 0.38,
-        "drop_last_qx": -0.15,
-        "drop_last_q2": -0.3,
-        "drop_last_o25": 0.08,
-        "drop_side": "1",
-        "drop_strength": "strong",
-        "inversion": true,
+        "curr_q1": 2.88,
+        "curr_qx": 3.25,
+        "curr_q2": 2.2,
+        "curr_o25": 1.85,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
         "inversion_from": "2",
-        "inversion_to": "1",
+        "inversion_to": "2",
         "open_fav_side": "2",
-        "curr_fav_side": "1",
+        "curr_fav_side": "2",
         "open_fav_quote": 2.2,
-        "curr_fav_quote": 2.5,
-        "history_points": 2,
+        "curr_fav_quote": 2.2,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 3.7,
-        "over": 4.8,
-        "boost": 4.81,
-        "gold": 3.889,
-        "max": 4.81
+        "over": 5.2,
+        "boost": 5.002,
+        "gold": 4.075,
+        "max": 5.2
       },
       "tags": [
         "⚽ OVER",
-        "🐟G",
-        "DROP_1",
-        "O25_DROP",
-        "INVERSION",
-        "INV_2_TO_1",
-        "DROP_1_STRONG"
+        "🐟G"
       ],
       "home_last_8": [
         {
@@ -3776,9 +3771,9 @@
       "away_team": "Forfar Athletic",
       "markets": {
         "q1": 2.25,
-        "qx": 3.2,
-        "q2": 2.9,
-        "o25": 1.9,
+        "qx": 3.25,
+        "q2": 2.8,
+        "o25": 1.85,
         "o05ht": 1.36,
         "o15ht": 2.62
       },
@@ -3794,23 +3789,23 @@
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 0.6,
+        "drop_diff": 0.7,
         "open_q1": 1.9,
         "open_qx": 3.2,
         "open_q2": 3.5,
         "open_o25": 1.78,
         "curr_q1": 2.25,
-        "curr_qx": 3.2,
-        "curr_q2": 2.9,
-        "curr_o25": 1.9,
+        "curr_qx": 3.25,
+        "curr_q2": 2.8,
+        "curr_o25": 1.85,
         "drop_q1": -0.35,
-        "drop_qx": 0.0,
-        "drop_q2": 0.6,
-        "drop_o25": -0.12,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": -0.1,
-        "drop_last_o25": -0.05,
+        "drop_qx": -0.05,
+        "drop_q2": 0.7,
+        "drop_o25": -0.07,
+        "drop_last_q1": -0.35,
+        "drop_last_qx": -0.05,
+        "drop_last_q2": 0.7,
+        "drop_last_o25": -0.07,
         "drop_side": "2",
         "drop_strength": "strong",
         "inversion": false,
@@ -3820,9 +3815,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.9,
         "curr_fav_quote": 2.25,
-        "history_points": 3,
+        "history_points": 2,
         "first_seen_at": "2026-03-21T06:52:30",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 6.8,
@@ -3998,9 +3993,9 @@
       "home_team": "Oldham",
       "away_team": "Notts County",
       "markets": {
-        "q1": 2.62,
+        "q1": 2.64,
         "qx": 3.25,
-        "q2": 2.62,
+        "q2": 2.6,
         "o25": 2.0,
         "o05ht": 1.4,
         "o15ht": 2.8
@@ -4013,39 +4008,39 @@
         "combined_ht_avg": 1.312
       },
       "flags": {
-        "fav_quote": 2.62,
+        "fav_quote": 2.6,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.23,
+        "drop_diff": 0.25,
         "open_q1": 2.35,
         "open_qx": 3.2,
         "open_q2": 2.85,
         "open_o25": 1.92,
-        "curr_q1": 2.62,
+        "curr_q1": 2.64,
         "curr_qx": 3.25,
-        "curr_q2": 2.62,
+        "curr_q2": 2.6,
         "curr_o25": 2.0,
-        "drop_q1": -0.27,
+        "drop_q1": -0.29,
         "drop_qx": -0.05,
-        "drop_q2": 0.23,
+        "drop_q2": 0.25,
         "drop_o25": -0.08,
-        "drop_last_q1": 0.02,
+        "drop_last_q1": -0.02,
         "drop_last_qx": 0.0,
-        "drop_last_q2": -0.02,
-        "drop_last_o25": 0.0,
+        "drop_last_q2": 0.02,
+        "drop_last_o25": -0.05,
         "drop_side": "2",
         "drop_strength": "strong",
-        "inversion": false,
+        "inversion": true,
         "inversion_from": "1",
-        "inversion_to": "1",
+        "inversion_to": "2",
         "open_fav_side": "1",
-        "curr_fav_side": "1",
+        "curr_fav_side": "2",
         "open_fav_quote": 2.35,
-        "curr_fav_quote": 2.62,
-        "history_points": 5,
+        "curr_fav_quote": 2.6,
+        "history_points": 4,
         "first_seen_at": "2026-03-20T07:09:51",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 5.4,
@@ -4059,6 +4054,8 @@
         "⚽ OVER",
         "🐟G",
         "DROP_2",
+        "INVERSION",
+        "INV_1_TO_2",
         "DROP_2_STRONG"
       ],
       "home_last_8": [
@@ -4220,12 +4217,12 @@
       "home_team": "Aldershot Town",
       "away_team": "Boreham Wood",
       "markets": {
-        "q1": 3.25,
-        "qx": 3.7,
-        "q2": 1.91,
+        "q1": 3.2,
+        "qx": 3.6,
+        "q2": 2.0,
         "o25": 1.4,
         "o05ht": 1.2,
-        "o15ht": 1.95
+        "o15ht": 2.05
       },
       "averages": {
         "home_avg_ft": 3.125,
@@ -4235,50 +4232,52 @@
         "combined_ht_avg": 1.688
       },
       "flags": {
-        "fav_quote": 1.91,
+        "fav_quote": 2.0,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.05,
+        "drop_diff": 0.1,
         "open_q1": 3.3,
         "open_qx": 3.6,
         "open_q2": 1.95,
         "open_o25": 1.4,
-        "curr_q1": 3.25,
-        "curr_qx": 3.7,
-        "curr_q2": 1.91,
+        "curr_q1": 3.2,
+        "curr_qx": 3.6,
+        "curr_q2": 2.0,
         "curr_o25": 1.4,
-        "drop_q1": 0.05,
-        "drop_qx": -0.1,
-        "drop_q2": 0.04,
+        "drop_q1": 0.1,
+        "drop_qx": 0.0,
+        "drop_q2": -0.05,
         "drop_o25": 0.0,
-        "drop_last_q1": -0.05,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": 0.09,
+        "drop_last_q1": 0.1,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": -0.05,
         "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
+        "drop_side": "1",
+        "drop_strength": "light",
         "inversion": false,
         "inversion_from": "2",
         "inversion_to": "2",
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.91,
-        "history_points": 3,
+        "curr_fav_quote": 2.0,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
-        "pt": 6.3,
+        "pt": 6.8,
         "over": 4.4,
-        "boost": 5.956,
-        "gold": 5.181,
-        "max": 6.3
+        "boost": 6.146,
+        "gold": 5.356,
+        "max": 6.8
       },
       "tags": [
         "🎯PT",
-        "⚽ OVER"
+        "⚽ OVER",
+        "🐟G",
+        "DROP_1"
       ],
       "home_last_8": [
         {
@@ -4439,12 +4438,12 @@
       "home_team": "Boston United",
       "away_team": "Altrincham",
       "markets": {
-        "q1": 1.91,
-        "qx": 3.45,
+        "q1": 2.0,
+        "qx": 3.3,
         "q2": 3.5,
-        "o25": 1.75,
-        "o05ht": 1.33,
-        "o15ht": 2.4
+        "o25": 1.73,
+        "o05ht": 1.3,
+        "o15ht": 2.5
       },
       "averages": {
         "home_avg_ft": 3.875,
@@ -4454,7 +4453,7 @@
         "combined_ht_avg": 1.625
       },
       "flags": {
-        "fav_quote": 1.91,
+        "fav_quote": 2.0,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
@@ -4463,18 +4462,18 @@
         "open_qx": 3.3,
         "open_q2": 3.6,
         "open_o25": 1.73,
-        "curr_q1": 1.91,
-        "curr_qx": 3.45,
+        "curr_q1": 2.0,
+        "curr_qx": 3.3,
         "curr_q2": 3.5,
-        "curr_o25": 1.75,
-        "drop_q1": 0.04,
-        "drop_qx": -0.15,
+        "curr_o25": 1.73,
+        "drop_q1": -0.05,
+        "drop_qx": 0.0,
         "drop_q2": 0.1,
-        "drop_o25": -0.02,
-        "drop_last_q1": 0.09,
-        "drop_last_qx": -0.15,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": -0.02,
+        "drop_o25": 0.0,
+        "drop_last_q1": -0.05,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.1,
+        "drop_last_o25": 0.0,
         "drop_side": "2",
         "drop_strength": "light",
         "inversion": false,
@@ -4483,10 +4482,10 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.91,
-        "history_points": 3,
+        "curr_fav_quote": 2.0,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 6.2,
@@ -4499,6 +4498,7 @@
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
+        "🐟G",
         "DROP_2"
       ],
       "home_last_8": [
@@ -4660,12 +4660,12 @@
       "home_team": "Brackley Town",
       "away_team": "Braintree",
       "markets": {
-        "q1": 1.73,
-        "qx": 3.8,
-        "q2": 3.95,
-        "o25": 1.7,
-        "o05ht": 1.28,
-        "o15ht": 2.38
+        "q1": 1.75,
+        "qx": 3.75,
+        "q2": 3.9,
+        "o25": 1.67,
+        "o05ht": 1.3,
+        "o15ht": 2.45
       },
       "averages": {
         "home_avg_ft": 4.0,
@@ -4675,39 +4675,39 @@
         "combined_ht_avg": 1.25
       },
       "flags": {
-        "fav_quote": 1.73,
+        "fav_quote": 1.75,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.1,
+        "drop_diff": 0.15,
         "open_q1": 1.75,
         "open_qx": 3.9,
         "open_q2": 3.75,
         "open_o25": 1.75,
-        "curr_q1": 1.73,
-        "curr_qx": 3.8,
-        "curr_q2": 3.95,
-        "curr_o25": 1.7,
-        "drop_q1": 0.02,
-        "drop_qx": 0.1,
-        "drop_q2": -0.2,
-        "drop_o25": 0.05,
-        "drop_last_q1": 0.02,
-        "drop_last_qx": -0.05,
-        "drop_last_q2": -0.05,
-        "drop_last_o25": -0.03,
+        "curr_q1": 1.75,
+        "curr_qx": 3.75,
+        "curr_q2": 3.9,
+        "curr_o25": 1.67,
+        "drop_q1": 0.0,
+        "drop_qx": 0.15,
+        "drop_q2": -0.15,
+        "drop_o25": 0.08,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.15,
+        "drop_last_q2": -0.15,
+        "drop_last_o25": 0.08,
         "drop_side": "X",
-        "drop_strength": "light",
+        "drop_strength": "medium",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.75,
-        "curr_fav_quote": 1.73,
-        "history_points": 3,
+        "curr_fav_quote": 1.75,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 5.4,
@@ -4720,8 +4720,9 @@
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "🐟O",
-        "DROP_X"
+        "DROP_X",
+        "O25_DROP",
+        "DROP_X_MED"
       ],
       "home_last_8": [
         {
@@ -4882,12 +4883,12 @@
       "home_team": "Eastleigh",
       "away_team": "Sutton Utd",
       "markets": {
-        "q1": 2.88,
-        "qx": 3.35,
+        "q1": 3.0,
+        "qx": 3.25,
         "q2": 2.2,
         "o25": 1.7,
         "o05ht": 1.3,
-        "o15ht": 2.38
+        "o15ht": 2.45
       },
       "averages": {
         "home_avg_ft": 3.25,
@@ -4906,17 +4907,17 @@
         "open_qx": 3.42,
         "open_q2": 2.46,
         "open_o25": 1.65,
-        "curr_q1": 2.88,
-        "curr_qx": 3.35,
+        "curr_q1": 3.0,
+        "curr_qx": 3.25,
         "curr_q2": 2.2,
         "curr_o25": 1.7,
-        "drop_q1": -0.45,
-        "drop_qx": 0.07,
+        "drop_q1": -0.57,
+        "drop_qx": 0.17,
         "drop_q2": 0.26,
         "drop_o25": -0.05,
-        "drop_last_q1": 0.12,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": 0.0,
+        "drop_last_q1": -0.1,
+        "drop_last_qx": -0.05,
+        "drop_last_q2": 0.1,
         "drop_last_o25": 0.0,
         "drop_side": "2",
         "drop_strength": "strong",
@@ -4927,9 +4928,9 @@
         "curr_fav_side": "2",
         "open_fav_quote": 2.43,
         "curr_fav_quote": 2.2,
-        "history_points": 4,
+        "history_points": 3,
         "first_seen_at": "2026-03-21T06:52:30",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 7.6,
@@ -4947,6 +4948,7 @@
         "DROP_2",
         "INVERSION",
         "INV_1_TO_2",
+        "DROP_X_MED",
         "DROP_2_STRONG"
       ],
       "home_last_8": [
@@ -5108,12 +5110,12 @@
       "home_team": "FC Halifax Town",
       "away_team": "Carlisle",
       "markets": {
-        "q1": 2.6,
-        "qx": 3.3,
+        "q1": 2.62,
+        "qx": 3.25,
         "q2": 2.45,
         "o25": 1.75,
-        "o05ht": 1.33,
-        "o15ht": 2.4
+        "o05ht": 1.3,
+        "o15ht": 2.5
       },
       "averages": {
         "home_avg_ft": 3.25,
@@ -5127,23 +5129,23 @@
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.02,
+        "drop_diff": 0.05,
         "open_q1": 2.62,
         "open_qx": 3.3,
         "open_q2": 2.4,
         "open_o25": 1.8,
-        "curr_q1": 2.6,
-        "curr_qx": 3.3,
+        "curr_q1": 2.62,
+        "curr_qx": 3.25,
         "curr_q2": 2.45,
         "curr_o25": 1.75,
-        "drop_q1": 0.02,
-        "drop_qx": 0.0,
+        "drop_q1": 0.0,
+        "drop_qx": 0.05,
         "drop_q2": -0.05,
         "drop_o25": 0.05,
-        "drop_last_q1": 0.02,
-        "drop_last_qx": -0.05,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.05,
+        "drop_last_q2": -0.05,
+        "drop_last_o25": 0.05,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -5153,9 +5155,9 @@
         "curr_fav_side": "2",
         "open_fav_quote": 2.4,
         "curr_fav_quote": 2.45,
-        "history_points": 3,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 6.4,
@@ -5329,12 +5331,12 @@
       "home_team": "Gateshead",
       "away_team": "York",
       "markets": {
-        "q1": 7.25,
-        "qx": 4.8,
+        "q1": 6.5,
+        "qx": 5.0,
         "q2": 1.33,
-        "o25": 1.33,
+        "o25": 1.36,
         "o05ht": 1.18,
-        "o15ht": 1.83
+        "o15ht": 1.85
       },
       "averages": {
         "home_avg_ft": 2.75,
@@ -5348,25 +5350,25 @@
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.2,
+        "drop_diff": 0.0,
         "open_q1": 6.5,
         "open_qx": 5.0,
         "open_q2": 1.33,
         "open_o25": 1.36,
-        "curr_q1": 7.25,
-        "curr_qx": 4.8,
+        "curr_q1": 6.5,
+        "curr_qx": 5.0,
         "curr_q2": 1.33,
-        "curr_o25": 1.33,
-        "drop_q1": -0.75,
-        "drop_qx": 0.2,
+        "curr_o25": 1.36,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
         "drop_q2": 0.0,
-        "drop_o25": 0.03,
-        "drop_last_q1": -0.75,
-        "drop_last_qx": 0.2,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
         "drop_last_q2": 0.0,
-        "drop_last_o25": 0.03,
-        "drop_side": "X",
-        "drop_strength": "strong",
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "2",
         "inversion_to": "2",
@@ -5374,9 +5376,9 @@
         "curr_fav_side": "2",
         "open_fav_quote": 1.33,
         "curr_fav_quote": 1.33,
-        "history_points": 2,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 5.0,
@@ -5387,9 +5389,7 @@
       },
       "tags": [
         "🎯PT",
-        "🐟O",
-        "DROP_X",
-        "DROP_X_STRONG"
+        "🐟O"
       ],
       "home_last_8": [
         {
@@ -5540,43 +5540,43 @@
         }
       ]
     },
-    "1401670": {
-      "fixture_id": 1401670,
+    "1402295": {
+      "fixture_id": 1402295,
       "date": "2026-03-24",
       "time": "20:45",
-      "league": "National League - South",
+      "league": "National League - North",
       "country": "England",
-      "match": "Weston-super-Mare - Worthing",
-      "home_team": "Weston-super-Mare",
-      "away_team": "Worthing",
+      "match": "Alfreton Town - Macclesfield",
+      "home_team": "Alfreton Town",
+      "away_team": "Macclesfield",
       "markets": {
-        "q1": 2.95,
-        "qx": 3.55,
-        "q2": 2.1,
+        "q1": 4.75,
+        "qx": 3.9,
+        "q2": 1.55,
         "o25": 1.65,
         "o05ht": 1.28,
-        "o15ht": 2.35
+        "o15ht": 2.36
       },
       "averages": {
-        "home_avg_ft": 2.125,
-        "away_avg_ft": 2.5,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 1.375,
-        "combined_ht_avg": 1.375
+        "home_avg_ft": 2.625,
+        "away_avg_ft": 3.75,
+        "home_avg_ht": 1.0,
+        "away_avg_ht": 1.25,
+        "combined_ht_avg": 1.125
       },
       "flags": {
-        "fav_quote": 2.1,
-        "is_gold_zone": false,
+        "fav_quote": 1.55,
+        "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
         "drop_diff": 0.0,
-        "open_q1": 2.95,
-        "open_qx": 3.55,
-        "open_q2": 2.1,
+        "open_q1": 4.75,
+        "open_qx": 3.9,
+        "open_q2": 1.55,
         "open_o25": 1.65,
-        "curr_q1": 2.95,
-        "curr_qx": 3.55,
-        "curr_q2": 2.1,
+        "curr_q1": 4.75,
+        "curr_qx": 3.9,
+        "curr_q2": 1.55,
         "curr_o25": 1.65,
         "drop_q1": 0.0,
         "drop_qx": 0.0,
@@ -5593,894 +5593,11 @@
         "inversion_to": "2",
         "open_fav_side": "2",
         "curr_fav_side": "2",
-        "open_fav_quote": 2.1,
-        "curr_fav_quote": 2.1,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.8,
-        "over": 5.8,
-        "boost": 7.368,
-        "gold": 6.191,
-        "max": 7.368
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National League - South",
-          "match": "Ebbsfleet United - Weston-super-Mare",
-          "ht": "1-0",
-          "ft": "1-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-17",
-          "league": "National League - South",
-          "match": "Weston-super-Mare - Tonbridge Angels",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-14",
-          "league": "National League - South",
-          "match": "Weston-super-Mare - Hampton & Richmond",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-10",
-          "league": "National League - South",
-          "match": "Weston-super-Mare - AFC Totton",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-07",
-          "league": "National League - South",
-          "match": "Chesham United - Weston-super-Mare",
-          "ht": "4-0",
-          "ft": "4-0",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-03",
-          "league": "National League - South",
-          "match": "Maidstone Utd - Weston-super-Mare",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-24",
-          "league": "National League - South",
-          "match": "Bath City - Weston-super-Mare",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-21",
-          "league": "National League - South",
-          "match": "Dover - Weston-super-Mare",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National League - South",
-          "match": "AFC Totton - Worthing",
-          "ht": "0-1",
-          "ft": "0-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-14",
-          "league": "National League - South",
-          "match": "Worthing - Chelmsford City",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-10",
-          "league": "National League - South",
-          "match": "Worthing - Maidenhead",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-07",
-          "league": "National League - South",
-          "match": "Tonbridge Angels - Worthing",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-03",
-          "league": "National League - South",
-          "match": "Worthing - Chesham United",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National League - South",
-          "match": "AFC Hornchurch - Worthing",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-24",
-          "league": "National League - South",
-          "match": "Worthing - Torquay",
-          "ht": "1-0",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-21",
-          "league": "National League - South",
-          "match": "Worthing - Slough Town",
-          "ht": "4-0",
-          "ft": "4-1",
-          "total_ht_goals": 4,
-          "total_ft_goals": 5
-        }
-      ]
-    },
-    "1401829": {
-      "fixture_id": 1401829,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "National League - South",
-      "country": "England",
-      "match": "Chesham United - AFC Hornchurch",
-      "home_team": "Chesham United",
-      "away_team": "AFC Hornchurch",
-      "markets": {
-        "q1": 2.5,
-        "qx": 3.3,
-        "q2": 2.55,
-        "o25": 1.83,
-        "o05ht": 1.36,
-        "o15ht": 2.62
-      },
-      "averages": {
-        "home_avg_ft": 3.25,
-        "away_avg_ft": 2.75,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.5,
-        "combined_ht_avg": 1.375
-      },
-      "flags": {
-        "fav_quote": 2.5,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 2.5,
-        "open_qx": 3.3,
-        "open_q2": 2.55,
-        "open_o25": 1.83,
-        "curr_q1": 2.5,
-        "curr_qx": 3.3,
-        "curr_q2": 2.55,
-        "curr_o25": 1.83,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.5,
-        "curr_fav_quote": 2.5,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 7.2,
-        "over": 5.4,
-        "boost": 7.328,
-        "gold": 6.146,
-        "max": 7.328
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National League - South",
-          "match": "Chesham United - Maidstone Utd",
-          "ht": "2-0",
-          "ft": "4-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-03-17",
-          "league": "National League - South",
-          "match": "Chesham United - AFC Totton",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-14",
-          "league": "National League - South",
-          "match": "Torquay - Chesham United",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-07",
-          "league": "National League - South",
-          "match": "Chesham United - Weston-super-Mare",
-          "ht": "4-0",
-          "ft": "4-0",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-03",
-          "league": "National League - South",
-          "match": "Worthing - Chesham United",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National League - South",
-          "match": "Dorking Wanderers - Chesham United",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-24",
-          "league": "National League - South",
-          "match": "Chesham United - Dagenham & Redbridge",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-21",
-          "league": "National League - South",
-          "match": "Chesham United - Ebbsfleet United",
-          "ht": "0-1",
-          "ft": "4-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National League - South",
-          "match": "AFC Hornchurch - Hemel Hempstead Town",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-14",
-          "league": "National League - South",
-          "match": "Bath City - AFC Hornchurch",
-          "ht": "0-2",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-10",
-          "league": "National League - South",
-          "match": "Horsham - AFC Hornchurch",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "National League - South",
-          "match": "AFC Hornchurch - Slough Town",
-          "ht": "0-2",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-03",
-          "league": "National League - South",
-          "match": "AFC Hornchurch - Salisbury",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National League - South",
-          "match": "AFC Hornchurch - Worthing",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-24",
-          "league": "National League - South",
-          "match": "Dover - AFC Hornchurch",
-          "ht": "2-1",
-          "ft": "4-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-21",
-          "league": "National League - South",
-          "match": "AFC Totton - AFC Hornchurch",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1401851": {
-      "fixture_id": 1401851,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "National League - South",
-      "country": "England",
-      "match": "Bath City - Hemel Hempstead Town",
-      "home_team": "Bath City",
-      "away_team": "Hemel Hempstead Town",
-      "markets": {
-        "q1": 3.1,
-        "qx": 3.2,
-        "q2": 2.2,
-        "o25": 2.0,
-        "o05ht": 1.45,
-        "o15ht": 3.1
-      },
-      "averages": {
-        "home_avg_ft": 2.75,
-        "away_avg_ft": 2.25,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.0,
-        "combined_ht_avg": 1.125
-      },
-      "flags": {
-        "fav_quote": 2.2,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 3.1,
-        "open_qx": 3.2,
-        "open_q2": 2.2,
-        "open_o25": 2.0,
-        "curr_q1": 3.1,
-        "curr_qx": 3.2,
-        "curr_q2": 2.2,
-        "curr_o25": 2.0,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 2.2,
-        "curr_fav_quote": 2.2,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.7,
-        "over": 5.5,
-        "boost": 5.356,
-        "gold": 4.725,
-        "max": 5.7
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National League - South",
-          "match": "Tonbridge Angels - Bath City",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-17",
-          "league": "National League - South",
-          "match": "Horsham - Bath City",
-          "ht": "0-0",
-          "ft": "2-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-14",
-          "league": "National League - South",
-          "match": "Bath City - AFC Hornchurch",
-          "ht": "0-2",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-10",
-          "league": "National League - South",
-          "match": "Bath City - Farnborough",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-07",
-          "league": "National League - South",
-          "match": "Chelmsford City - Bath City",
-          "ht": "4-0",
-          "ft": "7-1",
-          "total_ht_goals": 4,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2026-03-03",
-          "league": "National League - South",
-          "match": "Bath City - Slough Town",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National League - South",
-          "match": "Enfield Town - Bath City",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-24",
-          "league": "National League - South",
-          "match": "Bath City - Weston-super-Mare",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National League - South",
-          "match": "AFC Hornchurch - Hemel Hempstead Town",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-14",
-          "league": "National League - South",
-          "match": "Hemel Hempstead Town - AFC Totton",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-10",
-          "league": "National League - South",
-          "match": "Hemel Hempstead Town - Chippenham Town",
-          "ht": "1-2",
-          "ft": "3-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-07",
-          "league": "National League - South",
-          "match": "Farnborough - Hemel Hempstead Town",
-          "ht": "0-2",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National League - South",
-          "match": "Hemel Hempstead Town - Tonbridge Angels",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-23",
-          "league": "National League - South",
-          "match": "Chelmsford City - Hemel Hempstead Town",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-21",
-          "league": "National League - South",
-          "match": "Horsham - Hemel Hempstead Town",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-14",
-          "league": "National League - South",
-          "match": "Hemel Hempstead Town - Worthing",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1401879": {
-      "fixture_id": 1401879,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "National League - South",
-      "country": "England",
-      "match": "Enfield Town - Dover",
-      "home_team": "Enfield Town",
-      "away_team": "Dover",
-      "markets": {
-        "q1": 2.38,
-        "qx": 3.6,
-        "q2": 2.5,
-        "o25": 1.67,
-        "o05ht": 1.3,
-        "o15ht": 2.45
-      },
-      "averages": {
-        "home_avg_ft": 3.25,
-        "away_avg_ft": 2.75,
-        "home_avg_ht": 1.625,
-        "away_avg_ht": 1.25,
-        "combined_ht_avg": 1.438
-      },
-      "flags": {
-        "fav_quote": 2.38,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 2.38,
-        "open_qx": 3.6,
-        "open_q2": 2.5,
-        "open_o25": 1.67,
-        "curr_q1": 2.38,
-        "curr_qx": 3.6,
-        "curr_q2": 2.5,
-        "curr_o25": 1.67,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.38,
-        "curr_fav_quote": 2.38,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.4,
-        "over": 5.4,
-        "boost": 7.024,
-        "gold": 5.866,
-        "max": 7.024
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National League - South",
-          "match": "Salisbury - Enfield Town",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-17",
-          "league": "National League - South",
-          "match": "Enfield Town - Dorking Wanderers",
-          "ht": "0-2",
-          "ft": "2-4",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-03-14",
-          "league": "National League - South",
-          "match": "Enfield Town - Dagenham & Redbridge",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-07",
-          "league": "National League - South",
-          "match": "Chippenham Town - Enfield Town",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-03",
-          "league": "National League - South",
-          "match": "Enfield Town - Hampton & Richmond",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National League - South",
-          "match": "Enfield Town - Bath City",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-24",
-          "league": "National League - South",
-          "match": "Maidstone Utd - Enfield Town",
-          "ht": "4-0",
-          "ft": "8-0",
-          "total_ht_goals": 4,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2026-02-21",
-          "league": "National League - South",
-          "match": "Farnborough - Enfield Town",
-          "ht": "0-3",
-          "ft": "0-5",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "National League - South",
-          "match": "Chelmsford City - Dover",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-14",
-          "league": "National League - South",
-          "match": "Dover - Chippenham Town",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-10",
-          "league": "National League - South",
-          "match": "Dover - Tonbridge Angels",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "National League - South",
-          "match": "Hampton & Richmond - Dover",
-          "ht": "2-1",
-          "ft": "2-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-28",
-          "league": "National League - South",
-          "match": "Slough Town - Dover",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-24",
-          "league": "National League - South",
-          "match": "Dover - AFC Hornchurch",
-          "ht": "2-1",
-          "ft": "4-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-21",
-          "league": "National League - South",
-          "match": "Dover - Weston-super-Mare",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-10",
-          "league": "National League - South",
-          "match": "Dorking Wanderers - Dover",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1402295": {
-      "fixture_id": 1402295,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "National League - North",
-      "country": "England",
-      "match": "Alfreton Town - Macclesfield",
-      "home_team": "Alfreton Town",
-      "away_team": "Macclesfield",
-      "markets": {
-        "q1": 4.2,
-        "qx": 3.9,
-        "q2": 1.65,
-        "o25": 1.67,
-        "o05ht": 1.3,
-        "o15ht": 2.45
-      },
-      "averages": {
-        "home_avg_ft": 2.625,
-        "away_avg_ft": 3.75,
-        "home_avg_ht": 1.0,
-        "away_avg_ht": 1.25,
-        "combined_ht_avg": 1.125
-      },
-      "flags": {
-        "fav_quote": 1.65,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.55,
-        "open_q1": 4.75,
-        "open_qx": 3.9,
-        "open_q2": 1.55,
-        "open_o25": 1.65,
-        "curr_q1": 4.2,
-        "curr_qx": 3.9,
-        "curr_q2": 1.65,
-        "curr_o25": 1.67,
-        "drop_q1": 0.55,
-        "drop_qx": 0.0,
-        "drop_q2": -0.1,
-        "drop_o25": -0.02,
-        "drop_last_q1": 0.55,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": -0.1,
-        "drop_last_o25": -0.02,
-        "drop_side": "1",
-        "drop_strength": "strong",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
         "open_fav_quote": 1.55,
-        "curr_fav_quote": 1.65,
-        "history_points": 2,
+        "curr_fav_quote": 1.55,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T20:53:13",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 5.8,
@@ -6492,9 +5609,7 @@
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🐟O",
-        "DROP_1",
-        "DROP_1_STRONG"
+        "🐟O"
       ],
       "home_last_8": [
         {
@@ -6655,12 +5770,12 @@
       "home_team": "Hereford",
       "away_team": "Spennymoor Town",
       "markets": {
-        "q1": 2.0,
-        "qx": 3.6,
-        "q2": 3.1,
-        "o25": 1.67,
-        "o05ht": 1.28,
-        "o15ht": 2.4
+        "q1": 2.2,
+        "qx": 3.5,
+        "q2": 2.7,
+        "o25": 1.62,
+        "o05ht": 1.27,
+        "o15ht": 2.31
       },
       "averages": {
         "home_avg_ft": 4.125,
@@ -6670,39 +5785,39 @@
         "combined_ht_avg": 1.625
       },
       "flags": {
-        "fav_quote": 2.0,
+        "fav_quote": 2.2,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.2,
+        "drop_diff": 0.0,
         "open_q1": 2.2,
         "open_qx": 3.5,
         "open_q2": 2.7,
         "open_o25": 1.62,
-        "curr_q1": 2.0,
-        "curr_qx": 3.6,
-        "curr_q2": 3.1,
-        "curr_o25": 1.67,
-        "drop_q1": 0.2,
-        "drop_qx": -0.1,
-        "drop_q2": -0.4,
-        "drop_o25": -0.05,
-        "drop_last_q1": 0.2,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.4,
-        "drop_last_o25": -0.05,
-        "drop_side": "1",
-        "drop_strength": "strong",
+        "curr_q1": 2.2,
+        "curr_qx": 3.5,
+        "curr_q2": 2.7,
+        "curr_o25": 1.62,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 2.2,
-        "curr_fav_quote": 2.0,
-        "history_points": 2,
+        "curr_fav_quote": 2.2,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T20:53:13",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 6.0,
@@ -6715,9 +5830,7 @@
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "🐟G",
-        "DROP_1",
-        "DROP_1_STRONG"
+        "🐟G"
       ],
       "home_last_8": [
         {
@@ -6878,10 +5991,10 @@
       "home_team": "Leamington",
       "away_team": "King's Lynn Town",
       "markets": {
-        "q1": 4.75,
-        "qx": 3.5,
-        "q2": 1.67,
-        "o25": 1.95,
+        "q1": 4.33,
+        "qx": 3.4,
+        "q2": 1.7,
+        "o25": 2.1,
         "o05ht": 1.44,
         "o15ht": 3.0
       },
@@ -6893,27 +6006,27 @@
         "combined_ht_avg": 1.125
       },
       "flags": {
-        "fav_quote": 1.67,
+        "fav_quote": 1.7,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 0.03,
+        "drop_diff": 0.0,
         "open_q1": 4.33,
         "open_qx": 3.4,
         "open_q2": 1.7,
         "open_o25": 2.1,
-        "curr_q1": 4.75,
-        "curr_qx": 3.5,
-        "curr_q2": 1.67,
-        "curr_o25": 1.95,
-        "drop_q1": -0.42,
-        "drop_qx": -0.1,
-        "drop_q2": 0.03,
-        "drop_o25": 0.15,
-        "drop_last_q1": -0.42,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": 0.03,
-        "drop_last_o25": 0.15,
+        "curr_q1": 4.33,
+        "curr_qx": 3.4,
+        "curr_q2": 1.7,
+        "curr_o25": 2.1,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -6922,10 +6035,10 @@
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 1.7,
-        "curr_fav_quote": 1.67,
-        "history_points": 2,
+        "curr_fav_quote": 1.7,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T20:53:13",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 4.3,
@@ -6937,8 +6050,7 @@
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🐟O",
-        "O25_DROP"
+        "🐟O"
       ],
       "home_last_8": [
         {
@@ -7099,12 +6211,12 @@
       "home_team": "AFC Fylde",
       "away_team": "Marine",
       "markets": {
-        "q1": 1.28,
-        "qx": 5.0,
-        "q2": 8.8,
-        "o25": 1.45,
-        "o05ht": 1.25,
-        "o15ht": 2.15
+        "q1": 1.18,
+        "qx": 6.0,
+        "q2": 10.0,
+        "o25": 1.44,
+        "o05ht": 1.22,
+        "o15ht": 2.0
       },
       "averages": {
         "home_avg_ft": 3.75,
@@ -7114,39 +6226,39 @@
         "combined_ht_avg": 1.375
       },
       "flags": {
-        "fav_quote": 1.28,
+        "fav_quote": 1.18,
         "is_gold_zone": false,
         "home_last_2h_zero": true,
         "away_last_2h_zero": false,
-        "drop_diff": 1.2,
+        "drop_diff": 0.0,
         "open_q1": 1.18,
         "open_qx": 6.0,
         "open_q2": 10.0,
         "open_o25": 1.44,
-        "curr_q1": 1.28,
-        "curr_qx": 5.0,
-        "curr_q2": 8.8,
-        "curr_o25": 1.45,
-        "drop_q1": -0.1,
-        "drop_qx": 1.0,
-        "drop_q2": 1.2,
-        "drop_o25": -0.01,
-        "drop_last_q1": -0.1,
-        "drop_last_qx": 1.0,
-        "drop_last_q2": 1.2,
-        "drop_last_o25": -0.01,
-        "drop_side": "2",
-        "drop_strength": "strong",
+        "curr_q1": 1.18,
+        "curr_qx": 6.0,
+        "curr_q2": 10.0,
+        "curr_o25": 1.44,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.18,
-        "curr_fav_quote": 1.28,
-        "history_points": 2,
+        "curr_fav_quote": 1.18,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T20:53:13",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 6.8,
@@ -7158,11 +6270,7 @@
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🐟O",
-        "DROP_X",
-        "DROP_2",
-        "DROP_X_STRONG",
-        "DROP_2_STRONG"
+        "🐟O"
       ],
       "home_last_8": [
         {
@@ -7323,11 +6431,11 @@
       "home_team": "Darlington 1883",
       "away_team": "Kidderminster Harriers",
       "markets": {
-        "q1": 2.62,
-        "qx": 3.4,
-        "q2": 2.35,
-        "o25": 1.83,
-        "o05ht": 1.35,
+        "q1": 2.9,
+        "qx": 3.3,
+        "q2": 2.15,
+        "o25": 1.85,
+        "o05ht": 1.36,
         "o15ht": 2.62
       },
       "averages": {
@@ -7338,53 +6446,51 @@
         "combined_ht_avg": 1.125
       },
       "flags": {
-        "fav_quote": 2.35,
+        "fav_quote": 2.15,
         "is_gold_zone": false,
         "home_last_2h_zero": true,
         "away_last_2h_zero": true,
-        "drop_diff": 0.28,
+        "drop_diff": 0.0,
         "open_q1": 2.9,
         "open_qx": 3.3,
         "open_q2": 2.15,
         "open_o25": 1.85,
-        "curr_q1": 2.62,
-        "curr_qx": 3.4,
-        "curr_q2": 2.35,
-        "curr_o25": 1.83,
-        "drop_q1": 0.28,
-        "drop_qx": -0.1,
-        "drop_q2": -0.2,
-        "drop_o25": 0.02,
-        "drop_last_q1": 0.28,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.2,
-        "drop_last_o25": 0.02,
-        "drop_side": "1",
-        "drop_strength": "strong",
+        "curr_q1": 2.9,
+        "curr_qx": 3.3,
+        "curr_q2": 2.15,
+        "curr_o25": 1.85,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "2",
         "inversion_to": "2",
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 2.15,
-        "curr_fav_quote": 2.35,
-        "history_points": 2,
+        "curr_fav_quote": 2.15,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T20:53:13",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 5.2,
-        "over": 5.1,
-        "boost": 5.524,
-        "gold": 4.552,
-        "max": 5.524
+        "over": 5.5,
+        "boost": 5.716,
+        "gold": 4.737,
+        "max": 5.716
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🐟G",
-        "DROP_1",
-        "DROP_1_STRONG"
+        "🐟G"
       ],
       "home_last_8": [
         {
@@ -7532,1547 +6638,6 @@
           "ft": "1-1",
           "total_ht_goals": 2,
           "total_ft_goals": 2
-        }
-      ]
-    },
-    "1427860": {
-      "fixture_id": 1427860,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "Non League Premier - Southern Central",
-      "country": "England",
-      "match": "Real Bedford - Harborough Town",
-      "home_team": "Real Bedford",
-      "away_team": "Harborough Town",
-      "markets": {
-        "q1": 3.6,
-        "qx": 3.7,
-        "q2": 1.75,
-        "o25": 1.8,
-        "o05ht": 1.3,
-        "o15ht": 2.53
-      },
-      "averages": {
-        "home_avg_ft": 3.125,
-        "away_avg_ft": 2.25,
-        "home_avg_ht": 1.125,
-        "away_avg_ht": 1.375,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 1.75,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 3.6,
-        "open_qx": 3.7,
-        "open_q2": 1.75,
-        "open_o25": 1.8,
-        "curr_q1": 3.6,
-        "curr_qx": 3.7,
-        "curr_q2": 1.75,
-        "curr_o25": 1.8,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 1.75,
-        "curr_fav_quote": 1.75,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.4,
-        "over": 5.4,
-        "boost": 7.024,
-        "gold": 7.066,
-        "max": 7.066
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Southern Central",
-          "match": "Real Bedford - Stamford",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-17",
-          "league": "Non League Premier - Southern Central",
-          "match": "Real Bedford - Worcester City",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Southern Central",
-          "match": "Harborough Town - Real Bedford",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Southern Central",
-          "match": "Quorn - Real Bedford",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-03",
-          "league": "Non League Premier - Southern Central",
-          "match": "Real Bedford - Needham Market",
-          "ht": "2-0",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-24",
-          "league": "Non League Premier - Southern Central",
-          "match": "Alvechurch - Real Bedford",
-          "ht": "2-1",
-          "ft": "3-4",
-          "total_ht_goals": 3,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stourbridge - Real Bedford",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-17",
-          "league": "Non League Premier - Southern Central",
-          "match": "Bishop's Stortford - Real Bedford",
-          "ht": "0-1",
-          "ft": "0-5",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Southern Central",
-          "match": "Alvechurch - Harborough Town",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-17",
-          "league": "Non League Premier - Southern Central",
-          "match": "Bromsgrove Sporting - Harborough Town",
-          "ht": "1-2",
-          "ft": "1-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Southern Central",
-          "match": "Harborough Town - Real Bedford",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-10",
-          "league": "Non League Premier - Southern Central",
-          "match": "Bishop's Stortford - Harborough Town",
-          "ht": "0-3",
-          "ft": "0-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Southern Central",
-          "match": "Harborough Town - Worcester City",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-03",
-          "league": "Non League Premier - Southern Central",
-          "match": "Banbury United - Harborough Town",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Non League Premier - Southern Central",
-          "match": "Harborough Town - Barwell",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stratford Town - Harborough Town",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1428019": {
-      "fixture_id": 1428019,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "Non League Premier - Southern Central",
-      "country": "England",
-      "match": "Stratford Town - Stamford",
-      "home_team": "Stratford Town",
-      "away_team": "Stamford",
-      "markets": {
-        "q1": 1.62,
-        "qx": 3.75,
-        "q2": 4.33,
-        "o25": 1.8,
-        "o05ht": 1.32,
-        "o15ht": 2.53
-      },
-      "averages": {
-        "home_avg_ft": 2.0,
-        "away_avg_ft": 2.5,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.25,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 1.62,
-        "is_gold_zone": true,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.62,
-        "open_qx": 3.75,
-        "open_q2": 4.33,
-        "open_o25": 1.8,
-        "curr_q1": 1.62,
-        "curr_qx": 3.75,
-        "curr_q2": 4.33,
-        "curr_o25": 1.8,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.62,
-        "curr_fav_quote": 1.62,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 7.6,
-        "over": 5.8,
-        "boost": 7.472,
-        "gold": 7.602,
-        "max": 7.602
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stourbridge - Stratford Town",
-          "ht": "0-3",
-          "ft": "0-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stratford Town - Royston Town",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-10",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stratford Town - Halesowen Town",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Southern Central",
-          "match": "Leiston - Stratford Town",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-03",
-          "league": "Non League Premier - Southern Central",
-          "match": "Kettering Town - Stratford Town",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stratford Town - Bury Town",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-24",
-          "league": "Non League Premier - Southern Central",
-          "match": "Banbury United - Stratford Town",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stratford Town - Harborough Town",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Southern Central",
-          "match": "Real Bedford - Stamford",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-17",
-          "league": "Non League Premier - Southern Central",
-          "match": "Alvechurch - Stamford",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stamford - Leiston",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Southern Central",
-          "match": "AFC Sudbury - Stamford",
-          "ht": "0-1",
-          "ft": "1-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Southern Central",
-          "match": "Barwell - Stamford",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-17",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stamford - St Ives Town",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Non League Premier - Southern Central",
-          "match": "Stamford - Stourbridge",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-03",
-          "league": "Non League Premier - Southern Central",
-          "match": "Quorn - Stamford",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1428325": {
-      "fixture_id": 1428325,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "Non League Premier - Southern South",
-      "country": "England",
-      "match": "Tiverton Town - Gloucester City",
-      "home_team": "Tiverton Town",
-      "away_team": "Gloucester City",
-      "markets": {
-        "q1": 7.5,
-        "qx": 5.25,
-        "q2": 1.27,
-        "o25": 1.4,
-        "o05ht": 1.21,
-        "o15ht": 2.05
-      },
-      "averages": {
-        "home_avg_ft": 2.5,
-        "away_avg_ft": 3.125,
-        "home_avg_ht": 1.5,
-        "away_avg_ht": 1.125,
-        "combined_ht_avg": 1.312
-      },
-      "flags": {
-        "fav_quote": 1.27,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 7.5,
-        "open_qx": 5.25,
-        "open_q2": 1.27,
-        "open_o25": 1.4,
-        "curr_q1": 7.5,
-        "curr_qx": 5.25,
-        "curr_q2": 1.27,
-        "curr_o25": 1.4,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 1.27,
-        "curr_fav_quote": 1.27,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.4,
-        "over": 4.0,
-        "boost": 5.802,
-        "gold": 5.031,
-        "max": 6.4
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Southern South",
-          "match": "Tiverton Town - Walton & Hersham",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-17",
-          "league": "Non League Premier - Southern South",
-          "match": "Tiverton Town - Basingstoke Town",
-          "ht": "0-4",
-          "ft": "0-4",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Southern South",
-          "match": "Wimborne Town - Tiverton Town",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Southern South",
-          "match": "Tiverton Town - Weymouth",
-          "ht": "0-1",
-          "ft": "0-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-03",
-          "league": "Non League Premier - Southern South",
-          "match": "Tiverton Town - Havant & Wville",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Non League Premier - Southern South",
-          "match": "Berkhamsted - Tiverton Town",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-24",
-          "league": "Non League Premier - Southern South",
-          "match": "Tiverton Town - Dorchester Town",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Southern South",
-          "match": "Havant & Wville - Tiverton Town",
-          "ht": "2-2",
-          "ft": "3-2",
-          "total_ht_goals": 4,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Southern South",
-          "match": "Gloucester City - Uxbridge",
-          "ht": "2-1",
-          "ft": "2-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Southern South",
-          "match": "Berkhamsted - Gloucester City",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Southern South",
-          "match": "Gloucester City - Bracknell Town",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Non League Premier - Southern South",
-          "match": "Poole Town - Gloucester City",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Southern South",
-          "match": "Gloucester City - Wimborne Town",
-          "ht": "3-0",
-          "ft": "5-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Non League Premier - Southern South",
-          "match": "Chertsey Town - Gloucester City",
-          "ht": "0-1",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Non League Premier - Southern South",
-          "match": "Gloucester City - Weymouth",
-          "ht": "1-0",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-04",
-          "league": "Non League Premier - Southern South",
-          "match": "Gosport Borough - Gloucester City",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1428519": {
-      "fixture_id": 1428519,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "Non League Premier - Southern South",
-      "country": "England",
-      "match": "Hanwell Town - Evesham United",
-      "home_team": "Hanwell Town",
-      "away_team": "Evesham United",
-      "markets": {
-        "q1": 1.9,
-        "qx": 3.6,
-        "q2": 3.2,
-        "o25": 1.75,
-        "o05ht": 1.3,
-        "o15ht": 2.5
-      },
-      "averages": {
-        "home_avg_ft": 3.875,
-        "away_avg_ft": 2.0,
-        "home_avg_ht": 2.25,
-        "away_avg_ht": 1.25,
-        "combined_ht_avg": 1.75
-      },
-      "flags": {
-        "fav_quote": 1.9,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.9,
-        "open_qx": 3.6,
-        "open_q2": 3.2,
-        "open_o25": 1.75,
-        "curr_q1": 1.9,
-        "curr_qx": 3.6,
-        "curr_q2": 3.2,
-        "curr_o25": 1.75,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.9,
-        "curr_fav_quote": 1.9,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.3,
-        "over": 5.4,
-        "boost": 6.606,
-        "gold": 6.332,
-        "max": 6.606
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Southern South",
-          "match": "Taunton Town - Hanwell Town",
-          "ht": "1-2",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Southern South",
-          "match": "Hanwell Town - Havant & Wville",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-10",
-          "league": "Non League Premier - Southern South",
-          "match": "Berkhamsted - Hanwell Town",
-          "ht": "1-3",
-          "ft": "2-3",
-          "total_ht_goals": 4,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Southern South",
-          "match": "Farnham Town - Hanwell Town",
-          "ht": "0-1",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-24",
-          "league": "Non League Premier - Southern South",
-          "match": "Hanwell Town - Plymouth Parkway",
-          "ht": "0-2",
-          "ft": "3-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Southern South",
-          "match": "Hanwell Town - Bracknell Town",
-          "ht": "0-0",
-          "ft": "3-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Non League Premier - Southern South",
-          "match": "Wimborne Town - Hanwell Town",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Non League Premier - Southern South",
-          "match": "Dorchester Town - Hanwell Town",
-          "ht": "0-4",
-          "ft": "1-4",
-          "total_ht_goals": 4,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Southern South",
-          "match": "Evesham United - Plymouth Parkway",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Southern South",
-          "match": "Uxbridge - Evesham United",
-          "ht": "1-2",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Southern South",
-          "match": "Evesham United - Berkhamsted",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Southern South",
-          "match": "Evesham United - Sholing",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Non League Premier - Southern South",
-          "match": "Dorchester Town - Evesham United",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Non League Premier - Southern South",
-          "match": "Evesham United - Wimborne Town",
-          "ht": "2-0",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-24",
-          "league": "Non League Premier - Southern South",
-          "match": "Evesham United - Chertsey Town",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-01-17",
-          "league": "Non League Premier - Southern South",
-          "match": "Farnham Town - Evesham United",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1428759": {
-      "fixture_id": 1428759,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "Non League Premier - Northern",
-      "country": "England",
-      "match": "United of Manchester - Stockton Town",
-      "home_team": "United of Manchester",
-      "away_team": "Stockton Town",
-      "markets": {
-        "q1": 1.83,
-        "qx": 3.7,
-        "q2": 3.3,
-        "o25": 1.8,
-        "o05ht": 1.29,
-        "o15ht": 2.5
-      },
-      "averages": {
-        "home_avg_ft": 3.25,
-        "away_avg_ft": 2.875,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 0.875,
-        "combined_ht_avg": 1.062
-      },
-      "flags": {
-        "fav_quote": 1.83,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.83,
-        "open_qx": 3.7,
-        "open_q2": 3.3,
-        "open_o25": 1.8,
-        "curr_q1": 1.83,
-        "curr_qx": 3.7,
-        "curr_q2": 3.3,
-        "curr_o25": 1.8,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.83,
-        "curr_fav_quote": 1.83,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 4.1,
-        "over": 4.8,
-        "boost": 4.962,
-        "gold": 4.879,
-        "max": 4.962
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Northern",
-          "match": "Rylands - United of Manchester",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Northern",
-          "match": "United of Manchester - Bamber Bridge",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Northern",
-          "match": "Stockton Town - United of Manchester",
-          "ht": "1-0",
-          "ft": "2-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Non League Premier - Northern",
-          "match": "United of Manchester - Stocksbridge Park Steels",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Northern",
-          "match": "United of Manchester - Gainsborough Trinity",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Non League Premier - Northern",
-          "match": "Hebburn Town - United of Manchester",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Non League Premier - Northern",
-          "match": "United of Manchester - Prescot Cables",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Non League Premier - Northern",
-          "match": "Rushall Olympic - United of Manchester",
-          "ht": "0-2",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Northern",
-          "match": "Stockton Town - Warrington Town",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Northern",
-          "match": "Ilkeston Town - Stockton Town",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Northern",
-          "match": "Stockton Town - United of Manchester",
-          "ht": "1-0",
-          "ft": "2-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Non League Premier - Northern",
-          "match": "Leek Town - Stockton Town",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Northern",
-          "match": "Ashton United - Stockton Town",
-          "ht": "1-0",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-10",
-          "league": "Non League Premier - Northern",
-          "match": "Stockton Town - Prescot Cables",
-          "ht": "0-1",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Non League Premier - Northern",
-          "match": "Bamber Bridge - Stockton Town",
-          "ht": "0-2",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Non League Premier - Northern",
-          "match": "Stockton Town - Cleethorpes Town",
-          "ht": "0-0",
-          "ft": "2-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1428942": {
-      "fixture_id": 1428942,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "Non League Premier - Northern",
-      "country": "England",
-      "match": "Gainsborough Trinity - Bamber Bridge",
-      "home_team": "Gainsborough Trinity",
-      "away_team": "Bamber Bridge",
-      "markets": {
-        "q1": 1.95,
-        "qx": 3.4,
-        "q2": 3.25,
-        "o25": 1.95,
-        "o05ht": 1.35,
-        "o15ht": 2.67
-      },
-      "averages": {
-        "home_avg_ft": 3.0,
-        "away_avg_ft": 2.5,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 1.125,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 1.95,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.95,
-        "open_qx": 3.4,
-        "open_q2": 3.25,
-        "open_o25": 1.95,
-        "curr_q1": 1.95,
-        "curr_qx": 3.4,
-        "curr_q2": 3.25,
-        "curr_o25": 1.95,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.95,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.4,
-        "over": 5.8,
-        "boost": 7.216,
-        "gold": 6.051,
-        "max": 7.216
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Northern",
-          "match": "Rushall Olympic - Gainsborough Trinity",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-17",
-          "league": "Non League Premier - Northern",
-          "match": "Gainsborough Trinity - Hyde United",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Northern",
-          "match": "Hebburn Town - Gainsborough Trinity",
-          "ht": "2-1",
-          "ft": "2-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-24",
-          "league": "Non League Premier - Northern",
-          "match": "Gainsborough Trinity - Leek Town",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Northern",
-          "match": "United of Manchester - Gainsborough Trinity",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-17",
-          "league": "Non League Premier - Northern",
-          "match": "Whitby Town - Gainsborough Trinity",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Non League Premier - Northern",
-          "match": "Gainsborough Trinity - Workington",
-          "ht": "0-2",
-          "ft": "3-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-02-10",
-          "league": "Non League Premier - Northern",
-          "match": "Bamber Bridge - Gainsborough Trinity",
-          "ht": "1-1",
-          "ft": "1-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Northern",
-          "match": "Bamber Bridge - Morpeth Town",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Northern",
-          "match": "United of Manchester - Bamber Bridge",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Northern",
-          "match": "Bamber Bridge - Hednesford Town",
-          "ht": "1-2",
-          "ft": "1-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Northern",
-          "match": "Bamber Bridge - Whitby Town",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Non League Premier - Northern",
-          "match": "Rushall Olympic - Bamber Bridge",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-10",
-          "league": "Non League Premier - Northern",
-          "match": "Bamber Bridge - Gainsborough Trinity",
-          "ht": "1-1",
-          "ft": "1-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Non League Premier - Northern",
-          "match": "Bamber Bridge - Stockton Town",
-          "ht": "0-2",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-03",
-          "league": "Non League Premier - Northern",
-          "match": "Guiseley AFC - Bamber Bridge",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1428943": {
-      "fixture_id": 1428943,
-      "date": "2026-03-24",
-      "time": "20:45",
-      "league": "Non League Premier - Northern",
-      "country": "England",
-      "match": "Cleethorpes Town - Guiseley AFC",
-      "home_team": "Cleethorpes Town",
-      "away_team": "Guiseley AFC",
-      "markets": {
-        "q1": 1.8,
-        "qx": 3.4,
-        "q2": 3.8,
-        "o25": 2.05,
-        "o05ht": 1.38,
-        "o15ht": 2.83
-      },
-      "averages": {
-        "home_avg_ft": 2.625,
-        "away_avg_ft": 1.625,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 1.125,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 1.8,
-        "is_gold_zone": true,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 1.8,
-        "open_qx": 3.4,
-        "open_q2": 3.8,
-        "open_o25": 2.05,
-        "curr_q1": 1.8,
-        "curr_qx": 3.4,
-        "curr_q2": 3.8,
-        "curr_o25": 2.05,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.8,
-        "curr_fav_quote": 1.8,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 7.2,
-        "over": 5.4,
-        "boost": 6.678,
-        "gold": 7.125,
-        "max": 7.2
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Northern",
-          "match": "Lancaster City - Cleethorpes Town",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-03-17",
-          "league": "Non League Premier - Northern",
-          "match": "Prescot Cables - Cleethorpes Town",
-          "ht": "0-1",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Northern",
-          "match": "Cleethorpes Town - Ashton United",
-          "ht": "1-0",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-10",
-          "league": "Non League Premier - Northern",
-          "match": "Cleethorpes Town - Morpeth Town",
-          "ht": "2-1",
-          "ft": "3-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Northern",
-          "match": "Rylands - Cleethorpes Town",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-03",
-          "league": "Non League Premier - Northern",
-          "match": "Cleethorpes Town - Whitby Town",
-          "ht": "0-3",
-          "ft": "0-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Northern",
-          "match": "Cleethorpes Town - Rushall Olympic",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-03",
-          "league": "Non League Premier - Northern",
-          "match": "Cleethorpes Town - Warrington Town",
-          "ht": "2-0",
-          "ft": "4-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Non League Premier - Northern",
-          "match": "Guiseley AFC - Whitby Town",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Non League Premier - Northern",
-          "match": "Hednesford Town - Guiseley AFC",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Non League Premier - Northern",
-          "match": "Guiseley AFC - Workington",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Non League Premier - Northern",
-          "match": "Guiseley AFC - Warrington Town",
-          "ht": "3-0",
-          "ft": "4-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Non League Premier - Northern",
-          "match": "Ilkeston Town - Guiseley AFC",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Non League Premier - Northern",
-          "match": "Guiseley AFC - Lancaster City",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-03",
-          "league": "Non League Premier - Northern",
-          "match": "Guiseley AFC - Bamber Bridge",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Non League Premier - Northern",
-          "match": "Morpeth Town - Guiseley AFC",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
         }
       ]
     },
@@ -9306,12 +6871,12 @@
       "home_team": "Universidad de Chile",
       "away_team": "Union La Calera",
       "markets": {
-        "q1": 1.29,
-        "qx": 4.75,
-        "q2": 7.5,
-        "o25": 1.6,
-        "o05ht": 1.3,
-        "o15ht": 2.38
+        "q1": 1.45,
+        "qx": 4.5,
+        "q2": 6.3,
+        "o25": 1.72,
+        "o05ht": 1.36,
+        "o15ht": 2.57
       },
       "averages": {
         "home_avg_ft": 2.25,
@@ -9321,55 +6886,52 @@
         "combined_ht_avg": 1.188
       },
       "flags": {
-        "fav_quote": 1.29,
-        "is_gold_zone": false,
+        "fav_quote": 1.45,
+        "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 0.16,
+        "drop_diff": 0.0,
         "open_q1": 1.45,
         "open_qx": 4.5,
         "open_q2": 6.3,
         "open_o25": 1.72,
-        "curr_q1": 1.29,
-        "curr_qx": 4.75,
-        "curr_q2": 7.5,
-        "curr_o25": 1.6,
-        "drop_q1": 0.16,
-        "drop_qx": -0.25,
-        "drop_q2": -1.2,
-        "drop_o25": 0.12,
-        "drop_last_q1": 0.16,
-        "drop_last_qx": -0.25,
-        "drop_last_q2": -1.2,
-        "drop_last_o25": 0.12,
-        "drop_side": "1",
-        "drop_strength": "medium",
+        "curr_q1": 1.45,
+        "curr_qx": 4.5,
+        "curr_q2": 6.3,
+        "curr_o25": 1.72,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.45,
-        "curr_fav_quote": 1.29,
-        "history_points": 2,
+        "curr_fav_quote": 1.45,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T20:53:13",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T20:53:13"
       },
       "scores": {
         "pt": 6.6,
-        "over": 5.5,
-        "boost": 7.148,
-        "gold": 5.982,
-        "max": 7.148
+        "over": 5.9,
+        "boost": 7.34,
+        "gold": 7.368,
+        "max": 7.368
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "🐟O",
-        "DROP_1",
-        "O25_DROP",
-        "DROP_1_MED"
+        "🐟O"
       ],
       "home_last_8": [
         {

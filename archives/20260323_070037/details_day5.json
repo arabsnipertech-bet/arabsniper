@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-23 07:04:10",
-  "day": 4,
+  "updated_at": "2026-03-22 06:54:37",
+  "day": 5,
   "date": "2026-03-26",
   "details": {
     "1515135": {
@@ -221,226 +221,6 @@
           "ht": "2-0",
           "ft": "4-0",
           "total_ht_goals": 2,
-          "total_ft_goals": 4
-        }
-      ]
-    },
-    "1535573": {
-      "fixture_id": 1535573,
-      "date": "2026-03-26",
-      "time": "00:30",
-      "league": "Copa De La Liga",
-      "country": "Chile",
-      "match": "A. Italiano - D. La Serena",
-      "home_team": "A. Italiano",
-      "away_team": "D. La Serena",
-      "markets": {
-        "q1": 2.1,
-        "qx": 3.25,
-        "q2": 3.2,
-        "o25": 2.1,
-        "o05ht": 1.44,
-        "o15ht": 3.25
-      },
-      "averages": {
-        "home_avg_ft": 1.625,
-        "away_avg_ft": 2.5,
-        "home_avg_ht": 1.125,
-        "away_avg_ht": 1.5,
-        "combined_ht_avg": 1.312
-      },
-      "flags": {
-        "fav_quote": 2.1,
-        "is_gold_zone": false,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 2.1,
-        "open_qx": 3.25,
-        "open_q2": 3.2,
-        "open_o25": 2.1,
-        "curr_q1": 2.1,
-        "curr_qx": 3.25,
-        "curr_q2": 3.2,
-        "curr_o25": 2.1,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.1,
-        "curr_fav_quote": 2.1,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.3,
-        "over": 5.4,
-        "boost": 6.136,
-        "gold": 5.542,
-        "max": 6.3
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "Copa De La Liga",
-          "match": "Union La Calera - A. Italiano",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-13",
-          "league": "Primera División",
-          "match": "A. Italiano - Concepción",
-          "ht": "3-0",
-          "ft": "3-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Primera División",
-          "match": "A. Italiano - Colo Colo",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-27",
-          "league": "Primera División",
-          "match": "Union La Calera - A. Italiano",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera División",
-          "match": "A. Italiano - Everton de Vina",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-15",
-          "league": "Primera División",
-          "match": "Nublense - A. Italiano",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-06",
-          "league": "Primera División",
-          "match": "A. Italiano - Universidad de Concepcion",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-30",
-          "league": "Primera División",
-          "match": "Universidad de Chile - A. Italiano",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "Copa De La Liga",
-          "match": "Universidad de Chile - D. La Serena",
-          "ht": "1-2",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera División",
-          "match": "Nublense - D. La Serena",
-          "ht": "1-0",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-06",
-          "league": "Primera División",
-          "match": "D. La Serena - Union La Calera",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-27",
-          "league": "Primera División",
-          "match": "Cobresal - D. La Serena",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera División",
-          "match": "D. La Serena - Universidad de Concepcion",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Primera División",
-          "match": "D. La Serena - Coquimbo Unido",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Primera División",
-          "match": "O'Higgins - D. La Serena",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-01",
-          "league": "Primera División",
-          "match": "D. La Serena - U. Catolica",
-          "ht": "2-1",
-          "ft": "2-2",
-          "total_ht_goals": 3,
           "total_ft_goals": 4
         }
       ]
@@ -675,12 +455,12 @@
       "home_team": "Hércules",
       "away_team": "Águila",
       "markets": {
-        "q1": 5.8,
-        "qx": 4.1,
-        "q2": 1.44,
-        "o25": 1.56,
-        "o05ht": 1.25,
-        "o15ht": 2.28
+        "q1": 5.25,
+        "qx": 3.85,
+        "q2": 1.53,
+        "o25": 1.62,
+        "o05ht": 1.3,
+        "o15ht": 2.38
       },
       "averages": {
         "home_avg_ft": 3.875,
@@ -690,28 +470,28 @@
         "combined_ht_avg": 1.062
       },
       "flags": {
-        "fav_quote": 1.44,
+        "fav_quote": 1.53,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.16,
+        "drop_diff": 0.15,
         "open_q1": 4.6,
         "open_qx": 4.0,
         "open_q2": 1.6,
         "open_o25": 1.75,
-        "curr_q1": 5.8,
-        "curr_qx": 4.1,
-        "curr_q2": 1.44,
-        "curr_o25": 1.56,
-        "drop_q1": -1.2,
-        "drop_qx": -0.1,
-        "drop_q2": 0.16,
-        "drop_o25": 0.19,
-        "drop_last_q1": -0.55,
-        "drop_last_qx": -0.25,
-        "drop_last_q2": 0.09,
-        "drop_last_o25": 0.06,
-        "drop_side": "2",
+        "curr_q1": 5.25,
+        "curr_qx": 3.85,
+        "curr_q2": 1.53,
+        "curr_o25": 1.62,
+        "drop_q1": -0.65,
+        "drop_qx": 0.15,
+        "drop_q2": 0.07,
+        "drop_o25": 0.13,
+        "drop_last_q1": -0.65,
+        "drop_last_qx": 0.15,
+        "drop_last_q2": 0.07,
+        "drop_last_o25": 0.13,
+        "drop_side": "X",
         "drop_strength": "medium",
         "inversion": false,
         "inversion_from": "2",
@@ -719,24 +499,25 @@
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 1.6,
-        "curr_fav_quote": 1.44,
-        "history_points": 3,
+        "curr_fav_quote": 1.53,
+        "history_points": 2,
         "first_seen_at": "2026-03-19T14:19:17",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-20T07:09:51"
       },
       "scores": {
         "pt": 3.7,
         "over": 4.4,
-        "boost": 4.268,
-        "gold": 4.785,
-        "max": 4.785
+        "boost": 4.618,
+        "gold": 4.904,
+        "max": 4.904
       },
       "tags": [
         "⚽ OVER",
         "🐟O",
+        "DROP_X",
         "DROP_2",
         "O25_DROP",
-        "DROP_2_MED"
+        "DROP_X_MED"
       ],
       "home_last_8": [
         {
@@ -897,12 +678,12 @@
       "home_team": "Türkiye",
       "away_team": "Romania",
       "markets": {
-        "q1": 1.44,
+        "q1": 1.51,
         "qx": 4.3,
-        "q2": 7.0,
+        "q2": 5.75,
         "o25": 1.7,
         "o05ht": 1.3,
-        "o15ht": 2.4
+        "o15ht": 2.45
       },
       "averages": {
         "home_avg_ft": 4.125,
@@ -912,39 +693,39 @@
         "combined_ht_avg": 2.0
       },
       "flags": {
-        "fav_quote": 1.44,
+        "fav_quote": 1.51,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.07,
+        "drop_diff": 0.0,
         "open_q1": 1.51,
         "open_qx": 4.3,
         "open_q2": 5.75,
         "open_o25": 1.7,
-        "curr_q1": 1.44,
+        "curr_q1": 1.51,
         "curr_qx": 4.3,
-        "curr_q2": 7.0,
+        "curr_q2": 5.75,
         "curr_o25": 1.7,
-        "drop_q1": 0.07,
+        "drop_q1": 0.0,
         "drop_qx": 0.0,
-        "drop_q2": -1.25,
+        "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.07,
+        "drop_last_q1": 0.0,
         "drop_last_qx": 0.0,
-        "drop_last_q2": -1.25,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
-        "drop_side": "1",
-        "drop_strength": "light",
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.51,
-        "curr_fav_quote": 1.44,
-        "history_points": 2,
+        "curr_fav_quote": 1.51,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 4.9,
@@ -957,8 +738,7 @@
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "🐟O",
-        "DROP_1"
+        "🐟O"
       ],
       "home_last_8": [
         {
@@ -1119,12 +899,12 @@
       "home_team": "Czech Republic",
       "away_team": "Rep. Of Ireland",
       "markets": {
-        "q1": 1.9,
-        "qx": 3.45,
-        "q2": 3.95,
+        "q1": 1.95,
+        "qx": 3.35,
+        "q2": 3.9,
         "o25": 2.1,
         "o05ht": 1.42,
-        "o15ht": 2.95
+        "o15ht": 2.9
       },
       "averages": {
         "home_avg_ft": 2.75,
@@ -1134,26 +914,26 @@
         "combined_ht_avg": 1.188
       },
       "flags": {
-        "fav_quote": 1.9,
-        "is_gold_zone": true,
+        "fav_quote": 1.95,
+        "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.05,
+        "drop_diff": 0.0,
         "open_q1": 1.95,
         "open_qx": 3.35,
         "open_q2": 3.9,
         "open_o25": 2.1,
-        "curr_q1": 1.9,
-        "curr_qx": 3.45,
-        "curr_q2": 3.95,
+        "curr_q1": 1.95,
+        "curr_qx": 3.35,
+        "curr_q2": 3.9,
         "curr_o25": 2.1,
-        "drop_q1": 0.05,
-        "drop_qx": -0.1,
-        "drop_q2": -0.05,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.05,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.05,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
@@ -1163,17 +943,17 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.9,
-        "history_points": 2,
+        "curr_fav_quote": 1.95,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 5.9,
         "over": 5.5,
         "boost": 5.782,
-        "gold": 6.214,
-        "max": 6.214
+        "gold": 5.364,
+        "max": 5.9
       },
       "tags": [
         "🎯PT",
@@ -2003,8 +1783,8 @@
         "qx": 3.15,
         "q2": 2.52,
         "o25": 2.1,
-        "o05ht": 1.38,
-        "o15ht": 2.65
+        "o05ht": 1.42,
+        "o15ht": 2.88
       },
       "averages": {
         "home_avg_ft": 3.75,
@@ -2044,16 +1824,16 @@
         "curr_fav_side": "2",
         "open_fav_quote": 2.52,
         "curr_fav_quote": 2.52,
-        "history_points": 2,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
-        "pt": 5.8,
+        "pt": 4.9,
         "over": 4.7,
-        "boost": 5.21,
-        "gold": 4.457,
-        "max": 5.8
+        "boost": 4.668,
+        "gold": 4.075,
+        "max": 4.9
       },
       "tags": [
         "🎯PT",
@@ -2219,12 +1999,12 @@
       "home_team": "Wales",
       "away_team": "Bosnia & Herzegovina",
       "markets": {
-        "q1": 1.9,
-        "qx": 3.3,
-        "q2": 4.1,
+        "q1": 1.87,
+        "qx": 3.35,
+        "q2": 4.2,
         "o25": 2.1,
         "o05ht": 1.42,
-        "o15ht": 2.88
+        "o15ht": 2.9
       },
       "averages": {
         "home_avg_ft": 3.75,
@@ -2234,39 +2014,39 @@
         "combined_ht_avg": 1.5
       },
       "flags": {
-        "fav_quote": 1.9,
+        "fav_quote": 1.87,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.1,
+        "drop_diff": 0.0,
         "open_q1": 1.87,
         "open_qx": 3.35,
         "open_q2": 4.2,
         "open_o25": 2.1,
-        "curr_q1": 1.9,
-        "curr_qx": 3.3,
-        "curr_q2": 4.1,
+        "curr_q1": 1.87,
+        "curr_qx": 3.35,
+        "curr_q2": 4.2,
         "curr_o25": 2.1,
-        "drop_q1": -0.03,
-        "drop_qx": 0.05,
-        "drop_q2": 0.1,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": -0.03,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": 0.1,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
-        "drop_side": "2",
-        "drop_strength": "light",
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.87,
-        "curr_fav_quote": 1.9,
-        "history_points": 2,
+        "curr_fav_quote": 1.87,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 3.5,
@@ -2276,8 +2056,7 @@
         "max": 6.2
       },
       "tags": [
-        "⚽ OVER",
-        "DROP_2"
+        "⚽ OVER"
       ],
       "home_last_8": [
         {
@@ -2438,8 +2217,8 @@
       "home_team": "Brazil",
       "away_team": "France",
       "markets": {
-        "q1": 2.96,
-        "qx": 3.6,
+        "q1": 2.94,
+        "qx": 3.65,
         "q2": 2.2,
         "o25": 1.62,
         "o05ht": 1.28,
@@ -2457,21 +2236,21 @@
         "is_gold_zone": false,
         "home_last_2h_zero": true,
         "away_last_2h_zero": true,
-        "drop_diff": 0.05,
+        "drop_diff": 0.0,
         "open_q1": 2.94,
         "open_qx": 3.65,
         "open_q2": 2.2,
         "open_o25": 1.62,
-        "curr_q1": 2.96,
-        "curr_qx": 3.6,
+        "curr_q1": 2.94,
+        "curr_qx": 3.65,
         "curr_q2": 2.2,
         "curr_o25": 1.62,
-        "drop_q1": -0.02,
-        "drop_qx": 0.05,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
         "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": -0.02,
-        "drop_last_qx": 0.05,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
         "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
         "drop_side": "",
@@ -2483,9 +2262,9 @@
         "curr_fav_side": "2",
         "open_fav_quote": 2.2,
         "curr_fav_quote": 2.2,
-        "history_points": 2,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 7.6,
@@ -2646,226 +2425,6 @@
           "ft": "5-4",
           "total_ht_goals": 2,
           "total_ft_goals": 9
-        }
-      ]
-    },
-    "1535574": {
-      "fixture_id": 1535574,
-      "date": "2026-03-26",
-      "time": "22:00",
-      "league": "Copa De La Liga",
-      "country": "Chile",
-      "match": "Deportes Limache - Palestino",
-      "home_team": "Deportes Limache",
-      "away_team": "Palestino",
-      "markets": {
-        "q1": 2.0,
-        "qx": 3.4,
-        "q2": 3.5,
-        "o25": 1.7,
-        "o05ht": 1.3,
-        "o15ht": 2.5
-      },
-      "averages": {
-        "home_avg_ft": 3.25,
-        "away_avg_ft": 3.125,
-        "home_avg_ht": 1.5,
-        "away_avg_ht": 0.875,
-        "combined_ht_avg": 1.188
-      },
-      "flags": {
-        "fav_quote": 2.0,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 2.0,
-        "open_qx": 3.4,
-        "open_q2": 3.5,
-        "open_o25": 1.7,
-        "curr_q1": 2.0,
-        "curr_qx": 3.4,
-        "curr_q2": 3.5,
-        "curr_o25": 1.7,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.0,
-        "curr_fav_quote": 2.0,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 4.4,
-        "over": 5.9,
-        "boost": 5.954,
-        "gold": 5.212,
-        "max": 5.954
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-22",
-          "league": "Copa De La Liga",
-          "match": "O'Higgins - Deportes Limache",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera División",
-          "match": "Cobresal - Deportes Limache",
-          "ht": "0-3",
-          "ft": "2-5",
-          "total_ht_goals": 3,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Primera División",
-          "match": "Everton de Vina - Deportes Limache",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Primera División",
-          "match": "Deportes Limache - Huachipato",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera División",
-          "match": "Universidad de Chile - Deportes Limache",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Primera División",
-          "match": "Deportes Limache - O'Higgins",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-08",
-          "league": "Primera División",
-          "match": "Nublense - Deportes Limache",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Primera División",
-          "match": "Deportes Limache - Colo Colo",
-          "ht": "3-0",
-          "ft": "3-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-15",
-          "league": "Primera División",
-          "match": "Universidad de Concepcion - Palestino",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-08",
-          "league": "Primera División",
-          "match": "Palestino - Cobresal",
-          "ht": "1-0",
-          "ft": "4-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-03-05",
-          "league": "CONMEBOL Sudamericana",
-          "match": "Universidad de Chile - Palestino",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Primera División",
-          "match": "Palestino - O'Higgins",
-          "ht": "1-1",
-          "ft": "4-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Primera División",
-          "match": "Huachipato - Palestino",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-13",
-          "league": "Primera División",
-          "match": "Palestino - Universidad de Chile",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Primera División",
-          "match": "Coquimbo Unido - Palestino",
-          "ht": "2-0",
-          "ft": "3-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-01",
-          "league": "Primera División",
-          "match": "Palestino - Nublense",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
         }
       ]
     }
