@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23 07:18:59",
+  "updated_at": "2026-03-23 07:04:51",
   "day": 5,
   "date": "2026-03-27",
   "details": {
@@ -2643,6 +2643,668 @@
           "ft": "2-2",
           "total_ht_goals": 2,
           "total_ft_goals": 4
+        }
+      ]
+    },
+    "1502470": {
+      "fixture_id": 1502470,
+      "date": "2026-03-27",
+      "time": "20:45",
+      "league": "Friendlies",
+      "country": "World",
+      "match": "England - Uruguay",
+      "home_team": "England",
+      "away_team": "Uruguay",
+      "markets": {
+        "q1": 1.5,
+        "qx": 4.0,
+        "q2": 5.8,
+        "o25": 1.85,
+        "o05ht": 1.35,
+        "o15ht": 2.62
+      },
+      "averages": {
+        "home_avg_ft": 3.0,
+        "away_avg_ft": 2.125,
+        "home_avg_ht": 1.5,
+        "away_avg_ht": 1.0,
+        "combined_ht_avg": 1.25
+      },
+      "flags": {
+        "fav_quote": 1.5,
+        "is_gold_zone": true,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 1.5,
+        "open_qx": 4.0,
+        "open_q2": 5.8,
+        "open_o25": 1.85,
+        "curr_q1": 1.5,
+        "curr_qx": 4.0,
+        "curr_q2": 5.8,
+        "curr_o25": 1.85,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 1.5,
+        "curr_fav_quote": 1.5,
+        "history_points": 1,
+        "first_seen_at": "2026-03-23T07:04:57",
+        "last_seen_at": "2026-03-23T07:04:57"
+      },
+      "scores": {
+        "pt": 5.4,
+        "over": 5.4,
+        "boost": 6.644,
+        "gold": 6.717,
+        "max": 6.717
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🚀 BOOST",
+        "🐟O"
+      ],
+      "home_last_8": [
+        {
+          "date": "2025-11-16",
+          "league": "World Cup - Qualification Europe",
+          "match": "Albania - England",
+          "ht": "0-0",
+          "ft": "0-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-11-13",
+          "league": "World Cup - Qualification Europe",
+          "match": "England - Serbia",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-10-14",
+          "league": "World Cup - Qualification Europe",
+          "match": "Latvia - England",
+          "ht": "0-3",
+          "ft": "0-5",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-10-09",
+          "league": "Friendlies",
+          "match": "England - Wales",
+          "ht": "3-0",
+          "ft": "3-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-09-09",
+          "league": "World Cup - Qualification Europe",
+          "match": "Serbia - England",
+          "ht": "0-2",
+          "ft": "0-5",
+          "total_ht_goals": 2,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-09-06",
+          "league": "World Cup - Qualification Europe",
+          "match": "England - Andorra",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-06-10",
+          "league": "Friendlies",
+          "match": "England - Senegal",
+          "ht": "1-1",
+          "ft": "1-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-06-07",
+          "league": "World Cup - Qualification Europe",
+          "match": "Andorra - England",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2025-11-19",
+          "league": "Friendlies",
+          "match": "USA - Uruguay",
+          "ht": "4-1",
+          "ft": "5-1",
+          "total_ht_goals": 5,
+          "total_ft_goals": 6
+        },
+        {
+          "date": "2025-11-16",
+          "league": "Friendlies",
+          "match": "Mexico - Uruguay",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2025-10-13",
+          "league": "Friendlies",
+          "match": "Uzbekistan - Uruguay",
+          "ht": "0-0",
+          "ft": "1-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-10-10",
+          "league": "Friendlies",
+          "match": "Uruguay - Dominican Republic",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-09-09",
+          "league": "World Cup - Qualification South America",
+          "match": "Chile - Uruguay",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2025-09-04",
+          "league": "World Cup - Qualification South America",
+          "match": "Uruguay - Peru",
+          "ht": "1-0",
+          "ft": "3-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-06-10",
+          "league": "World Cup - Qualification South America",
+          "match": "Uruguay - Venezuela",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-06-05",
+          "league": "World Cup - Qualification South America",
+          "match": "Paraguay - Uruguay",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        }
+      ]
+    },
+    "1502471": {
+      "fixture_id": 1502471,
+      "date": "2026-03-27",
+      "time": "20:45",
+      "league": "Friendlies",
+      "country": "World",
+      "match": "Switzerland - Germany",
+      "home_team": "Switzerland",
+      "away_team": "Germany",
+      "markets": {
+        "q1": 3.0,
+        "qx": 3.75,
+        "q2": 2.12,
+        "o25": 1.57,
+        "o05ht": 1.25,
+        "o15ht": 2.2
+      },
+      "averages": {
+        "home_avg_ft": 3.25,
+        "away_avg_ft": 3.0,
+        "home_avg_ht": 1.75,
+        "away_avg_ht": 1.375,
+        "combined_ht_avg": 1.562
+      },
+      "flags": {
+        "fav_quote": 2.12,
+        "is_gold_zone": false,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 3.0,
+        "open_qx": 3.75,
+        "open_q2": 2.12,
+        "open_o25": 1.57,
+        "curr_q1": 3.0,
+        "curr_qx": 3.75,
+        "curr_q2": 2.12,
+        "curr_o25": 1.57,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "2",
+        "inversion_to": "2",
+        "open_fav_side": "2",
+        "curr_fav_side": "2",
+        "open_fav_quote": 2.12,
+        "curr_fav_quote": 2.12,
+        "history_points": 1,
+        "first_seen_at": "2026-03-23T07:04:57",
+        "last_seen_at": "2026-03-23T07:04:57"
+      },
+      "scores": {
+        "pt": 6.4,
+        "over": 6.2,
+        "boost": 7.058,
+        "gold": 6.118,
+        "max": 7.058
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🐟G"
+      ],
+      "home_last_8": [
+        {
+          "date": "2025-11-18",
+          "league": "World Cup - Qualification Europe",
+          "match": "Kosovo - Switzerland",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-11-15",
+          "league": "World Cup - Qualification Europe",
+          "match": "Switzerland - Sweden",
+          "ht": "1-1",
+          "ft": "4-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-10-13",
+          "league": "World Cup - Qualification Europe",
+          "match": "Slovenia - Switzerland",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2025-10-10",
+          "league": "World Cup - Qualification Europe",
+          "match": "Sweden - Switzerland",
+          "ht": "0-0",
+          "ft": "0-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-09-08",
+          "league": "World Cup - Qualification Europe",
+          "match": "Switzerland - Slovenia",
+          "ht": "3-0",
+          "ft": "3-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-09-05",
+          "league": "World Cup - Qualification Europe",
+          "match": "Switzerland - Kosovo",
+          "ht": "4-0",
+          "ft": "4-0",
+          "total_ht_goals": 4,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-06-11",
+          "league": "Friendlies",
+          "match": "USA - Switzerland",
+          "ht": "0-4",
+          "ft": "0-4",
+          "total_ht_goals": 4,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-06-07",
+          "league": "Friendlies",
+          "match": "Mexico - Switzerland",
+          "ht": "0-1",
+          "ft": "2-4",
+          "total_ht_goals": 1,
+          "total_ft_goals": 6
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2025-11-17",
+          "league": "World Cup - Qualification Europe",
+          "match": "Germany - Slovakia",
+          "ht": "4-0",
+          "ft": "6-0",
+          "total_ht_goals": 4,
+          "total_ft_goals": 6
+        },
+        {
+          "date": "2025-11-14",
+          "league": "World Cup - Qualification Europe",
+          "match": "Luxembourg - Germany",
+          "ht": "0-0",
+          "ft": "0-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-10-13",
+          "league": "World Cup - Qualification Europe",
+          "match": "Northern Ireland - Germany",
+          "ht": "0-1",
+          "ft": "0-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-10-10",
+          "league": "World Cup - Qualification Europe",
+          "match": "Germany - Luxembourg",
+          "ht": "2-0",
+          "ft": "4-0",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-09-07",
+          "league": "World Cup - Qualification Europe",
+          "match": "Germany - Northern Ireland",
+          "ht": "1-1",
+          "ft": "3-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-09-04",
+          "league": "World Cup - Qualification Europe",
+          "match": "Slovakia - Germany",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-06-08",
+          "league": "UEFA Nations League",
+          "match": "Germany - France",
+          "ht": "0-1",
+          "ft": "0-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-06-04",
+          "league": "UEFA Nations League",
+          "match": "Germany - Portugal",
+          "ht": "0-0",
+          "ft": "1-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 3
+        }
+      ]
+    },
+    "1503005": {
+      "fixture_id": 1503005,
+      "date": "2026-03-27",
+      "time": "20:45",
+      "league": "Friendlies",
+      "country": "World",
+      "match": "Netherlands - Norway",
+      "home_team": "Netherlands",
+      "away_team": "Norway",
+      "markets": {
+        "q1": 1.8,
+        "qx": 3.6,
+        "q2": 3.9,
+        "o25": 1.67,
+        "o05ht": 1.29,
+        "o15ht": 2.38
+      },
+      "averages": {
+        "home_avg_ft": 3.875,
+        "away_avg_ft": 4.25,
+        "home_avg_ht": 2.0,
+        "away_avg_ht": 1.75,
+        "combined_ht_avg": 1.875
+      },
+      "flags": {
+        "fav_quote": 1.8,
+        "is_gold_zone": true,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 1.8,
+        "open_qx": 3.6,
+        "open_q2": 3.9,
+        "open_o25": 1.67,
+        "curr_q1": 1.8,
+        "curr_qx": 3.6,
+        "curr_q2": 3.9,
+        "curr_o25": 1.67,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 1.8,
+        "curr_fav_quote": 1.8,
+        "history_points": 1,
+        "first_seen_at": "2026-03-23T07:04:57",
+        "last_seen_at": "2026-03-23T07:04:57"
+      },
+      "scores": {
+        "pt": 5.7,
+        "over": 5.8,
+        "boost": 6.95,
+        "gold": 7.007,
+        "max": 7.007
+      },
+      "tags": [
+        "⚽⭐ GOLD",
+        "🎯PT",
+        "⚽ OVER",
+        "🚀 BOOST"
+      ],
+      "home_last_8": [
+        {
+          "date": "2025-11-17",
+          "league": "World Cup - Qualification Europe",
+          "match": "Netherlands - Lithuania",
+          "ht": "1-0",
+          "ft": "4-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-11-14",
+          "league": "World Cup - Qualification Europe",
+          "match": "Poland - Netherlands",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-10-12",
+          "league": "World Cup - Qualification Europe",
+          "match": "Netherlands - Finland",
+          "ht": "3-0",
+          "ft": "4-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-10-09",
+          "league": "World Cup - Qualification Europe",
+          "match": "Malta - Netherlands",
+          "ht": "0-1",
+          "ft": "0-4",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-09-07",
+          "league": "World Cup - Qualification Europe",
+          "match": "Lithuania - Netherlands",
+          "ht": "2-2",
+          "ft": "2-3",
+          "total_ht_goals": 4,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-09-04",
+          "league": "World Cup - Qualification Europe",
+          "match": "Netherlands - Poland",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-06-10",
+          "league": "World Cup - Qualification Europe",
+          "match": "Netherlands - Malta",
+          "ht": "3-0",
+          "ft": "8-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 8
+        },
+        {
+          "date": "2025-06-07",
+          "league": "World Cup - Qualification Europe",
+          "match": "Finland - Netherlands",
+          "ht": "0-2",
+          "ft": "0-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2025-11-16",
+          "league": "World Cup - Qualification Europe",
+          "match": "Italy - Norway",
+          "ht": "1-0",
+          "ft": "1-4",
+          "total_ht_goals": 1,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-11-13",
+          "league": "World Cup - Qualification Europe",
+          "match": "Norway - Estonia",
+          "ht": "0-0",
+          "ft": "4-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-10-14",
+          "league": "Friendlies",
+          "match": "Norway - New Zealand",
+          "ht": "0-1",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-10-11",
+          "league": "World Cup - Qualification Europe",
+          "match": "Norway - Israel",
+          "ht": "3-0",
+          "ft": "5-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-09-09",
+          "league": "World Cup - Qualification Europe",
+          "match": "Norway - Moldova",
+          "ht": "5-0",
+          "ft": "11-1",
+          "total_ht_goals": 5,
+          "total_ft_goals": 12
+        },
+        {
+          "date": "2025-09-04",
+          "league": "Friendlies",
+          "match": "Norway - Finland",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-06-09",
+          "league": "World Cup - Qualification Europe",
+          "match": "Estonia - Norway",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-06-06",
+          "league": "World Cup - Qualification Europe",
+          "match": "Norway - Italy",
+          "ht": "3-0",
+          "ft": "3-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
         }
       ]
     }
