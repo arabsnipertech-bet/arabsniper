@@ -1,0 +1,42 @@
+[
+  {
+    "data": "2026-03-23",
+    "time": "22:00",
+    "match": "Santiago Morning - Colchagua",
+    "league": "Segunda División (Chile)",
+    "fixture_id": "1529066",
+    "signal": "GOLD TARGET",
+    "quote": "1.6",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O"
+  },
+  {
+    "data": "2026-03-23",
+    "time": "22:00",
+    "match": "U. Catolica - Universidad de Concepcion",
+    "league": "Copa De La Liga (Chile)",
+    "fixture_id": "1535566",
+    "signal": "GOLD TARGET",
+    "quote": "1.6",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_X DROP_2"
+  },
+  {
+    "data": "2026-03-23",
+    "time": "23:30",
+    "match": "Portuguesa FC - Rayo Zuliano",
+    "league": "Primera División (Venezuela)",
+    "fixture_id": "1506156",
+    "signal": "GOLD TARGET",
+    "quote": "1.5",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_2"
+  },
+  {
+    "data": "2026-03-23",
+    "time": "21:00",
+    "match": "Chicago Fire II - Carolina Core",
+    "league": "MLS Next Pro (USA)",
+    "fixture_id": "1513010",
+    "signal": "OVER 2.5",
+    "quote": "1.50",
+    "info": "🎯PT ⚽ OVER 🐟G DROP_2"
+  }
+]
