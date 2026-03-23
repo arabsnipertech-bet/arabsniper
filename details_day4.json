@@ -1,2873 +1,2502 @@
 {
-  "updated_at": "2026-03-23 07:04:10",
-  "day": 4,
-  "date": "2026-03-26",
-  "details": {
-    "1515135": {
-      "fixture_id": 1515135,
-      "date": "2026-03-26",
-      "time": "00:00",
-      "league": "US Open Cup",
-      "country": "USA",
-      "match": "Pittsburgh Riverhounds - Steel City",
-      "home_team": "Pittsburgh Riverhounds",
-      "away_team": "Steel City",
-      "markets": {
-        "q1": 1.33,
-        "qx": 4.8,
-        "q2": 6.0,
-        "o25": 1.44,
-        "o05ht": 1.22,
-        "o15ht": 2.1
-      },
-      "averages": {
-        "home_avg_ft": 2.875,
-        "away_avg_ft": 3.75,
-        "home_avg_ht": 1.0,
-        "away_avg_ht": 2.0,
-        "combined_ht_avg": 1.5
-      },
-      "flags": {
-        "fav_quote": 1.33,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 1.4,
-        "open_q1": 1.37,
-        "open_qx": 4.85,
-        "open_q2": 7.4,
-        "open_o25": 1.45,
-        "curr_q1": 1.33,
-        "curr_qx": 4.8,
-        "curr_q2": 6.0,
-        "curr_o25": 1.44,
-        "drop_q1": 0.04,
-        "drop_qx": 0.05,
-        "drop_q2": 1.4,
-        "drop_o25": 0.01,
-        "drop_last_q1": 0.04,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": 1.4,
-        "drop_last_o25": 0.04,
-        "drop_side": "2",
-        "drop_strength": "strong",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.37,
-        "curr_fav_quote": 1.33,
-        "history_points": 3,
-        "first_seen_at": "2026-03-17T19:21:08",
-        "last_seen_at": "2026-03-22T06:54:44"
-      },
-      "scores": {
-        "pt": 5.4,
-        "over": 4.0,
-        "boost": 5.422,
-        "gold": 4.681,
-        "max": 5.422
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟O",
-        "DROP_2",
-        "DROP_2_STRONG"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "USL Championship",
-          "match": "Tampa Bay Rowdies - Pittsburgh Riverhounds",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
+    "updated_at": "2026-03-23 07:18:19",
+    "day": 4,
+    "date": "2026-03-26",
+    "details": {
+        "1515135": {
+            "fixture_id": 1515135,
+            "date": "2026-03-26",
+            "time": "00:00",
+            "league": "US Open Cup",
+            "country": "USA",
+            "match": "Pittsburgh Riverhounds - Steel City",
+            "home_team": "Pittsburgh Riverhounds",
+            "away_team": "Steel City",
+            "markets": {
+                "q1": 1.33,
+                "qx": 4.8,
+                "q2": 6.0,
+                "o25": 1.44,
+                "o05ht": 1.22,
+                "o15ht": 2.1
+            },
+            "averages": {
+                "home_avg_ft": 2.875,
+                "away_avg_ft": 3.75,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 2.0,
+                "combined_ht_avg": 1.5
+            },
+            "flags": {
+                "fav_quote": 1.33,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.4,
+                "over": 4.0,
+                "boost": 5.422,
+                "gold": 4.681,
+                "max": 5.422
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-21",
+                    "league": "USL Championship",
+                    "match": "Tampa Bay Rowdies - Pittsburgh Riverhounds",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-14",
+                    "league": "USL Championship",
+                    "match": "Loudoun United - Pittsburgh Riverhounds",
+                    "ht": "1-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "USL Championship",
+                    "match": "Charleston Battery - Pittsburgh Riverhounds",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Friendlies Clubs",
+                    "match": "Pittsburgh Riverhounds - Lexington",
+                    "ht": "0-1",
+                    "ft": "1-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Friendlies Clubs",
+                    "match": "Pittsburgh Riverhounds - Loudoun United",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Friendlies Clubs",
+                    "match": "Indy Eleven - Pittsburgh Riverhounds",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-02",
+                    "league": "Friendlies Clubs",
+                    "match": "Pittsburgh Riverhounds - Richmond Kickers",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "USL Championship",
+                    "match": "Pittsburgh Riverhounds - Rhode Island",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-07-18",
+                    "league": "USL League Two",
+                    "match": "Flint City Bucks - Steel City",
+                    "ht": "2-2",
+                    "ft": "4-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2025-07-13",
+                    "league": "USL League Two",
+                    "match": "Cleveland Force - Steel City",
+                    "ht": "1-2",
+                    "ft": "1-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-07-06",
+                    "league": "USL League Two",
+                    "match": "Steel City - Toledo Villa",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-07-02",
+                    "league": "USL League Two",
+                    "match": "Steel City - Buffalo",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-06-29",
+                    "league": "USL League Two",
+                    "match": "Steel City - Akron City",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-06-25",
+                    "league": "USL League Two",
+                    "match": "Buffalo - Steel City",
+                    "ht": "0-3",
+                    "ft": "1-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-06-19",
+                    "league": "USL League Two",
+                    "match": "Toledo Villa - Steel City",
+                    "ht": "0-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-06-07",
+                    "league": "USL League Two",
+                    "match": "Steel City - Erie Sports Center",
+                    "ht": "2-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                }
+            ]
         },
-        {
-          "date": "2026-03-14",
-          "league": "USL Championship",
-          "match": "Loudoun United - Pittsburgh Riverhounds",
-          "ht": "1-1",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
+        "1535573": {
+            "fixture_id": 1535573,
+            "date": "2026-03-26",
+            "time": "00:30",
+            "league": "Copa De La Liga",
+            "country": "Chile",
+            "match": "A. Italiano - D. La Serena",
+            "home_team": "A. Italiano",
+            "away_team": "D. La Serena",
+            "markets": {
+                "q1": 2.1,
+                "qx": 3.25,
+                "q2": 3.2,
+                "o25": 2.1,
+                "o05ht": 1.44,
+                "o15ht": 3.25
+            },
+            "averages": {
+                "home_avg_ft": 1.625,
+                "away_avg_ft": 2.5,
+                "home_avg_ht": 1.125,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.312
+            },
+            "flags": {
+                "fav_quote": 2.1,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.3,
+                "over": 5.4,
+                "boost": 6.136,
+                "gold": 5.542,
+                "max": 6.3
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "Copa De La Liga",
+                    "match": "Union La Calera - A. Italiano",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-13",
+                    "league": "Primera División",
+                    "match": "A. Italiano - Concepción",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Primera División",
+                    "match": "A. Italiano - Colo Colo",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Primera División",
+                    "match": "Union La Calera - A. Italiano",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Primera División",
+                    "match": "A. Italiano - Everton de Vina",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-15",
+                    "league": "Primera División",
+                    "match": "Nublense - A. Italiano",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-06",
+                    "league": "Primera División",
+                    "match": "A. Italiano - Universidad de Concepcion",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-01-30",
+                    "league": "Primera División",
+                    "match": "Universidad de Chile - A. Italiano",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "Copa De La Liga",
+                    "match": "Universidad de Chile - D. La Serena",
+                    "ht": "1-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-15",
+                    "league": "Primera División",
+                    "match": "Nublense - D. La Serena",
+                    "ht": "1-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "Primera División",
+                    "match": "D. La Serena - Union La Calera",
+                    "ht": "2-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-27",
+                    "league": "Primera División",
+                    "match": "Cobresal - D. La Serena",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Primera División",
+                    "match": "D. La Serena - Universidad de Concepcion",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Primera División",
+                    "match": "D. La Serena - Coquimbo Unido",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Primera División",
+                    "match": "O'Higgins - D. La Serena",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-01",
+                    "league": "Primera División",
+                    "match": "D. La Serena - U. Catolica",
+                    "ht": "2-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                }
+            ]
         },
-        {
-          "date": "2026-03-07",
-          "league": "USL Championship",
-          "match": "Charleston Battery - Pittsburgh Riverhounds",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
+        "1506056": {
+            "fixture_id": 1506056,
+            "date": "2026-03-26",
+            "time": "02:00",
+            "league": "Primera A",
+            "country": "Colombia",
+            "match": "America de Cali - Llaneros",
+            "home_team": "America de Cali",
+            "away_team": "Llaneros",
+            "markets": {
+                "q1": 1.55,
+                "qx": 3.6,
+                "q2": 6.75,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.88
+            },
+            "averages": {
+                "home_avg_ft": 2.25,
+                "away_avg_ft": 2.375,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.0,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 1.55,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.9,
+                "over": 5.9,
+                "boost": 5.244,
+                "gold": 5.831,
+                "max": 5.9
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-20",
+                    "league": "Primera A",
+                    "match": "Águilas Doradas - America de Cali",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-15",
+                    "league": "Primera A",
+                    "match": "America de Cali - Deportes Tolima",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-10",
+                    "league": "Primera A",
+                    "match": "Deportivo Pasto - America de Cali",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-06",
+                    "league": "CONMEBOL Sudamericana",
+                    "match": "America de Cali - Bucaramanga",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Primera A",
+                    "match": "Alianza Valledupar - America de Cali",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-23",
+                    "league": "Primera A",
+                    "match": "America de Cali - Jaguares",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-19",
+                    "league": "Primera A",
+                    "match": "Junior - America de Cali",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Primera A",
+                    "match": "America de Cali - Santa Fe",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-17",
+                    "league": "Primera A",
+                    "match": "Llaneros - Cucuta",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-14",
+                    "league": "Primera A",
+                    "match": "Atletico Nacional - Llaneros",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-09",
+                    "league": "Primera A",
+                    "match": "Llaneros - Jaguares",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-05",
+                    "league": "Primera A",
+                    "match": "Llaneros - Internacional de Bogota",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-20",
+                    "league": "Primera A",
+                    "match": "Llaneros - Independiente Medellin",
+                    "ht": "0-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Primera A",
+                    "match": "Millonarios - Llaneros",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-10",
+                    "league": "Primera A",
+                    "match": "Llaneros - Deportivo Pasto",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Primera A",
+                    "match": "Deportes Tolima - Llaneros",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ]
         },
-        {
-          "date": "2026-02-21",
-          "league": "Friendlies Clubs",
-          "match": "Pittsburgh Riverhounds - Lexington",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
+        "1504909": {
+            "fixture_id": 1504909,
+            "date": "2026-03-26",
+            "time": "02:30",
+            "league": "Primera Division",
+            "country": "El-Salvador",
+            "match": "Hércules - Águila",
+            "home_team": "Hércules",
+            "away_team": "Águila",
+            "markets": {
+                "q1": 5.8,
+                "qx": 4.1,
+                "q2": 1.44,
+                "o25": 1.56,
+                "o05ht": 1.25,
+                "o15ht": 2.28
+            },
+            "averages": {
+                "home_avg_ft": 3.875,
+                "away_avg_ft": 1.75,
+                "home_avg_ht": 1.625,
+                "away_avg_ht": 0.5,
+                "combined_ht_avg": 1.062
+            },
+            "flags": {
+                "fav_quote": 1.44,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.7,
+                "over": 4.4,
+                "boost": 4.268,
+                "gold": 4.785,
+                "max": 4.785
+            },
+            "tags": [
+                "⚽ OVER",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-19",
+                    "league": "Primera Division",
+                    "match": "FAS - Hércules",
+                    "ht": "1-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-03-15",
+                    "league": "Primera Division",
+                    "match": "Hércules - Fuerte San Francisco",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Primera Division",
+                    "match": "Isidro Metapán - Hércules",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "Primera Division",
+                    "match": "Hércules - Platense",
+                    "ht": "0-1",
+                    "ft": "0-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Primera Division",
+                    "match": "Firpo - Hércules",
+                    "ht": "1-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2026-02-18",
+                    "league": "Primera Division",
+                    "match": "Hércules - Cacahuatique",
+                    "ht": "0-2",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Primera Division",
+                    "match": "Inter - Hércules",
+                    "ht": "2-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-08",
+                    "league": "Primera Division",
+                    "match": "Hércules - Alianza",
+                    "ht": "0-3",
+                    "ft": "1-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-18",
+                    "league": "Primera Division",
+                    "match": "Águila - Isidro Metapán",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-15",
+                    "league": "Primera Division",
+                    "match": "Platense - Águila",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-12",
+                    "league": "Copa Presidente",
+                    "match": "Racing de Gualuca - Águila",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Primera Division",
+                    "match": "Firpo - Águila",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-01",
+                    "league": "Primera Division",
+                    "match": "Águila - Cacahuatique",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-02-26",
+                    "league": "Copa Presidente",
+                    "match": "Fuerte San Francisco - Águila",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Primera Division",
+                    "match": "Inter - Águila",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-19",
+                    "league": "Primera Division",
+                    "match": "Águila - Alianza",
+                    "ht": "0-0",
+                    "ft": "0-3",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                }
+            ]
         },
-        {
-          "date": "2026-02-13",
-          "league": "Friendlies Clubs",
-          "match": "Pittsburgh Riverhounds - Loudoun United",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
+        "1487922": {
+            "fixture_id": 1487922,
+            "date": "2026-03-26",
+            "time": "18:00",
+            "league": "World Cup - Qualification Europe",
+            "country": "World",
+            "match": "Türkiye - Romania",
+            "home_team": "Türkiye",
+            "away_team": "Romania",
+            "markets": {
+                "q1": 1.44,
+                "qx": 4.3,
+                "q2": 7.0,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.4
+            },
+            "averages": {
+                "home_avg_ft": 4.125,
+                "away_avg_ft": 3.5,
+                "home_avg_ht": 2.125,
+                "away_avg_ht": 1.875,
+                "combined_ht_avg": 2.0
+            },
+            "flags": {
+                "fav_quote": 1.44,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.9,
+                "over": 5.4,
+                "boost": 6.454,
+                "gold": 6.542,
+                "max": 6.542
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Spain - Türkiye",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Türkiye - Bulgaria",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-14",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Türkiye - Georgia",
+                    "ht": "3-0",
+                    "ft": "4-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-10-11",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Bulgaria - Türkiye",
+                    "ht": "1-1",
+                    "ft": "1-6",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2025-09-07",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Türkiye - Spain",
+                    "ht": "0-3",
+                    "ft": "0-6",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-09-04",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Georgia - Türkiye",
+                    "ht": "0-2",
+                    "ft": "2-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-06-11",
+                    "league": "Friendlies",
+                    "match": "Mexico - Türkiye",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-06-07",
+                    "league": "Friendlies",
+                    "match": "USA - Türkiye",
+                    "ht": "1-2",
+                    "ft": "1-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Romania - San Marino",
+                    "ht": "3-1",
+                    "ft": "7-1",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 8
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Bosnia & Herzegovina - Romania",
+                    "ht": "0-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-12",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Romania - Austria",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-09",
+                    "league": "Friendlies",
+                    "match": "Romania - Moldova",
+                    "ht": "2-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Cyprus - Romania",
+                    "ht": "1-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "Friendlies",
+                    "match": "Romania - Canada",
+                    "ht": "0-2",
+                    "ft": "0-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-07-08",
+                    "league": "Friendlies Clubs",
+                    "match": "Broadfields United - Romania",
+                    "ht": "None-None",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Romania - Cyprus",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                }
+            ]
         },
-        {
-          "date": "2026-02-06",
-          "league": "Friendlies Clubs",
-          "match": "Indy Eleven - Pittsburgh Riverhounds",
-          "ht": "0-2",
-          "ft": "0-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
+        "1487923": {
+            "fixture_id": 1487923,
+            "date": "2026-03-26",
+            "time": "20:45",
+            "league": "World Cup - Qualification Europe",
+            "country": "World",
+            "match": "Czech Republic - Rep. Of Ireland",
+            "home_team": "Czech Republic",
+            "away_team": "Rep. Of Ireland",
+            "markets": {
+                "q1": 1.9,
+                "qx": 3.45,
+                "q2": 3.95,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.95
+            },
+            "averages": {
+                "home_avg_ft": 2.75,
+                "away_avg_ft": 2.25,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.125,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 1.9,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.9,
+                "over": 5.5,
+                "boost": 5.782,
+                "gold": 6.214,
+                "max": 6.214
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-17",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Czech Republic - Gibraltar",
+                    "ht": "5-0",
+                    "ft": "6-0",
+                    "total_ht_goals": 5,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-11-13",
+                    "league": "Friendlies",
+                    "match": "Czech Republic - San Marino",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-12",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Faroe Islands - Czech Republic",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Czech Republic - Croatia",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-09-08",
+                    "league": "Friendlies",
+                    "match": "Czech Republic - Saudi Arabia",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Montenegro - Czech Republic",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-06-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Croatia - Czech Republic",
+                    "ht": "1-0",
+                    "ft": "5-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Czech Republic - Montenegro",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-16",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Hungary - Rep. Of Ireland",
+                    "ht": "2-1",
+                    "ft": "2-3",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-11-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Rep. Of Ireland - Portugal",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-14",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Rep. Of Ireland - Armenia",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-11",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Portugal - Rep. Of Ireland",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-09-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Armenia - Rep. Of Ireland",
+                    "ht": "1-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-06",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Rep. Of Ireland - Hungary",
+                    "ht": "0-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "Friendlies",
+                    "match": "Luxembourg - Rep. Of Ireland",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "Friendlies",
+                    "match": "Rep. Of Ireland - Senegal",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ]
         },
-        {
-          "date": "2026-02-02",
-          "league": "Friendlies Clubs",
-          "match": "Pittsburgh Riverhounds - Richmond Kickers",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
+        "1487924": {
+            "fixture_id": 1487924,
+            "date": "2026-03-26",
+            "time": "20:45",
+            "league": "World Cup - Qualification Europe",
+            "country": "World",
+            "match": "Denmark - FYR Macedonia",
+            "home_team": "Denmark",
+            "away_team": "FYR Macedonia",
+            "markets": {
+                "q1": 1.3,
+                "qx": 5.1,
+                "q2": 9.7,
+                "o25": 1.65,
+                "o05ht": 1.3,
+                "o15ht": 2.4
+            },
+            "averages": {
+                "home_avg_ft": 3.875,
+                "away_avg_ft": 2.625,
+                "home_avg_ht": 1.875,
+                "away_avg_ht": 1.125,
+                "combined_ht_avg": 1.5
+            },
+            "flags": {
+                "fav_quote": 1.3,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 6.0,
+                "over": 5.0,
+                "boost": 6.68,
+                "gold": 5.541,
+                "max": 6.68
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Scotland - Denmark",
+                    "ht": "1-0",
+                    "ft": "4-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Denmark - Belarus",
+                    "ht": "1-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-12",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Denmark - Greece",
+                    "ht": "3-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Belarus - Denmark",
+                    "ht": "0-4",
+                    "ft": "0-6",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-09-08",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Greece - Denmark",
+                    "ht": "0-1",
+                    "ft": "0-3",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Denmark - Scotland",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "Friendlies",
+                    "match": "Denmark - Lithuania",
+                    "ht": "3-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-06-07",
+                    "league": "Friendlies",
+                    "match": "Denmark - Northern Ireland",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Wales - FYR Macedonia",
+                    "ht": "3-1",
+                    "ft": "7-1",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 8
+                },
+                {
+                    "date": "2025-11-13",
+                    "league": "Friendlies",
+                    "match": "FYR Macedonia - Latvia",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-10-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "FYR Macedonia - Kazakhstan",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Belgium - FYR Macedonia",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-09-07",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "FYR Macedonia - Liechtenstein",
+                    "ht": "1-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-09-04",
+                    "league": "Friendlies",
+                    "match": "Saudi Arabia - FYR Macedonia",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-06-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Kazakhstan - FYR Macedonia",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "FYR Macedonia - Belgium",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ]
         },
-        {
-          "date": "2025-11-15",
-          "league": "USL Championship",
-          "match": "Pittsburgh Riverhounds - Rhode Island",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
+        "1487925": {
+            "fixture_id": 1487925,
+            "date": "2026-03-26",
+            "time": "20:45",
+            "league": "World Cup - Qualification Europe",
+            "country": "World",
+            "match": "Italy - Northern Ireland",
+            "home_team": "Italy",
+            "away_team": "Northern Ireland",
+            "markets": {
+                "q1": 1.29,
+                "qx": 4.7,
+                "q2": 12.5,
+                "o25": 1.8,
+                "o05ht": 1.33,
+                "o15ht": 2.45
+            },
+            "averages": {
+                "home_avg_ft": 4.125,
+                "away_avg_ft": 2.125,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.25,
+                "combined_ht_avg": 1.25
+            },
+            "flags": {
+                "fav_quote": 1.29,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 5.0,
+                "boost": 7.088,
+                "gold": 6.032,
+                "max": 7.6
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟O"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-16",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Italy - Norway",
+                    "ht": "1-0",
+                    "ft": "1-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-11-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Moldova - Italy",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-14",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Italy - Israel",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-11",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Estonia - Italy",
+                    "ht": "0-2",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-09-08",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Israel - Italy",
+                    "ht": "1-1",
+                    "ft": "4-5",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 9
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Italy - Estonia",
+                    "ht": "0-0",
+                    "ft": "5-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-06-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Italy - Moldova",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Norway - Italy",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-17",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Northern Ireland - Luxembourg",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-11-14",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Slovakia - Northern Ireland",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Northern Ireland - Germany",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Northern Ireland - Slovakia",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-07",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Germany - Northern Ireland",
+                    "ht": "1-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-09-04",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Luxembourg - Northern Ireland",
+                    "ht": "1-1",
+                    "ft": "1-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "Friendlies",
+                    "match": "Northern Ireland - Iceland",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-06-07",
+                    "league": "Friendlies",
+                    "match": "Denmark - Northern Ireland",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                }
+            ]
+        },
+        "1487927": {
+            "fixture_id": 1487927,
+            "date": "2026-03-26",
+            "time": "20:45",
+            "league": "World Cup - Qualification Europe",
+            "country": "World",
+            "match": "Slovakia - Kosovo",
+            "home_team": "Slovakia",
+            "away_team": "Kosovo",
+            "markets": {
+                "q1": 1.97,
+                "qx": 3.25,
+                "q2": 3.95,
+                "o25": 2.25,
+                "o05ht": 1.42,
+                "o15ht": 2.9
+            },
+            "averages": {
+                "home_avg_ft": 2.5,
+                "away_avg_ft": 3.0,
+                "home_avg_ht": 1.0,
+                "away_avg_ht": 1.625,
+                "combined_ht_avg": 1.312
+            },
+            "flags": {
+                "fav_quote": 1.97,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.5,
+                "over": 5.8,
+                "boost": 5.944,
+                "gold": 5.201,
+                "max": 5.944
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-17",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Germany - Slovakia",
+                    "ht": "4-0",
+                    "ft": "6-0",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-11-14",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Slovakia - Northern Ireland",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Slovakia - Luxembourg",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Northern Ireland - Slovakia",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-07",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Luxembourg - Slovakia",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-09-04",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Slovakia - Germany",
+                    "ht": "1-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "Friendlies",
+                    "match": "Israel - Slovakia",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-06-07",
+                    "league": "Friendlies",
+                    "match": "Greece - Slovakia",
+                    "ht": "1-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Kosovo - Switzerland",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Slovenia - Kosovo",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Sweden - Kosovo",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Kosovo - Slovenia",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2025-09-08",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Kosovo - Sweden",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Switzerland - Kosovo",
+                    "ht": "4-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-06-09",
+                    "league": "Friendlies",
+                    "match": "Kosovo - Comoros",
+                    "ht": "1-1",
+                    "ft": "4-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "Friendlies",
+                    "match": "Kosovo - Armenia",
+                    "ht": "1-2",
+                    "ft": "5-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 7
+                }
+            ]
+        },
+        "1487928": {
+            "fixture_id": 1487928,
+            "date": "2026-03-26",
+            "time": "20:45",
+            "league": "World Cup - Qualification Europe",
+            "country": "World",
+            "match": "Ukraine - Sweden",
+            "home_team": "Ukraine",
+            "away_team": "Sweden",
+            "markets": {
+                "q1": 2.8,
+                "qx": 3.15,
+                "q2": 2.52,
+                "o25": 2.1,
+                "o05ht": 1.38,
+                "o15ht": 2.65
+            },
+            "averages": {
+                "home_avg_ft": 3.75,
+                "away_avg_ft": 3.125,
+                "home_avg_ht": 1.25,
+                "away_avg_ht": 1.0,
+                "combined_ht_avg": 1.125
+            },
+            "flags": {
+                "fav_quote": 2.52,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 5.8,
+                "over": 4.7,
+                "boost": 5.21,
+                "gold": 4.457,
+                "max": 5.8
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-16",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Ukraine - Iceland",
+                    "ht": "0-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "France - Ukraine",
+                    "ht": "0-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Ukraine - Azerbaijan",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Iceland - Ukraine",
+                    "ht": "1-3",
+                    "ft": "3-5",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 8
+                },
+                {
+                    "date": "2025-09-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Azerbaijan - Ukraine",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Ukraine - France",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "Friendlies",
+                    "match": "New Zealand - Ukraine",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-06-07",
+                    "league": "Friendlies",
+                    "match": "Canada - Ukraine",
+                    "ht": "3-0",
+                    "ft": "4-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Sweden - Slovenia",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Switzerland - Sweden",
+                    "ht": "1-1",
+                    "ft": "4-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-10-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Sweden - Kosovo",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Sweden - Switzerland",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-08",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Kosovo - Sweden",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Slovenia - Sweden",
+                    "ht": "0-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "Friendlies",
+                    "match": "Sweden - Algeria",
+                    "ht": "2-0",
+                    "ft": "4-3",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "Friendlies",
+                    "match": "Hungary - Sweden",
+                    "ht": "0-0",
+                    "ft": "0-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                }
+            ]
+        },
+        "1487929": {
+            "fixture_id": 1487929,
+            "date": "2026-03-26",
+            "time": "20:45",
+            "league": "World Cup - Qualification Europe",
+            "country": "World",
+            "match": "Wales - Bosnia & Herzegovina",
+            "home_team": "Wales",
+            "away_team": "Bosnia & Herzegovina",
+            "markets": {
+                "q1": 1.9,
+                "qx": 3.3,
+                "q2": 4.1,
+                "o25": 2.1,
+                "o05ht": 1.42,
+                "o15ht": 2.88
+            },
+            "averages": {
+                "home_avg_ft": 3.75,
+                "away_avg_ft": 3.5,
+                "home_avg_ht": 2.125,
+                "away_avg_ht": 0.875,
+                "combined_ht_avg": 1.5
+            },
+            "flags": {
+                "fav_quote": 1.9,
+                "is_gold_zone": true,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 3.5,
+                "over": 6.2,
+                "boost": 5.206,
+                "gold": 5.7,
+                "max": 6.2
+            },
+            "tags": [
+                "⚽ OVER"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Wales - FYR Macedonia",
+                    "ht": "3-1",
+                    "ft": "7-1",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 8
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Liechtenstein - Wales",
+                    "ht": "0-0",
+                    "ft": "0-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-10-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Wales - Belgium",
+                    "ht": "1-2",
+                    "ft": "2-4",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-10-09",
+                    "league": "Friendlies",
+                    "match": "England - Wales",
+                    "ht": "3-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-09",
+                    "league": "Friendlies",
+                    "match": "Wales - Canada",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-09-04",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Kazakhstan - Wales",
+                    "ht": "0-1",
+                    "ft": "0-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-06-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Belgium - Wales",
+                    "ht": "3-1",
+                    "ft": "4-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2025-06-06",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Wales - Liechtenstein",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Austria - Bosnia & Herzegovina",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Bosnia & Herzegovina - Romania",
+                    "ht": "0-1",
+                    "ft": "3-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-12",
+                    "league": "Friendlies",
+                    "match": "Malta - Bosnia & Herzegovina",
+                    "ht": "0-1",
+                    "ft": "1-4",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-10-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Cyprus - Bosnia & Herzegovina",
+                    "ht": "1-2",
+                    "ft": "2-2",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-09-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Bosnia & Herzegovina - Austria",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-06",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "San Marino - Bosnia & Herzegovina",
+                    "ht": "0-1",
+                    "ft": "0-6",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2025-06-10",
+                    "league": "Friendlies",
+                    "match": "Slovenia - Bosnia & Herzegovina",
+                    "ht": "0-0",
+                    "ft": "2-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-06-07",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Bosnia & Herzegovina - San Marino",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                }
+            ]
+        },
+        "1501815": {
+            "fixture_id": 1501815,
+            "date": "2026-03-26",
+            "time": "21:00",
+            "league": "Friendlies",
+            "country": "World",
+            "match": "Brazil - France",
+            "home_team": "Brazil",
+            "away_team": "France",
+            "markets": {
+                "q1": 2.96,
+                "qx": 3.6,
+                "q2": 2.2,
+                "o25": 1.62,
+                "o05ht": 1.28,
+                "o15ht": 2.3
+            },
+            "averages": {
+                "home_avg_ft": 2.375,
+                "away_avg_ft": 3.875,
+                "home_avg_ht": 1.375,
+                "away_avg_ht": 1.5,
+                "combined_ht_avg": 1.438
+            },
+            "flags": {
+                "fav_quote": 2.2,
+                "is_gold_zone": false,
+                "home_last_2h_zero": true,
+                "away_last_2h_zero": true,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 7.6,
+                "over": 5.4,
+                "boost": 7.48,
+                "gold": 6.285,
+                "max": 7.6
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🚀 BOOST",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2025-11-18",
+                    "league": "Friendlies",
+                    "match": "Brazil - Tunisia",
+                    "ht": "1-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-11-15",
+                    "league": "Friendlies",
+                    "match": "Brazil - Senegal",
+                    "ht": "2-0",
+                    "ft": "2-0",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-10-14",
+                    "league": "Friendlies",
+                    "match": "Japan - Brazil",
+                    "ht": "0-2",
+                    "ft": "3-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "Friendlies",
+                    "match": "South Korea - Brazil",
+                    "ht": "0-2",
+                    "ft": "0-5",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 5
+                },
+                {
+                    "date": "2025-09-09",
+                    "league": "World Cup - Qualification South America",
+                    "match": "Bolivia - Brazil",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification South America",
+                    "match": "Brazil - Chile",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-06-11",
+                    "league": "World Cup - Qualification South America",
+                    "match": "Brazil - Paraguay",
+                    "ht": "1-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2025-06-05",
+                    "league": "World Cup - Qualification South America",
+                    "match": "Ecuador - Brazil",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2025-11-16",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Azerbaijan - France",
+                    "ht": "1-3",
+                    "ft": "1-3",
+                    "total_ht_goals": 4,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-11-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "France - Ukraine",
+                    "ht": "0-0",
+                    "ft": "4-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-13",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Iceland - France",
+                    "ht": "1-0",
+                    "ft": "2-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2025-10-10",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "France - Azerbaijan",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-09",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "France - Iceland",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2025-09-05",
+                    "league": "World Cup - Qualification Europe",
+                    "match": "Ukraine - France",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-06-08",
+                    "league": "UEFA Nations League",
+                    "match": "Germany - France",
+                    "ht": "0-1",
+                    "ft": "0-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2025-06-05",
+                    "league": "UEFA Nations League",
+                    "match": "Spain - France",
+                    "ht": "2-0",
+                    "ft": "5-4",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 9
+                }
+            ]
+        },
+        "1535574": {
+            "fixture_id": 1535574,
+            "date": "2026-03-26",
+            "time": "22:00",
+            "league": "Copa De La Liga",
+            "country": "Chile",
+            "match": "Deportes Limache - Palestino",
+            "home_team": "Deportes Limache",
+            "away_team": "Palestino",
+            "markets": {
+                "q1": 2.0,
+                "qx": 3.4,
+                "q2": 3.5,
+                "o25": 1.7,
+                "o05ht": 1.3,
+                "o15ht": 2.5
+            },
+            "averages": {
+                "home_avg_ft": 3.25,
+                "away_avg_ft": 3.125,
+                "home_avg_ht": 1.5,
+                "away_avg_ht": 0.875,
+                "combined_ht_avg": 1.188
+            },
+            "flags": {
+                "fav_quote": 2.0,
+                "is_gold_zone": false,
+                "home_last_2h_zero": false,
+                "away_last_2h_zero": false,
+                "drop_diff": 0.0
+            },
+            "scores": {
+                "pt": 4.4,
+                "over": 5.9,
+                "boost": 5.954,
+                "gold": 5.212,
+                "max": 5.954
+            },
+            "tags": [
+                "🎯PT",
+                "⚽ OVER",
+                "🐟G"
+            ],
+            "home_last_8": [
+                {
+                    "date": "2026-03-22",
+                    "league": "Copa De La Liga",
+                    "match": "O'Higgins - Deportes Limache",
+                    "ht": "0-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-03-15",
+                    "league": "Primera División",
+                    "match": "Cobresal - Deportes Limache",
+                    "ht": "0-3",
+                    "ft": "2-5",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 7
+                },
+                {
+                    "date": "2026-03-07",
+                    "league": "Primera División",
+                    "match": "Everton de Vina - Deportes Limache",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Primera División",
+                    "match": "Deportes Limache - Huachipato",
+                    "ht": "1-0",
+                    "ft": "3-0",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-22",
+                    "league": "Primera División",
+                    "match": "Universidad de Chile - Deportes Limache",
+                    "ht": "1-1",
+                    "ft": "2-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-14",
+                    "league": "Primera División",
+                    "match": "Deportes Limache - O'Higgins",
+                    "ht": "1-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-08",
+                    "league": "Primera División",
+                    "match": "Nublense - Deportes Limache",
+                    "ht": "0-1",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                },
+                {
+                    "date": "2026-01-31",
+                    "league": "Primera División",
+                    "match": "Deportes Limache - Colo Colo",
+                    "ht": "3-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 3,
+                    "total_ft_goals": 4
+                }
+            ],
+            "away_last_8": [
+                {
+                    "date": "2026-03-15",
+                    "league": "Primera División",
+                    "match": "Universidad de Concepcion - Palestino",
+                    "ht": "0-0",
+                    "ft": "1-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 1
+                },
+                {
+                    "date": "2026-03-08",
+                    "league": "Primera División",
+                    "match": "Palestino - Cobresal",
+                    "ht": "1-0",
+                    "ft": "4-2",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-03-05",
+                    "league": "CONMEBOL Sudamericana",
+                    "match": "Universidad de Chile - Palestino",
+                    "ht": "0-0",
+                    "ft": "1-2",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-28",
+                    "league": "Primera División",
+                    "match": "Palestino - O'Higgins",
+                    "ht": "1-1",
+                    "ft": "4-2",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 6
+                },
+                {
+                    "date": "2026-02-21",
+                    "league": "Primera División",
+                    "match": "Huachipato - Palestino",
+                    "ht": "0-1",
+                    "ft": "2-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 3
+                },
+                {
+                    "date": "2026-02-13",
+                    "league": "Primera División",
+                    "match": "Palestino - Universidad de Chile",
+                    "ht": "0-0",
+                    "ft": "0-0",
+                    "total_ht_goals": 0,
+                    "total_ft_goals": 0
+                },
+                {
+                    "date": "2026-02-07",
+                    "league": "Primera División",
+                    "match": "Coquimbo Unido - Palestino",
+                    "ht": "2-0",
+                    "ft": "3-1",
+                    "total_ht_goals": 2,
+                    "total_ft_goals": 4
+                },
+                {
+                    "date": "2026-02-01",
+                    "league": "Primera División",
+                    "match": "Palestino - Nublense",
+                    "ht": "1-0",
+                    "ft": "1-1",
+                    "total_ht_goals": 1,
+                    "total_ft_goals": 2
+                }
+            ]
         }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-07-18",
-          "league": "USL League Two",
-          "match": "Flint City Bucks - Steel City",
-          "ht": "2-2",
-          "ft": "4-3",
-          "total_ht_goals": 4,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2025-07-13",
-          "league": "USL League Two",
-          "match": "Cleveland Force - Steel City",
-          "ht": "1-2",
-          "ft": "1-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-07-06",
-          "league": "USL League Two",
-          "match": "Steel City - Toledo Villa",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-07-02",
-          "league": "USL League Two",
-          "match": "Steel City - Buffalo",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-06-29",
-          "league": "USL League Two",
-          "match": "Steel City - Akron City",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-25",
-          "league": "USL League Two",
-          "match": "Buffalo - Steel City",
-          "ht": "0-3",
-          "ft": "1-4",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-06-19",
-          "league": "USL League Two",
-          "match": "Toledo Villa - Steel City",
-          "ht": "0-1",
-          "ft": "2-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-06-07",
-          "league": "USL League Two",
-          "match": "Steel City - Erie Sports Center",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        }
-      ]
-    },
-    "1535573": {
-      "fixture_id": 1535573,
-      "date": "2026-03-26",
-      "time": "00:30",
-      "league": "Copa De La Liga",
-      "country": "Chile",
-      "match": "A. Italiano - D. La Serena",
-      "home_team": "A. Italiano",
-      "away_team": "D. La Serena",
-      "markets": {
-        "q1": 2.1,
-        "qx": 3.25,
-        "q2": 3.2,
-        "o25": 2.1,
-        "o05ht": 1.44,
-        "o15ht": 3.25
-      },
-      "averages": {
-        "home_avg_ft": 1.625,
-        "away_avg_ft": 2.5,
-        "home_avg_ht": 1.125,
-        "away_avg_ht": 1.5,
-        "combined_ht_avg": 1.312
-      },
-      "flags": {
-        "fav_quote": 2.1,
-        "is_gold_zone": false,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 2.1,
-        "open_qx": 3.25,
-        "open_q2": 3.2,
-        "open_o25": 2.1,
-        "curr_q1": 2.1,
-        "curr_qx": 3.25,
-        "curr_q2": 3.2,
-        "curr_o25": 2.1,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.1,
-        "curr_fav_quote": 2.1,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 6.3,
-        "over": 5.4,
-        "boost": 6.136,
-        "gold": 5.542,
-        "max": 6.3
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "Copa De La Liga",
-          "match": "Union La Calera - A. Italiano",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-13",
-          "league": "Primera División",
-          "match": "A. Italiano - Concepción",
-          "ht": "3-0",
-          "ft": "3-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Primera División",
-          "match": "A. Italiano - Colo Colo",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-27",
-          "league": "Primera División",
-          "match": "Union La Calera - A. Italiano",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera División",
-          "match": "A. Italiano - Everton de Vina",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-15",
-          "league": "Primera División",
-          "match": "Nublense - A. Italiano",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-06",
-          "league": "Primera División",
-          "match": "A. Italiano - Universidad de Concepcion",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-30",
-          "league": "Primera División",
-          "match": "Universidad de Chile - A. Italiano",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "Copa De La Liga",
-          "match": "Universidad de Chile - D. La Serena",
-          "ht": "1-2",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera División",
-          "match": "Nublense - D. La Serena",
-          "ht": "1-0",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-06",
-          "league": "Primera División",
-          "match": "D. La Serena - Union La Calera",
-          "ht": "2-0",
-          "ft": "3-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-27",
-          "league": "Primera División",
-          "match": "Cobresal - D. La Serena",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera División",
-          "match": "D. La Serena - Universidad de Concepcion",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Primera División",
-          "match": "D. La Serena - Coquimbo Unido",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Primera División",
-          "match": "O'Higgins - D. La Serena",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-01",
-          "league": "Primera División",
-          "match": "D. La Serena - U. Catolica",
-          "ht": "2-1",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        }
-      ]
-    },
-    "1506056": {
-      "fixture_id": 1506056,
-      "date": "2026-03-26",
-      "time": "02:00",
-      "league": "Primera A",
-      "country": "Colombia",
-      "match": "America de Cali - Llaneros",
-      "home_team": "America de Cali",
-      "away_team": "Llaneros",
-      "markets": {
-        "q1": 1.55,
-        "qx": 3.6,
-        "q2": 6.75,
-        "o25": 2.1,
-        "o05ht": 1.42,
-        "o15ht": 2.88
-      },
-      "averages": {
-        "home_avg_ft": 2.25,
-        "away_avg_ft": 2.375,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.0,
-        "combined_ht_avg": 1.125
-      },
-      "flags": {
-        "fav_quote": 1.55,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.55,
-        "open_qx": 3.6,
-        "open_q2": 6.75,
-        "open_o25": 2.1,
-        "curr_q1": 1.55,
-        "curr_qx": 3.6,
-        "curr_q2": 6.75,
-        "curr_o25": 2.1,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.55,
-        "curr_fav_quote": 1.55,
-        "history_points": 1,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-22T06:54:44"
-      },
-      "scores": {
-        "pt": 4.9,
-        "over": 5.9,
-        "boost": 5.244,
-        "gold": 5.831,
-        "max": 5.9
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-20",
-          "league": "Primera A",
-          "match": "Águilas Doradas - America de Cali",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera A",
-          "match": "America de Cali - Deportes Tolima",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-10",
-          "league": "Primera A",
-          "match": "Deportivo Pasto - America de Cali",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-06",
-          "league": "CONMEBOL Sudamericana",
-          "match": "America de Cali - Bucaramanga",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Primera A",
-          "match": "Alianza Valledupar - America de Cali",
-          "ht": "0-2",
-          "ft": "0-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-23",
-          "league": "Primera A",
-          "match": "America de Cali - Jaguares",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-19",
-          "league": "Primera A",
-          "match": "Junior - America de Cali",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Primera A",
-          "match": "America de Cali - Santa Fe",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-17",
-          "league": "Primera A",
-          "match": "Llaneros - Cucuta",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Primera A",
-          "match": "Atletico Nacional - Llaneros",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-09",
-          "league": "Primera A",
-          "match": "Llaneros - Jaguares",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-05",
-          "league": "Primera A",
-          "match": "Llaneros - Internacional de Bogota",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-20",
-          "league": "Primera A",
-          "match": "Llaneros - Independiente Medellin",
-          "ht": "0-0",
-          "ft": "2-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Primera A",
-          "match": "Millonarios - Llaneros",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-10",
-          "league": "Primera A",
-          "match": "Llaneros - Deportivo Pasto",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Primera A",
-          "match": "Deportes Tolima - Llaneros",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1504909": {
-      "fixture_id": 1504909,
-      "date": "2026-03-26",
-      "time": "02:30",
-      "league": "Primera Division",
-      "country": "El-Salvador",
-      "match": "Hércules - Águila",
-      "home_team": "Hércules",
-      "away_team": "Águila",
-      "markets": {
-        "q1": 5.8,
-        "qx": 4.1,
-        "q2": 1.44,
-        "o25": 1.56,
-        "o05ht": 1.25,
-        "o15ht": 2.28
-      },
-      "averages": {
-        "home_avg_ft": 3.875,
-        "away_avg_ft": 1.75,
-        "home_avg_ht": 1.625,
-        "away_avg_ht": 0.5,
-        "combined_ht_avg": 1.062
-      },
-      "flags": {
-        "fav_quote": 1.44,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.16,
-        "open_q1": 4.6,
-        "open_qx": 4.0,
-        "open_q2": 1.6,
-        "open_o25": 1.75,
-        "curr_q1": 5.8,
-        "curr_qx": 4.1,
-        "curr_q2": 1.44,
-        "curr_o25": 1.56,
-        "drop_q1": -1.2,
-        "drop_qx": -0.1,
-        "drop_q2": 0.16,
-        "drop_o25": 0.19,
-        "drop_last_q1": -0.55,
-        "drop_last_qx": -0.25,
-        "drop_last_q2": 0.09,
-        "drop_last_o25": 0.06,
-        "drop_side": "2",
-        "drop_strength": "medium",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 1.6,
-        "curr_fav_quote": 1.44,
-        "history_points": 3,
-        "first_seen_at": "2026-03-19T14:19:17",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 3.7,
-        "over": 4.4,
-        "boost": 4.268,
-        "gold": 4.785,
-        "max": 4.785
-      },
-      "tags": [
-        "⚽ OVER",
-        "🐟O",
-        "DROP_2",
-        "O25_DROP",
-        "DROP_2_MED"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-19",
-          "league": "Primera Division",
-          "match": "FAS - Hércules",
-          "ht": "1-0",
-          "ft": "4-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera Division",
-          "match": "Hércules - Fuerte San Francisco",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-08",
-          "league": "Primera Division",
-          "match": "Isidro Metapán - Hércules",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-01",
-          "league": "Primera Division",
-          "match": "Hércules - Platense",
-          "ht": "0-1",
-          "ft": "0-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera Division",
-          "match": "Firpo - Hércules",
-          "ht": "1-2",
-          "ft": "3-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-18",
-          "league": "Primera Division",
-          "match": "Hércules - Cacahuatique",
-          "ht": "0-2",
-          "ft": "1-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Primera Division",
-          "match": "Inter - Hércules",
-          "ht": "2-1",
-          "ft": "3-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-08",
-          "league": "Primera Division",
-          "match": "Hércules - Alianza",
-          "ht": "0-3",
-          "ft": "1-4",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-18",
-          "league": "Primera Division",
-          "match": "Águila - Isidro Metapán",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera Division",
-          "match": "Platense - Águila",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-12",
-          "league": "Copa Presidente",
-          "match": "Racing de Gualuca - Águila",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-08",
-          "league": "Primera Division",
-          "match": "Firpo - Águila",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-01",
-          "league": "Primera Division",
-          "match": "Águila - Cacahuatique",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-26",
-          "league": "Copa Presidente",
-          "match": "Fuerte San Francisco - Águila",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera Division",
-          "match": "Inter - Águila",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-19",
-          "league": "Primera Division",
-          "match": "Águila - Alianza",
-          "ht": "0-0",
-          "ft": "0-3",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1487922": {
-      "fixture_id": 1487922,
-      "date": "2026-03-26",
-      "time": "18:00",
-      "league": "World Cup - Qualification Europe",
-      "country": "World",
-      "match": "Türkiye - Romania",
-      "home_team": "Türkiye",
-      "away_team": "Romania",
-      "markets": {
-        "q1": 1.44,
-        "qx": 4.3,
-        "q2": 7.0,
-        "o25": 1.7,
-        "o05ht": 1.3,
-        "o15ht": 2.4
-      },
-      "averages": {
-        "home_avg_ft": 4.125,
-        "away_avg_ft": 3.5,
-        "home_avg_ht": 2.125,
-        "away_avg_ht": 1.875,
-        "combined_ht_avg": 2.0
-      },
-      "flags": {
-        "fav_quote": 1.44,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.07,
-        "open_q1": 1.51,
-        "open_qx": 4.3,
-        "open_q2": 5.75,
-        "open_o25": 1.7,
-        "curr_q1": 1.44,
-        "curr_qx": 4.3,
-        "curr_q2": 7.0,
-        "curr_o25": 1.7,
-        "drop_q1": 0.07,
-        "drop_qx": 0.0,
-        "drop_q2": -1.25,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.07,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": -1.25,
-        "drop_last_o25": 0.0,
-        "drop_side": "1",
-        "drop_strength": "light",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.51,
-        "curr_fav_quote": 1.44,
-        "history_points": 2,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 4.9,
-        "over": 5.4,
-        "boost": 6.454,
-        "gold": 6.542,
-        "max": 6.542
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O",
-        "DROP_1"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Spain - Türkiye",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-11-15",
-          "league": "World Cup - Qualification Europe",
-          "match": "Türkiye - Bulgaria",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Türkiye - Georgia",
-          "ht": "3-0",
-          "ft": "4-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-11",
-          "league": "World Cup - Qualification Europe",
-          "match": "Bulgaria - Türkiye",
-          "ht": "1-1",
-          "ft": "1-6",
-          "total_ht_goals": 2,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2025-09-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Türkiye - Spain",
-          "ht": "0-3",
-          "ft": "0-6",
-          "total_ht_goals": 3,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification Europe",
-          "match": "Georgia - Türkiye",
-          "ht": "0-2",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-06-11",
-          "league": "Friendlies",
-          "match": "Mexico - Türkiye",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-07",
-          "league": "Friendlies",
-          "match": "USA - Türkiye",
-          "ht": "1-2",
-          "ft": "1-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Romania - San Marino",
-          "ht": "3-1",
-          "ft": "7-1",
-          "total_ht_goals": 4,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2025-11-15",
-          "league": "World Cup - Qualification Europe",
-          "match": "Bosnia & Herzegovina - Romania",
-          "ht": "0-1",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-12",
-          "league": "World Cup - Qualification Europe",
-          "match": "Romania - Austria",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-09",
-          "league": "Friendlies",
-          "match": "Romania - Moldova",
-          "ht": "2-1",
-          "ft": "2-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Cyprus - Romania",
-          "ht": "1-2",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-05",
-          "league": "Friendlies",
-          "match": "Romania - Canada",
-          "ht": "0-2",
-          "ft": "0-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-07-08",
-          "league": "Friendlies Clubs",
-          "match": "Broadfields United - Romania",
-          "ht": "None-None",
-          "ft": "2-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-06-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Romania - Cyprus",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1487923": {
-      "fixture_id": 1487923,
-      "date": "2026-03-26",
-      "time": "20:45",
-      "league": "World Cup - Qualification Europe",
-      "country": "World",
-      "match": "Czech Republic - Rep. Of Ireland",
-      "home_team": "Czech Republic",
-      "away_team": "Rep. Of Ireland",
-      "markets": {
-        "q1": 1.9,
-        "qx": 3.45,
-        "q2": 3.95,
-        "o25": 2.1,
-        "o05ht": 1.42,
-        "o15ht": 2.95
-      },
-      "averages": {
-        "home_avg_ft": 2.75,
-        "away_avg_ft": 2.25,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.125,
-        "combined_ht_avg": 1.188
-      },
-      "flags": {
-        "fav_quote": 1.9,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.05,
-        "open_q1": 1.95,
-        "open_qx": 3.35,
-        "open_q2": 3.9,
-        "open_o25": 2.1,
-        "curr_q1": 1.9,
-        "curr_qx": 3.45,
-        "curr_q2": 3.95,
-        "curr_o25": 2.1,
-        "drop_q1": 0.05,
-        "drop_qx": -0.1,
-        "drop_q2": -0.05,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.05,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.05,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.9,
-        "history_points": 2,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.9,
-        "over": 5.5,
-        "boost": 5.782,
-        "gold": 6.214,
-        "max": 6.214
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Czech Republic - Gibraltar",
-          "ht": "5-0",
-          "ft": "6-0",
-          "total_ht_goals": 5,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-11-13",
-          "league": "Friendlies",
-          "match": "Czech Republic - San Marino",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-12",
-          "league": "World Cup - Qualification Europe",
-          "match": "Faroe Islands - Czech Republic",
-          "ht": "0-0",
-          "ft": "2-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-10-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Czech Republic - Croatia",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-09-08",
-          "league": "Friendlies",
-          "match": "Czech Republic - Saudi Arabia",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Montenegro - Czech Republic",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Croatia - Czech Republic",
-          "ht": "1-0",
-          "ft": "5-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-06-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "Czech Republic - Montenegro",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-16",
-          "league": "World Cup - Qualification Europe",
-          "match": "Hungary - Rep. Of Ireland",
-          "ht": "2-1",
-          "ft": "2-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-11-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Rep. Of Ireland - Portugal",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Rep. Of Ireland - Armenia",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-11",
-          "league": "World Cup - Qualification Europe",
-          "match": "Portugal - Rep. Of Ireland",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Armenia - Rep. Of Ireland",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "Rep. Of Ireland - Hungary",
-          "ht": "0-2",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "Luxembourg - Rep. Of Ireland",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-06-06",
-          "league": "Friendlies",
-          "match": "Rep. Of Ireland - Senegal",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1487924": {
-      "fixture_id": 1487924,
-      "date": "2026-03-26",
-      "time": "20:45",
-      "league": "World Cup - Qualification Europe",
-      "country": "World",
-      "match": "Denmark - FYR Macedonia",
-      "home_team": "Denmark",
-      "away_team": "FYR Macedonia",
-      "markets": {
-        "q1": 1.3,
-        "qx": 5.1,
-        "q2": 9.7,
-        "o25": 1.65,
-        "o05ht": 1.3,
-        "o15ht": 2.4
-      },
-      "averages": {
-        "home_avg_ft": 3.875,
-        "away_avg_ft": 2.625,
-        "home_avg_ht": 1.875,
-        "away_avg_ht": 1.125,
-        "combined_ht_avg": 1.5
-      },
-      "flags": {
-        "fav_quote": 1.3,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.3,
-        "open_qx": 5.1,
-        "open_q2": 9.7,
-        "open_o25": 1.65,
-        "curr_q1": 1.3,
-        "curr_qx": 5.1,
-        "curr_q2": 9.7,
-        "curr_o25": 1.65,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.3,
-        "curr_fav_quote": 1.3,
-        "history_points": 1,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-22T06:54:44"
-      },
-      "scores": {
-        "pt": 6.0,
-        "over": 5.0,
-        "boost": 6.68,
-        "gold": 5.541,
-        "max": 6.68
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Scotland - Denmark",
-          "ht": "1-0",
-          "ft": "4-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-11-15",
-          "league": "World Cup - Qualification Europe",
-          "match": "Denmark - Belarus",
-          "ht": "1-0",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-12",
-          "league": "World Cup - Qualification Europe",
-          "match": "Denmark - Greece",
-          "ht": "3-0",
-          "ft": "3-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Belarus - Denmark",
-          "ht": "0-4",
-          "ft": "0-6",
-          "total_ht_goals": 4,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-09-08",
-          "league": "World Cup - Qualification Europe",
-          "match": "Greece - Denmark",
-          "ht": "0-1",
-          "ft": "0-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Denmark - Scotland",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "Denmark - Lithuania",
-          "ht": "3-0",
-          "ft": "5-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-06-07",
-          "league": "Friendlies",
-          "match": "Denmark - Northern Ireland",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Wales - FYR Macedonia",
-          "ht": "3-1",
-          "ft": "7-1",
-          "total_ht_goals": 4,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2025-11-13",
-          "league": "Friendlies",
-          "match": "FYR Macedonia - Latvia",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "FYR Macedonia - Kazakhstan",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Belgium - FYR Macedonia",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-09-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "FYR Macedonia - Liechtenstein",
-          "ht": "1-0",
-          "ft": "5-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-09-04",
-          "league": "Friendlies",
-          "match": "Saudi Arabia - FYR Macedonia",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-06-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Kazakhstan - FYR Macedonia",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "FYR Macedonia - Belgium",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1487925": {
-      "fixture_id": 1487925,
-      "date": "2026-03-26",
-      "time": "20:45",
-      "league": "World Cup - Qualification Europe",
-      "country": "World",
-      "match": "Italy - Northern Ireland",
-      "home_team": "Italy",
-      "away_team": "Northern Ireland",
-      "markets": {
-        "q1": 1.29,
-        "qx": 4.7,
-        "q2": 12.5,
-        "o25": 1.8,
-        "o05ht": 1.33,
-        "o15ht": 2.45
-      },
-      "averages": {
-        "home_avg_ft": 4.125,
-        "away_avg_ft": 2.125,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.25,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 1.29,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 1.29,
-        "open_qx": 4.7,
-        "open_q2": 12.5,
-        "open_o25": 1.8,
-        "curr_q1": 1.29,
-        "curr_qx": 4.7,
-        "curr_q2": 12.5,
-        "curr_o25": 1.8,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.29,
-        "curr_fav_quote": 1.29,
-        "history_points": 1,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-22T06:54:44"
-      },
-      "scores": {
-        "pt": 7.6,
-        "over": 5.0,
-        "boost": 7.088,
-        "gold": 6.032,
-        "max": 7.6
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-16",
-          "league": "World Cup - Qualification Europe",
-          "match": "Italy - Norway",
-          "ht": "1-0",
-          "ft": "1-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-11-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Moldova - Italy",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Italy - Israel",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-10-11",
-          "league": "World Cup - Qualification Europe",
-          "match": "Estonia - Italy",
-          "ht": "0-2",
-          "ft": "1-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-08",
-          "league": "World Cup - Qualification Europe",
-          "match": "Israel - Italy",
-          "ht": "1-1",
-          "ft": "4-5",
-          "total_ht_goals": 2,
-          "total_ft_goals": 9
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Italy - Estonia",
-          "ht": "0-0",
-          "ft": "5-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-06-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Italy - Moldova",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "Norway - Italy",
-          "ht": "3-0",
-          "ft": "3-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Northern Ireland - Luxembourg",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-11-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovakia - Northern Ireland",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Northern Ireland - Germany",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Northern Ireland - Slovakia",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Germany - Northern Ireland",
-          "ht": "1-1",
-          "ft": "3-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification Europe",
-          "match": "Luxembourg - Northern Ireland",
-          "ht": "1-1",
-          "ft": "1-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "Northern Ireland - Iceland",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-07",
-          "league": "Friendlies",
-          "match": "Denmark - Northern Ireland",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        }
-      ]
-    },
-    "1487927": {
-      "fixture_id": 1487927,
-      "date": "2026-03-26",
-      "time": "20:45",
-      "league": "World Cup - Qualification Europe",
-      "country": "World",
-      "match": "Slovakia - Kosovo",
-      "home_team": "Slovakia",
-      "away_team": "Kosovo",
-      "markets": {
-        "q1": 1.97,
-        "qx": 3.25,
-        "q2": 3.95,
-        "o25": 2.25,
-        "o05ht": 1.42,
-        "o15ht": 2.9
-      },
-      "averages": {
-        "home_avg_ft": 2.5,
-        "away_avg_ft": 3.0,
-        "home_avg_ht": 1.0,
-        "away_avg_ht": 1.625,
-        "combined_ht_avg": 1.312
-      },
-      "flags": {
-        "fav_quote": 1.97,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.97,
-        "open_qx": 3.25,
-        "open_q2": 3.95,
-        "open_o25": 2.25,
-        "curr_q1": 1.97,
-        "curr_qx": 3.25,
-        "curr_q2": 3.95,
-        "curr_o25": 2.25,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.97,
-        "curr_fav_quote": 1.97,
-        "history_points": 1,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-22T06:54:44"
-      },
-      "scores": {
-        "pt": 4.5,
-        "over": 5.8,
-        "boost": 5.944,
-        "gold": 5.201,
-        "max": 5.944
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Germany - Slovakia",
-          "ht": "4-0",
-          "ft": "6-0",
-          "total_ht_goals": 4,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-11-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovakia - Northern Ireland",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovakia - Luxembourg",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Northern Ireland - Slovakia",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Luxembourg - Slovakia",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovakia - Germany",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "Israel - Slovakia",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-07",
-          "league": "Friendlies",
-          "match": "Greece - Slovakia",
-          "ht": "1-1",
-          "ft": "4-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Kosovo - Switzerland",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-15",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovenia - Kosovo",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Sweden - Kosovo",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Kosovo - Slovenia",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-09-08",
-          "league": "World Cup - Qualification Europe",
-          "match": "Kosovo - Sweden",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Switzerland - Kosovo",
-          "ht": "4-0",
-          "ft": "4-0",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-06-09",
-          "league": "Friendlies",
-          "match": "Kosovo - Comoros",
-          "ht": "1-1",
-          "ft": "4-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-06-06",
-          "league": "Friendlies",
-          "match": "Kosovo - Armenia",
-          "ht": "1-2",
-          "ft": "5-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 7
-        }
-      ]
-    },
-    "1487928": {
-      "fixture_id": 1487928,
-      "date": "2026-03-26",
-      "time": "20:45",
-      "league": "World Cup - Qualification Europe",
-      "country": "World",
-      "match": "Ukraine - Sweden",
-      "home_team": "Ukraine",
-      "away_team": "Sweden",
-      "markets": {
-        "q1": 2.8,
-        "qx": 3.15,
-        "q2": 2.52,
-        "o25": 2.1,
-        "o05ht": 1.38,
-        "o15ht": 2.65
-      },
-      "averages": {
-        "home_avg_ft": 3.75,
-        "away_avg_ft": 3.125,
-        "home_avg_ht": 1.25,
-        "away_avg_ht": 1.0,
-        "combined_ht_avg": 1.125
-      },
-      "flags": {
-        "fav_quote": 2.52,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 2.8,
-        "open_qx": 3.15,
-        "open_q2": 2.52,
-        "open_o25": 2.1,
-        "curr_q1": 2.8,
-        "curr_qx": 3.15,
-        "curr_q2": 2.52,
-        "curr_o25": 2.1,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 2.52,
-        "curr_fav_quote": 2.52,
-        "history_points": 2,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 5.8,
-        "over": 4.7,
-        "boost": 5.21,
-        "gold": 4.457,
-        "max": 5.8
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-16",
-          "league": "World Cup - Qualification Europe",
-          "match": "Ukraine - Iceland",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "France - Ukraine",
-          "ht": "0-0",
-          "ft": "4-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Ukraine - Azerbaijan",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Iceland - Ukraine",
-          "ht": "1-3",
-          "ft": "3-5",
-          "total_ht_goals": 4,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Azerbaijan - Ukraine",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Ukraine - France",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "New Zealand - Ukraine",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-06-07",
-          "league": "Friendlies",
-          "match": "Canada - Ukraine",
-          "ht": "3-0",
-          "ft": "4-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 6
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Sweden - Slovenia",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-15",
-          "league": "World Cup - Qualification Europe",
-          "match": "Switzerland - Sweden",
-          "ht": "1-1",
-          "ft": "4-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Sweden - Kosovo",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Sweden - Switzerland",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-08",
-          "league": "World Cup - Qualification Europe",
-          "match": "Kosovo - Sweden",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovenia - Sweden",
-          "ht": "0-1",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "Sweden - Algeria",
-          "ht": "2-0",
-          "ft": "4-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2025-06-06",
-          "league": "Friendlies",
-          "match": "Hungary - Sweden",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        }
-      ]
-    },
-    "1487929": {
-      "fixture_id": 1487929,
-      "date": "2026-03-26",
-      "time": "20:45",
-      "league": "World Cup - Qualification Europe",
-      "country": "World",
-      "match": "Wales - Bosnia & Herzegovina",
-      "home_team": "Wales",
-      "away_team": "Bosnia & Herzegovina",
-      "markets": {
-        "q1": 1.9,
-        "qx": 3.3,
-        "q2": 4.1,
-        "o25": 2.1,
-        "o05ht": 1.42,
-        "o15ht": 2.88
-      },
-      "averages": {
-        "home_avg_ft": 3.75,
-        "away_avg_ft": 3.5,
-        "home_avg_ht": 2.125,
-        "away_avg_ht": 0.875,
-        "combined_ht_avg": 1.5
-      },
-      "flags": {
-        "fav_quote": 1.9,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.1,
-        "open_q1": 1.87,
-        "open_qx": 3.35,
-        "open_q2": 4.2,
-        "open_o25": 2.1,
-        "curr_q1": 1.9,
-        "curr_qx": 3.3,
-        "curr_q2": 4.1,
-        "curr_o25": 2.1,
-        "drop_q1": -0.03,
-        "drop_qx": 0.05,
-        "drop_q2": 0.1,
-        "drop_o25": 0.0,
-        "drop_last_q1": -0.03,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": 0.1,
-        "drop_last_o25": 0.0,
-        "drop_side": "2",
-        "drop_strength": "light",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.87,
-        "curr_fav_quote": 1.9,
-        "history_points": 2,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 3.5,
-        "over": 6.2,
-        "boost": 5.206,
-        "gold": 5.7,
-        "max": 6.2
-      },
-      "tags": [
-        "⚽ OVER",
-        "DROP_2"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Wales - FYR Macedonia",
-          "ht": "3-1",
-          "ft": "7-1",
-          "total_ht_goals": 4,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2025-11-15",
-          "league": "World Cup - Qualification Europe",
-          "match": "Liechtenstein - Wales",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Wales - Belgium",
-          "ht": "1-2",
-          "ft": "2-4",
-          "total_ht_goals": 3,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-10-09",
-          "league": "Friendlies",
-          "match": "England - Wales",
-          "ht": "3-0",
-          "ft": "3-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-09",
-          "league": "Friendlies",
-          "match": "Wales - Canada",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification Europe",
-          "match": "Kazakhstan - Wales",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Belgium - Wales",
-          "ht": "3-1",
-          "ft": "4-3",
-          "total_ht_goals": 4,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2025-06-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "Wales - Liechtenstein",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "World Cup - Qualification Europe",
-          "match": "Austria - Bosnia & Herzegovina",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-15",
-          "league": "World Cup - Qualification Europe",
-          "match": "Bosnia & Herzegovina - Romania",
-          "ht": "0-1",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-12",
-          "league": "Friendlies",
-          "match": "Malta - Bosnia & Herzegovina",
-          "ht": "0-1",
-          "ft": "1-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Cyprus - Bosnia & Herzegovina",
-          "ht": "1-2",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Bosnia & Herzegovina - Austria",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "San Marino - Bosnia & Herzegovina",
-          "ht": "0-1",
-          "ft": "0-6",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "Slovenia - Bosnia & Herzegovina",
-          "ht": "0-0",
-          "ft": "2-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-06-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Bosnia & Herzegovina - San Marino",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1501815": {
-      "fixture_id": 1501815,
-      "date": "2026-03-26",
-      "time": "21:00",
-      "league": "Friendlies",
-      "country": "World",
-      "match": "Brazil - France",
-      "home_team": "Brazil",
-      "away_team": "France",
-      "markets": {
-        "q1": 2.96,
-        "qx": 3.6,
-        "q2": 2.2,
-        "o25": 1.62,
-        "o05ht": 1.28,
-        "o15ht": 2.3
-      },
-      "averages": {
-        "home_avg_ft": 2.375,
-        "away_avg_ft": 3.875,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 1.5,
-        "combined_ht_avg": 1.438
-      },
-      "flags": {
-        "fav_quote": 2.2,
-        "is_gold_zone": false,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.05,
-        "open_q1": 2.94,
-        "open_qx": 3.65,
-        "open_q2": 2.2,
-        "open_o25": 1.62,
-        "curr_q1": 2.96,
-        "curr_qx": 3.6,
-        "curr_q2": 2.2,
-        "curr_o25": 1.62,
-        "drop_q1": -0.02,
-        "drop_qx": 0.05,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": -0.02,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 2.2,
-        "curr_fav_quote": 2.2,
-        "history_points": 2,
-        "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 7.6,
-        "over": 5.4,
-        "boost": 7.48,
-        "gold": 6.285,
-        "max": 7.6
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-18",
-          "league": "Friendlies",
-          "match": "Brazil - Tunisia",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-11-15",
-          "league": "Friendlies",
-          "match": "Brazil - Senegal",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-14",
-          "league": "Friendlies",
-          "match": "Japan - Brazil",
-          "ht": "0-2",
-          "ft": "3-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-10",
-          "league": "Friendlies",
-          "match": "South Korea - Brazil",
-          "ht": "0-2",
-          "ft": "0-5",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification South America",
-          "match": "Bolivia - Brazil",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification South America",
-          "match": "Brazil - Chile",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-06-11",
-          "league": "World Cup - Qualification South America",
-          "match": "Brazil - Paraguay",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-05",
-          "league": "World Cup - Qualification South America",
-          "match": "Ecuador - Brazil",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-16",
-          "league": "World Cup - Qualification Europe",
-          "match": "Azerbaijan - France",
-          "ht": "1-3",
-          "ft": "1-3",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-11-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "France - Ukraine",
-          "ht": "0-0",
-          "ft": "4-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Iceland - France",
-          "ht": "1-0",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "France - Azerbaijan",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "France - Iceland",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-09-05",
-          "league": "World Cup - Qualification Europe",
-          "match": "Ukraine - France",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-08",
-          "league": "UEFA Nations League",
-          "match": "Germany - France",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-05",
-          "league": "UEFA Nations League",
-          "match": "Spain - France",
-          "ht": "2-0",
-          "ft": "5-4",
-          "total_ht_goals": 2,
-          "total_ft_goals": 9
-        }
-      ]
-    },
-    "1535574": {
-      "fixture_id": 1535574,
-      "date": "2026-03-26",
-      "time": "22:00",
-      "league": "Copa De La Liga",
-      "country": "Chile",
-      "match": "Deportes Limache - Palestino",
-      "home_team": "Deportes Limache",
-      "away_team": "Palestino",
-      "markets": {
-        "q1": 2.0,
-        "qx": 3.4,
-        "q2": 3.5,
-        "o25": 1.7,
-        "o05ht": 1.3,
-        "o15ht": 2.5
-      },
-      "averages": {
-        "home_avg_ft": 3.25,
-        "away_avg_ft": 3.125,
-        "home_avg_ht": 1.5,
-        "away_avg_ht": 0.875,
-        "combined_ht_avg": 1.188
-      },
-      "flags": {
-        "fav_quote": 2.0,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 2.0,
-        "open_qx": 3.4,
-        "open_q2": 3.5,
-        "open_o25": 1.7,
-        "curr_q1": 2.0,
-        "curr_qx": 3.4,
-        "curr_q2": 3.5,
-        "curr_o25": 1.7,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.0,
-        "curr_fav_quote": 2.0,
-        "history_points": 1,
-        "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-23T07:04:57"
-      },
-      "scores": {
-        "pt": 4.4,
-        "over": 5.9,
-        "boost": 5.954,
-        "gold": 5.212,
-        "max": 5.954
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-22",
-          "league": "Copa De La Liga",
-          "match": "O'Higgins - Deportes Limache",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-15",
-          "league": "Primera División",
-          "match": "Cobresal - Deportes Limache",
-          "ht": "0-3",
-          "ft": "2-5",
-          "total_ht_goals": 3,
-          "total_ft_goals": 7
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Primera División",
-          "match": "Everton de Vina - Deportes Limache",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Primera División",
-          "match": "Deportes Limache - Huachipato",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera División",
-          "match": "Universidad de Chile - Deportes Limache",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Primera División",
-          "match": "Deportes Limache - O'Higgins",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-08",
-          "league": "Primera División",
-          "match": "Nublense - Deportes Limache",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Primera División",
-          "match": "Deportes Limache - Colo Colo",
-          "ht": "3-0",
-          "ft": "3-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-15",
-          "league": "Primera División",
-          "match": "Universidad de Concepcion - Palestino",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-08",
-          "league": "Primera División",
-          "match": "Palestino - Cobresal",
-          "ht": "1-0",
-          "ft": "4-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-03-05",
-          "league": "CONMEBOL Sudamericana",
-          "match": "Universidad de Chile - Palestino",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Primera División",
-          "match": "Palestino - O'Higgins",
-          "ht": "1-1",
-          "ft": "4-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Primera División",
-          "match": "Huachipato - Palestino",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-13",
-          "league": "Primera División",
-          "match": "Palestino - Universidad de Chile",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Primera División",
-          "match": "Coquimbo Unido - Palestino",
-          "ht": "2-0",
-          "ft": "3-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-01",
-          "league": "Primera División",
-          "match": "Palestino - Nublense",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        }
-      ]
     }
-  }
 }
