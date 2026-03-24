@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-24 06:55:42",
-  "day": 3,
+  "updated_at": "2026-03-23 22:03:42",
+  "day": 4,
   "date": "2026-03-26",
   "details": {
     "1493431": {
@@ -13,11 +13,11 @@
       "home_team": "Lexington",
       "away_team": "Brooklyn",
       "markets": {
-        "q1": 1.6,
-        "qx": 3.65,
-        "q2": 5.0,
-        "o25": 1.93,
-        "o05ht": 1.38,
+        "q1": 1.67,
+        "qx": 3.4,
+        "q2": 4.5,
+        "o25": 2.1,
+        "o05ht": 1.36,
         "o15ht": 2.75
       },
       "averages": {
@@ -28,54 +28,53 @@
         "combined_ht_avg": 1.562
       },
       "flags": {
-        "fav_quote": 1.6,
+        "fav_quote": 1.67,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.07,
+        "drop_diff": 0.0,
         "open_q1": 1.67,
         "open_qx": 3.4,
         "open_q2": 4.5,
         "open_o25": 2.1,
-        "curr_q1": 1.6,
-        "curr_qx": 3.65,
-        "curr_q2": 5.0,
-        "curr_o25": 1.93,
-        "drop_q1": 0.07,
-        "drop_qx": -0.25,
-        "drop_q2": -0.5,
-        "drop_o25": 0.17,
-        "drop_last_q1": 0.07,
-        "drop_last_qx": -0.25,
-        "drop_last_q2": -0.5,
-        "drop_last_o25": 0.17,
-        "drop_side": "1",
-        "drop_strength": "light",
+        "curr_q1": 1.67,
+        "curr_qx": 3.4,
+        "curr_q2": 4.5,
+        "curr_o25": 2.1,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.67,
-        "curr_fav_quote": 1.6,
-        "history_points": 2,
+        "curr_fav_quote": 1.67,
+        "history_points": 1,
         "first_seen_at": "2026-03-23T22:03:50",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T22:03:50"
       },
       "scores": {
         "pt": 6.8,
         "over": 5.4,
-        "boost": 6.826,
-        "gold": 7.087,
-        "max": 7.087
+        "boost": 7.176,
+        "gold": 7.206,
+        "max": 7.206
       },
       "tags": [
         "⚽⭐ GOLD",
         "🎯PT",
         "⚽ OVER",
-        "🐟O",
-        "DROP_1",
-        "O25_DROP"
+        "🚀 BOOST",
+        "🐟O"
       ],
       "home_last_8": [
         {
@@ -422,12 +421,12 @@
       "home_team": "Sporting JAX",
       "away_team": "Miami FC",
       "markets": {
-        "q1": 2.7,
-        "qx": 3.25,
-        "q2": 2.38,
-        "o25": 1.95,
-        "o05ht": 1.38,
-        "o15ht": 2.75
+        "q1": 2.5,
+        "qx": 3.1,
+        "q2": 2.5,
+        "o25": 2.1,
+        "o05ht": 1.35,
+        "o15ht": 2.7
       },
       "averages": {
         "home_avg_ft": 2.5,
@@ -437,56 +436,51 @@
         "combined_ht_avg": 1.062
       },
       "flags": {
-        "fav_quote": 2.38,
+        "fav_quote": 2.5,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 0.12,
+        "drop_diff": 0.0,
         "open_q1": 2.5,
         "open_qx": 3.1,
         "open_q2": 2.5,
         "open_o25": 2.1,
-        "curr_q1": 2.7,
-        "curr_qx": 3.25,
-        "curr_q2": 2.38,
-        "curr_o25": 1.95,
-        "drop_q1": -0.2,
-        "drop_qx": -0.15,
-        "drop_q2": 0.12,
-        "drop_o25": 0.15,
-        "drop_last_q1": -0.2,
-        "drop_last_qx": -0.15,
-        "drop_last_q2": 0.12,
-        "drop_last_o25": 0.15,
-        "drop_side": "2",
-        "drop_strength": "medium",
-        "inversion": true,
+        "curr_q1": 2.5,
+        "curr_qx": 3.1,
+        "curr_q2": 2.5,
+        "curr_o25": 2.1,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
         "inversion_from": "1",
-        "inversion_to": "2",
+        "inversion_to": "1",
         "open_fav_side": "1",
-        "curr_fav_side": "2",
+        "curr_fav_side": "1",
         "open_fav_quote": 2.5,
-        "curr_fav_quote": 2.38,
-        "history_points": 2,
+        "curr_fav_quote": 2.5,
+        "history_points": 1,
         "first_seen_at": "2026-03-23T22:03:50",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T22:03:50"
       },
       "scores": {
         "pt": 4.9,
         "over": 4.8,
-        "boost": 4.916,
-        "gold": 4.189,
-        "max": 4.916
+        "boost": 5.266,
+        "gold": 4.308,
+        "max": 5.266
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🐟G",
-        "DROP_2",
-        "O25_DROP",
-        "INVERSION",
-        "INV_1_TO_2",
-        "DROP_2_MED"
+        "🐟G"
       ],
       "home_last_8": [
         {
@@ -647,12 +641,12 @@
       "home_team": "A. Italiano",
       "away_team": "D. La Serena",
       "markets": {
-        "q1": 2.1,
-        "qx": 3.2,
-        "q2": 3.2,
-        "o25": 2.05,
-        "o05ht": 1.42,
-        "o15ht": 2.9
+        "q1": 2.0,
+        "qx": 3.3,
+        "q2": 3.1,
+        "o25": 2.1,
+        "o05ht": 1.4,
+        "o15ht": 2.75
       },
       "averages": {
         "home_avg_ft": 1.625,
@@ -662,51 +656,53 @@
         "combined_ht_avg": 1.312
       },
       "flags": {
-        "fav_quote": 2.1,
+        "fav_quote": 2.0,
         "is_gold_zone": false,
         "home_last_2h_zero": true,
         "away_last_2h_zero": false,
-        "drop_diff": 0.05,
+        "drop_diff": 0.1,
         "open_q1": 2.1,
         "open_qx": 3.25,
         "open_q2": 3.2,
         "open_o25": 2.1,
-        "curr_q1": 2.1,
-        "curr_qx": 3.2,
-        "curr_q2": 3.2,
-        "curr_o25": 2.05,
-        "drop_q1": 0.0,
-        "drop_qx": 0.05,
-        "drop_q2": 0.0,
-        "drop_o25": 0.05,
-        "drop_last_q1": -0.1,
-        "drop_last_qx": 0.1,
-        "drop_last_q2": -0.1,
-        "drop_last_o25": 0.05,
-        "drop_side": "",
-        "drop_strength": "none",
+        "curr_q1": 2.0,
+        "curr_qx": 3.3,
+        "curr_q2": 3.1,
+        "curr_o25": 2.1,
+        "drop_q1": 0.1,
+        "drop_qx": -0.05,
+        "drop_q2": 0.1,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.1,
+        "drop_last_qx": -0.05,
+        "drop_last_q2": 0.1,
+        "drop_last_o25": 0.0,
+        "drop_side": "1",
+        "drop_strength": "light",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 2.1,
-        "curr_fav_quote": 2.1,
-        "history_points": 3,
+        "curr_fav_quote": 2.0,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T22:03:50"
       },
       "scores": {
-        "pt": 6.3,
+        "pt": 7.2,
         "over": 5.4,
-        "boost": 6.136,
-        "gold": 5.542,
-        "max": 6.3
+        "boost": 6.478,
+        "gold": 5.857,
+        "max": 7.2
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🐟G"
+        "🐟G",
+        "DROP_1",
+        "DROP_2"
       ],
       "home_last_8": [
         {
@@ -854,227 +850,6 @@
           "ft": "2-2",
           "total_ht_goals": 3,
           "total_ft_goals": 4
-        }
-      ]
-    },
-    "1493378": {
-      "fixture_id": 1493378,
-      "date": "2026-03-26",
-      "time": "02:00",
-      "league": "Liga MX Femenil",
-      "country": "Mexico",
-      "match": "Tigres UANL W - América W",
-      "home_team": "Tigres UANL W",
-      "away_team": "América W",
-      "markets": {
-        "q1": 2.5,
-        "qx": 3.25,
-        "q2": 2.45,
-        "o25": 1.85,
-        "o05ht": 1.36,
-        "o15ht": 2.75
-      },
-      "averages": {
-        "home_avg_ft": 3.25,
-        "away_avg_ft": 3.375,
-        "home_avg_ht": 2.0,
-        "away_avg_ht": 1.75,
-        "combined_ht_avg": 1.875
-      },
-      "flags": {
-        "fav_quote": 2.45,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 2.5,
-        "open_qx": 3.25,
-        "open_q2": 2.45,
-        "open_o25": 1.85,
-        "curr_q1": 2.5,
-        "curr_qx": 3.25,
-        "curr_q2": 2.45,
-        "curr_o25": 1.85,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 2.45,
-        "curr_fav_quote": 2.45,
-        "history_points": 1,
-        "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-24T07:00:29"
-      },
-      "scores": {
-        "pt": 6.5,
-        "over": 5.8,
-        "boost": 7.254,
-        "gold": 6.086,
-        "max": 7.254
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-22",
-          "league": "Liga MX Femenil",
-          "match": "Atlético San Luis W - Tigres UANL W",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-16",
-          "league": "Liga MX Femenil",
-          "match": "Tigres UANL W - Querétaro W",
-          "ht": "3-0",
-          "ft": "6-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-03-13",
-          "league": "Liga MX Femenil",
-          "match": "Tigres UANL W - Santos Laguna W",
-          "ht": "2-1",
-          "ft": "4-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Liga MX Femenil",
-          "match": "Pumas UNAM W - Tigres UANL W",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-17",
-          "league": "Liga MX Femenil",
-          "match": "Mazatlán W - Tigres UANL W",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-14",
-          "league": "Liga MX Femenil",
-          "match": "Tigres UANL W - Puebla W",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-10",
-          "league": "Liga MX Femenil",
-          "match": "Tigres UANL W - Juárez W",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-06",
-          "league": "Liga MX Femenil",
-          "match": "Tigres UANL W - Cruz Azul W",
-          "ht": "3-2",
-          "ft": "4-2",
-          "total_ht_goals": 5,
-          "total_ft_goals": 6
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-22",
-          "league": "Liga MX Femenil",
-          "match": "Puebla W - América W",
-          "ht": "0-3",
-          "ft": "0-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-17",
-          "league": "Liga MX Femenil",
-          "match": "América W - Toluca W",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Liga MX Femenil",
-          "match": "América W - León W",
-          "ht": "2-1",
-          "ft": "4-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-03-11",
-          "league": "Liga MX Femenil",
-          "match": "Guadalajara W - América W",
-          "ht": "0-0",
-          "ft": "3-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Friendlies Women",
-          "match": "América W - Venezuela W",
-          "ht": "1-2",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-16",
-          "league": "Liga MX Femenil",
-          "match": "América W - Monterrey W",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-09",
-          "league": "Liga MX Femenil",
-          "match": "Cruz Azul W - América W",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-06",
-          "league": "Liga MX Femenil",
-          "match": "Juárez W - América W",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
         }
       ]
     },
@@ -1310,12 +1085,12 @@
       "home_team": "Hércules",
       "away_team": "Águila",
       "markets": {
-        "q1": 5.5,
-        "qx": 4.0,
-        "q2": 1.5,
-        "o25": 1.62,
-        "o05ht": 1.28,
-        "o15ht": 2.3
+        "q1": 5.8,
+        "qx": 4.1,
+        "q2": 1.44,
+        "o25": 1.56,
+        "o05ht": 1.25,
+        "o15ht": 2.28
       },
       "averages": {
         "home_avg_ft": 3.875,
@@ -1325,52 +1100,53 @@
         "combined_ht_avg": 1.062
       },
       "flags": {
-        "fav_quote": 1.5,
+        "fav_quote": 1.44,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.1,
+        "drop_diff": 0.16,
         "open_q1": 4.6,
         "open_qx": 4.0,
         "open_q2": 1.6,
         "open_o25": 1.75,
-        "curr_q1": 5.5,
-        "curr_qx": 4.0,
-        "curr_q2": 1.5,
-        "curr_o25": 1.62,
-        "drop_q1": -0.9,
-        "drop_qx": 0.0,
-        "drop_q2": 0.1,
-        "drop_o25": 0.13,
-        "drop_last_q1": 0.3,
-        "drop_last_qx": 0.1,
-        "drop_last_q2": -0.06,
-        "drop_last_o25": -0.06,
+        "curr_q1": 5.8,
+        "curr_qx": 4.1,
+        "curr_q2": 1.44,
+        "curr_o25": 1.56,
+        "drop_q1": -1.2,
+        "drop_qx": -0.1,
+        "drop_q2": 0.16,
+        "drop_o25": 0.19,
+        "drop_last_q1": -0.55,
+        "drop_last_qx": -0.25,
+        "drop_last_q2": 0.09,
+        "drop_last_o25": 0.06,
         "drop_side": "2",
-        "drop_strength": "light",
+        "drop_strength": "medium",
         "inversion": false,
         "inversion_from": "2",
         "inversion_to": "2",
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 1.6,
-        "curr_fav_quote": 1.5,
-        "history_points": 4,
+        "curr_fav_quote": 1.44,
+        "history_points": 3,
         "first_seen_at": "2026-03-19T14:19:17",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
         "pt": 3.7,
         "over": 4.4,
-        "boost": 4.618,
-        "gold": 4.904,
-        "max": 4.904
+        "boost": 4.268,
+        "gold": 4.785,
+        "max": 4.785
       },
       "tags": [
         "⚽ OVER",
         "🐟O",
         "DROP_2",
-        "O25_DROP"
+        "O25_DROP",
+        "DROP_2_MED"
       ],
       "home_last_8": [
         {
@@ -1521,446 +1297,6 @@
         }
       ]
     },
-    "1316569": {
-      "fixture_id": 1316569,
-      "date": "2026-03-26",
-      "time": "18:00",
-      "league": "UEFA Nations League",
-      "country": "World",
-      "match": "Gibraltar - Latvia",
-      "home_team": "Gibraltar",
-      "away_team": "Latvia",
-      "markets": {
-        "q1": 6.75,
-        "qx": 4.2,
-        "q2": 1.43,
-        "o25": 1.98,
-        "o05ht": 1.39,
-        "o15ht": 2.9
-      },
-      "averages": {
-        "home_avg_ft": 3.25,
-        "away_avg_ft": 2.0,
-        "home_avg_ht": 1.5,
-        "away_avg_ht": 1.25,
-        "combined_ht_avg": 1.375
-      },
-      "flags": {
-        "fav_quote": 1.43,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 6.75,
-        "open_qx": 4.2,
-        "open_q2": 1.43,
-        "open_o25": 1.98,
-        "curr_q1": 6.75,
-        "curr_qx": 4.2,
-        "curr_q2": 1.43,
-        "curr_o25": 1.98,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 1.43,
-        "curr_fav_quote": 1.43,
-        "history_points": 1,
-        "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-24T07:00:29"
-      },
-      "scores": {
-        "pt": 6.4,
-        "over": 5.4,
-        "boost": 6.474,
-        "gold": 6.879,
-        "max": 6.879
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Czech Republic - Gibraltar",
-          "ht": "5-0",
-          "ft": "6-0",
-          "total_ht_goals": 5,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2025-11-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Gibraltar - Montenegro",
-          "ht": "1-2",
-          "ft": "1-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-10-12",
-          "league": "World Cup - Qualification Europe",
-          "match": "Croatia - Gibraltar",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-10-08",
-          "league": "Friendlies",
-          "match": "Gibraltar - New Caledonia",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-09-08",
-          "league": "World Cup - Qualification Europe",
-          "match": "Gibraltar - Faroe Islands",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-09-04",
-          "league": "Friendlies",
-          "match": "Gibraltar - Albania",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Faroe Islands - Gibraltar",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-06-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "Gibraltar - Croatia",
-          "ht": "0-2",
-          "ft": "0-7",
-          "total_ht_goals": 2,
-          "total_ft_goals": 7
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-16",
-          "league": "World Cup - Qualification Europe",
-          "match": "Serbia - Latvia",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-11-13",
-          "league": "Friendlies",
-          "match": "FYR Macedonia - Latvia",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-10-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Latvia - England",
-          "ht": "0-3",
-          "ft": "0-5",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-11",
-          "league": "World Cup - Qualification Europe",
-          "match": "Latvia - Andorra",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Albania - Latvia",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-09-06",
-          "league": "World Cup - Qualification Europe",
-          "match": "Latvia - Serbia",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-06-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Latvia - Albania",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-07",
-          "league": "Friendlies",
-          "match": "Latvia - Azerbaijan",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        }
-      ]
-    },
-    "1316571": {
-      "fixture_id": 1316571,
-      "date": "2026-03-26",
-      "time": "18:00",
-      "league": "UEFA Nations League",
-      "country": "World",
-      "match": "Malta - Luxembourg",
-      "home_team": "Malta",
-      "away_team": "Luxembourg",
-      "markets": {
-        "q1": 3.2,
-        "qx": 3.2,
-        "q2": 2.15,
-        "o25": 2.25,
-        "o05ht": 1.47,
-        "o15ht": 3.4
-      },
-      "averages": {
-        "home_avg_ft": 3.625,
-        "away_avg_ft": 1.875,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 0.75,
-        "combined_ht_avg": 1.062
-      },
-      "flags": {
-        "fav_quote": 2.15,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 3.2,
-        "open_qx": 3.2,
-        "open_q2": 2.15,
-        "open_o25": 2.25,
-        "curr_q1": 3.2,
-        "curr_qx": 3.2,
-        "curr_q2": 2.15,
-        "curr_o25": 2.25,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 2.15,
-        "curr_fav_quote": 2.15,
-        "history_points": 1,
-        "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-24T07:00:29"
-      },
-      "scores": {
-        "pt": 3.6,
-        "over": 4.4,
-        "boost": 4.03,
-        "gold": 3.482,
-        "max": 4.4
-      },
-      "tags": [
-        "⚽ OVER",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Malta - Poland",
-          "ht": "1-1",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-11-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Finland - Malta",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-12",
-          "league": "Friendlies",
-          "match": "Malta - Bosnia & Herzegovina",
-          "ht": "0-1",
-          "ft": "1-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-09",
-          "league": "World Cup - Qualification Europe",
-          "match": "Malta - Netherlands",
-          "ht": "0-1",
-          "ft": "0-4",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-09",
-          "league": "Friendlies",
-          "match": "Malta - San Marino",
-          "ht": "3-1",
-          "ft": "3-1",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification Europe",
-          "match": "Lithuania - Malta",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-06-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Netherlands - Malta",
-          "ht": "3-0",
-          "ft": "8-0",
-          "total_ht_goals": 3,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2025-06-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Malta - Lithuania",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2025-11-17",
-          "league": "World Cup - Qualification Europe",
-          "match": "Northern Ireland - Luxembourg",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-11-14",
-          "league": "World Cup - Qualification Europe",
-          "match": "Luxembourg - Germany",
-          "ht": "0-0",
-          "ft": "0-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-13",
-          "league": "World Cup - Qualification Europe",
-          "match": "Slovakia - Luxembourg",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-10",
-          "league": "World Cup - Qualification Europe",
-          "match": "Germany - Luxembourg",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-09-07",
-          "league": "World Cup - Qualification Europe",
-          "match": "Luxembourg - Slovakia",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-09-04",
-          "league": "World Cup - Qualification Europe",
-          "match": "Luxembourg - Northern Ireland",
-          "ht": "1-1",
-          "ft": "1-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-06-10",
-          "league": "Friendlies",
-          "match": "Luxembourg - Rep. Of Ireland",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2025-06-06",
-          "league": "Friendlies",
-          "match": "Luxembourg - Slovenia",
-          "ht": "0-1",
-          "ft": "0-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        }
-      ]
-    },
     "1487922": {
       "fixture_id": 1487922,
       "date": "2026-03-26",
@@ -1971,12 +1307,12 @@
       "home_team": "Türkiye",
       "away_team": "Romania",
       "markets": {
-        "q1": 1.4,
-        "qx": 4.8,
-        "q2": 7.25,
-        "o25": 1.62,
-        "o05ht": 1.32,
-        "o15ht": 2.5
+        "q1": 1.44,
+        "qx": 4.3,
+        "q2": 7.0,
+        "o25": 1.7,
+        "o05ht": 1.3,
+        "o15ht": 2.4
       },
       "averages": {
         "home_avg_ft": 4.125,
@@ -1986,27 +1322,27 @@
         "combined_ht_avg": 2.0
       },
       "flags": {
-        "fav_quote": 1.4,
+        "fav_quote": 1.44,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.11,
+        "drop_diff": 0.07,
         "open_q1": 1.51,
         "open_qx": 4.3,
         "open_q2": 5.75,
         "open_o25": 1.7,
-        "curr_q1": 1.4,
-        "curr_qx": 4.8,
-        "curr_q2": 7.25,
-        "curr_o25": 1.62,
-        "drop_q1": 0.11,
-        "drop_qx": -0.5,
-        "drop_q2": -1.5,
-        "drop_o25": 0.08,
-        "drop_last_q1": 0.04,
-        "drop_last_qx": -0.5,
-        "drop_last_q2": -0.25,
-        "drop_last_o25": 0.08,
+        "curr_q1": 1.44,
+        "curr_qx": 4.3,
+        "curr_q2": 7.0,
+        "curr_o25": 1.7,
+        "drop_q1": 0.07,
+        "drop_qx": 0.0,
+        "drop_q2": -1.25,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.07,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": -1.25,
+        "drop_last_o25": 0.0,
         "drop_side": "1",
         "drop_strength": "light",
         "inversion": false,
@@ -2015,25 +1351,24 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.51,
-        "curr_fav_quote": 1.4,
-        "history_points": 3,
+        "curr_fav_quote": 1.44,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
         "pt": 4.9,
         "over": 5.4,
         "boost": 6.454,
-        "gold": 6.192,
-        "max": 6.454
+        "gold": 6.542,
+        "max": 6.542
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
         "🐟O",
-        "DROP_1",
-        "O25_DROP"
+        "DROP_1"
       ],
       "home_last_8": [
         {
@@ -2194,11 +1529,11 @@
       "home_team": "Czech Republic",
       "away_team": "Rep. Of Ireland",
       "markets": {
-        "q1": 1.95,
-        "qx": 3.4,
-        "q2": 3.9,
-        "o25": 2.05,
-        "o05ht": 1.41,
+        "q1": 1.9,
+        "qx": 3.45,
+        "q2": 3.95,
+        "o25": 2.1,
+        "o05ht": 1.42,
         "o15ht": 2.95
       },
       "averages": {
@@ -2209,27 +1544,27 @@
         "combined_ht_avg": 1.188
       },
       "flags": {
-        "fav_quote": 1.95,
-        "is_gold_zone": false,
+        "fav_quote": 1.9,
+        "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.0,
+        "drop_diff": 0.05,
         "open_q1": 1.95,
         "open_qx": 3.35,
         "open_q2": 3.9,
         "open_o25": 2.1,
-        "curr_q1": 1.95,
-        "curr_qx": 3.4,
-        "curr_q2": 3.9,
-        "curr_o25": 2.05,
-        "drop_q1": 0.0,
-        "drop_qx": -0.05,
-        "drop_q2": 0.0,
-        "drop_o25": 0.05,
-        "drop_last_q1": -0.05,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": 0.05,
-        "drop_last_o25": 0.05,
+        "curr_q1": 1.9,
+        "curr_qx": 3.45,
+        "curr_q2": 3.95,
+        "curr_o25": 2.1,
+        "drop_q1": 0.05,
+        "drop_qx": -0.1,
+        "drop_q2": -0.05,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.05,
+        "drop_last_qx": -0.1,
+        "drop_last_q2": -0.05,
+        "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -2238,17 +1573,17 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.95,
-        "history_points": 3,
+        "curr_fav_quote": 1.9,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
         "pt": 5.9,
         "over": 5.5,
         "boost": 5.782,
-        "gold": 5.364,
-        "max": 5.9
+        "gold": 6.214,
+        "max": 6.214
       },
       "tags": [
         "🎯PT",
@@ -2413,12 +1748,12 @@
       "home_team": "Denmark",
       "away_team": "FYR Macedonia",
       "markets": {
-        "q1": 1.34,
-        "qx": 5.0,
-        "q2": 9.25,
-        "o25": 1.66,
-        "o05ht": 1.32,
-        "o15ht": 2.45
+        "q1": 1.3,
+        "qx": 5.1,
+        "q2": 9.7,
+        "o25": 1.65,
+        "o05ht": 1.3,
+        "o15ht": 2.4
       },
       "averages": {
         "home_avg_ft": 3.875,
@@ -2428,39 +1763,39 @@
         "combined_ht_avg": 1.5
       },
       "flags": {
-        "fav_quote": 1.34,
+        "fav_quote": 1.3,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.45,
+        "drop_diff": 0.0,
         "open_q1": 1.3,
         "open_qx": 5.1,
         "open_q2": 9.7,
         "open_o25": 1.65,
-        "curr_q1": 1.34,
-        "curr_qx": 5.0,
-        "curr_q2": 9.25,
-        "curr_o25": 1.66,
-        "drop_q1": -0.04,
-        "drop_qx": 0.1,
-        "drop_q2": 0.45,
-        "drop_o25": -0.01,
-        "drop_last_q1": -0.04,
-        "drop_last_qx": 0.1,
-        "drop_last_q2": 0.45,
-        "drop_last_o25": -0.01,
-        "drop_side": "2",
-        "drop_strength": "strong",
+        "curr_q1": 1.3,
+        "curr_qx": 5.1,
+        "curr_q2": 9.7,
+        "curr_o25": 1.65,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.3,
-        "curr_fav_quote": 1.34,
-        "history_points": 2,
+        "curr_fav_quote": 1.3,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 6.0,
@@ -2473,10 +1808,7 @@
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "🐟O",
-        "DROP_X",
-        "DROP_2",
-        "DROP_2_STRONG"
+        "🐟O"
       ],
       "home_last_8": [
         {
@@ -2637,12 +1969,12 @@
       "home_team": "Italy",
       "away_team": "Northern Ireland",
       "markets": {
-        "q1": 1.31,
-        "qx": 5.25,
-        "q2": 10.5,
-        "o25": 1.77,
-        "o05ht": 1.35,
-        "o15ht": 2.6
+        "q1": 1.29,
+        "qx": 4.7,
+        "q2": 12.5,
+        "o25": 1.8,
+        "o05ht": 1.33,
+        "o15ht": 2.45
       },
       "averages": {
         "home_avg_ft": 4.125,
@@ -2652,39 +1984,39 @@
         "combined_ht_avg": 1.25
       },
       "flags": {
-        "fav_quote": 1.31,
+        "fav_quote": 1.29,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 2.0,
+        "drop_diff": 0.0,
         "open_q1": 1.29,
         "open_qx": 4.7,
         "open_q2": 12.5,
         "open_o25": 1.8,
-        "curr_q1": 1.31,
-        "curr_qx": 5.25,
-        "curr_q2": 10.5,
-        "curr_o25": 1.77,
-        "drop_q1": -0.02,
-        "drop_qx": -0.55,
-        "drop_q2": 2.0,
-        "drop_o25": 0.03,
-        "drop_last_q1": -0.02,
-        "drop_last_qx": -0.55,
-        "drop_last_q2": 2.0,
-        "drop_last_o25": 0.03,
-        "drop_side": "2",
-        "drop_strength": "strong",
+        "curr_q1": 1.29,
+        "curr_qx": 4.7,
+        "curr_q2": 12.5,
+        "curr_o25": 1.8,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.29,
-        "curr_fav_quote": 1.31,
-        "history_points": 2,
+        "curr_fav_quote": 1.29,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 7.6,
@@ -2697,9 +2029,7 @@
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "🐟O",
-        "DROP_2",
-        "DROP_2_STRONG"
+        "🐟O"
       ],
       "home_last_8": [
         {
@@ -2860,12 +2190,12 @@
       "home_team": "Slovakia",
       "away_team": "Kosovo",
       "markets": {
-        "q1": 2.05,
+        "q1": 1.97,
         "qx": 3.25,
-        "q2": 3.8,
-        "o25": 2.4,
-        "o05ht": 1.47,
-        "o15ht": 3.4
+        "q2": 3.95,
+        "o25": 2.25,
+        "o05ht": 1.42,
+        "o15ht": 2.9
       },
       "averages": {
         "home_avg_ft": 2.5,
@@ -2875,52 +2205,50 @@
         "combined_ht_avg": 1.312
       },
       "flags": {
-        "fav_quote": 2.05,
+        "fav_quote": 1.97,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.15,
+        "drop_diff": 0.0,
         "open_q1": 1.97,
         "open_qx": 3.25,
         "open_q2": 3.95,
         "open_o25": 2.25,
-        "curr_q1": 2.05,
+        "curr_q1": 1.97,
         "curr_qx": 3.25,
-        "curr_q2": 3.8,
-        "curr_o25": 2.4,
-        "drop_q1": -0.08,
+        "curr_q2": 3.95,
+        "curr_o25": 2.25,
+        "drop_q1": 0.0,
         "drop_qx": 0.0,
-        "drop_q2": 0.15,
-        "drop_o25": -0.15,
-        "drop_last_q1": -0.08,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
         "drop_last_qx": 0.0,
-        "drop_last_q2": 0.15,
-        "drop_last_o25": -0.15,
-        "drop_side": "2",
-        "drop_strength": "medium",
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.97,
-        "curr_fav_quote": 2.05,
-        "history_points": 2,
+        "curr_fav_quote": 1.97,
+        "history_points": 1,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-22T06:54:44"
       },
       "scores": {
         "pt": 4.5,
-        "over": 4.8,
-        "boost": 5.464,
-        "gold": 4.738,
-        "max": 5.464
+        "over": 5.8,
+        "boost": 5.944,
+        "gold": 5.201,
+        "max": 5.944
       },
       "tags": [
         "🎯PT",
-        "⚽ OVER",
-        "DROP_2",
-        "DROP_2_MED"
+        "⚽ OVER"
       ],
       "home_last_8": [
         {
@@ -3082,11 +2410,11 @@
       "away_team": "Sweden",
       "markets": {
         "q1": 2.8,
-        "qx": 3.2,
-        "q2": 2.6,
-        "o25": 2.05,
-        "o05ht": 1.42,
-        "o15ht": 3.0
+        "qx": 3.15,
+        "q2": 2.52,
+        "o25": 2.1,
+        "o05ht": 1.38,
+        "o15ht": 2.65
       },
       "averages": {
         "home_avg_ft": 3.75,
@@ -3096,7 +2424,7 @@
         "combined_ht_avg": 1.125
       },
       "flags": {
-        "fav_quote": 2.6,
+        "fav_quote": 2.52,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
@@ -3106,17 +2434,17 @@
         "open_q2": 2.52,
         "open_o25": 2.1,
         "curr_q1": 2.8,
-        "curr_qx": 3.2,
-        "curr_q2": 2.6,
-        "curr_o25": 2.05,
+        "curr_qx": 3.15,
+        "curr_q2": 2.52,
+        "curr_o25": 2.1,
         "drop_q1": 0.0,
-        "drop_qx": -0.05,
-        "drop_q2": -0.08,
-        "drop_o25": 0.05,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
         "drop_last_q1": 0.0,
-        "drop_last_qx": -0.05,
-        "drop_last_q2": -0.08,
-        "drop_last_o25": 0.05,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -3125,17 +2453,17 @@
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 2.52,
-        "curr_fav_quote": 2.6,
-        "history_points": 3,
+        "curr_fav_quote": 2.52,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
-        "pt": 4.9,
+        "pt": 5.8,
         "over": 4.7,
-        "boost": 4.668,
-        "gold": 4.075,
-        "max": 4.9
+        "boost": 5.21,
+        "gold": 4.457,
+        "max": 5.8
       },
       "tags": [
         "🎯PT",
@@ -3301,12 +2629,12 @@
       "home_team": "Wales",
       "away_team": "Bosnia & Herzegovina",
       "markets": {
-        "q1": 1.88,
-        "qx": 3.4,
-        "q2": 4.33,
+        "q1": 1.9,
+        "qx": 3.3,
+        "q2": 4.1,
         "o25": 2.1,
-        "o05ht": 1.43,
-        "o15ht": 3.0
+        "o05ht": 1.42,
+        "o15ht": 2.88
       },
       "averages": {
         "home_avg_ft": 3.75,
@@ -3316,39 +2644,39 @@
         "combined_ht_avg": 1.5
       },
       "flags": {
-        "fav_quote": 1.88,
+        "fav_quote": 1.9,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": -0.01,
+        "drop_diff": 0.1,
         "open_q1": 1.87,
         "open_qx": 3.35,
         "open_q2": 4.2,
         "open_o25": 2.1,
-        "curr_q1": 1.88,
-        "curr_qx": 3.4,
-        "curr_q2": 4.33,
+        "curr_q1": 1.9,
+        "curr_qx": 3.3,
+        "curr_q2": 4.1,
         "curr_o25": 2.1,
-        "drop_q1": -0.01,
-        "drop_qx": -0.05,
-        "drop_q2": -0.13,
+        "drop_q1": -0.03,
+        "drop_qx": 0.05,
+        "drop_q2": 0.1,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.02,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.23,
+        "drop_last_q1": -0.03,
+        "drop_last_qx": 0.05,
+        "drop_last_q2": 0.1,
         "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
+        "drop_side": "2",
+        "drop_strength": "light",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.87,
-        "curr_fav_quote": 1.88,
-        "history_points": 3,
+        "curr_fav_quote": 1.9,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
         "pt": 3.5,
@@ -3358,7 +2686,8 @@
         "max": 6.2
       },
       "tags": [
-        "⚽ OVER"
+        "⚽ OVER",
+        "DROP_2"
       ],
       "home_last_8": [
         {
@@ -3519,12 +2848,12 @@
       "home_team": "Brazil",
       "away_team": "France",
       "markets": {
-        "q1": 2.8,
+        "q1": 2.96,
         "qx": 3.6,
-        "q2": 2.25,
-        "o25": 1.6,
+        "q2": 2.2,
+        "o25": 1.62,
         "o05ht": 1.28,
-        "o15ht": 2.37
+        "o15ht": 2.3
       },
       "averages": {
         "home_avg_ft": 2.375,
@@ -3534,54 +2863,52 @@
         "combined_ht_avg": 1.438
       },
       "flags": {
-        "fav_quote": 2.25,
+        "fav_quote": 2.2,
         "is_gold_zone": false,
         "home_last_2h_zero": true,
         "away_last_2h_zero": true,
-        "drop_diff": 0.14,
+        "drop_diff": 0.05,
         "open_q1": 2.94,
         "open_qx": 3.65,
         "open_q2": 2.2,
         "open_o25": 1.62,
-        "curr_q1": 2.8,
+        "curr_q1": 2.96,
         "curr_qx": 3.6,
-        "curr_q2": 2.25,
-        "curr_o25": 1.6,
-        "drop_q1": 0.14,
+        "curr_q2": 2.2,
+        "curr_o25": 1.62,
+        "drop_q1": -0.02,
         "drop_qx": 0.05,
-        "drop_q2": -0.05,
-        "drop_o25": 0.02,
-        "drop_last_q1": 0.16,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": -0.05,
-        "drop_last_o25": 0.02,
-        "drop_side": "1",
-        "drop_strength": "medium",
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": -0.02,
+        "drop_last_qx": 0.05,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "2",
         "inversion_to": "2",
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 2.2,
-        "curr_fav_quote": 2.25,
-        "history_points": 3,
+        "curr_fav_quote": 2.2,
+        "history_points": 2,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
         "pt": 7.6,
-        "over": 5.0,
-        "boost": 7.288,
-        "gold": 6.1,
+        "over": 5.4,
+        "boost": 7.48,
+        "gold": 6.285,
         "max": 7.6
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "🐟G",
-        "DROP_1",
-        "DROP_1_MED"
+        "🐟G"
       ],
       "home_last_8": [
         {
@@ -3751,10 +3078,10 @@
       },
       "averages": {
         "home_avg_ft": 3.25,
-        "away_avg_ft": 3.25,
+        "away_avg_ft": 3.125,
         "home_avg_ht": 1.5,
-        "away_avg_ht": 1.0,
-        "combined_ht_avg": 1.25
+        "away_avg_ht": 0.875,
+        "combined_ht_avg": 1.188
       },
       "flags": {
         "fav_quote": 2.0,
@@ -3792,16 +3119,15 @@
         "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
-        "pt": 5.4,
-        "over": 6.2,
-        "boost": 7.028,
-        "gold": 5.888,
-        "max": 7.028
+        "pt": 4.4,
+        "over": 5.9,
+        "boost": 5.954,
+        "gold": 5.212,
+        "max": 5.954
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🚀 BOOST",
         "🐟G"
       ],
       "home_last_8": [
@@ -3880,15 +3206,6 @@
       ],
       "away_last_8": [
         {
-          "date": "2026-03-23",
-          "league": "Copa De La Liga",
-          "match": "Palestino - Everton de Vina",
-          "ht": "1-1",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
           "date": "2026-03-15",
           "league": "Primera División",
           "match": "Universidad de Concepcion - Palestino",
@@ -3950,6 +3267,15 @@
           "ft": "3-1",
           "total_ht_goals": 2,
           "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-01",
+          "league": "Primera División",
+          "match": "Palestino - Nublense",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
         }
       ]
     }

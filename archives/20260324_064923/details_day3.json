@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-24 06:55:12",
-  "day": 2,
+  "updated_at": "2026-03-23 22:03:12",
+  "day": 3,
   "date": "2026-03-25",
   "details": {
     "1493774": {
@@ -13,10 +13,10 @@
       "home_team": "One Knoxville",
       "away_team": "Corpus Christi",
       "markets": {
-        "q1": 1.95,
+        "q1": 2.1,
         "qx": 3.25,
-        "q2": 3.5,
-        "o25": 2.05,
+        "q2": 3.2,
+        "o25": 1.95,
         "o05ht": 1.38,
         "o15ht": 2.75
       },
@@ -28,39 +28,39 @@
         "combined_ht_avg": 1.438
       },
       "flags": {
-        "fav_quote": 1.95,
+        "fav_quote": 2.1,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.15,
+        "drop_diff": 0.0,
         "open_q1": 2.1,
         "open_qx": 3.25,
         "open_q2": 3.2,
         "open_o25": 1.95,
-        "curr_q1": 1.95,
+        "curr_q1": 2.1,
         "curr_qx": 3.25,
-        "curr_q2": 3.5,
-        "curr_o25": 2.05,
-        "drop_q1": 0.15,
+        "curr_q2": 3.2,
+        "curr_o25": 1.95,
+        "drop_q1": 0.0,
         "drop_qx": 0.0,
-        "drop_q2": -0.3,
-        "drop_o25": -0.1,
-        "drop_last_q1": 0.15,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
         "drop_last_qx": 0.0,
-        "drop_last_q2": -0.3,
-        "drop_last_o25": -0.1,
-        "drop_side": "1",
-        "drop_strength": "medium",
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 2.1,
-        "curr_fav_quote": 1.95,
-        "history_points": 2,
+        "curr_fav_quote": 2.1,
+        "history_points": 1,
         "first_seen_at": "2026-03-23T22:03:50",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T22:03:50"
       },
       "scores": {
         "pt": 6.8,
@@ -72,8 +72,7 @@
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "DROP_1",
-        "DROP_1_MED"
+        "🐟G"
       ],
       "home_last_8": [
         {
@@ -669,225 +668,6 @@
         }
       ]
     },
-    "1451838": {
-      "fixture_id": 1451838,
-      "date": "2026-03-25",
-      "time": "14:30",
-      "league": "Second League",
-      "country": "Bulgaria",
-      "match": "Sevlievo - Sportist Svoge",
-      "home_team": "Sevlievo",
-      "away_team": "Sportist Svoge",
-      "markets": {
-        "q1": 1.6,
-        "qx": 3.3,
-        "q2": 5.25,
-        "o25": 2.15,
-        "o05ht": 1.44,
-        "o15ht": 3.04
-      },
-      "averages": {
-        "home_avg_ft": 2.25,
-        "away_avg_ft": 4.0,
-        "home_avg_ht": 0.75,
-        "away_avg_ht": 1.375,
-        "combined_ht_avg": 1.062
-      },
-      "flags": {
-        "fav_quote": 1.6,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.6,
-        "open_qx": 3.3,
-        "open_q2": 5.25,
-        "open_o25": 2.15,
-        "curr_q1": 1.6,
-        "curr_qx": 3.3,
-        "curr_q2": 5.25,
-        "curr_o25": 2.15,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.6,
-        "curr_fav_quote": 1.6,
-        "history_points": 1,
-        "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-24T07:00:29"
-      },
-      "scores": {
-        "pt": 2.8,
-        "over": 4.4,
-        "boost": 3.726,
-        "gold": 4.403,
-        "max": 4.403
-      },
-      "tags": [
-        "⚽ OVER",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Second League",
-          "match": "FK Minyor Pernik - Sevlievo",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Second League",
-          "match": "Sevlievo - Yantra 2019",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-08",
-          "league": "Second League",
-          "match": "Fratria - Sevlievo",
-          "ht": "0-2",
-          "ft": "1-4",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Second League",
-          "match": "Ludogorets II - Sevlievo",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-15",
-          "league": "Second League",
-          "match": "Marek - Sevlievo",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-08",
-          "league": "Friendlies Clubs",
-          "match": "Sevlievo - Chernomorets 1919 Burgas",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-05",
-          "league": "Friendlies Clubs",
-          "match": "Sevlievo - Spartak Pleven",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Friendlies Clubs",
-          "match": "Botev Plovdiv - Sevlievo",
-          "ht": "0-0",
-          "ft": "4-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 4
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-14",
-          "league": "Second League",
-          "match": "Sportist Svoge - FK Minyor Pernik",
-          "ht": "0-2",
-          "ft": "0-4",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Second League",
-          "match": "Yantra 2019 - Sportist Svoge",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Second League",
-          "match": "Sportist Svoge - Fratria",
-          "ht": "0-2",
-          "ft": "0-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-16",
-          "league": "Second League",
-          "match": "Ludogorets II - Sportist Svoge",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Friendlies Clubs",
-          "match": "Vihren - Sportist Svoge",
-          "ht": "None-None",
-          "ft": "3-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-01-30",
-          "league": "Friendlies Clubs",
-          "match": "Lokomotiv Sofia - Sportist Svoge",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-01-28",
-          "league": "Friendlies Clubs",
-          "match": "Sportist Svoge - Marek",
-          "ht": "1-1",
-          "ft": "3-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-01-24",
-          "league": "Friendlies Clubs",
-          "match": "Sportist Svoge - Botev Ihtiman",
-          "ht": "2-1",
-          "ft": "5-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 8
-        }
-      ]
-    },
     "1454842": {
       "fixture_id": 1454842,
       "date": "2026-03-25",
@@ -1103,226 +883,6 @@
           "ft": "1-0",
           "total_ht_goals": 0,
           "total_ft_goals": 1
-        }
-      ]
-    },
-    "1466600": {
-      "fixture_id": 1466600,
-      "date": "2026-03-25",
-      "time": "14:30",
-      "league": "Second League",
-      "country": "Bulgaria",
-      "match": "Spartak Pleven - Belasitsa",
-      "home_team": "Spartak Pleven",
-      "away_team": "Belasitsa",
-      "markets": {
-        "q1": 1.8,
-        "qx": 3.25,
-        "q2": 3.9,
-        "o25": 2.05,
-        "o05ht": 1.41,
-        "o15ht": 2.92
-      },
-      "averages": {
-        "home_avg_ft": 3.0,
-        "away_avg_ft": 3.5,
-        "home_avg_ht": 1.375,
-        "away_avg_ht": 1.625,
-        "combined_ht_avg": 1.5
-      },
-      "flags": {
-        "fav_quote": 1.8,
-        "is_gold_zone": true,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": true,
-        "drop_diff": 0.0,
-        "open_q1": 1.8,
-        "open_qx": 3.25,
-        "open_q2": 3.9,
-        "open_o25": 2.05,
-        "curr_q1": 1.8,
-        "curr_qx": 3.25,
-        "curr_q2": 3.9,
-        "curr_o25": 2.05,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.8,
-        "curr_fav_quote": 1.8,
-        "history_points": 1,
-        "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-24T07:00:29"
-      },
-      "scores": {
-        "pt": 6.3,
-        "over": 5.8,
-        "boost": 6.628,
-        "gold": 7.03,
-        "max": 7.03
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Second League",
-          "match": "Spartak Pleven - Etar Veliko Tarnovo",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Second League",
-          "match": "Hebar 1918 - Spartak Pleven",
-          "ht": "0-1",
-          "ft": "0-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Second League",
-          "match": "Spartak Pleven - Chernomorets 1919 Burgas",
-          "ht": "0-2",
-          "ft": "1-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-28",
-          "league": "Second League",
-          "match": "Pirin Blagoevgrad - Spartak Pleven",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-15",
-          "league": "Second League",
-          "match": "Dunav Ruse - Spartak Pleven",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Friendlies Clubs",
-          "match": "Etar Veliko Tarnovo - Spartak Pleven",
-          "ht": "0-0",
-          "ft": "1-2",
-          "total_ht_goals": 0,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-05",
-          "league": "Friendlies Clubs",
-          "match": "Sevlievo - Spartak Pleven",
-          "ht": "1-0",
-          "ft": "3-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Friendlies Clubs",
-          "match": "Beroe - Spartak Pleven",
-          "ht": "2-0",
-          "ft": "2-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Second League",
-          "match": "Belasitsa - Ludogorets II",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Second League",
-          "match": "Belasitsa - Dunav Ruse",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-07",
-          "league": "Second League",
-          "match": "Vihren - Belasitsa",
-          "ht": "0-1",
-          "ft": "3-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-02",
-          "league": "Second League",
-          "match": "Belasitsa - CSKA Sofia II",
-          "ht": "2-3",
-          "ft": "2-6",
-          "total_ht_goals": 5,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2026-02-15",
-          "league": "Second League",
-          "match": "Belasitsa - Lokomotiv G. Oryahovitsa",
-          "ht": "2-2",
-          "ft": "3-3",
-          "total_ht_goals": 4,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Friendlies Clubs",
-          "match": "Belasitsa - Belasica",
-          "ht": "None-None",
-          "ft": "4-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Friendlies Clubs",
-          "match": "Belasitsa - Akademija Pandev",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-01-24",
-          "league": "Friendlies Clubs",
-          "match": "Belasitsa - CSKA Sofia II",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
         }
       ]
     },
@@ -1563,7 +1123,7 @@
         "q2": 3.42,
         "o25": 1.78,
         "o05ht": 1.33,
-        "o15ht": 2.63
+        "o15ht": 2.6
       },
       "averages": {
         "home_avg_ft": 2.375,
@@ -1591,9 +1151,9 @@
         "drop_q2": 0.02,
         "drop_o25": 0.02,
         "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
+        "drop_last_qx": -0.02,
+        "drop_last_q2": 0.02,
+        "drop_last_o25": 0.02,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -1603,9 +1163,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.92,
         "curr_fav_quote": 1.92,
-        "history_points": 3,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T22:03:50"
       },
       "scores": {
         "pt": 6.4,
@@ -2210,227 +1770,6 @@
         }
       ]
     },
-    "1512264": {
-      "fixture_id": 1512264,
-      "date": "2026-03-25",
-      "time": "19:00",
-      "league": "Reserve League",
-      "country": "Argentina",
-      "match": "Gimnasia La Plata Res. - Racing Club Res.",
-      "home_team": "Gimnasia La Plata Res.",
-      "away_team": "Racing Club Res.",
-      "markets": {
-        "q1": 2.45,
-        "qx": 2.9,
-        "q2": 2.7,
-        "o25": 2.1,
-        "o05ht": 1.36,
-        "o15ht": 2.88
-      },
-      "averages": {
-        "home_avg_ft": 2.625,
-        "away_avg_ft": 3.125,
-        "home_avg_ht": 1.0,
-        "away_avg_ht": 1.5,
-        "combined_ht_avg": 1.25
-      },
-      "flags": {
-        "fav_quote": 2.45,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 2.45,
-        "open_qx": 2.9,
-        "open_q2": 2.7,
-        "open_o25": 2.1,
-        "curr_q1": 2.45,
-        "curr_qx": 2.9,
-        "curr_q2": 2.7,
-        "curr_o25": 2.1,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 2.45,
-        "curr_fav_quote": 2.45,
-        "history_points": 1,
-        "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-24T07:00:29"
-      },
-      "scores": {
-        "pt": 5.4,
-        "over": 5.4,
-        "boost": 6.644,
-        "gold": 5.517,
-        "max": 6.644
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟G"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-17",
-          "league": "Reserve League",
-          "match": "Sarmiento Res. - Gimnasia La Plata Res.",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-02",
-          "league": "Reserve League",
-          "match": "Gimnasia La Plata Res. - Argentinos Juniors Res.",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-16",
-          "league": "Reserve League",
-          "match": "Aldosivi Res. - Gimnasia La Plata Res.",
-          "ht": "0-1",
-          "ft": "1-3",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-10",
-          "league": "Reserve League",
-          "match": "Gimnasia La Plata Res. - Instituto Res.",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-03",
-          "league": "Reserve League",
-          "match": "Gimnasia La Plata Res. - Unión Santa Fe Res.",
-          "ht": "0-0",
-          "ft": "1-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-11-27",
-          "league": "Reserve League",
-          "match": "Gimnasia La Plata Res. - Argentinos Juniors Res.",
-          "ht": "1-0",
-          "ft": "4-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-11-19",
-          "league": "Reserve League",
-          "match": "Gimnasia La Plata Res. - San Lorenzo Res.",
-          "ht": "2-0",
-          "ft": "3-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-11-12",
-          "league": "Reserve League",
-          "match": "Gimnasia La Plata Res. - Newell's Old Boys Res.",
-          "ht": "0-0",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-18",
-          "league": "Reserve League",
-          "match": "Racing Club Res. - Unión Santa Fe Res.",
-          "ht": "1-0",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-04",
-          "league": "Reserve League",
-          "match": "Atlético Tucumán Res. - Racing Club Res.",
-          "ht": "0-1",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-17",
-          "league": "Reserve League",
-          "match": "Racing Club Res. - Godoy Cruz Res.",
-          "ht": "1-1",
-          "ft": "4-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-02-10",
-          "league": "Reserve League",
-          "match": "Gimnasia Mendoza 2 - Racing Club Res.",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-04",
-          "league": "Reserve League",
-          "match": "Racing Club Res. - Barracas Central Res.",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2025-10-30",
-          "league": "Reserve League",
-          "match": "Newell's Old Boys Res. - Racing Club Res.",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2025-10-23",
-          "league": "Reserve League",
-          "match": "Racing Club Res. - Defensa y Justicia Res.",
-          "ht": "1-0",
-          "ft": "5-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2025-10-16",
-          "league": "Reserve League",
-          "match": "Central Córdoba SdE Res. - Racing Club Res.",
-          "ht": "1-2",
-          "ft": "1-3",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        }
-      ]
-    },
     "1533231": {
       "fixture_id": 1533231,
       "date": "2026-03-25",
@@ -2660,12 +1999,12 @@
       "home_team": "Morecambe",
       "away_team": "Hartlepool",
       "markets": {
-        "q1": 2.8,
-        "qx": 3.35,
+        "q1": 2.88,
+        "qx": 3.3,
         "q2": 2.25,
-        "o25": 1.67,
+        "o25": 1.57,
         "o05ht": 1.3,
-        "o15ht": 2.35
+        "o15ht": 2.4
       },
       "averages": {
         "home_avg_ft": 4.5,
@@ -2679,25 +2018,25 @@
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 0.17,
+        "drop_diff": 0.22,
         "open_q1": 2.74,
         "open_qx": 3.52,
         "open_q2": 2.17,
         "open_o25": 1.62,
-        "curr_q1": 2.8,
-        "curr_qx": 3.35,
+        "curr_q1": 2.88,
+        "curr_qx": 3.3,
         "curr_q2": 2.25,
-        "curr_o25": 1.67,
-        "drop_q1": -0.06,
-        "drop_qx": 0.17,
+        "curr_o25": 1.57,
+        "drop_q1": -0.14,
+        "drop_qx": 0.22,
         "drop_q2": -0.08,
-        "drop_o25": -0.05,
-        "drop_last_q1": 0.08,
-        "drop_last_qx": -0.05,
+        "drop_o25": 0.05,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
         "drop_last_q2": 0.0,
-        "drop_last_o25": -0.1,
+        "drop_last_o25": 0.0,
         "drop_side": "X",
-        "drop_strength": "medium",
+        "drop_strength": "strong",
         "inversion": false,
         "inversion_from": "2",
         "inversion_to": "2",
@@ -2705,24 +2044,23 @@
         "curr_fav_side": "2",
         "open_fav_quote": 2.17,
         "curr_fav_quote": 2.25,
-        "history_points": 5,
+        "history_points": 4,
         "first_seen_at": "2026-03-21T06:52:30",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T22:03:50"
       },
       "scores": {
         "pt": 6.2,
         "over": 5.0,
-        "boost": 6.756,
-        "gold": 5.611,
-        "max": 6.756
+        "boost": 6.406,
+        "gold": 5.492,
+        "max": 6.406
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🚀 BOOST",
         "🐟G",
         "DROP_X",
-        "DROP_X_MED"
+        "DROP_X_STRONG"
       ],
       "home_last_8": [
         {
@@ -3105,12 +2443,12 @@
       "home_team": "Southend",
       "away_team": "Woking",
       "markets": {
-        "q1": 1.6,
-        "qx": 3.75,
-        "q2": 4.4,
+        "q1": 1.62,
+        "qx": 3.7,
+        "q2": 4.33,
         "o25": 1.73,
-        "o05ht": 1.32,
-        "o15ht": 2.55
+        "o05ht": 1.33,
+        "o15ht": 2.5
       },
       "averages": {
         "home_avg_ft": 2.625,
@@ -3120,27 +2458,27 @@
         "combined_ht_avg": 1.688
       },
       "flags": {
-        "fav_quote": 1.6,
+        "fav_quote": 1.62,
         "is_gold_zone": true,
         "home_last_2h_zero": true,
         "away_last_2h_zero": false,
-        "drop_diff": 0.4,
+        "drop_diff": 0.47,
         "open_q1": 1.65,
         "open_qx": 3.6,
         "open_q2": 4.8,
         "open_o25": 1.8,
-        "curr_q1": 1.6,
-        "curr_qx": 3.75,
-        "curr_q2": 4.4,
+        "curr_q1": 1.62,
+        "curr_qx": 3.7,
+        "curr_q2": 4.33,
         "curr_o25": 1.73,
-        "drop_q1": 0.05,
-        "drop_qx": -0.15,
-        "drop_q2": 0.4,
+        "drop_q1": 0.03,
+        "drop_qx": -0.1,
+        "drop_q2": 0.47,
         "drop_o25": 0.07,
-        "drop_last_q1": 0.02,
-        "drop_last_qx": -0.05,
-        "drop_last_q2": -0.07,
-        "drop_last_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.47,
+        "drop_last_o25": 0.07,
         "drop_side": "2",
         "drop_strength": "strong",
         "inversion": false,
@@ -3149,10 +2487,10 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.65,
-        "curr_fav_quote": 1.6,
-        "history_points": 4,
+        "curr_fav_quote": 1.62,
+        "history_points": 3,
         "first_seen_at": "2026-03-22T06:54:44",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T22:03:50"
       },
       "scores": {
         "pt": 7.2,
@@ -3998,10 +3336,10 @@
       "home_team": "Farnborough",
       "away_team": "Chelmsford City",
       "markets": {
-        "q1": 3.55,
-        "qx": 3.5,
-        "q2": 1.9,
-        "o25": 1.62,
+        "q1": 3.0,
+        "qx": 3.4,
+        "q2": 2.05,
+        "o25": 1.67,
         "o05ht": 1.3,
         "o15ht": 2.38
       },
@@ -4013,53 +3351,52 @@
         "combined_ht_avg": 1.25
       },
       "flags": {
-        "fav_quote": 1.9,
-        "is_gold_zone": true,
+        "fav_quote": 2.05,
+        "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.15,
+        "drop_diff": 0.0,
         "open_q1": 3.0,
         "open_qx": 3.4,
         "open_q2": 2.05,
         "open_o25": 1.67,
-        "curr_q1": 3.55,
-        "curr_qx": 3.5,
-        "curr_q2": 1.9,
-        "curr_o25": 1.62,
-        "drop_q1": -0.55,
-        "drop_qx": -0.1,
-        "drop_q2": 0.15,
-        "drop_o25": 0.05,
-        "drop_last_q1": -0.55,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": 0.15,
-        "drop_last_o25": 0.05,
-        "drop_side": "2",
-        "drop_strength": "medium",
+        "curr_q1": 3.0,
+        "curr_qx": 3.4,
+        "curr_q2": 2.05,
+        "curr_o25": 1.67,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "2",
         "inversion_to": "2",
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 2.05,
-        "curr_fav_quote": 1.9,
-        "history_points": 2,
+        "curr_fav_quote": 2.05,
+        "history_points": 1,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
         "pt": 6.4,
         "over": 6.2,
         "boost": 7.408,
-        "gold": 7.087,
+        "gold": 6.237,
         "max": 7.408
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "DROP_2",
-        "DROP_2_MED"
+        "🐟G"
       ],
       "home_last_8": [
         {
@@ -4441,12 +3778,12 @@
       "home_team": "Nublense",
       "away_team": "U. Catolica",
       "markets": {
-        "q1": 2.6,
-        "qx": 3.2,
-        "q2": 2.5,
-        "o25": 2.05,
-        "o05ht": 1.38,
-        "o15ht": 2.75
+        "q1": 2.5,
+        "qx": 3.25,
+        "q2": 2.38,
+        "o25": 2.1,
+        "o05ht": 1.4,
+        "o15ht": 3.0
       },
       "averages": {
         "home_avg_ft": 2.125,
@@ -4456,56 +3793,57 @@
         "combined_ht_avg": 1.562
       },
       "flags": {
-        "fav_quote": 2.5,
+        "fav_quote": 2.38,
         "is_gold_zone": false,
         "home_last_2h_zero": true,
         "away_last_2h_zero": false,
-        "drop_diff": 0.12,
+        "drop_diff": 0.24,
         "open_q1": 2.62,
         "open_qx": 3.3,
         "open_q2": 2.62,
         "open_o25": 2.12,
-        "curr_q1": 2.6,
-        "curr_qx": 3.2,
-        "curr_q2": 2.5,
-        "curr_o25": 2.05,
-        "drop_q1": 0.02,
-        "drop_qx": 0.1,
-        "drop_q2": 0.12,
-        "drop_o25": 0.07,
-        "drop_last_q1": -0.1,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": -0.12,
-        "drop_last_o25": 0.05,
+        "curr_q1": 2.5,
+        "curr_qx": 3.25,
+        "curr_q2": 2.38,
+        "curr_o25": 2.1,
+        "drop_q1": 0.12,
+        "drop_qx": 0.05,
+        "drop_q2": 0.24,
+        "drop_o25": 0.02,
+        "drop_last_q1": 0.25,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": -0.03,
+        "drop_last_o25": 0.0,
         "drop_side": "2",
-        "drop_strength": "medium",
+        "drop_strength": "strong",
         "inversion": true,
         "inversion_from": "1",
         "inversion_to": "2",
         "open_fav_side": "1",
         "curr_fav_side": "2",
         "open_fav_quote": 2.62,
-        "curr_fav_quote": 2.5,
-        "history_points": 4,
+        "curr_fav_quote": 2.38,
+        "history_points": 3,
         "first_seen_at": "2026-03-22T20:53:13",
-        "last_seen_at": "2026-03-24T07:00:29"
+        "last_seen_at": "2026-03-23T22:03:50"
       },
       "scores": {
         "pt": 6.8,
         "over": 5.0,
-        "boost": 6.634,
-        "gold": 5.702,
+        "boost": 6.434,
+        "gold": 5.634,
         "max": 6.8
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
         "🐟G",
-        "DROP_X",
+        "DROP_1",
         "DROP_2",
         "INVERSION",
         "INV_1_TO_2",
-        "DROP_2_MED"
+        "DROP_1_MED",
+        "DROP_2_STRONG"
       ],
       "home_last_8": [
         {

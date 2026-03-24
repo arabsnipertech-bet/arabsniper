@@ -1,0 +1,452 @@
+{
+  "updated_at": "2026-03-23 22:01:03",
+  "day": 1,
+  "date": "2026-03-23",
+  "details": {
+    "1506437": {
+      "fixture_id": 1506437,
+      "date": "2026-03-23",
+      "time": "19:30",
+      "league": "Meistaradeildin",
+      "country": "Faroe-Islands",
+      "match": "Vikingur Gota - HB Torshavn",
+      "home_team": "Vikingur Gota",
+      "away_team": "HB Torshavn",
+      "markets": {
+        "q1": 2.55,
+        "qx": 3.25,
+        "q2": 2.5,
+        "o25": 1.85,
+        "o05ht": 1.35,
+        "o15ht": 2.6
+      },
+      "averages": {
+        "home_avg_ft": 2.125,
+        "away_avg_ft": 3.0,
+        "home_avg_ht": 1.0,
+        "away_avg_ht": 1.375,
+        "combined_ht_avg": 1.188
+      },
+      "flags": {
+        "fav_quote": 2.5,
+        "is_gold_zone": false,
+        "home_last_2h_zero": true,
+        "away_last_2h_zero": true,
+        "drop_diff": 0.95,
+        "open_q1": 3.5,
+        "open_qx": 3.25,
+        "open_q2": 1.95,
+        "open_o25": 1.9,
+        "curr_q1": 2.55,
+        "curr_qx": 3.25,
+        "curr_q2": 2.5,
+        "curr_o25": 1.85,
+        "drop_q1": 0.95,
+        "drop_qx": 0.0,
+        "drop_q2": -0.55,
+        "drop_o25": 0.05,
+        "drop_last_q1": 0.95,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": -0.55,
+        "drop_last_o25": 0.05,
+        "drop_side": "1",
+        "drop_strength": "strong",
+        "inversion": false,
+        "inversion_from": "2",
+        "inversion_to": "2",
+        "open_fav_side": "2",
+        "curr_fav_side": "2",
+        "open_fav_quote": 1.95,
+        "curr_fav_quote": 2.5,
+        "history_points": 2,
+        "first_seen_at": "2026-03-22T20:53:13",
+        "last_seen_at": "2026-03-23T22:03:50"
+      },
+      "scores": {
+        "pt": 6.6,
+        "over": 4.7,
+        "boost": 6.764,
+        "gold": 5.612,
+        "max": 6.764
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🚀 BOOST",
+        "🐟G",
+        "DROP_1",
+        "DROP_1_STRONG"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-13",
+          "league": "Meistaradeildin",
+          "match": "Vikingur Gota - B36 Torshavn",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-03-08",
+          "league": "Meistaradeildin",
+          "match": "NSI Runavik - Vikingur Gota",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-10-31",
+          "league": "Løgmanssteypid",
+          "match": "KI Klaksvik - Vikingur Gota",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-10-25",
+          "league": "Meistaradeildin",
+          "match": "Vikingur Gota - HB Torshavn",
+          "ht": "0-1",
+          "ft": "0-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-10-19",
+          "league": "Meistaradeildin",
+          "match": "Suduroy - Vikingur Gota",
+          "ht": "0-2",
+          "ft": "0-4",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-10-05",
+          "league": "Meistaradeildin",
+          "match": "Vikingur Gota - TB",
+          "ht": "1-0",
+          "ft": "3-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-09-28",
+          "league": "Meistaradeildin",
+          "match": "B36 Torshavn - Vikingur Gota",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-09-21",
+          "league": "Meistaradeildin",
+          "match": "Vikingur Gota - 07 Vestur",
+          "ht": "2-0",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-15",
+          "league": "Meistaradeildin",
+          "match": "HB Torshavn - 07 Vestur",
+          "ht": "2-0",
+          "ft": "2-0",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-08",
+          "league": "Meistaradeildin",
+          "match": "Skála - HB Torshavn",
+          "ht": "0-1",
+          "ft": "1-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-28",
+          "league": "Super Cup",
+          "match": "KI Klaksvik - HB Torshavn",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-10-25",
+          "league": "Meistaradeildin",
+          "match": "Vikingur Gota - HB Torshavn",
+          "ht": "0-1",
+          "ft": "0-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-10-19",
+          "league": "Meistaradeildin",
+          "match": "HB Torshavn - NSI Runavik",
+          "ht": "0-0",
+          "ft": "3-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-10-03",
+          "league": "Meistaradeildin",
+          "match": "HB Torshavn - B68",
+          "ht": "1-1",
+          "ft": "5-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 6
+        },
+        {
+          "date": "2025-09-28",
+          "league": "Meistaradeildin",
+          "match": "EB / Streymur - HB Torshavn",
+          "ht": "0-3",
+          "ft": "0-4",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-09-20",
+          "league": "Meistaradeildin",
+          "match": "HB Torshavn - Suduroy",
+          "ht": "1-1",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        }
+      ]
+    },
+    "1506152": {
+      "fixture_id": 1506152,
+      "date": "2026-03-23",
+      "time": "23:00",
+      "league": "Primera División",
+      "country": "Venezuela",
+      "match": "Carabobo FC - Puerto Cabello",
+      "home_team": "Carabobo FC",
+      "away_team": "Puerto Cabello",
+      "markets": {
+        "q1": 2.25,
+        "qx": 2.95,
+        "q2": 2.95,
+        "o25": 2.5,
+        "o05ht": 1.53,
+        "o15ht": 3.7
+      },
+      "averages": {
+        "home_avg_ft": 2.125,
+        "away_avg_ft": 2.0,
+        "home_avg_ht": 1.375,
+        "away_avg_ht": 1.125,
+        "combined_ht_avg": 1.25
+      },
+      "flags": {
+        "fav_quote": 2.25,
+        "is_gold_zone": false,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.33,
+        "open_q1": 2.22,
+        "open_qx": 2.8,
+        "open_q2": 3.28,
+        "open_o25": 2.42,
+        "curr_q1": 2.25,
+        "curr_qx": 2.95,
+        "curr_q2": 2.95,
+        "curr_o25": 2.5,
+        "drop_q1": -0.03,
+        "drop_qx": -0.15,
+        "drop_q2": 0.33,
+        "drop_o25": -0.08,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.25,
+        "drop_last_o25": 0.1,
+        "drop_side": "2",
+        "drop_strength": "strong",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 2.22,
+        "curr_fav_quote": 2.25,
+        "history_points": 5,
+        "first_seen_at": "2026-03-21T06:52:30",
+        "last_seen_at": "2026-03-23T22:03:50"
+      },
+      "scores": {
+        "pt": 4.3,
+        "over": 4.8,
+        "boost": 5.388,
+        "gold": 4.668,
+        "max": 5.388
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🐟G",
+        "DROP_2",
+        "DROP_2_STRONG"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-18",
+          "league": "Primera División",
+          "match": "Estudiantes de Merida FC - Carabobo FC",
+          "ht": "1-1",
+          "ft": "3-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-03-15",
+          "league": "Primera División",
+          "match": "Carabobo FC - Rayo Zuliano",
+          "ht": "3-0",
+          "ft": "5-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-03-07",
+          "league": "Primera División",
+          "match": "Zamora FC - Carabobo FC",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-03-04",
+          "league": "CONMEBOL Libertadores",
+          "match": "Carabobo FC - Sporting Cristal",
+          "ht": "0-1",
+          "ft": "0-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-28",
+          "league": "Primera División",
+          "match": "Carabobo FC - Caracas FC",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-02-24",
+          "league": "CONMEBOL Libertadores",
+          "match": "Huachipato - Carabobo FC",
+          "ht": "0-2",
+          "ft": "1-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-20",
+          "league": "Primera División",
+          "match": "Metropolitanos FC - Carabobo FC",
+          "ht": "1-1",
+          "ft": "1-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-17",
+          "league": "CONMEBOL Libertadores",
+          "match": "Carabobo FC - Huachipato",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-17",
+          "league": "Primera División",
+          "match": "Puerto Cabello - UCV",
+          "ht": "1-0",
+          "ft": "3-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-13",
+          "league": "Primera División",
+          "match": "Deportivo La Guaira - Puerto Cabello",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-03-08",
+          "league": "Primera División",
+          "match": "Academia Anzoátegui - Puerto Cabello",
+          "ht": "0-1",
+          "ft": "0-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-27",
+          "league": "Primera División",
+          "match": "Puerto Cabello - Estudiantes de Merida FC",
+          "ht": "1-1",
+          "ft": "1-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Primera División",
+          "match": "Rayo Zuliano - Puerto Cabello",
+          "ht": "2-0",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-14",
+          "league": "Primera División",
+          "match": "Puerto Cabello - Zamora FC",
+          "ht": "0-0",
+          "ft": "2-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-07",
+          "league": "Primera División",
+          "match": "Caracas FC - Puerto Cabello",
+          "ht": "1-1",
+          "ft": "1-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-01-30",
+          "league": "Primera División",
+          "match": "Puerto Cabello - Metropolitanos FC",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        }
+      ]
+    }
+  }
+}
