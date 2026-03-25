@@ -1,1728 +1,1993 @@
 {
-    "updated_at": "2026-03-25 21:59:45",
-    "day": 1,
-    "date": "2026-03-25",
-    "details": {
-        "1476918": {
-            "fixture_id": 1476918,
-            "date": "2026-03-25",
-            "time": "22:00",
-            "league": "Liga de Ascenso",
-            "country": "Costa-Rica",
-            "match": "AD Carmelita - Futbol Consultants Moravia",
-            "home_team": "AD Carmelita",
-            "away_team": "Futbol Consultants Moravia",
-            "markets": {
-                "q1": 3.2,
-                "qx": 3.25,
-                "q2": 2.0,
-                "o25": 1.8,
-                "o05ht": 1.33,
-                "o15ht": 2.5
-            },
-            "averages": {
-                "home_avg_ft": 3.25,
-                "away_avg_ft": 3.25,
-                "home_avg_ht": 1.625,
-                "away_avg_ht": 1.125,
-                "combined_ht_avg": 1.375
-            },
-            "flags": {
-                "fav_quote": 2.0,
-                "is_gold_zone": false,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 6.8,
-                "over": 6.2,
-                "boost": 7.56,
-                "gold": 6.376,
-                "max": 7.56
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🚀 BOOST",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-21",
-                    "league": "Liga de Ascenso",
-                    "match": "CS Uruguay - AD Carmelita",
-                    "ht": "3-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-16",
-                    "league": "Liga de Ascenso",
-                    "match": "AD Carmelita - Pitbulls Santa Barbara FC",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-12",
-                    "league": "Liga de Ascenso",
-                    "match": "Cariari Pococi - AD Carmelita",
-                    "ht": "0-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "Liga de Ascenso",
-                    "match": "AD Carmelita - Escorpiones Belén",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-25",
-                    "league": "Liga de Ascenso",
-                    "match": "AD Carmelita - Santa Ana",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Liga de Ascenso",
-                    "match": "Futbol Consultants Moravia - AD Carmelita",
-                    "ht": "1-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Liga de Ascenso",
-                    "match": "AD Carmelita - Aserri FC",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Copa Costa Rica",
-                    "match": "AD Carmelita - Deportivo Saprissa",
-                    "ht": "1-3",
-                    "ft": "2-4",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 6
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-22",
-                    "league": "Liga de Ascenso",
-                    "match": "Futbol Consultants Moravia - Santa Ana",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-13",
-                    "league": "Liga de Ascenso",
-                    "match": "Futbol Consultants Moravia - Aserri FC",
-                    "ht": "4-1",
-                    "ft": "6-2",
-                    "total_ht_goals": 5,
-                    "total_ft_goals": 8
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Liga de Ascenso",
-                    "match": "CS Uruguay - Futbol Consultants Moravia",
-                    "ht": "1-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-26",
-                    "league": "Liga de Ascenso",
-                    "match": "Pitbulls Santa Barbara FC - Futbol Consultants Moravia",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Liga de Ascenso",
-                    "match": "Futbol Consultants Moravia - Cariari Pococi",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Liga de Ascenso",
-                    "match": "Futbol Consultants Moravia - AD Carmelita",
-                    "ht": "1-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Liga de Ascenso",
-                    "match": "Escorpiones Belén - Futbol Consultants Moravia",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-10",
-                    "league": "Liga de Ascenso",
-                    "match": "Santa Ana - Futbol Consultants Moravia",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ]
+  "updated_at": "2026-03-25 21:59:45",
+  "day": 1,
+  "date": "2026-03-25",
+  "details": {
+    "1476918": {
+      "fixture_id": 1476918,
+      "date": "2026-03-25",
+      "time": "22:00",
+      "league": "Liga de Ascenso",
+      "country": "Costa-Rica",
+      "match": "AD Carmelita - Futbol Consultants Moravia",
+      "home_team": "AD Carmelita",
+      "away_team": "Futbol Consultants Moravia",
+      "markets": {
+        "q1": 3.2,
+        "qx": 3.25,
+        "q2": 2.0,
+        "o25": 1.8,
+        "o05ht": 1.33,
+        "o15ht": 2.5
+      },
+      "averages": {
+        "home_avg_ft": 3.25,
+        "away_avg_ft": 3.25,
+        "home_avg_ht": 1.625,
+        "away_avg_ht": 1.125,
+        "combined_ht_avg": 1.375
+      },
+      "flags": {
+        "fav_quote": 2.0,
+        "is_gold_zone": false,
+        "home_last_2h_zero": true,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.6,
+        "open_q1": 2.3,
+        "open_qx": 3.4,
+        "open_q2": 2.6,
+        "open_o25": 1.95,
+        "curr_q1": 3.2,
+        "curr_qx": 3.25,
+        "curr_q2": 2.0,
+        "curr_o25": 1.8,
+        "drop_q1": -0.9,
+        "drop_qx": 0.15,
+        "drop_q2": 0.6,
+        "drop_o25": 0.15,
+        "drop_last_q1": -0.9,
+        "drop_last_qx": 0.15,
+        "drop_last_q2": 0.6,
+        "drop_last_o25": 0.15,
+        "drop_side": "2",
+        "drop_strength": "strong",
+        "inversion": true,
+        "inversion_from": "1",
+        "inversion_to": "2",
+        "open_fav_side": "1",
+        "curr_fav_side": "2",
+        "open_fav_quote": 2.3,
+        "curr_fav_quote": 2.0,
+        "history_points": 2,
+        "first_seen_at": "2026-03-23T22:03:50",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 6.8,
+        "over": 6.2,
+        "boost": 7.56,
+        "gold": 6.376,
+        "max": 7.56
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🚀 BOOST",
+        "🐟G",
+        "DROP_X",
+        "DROP_2",
+        "O25_DROP",
+        "INVERSION",
+        "INV_1_TO_2",
+        "DROP_X_MED",
+        "DROP_2_STRONG"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-21",
+          "league": "Liga de Ascenso",
+          "match": "CS Uruguay - AD Carmelita",
+          "ht": "3-0",
+          "ft": "3-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
         },
-        "1535572": {
-            "fixture_id": 1535572,
-            "date": "2026-03-25",
-            "time": "22:00",
-            "league": "Copa De La Liga",
-            "country": "Chile",
-            "match": "Nublense - U. Catolica",
-            "home_team": "Nublense",
-            "away_team": "U. Catolica",
-            "markets": {
-                "q1": 2.55,
-                "qx": 3.1,
-                "q2": 2.55,
-                "o25": 2.05,
-                "o05ht": 1.38,
-                "o15ht": 2.7
-            },
-            "averages": {
-                "home_avg_ft": 2.125,
-                "away_avg_ft": 3.25,
-                "home_avg_ht": 1.125,
-                "away_avg_ht": 2.0,
-                "combined_ht_avg": 1.562
-            },
-            "flags": {
-                "fav_quote": 2.55,
-                "is_gold_zone": false,
-                "home_last_2h_zero": true,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 6.8,
-                "over": 5.0,
-                "boost": 6.634,
-                "gold": 5.702,
-                "max": 6.8
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-21",
-                    "league": "Copa De La Liga",
-                    "match": "Cobresal - Nublense",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-15",
-                    "league": "Primera División",
-                    "match": "Nublense - D. La Serena",
-                    "ht": "1-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "Primera División",
-                    "match": "Concepción - Nublense",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-01",
-                    "league": "Primera División",
-                    "match": "Nublense - U. Catolica",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Primera División",
-                    "match": "Union La Calera - Nublense",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Primera División",
-                    "match": "Nublense - A. Italiano",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Primera División",
-                    "match": "Nublense - Deportes Limache",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Primera División",
-                    "match": "Palestino - Nublense",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-22",
-                    "league": "Copa De La Liga",
-                    "match": "U. Catolica - Universidad de Concepcion",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-14",
-                    "league": "Primera División",
-                    "match": "U. Catolica - Everton de Vina",
-                    "ht": "1-2",
-                    "ft": "2-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Primera División",
-                    "match": "O'Higgins - U. Catolica",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-01",
-                    "league": "Primera División",
-                    "match": "Nublense - U. Catolica",
-                    "ht": "1-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Primera División",
-                    "match": "U. Catolica - Coquimbo Unido",
-                    "ht": "1-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Primera División",
-                    "match": "Cobresal - U. Catolica",
-                    "ht": "2-1",
-                    "ft": "3-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Primera División",
-                    "match": "U. Catolica - Concepción",
-                    "ht": "0-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Primera División",
-                    "match": "D. La Serena - U. Catolica",
-                    "ht": "2-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                }
-            ]
+        {
+          "date": "2026-03-16",
+          "league": "Liga de Ascenso",
+          "match": "AD Carmelita - Pitbulls Santa Barbara FC",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
         },
-        "1537175": {
-            "fixture_id": 1537175,
-            "date": "2026-03-25",
-            "time": "22:00",
-            "league": "Friendlies",
-            "country": "World",
-            "match": "Congo DR - Bermuda",
-            "home_team": "Congo DR",
-            "away_team": "Bermuda",
-            "markets": {
-                "q1": 1.19,
-                "qx": 5.85,
-                "q2": 15.0,
-                "o25": 1.35,
-                "o05ht": 1.25,
-                "o15ht": 2.08
-            },
-            "averages": {
-                "home_avg_ft": 2.0,
-                "away_avg_ft": 4.375,
-                "home_avg_ht": 1.125,
-                "away_avg_ht": 2.0,
-                "combined_ht_avg": 1.562
-            },
-            "flags": {
-                "fav_quote": 1.19,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 6.0,
-                "over": 3.2,
-                "boost": 5.266,
-                "gold": 4.52,
-                "max": 6.0
-            },
-            "tags": [
-                "🎯PT",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2025-12-30",
-                    "league": "Africa Cup of Nations",
-                    "match": "Botswana - Congo DR",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-12-27",
-                    "league": "Africa Cup of Nations",
-                    "match": "Senegal - Congo DR",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-12-23",
-                    "league": "Africa Cup of Nations",
-                    "match": "Congo DR - Benin",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-12-16",
-                    "league": "Friendlies",
-                    "match": "Congo DR - Zambia",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2025-11-13",
-                    "league": "World Cup - Qualification Africa",
-                    "match": "Cameroon - Congo DR",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-10-14",
-                    "league": "World Cup - Qualification Africa",
-                    "match": "Congo DR - Sudan",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-10-10",
-                    "league": "World Cup - Qualification Africa",
-                    "match": "Togo - Congo DR",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2025-09-09",
-                    "league": "World Cup - Qualification Africa",
-                    "match": "Congo DR - Senegal",
-                    "ht": "2-1",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2025-11-19",
-                    "league": "World Cup - Qualification CONCACAF",
-                    "match": "Trinidad and Tobago - Bermuda",
-                    "ht": "1-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-11-14",
-                    "league": "World Cup - Qualification CONCACAF",
-                    "match": "Bermuda - Curaçao",
-                    "ht": "0-2",
-                    "ft": "0-7",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 7
-                },
-                {
-                    "date": "2025-10-15",
-                    "league": "World Cup - Qualification CONCACAF",
-                    "match": "Jamaica - Bermuda",
-                    "ht": "3-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-10-10",
-                    "league": "World Cup - Qualification CONCACAF",
-                    "match": "Bermuda - Trinidad and Tobago",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-09-10",
-                    "league": "World Cup - Qualification CONCACAF",
-                    "match": "Curaçao - Bermuda",
-                    "ht": "2-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2025-09-05",
-                    "league": "World Cup - Qualification CONCACAF",
-                    "match": "Bermuda - Jamaica",
-                    "ht": "0-2",
-                    "ft": "0-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2025-06-10",
-                    "league": "World Cup - Qualification CONCACAF",
-                    "match": "Cuba - Bermuda",
-                    "ht": "0-1",
-                    "ft": "1-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2025-06-04",
-                    "league": "World Cup - Qualification CONCACAF",
-                    "match": "Bermuda - Cayman Islands",
-                    "ht": "1-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                }
-            ]
+        {
+          "date": "2026-03-12",
+          "league": "Liga de Ascenso",
+          "match": "Cariari Pococi - AD Carmelita",
+          "ht": "0-1",
+          "ft": "2-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
         },
-        "1457025": {
-            "fixture_id": 1457025,
-            "date": "2026-03-25",
-            "time": "22:30",
-            "league": "Liga Premier Serie A",
-            "country": "Mexico",
-            "match": "Sporting Canamy - Calor de San Pedro",
-            "home_team": "Sporting Canamy",
-            "away_team": "Calor de San Pedro",
-            "markets": {
-                "q1": 2.75,
-                "qx": 3.55,
-                "q2": 2.2,
-                "o25": 1.6,
-                "o05ht": 1.28,
-                "o15ht": 2.3
-            },
-            "averages": {
-                "home_avg_ft": 3.875,
-                "away_avg_ft": 1.75,
-                "home_avg_ht": 2.25,
-                "away_avg_ht": 0.25,
-                "combined_ht_avg": 1.25
-            },
-            "flags": {
-                "fav_quote": 2.2,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 4.4,
-                "over": 5.4,
-                "boost": 5.714,
-                "gold": 4.981,
-                "max": 5.714
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-21",
-                    "league": "Liga Premier Serie A",
-                    "match": "Sporting Canamy - Gavilanes FC Matamoros",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-14",
-                    "league": "Liga Premier Serie A",
-                    "match": "Sporting Canamy - Ciervos",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Liga Premier Serie A",
-                    "match": "Correcaminos UAT II - Sporting Canamy",
-                    "ht": "1-1",
-                    "ft": "2-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Liga Premier Serie A",
-                    "match": "Zitacuaro - Sporting Canamy",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Liga Premier Serie A",
-                    "match": "Sporting Canamy - Atletico Hidalgo",
-                    "ht": "1-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Liga Premier Serie A",
-                    "match": "Cordobés - Sporting Canamy",
-                    "ht": "2-2",
-                    "ft": "3-2",
-                    "total_ht_goals": 4,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Liga Premier Serie A",
-                    "match": "Sporting Canamy - Deportivo Zap",
-                    "ht": "0-2",
-                    "ft": "0-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Liga Premier Serie A",
-                    "match": "Lobos ULMX - Sporting Canamy",
-                    "ht": "2-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-22",
-                    "league": "Liga Premier Serie A",
-                    "match": "Calor de San Pedro - Chilpancingo",
-                    "ht": "None-None",
-                    "ft": "4-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-14",
-                    "league": "Liga Premier Serie A",
-                    "match": "FC Santiago - Calor de San Pedro",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "Liga Premier Serie A",
-                    "match": "Calor de San Pedro - Zacatepec 1948",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-22",
-                    "league": "Liga Premier Serie A",
-                    "match": "Calor de San Pedro - Ciervos",
-                    "ht": "0-0",
-                    "ft": "3-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Liga Premier Serie A",
-                    "match": "Correcaminos UAT II - Calor de San Pedro",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-01",
-                    "league": "Liga Premier Serie A",
-                    "match": "Calor de San Pedro - Zitacuaro",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-01-23",
-                    "league": "Liga Premier Serie A",
-                    "match": "Atletico Hidalgo - Calor de San Pedro",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-10",
-                    "league": "Liga Premier Serie A",
-                    "match": "Deportivo Zap - Calor de San Pedro",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ]
+        {
+          "date": "2026-03-08",
+          "league": "Liga de Ascenso",
+          "match": "AD Carmelita - Escorpiones Belén",
+          "ht": "0-0",
+          "ft": "2-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
         },
-        "1511922": {
-            "fixture_id": 1511922,
-            "date": "2026-03-25",
-            "time": "23:00",
-            "league": "Primera B",
-            "country": "Colombia",
-            "match": "Barranquilla - Leones FC",
-            "home_team": "Barranquilla",
-            "away_team": "Leones FC",
-            "markets": {
-                "q1": 1.9,
-                "qx": 3.2,
-                "q2": 3.9,
-                "o25": 2.1,
-                "o05ht": 1.44,
-                "o15ht": 3.0
-            },
-            "averages": {
-                "home_avg_ft": 2.5,
-                "away_avg_ft": 2.75,
-                "home_avg_ht": 1.0,
-                "away_avg_ht": 1.25,
-                "combined_ht_avg": 1.125
-            },
-            "flags": {
-                "fav_quote": 1.9,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": true,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 5.7,
-                "over": 5.9,
-                "boost": 5.548,
-                "gold": 5.76,
-                "max": 5.9
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-21",
-                    "league": "Primera B",
-                    "match": "Real Soacha - Barranquilla",
-                    "ht": "0-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-16",
-                    "league": "Primera B",
-                    "match": "Barranquilla - Bogota FC",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-11",
-                    "league": "Primera B",
-                    "match": "Ind. Yumbo - Barranquilla",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-04",
-                    "league": "Primera B",
-                    "match": "Barranquilla - Union Magdalena",
-                    "ht": "0-2",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-26",
-                    "league": "Primera B",
-                    "match": "Popayan - Barranquilla",
-                    "ht": "0-2",
-                    "ft": "0-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Primera B",
-                    "match": "Barranquilla - Internacional Palmira",
-                    "ht": "0-2",
-                    "ft": "0-4",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-17",
-                    "league": "Primera B",
-                    "match": "Quindio - Barranquilla",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-04",
-                    "league": "Primera B",
-                    "match": "Barranquilla - Patriotas",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-21",
-                    "league": "Primera B",
-                    "match": "Leones FC - Internacional Palmira",
-                    "ht": "1-2",
-                    "ft": "1-2",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-14",
-                    "league": "Primera B",
-                    "match": "Popayan - Leones FC",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-11",
-                    "league": "Primera B",
-                    "match": "Leones FC - Envigado",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-03",
-                    "league": "Primera B",
-                    "match": "Depor FC - Leones FC",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-02-27",
-                    "league": "Primera B",
-                    "match": "Leones FC - Ind. Yumbo",
-                    "ht": "0-1",
-                    "ft": "0-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Primera B",
-                    "match": "Real Cartagena - Leones FC",
-                    "ht": "0-2",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Primera B",
-                    "match": "Leones FC - Union Magdalena",
-                    "ht": "1-0",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Primera B",
-                    "match": "Real Soacha - Leones FC",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                }
-            ]
+        {
+          "date": "2026-02-25",
+          "league": "Liga de Ascenso",
+          "match": "AD Carmelita - Santa Ana",
+          "ht": "1-1",
+          "ft": "1-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
         },
-        "1537303": {
-            "fixture_id": 1537303,
-            "date": "2026-03-25",
-            "time": "23:00",
-            "league": "Copa Sul-Sudeste",
-            "country": "Brazil",
-            "match": "Sampaio Corrêa RJ - Juventude",
-            "home_team": "Sampaio Corrêa RJ",
-            "away_team": "Juventude",
-            "markets": {
-                "q1": 1.98,
-                "qx": 3.15,
-                "q2": 3.7,
-                "o25": 2.3,
-                "o05ht": 1.53,
-                "o15ht": 3.45
-            },
-            "averages": {
-                "home_avg_ft": 3.5,
-                "away_avg_ft": 2.875,
-                "home_avg_ht": 1.5,
-                "away_avg_ht": 0.875,
-                "combined_ht_avg": 1.188
-            },
-            "flags": {
-                "fav_quote": 1.98,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 2.8,
-                "over": 5.1,
-                "boost": 4.412,
-                "gold": 4.096,
-                "max": 5.1
-            },
-            "tags": [
-                "⚽ OVER"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-08",
-                    "league": "Carioca - 1",
-                    "match": "Nova Iguaçu - Sampaio Corrêa RJ",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-02",
-                    "league": "Carioca - 1",
-                    "match": "Portuguesa RJ - Sampaio Corrêa RJ",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-26",
-                    "league": "Carioca - 1",
-                    "match": "Sampaio Corrêa RJ - CFRJ / Maricá",
-                    "ht": "0-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-23",
-                    "league": "Carioca - 1",
-                    "match": "Sampaio Corrêa RJ - Nova Iguaçu",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Carioca - 1",
-                    "match": "Sampaio Corrêa RJ - Portuguesa RJ",
-                    "ht": "1-0",
-                    "ft": "3-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Carioca - 1",
-                    "match": "CFRJ / Maricá - Sampaio Corrêa RJ",
-                    "ht": "0-3",
-                    "ft": "0-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Carioca - 1",
-                    "match": "Flamengo - Sampaio Corrêa RJ",
-                    "ht": "2-1",
-                    "ft": "7-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 8
-                },
-                {
-                    "date": "2026-01-30",
-                    "league": "Carioca - 1",
-                    "match": "Sampaio Corrêa RJ - Boavista SC",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-22",
-                    "league": "Serie B",
-                    "match": "Avai - Juventude",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-19",
-                    "league": "Copa Do Brasil",
-                    "match": "Juventude - Águia de Marabá",
-                    "ht": "1-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-06",
-                    "league": "Copa Do Brasil",
-                    "match": "Juventude - Guaporé",
-                    "ht": "3-0",
-                    "ft": "5-0",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-02-15",
-                    "league": "Gaúcho - 1",
-                    "match": "Gremio - Juventude",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-09",
-                    "league": "Gaúcho - 1",
-                    "match": "Juventude - Sao Jose",
-                    "ht": "0-0",
-                    "ft": "3-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Gaúcho - 1",
-                    "match": "Gremio - Juventude",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Gaúcho - 1",
-                    "match": "Juventude - Monsoon",
-                    "ht": "1-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-22",
-                    "league": "Gaúcho - 1",
-                    "match": "Juventude - Caxias",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                }
-            ]
+        {
+          "date": "2026-02-19",
+          "league": "Liga de Ascenso",
+          "match": "Futbol Consultants Moravia - AD Carmelita",
+          "ht": "1-0",
+          "ft": "3-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
         },
-        "1535738": {
-            "fixture_id": 1535738,
-            "date": "2026-03-25",
-            "time": "23:30",
-            "league": "Copa do Nordeste",
-            "country": "Brazil",
-            "match": "AO Itabaiana - CRB",
-            "home_team": "AO Itabaiana",
-            "away_team": "CRB",
-            "markets": {
-                "q1": 3.4,
-                "qx": 3.05,
-                "q2": 2.22,
-                "o25": 2.45,
-                "o05ht": 1.48,
-                "o15ht": 3.2
-            },
-            "averages": {
-                "home_avg_ft": 2.125,
-                "away_avg_ft": 3.5,
-                "home_avg_ht": 1.125,
-                "away_avg_ht": 1.0,
-                "combined_ht_avg": 1.062
-            },
-            "flags": {
-                "fav_quote": 2.22,
-                "is_gold_zone": false,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 3.6,
-                "over": 3.0,
-                "boost": 3.358,
-                "gold": 2.834,
-                "max": 3.6
-            },
-            "tags": [
-                "🐟G"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-08",
-                    "league": "Sergipano",
-                    "match": "AO Itabaiana - América SE",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-05",
-                    "league": "Copa Do Brasil",
-                    "match": "Manauara - AO Itabaiana",
-                    "ht": "2-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Sergipano",
-                    "match": "AO Itabaiana - Confiança",
-                    "ht": "0-2",
-                    "ft": "0-2",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-25",
-                    "league": "Sergipano",
-                    "match": "Confiança - AO Itabaiana",
-                    "ht": "0-0",
-                    "ft": "1-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-20",
-                    "league": "Sergipano",
-                    "match": "AO Itabaiana - Falcon",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-14",
-                    "league": "Sergipano",
-                    "match": "AO Itabaiana - Guarany SE",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Sergipano",
-                    "match": "América SE - AO Itabaiana",
-                    "ht": "0-3",
-                    "ft": "0-3",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Sergipano",
-                    "match": "Confiança - AO Itabaiana",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-21",
-                    "league": "Serie B",
-                    "match": "Vila Nova - CRB",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-21",
-                    "league": "Copa Alagoas",
-                    "match": "ASA - CRB",
-                    "ht": "None-None",
-                    "ft": "3-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-19",
-                    "league": "Copa Do Brasil",
-                    "match": "CRB - Figueirense",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-03-18",
-                    "league": "Copa Alagoas",
-                    "match": "CRB - CSA",
-                    "ht": "0-2",
-                    "ft": "1-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-14",
-                    "league": "Copa Alagoas",
-                    "match": "CRB - Coruripe",
-                    "ht": "0-0",
-                    "ft": "5-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 6
-                },
-                {
-                    "date": "2026-03-12",
-                    "league": "Copa Do Brasil",
-                    "match": "Sousa - CRB",
-                    "ht": "0-0",
-                    "ft": "0-2",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-07",
-                    "league": "Alagoano",
-                    "match": "ASA - CRB",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-03-03",
-                    "league": "Copa Do Brasil",
-                    "match": "CRB - Porto BA",
-                    "ht": "3-0",
-                    "ft": "6-0",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 6
-                }
-            ]
+        {
+          "date": "2026-02-15",
+          "league": "Liga de Ascenso",
+          "match": "AD Carmelita - Aserri FC",
+          "ht": "0-1",
+          "ft": "2-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
         },
-        "1537337": {
-            "fixture_id": 1537337,
-            "date": "2026-03-25",
-            "time": "23:30",
-            "league": "Copa Centro-Oeste",
-            "country": "Brazil",
-            "match": "Porto Vitória - Gama",
-            "home_team": "Porto Vitória",
-            "away_team": "Gama",
-            "markets": {
-                "q1": 4.2,
-                "qx": 3.1,
-                "q2": 1.85,
-                "o25": 2.6,
-                "o05ht": 1.53,
-                "o15ht": 3.45
-            },
-            "averages": {
-                "home_avg_ft": 2.125,
-                "away_avg_ft": 2.5,
-                "home_avg_ht": 1.5,
-                "away_avg_ht": 1.0,
-                "combined_ht_avg": 1.25
-            },
-            "flags": {
-                "fav_quote": 1.85,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": false,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 3.8,
-                "over": 4.0,
-                "boost": 4.814,
-                "gold": 4.973,
-                "max": 4.973
-            },
-            "tags": [
-                "⚽ OVER"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-21",
-                    "league": "Capixaba",
-                    "match": "Porto Vitória - Serra Talhada",
-                    "ht": "2-1",
-                    "ft": "3-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "Capixaba",
-                    "match": "Porto Vitória - Vitória ES",
-                    "ht": "0-3",
-                    "ft": "0-4",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-03-04",
-                    "league": "Copa Do Brasil",
-                    "match": "Avai - Porto Vitória",
-                    "ht": "2-0",
-                    "ft": "3-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Capixaba",
-                    "match": "Rio Branco ES - Porto Vitória",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Capixaba",
-                    "match": "Porto Vitória - Rio Branco ES",
-                    "ht": "1-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Capixaba",
-                    "match": "Porto Vitória - Vilavelhense",
-                    "ht": "0-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Capixaba",
-                    "match": "Real Noroeste - Porto Vitória",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-04",
-                    "league": "Capixaba",
-                    "match": "Porto Vitória - Serra Talhada",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-03-14",
-                    "league": "Brasiliense",
-                    "match": "Gama - Ceilândia",
-                    "ht": "1-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-03-08",
-                    "league": "Brasiliense",
-                    "match": "Ceilândia - Gama",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Brasiliense",
-                    "match": "Capital Brasilia - Gama",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Brasiliense",
-                    "match": "Gama - ARUC",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-18",
-                    "league": "Copa Do Brasil",
-                    "match": "Gama - Monte Roraima",
-                    "ht": "2-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-11",
-                    "league": "Brasiliense",
-                    "match": "Gama - Ceilândia",
-                    "ht": "2-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Brasiliense",
-                    "match": "Sobradinho EC - Gama",
-                    "ht": "0-0",
-                    "ft": "0-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Brasiliense",
-                    "match": "Gama - Paranoá",
-                    "ht": "0-1",
-                    "ft": "4-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 5
-                }
-            ]
-        },
-        "1537338": {
-            "fixture_id": 1537338,
-            "date": "2026-03-25",
-            "time": "23:30",
-            "league": "Copa Centro-Oeste",
-            "country": "Brazil",
-            "match": "Capital Brasilia - Primavera MG",
-            "home_team": "Capital Brasilia",
-            "away_team": "Primavera MG",
-            "markets": {
-                "q1": 1.6,
-                "qx": 3.4,
-                "q2": 5.75,
-                "o25": 2.35,
-                "o05ht": 1.48,
-                "o15ht": 3.1
-            },
-            "averages": {
-                "home_avg_ft": 3.0,
-                "away_avg_ft": 2.375,
-                "home_avg_ht": 1.0,
-                "away_avg_ht": 1.125,
-                "combined_ht_avg": 1.062
-            },
-            "flags": {
-                "fav_quote": 1.6,
-                "is_gold_zone": true,
-                "home_last_2h_zero": false,
-                "away_last_2h_zero": true,
-                "drop_diff": 0.0
-            },
-            "scores": {
-                "pt": 4.4,
-                "over": 4.4,
-                "boost": 4.334,
-                "gold": 4.962,
-                "max": 4.962
-            },
-            "tags": [
-                "🎯PT",
-                "⚽ OVER",
-                "🐟O"
-            ],
-            "home_last_8": [
-                {
-                    "date": "2026-03-12",
-                    "league": "Copa Do Brasil",
-                    "match": "Operario-PR - Capital Brasilia",
-                    "ht": "1-0",
-                    "ft": "2-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-28",
-                    "league": "Brasiliense",
-                    "match": "Capital Brasilia - Gama",
-                    "ht": "0-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-21",
-                    "league": "Brasiliense",
-                    "match": "Capital Brasilia - Brasiliense",
-                    "ht": "0-1",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-12",
-                    "league": "Brasiliense",
-                    "match": "Brasília - Capital Brasilia",
-                    "ht": "0-1",
-                    "ft": "1-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-02-07",
-                    "league": "Brasiliense",
-                    "match": "Ceilândia - Capital Brasilia",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Brasiliense",
-                    "match": "Capital Brasilia - Sobradinho EC",
-                    "ht": "2-0",
-                    "ft": "2-3",
-                    "total_ht_goals": 2,
-                    "total_ft_goals": 5
-                },
-                {
-                    "date": "2026-01-24",
-                    "league": "Brasiliense",
-                    "match": "Paranoá - Capital Brasilia",
-                    "ht": "0-1",
-                    "ft": "0-3",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-21",
-                    "league": "Brasiliense",
-                    "match": "Capital Brasilia - Real FC",
-                    "ht": "0-1",
-                    "ft": "0-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                }
-            ],
-            "away_last_8": [
-                {
-                    "date": "2026-02-25",
-                    "league": "Copa Do Brasil",
-                    "match": "Atletico Goianiense - Primavera MG",
-                    "ht": "1-0",
-                    "ft": "1-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 1
-                },
-                {
-                    "date": "2026-02-19",
-                    "league": "Copa Do Brasil",
-                    "match": "Primavera MG - Bragantino PA",
-                    "ht": "2-1",
-                    "ft": "2-1",
-                    "total_ht_goals": 3,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-02-08",
-                    "league": "Matogrossense",
-                    "match": "CEOV Operário - Primavera MG",
-                    "ht": "1-0",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-02-05",
-                    "league": "Matogrossense",
-                    "match": "Primavera MG - Cuiaba",
-                    "ht": "0-1",
-                    "ft": "1-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 2
-                },
-                {
-                    "date": "2026-01-31",
-                    "league": "Matogrossense",
-                    "match": "Mixto - Primavera MG",
-                    "ht": "1-0",
-                    "ft": "4-0",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                },
-                {
-                    "date": "2026-01-28",
-                    "league": "Matogrossense",
-                    "match": "Primavera MG - Operário MT",
-                    "ht": "1-0",
-                    "ft": "2-1",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 3
-                },
-                {
-                    "date": "2026-01-25",
-                    "league": "Matogrossense",
-                    "match": "Primavera MG - Luverdense",
-                    "ht": "0-0",
-                    "ft": "0-0",
-                    "total_ht_goals": 0,
-                    "total_ft_goals": 0
-                },
-                {
-                    "date": "2026-01-22",
-                    "league": "Matogrossense",
-                    "match": "Primavera MG - Nova Mutum EC",
-                    "ht": "1-0",
-                    "ft": "2-2",
-                    "total_ht_goals": 1,
-                    "total_ft_goals": 4
-                }
-            ]
+        {
+          "date": "2026-02-12",
+          "league": "Copa Costa Rica",
+          "match": "AD Carmelita - Deportivo Saprissa",
+          "ht": "1-3",
+          "ft": "2-4",
+          "total_ht_goals": 4,
+          "total_ft_goals": 6
         }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-22",
+          "league": "Liga de Ascenso",
+          "match": "Futbol Consultants Moravia - Santa Ana",
+          "ht": "1-0",
+          "ft": "2-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-13",
+          "league": "Liga de Ascenso",
+          "match": "Futbol Consultants Moravia - Aserri FC",
+          "ht": "4-1",
+          "ft": "6-2",
+          "total_ht_goals": 5,
+          "total_ft_goals": 8
+        },
+        {
+          "date": "2026-02-28",
+          "league": "Liga de Ascenso",
+          "match": "CS Uruguay - Futbol Consultants Moravia",
+          "ht": "1-0",
+          "ft": "3-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-26",
+          "league": "Liga de Ascenso",
+          "match": "Pitbulls Santa Barbara FC - Futbol Consultants Moravia",
+          "ht": "0-0",
+          "ft": "2-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-22",
+          "league": "Liga de Ascenso",
+          "match": "Futbol Consultants Moravia - Cariari Pococi",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-19",
+          "league": "Liga de Ascenso",
+          "match": "Futbol Consultants Moravia - AD Carmelita",
+          "ht": "1-0",
+          "ft": "3-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-14",
+          "league": "Liga de Ascenso",
+          "match": "Escorpiones Belén - Futbol Consultants Moravia",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-10",
+          "league": "Liga de Ascenso",
+          "match": "Santa Ana - Futbol Consultants Moravia",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        }
+      ]
+    },
+    "1535572": {
+      "fixture_id": 1535572,
+      "date": "2026-03-25",
+      "time": "22:00",
+      "league": "Copa De La Liga",
+      "country": "Chile",
+      "match": "Nublense - U. Catolica",
+      "home_team": "Nublense",
+      "away_team": "U. Catolica",
+      "markets": {
+        "q1": 2.55,
+        "qx": 3.1,
+        "q2": 2.55,
+        "o25": 2.05,
+        "o05ht": 1.38,
+        "o15ht": 2.7
+      },
+      "averages": {
+        "home_avg_ft": 2.125,
+        "away_avg_ft": 3.25,
+        "home_avg_ht": 1.125,
+        "away_avg_ht": 2.0,
+        "combined_ht_avg": 1.562
+      },
+      "flags": {
+        "fav_quote": 2.55,
+        "is_gold_zone": false,
+        "home_last_2h_zero": true,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.2,
+        "open_q1": 2.62,
+        "open_qx": 3.3,
+        "open_q2": 2.62,
+        "open_o25": 2.12,
+        "curr_q1": 2.55,
+        "curr_qx": 3.1,
+        "curr_q2": 2.55,
+        "curr_o25": 2.05,
+        "drop_q1": 0.07,
+        "drop_qx": 0.2,
+        "drop_q2": 0.07,
+        "drop_o25": 0.07,
+        "drop_last_q1": -0.05,
+        "drop_last_qx": 0.15,
+        "drop_last_q2": -0.05,
+        "drop_last_o25": -0.1,
+        "drop_side": "X",
+        "drop_strength": "strong",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 2.62,
+        "curr_fav_quote": 2.55,
+        "history_points": 7,
+        "first_seen_at": "2026-03-22T20:53:13",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 6.8,
+        "over": 5.0,
+        "boost": 6.634,
+        "gold": 5.702,
+        "max": 6.8
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🐟G",
+        "DROP_1",
+        "DROP_X",
+        "DROP_2",
+        "DROP_X_STRONG"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-21",
+          "league": "Copa De La Liga",
+          "match": "Cobresal - Nublense",
+          "ht": "1-1",
+          "ft": "1-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-15",
+          "league": "Primera División",
+          "match": "Nublense - D. La Serena",
+          "ht": "1-0",
+          "ft": "2-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-06",
+          "league": "Primera División",
+          "match": "Concepción - Nublense",
+          "ht": "0-1",
+          "ft": "0-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-01",
+          "league": "Primera División",
+          "match": "Nublense - U. Catolica",
+          "ht": "1-1",
+          "ft": "1-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-20",
+          "league": "Primera División",
+          "match": "Union La Calera - Nublense",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-15",
+          "league": "Primera División",
+          "match": "Nublense - A. Italiano",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-08",
+          "league": "Primera División",
+          "match": "Nublense - Deportes Limache",
+          "ht": "0-1",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-01",
+          "league": "Primera División",
+          "match": "Palestino - Nublense",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-22",
+          "league": "Copa De La Liga",
+          "match": "U. Catolica - Universidad de Concepcion",
+          "ht": "1-1",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-14",
+          "league": "Primera División",
+          "match": "U. Catolica - Everton de Vina",
+          "ht": "1-2",
+          "ft": "2-2",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-07",
+          "league": "Primera División",
+          "match": "O'Higgins - U. Catolica",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-01",
+          "league": "Primera División",
+          "match": "Nublense - U. Catolica",
+          "ht": "1-1",
+          "ft": "1-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Primera División",
+          "match": "U. Catolica - Coquimbo Unido",
+          "ht": "1-1",
+          "ft": "3-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-14",
+          "league": "Primera División",
+          "match": "Cobresal - U. Catolica",
+          "ht": "2-1",
+          "ft": "3-2",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-02-08",
+          "league": "Primera División",
+          "match": "U. Catolica - Concepción",
+          "ht": "0-0",
+          "ft": "2-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-01",
+          "league": "Primera División",
+          "match": "D. La Serena - U. Catolica",
+          "ht": "2-1",
+          "ft": "2-2",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        }
+      ]
+    },
+    "1537175": {
+      "fixture_id": 1537175,
+      "date": "2026-03-25",
+      "time": "22:00",
+      "league": "Friendlies",
+      "country": "World",
+      "match": "Congo DR - Bermuda",
+      "home_team": "Congo DR",
+      "away_team": "Bermuda",
+      "markets": {
+        "q1": 1.19,
+        "qx": 5.85,
+        "q2": 15.0,
+        "o25": 1.35,
+        "o05ht": 1.25,
+        "o15ht": 2.08
+      },
+      "averages": {
+        "home_avg_ft": 2.0,
+        "away_avg_ft": 4.375,
+        "home_avg_ht": 1.125,
+        "away_avg_ht": 2.0,
+        "combined_ht_avg": 1.562
+      },
+      "flags": {
+        "fav_quote": 1.19,
+        "is_gold_zone": false,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 1.19,
+        "open_qx": 5.85,
+        "open_q2": 15.0,
+        "open_o25": 1.35,
+        "curr_q1": 1.19,
+        "curr_qx": 5.85,
+        "curr_q2": 15.0,
+        "curr_o25": 1.35,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 1.19,
+        "curr_fav_quote": 1.19,
+        "history_points": 1,
+        "first_seen_at": "2026-03-25T22:08:02",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 6.0,
+        "over": 3.2,
+        "boost": 5.266,
+        "gold": 4.52,
+        "max": 6.0
+      },
+      "tags": [
+        "🎯PT",
+        "🐟O"
+      ],
+      "home_last_8": [
+        {
+          "date": "2025-12-30",
+          "league": "Africa Cup of Nations",
+          "match": "Botswana - Congo DR",
+          "ht": "0-2",
+          "ft": "0-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-12-27",
+          "league": "Africa Cup of Nations",
+          "match": "Senegal - Congo DR",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-12-23",
+          "league": "Africa Cup of Nations",
+          "match": "Congo DR - Benin",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-12-16",
+          "league": "Friendlies",
+          "match": "Congo DR - Zambia",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2025-11-13",
+          "league": "World Cup - Qualification Africa",
+          "match": "Cameroon - Congo DR",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-10-14",
+          "league": "World Cup - Qualification Africa",
+          "match": "Congo DR - Sudan",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-10-10",
+          "league": "World Cup - Qualification Africa",
+          "match": "Togo - Congo DR",
+          "ht": "0-1",
+          "ft": "0-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2025-09-09",
+          "league": "World Cup - Qualification Africa",
+          "match": "Congo DR - Senegal",
+          "ht": "2-1",
+          "ft": "2-3",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2025-11-19",
+          "league": "World Cup - Qualification CONCACAF",
+          "match": "Trinidad and Tobago - Bermuda",
+          "ht": "1-0",
+          "ft": "2-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-11-14",
+          "league": "World Cup - Qualification CONCACAF",
+          "match": "Bermuda - Curaçao",
+          "ht": "0-2",
+          "ft": "0-7",
+          "total_ht_goals": 2,
+          "total_ft_goals": 7
+        },
+        {
+          "date": "2025-10-15",
+          "league": "World Cup - Qualification CONCACAF",
+          "match": "Jamaica - Bermuda",
+          "ht": "3-0",
+          "ft": "4-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-10-10",
+          "league": "World Cup - Qualification CONCACAF",
+          "match": "Bermuda - Trinidad and Tobago",
+          "ht": "0-2",
+          "ft": "0-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-09-10",
+          "league": "World Cup - Qualification CONCACAF",
+          "match": "Curaçao - Bermuda",
+          "ht": "2-2",
+          "ft": "3-2",
+          "total_ht_goals": 4,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2025-09-05",
+          "league": "World Cup - Qualification CONCACAF",
+          "match": "Bermuda - Jamaica",
+          "ht": "0-2",
+          "ft": "0-4",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2025-06-10",
+          "league": "World Cup - Qualification CONCACAF",
+          "match": "Cuba - Bermuda",
+          "ht": "0-1",
+          "ft": "1-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2025-06-04",
+          "league": "World Cup - Qualification CONCACAF",
+          "match": "Bermuda - Cayman Islands",
+          "ht": "1-0",
+          "ft": "5-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 5
+        }
+      ]
+    },
+    "1457025": {
+      "fixture_id": 1457025,
+      "date": "2026-03-25",
+      "time": "22:30",
+      "league": "Liga Premier Serie A",
+      "country": "Mexico",
+      "match": "Sporting Canamy - Calor de San Pedro",
+      "home_team": "Sporting Canamy",
+      "away_team": "Calor de San Pedro",
+      "markets": {
+        "q1": 2.75,
+        "qx": 3.55,
+        "q2": 2.2,
+        "o25": 1.6,
+        "o05ht": 1.28,
+        "o15ht": 2.3
+      },
+      "averages": {
+        "home_avg_ft": 3.875,
+        "away_avg_ft": 1.75,
+        "home_avg_ht": 2.25,
+        "away_avg_ht": 0.25,
+        "combined_ht_avg": 1.25
+      },
+      "flags": {
+        "fav_quote": 2.2,
+        "is_gold_zone": false,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 2.75,
+        "open_qx": 3.55,
+        "open_q2": 2.2,
+        "open_o25": 1.6,
+        "curr_q1": 2.75,
+        "curr_qx": 3.55,
+        "curr_q2": 2.2,
+        "curr_o25": 1.6,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "2",
+        "inversion_to": "2",
+        "open_fav_side": "2",
+        "curr_fav_side": "2",
+        "open_fav_quote": 2.2,
+        "curr_fav_quote": 2.2,
+        "history_points": 1,
+        "first_seen_at": "2026-03-25T22:08:02",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 4.4,
+        "over": 5.4,
+        "boost": 5.714,
+        "gold": 4.981,
+        "max": 5.714
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🐟G"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-21",
+          "league": "Liga Premier Serie A",
+          "match": "Sporting Canamy - Gavilanes FC Matamoros",
+          "ht": "0-1",
+          "ft": "1-3",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-14",
+          "league": "Liga Premier Serie A",
+          "match": "Sporting Canamy - Ciervos",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-07",
+          "league": "Liga Premier Serie A",
+          "match": "Correcaminos UAT II - Sporting Canamy",
+          "ht": "1-1",
+          "ft": "2-4",
+          "total_ht_goals": 2,
+          "total_ft_goals": 6
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Liga Premier Serie A",
+          "match": "Zitacuaro - Sporting Canamy",
+          "ht": "1-1",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-14",
+          "league": "Liga Premier Serie A",
+          "match": "Sporting Canamy - Atletico Hidalgo",
+          "ht": "1-2",
+          "ft": "2-3",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-02-07",
+          "league": "Liga Premier Serie A",
+          "match": "Cordobés - Sporting Canamy",
+          "ht": "2-2",
+          "ft": "3-2",
+          "total_ht_goals": 4,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-01-31",
+          "league": "Liga Premier Serie A",
+          "match": "Sporting Canamy - Deportivo Zap",
+          "ht": "0-2",
+          "ft": "0-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-01-25",
+          "league": "Liga Premier Serie A",
+          "match": "Lobos ULMX - Sporting Canamy",
+          "ht": "2-1",
+          "ft": "2-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-22",
+          "league": "Liga Premier Serie A",
+          "match": "Calor de San Pedro - Chilpancingo",
+          "ht": "None-None",
+          "ft": "4-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-14",
+          "league": "Liga Premier Serie A",
+          "match": "FC Santiago - Calor de San Pedro",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-08",
+          "league": "Liga Premier Serie A",
+          "match": "Calor de San Pedro - Zacatepec 1948",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-02-22",
+          "league": "Liga Premier Serie A",
+          "match": "Calor de San Pedro - Ciervos",
+          "ht": "0-0",
+          "ft": "3-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-14",
+          "league": "Liga Premier Serie A",
+          "match": "Correcaminos UAT II - Calor de San Pedro",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-01",
+          "league": "Liga Premier Serie A",
+          "match": "Calor de San Pedro - Zitacuaro",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-01-23",
+          "league": "Liga Premier Serie A",
+          "match": "Atletico Hidalgo - Calor de San Pedro",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-01-10",
+          "league": "Liga Premier Serie A",
+          "match": "Deportivo Zap - Calor de San Pedro",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        }
+      ]
+    },
+    "1511922": {
+      "fixture_id": 1511922,
+      "date": "2026-03-25",
+      "time": "23:00",
+      "league": "Primera B",
+      "country": "Colombia",
+      "match": "Barranquilla - Leones FC",
+      "home_team": "Barranquilla",
+      "away_team": "Leones FC",
+      "markets": {
+        "q1": 1.9,
+        "qx": 3.2,
+        "q2": 3.9,
+        "o25": 2.1,
+        "o05ht": 1.44,
+        "o15ht": 3.0
+      },
+      "averages": {
+        "home_avg_ft": 2.5,
+        "away_avg_ft": 2.75,
+        "home_avg_ht": 1.0,
+        "away_avg_ht": 1.25,
+        "combined_ht_avg": 1.125
+      },
+      "flags": {
+        "fav_quote": 1.9,
+        "is_gold_zone": true,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": true,
+        "drop_diff": 0.15,
+        "open_q1": 1.9,
+        "open_qx": 3.35,
+        "open_q2": 3.7,
+        "open_o25": 1.85,
+        "curr_q1": 1.9,
+        "curr_qx": 3.2,
+        "curr_q2": 3.9,
+        "curr_o25": 2.1,
+        "drop_q1": 0.0,
+        "drop_qx": 0.15,
+        "drop_q2": -0.2,
+        "drop_o25": -0.25,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.1,
+        "drop_last_o25": 0.0,
+        "drop_side": "X",
+        "drop_strength": "medium",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 1.9,
+        "curr_fav_quote": 1.9,
+        "history_points": 3,
+        "first_seen_at": "2026-03-24T22:11:39",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 5.7,
+        "over": 5.9,
+        "boost": 5.548,
+        "gold": 5.76,
+        "max": 5.9
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "DROP_X",
+        "DROP_X_MED"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-21",
+          "league": "Primera B",
+          "match": "Real Soacha - Barranquilla",
+          "ht": "0-0",
+          "ft": "2-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-16",
+          "league": "Primera B",
+          "match": "Barranquilla - Bogota FC",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-11",
+          "league": "Primera B",
+          "match": "Ind. Yumbo - Barranquilla",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-04",
+          "league": "Primera B",
+          "match": "Barranquilla - Union Magdalena",
+          "ht": "0-2",
+          "ft": "1-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-26",
+          "league": "Primera B",
+          "match": "Popayan - Barranquilla",
+          "ht": "0-2",
+          "ft": "0-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Primera B",
+          "match": "Barranquilla - Internacional Palmira",
+          "ht": "0-2",
+          "ft": "0-4",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-17",
+          "league": "Primera B",
+          "match": "Quindio - Barranquilla",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-04",
+          "league": "Primera B",
+          "match": "Barranquilla - Patriotas",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-21",
+          "league": "Primera B",
+          "match": "Leones FC - Internacional Palmira",
+          "ht": "1-2",
+          "ft": "1-2",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-14",
+          "league": "Primera B",
+          "match": "Popayan - Leones FC",
+          "ht": "1-0",
+          "ft": "2-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-11",
+          "league": "Primera B",
+          "match": "Leones FC - Envigado",
+          "ht": "0-1",
+          "ft": "0-3",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-03",
+          "league": "Primera B",
+          "match": "Depor FC - Leones FC",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-02-27",
+          "league": "Primera B",
+          "match": "Leones FC - Ind. Yumbo",
+          "ht": "0-1",
+          "ft": "0-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Primera B",
+          "match": "Real Cartagena - Leones FC",
+          "ht": "0-2",
+          "ft": "2-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-02-14",
+          "league": "Primera B",
+          "match": "Leones FC - Union Magdalena",
+          "ht": "1-0",
+          "ft": "1-3",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-08",
+          "league": "Primera B",
+          "match": "Real Soacha - Leones FC",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        }
+      ]
+    },
+    "1537303": {
+      "fixture_id": 1537303,
+      "date": "2026-03-25",
+      "time": "23:00",
+      "league": "Copa Sul-Sudeste",
+      "country": "Brazil",
+      "match": "Sampaio Corrêa RJ - Juventude",
+      "home_team": "Sampaio Corrêa RJ",
+      "away_team": "Juventude",
+      "markets": {
+        "q1": 1.98,
+        "qx": 3.15,
+        "q2": 3.7,
+        "o25": 2.3,
+        "o05ht": 1.53,
+        "o15ht": 3.45
+      },
+      "averages": {
+        "home_avg_ft": 3.5,
+        "away_avg_ft": 2.875,
+        "home_avg_ht": 1.5,
+        "away_avg_ht": 0.875,
+        "combined_ht_avg": 1.188
+      },
+      "flags": {
+        "fav_quote": 1.98,
+        "is_gold_zone": false,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 1.98,
+        "open_qx": 3.15,
+        "open_q2": 3.7,
+        "open_o25": 2.3,
+        "curr_q1": 1.98,
+        "curr_qx": 3.15,
+        "curr_q2": 3.7,
+        "curr_o25": 2.3,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 1.98,
+        "curr_fav_quote": 1.98,
+        "history_points": 1,
+        "first_seen_at": "2026-03-25T22:08:02",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 2.8,
+        "over": 5.1,
+        "boost": 4.412,
+        "gold": 4.096,
+        "max": 5.1
+      },
+      "tags": [
+        "⚽ OVER"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-08",
+          "league": "Carioca - 1",
+          "match": "Nova Iguaçu - Sampaio Corrêa RJ",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-02",
+          "league": "Carioca - 1",
+          "match": "Portuguesa RJ - Sampaio Corrêa RJ",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-26",
+          "league": "Carioca - 1",
+          "match": "Sampaio Corrêa RJ - CFRJ / Maricá",
+          "ht": "0-0",
+          "ft": "2-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-23",
+          "league": "Carioca - 1",
+          "match": "Sampaio Corrêa RJ - Nova Iguaçu",
+          "ht": "0-1",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-20",
+          "league": "Carioca - 1",
+          "match": "Sampaio Corrêa RJ - Portuguesa RJ",
+          "ht": "1-0",
+          "ft": "3-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-02-12",
+          "league": "Carioca - 1",
+          "match": "CFRJ / Maricá - Sampaio Corrêa RJ",
+          "ht": "0-3",
+          "ft": "0-4",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-08",
+          "league": "Carioca - 1",
+          "match": "Flamengo - Sampaio Corrêa RJ",
+          "ht": "2-1",
+          "ft": "7-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 8
+        },
+        {
+          "date": "2026-01-30",
+          "league": "Carioca - 1",
+          "match": "Sampaio Corrêa RJ - Boavista SC",
+          "ht": "1-1",
+          "ft": "1-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-22",
+          "league": "Serie B",
+          "match": "Avai - Juventude",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-19",
+          "league": "Copa Do Brasil",
+          "match": "Juventude - Águia de Marabá",
+          "ht": "1-0",
+          "ft": "3-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-06",
+          "league": "Copa Do Brasil",
+          "match": "Juventude - Guaporé",
+          "ht": "3-0",
+          "ft": "5-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-02-15",
+          "league": "Gaúcho - 1",
+          "match": "Gremio - Juventude",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-09",
+          "league": "Gaúcho - 1",
+          "match": "Juventude - Sao Jose",
+          "ht": "0-0",
+          "ft": "3-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-01-31",
+          "league": "Gaúcho - 1",
+          "match": "Gremio - Juventude",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-01-25",
+          "league": "Gaúcho - 1",
+          "match": "Juventude - Monsoon",
+          "ht": "1-0",
+          "ft": "3-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-01-22",
+          "league": "Gaúcho - 1",
+          "match": "Juventude - Caxias",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        }
+      ]
+    },
+    "1535738": {
+      "fixture_id": 1535738,
+      "date": "2026-03-25",
+      "time": "23:30",
+      "league": "Copa do Nordeste",
+      "country": "Brazil",
+      "match": "AO Itabaiana - CRB",
+      "home_team": "AO Itabaiana",
+      "away_team": "CRB",
+      "markets": {
+        "q1": 3.4,
+        "qx": 3.05,
+        "q2": 2.22,
+        "o25": 2.45,
+        "o05ht": 1.48,
+        "o15ht": 3.2
+      },
+      "averages": {
+        "home_avg_ft": 2.125,
+        "away_avg_ft": 3.5,
+        "home_avg_ht": 1.125,
+        "away_avg_ht": 1.0,
+        "combined_ht_avg": 1.062
+      },
+      "flags": {
+        "fav_quote": 2.22,
+        "is_gold_zone": false,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 3.4,
+        "open_qx": 3.05,
+        "open_q2": 2.22,
+        "open_o25": 2.45,
+        "curr_q1": 3.4,
+        "curr_qx": 3.05,
+        "curr_q2": 2.22,
+        "curr_o25": 2.45,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "2",
+        "inversion_to": "2",
+        "open_fav_side": "2",
+        "curr_fav_side": "2",
+        "open_fav_quote": 2.22,
+        "curr_fav_quote": 2.22,
+        "history_points": 1,
+        "first_seen_at": "2026-03-25T22:08:02",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 3.6,
+        "over": 3.0,
+        "boost": 3.358,
+        "gold": 2.834,
+        "max": 3.6
+      },
+      "tags": [
+        "🐟G"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-08",
+          "league": "Sergipano",
+          "match": "AO Itabaiana - América SE",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-05",
+          "league": "Copa Do Brasil",
+          "match": "Manauara - AO Itabaiana",
+          "ht": "2-1",
+          "ft": "3-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-28",
+          "league": "Sergipano",
+          "match": "AO Itabaiana - Confiança",
+          "ht": "0-2",
+          "ft": "0-2",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-25",
+          "league": "Sergipano",
+          "match": "Confiança - AO Itabaiana",
+          "ht": "0-0",
+          "ft": "1-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-20",
+          "league": "Sergipano",
+          "match": "AO Itabaiana - Falcon",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-14",
+          "league": "Sergipano",
+          "match": "AO Itabaiana - Guarany SE",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-11",
+          "league": "Sergipano",
+          "match": "América SE - AO Itabaiana",
+          "ht": "0-3",
+          "ft": "0-3",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-08",
+          "league": "Sergipano",
+          "match": "Confiança - AO Itabaiana",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-21",
+          "league": "Serie B",
+          "match": "Vila Nova - CRB",
+          "ht": "0-1",
+          "ft": "2-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-21",
+          "league": "Copa Alagoas",
+          "match": "ASA - CRB",
+          "ht": "None-None",
+          "ft": "3-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-19",
+          "league": "Copa Do Brasil",
+          "match": "CRB - Figueirense",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-03-18",
+          "league": "Copa Alagoas",
+          "match": "CRB - CSA",
+          "ht": "0-2",
+          "ft": "1-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-14",
+          "league": "Copa Alagoas",
+          "match": "CRB - Coruripe",
+          "ht": "0-0",
+          "ft": "5-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 6
+        },
+        {
+          "date": "2026-03-12",
+          "league": "Copa Do Brasil",
+          "match": "Sousa - CRB",
+          "ht": "0-0",
+          "ft": "0-2",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-07",
+          "league": "Alagoano",
+          "match": "ASA - CRB",
+          "ht": "1-1",
+          "ft": "1-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-03-03",
+          "league": "Copa Do Brasil",
+          "match": "CRB - Porto BA",
+          "ht": "3-0",
+          "ft": "6-0",
+          "total_ht_goals": 3,
+          "total_ft_goals": 6
+        }
+      ]
+    },
+    "1537337": {
+      "fixture_id": 1537337,
+      "date": "2026-03-25",
+      "time": "23:30",
+      "league": "Copa Centro-Oeste",
+      "country": "Brazil",
+      "match": "Porto Vitória - Gama",
+      "home_team": "Porto Vitória",
+      "away_team": "Gama",
+      "markets": {
+        "q1": 4.2,
+        "qx": 3.1,
+        "q2": 1.85,
+        "o25": 2.6,
+        "o05ht": 1.53,
+        "o15ht": 3.45
+      },
+      "averages": {
+        "home_avg_ft": 2.125,
+        "away_avg_ft": 2.5,
+        "home_avg_ht": 1.5,
+        "away_avg_ht": 1.0,
+        "combined_ht_avg": 1.25
+      },
+      "flags": {
+        "fav_quote": 1.85,
+        "is_gold_zone": true,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": false,
+        "drop_diff": 0.0,
+        "open_q1": 4.2,
+        "open_qx": 3.1,
+        "open_q2": 1.85,
+        "open_o25": 2.6,
+        "curr_q1": 4.2,
+        "curr_qx": 3.1,
+        "curr_q2": 1.85,
+        "curr_o25": 2.6,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "2",
+        "inversion_to": "2",
+        "open_fav_side": "2",
+        "curr_fav_side": "2",
+        "open_fav_quote": 1.85,
+        "curr_fav_quote": 1.85,
+        "history_points": 1,
+        "first_seen_at": "2026-03-25T22:08:02",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 3.8,
+        "over": 4.0,
+        "boost": 4.814,
+        "gold": 4.973,
+        "max": 4.973
+      },
+      "tags": [
+        "⚽ OVER"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-21",
+          "league": "Capixaba",
+          "match": "Porto Vitória - Serra Talhada",
+          "ht": "2-1",
+          "ft": "3-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-08",
+          "league": "Capixaba",
+          "match": "Porto Vitória - Vitória ES",
+          "ht": "0-3",
+          "ft": "0-4",
+          "total_ht_goals": 3,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-03-04",
+          "league": "Copa Do Brasil",
+          "match": "Avai - Porto Vitória",
+          "ht": "2-0",
+          "ft": "3-0",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-28",
+          "league": "Capixaba",
+          "match": "Rio Branco ES - Porto Vitória",
+          "ht": "0-1",
+          "ft": "0-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Capixaba",
+          "match": "Porto Vitória - Rio Branco ES",
+          "ht": "1-1",
+          "ft": "1-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-12",
+          "league": "Capixaba",
+          "match": "Porto Vitória - Vilavelhense",
+          "ht": "0-0",
+          "ft": "1-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-08",
+          "league": "Capixaba",
+          "match": "Real Noroeste - Porto Vitória",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-04",
+          "league": "Capixaba",
+          "match": "Porto Vitória - Serra Talhada",
+          "ht": "0-1",
+          "ft": "0-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-03-14",
+          "league": "Brasiliense",
+          "match": "Gama - Ceilândia",
+          "ht": "1-1",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-03-08",
+          "league": "Brasiliense",
+          "match": "Ceilândia - Gama",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-28",
+          "league": "Brasiliense",
+          "match": "Capital Brasilia - Gama",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Brasiliense",
+          "match": "Gama - ARUC",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-18",
+          "league": "Copa Do Brasil",
+          "match": "Gama - Monte Roraima",
+          "ht": "2-0",
+          "ft": "2-0",
+          "total_ht_goals": 2,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-11",
+          "league": "Brasiliense",
+          "match": "Gama - Ceilândia",
+          "ht": "2-0",
+          "ft": "2-1",
+          "total_ht_goals": 2,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-07",
+          "league": "Brasiliense",
+          "match": "Sobradinho EC - Gama",
+          "ht": "0-0",
+          "ft": "0-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-01-31",
+          "league": "Brasiliense",
+          "match": "Gama - Paranoá",
+          "ht": "0-1",
+          "ft": "4-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 5
+        }
+      ]
+    },
+    "1537338": {
+      "fixture_id": 1537338,
+      "date": "2026-03-25",
+      "time": "23:30",
+      "league": "Copa Centro-Oeste",
+      "country": "Brazil",
+      "match": "Capital Brasilia - Primavera MG",
+      "home_team": "Capital Brasilia",
+      "away_team": "Primavera MG",
+      "markets": {
+        "q1": 1.6,
+        "qx": 3.4,
+        "q2": 5.75,
+        "o25": 2.35,
+        "o05ht": 1.48,
+        "o15ht": 3.1
+      },
+      "averages": {
+        "home_avg_ft": 3.0,
+        "away_avg_ft": 2.375,
+        "home_avg_ht": 1.0,
+        "away_avg_ht": 1.125,
+        "combined_ht_avg": 1.062
+      },
+      "flags": {
+        "fav_quote": 1.6,
+        "is_gold_zone": true,
+        "home_last_2h_zero": false,
+        "away_last_2h_zero": true,
+        "drop_diff": 0.0,
+        "open_q1": 1.6,
+        "open_qx": 3.4,
+        "open_q2": 5.75,
+        "open_o25": 2.35,
+        "curr_q1": 1.6,
+        "curr_qx": 3.4,
+        "curr_q2": 5.75,
+        "curr_o25": 2.35,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
+        "inversion": false,
+        "inversion_from": "1",
+        "inversion_to": "1",
+        "open_fav_side": "1",
+        "curr_fav_side": "1",
+        "open_fav_quote": 1.6,
+        "curr_fav_quote": 1.6,
+        "history_points": 1,
+        "first_seen_at": "2026-03-25T22:08:02",
+        "last_seen_at": "2026-03-25T22:08:02"
+      },
+      "scores": {
+        "pt": 4.4,
+        "over": 4.4,
+        "boost": 4.334,
+        "gold": 4.962,
+        "max": 4.962
+      },
+      "tags": [
+        "🎯PT",
+        "⚽ OVER",
+        "🐟O"
+      ],
+      "home_last_8": [
+        {
+          "date": "2026-03-12",
+          "league": "Copa Do Brasil",
+          "match": "Operario-PR - Capital Brasilia",
+          "ht": "1-0",
+          "ft": "2-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-28",
+          "league": "Brasiliense",
+          "match": "Capital Brasilia - Gama",
+          "ht": "0-0",
+          "ft": "1-1",
+          "total_ht_goals": 0,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-21",
+          "league": "Brasiliense",
+          "match": "Capital Brasilia - Brasiliense",
+          "ht": "0-1",
+          "ft": "2-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-12",
+          "league": "Brasiliense",
+          "match": "Brasília - Capital Brasilia",
+          "ht": "0-1",
+          "ft": "1-3",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-02-07",
+          "league": "Brasiliense",
+          "match": "Ceilândia - Capital Brasilia",
+          "ht": "0-1",
+          "ft": "0-3",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-01-31",
+          "league": "Brasiliense",
+          "match": "Capital Brasilia - Sobradinho EC",
+          "ht": "2-0",
+          "ft": "2-3",
+          "total_ht_goals": 2,
+          "total_ft_goals": 5
+        },
+        {
+          "date": "2026-01-24",
+          "league": "Brasiliense",
+          "match": "Paranoá - Capital Brasilia",
+          "ht": "0-1",
+          "ft": "0-3",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-01-21",
+          "league": "Brasiliense",
+          "match": "Capital Brasilia - Real FC",
+          "ht": "0-1",
+          "ft": "0-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        }
+      ],
+      "away_last_8": [
+        {
+          "date": "2026-02-25",
+          "league": "Copa Do Brasil",
+          "match": "Atletico Goianiense - Primavera MG",
+          "ht": "1-0",
+          "ft": "1-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 1
+        },
+        {
+          "date": "2026-02-19",
+          "league": "Copa Do Brasil",
+          "match": "Primavera MG - Bragantino PA",
+          "ht": "2-1",
+          "ft": "2-1",
+          "total_ht_goals": 3,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-02-08",
+          "league": "Matogrossense",
+          "match": "CEOV Operário - Primavera MG",
+          "ht": "1-0",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-02-05",
+          "league": "Matogrossense",
+          "match": "Primavera MG - Cuiaba",
+          "ht": "0-1",
+          "ft": "1-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 2
+        },
+        {
+          "date": "2026-01-31",
+          "league": "Matogrossense",
+          "match": "Mixto - Primavera MG",
+          "ht": "1-0",
+          "ft": "4-0",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        },
+        {
+          "date": "2026-01-28",
+          "league": "Matogrossense",
+          "match": "Primavera MG - Operário MT",
+          "ht": "1-0",
+          "ft": "2-1",
+          "total_ht_goals": 1,
+          "total_ft_goals": 3
+        },
+        {
+          "date": "2026-01-25",
+          "league": "Matogrossense",
+          "match": "Primavera MG - Luverdense",
+          "ht": "0-0",
+          "ft": "0-0",
+          "total_ht_goals": 0,
+          "total_ft_goals": 0
+        },
+        {
+          "date": "2026-01-22",
+          "league": "Matogrossense",
+          "match": "Primavera MG - Nova Mutum EC",
+          "ht": "1-0",
+          "ft": "2-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
+        }
+      ]
     }
+  }
 }
