@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-25 07:03:19",
-  "day": 3,
+  "updated_at": "2026-03-24 22:11:29",
+  "day": 4,
   "date": "2026-03-27",
   "details": {
     "1512757": {
@@ -13,12 +13,12 @@
       "home_team": "Colombia",
       "away_team": "Croatia",
       "markets": {
-        "q1": 2.26,
+        "q1": 2.35,
         "qx": 3.3,
-        "q2": 3.1,
-        "o25": 2.0,
-        "o05ht": 1.4,
-        "o15ht": 2.8
+        "q2": 2.85,
+        "o25": 1.85,
+        "o05ht": 1.36,
+        "o15ht": 2.75
       },
       "averages": {
         "home_avg_ft": 3.0,
@@ -28,53 +28,56 @@
         "combined_ht_avg": 1.188
       },
       "flags": {
-        "fav_quote": 2.26,
+        "fav_quote": 2.35,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.18,
+        "drop_diff": 0.2,
         "open_q1": 2.44,
         "open_qx": 3.0,
         "open_q2": 3.05,
         "open_o25": 1.93,
-        "curr_q1": 2.26,
+        "curr_q1": 2.35,
         "curr_qx": 3.3,
-        "curr_q2": 3.1,
-        "curr_o25": 2.0,
-        "drop_q1": 0.18,
+        "curr_q2": 2.85,
+        "curr_o25": 1.85,
+        "drop_q1": 0.09,
         "drop_qx": -0.3,
-        "drop_q2": -0.05,
-        "drop_o25": -0.07,
+        "drop_q2": 0.2,
+        "drop_o25": 0.08,
         "drop_last_q1": 0.09,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": -0.25,
-        "drop_last_o25": -0.15,
-        "drop_side": "1",
-        "drop_strength": "medium",
+        "drop_last_qx": -0.3,
+        "drop_last_q2": 0.2,
+        "drop_last_o25": 0.08,
+        "drop_side": "2",
+        "drop_strength": "strong",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 2.44,
-        "curr_fav_quote": 2.26,
-        "history_points": 3,
+        "curr_fav_quote": 2.35,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
         "pt": 5.8,
         "over": 4.7,
-        "boost": 5.91,
-        "gold": 5.145,
-        "max": 5.91
+        "boost": 6.46,
+        "gold": 5.332,
+        "max": 6.46
       },
       "tags": [
         "🎯PT",
         "⚽ OVER",
+        "🚀 BOOST",
         "🐟G",
         "DROP_1",
-        "DROP_1_MED"
+        "DROP_2",
+        "O25_DROP",
+        "DROP_2_STRONG"
       ],
       "home_last_8": [
         {
@@ -236,8 +239,8 @@
       "away_team": "Cobresal",
       "markets": {
         "q1": 1.8,
-        "qx": 3.35,
-        "q2": 4.0,
+        "qx": 3.6,
+        "q2": 3.5,
         "o25": 1.85,
         "o05ht": 1.36,
         "o15ht": 2.62
@@ -260,17 +263,17 @@
         "open_q2": 3.1,
         "open_o25": 1.7,
         "curr_q1": 1.8,
-        "curr_qx": 3.35,
-        "curr_q2": 4.0,
+        "curr_qx": 3.6,
+        "curr_q2": 3.5,
         "curr_o25": 1.85,
         "drop_q1": 0.35,
-        "drop_qx": -0.1,
-        "drop_q2": -0.9,
+        "drop_qx": -0.35,
+        "drop_q2": -0.4,
         "drop_o25": -0.15,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.25,
-        "drop_last_q2": -0.5,
-        "drop_last_o25": 0.0,
+        "drop_last_q1": 0.35,
+        "drop_last_qx": -0.35,
+        "drop_last_q2": -0.4,
+        "drop_last_o25": -0.15,
         "drop_side": "1",
         "drop_strength": "strong",
         "inversion": false,
@@ -280,9 +283,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 2.15,
         "curr_fav_quote": 1.8,
-        "history_points": 3,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T22:11:39"
       },
       "scores": {
         "pt": 6.8,
@@ -667,228 +670,6 @@
         }
       ]
     },
-    "1396029": {
-      "fixture_id": 1396029,
-      "date": "2026-03-27",
-      "time": "18:30",
-      "league": "II Liga - East",
-      "country": "Poland",
-      "match": "Olimpia Grudziądz - ŁKS Łódź II",
-      "home_team": "Olimpia Grudziądz",
-      "away_team": "ŁKS Łódź II",
-      "markets": {
-        "q1": 1.48,
-        "qx": 3.8,
-        "q2": 5.75,
-        "o25": 1.7,
-        "o05ht": 1.3,
-        "o15ht": 2.5
-      },
-      "averages": {
-        "home_avg_ft": 3.625,
-        "away_avg_ft": 3.25,
-        "home_avg_ht": 1.5,
-        "away_avg_ht": 1.5,
-        "combined_ht_avg": 1.5
-      },
-      "flags": {
-        "fav_quote": 1.48,
-        "is_gold_zone": true,
-        "home_last_2h_zero": true,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 1.48,
-        "open_qx": 3.8,
-        "open_q2": 5.75,
-        "open_o25": 1.7,
-        "curr_q1": 1.48,
-        "curr_qx": 3.8,
-        "curr_q2": 5.75,
-        "curr_o25": 1.7,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "1",
-        "inversion_to": "1",
-        "open_fav_side": "1",
-        "curr_fav_side": "1",
-        "open_fav_quote": 1.48,
-        "curr_fav_quote": 1.48,
-        "history_points": 1,
-        "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-25T07:11:56"
-      },
-      "scores": {
-        "pt": 7.6,
-        "over": 5.8,
-        "boost": 7.672,
-        "gold": 7.67,
-        "max": 7.672
-      },
-      "tags": [
-        "⚽⭐ GOLD",
-        "🎯PT",
-        "⚽ OVER",
-        "🚀 BOOST",
-        "🐟O"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-22",
-          "league": "II Liga - East",
-          "match": "Podbeskidzie - Olimpia Grudziądz",
-          "ht": "1-1",
-          "ft": "1-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-15",
-          "league": "II Liga - East",
-          "match": "Olimpia Grudziądz - Zaglebie Sosnowiec",
-          "ht": "1-1",
-          "ft": "7-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 8
-        },
-        {
-          "date": "2026-03-08",
-          "league": "II Liga - East",
-          "match": "Śląsk Wrocław II - Olimpia Grudziądz",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-01",
-          "league": "II Liga - East",
-          "match": "Olimpia Grudziądz - Resovia Rzeszów",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-22",
-          "league": "II Liga - East",
-          "match": "Podhale Nowy Targ - Olimpia Grudziądz",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-13",
-          "league": "Friendlies Clubs",
-          "match": "Olimpia Grudziądz - Noteć Czarnków",
-          "ht": "None-None",
-          "ft": "2-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-07",
-          "league": "Friendlies Clubs",
-          "match": "Olimpia Grudziądz - Elana Toruń",
-          "ht": "None-None",
-          "ft": "3-3",
-          "total_ht_goals": 0,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-01-31",
-          "league": "Friendlies Clubs",
-          "match": "Pogoń Grod. Mazowiecki - Olimpia Grudziądz",
-          "ht": "2-2",
-          "ft": "2-2",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "II Liga - East",
-          "match": "Sandecja Nowy Sącz - ŁKS Łódź II",
-          "ht": "2-0",
-          "ft": "4-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-03-18",
-          "league": "II Liga - East",
-          "match": "Chojniczanka Chojnice - ŁKS Łódź II",
-          "ht": "0-0",
-          "ft": "0-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-03-12",
-          "league": "II Liga - East",
-          "match": "ŁKS Łódź II - Kalisz",
-          "ht": "1-0",
-          "ft": "2-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-06",
-          "league": "II Liga - East",
-          "match": "ŁKS Łódź II - Podbeskidzie",
-          "ht": "1-2",
-          "ft": "1-4",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-28",
-          "league": "II Liga - East",
-          "match": "Warta Poznań - ŁKS Łódź II",
-          "ht": "2-1",
-          "ft": "2-2",
-          "total_ht_goals": 3,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-01-24",
-          "league": "Friendlies Clubs",
-          "match": "SKRA Częstochowa - ŁKS Łódź II",
-          "ht": "0-1",
-          "ft": "1-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2025-12-04",
-          "league": "II Liga - East",
-          "match": "Sokół Kleczew - ŁKS Łódź II",
-          "ht": "1-1",
-          "ft": "2-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2025-11-29",
-          "league": "II Liga - East",
-          "match": "ŁKS Łódź II - Jastrzębie",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        }
-      ]
-    },
     "1392111": {
       "fixture_id": 1392111,
       "date": "2026-03-27",
@@ -899,12 +680,12 @@
       "home_team": "Cordoba",
       "away_team": "Mirandes",
       "markets": {
-        "q1": 1.63,
-        "qx": 3.9,
-        "q2": 5.0,
-        "o25": 1.7,
-        "o05ht": 1.3,
-        "o15ht": 2.4
+        "q1": 1.6,
+        "qx": 3.8,
+        "q2": 4.75,
+        "o25": 1.66,
+        "o05ht": 1.32,
+        "o15ht": 2.45
       },
       "averages": {
         "home_avg_ft": 4.125,
@@ -914,27 +695,27 @@
         "combined_ht_avg": 1.688
       },
       "flags": {
-        "fav_quote": 1.63,
+        "fav_quote": 1.6,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.4,
+        "drop_diff": 0.65,
         "open_q1": 1.58,
         "open_qx": 3.95,
         "open_q2": 5.4,
         "open_o25": 1.7,
-        "curr_q1": 1.63,
-        "curr_qx": 3.9,
-        "curr_q2": 5.0,
-        "curr_o25": 1.7,
-        "drop_q1": -0.05,
-        "drop_qx": 0.05,
-        "drop_q2": 0.4,
-        "drop_o25": 0.0,
-        "drop_last_q1": -0.03,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.25,
-        "drop_last_o25": -0.04,
+        "curr_q1": 1.6,
+        "curr_qx": 3.8,
+        "curr_q2": 4.75,
+        "curr_o25": 1.66,
+        "drop_q1": -0.02,
+        "drop_qx": 0.15,
+        "drop_q2": 0.65,
+        "drop_o25": 0.04,
+        "drop_last_q1": -0.02,
+        "drop_last_qx": 0.15,
+        "drop_last_q2": 0.65,
+        "drop_last_o25": 0.04,
         "drop_side": "2",
         "drop_strength": "strong",
         "inversion": false,
@@ -943,10 +724,10 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.58,
-        "curr_fav_quote": 1.63,
-        "history_points": 3,
+        "curr_fav_quote": 1.6,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
         "pt": 5.4,
@@ -960,7 +741,9 @@
         "⚽ OVER",
         "🚀 BOOST",
         "🐟O",
+        "DROP_X",
         "DROP_2",
+        "DROP_X_MED",
         "DROP_2_STRONG"
       ],
       "home_last_8": [
@@ -1122,10 +905,10 @@
       "home_team": "AB Copenhagen",
       "away_team": "Roskilde",
       "markets": {
-        "q1": 1.82,
-        "qx": 3.58,
-        "q2": 3.56,
-        "o25": 1.63,
+        "q1": 1.88,
+        "qx": 3.52,
+        "q2": 3.4,
+        "o25": 1.62,
         "o05ht": 1.28,
         "o15ht": 2.36
       },
@@ -1137,51 +920,50 @@
         "combined_ht_avg": 1.062
       },
       "flags": {
-        "fav_quote": 1.82,
+        "fav_quote": 1.88,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 0.06,
+        "drop_diff": 0.0,
         "open_q1": 1.88,
         "open_qx": 3.52,
         "open_q2": 3.4,
         "open_o25": 1.62,
-        "curr_q1": 1.82,
-        "curr_qx": 3.58,
-        "curr_q2": 3.56,
-        "curr_o25": 1.63,
-        "drop_q1": 0.06,
-        "drop_qx": -0.06,
-        "drop_q2": -0.16,
-        "drop_o25": -0.01,
-        "drop_last_q1": 0.06,
-        "drop_last_qx": -0.06,
-        "drop_last_q2": -0.16,
-        "drop_last_o25": -0.01,
-        "drop_side": "1",
-        "drop_strength": "light",
+        "curr_q1": 1.88,
+        "curr_qx": 3.52,
+        "curr_q2": 3.4,
+        "curr_o25": 1.62,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.88,
-        "curr_fav_quote": 1.82,
-        "history_points": 2,
+        "curr_fav_quote": 1.88,
+        "history_points": 1,
         "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
         "pt": 4.5,
         "over": 5.2,
         "boost": 5.306,
-        "gold": 5.554,
-        "max": 5.554
+        "gold": 5.204,
+        "max": 5.306
       },
       "tags": [
         "🎯PT",
-        "⚽ OVER",
-        "DROP_1"
+        "⚽ OVER"
       ],
       "home_last_8": [
         {
@@ -1342,9 +1124,9 @@
       "home_team": "HIK",
       "away_team": "Fremad Amager",
       "markets": {
-        "q1": 2.35,
+        "q1": 2.34,
         "qx": 3.2,
-        "q2": 2.69,
+        "q2": 2.7,
         "o25": 1.96,
         "o05ht": 1.39,
         "o15ht": 2.82
@@ -1357,26 +1139,26 @@
         "combined_ht_avg": 1.062
       },
       "flags": {
-        "fav_quote": 2.35,
+        "fav_quote": 2.34,
         "is_gold_zone": false,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 0.01,
+        "drop_diff": 0.0,
         "open_q1": 2.34,
         "open_qx": 3.2,
         "open_q2": 2.7,
         "open_o25": 1.96,
-        "curr_q1": 2.35,
+        "curr_q1": 2.34,
         "curr_qx": 3.2,
-        "curr_q2": 2.69,
+        "curr_q2": 2.7,
         "curr_o25": 1.96,
-        "drop_q1": -0.01,
+        "drop_q1": 0.0,
         "drop_qx": 0.0,
-        "drop_q2": 0.01,
+        "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": -0.01,
+        "drop_last_q1": 0.0,
         "drop_last_qx": 0.0,
-        "drop_last_q2": 0.01,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
@@ -1386,10 +1168,10 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 2.34,
-        "curr_fav_quote": 2.35,
-        "history_points": 2,
+        "curr_fav_quote": 2.34,
+        "history_points": 1,
         "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
         "pt": 4.9,
@@ -1781,8 +1563,8 @@
       "home_team": "Orleans",
       "away_team": "Villefranche",
       "markets": {
-        "q1": 1.7,
-        "qx": 3.2,
+        "q1": 1.73,
+        "qx": 3.1,
         "q2": 4.4,
         "o25": 1.95,
         "o05ht": 1.36,
@@ -1796,39 +1578,39 @@
         "combined_ht_avg": 1.312
       },
       "flags": {
-        "fav_quote": 1.7,
+        "fav_quote": 1.73,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.13,
+        "drop_diff": 0.1,
         "open_q1": 1.83,
         "open_qx": 3.0,
         "open_q2": 4.0,
         "open_o25": 1.95,
-        "curr_q1": 1.7,
-        "curr_qx": 3.2,
+        "curr_q1": 1.73,
+        "curr_qx": 3.1,
         "curr_q2": 4.4,
         "curr_o25": 1.95,
-        "drop_q1": 0.13,
-        "drop_qx": -0.2,
+        "drop_q1": 0.1,
+        "drop_qx": -0.1,
         "drop_q2": -0.4,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.03,
+        "drop_last_q1": 0.1,
         "drop_last_qx": -0.1,
-        "drop_last_q2": 0.0,
+        "drop_last_q2": -0.4,
         "drop_last_o25": 0.0,
         "drop_side": "1",
-        "drop_strength": "medium",
+        "drop_strength": "light",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.83,
-        "curr_fav_quote": 1.7,
-        "history_points": 3,
+        "curr_fav_quote": 1.73,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
         "pt": 6.8,
@@ -1843,8 +1625,7 @@
         "⚽ OVER",
         "🚀 BOOST",
         "🐟O",
-        "DROP_1",
-        "DROP_1_MED"
+        "DROP_1"
       ],
       "home_last_8": [
         {
@@ -2008,7 +1789,7 @@
         "q1": 1.44,
         "qx": 3.5,
         "q2": 6.0,
-        "o25": 2.15,
+        "o25": 2.1,
         "o05ht": 1.4,
         "o15ht": 2.9
       },
@@ -2032,15 +1813,15 @@
         "curr_q1": 1.44,
         "curr_qx": 3.5,
         "curr_q2": 6.0,
-        "curr_o25": 2.15,
+        "curr_o25": 2.1,
         "drop_q1": 0.06,
         "drop_qx": 0.0,
         "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
+        "drop_o25": 0.05,
+        "drop_last_q1": 0.06,
         "drop_last_qx": 0.0,
         "drop_last_q2": 0.0,
-        "drop_last_o25": -0.05,
+        "drop_last_o25": 0.05,
         "drop_side": "1",
         "drop_strength": "light",
         "inversion": false,
@@ -2050,9 +1831,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.5,
         "curr_fav_quote": 1.44,
-        "history_points": 3,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
         "pt": 7.2,
@@ -2230,7 +2011,7 @@
         "q1": 2.45,
         "qx": 2.88,
         "q2": 2.7,
-        "o25": 2.25,
+        "o25": 2.3,
         "o05ht": 1.4,
         "o15ht": 3.0
       },
@@ -2254,15 +2035,15 @@
         "curr_q1": 2.45,
         "curr_qx": 2.88,
         "curr_q2": 2.7,
-        "curr_o25": 2.25,
+        "curr_o25": 2.3,
         "drop_q1": 0.0,
         "drop_qx": 0.0,
         "drop_q2": 0.0,
-        "drop_o25": 0.05,
+        "drop_o25": 0.0,
         "drop_last_q1": 0.0,
         "drop_last_qx": 0.0,
         "drop_last_q2": 0.0,
-        "drop_last_o25": 0.05,
+        "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -2272,9 +2053,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 2.45,
         "curr_fav_quote": 2.45,
-        "history_points": 2,
+        "history_points": 1,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
         "pt": 5.2,
@@ -2449,8 +2230,8 @@
       "markets": {
         "q1": 1.85,
         "qx": 3.0,
-        "q2": 3.7,
-        "o25": 2.1,
+        "q2": 3.8,
+        "o25": 2.08,
         "o05ht": 1.36,
         "o15ht": 2.8
       },
@@ -2466,25 +2247,25 @@
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.1,
+        "drop_diff": 0.0,
         "open_q1": 1.85,
         "open_qx": 3.0,
         "open_q2": 3.8,
         "open_o25": 2.08,
         "curr_q1": 1.85,
         "curr_qx": 3.0,
-        "curr_q2": 3.7,
-        "curr_o25": 2.1,
+        "curr_q2": 3.8,
+        "curr_o25": 2.08,
         "drop_q1": 0.0,
         "drop_qx": 0.0,
-        "drop_q2": 0.1,
-        "drop_o25": -0.02,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
         "drop_last_q1": 0.0,
         "drop_last_qx": 0.0,
-        "drop_last_q2": 0.1,
-        "drop_last_o25": -0.02,
-        "drop_side": "2",
-        "drop_strength": "light",
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
+        "drop_side": "",
+        "drop_strength": "none",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
@@ -2492,9 +2273,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.85,
         "curr_fav_quote": 1.85,
-        "history_points": 2,
+        "history_points": 1,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-23T07:04:57"
       },
       "scores": {
         "pt": 4.4,
@@ -2505,8 +2286,7 @@
       },
       "tags": [
         "🎯PT",
-        "⚽ OVER",
-        "DROP_2"
+        "⚽ OVER"
       ],
       "home_last_8": [
         {
@@ -2667,10 +2447,10 @@
       "home_team": "Rouen",
       "away_team": "Caen",
       "markets": {
-        "q1": 1.73,
-        "qx": 3.25,
-        "q2": 4.2,
-        "o25": 2.15,
+        "q1": 1.75,
+        "qx": 3.1,
+        "q2": 4.0,
+        "o25": 2.2,
         "o05ht": 1.4,
         "o15ht": 2.9
       },
@@ -2682,27 +2462,27 @@
         "combined_ht_avg": 1.125
       },
       "flags": {
-        "fav_quote": 1.73,
+        "fav_quote": 1.75,
         "is_gold_zone": true,
         "home_last_2h_zero": true,
         "away_last_2h_zero": false,
-        "drop_diff": 0.22,
+        "drop_diff": 0.2,
         "open_q1": 1.95,
         "open_qx": 3.0,
         "open_q2": 3.5,
         "open_o25": 2.2,
-        "curr_q1": 1.73,
-        "curr_qx": 3.25,
-        "curr_q2": 4.2,
-        "curr_o25": 2.15,
-        "drop_q1": 0.22,
-        "drop_qx": -0.25,
-        "drop_q2": -0.7,
-        "drop_o25": 0.05,
-        "drop_last_q1": 0.02,
-        "drop_last_qx": -0.15,
-        "drop_last_q2": -0.2,
-        "drop_last_o25": 0.05,
+        "curr_q1": 1.75,
+        "curr_qx": 3.1,
+        "curr_q2": 4.0,
+        "curr_o25": 2.2,
+        "drop_q1": 0.2,
+        "drop_qx": -0.1,
+        "drop_q2": -0.5,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.2,
+        "drop_last_qx": -0.1,
+        "drop_last_q2": -0.5,
+        "drop_last_o25": 0.0,
         "drop_side": "1",
         "drop_strength": "strong",
         "inversion": false,
@@ -2711,10 +2491,10 @@
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.73,
-        "history_points": 3,
+        "curr_fav_quote": 1.75,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
         "pt": 7.6,
@@ -2726,7 +2506,6 @@
       "tags": [
         "🎯PT",
         "⚽ OVER",
-        "🐟O",
         "DROP_1",
         "DROP_1_STRONG"
       ],
@@ -3117,7 +2896,7 @@
         "o15ht": 2.8
       },
       "averages": {
-        "home_avg_ft": 2.25,
+        "home_avg_ft": 2.5,
         "away_avg_ft": 1.5,
         "home_avg_ht": 1.25,
         "away_avg_ht": 1.125,
@@ -3126,7 +2905,7 @@
       "flags": {
         "fav_quote": 1.78,
         "is_gold_zone": true,
-        "home_last_2h_zero": false,
+        "home_last_2h_zero": true,
         "away_last_2h_zero": false,
         "drop_diff": 0.2,
         "open_q1": 1.71,
@@ -3159,11 +2938,11 @@
         "last_seen_at": "2026-03-24T22:11:39"
       },
       "scores": {
-        "pt": 6.8,
+        "pt": 7.6,
         "over": 4.3,
-        "boost": 5.248,
-        "gold": 6.22,
-        "max": 6.8
+        "boost": 5.552,
+        "gold": 6.5,
+        "max": 7.6
       },
       "tags": [
         "🎯PT",
@@ -3174,15 +2953,6 @@
         "DROP_2_STRONG"
       ],
       "home_last_8": [
-        {
-          "date": "2026-03-24",
-          "league": "Championship",
-          "match": "Raith Rovers - Partick",
-          "ht": "0-1",
-          "ft": "0-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
         {
           "date": "2026-03-20",
           "league": "Championship",
@@ -3245,6 +3015,15 @@
           "ft": "2-3",
           "total_ht_goals": 3,
           "total_ft_goals": 5
+        },
+        {
+          "date": "2026-01-30",
+          "league": "Championship",
+          "match": "ST Johnstone - Partick",
+          "ht": "0-1",
+          "ft": "2-2",
+          "total_ht_goals": 1,
+          "total_ft_goals": 4
         }
       ],
       "away_last_8": [
@@ -3332,12 +3111,12 @@
       "home_team": "Inverness CT",
       "away_team": "Queen of the South",
       "markets": {
-        "q1": 1.5,
-        "qx": 3.8,
-        "q2": 6.0,
-        "o25": 1.73,
-        "o05ht": 1.3,
-        "o15ht": 2.4
+        "q1": 1.46,
+        "qx": 4.1,
+        "q2": 5.25,
+        "o25": 1.7,
+        "o05ht": 1.31,
+        "o15ht": 2.5
       },
       "averages": {
         "home_avg_ft": 2.25,
@@ -3347,39 +3126,39 @@
         "combined_ht_avg": 1.438
       },
       "flags": {
-        "fav_quote": 1.5,
+        "fav_quote": 1.46,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": false,
-        "drop_diff": 0.0,
+        "drop_diff": 0.5,
         "open_q1": 1.48,
         "open_qx": 3.8,
         "open_q2": 5.75,
         "open_o25": 1.75,
-        "curr_q1": 1.5,
-        "curr_qx": 3.8,
-        "curr_q2": 6.0,
-        "curr_o25": 1.73,
-        "drop_q1": -0.02,
-        "drop_qx": 0.0,
-        "drop_q2": -0.25,
-        "drop_o25": 0.02,
-        "drop_last_q1": -0.04,
-        "drop_last_qx": 0.3,
-        "drop_last_q2": -0.75,
-        "drop_last_o25": -0.03,
-        "drop_side": "",
-        "drop_strength": "none",
+        "curr_q1": 1.46,
+        "curr_qx": 4.1,
+        "curr_q2": 5.25,
+        "curr_o25": 1.7,
+        "drop_q1": 0.02,
+        "drop_qx": -0.3,
+        "drop_q2": 0.5,
+        "drop_o25": 0.05,
+        "drop_last_q1": 0.02,
+        "drop_last_qx": -0.3,
+        "drop_last_q2": 0.5,
+        "drop_last_o25": 0.05,
+        "drop_side": "2",
+        "drop_strength": "strong",
         "inversion": false,
         "inversion_from": "1",
         "inversion_to": "1",
         "open_fav_side": "1",
         "curr_fav_side": "1",
         "open_fav_quote": 1.48,
-        "curr_fav_quote": 1.5,
-        "history_points": 3,
+        "curr_fav_quote": 1.46,
+        "history_points": 2,
         "first_seen_at": "2026-03-23T07:04:57",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
         "pt": 6.4,
@@ -3393,7 +3172,9 @@
         "🎯PT",
         "⚽ OVER",
         "🚀 BOOST",
-        "🐟O"
+        "🐟O",
+        "DROP_2",
+        "DROP_2_STRONG"
       ],
       "home_last_8": [
         {
@@ -4222,12 +4003,12 @@
       "home_team": "Caernarfon Town",
       "away_team": "The New Saints",
       "markets": {
-        "q1": 5.8,
-        "qx": 4.4,
-        "q2": 1.44,
-        "o25": 1.53,
-        "o05ht": 1.22,
-        "o15ht": 2.15
+        "q1": 5.2,
+        "qx": 4.1,
+        "q2": 1.48,
+        "o25": 1.5,
+        "o05ht": 0.0,
+        "o15ht": 2.12
       },
       "averages": {
         "home_avg_ft": 3.375,
@@ -4237,27 +4018,27 @@
         "combined_ht_avg": 1.188
       },
       "flags": {
-        "fav_quote": 1.44,
+        "fav_quote": 1.48,
         "is_gold_zone": true,
         "home_last_2h_zero": false,
         "away_last_2h_zero": true,
-        "drop_diff": 0.04,
+        "drop_diff": 0.0,
         "open_q1": 5.2,
         "open_qx": 4.1,
         "open_q2": 1.48,
         "open_o25": 1.5,
-        "curr_q1": 5.8,
-        "curr_qx": 4.4,
-        "curr_q2": 1.44,
-        "curr_o25": 1.53,
-        "drop_q1": -0.6,
-        "drop_qx": -0.3,
-        "drop_q2": 0.04,
-        "drop_o25": -0.03,
-        "drop_last_q1": -0.6,
-        "drop_last_qx": -0.3,
-        "drop_last_q2": 0.04,
-        "drop_last_o25": -0.03,
+        "curr_q1": 5.2,
+        "curr_qx": 4.1,
+        "curr_q2": 1.48,
+        "curr_o25": 1.5,
+        "drop_q1": 0.0,
+        "drop_qx": 0.0,
+        "drop_q2": 0.0,
+        "drop_o25": 0.0,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -4266,17 +4047,17 @@
         "open_fav_side": "2",
         "curr_fav_side": "2",
         "open_fav_quote": 1.48,
-        "curr_fav_quote": 1.44,
-        "history_points": 2,
+        "curr_fav_quote": 1.48,
+        "history_points": 1,
         "first_seen_at": "2026-03-24T07:00:29",
-        "last_seen_at": "2026-03-25T07:11:56"
+        "last_seen_at": "2026-03-24T07:00:29"
       },
       "scores": {
-        "pt": 7.6,
-        "over": 5.1,
-        "boost": 6.236,
-        "gold": 6.972,
-        "max": 7.6
+        "pt": 6.0,
+        "over": 4.1,
+        "boost": 5.148,
+        "gold": 5.95,
+        "max": 6.0
       },
       "tags": [
         "🎯PT",
@@ -4427,225 +4208,6 @@
           "match": "The New Saints - Barry Town",
           "ht": "1-0",
           "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        }
-      ]
-    },
-    "1511927": {
-      "fixture_id": 1511927,
-      "date": "2026-03-27",
-      "time": "21:00",
-      "league": "Primera B",
-      "country": "Colombia",
-      "match": "Popayan - Real Cartagena",
-      "home_team": "Popayan",
-      "away_team": "Real Cartagena",
-      "markets": {
-        "q1": 3.7,
-        "qx": 3.2,
-        "q2": 1.95,
-        "o25": 2.15,
-        "o05ht": 1.44,
-        "o15ht": 3.02
-      },
-      "averages": {
-        "home_avg_ft": 2.875,
-        "away_avg_ft": 3.0,
-        "home_avg_ht": 1.75,
-        "away_avg_ht": 1.75,
-        "combined_ht_avg": 1.75
-      },
-      "flags": {
-        "fav_quote": 1.95,
-        "is_gold_zone": false,
-        "home_last_2h_zero": false,
-        "away_last_2h_zero": false,
-        "drop_diff": 0.0,
-        "open_q1": 3.7,
-        "open_qx": 3.2,
-        "open_q2": 1.95,
-        "open_o25": 2.15,
-        "curr_q1": 3.7,
-        "curr_qx": 3.2,
-        "curr_q2": 1.95,
-        "curr_o25": 2.15,
-        "drop_q1": 0.0,
-        "drop_qx": 0.0,
-        "drop_q2": 0.0,
-        "drop_o25": 0.0,
-        "drop_last_q1": 0.0,
-        "drop_last_qx": 0.0,
-        "drop_last_q2": 0.0,
-        "drop_last_o25": 0.0,
-        "drop_side": "",
-        "drop_strength": "none",
-        "inversion": false,
-        "inversion_from": "2",
-        "inversion_to": "2",
-        "open_fav_side": "2",
-        "curr_fav_side": "2",
-        "open_fav_quote": 1.95,
-        "curr_fav_quote": 1.95,
-        "history_points": 1,
-        "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-25T07:11:56"
-      },
-      "scores": {
-        "pt": 5.2,
-        "over": 6.2,
-        "boost": 6.402,
-        "gold": 5.631,
-        "max": 6.402
-      },
-      "tags": [
-        "🎯PT",
-        "⚽ OVER"
-      ],
-      "home_last_8": [
-        {
-          "date": "2026-03-21",
-          "league": "Primera B",
-          "match": "Patriotas - Popayan",
-          "ht": "2-2",
-          "ft": "3-3",
-          "total_ht_goals": 4,
-          "total_ft_goals": 6
-        },
-        {
-          "date": "2026-03-14",
-          "league": "Primera B",
-          "match": "Popayan - Leones FC",
-          "ht": "1-0",
-          "ft": "2-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-10",
-          "league": "Primera B",
-          "match": "Real Santander - Popayan",
-          "ht": "0-1",
-          "ft": "1-1",
-          "total_ht_goals": 1,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-05",
-          "league": "Primera B",
-          "match": "Envigado - Popayan",
-          "ht": "1-0",
-          "ft": "1-0",
-          "total_ht_goals": 1,
-          "total_ft_goals": 1
-        },
-        {
-          "date": "2026-02-26",
-          "league": "Primera B",
-          "match": "Popayan - Barranquilla",
-          "ht": "0-2",
-          "ft": "0-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-02-22",
-          "league": "Primera B",
-          "match": "Bogota FC - Popayan",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-02-18",
-          "league": "Primera B",
-          "match": "Popayan - Orsomarso",
-          "ht": "1-0",
-          "ft": "2-2",
-          "total_ht_goals": 1,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-02-09",
-          "league": "Primera B",
-          "match": "Union Magdalena - Popayan",
-          "ht": "0-2",
-          "ft": "0-2",
-          "total_ht_goals": 2,
-          "total_ft_goals": 2
-        }
-      ],
-      "away_last_8": [
-        {
-          "date": "2026-03-23",
-          "league": "Primera B",
-          "match": "Real Cartagena - Union Magdalena",
-          "ht": "1-1",
-          "ft": "2-1",
-          "total_ht_goals": 2,
-          "total_ft_goals": 3
-        },
-        {
-          "date": "2026-03-16",
-          "league": "Primera B",
-          "match": "Envigado - Real Cartagena",
-          "ht": "0-0",
-          "ft": "1-1",
-          "total_ht_goals": 0,
-          "total_ft_goals": 2
-        },
-        {
-          "date": "2026-03-11",
-          "league": "Primera B",
-          "match": "Real Cartagena - Internacional Palmira",
-          "ht": "2-2",
-          "ft": "2-2",
-          "total_ht_goals": 4,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-06",
-          "league": "Primera B",
-          "match": "Real Cartagena - Orsomarso",
-          "ht": "2-0",
-          "ft": "4-0",
-          "total_ht_goals": 2,
-          "total_ft_goals": 4
-        },
-        {
-          "date": "2026-03-03",
-          "league": "Primera B",
-          "match": "Tigres FC - Real Cartagena",
-          "ht": "0-0",
-          "ft": "0-0",
-          "total_ht_goals": 0,
-          "total_ft_goals": 0
-        },
-        {
-          "date": "2026-02-21",
-          "league": "Primera B",
-          "match": "Real Cartagena - Leones FC",
-          "ht": "0-2",
-          "ft": "2-3",
-          "total_ht_goals": 2,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-13",
-          "league": "Primera B",
-          "match": "Real Cartagena - Depor FC",
-          "ht": "3-0",
-          "ft": "4-1",
-          "total_ht_goals": 3,
-          "total_ft_goals": 5
-        },
-        {
-          "date": "2026-02-09",
-          "league": "Primera B",
-          "match": "Bogota FC - Real Cartagena",
-          "ht": "0-1",
-          "ft": "0-1",
           "total_ht_goals": 1,
           "total_ft_goals": 1
         }
