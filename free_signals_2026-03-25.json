@@ -1,42 +1,42 @@
 [
   {
     "data": "2026-03-25",
-    "time": "16:15",
-    "match": "Al-Rayyan SC - Al Shahaniya",
-    "league": "QSL Cup (Qatar)",
-    "fixture_id": "1514891",
-    "signal": "GOLD TARGET",
-    "quote": "1.5",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O"
-  },
-  {
-    "data": "2026-03-25",
-    "time": "20:30",
-    "match": "Ammanford AFC - Cambrian & Clydach",
-    "league": "FAW Championship (Wales)",
-    "fixture_id": "1395683",
-    "signal": "GOLD TARGET",
-    "quote": "4.4",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_X"
-  },
-  {
-    "data": "2026-03-25",
-    "time": "20:45",
-    "match": "Baglan Dragons - Cwmbran Celtic",
-    "league": "FAW Championship (Wales)",
-    "fixture_id": "1395708",
+    "time": "14:00",
+    "match": "Batman Petrolspor - Şanlıurfaspor",
+    "league": "2. Lig (Turkey)",
+    "fixture_id": "1441963",
     "signal": "GOLD TARGET",
     "quote": "1.4",
-    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_X"
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O DROP_1"
   },
   {
     "data": "2026-03-25",
-    "time": "12:00",
-    "match": "Kırklarelispor - Ankara Demirspor",
-    "league": "2. Lig (Turkey)",
-    "fixture_id": "1441975",
-    "signal": "BOOST TARGET",
-    "quote": "1.90",
-    "info": "🎯PT ⚽ OVER 🚀 BOOST 🐟G DROP_1"
+    "time": "14:00",
+    "match": "Çorluspor 1947 - Bursa Yıldırımspor",
+    "league": "3. Lig - Group 1 (Turkey)",
+    "fixture_id": "1448420",
+    "signal": "GOLD TARGET",
+    "quote": "1.7",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🐟O DROP_2 O25_DROP"
+  },
+  {
+    "data": "2026-03-25",
+    "time": "14:30",
+    "match": "Spartak Pleven - Belasitsa",
+    "league": "Second League (Bulgaria)",
+    "fixture_id": "1466600",
+    "signal": "GOLD TARGET",
+    "quote": "1.8",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER DROP_X"
+  },
+  {
+    "data": "2026-03-25",
+    "time": "16:00",
+    "match": "Os Limianos - Ribeira Brava",
+    "league": "Campeonato de Portugal Prio - Group A (Portugal)",
+    "fixture_id": "1413568",
+    "signal": "GOLD TARGET",
+    "quote": "1.4",
+    "info": "⚽⭐ GOLD 🎯PT ⚽ OVER 🚀 BOOST 🐟O"
   }
 ]
