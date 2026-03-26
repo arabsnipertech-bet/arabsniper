@@ -1,0 +1,42 @@
+[
+  {
+    "data": "2026-03-26",
+    "time": "22:00",
+    "match": "AD Carmelita - Futbol Consultants Moravia",
+    "league": "Liga de Ascenso (Costa-Rica)",
+    "fixture_id": "1476918",
+    "signal": "BOOST TARGET",
+    "quote": "1.80",
+    "info": "🎯PT ⚽ OVER 🚀 BOOST 🐟G DROP_X DROP_2 INV 1>2 O25_DROP"
+  },
+  {
+    "data": "2026-03-26",
+    "time": "22:00",
+    "match": "Nublense - U. Catolica",
+    "league": "Copa De La Liga (Chile)",
+    "fixture_id": "1535572",
+    "signal": "OVER 2.5",
+    "quote": "2.05",
+    "info": "🎯PT ⚽ OVER 🐟G DROP_1 DROP_X DROP_2"
+  },
+  {
+    "data": "2026-03-26",
+    "time": "22:30",
+    "match": "Sporting Canamy - Calor de San Pedro",
+    "league": "Liga Premier Serie A (Mexico)",
+    "fixture_id": "1457025",
+    "signal": "OVER 2.5",
+    "quote": "1.60",
+    "info": "🎯PT ⚽ OVER 🐟G"
+  },
+  {
+    "data": "2026-03-26",
+    "time": "23:00",
+    "match": "Barranquilla - Leones FC",
+    "league": "Primera B (Colombia)",
+    "fixture_id": "1511922",
+    "signal": "OVER 2.5",
+    "quote": "2.10",
+    "info": "🎯PT ⚽ OVER DROP_X"
+  }
+]
