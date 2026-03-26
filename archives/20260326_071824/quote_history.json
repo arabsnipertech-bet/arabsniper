@@ -72370,34 +72370,6 @@
           "o05ht": 1.36,
           "o15ht": 2.75
         }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 2.9,
-          "qx": 3.25,
-          "q2": 2.1,
-          "o25": 1.95,
-          "o05ht": 1.36,
-          "o15ht": 2.75
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 2.8,
-          "qx": 3.25,
-          "q2": 2.2,
-          "o25": 1.95,
-          "o05ht": 1.36,
-          "o15ht": 2.75
-        }
       }
     ]
   },
@@ -72421,34 +72393,6 @@
           "o05ht": 1.36,
           "o15ht": 2.62
         }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 5.5,
-          "qx": 3.75,
-          "q2": 1.5,
-          "o25": 1.85,
-          "o05ht": 1.3,
-          "o15ht": 2.45
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 4.5,
-          "qx": 3.5,
-          "q2": 1.65,
-          "o25": 1.85,
-          "o05ht": 1.36,
-          "o15ht": 2.62
-        }
       }
     ]
   },
@@ -72461,34 +72405,6 @@
     "history": [
       {
         "ts": "2026-03-25T07:11:56",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.5,
-          "qx": 4.0,
-          "q2": 5.0,
-          "o25": 1.57,
-          "o05ht": 1.25,
-          "o15ht": 2.25
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.55,
-          "qx": 3.9,
-          "q2": 4.6,
-          "o25": 1.57,
-          "o05ht": 1.25,
-          "o15ht": 2.25
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
         "label": "night",
         "day": 5,
         "date": "2026-03-29",
@@ -72535,34 +72451,6 @@
     "history": [
       {
         "ts": "2026-03-25T07:11:56",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.96,
-          "qx": 3.5,
-          "q2": 3.65,
-          "o25": 1.83,
-          "o05ht": 1.36,
-          "o15ht": 2.65
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 2.02,
-          "qx": 3.55,
-          "q2": 3.45,
-          "o25": 1.83,
-          "o05ht": 1.36,
-          "o15ht": 2.65
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
         "label": "night",
         "day": 5,
         "date": "2026-03-29",
@@ -72632,34 +72520,6 @@
     "history": [
       {
         "ts": "2026-03-25T07:11:56",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.62,
-          "qx": 3.4,
-          "q2": 5.0,
-          "o25": 2.05,
-          "o05ht": 1.36,
-          "o15ht": 2.8
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.73,
-          "qx": 3.3,
-          "q2": 4.4,
-          "o25": 2.08,
-          "o05ht": 1.4,
-          "o15ht": 2.9
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
         "label": "night",
         "day": 5,
         "date": "2026-03-29",
@@ -73016,34 +72876,6 @@
           "o05ht": 1.48,
           "o15ht": 3.08
         }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.6,
-          "qx": 3.2,
-          "q2": 5.75,
-          "o25": 2.2,
-          "o05ht": 1.49,
-          "o15ht": 3.08
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.6,
-          "qx": 3.2,
-          "q2": 5.75,
-          "o25": 2.2,
-          "o05ht": 1.48,
-          "o15ht": 3.08
-        }
       }
     ]
   },
@@ -73148,34 +72980,6 @@
     "history": [
       {
         "ts": "2026-03-25T07:11:56",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.63,
-          "qx": 3.48,
-          "q2": 5.6,
-          "o25": 2.45,
-          "o05ht": 1.5,
-          "o15ht": 3.5
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.65,
-          "qx": 3.44,
-          "q2": 5.5,
-          "o25": 2.47,
-          "o05ht": 1.51,
-          "o15ht": 3.58
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
         "label": "night",
         "day": 5,
         "date": "2026-03-29",
@@ -73302,34 +73106,6 @@
           "o05ht": 1.39,
           "o15ht": 2.88
         }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.5,
-          "qx": 3.7,
-          "q2": 5.5,
-          "o25": 2.0,
-          "o05ht": 1.4,
-          "o15ht": 2.88
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.5,
-          "qx": 3.7,
-          "q2": 5.5,
-          "o25": 2.0,
-          "o05ht": 1.39,
-          "o15ht": 2.88
-        }
       }
     ]
   },
@@ -73388,34 +73164,6 @@
     "history": [
       {
         "ts": "2026-03-25T07:11:56",
-        "label": "night",
-        "day": 5,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.76,
-          "qx": 3.4,
-          "q2": 4.4,
-          "o25": 1.85,
-          "o05ht": 1.36,
-          "o15ht": 2.55
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.76,
-          "qx": 3.45,
-          "q2": 4.3,
-          "o25": 1.85,
-          "o05ht": 1.36,
-          "o15ht": 2.6
-        }
-      },
-      {
-        "ts": "2026-03-26T07:25:50",
         "label": "night",
         "day": 5,
         "date": "2026-03-29",
@@ -74852,351 +74600,6 @@
           "o25": 1.36,
           "o05ht": 0.0,
           "o15ht": 1.95
-        }
-      }
-    ]
-  },
-  "1491571": {
-    "fixture_id": "1491571",
-    "match": "Pittsburgh Riverhounds - Sporting JAX",
-    "country": "USA",
-    "league": "USL Championship",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.65,
-          "qx": 3.3,
-          "q2": 4.75,
-          "o25": 2.15,
-          "o05ht": 1.44,
-          "o15ht": 3.25
-        }
-      }
-    ]
-  },
-  "1517490": {
-    "fixture_id": "1517490",
-    "match": "Wollongong Wolves - Sydney Olympic",
-    "country": "Australia",
-    "league": "New South Wales NPL",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.95,
-          "qx": 3.3,
-          "q2": 3.3,
-          "o25": 1.6,
-          "o05ht": 1.29,
-          "o15ht": 2.38
-        }
-      }
-    ]
-  },
-  "1517491": {
-    "fixture_id": "1517491",
-    "match": "Blacktown City - SD Raiders",
-    "country": "Australia",
-    "league": "New South Wales NPL",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.91,
-          "qx": 3.6,
-          "q2": 3.2,
-          "o25": 1.44,
-          "o05ht": 1.2,
-          "o15ht": 2.05
-        }
-      }
-    ]
-  },
-  "1524004": {
-    "fixture_id": "1524004",
-    "match": "Brisbane Roar II - Magic United",
-    "country": "Australia",
-    "league": "Queensland NPL",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.95,
-          "qx": 3.9,
-          "q2": 2.9,
-          "o25": 1.44,
-          "o05ht": 1.22,
-          "o15ht": 2.0
-        }
-      }
-    ]
-  },
-  "1489510": {
-    "fixture_id": "1489510",
-    "match": "Jablonec II - Slovan Liberec II",
-    "country": "Czech-Republic",
-    "league": "3. liga - CFL B",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.89,
-          "qx": 3.45,
-          "q2": 3.15,
-          "o25": 1.57,
-          "o05ht": 0.0,
-          "o15ht": 2.23
-        }
-      }
-    ]
-  },
-  "1489512": {
-    "fixture_id": "1489512",
-    "match": "Teplice II - Pardubice II",
-    "country": "Czech-Republic",
-    "league": "3. liga - CFL B",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.72,
-          "qx": 3.6,
-          "q2": 3.65,
-          "o25": 1.52,
-          "o05ht": 0.0,
-          "o15ht": 2.16
-        }
-      }
-    ]
-  },
-  "1432448": {
-    "fixture_id": "1432448",
-    "match": "Basconia - Alfaro",
-    "country": "Spain",
-    "league": "Segunda División RFEF - Group 2",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.42,
-          "qx": 4.0,
-          "q2": 6.25,
-          "o25": 1.85,
-          "o05ht": 1.35,
-          "o15ht": 2.66
-        }
-      }
-    ]
-  },
-  "1452761": {
-    "fixture_id": "1452761",
-    "match": "Castellón II - Porreres",
-    "country": "Spain",
-    "league": "Segunda División RFEF - Group 3",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.73,
-          "qx": 3.7,
-          "q2": 3.75,
-          "o25": 1.8,
-          "o05ht": 1.31,
-          "o15ht": 2.56
-        }
-      }
-    ]
-  },
-  "1432455": {
-    "fixture_id": "1432455",
-    "match": "Real Zaragoza II - Tudelano",
-    "country": "Spain",
-    "league": "Segunda División RFEF - Group 2",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 3.6,
-          "qx": 3.4,
-          "q2": 1.83,
-          "o25": 2.08,
-          "o05ht": 1.39,
-          "o15ht": 2.91
-        }
-      }
-    ]
-  },
-  "1433367": {
-    "fixture_id": "1433367",
-    "match": "Las Palmas II - Intercity",
-    "country": "Spain",
-    "league": "Segunda División RFEF - Group 5",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 2.4,
-          "qx": 3.2,
-          "q2": 2.62,
-          "o25": 1.9,
-          "o05ht": 1.37,
-          "o15ht": 2.66
-        }
-      }
-    ]
-  },
-  "1433370": {
-    "fixture_id": "1433370",
-    "match": "Rayo Vallecano II - Getafe II",
-    "country": "Spain",
-    "league": "Segunda División RFEF - Group 5",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 4.0,
-          "qx": 3.5,
-          "q2": 1.73,
-          "o25": 1.9,
-          "o05ht": 1.35,
-          "o15ht": 2.7
-        }
-      }
-    ]
-  },
-  "1433372": {
-    "fixture_id": "1433372",
-    "match": "Tenerife II - Orihuela",
-    "country": "Spain",
-    "league": "Segunda División RFEF - Group 5",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 2.15,
-          "qx": 3.3,
-          "q2": 2.9,
-          "o25": 1.8,
-          "o05ht": 1.33,
-          "o15ht": 2.56
-        }
-      }
-    ]
-  },
-  "1432453": {
-    "fixture_id": "1432453",
-    "match": "UD Logroñés - Deportivo Alavés II",
-    "country": "Spain",
-    "league": "Segunda División RFEF - Group 2",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.62,
-          "qx": 3.4,
-          "q2": 5.0,
-          "o25": 2.3,
-          "o05ht": 1.46,
-          "o15ht": 3.18
-        }
-      }
-    ]
-  },
-  "1433368": {
-    "fixture_id": "1433368",
-    "match": "Quintanar del Rey - Navalcarnero",
-    "country": "Spain",
-    "league": "Segunda División RFEF - Group 5",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 2.75,
-          "qx": 3.3,
-          "q2": 2.25,
-          "o25": 2.1,
-          "o05ht": 1.39,
-          "o15ht": 2.96
-        }
-      }
-    ]
-  },
-  "1451879": {
-    "fixture_id": "1451879",
-    "match": "Pirin Blagoevgrad - Belasitsa",
-    "country": "Bulgaria",
-    "league": "Second League",
-    "first_date": "2026-03-29",
-    "history": [
-      {
-        "ts": "2026-03-26T07:25:50",
-        "label": "night",
-        "day": 4,
-        "date": "2026-03-29",
-        "markets": {
-          "q1": 1.4,
-          "qx": 4.2,
-          "q2": 6.0,
-          "o25": 1.67,
-          "o05ht": 1.31,
-          "o15ht": 2.41
         }
       }
     ]

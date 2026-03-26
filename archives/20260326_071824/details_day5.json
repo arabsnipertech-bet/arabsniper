@@ -266,9 +266,9 @@
         "drop_qx": 0.0,
         "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.1,
+        "drop_last_q1": 0.0,
         "drop_last_qx": 0.0,
-        "drop_last_q2": -0.1,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
@@ -279,9 +279,9 @@
         "curr_fav_side": "2",
         "open_fav_quote": 2.2,
         "curr_fav_quote": 2.2,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 6.8,
@@ -487,9 +487,9 @@
         "drop_qx": 0.0,
         "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": 1.0,
-        "drop_last_qx": 0.25,
-        "drop_last_q2": -0.15,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
@@ -500,9 +500,9 @@
         "curr_fav_side": "2",
         "open_fav_quote": 1.65,
         "curr_fav_quote": 1.65,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 6.4,
@@ -673,9 +673,9 @@
         "drop_qx": 0.0,
         "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.05,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.4,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
@@ -686,9 +686,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.5,
         "curr_fav_quote": 1.5,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 5.2,
@@ -1113,9 +1113,9 @@
         "drop_qx": 0.0,
         "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.06,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": -0.2,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
@@ -1126,9 +1126,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.96,
         "curr_fav_quote": 1.96,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 6.4,
@@ -1773,10 +1773,10 @@
         "drop_qx": 0.0,
         "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.11,
-        "drop_last_qx": -0.1,
-        "drop_last_q2": -0.6,
-        "drop_last_o25": 0.03,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -1786,9 +1786,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.62,
         "curr_fav_quote": 1.62,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 4.4,
@@ -5081,9 +5081,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.6,
         "curr_fav_quote": 1.6,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 6.3,
@@ -6171,10 +6171,10 @@
         "drop_qx": 0.0,
         "drop_q2": 0.0,
         "drop_o25": 0.0,
-        "drop_last_q1": 0.02,
-        "drop_last_qx": -0.04,
-        "drop_last_q2": -0.1,
-        "drop_last_o25": 0.02,
+        "drop_last_q1": 0.0,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
+        "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
         "inversion": false,
@@ -6184,9 +6184,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.63,
         "curr_fav_quote": 1.63,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 4.4,
@@ -7287,9 +7287,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.5,
         "curr_fav_quote": 1.5,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 7.6,
@@ -7936,8 +7936,8 @@
         "drop_q2": 0.0,
         "drop_o25": 0.0,
         "drop_last_q1": 0.0,
-        "drop_last_qx": 0.05,
-        "drop_last_q2": -0.1,
+        "drop_last_qx": 0.0,
+        "drop_last_q2": 0.0,
         "drop_last_o25": 0.0,
         "drop_side": "",
         "drop_strength": "none",
@@ -7948,9 +7948,9 @@
         "curr_fav_side": "1",
         "open_fav_quote": 1.76,
         "curr_fav_quote": 1.76,
-        "history_points": 3,
+        "history_points": 1,
         "first_seen_at": "2026-03-25T07:11:56",
-        "last_seen_at": "2026-03-26T07:25:50"
+        "last_seen_at": "2026-03-25T07:11:56"
       },
       "scores": {
         "pt": 6.0,
